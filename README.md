@@ -73,4 +73,10 @@ This version is designed to impress judges with:
 
 ## License
 
-MIT License
+# MIT License
+
+# krishi-sahayak
+
+"AI Farming Assistant for Indian Farmers"
+
+43ea039c4f2bd027836be52ae14b1125e9cb0140
