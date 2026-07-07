@@ -11,3 +11,4 @@ ENV/
 .DS_Store
 *.log
 node_modules/
+krishi_pro.db
