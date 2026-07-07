@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:26.782522",
+  "query_original": "'कीटों का भौतिक नियंत्रण'?",
+  "query_normalized": "कीटों का भौतिक नियंत्रण",
+  "query_expanded": "बग कीटों का भौतिक नियंत्रण pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'जाल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 9.999282217136813,
+      "CrossScore": 0.9999282217136813
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 9.999263295976037,
+      "CrossScore": 0.9999263295976037
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General",
+      "FinalScore": 9.999156926038491,
+      "CrossScore": 0.999915692603849
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथों का उपयोग'?",
+      "Crop": "General",
+      "FinalScore": 9.999143039651392,
+      "CrossScore": 0.9999143039651391
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General",
+      "FinalScore": 9.999061969625592,
+      "CrossScore": 0.9999061969625591
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 9.998994021375811,
+      "CrossScore": 0.9998994021375811
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'जाल'?",
+      "Crop": "General",
+      "FinalScore": 9.998948726070326,
+      "CrossScore": 0.9998948726070326
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.998895842033516,
+      "CrossScore": 0.9998895842033516
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.99866332949507,
+      "CrossScore": 0.999866332949507
+    },
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea",
+      "FinalScore": 9.998285414639453,
+      "CrossScore": 0.9998285414639453
+    }
+  ],
+  "latency_ms": 201.15,
+  "final_returned": [
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "Score": 9.999282217136813
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "Score": 9.999263295976037
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General",
+      "Score": 9.999156926038491
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथों का उपयोग'?",
+      "Crop": "General",
+      "Score": 9.999143039651392
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General",
+      "Score": 9.999061969625592
+    }
+  ]
+}

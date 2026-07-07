@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:00.568848",
+  "query_original": "'पीएच' मीटर और सटीक जांच?",
+  "query_normalized": "पीएच मीटर और सटीक जांच",
+  "query_expanded": "पीएच मीटर और सटीक जांच",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पीएच' मीटर और सटीक जांच?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फर्टिगेशन' और सटीक खेती?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पीएच' मीटर और सटीक जांच?",
+      "Crop": "General",
+      "FinalScore": 0.9998963047133946,
+      "CrossScore": 0.9998963047133946
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General",
+      "FinalScore": 0.999887426230881,
+      "CrossScore": 0.999887426230881
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General",
+      "FinalScore": 0.9998778885367051,
+      "CrossScore": 0.9998778885367051
+    },
+    {
+      "Question": "'मल्चिंग' और केंचुए?",
+      "Crop": "General",
+      "FinalScore": 0.9998702191438426,
+      "CrossScore": 0.9998702191438426
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 0.9998685524767834,
+      "CrossScore": 0.9998685524767834
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998644581490352,
+      "CrossScore": 0.9998644581490352
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 0.999856768543621,
+      "CrossScore": 0.999856768543621
+    },
+    {
+      "Question": "भिंडी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998532655483925,
+      "CrossScore": 0.9998532655483925
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998489340082598,
+      "CrossScore": 0.9998489340082598
+    },
+    {
+      "Question": "धनिया की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998396062757214,
+      "CrossScore": 0.9998396062757214
+    }
+  ],
+  "latency_ms": 162.86,
+  "final_returned": [
+    {
+      "Question": "'पीएच' मीटर और सटीक जांच?",
+      "Crop": "General",
+      "Score": 0.9998963047133946
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General",
+      "Score": 0.999887426230881
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General",
+      "Score": 0.9998778885367051
+    },
+    {
+      "Question": "'मल्चिंग' और केंचुए?",
+      "Crop": "General",
+      "Score": 0.9998702191438426
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 0.9998685524767834
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:56:04.116505",
+  "query_original": "PM किसान",
+  "query_normalized": "pm किसान",
+  "query_expanded": "pm किसान",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्रेडिट स्कोर' (CIBIL Score) का किसान के लिए महत्व?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "फलों की 'प्रोसेसिंग' से किसान की आय?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998909981601718,
+      "CrossScore": 0.9998909981601719
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99858365578865,
+      "CrossScore": 0.9998583655788651
+    },
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9972077246658427,
+      "CrossScore": 0.9972077246658427
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.997188365951588,
+      "CrossScore": 0.997188365951588
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9971167127432274,
+      "CrossScore": 0.9971167127432274
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) बनाने के लिए कम से कम कितने किसान चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9968443306208276,
+      "CrossScore": 0.9968443306208276
+    },
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General",
+      "FinalScore": 0.996551070174954,
+      "CrossScore": 0.996551070174954
+    },
+    {
+      "Question": "क्या किसान अपनी फसल का खुद 'रिटेल' (Retail) आउटलेट खोल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9961275531502982,
+      "CrossScore": 0.9961275531502982
+    },
+    {
+      "Question": "क्या किसान अपना खुद का यूट्यूब चैनल (YouTube Channel) बना सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9960198193818977,
+      "CrossScore": 0.9960198193818977
+    },
+    {
+      "Question": "'किसान कॉल सेंटर' की उपयोगिता?",
+      "Crop": "General",
+      "FinalScore": 0.9957455382730197,
+      "CrossScore": 0.9957455382730197
+    }
+  ],
+  "latency_ms": 904.31,
+  "final_returned": [
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998909981601718
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 9.99858365578865
+    },
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "Score": 0.9972077246658427
+    }
+  ]
+}

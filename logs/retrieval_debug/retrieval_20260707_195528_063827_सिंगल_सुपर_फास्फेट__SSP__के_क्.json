@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:27.834843",
+  "query_original": "सिंगल सुपर फास्फेट (SSP) के क्या लाभ हैं?",
+  "query_normalized": "सिंगल सुपर फास्फेट ssp के क्या लाभ हैं",
+  "query_expanded": "सिंगल सुपर फास्फेट ssp के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सिंगल सुपर फास्फेट (SSP) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बेबी कॉर्न (Baby Corn) की खेती के क्या लाभ हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सिंगल सुपर फास्फेट (SSP) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999326328477344,
+      "CrossScore": 0.9999326328477344
+    },
+    {
+      "Question": "एफपीओ (FPO) से जुड़ने के व्यापारिक लाभ क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997809269344715,
+      "CrossScore": 0.9997809269344715
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997693728083822,
+      "CrossScore": 0.9997693728083822
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997688784007517,
+      "CrossScore": 0.9997688784007517
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997669532641121,
+      "CrossScore": 0.9997669532641121
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997517104939212,
+      "CrossScore": 0.9997517104939212
+    },
+    {
+      "Question": "टमाटर में 'फास्फोरस' के लिए 'सिंगल सुपर फास्फेट'?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997378896589509,
+      "CrossScore": 0.9997378896589509
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9997362569821424,
+      "CrossScore": 0.9997362569821424
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9997350474680903,
+      "CrossScore": 0.9997350474680903
+    },
+    {
+      "Question": "श्री (SRI) विधि से धान की खेती के क्या लाभ हैं?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997327002258253,
+      "CrossScore": 0.9997327002258253
+    }
+  ],
+  "latency_ms": 229.09,
+  "final_returned": [
+    {
+      "Question": "सिंगल सुपर फास्फेट (SSP) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9999326328477344
+    },
+    {
+      "Question": "एफपीओ (FPO) से जुड़ने के व्यापारिक लाभ क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997809269344715
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9997693728083822
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9997688784007517
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9997669532641121
+    }
+  ]
+}

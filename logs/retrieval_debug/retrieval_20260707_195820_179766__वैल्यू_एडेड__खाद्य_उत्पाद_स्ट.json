@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:19.907893",
+  "query_original": "'वैल्यू एडेड' खाद्य उत्पाद स्टार्टअप?",
+  "query_normalized": "वैल्यू एडेड खाद्य उत्पाद स्टार्टअप",
+  "query_expanded": "वैल्यू एडेड खाद्य उत्पाद स्टार्टअप खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'वैल्यू एडेड' खाद्य उत्पाद स्टार्टअप?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'वैल्यू एडेड' खाद्य उत्पाद स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998448730319017,
+      "CrossScore": 0.9998448730319017
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9995129527515718,
+      "CrossScore": 0.9995129527515718
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9993612065596982,
+      "CrossScore": 0.9993612065596982
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9993574461747378,
+      "CrossScore": 0.9993574461747378
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9993387964691922,
+      "CrossScore": 0.9993387964691922
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9992373649506096,
+      "CrossScore": 0.9992373649506096
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9992017528263948,
+      "CrossScore": 0.9992017528263948
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9991653417237614,
+      "CrossScore": 0.9991653417237614
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9990666083817841,
+      "CrossScore": 0.9990666083817841
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9990403449922088,
+      "CrossScore": 0.9990403449922088
+    }
+  ],
+  "latency_ms": 272.03,
+  "final_returned": [
+    {
+      "Question": "'वैल्यू एडेड' खाद्य उत्पाद स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998448730319017
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9995129527515718
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "Score": 0.9993612065596982
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9993574461747378
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "Score": 0.9993387964691922
+    }
+  ]
+}

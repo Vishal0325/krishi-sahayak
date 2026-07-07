@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:12.687473",
+  "query_original": "'नीम का अर्क' (Neem Kernel Extract) कैसे बनाएं?",
+  "query_normalized": "नीम का अर्क neem kernel extract कैसे बनाएं",
+  "query_expanded": "नीम का अर्क neem kernel extract कैसे बनाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम का अर्क' (Neem Kernel Extract) कैसे बनाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम की खली (Neem Cake) का मिट्टी में लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का काढ़ा' कैसे तैयार करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का अर्क' बनाने की विधि?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का अर्क' (Neem Kernel Extract) कैसे बनाएं?",
+      "Crop": "General",
+      "FinalScore": 999.8954229199087,
+      "CrossScore": 0.9998954229199087
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9994041728536298,
+      "CrossScore": 0.9994041728536298
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9992655513836654,
+      "CrossScore": 0.9992655513836654
+    },
+    {
+      "Question": "नीम (Neem) की व्यावसायिक खेती?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991759549777532,
+      "CrossScore": 0.9991759549777532
+    },
+    {
+      "Question": "नीम की खली (Neem Cake) का मिट्टी में लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9988989590984338,
+      "CrossScore": 0.9988989590984338
+    },
+    {
+      "Question": "IPM में 'दशपर्णी अर्क' का प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9976928209830154,
+      "CrossScore": 0.9976928209830154
+    },
+    {
+      "Question": "'नीम के फल' (Nimboli) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9973197460767226,
+      "CrossScore": 0.9973197460767226
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "FinalScore": 0.9970858577069942,
+      "CrossScore": 0.9970858577069942
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9970787079961857,
+      "CrossScore": 0.9970787079961857
+    },
+    {
+      "Question": "फसल सुरक्षा में 'नीम' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9970407440953535,
+      "CrossScore": 0.9970407440953535
+    }
+  ],
+  "latency_ms": 198.47,
+  "final_returned": [
+    {
+      "Question": "'नीम का अर्क' (Neem Kernel Extract) कैसे बनाएं?",
+      "Crop": "General",
+      "Score": 999.8954229199087
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "Score": 0.9994041728536298
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "Score": 0.9992655513836654
+    },
+    {
+      "Question": "नीम (Neem) की व्यावसायिक खेती?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9991759549777532
+    },
+    {
+      "Question": "नीम की खली (Neem Cake) का मिट्टी में लाभ?",
+      "Crop": "General",
+      "Score": 0.9988989590984338
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:18.309957",
+  "query_original": "'बॉर्डर क्रॉप' और 'सूरजमुखी'?",
+  "query_normalized": "बॉर्डर क्रॉप और सूरजमुखी",
+  "query_expanded": "बॉर्डर क्रॉप और सूरजमुखी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' और 'सूरजमुखी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी in 'YVMV' रोकने के लिए 'बॉर्डर क्रॉप'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' और 'सूरजमुखी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998393675136233,
+      "CrossScore": 0.9998393675136233
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General",
+      "FinalScore": 0.9997780465303308,
+      "CrossScore": 0.9997780465303308
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9997308936430963,
+      "CrossScore": 0.9997308936430963
+    },
+    {
+      "Question": "'सफेद मक्खी' से सुरक्षा के लिए बॉर्डर क्रॉप?",
+      "Crop": "General",
+      "FinalScore": 0.9997294375283535,
+      "CrossScore": 0.9997294375283535
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' और 'पैकेजिंग' क्यों जरूरी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997193200412672,
+      "CrossScore": 0.9997193200412672
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "FinalScore": 0.9997067465674825,
+      "CrossScore": 0.9997067465674825
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9997041359856895,
+      "CrossScore": 0.9997041359856895
+    },
+    {
+      "Question": "जैविक खेती में 'बॉर्डर क्रॉप'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9996555507878622,
+      "CrossScore": 0.9996555507878622
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9996398677333176,
+      "CrossScore": 0.9996398677333176
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996049324370556,
+      "CrossScore": 0.9996049324370556
+    }
+  ],
+  "latency_ms": 159.45,
+  "final_returned": [
+    {
+      "Question": "'बॉर्डर क्रॉप' और 'सूरजमुखी'?",
+      "Crop": "General",
+      "Score": 0.9998393675136233
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General",
+      "Score": 0.9997780465303308
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "Score": 0.9997308936430963
+    },
+    {
+      "Question": "'सफेद मक्खी' से सुरक्षा के लिए बॉर्डर क्रॉप?",
+      "Crop": "General",
+      "Score": 0.9997294375283535
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' और 'पैकेजिंग' क्यों जरूरी है?",
+      "Crop": "Fruits",
+      "Score": 0.9997193200412672
+    }
+  ]
+}

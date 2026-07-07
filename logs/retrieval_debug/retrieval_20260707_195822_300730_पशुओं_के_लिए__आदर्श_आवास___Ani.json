@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:22.115141",
+  "query_original": "पशुओं के लिए 'आदर्श आवास' (Animal Shed) कैसा हो?",
+  "query_normalized": "पशुओं के लिए आदर्श आवास animal shed कैसा हो",
+  "query_expanded": "पशुओं के लिए आदर्श आवास animal shed कैसा हो",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'आदर्श आवास' (Animal Shed) कैसा हो?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "मुर्गी फार्म के लिए 'आदर्श आवास' कैसा हो?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "बकरियों के लिए 'आवास' (Shed) कैसा होना चाहिए?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मधुमक्खी पालन के लिए 'आदर्श स्थान' कैसा हो?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'आदर्श आवास' (Animal Shed) कैसा हो?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998940744353114,
+      "CrossScore": 0.9998940744353114
+    },
+    {
+      "Question": "बकरियों के लिए 'आवास' (Shed) कैसा होना चाहिए?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998276611202848,
+      "CrossScore": 0.9998276611202848
+    },
+    {
+      "Question": "मधुमक्खी पालन के लिए 'आदर्श स्थान' कैसा हो?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9990492251682668,
+      "CrossScore": 0.9990492251682668
+    },
+    {
+      "Question": "मुर्गी फार्म के लिए 'आदर्श आवास' कैसा हो?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9989998706133413,
+      "CrossScore": 0.9989998706133413
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "FinalScore": 0.998918501643306,
+      "CrossScore": 0.998918501643306
+    },
+    {
+      "Question": "पशुओं के लिए 'बरसीम' (Berseem) चारा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9989011234288886,
+      "CrossScore": 0.9989011234288886
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9986690026445338,
+      "CrossScore": 0.9986690026445338
+    },
+    {
+      "Question": "आलू की बुआई के लिए बीज का वजन कितना हो?",
+      "Crop": "Potato",
+      "FinalScore": 0.9985839189709267,
+      "CrossScore": 0.9985839189709267
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9985081319170431,
+      "CrossScore": 0.9985081319170431
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर' घास के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9984597343120667,
+      "CrossScore": 0.9984597343120667
+    }
+  ],
+  "latency_ms": 185.68,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'आदर्श आवास' (Animal Shed) कैसा हो?",
+      "Crop": "Dairy",
+      "Score": 0.9998940744353114
+    },
+    {
+      "Question": "बकरियों के लिए 'आवास' (Shed) कैसा होना चाहिए?",
+      "Crop": "Livestock",
+      "Score": 0.9998276611202848
+    },
+    {
+      "Question": "मधुमक्खी पालन के लिए 'आदर्श स्थान' कैसा हो?",
+      "Crop": "Beekeeping",
+      "Score": 0.9990492251682668
+    },
+    {
+      "Question": "मुर्गी फार्म के लिए 'आदर्श आवास' कैसा हो?",
+      "Crop": "Poultry",
+      "Score": 0.9989998706133413
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "Score": 0.998918501643306
+    }
+  ]
+}

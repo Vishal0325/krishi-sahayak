@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:52.095129",
+  "query_original": "'बछड़ों' में होने वाली मुख्य बीमारी?",
+  "query_normalized": "बछड़ों में होने वाली मुख्य बीमारी",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease बछड़ों में होने वाली मुख्य बीमारी रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बछड़ों' में होने वाली मुख्य बीमारी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) में दाने कम होने का मुख्य कारण?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "पशुओं में होने वाली प्रमुख छूत की बीमारियां कौन सी हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान in 'लीफ फोल्डर' के बाद होने वाली बीमारी?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बछड़ों' में होने वाली मुख्य बीमारी?",
+      "Crop": "General",
+      "FinalScore": 999.8941018048863,
+      "CrossScore": 0.9998941018048862
+    },
+    {
+      "Question": "धान in 'लीफ फोल्डर' के बाद होने वाली बीमारी?",
+      "Crop": "Rice",
+      "FinalScore": 9.999022818927749,
+      "CrossScore": 0.999902281892775
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99889503733187,
+      "CrossScore": 0.999889503733187
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "FinalScore": 9.998836874765315,
+      "CrossScore": 0.9998836874765314
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998828021574244,
+      "CrossScore": 0.9998828021574244
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 9.998756773502471,
+      "CrossScore": 0.9998756773502471
+    },
+    {
+      "Question": "पशुओं में होने वाली प्रमुख छूत की बीमारियां कौन सी हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999204888065417,
+      "CrossScore": 0.9999204888065417
+    },
+    {
+      "Question": "लहसुन में 'कल्ले' नहीं बल्कि 'कलियां' (Cloves) ही मुख्य उत्पाद हैं?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998994811511658,
+      "CrossScore": 0.9998994811511658
+    },
+    {
+      "Question": "मशरूम में 'पिंक मोल्ड' (Pink Mold) बीमारी?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998985102988672,
+      "CrossScore": 0.9998985102988672
+    },
+    {
+      "Question": "'सब्जियों' में फसल सुरक्षा का मुख्य सूत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9998967313958615,
+      "CrossScore": 0.9998967313958615
+    }
+  ],
+  "latency_ms": 207.02,
+  "final_returned": [
+    {
+      "Question": "'बछड़ों' में होने वाली मुख्य बीमारी?",
+      "Crop": "General",
+      "Score": 999.8941018048863
+    },
+    {
+      "Question": "धान in 'लीफ फोल्डर' के बाद होने वाली बीमारी?",
+      "Crop": "Rice",
+      "Score": 9.999022818927749
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.99889503733187
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "Score": 9.998836874765315
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "Score": 9.998828021574244
+    }
+  ]
+}

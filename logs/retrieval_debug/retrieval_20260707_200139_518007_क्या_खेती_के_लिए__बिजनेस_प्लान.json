@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:39.133770",
+  "query_original": "क्या खेती के लिए 'बिजनेस प्लान' (Business Plan) जरूरी है?",
+  "query_normalized": "क्या खेती के लिए बिजनेस प्लान business plan जरूरी है",
+  "query_expanded": "क्या खेती के लिए बिजनेस प्लान business plan जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या खेती के लिए 'बिजनेस प्लान' (Business Plan) जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'नर्सरी' जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'छात्रों' के लिए पार्ट-टाइम बिजनेस है?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "क्या सब्जियों की खेती के लिए मृदा परीक्षण जरूरी है?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या खेती के लिए 'बिजनेस प्लान' (Business Plan) जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 9998.711875896113,
+      "CrossScore": 0.9998711875896114
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "FinalScore": 9.990913882423518,
+      "CrossScore": 0.9990913882423518
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 9.985334221936341,
+      "CrossScore": 0.9985334221936341
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "FinalScore": 9.984678374590514,
+      "CrossScore": 0.9984678374590514
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 9.9832830061843,
+      "CrossScore": 0.9983283006184299
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 9.97964915730379,
+      "CrossScore": 0.9979649157303789
+    },
+    {
+      "Question": "क्या फूलों की खेती के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Floriculture",
+      "FinalScore": 9.977433544228388,
+      "CrossScore": 0.9977433544228388
+    },
+    {
+      "Question": "क्या मशरूम की खेती के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.976024823243119,
+      "CrossScore": 0.9976024823243118
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'शाकाहारियों' के लिए मांस का विकल्प है?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.972611063147697,
+      "CrossScore": 0.9972611063147697
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'महिलाओं' के लिए स्वरोजगार है?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.972245719619794,
+      "CrossScore": 0.9972245719619793
+    }
+  ],
+  "latency_ms": 384.28,
+  "final_returned": [
+    {
+      "Question": "क्या खेती के लिए 'बिजनेस प्लान' (Business Plan) जरूरी है?",
+      "Crop": "General",
+      "Score": 9998.711875896113
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "Score": 9.990913882423518
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "Score": 9.985334221936341
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "Score": 9.984678374590514
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "Score": 9.9832830061843
+    }
+  ]
+}

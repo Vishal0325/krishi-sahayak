@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:10.862358",
+  "query_original": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+  "query_normalized": "खरपतवारनाशकों के साथ चिपकने वाला पदार्थ sticker",
+  "query_expanded": "खरपतवारनाशकों के साथ चिपकने वाला पदार्थ sticker",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशकों के साथ 'चिपकने वाला पदार्थ' (Sticker) क्यों मिलाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के साथ 'चिपकने वाला' (Spreader/Sticker) क्यों उपयोग करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "गन्ने के साथ 'अंतःफसल' (Intercropping)?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+      "Crop": "General",
+      "FinalScore": 999.8338486096914,
+      "CrossScore": 0.9998338486096914
+    },
+    {
+      "Question": "कीटनाशकों के साथ 'चिपकने वाला' (Spreader/Sticker) क्यों उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998020039135342,
+      "CrossScore": 0.9998020039135342
+    },
+    {
+      "Question": "खरपतवारनाशकों के खाली डिब्बों का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997798959986859,
+      "CrossScore": 0.9997798959986859
+    },
+    {
+      "Question": "फफूंदनाशकों के साथ 'चिपकने वाला पदार्थ' (Sticker) क्यों मिलाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9997732577670563,
+      "CrossScore": 0.9997732577670563
+    },
+    {
+      "Question": "खरपतवारनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9997724744610762,
+      "CrossScore": 0.9997724744610762
+    },
+    {
+      "Question": "जिंक का प्रयोग यूरिया के साथ करना चाहिए या डीएपी के साथ?",
+      "Crop": "General",
+      "FinalScore": 0.9997505706422506,
+      "CrossScore": 0.9997505706422506
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997221683028067,
+      "CrossScore": 0.9997221683028067
+    },
+    {
+      "Question": "खरपतवारनाशकों के भंडारण का सही तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9997184621387664,
+      "CrossScore": 0.9997184621387664
+    },
+    {
+      "Question": "खरपतवारनाशकों के लेबल पर 'नीला' निशान क्या बताता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997130468982741,
+      "CrossScore": 0.9997130468982741
+    },
+    {
+      "Question": "खरपतवारनाशकों के पैकेट पर 'Exp Date'?",
+      "Crop": "General",
+      "FinalScore": 0.9996882324383733,
+      "CrossScore": 0.9996882324383733
+    }
+  ],
+  "latency_ms": 233.03,
+  "final_returned": [
+    {
+      "Question": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+      "Crop": "General",
+      "Score": 999.8338486096914
+    },
+    {
+      "Question": "कीटनाशकों के साथ 'चिपकने वाला' (Spreader/Sticker) क्यों उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9998020039135342
+    },
+    {
+      "Question": "खरपतवारनाशकों के खाली डिब्बों का क्या करें?",
+      "Crop": "General",
+      "Score": 0.9997798959986859
+    },
+    {
+      "Question": "फफूंदनाशकों के साथ 'चिपकने वाला पदार्थ' (Sticker) क्यों मिलाएं?",
+      "Crop": "General",
+      "Score": 0.9997732577670563
+    },
+    {
+      "Question": "खरपतवारनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "Score": 0.9997724744610762
+    }
+  ]
+}

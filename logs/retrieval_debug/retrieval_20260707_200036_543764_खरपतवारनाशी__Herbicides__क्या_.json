@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:36.338727",
+  "query_original": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+  "query_normalized": "खरपतवारनाशी herbicides क्या होते हैं",
+  "query_expanded": "खरपतवारनाशी herbicides क्या होते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जमाव पूर्व खरपतवारनाशी (Pre-emergence) क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9091073350123,
+      "CrossScore": 0.9999091073350124
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999167625677505,
+      "CrossScore": 0.9999167625677505
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999054941348887,
+      "CrossScore": 0.9999054941348887
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998444586057953,
+      "CrossScore": 0.9998444586057953
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996142897296029,
+      "CrossScore": 0.9996142897296029
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995687006247855,
+      "CrossScore": 0.9995687006247855
+    },
+    {
+      "Question": "क्या खरपतवारनाशी को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999235693048733,
+      "CrossScore": 0.999235693048733
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9990831247368158,
+      "CrossScore": 0.9990831247368158
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9990473971861622,
+      "CrossScore": 0.9990473971861622
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989379096892589,
+      "CrossScore": 0.9989379096892589
+    }
+  ],
+  "latency_ms": 205.06,
+  "final_returned": [
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 999.9091073350123
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9999167625677505
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9999054941348887
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998444586057953
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9996142897296029
+    }
+  ]
+}

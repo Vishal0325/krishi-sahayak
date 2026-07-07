@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:11.895192",
+  "query_original": "'सब्जियों' में कीटनाशक और 'धोना'?",
+  "query_normalized": "सब्जियों में कीटनाशक और धोना",
+  "query_expanded": "सब्जियों में कीटनाशक और धोना pest कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'नमक'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' और 'पीला ट्रैप'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 9998.774475981021,
+      "CrossScore": 0.999877447598102
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General",
+      "FinalScore": 9.998894236261524,
+      "CrossScore": 0.9998894236261524
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'नमक'?",
+      "Crop": "General",
+      "FinalScore": 9.998684204257517,
+      "CrossScore": 0.9998684204257516
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 9.998654230044531,
+      "CrossScore": 0.9998654230044531
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "FinalScore": 9.998613100548505,
+      "CrossScore": 0.9998613100548505
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'सिरका'?",
+      "Crop": "General",
+      "FinalScore": 9.99858929519173,
+      "CrossScore": 0.999858929519173
+    },
+    {
+      "Question": "'कीटनाशक' और 'जल प्रदूषण'?",
+      "Crop": "General",
+      "FinalScore": 9.998426489793333,
+      "CrossScore": 0.9998426489793334
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "FinalScore": 9.99832000485441,
+      "CrossScore": 0.9998320004854411
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 9.998156427367768,
+      "CrossScore": 0.9998156427367768
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.998063718688762,
+      "CrossScore": 0.9998063718688761
+    }
+  ],
+  "latency_ms": 197.98,
+  "final_returned": [
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General",
+      "Score": 9998.774475981021
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General",
+      "Score": 9.998894236261524
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'नमक'?",
+      "Crop": "General",
+      "Score": 9.998684204257517
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General",
+      "Score": 9.998654230044531
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "Score": 9.998613100548505
+    }
+  ]
+}

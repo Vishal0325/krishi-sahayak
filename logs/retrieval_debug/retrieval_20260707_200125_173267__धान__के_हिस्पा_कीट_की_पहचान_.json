@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:01:24.764911",
+  "query_original": "'धान' के हिस्पा कीट की पहचान?",
+  "query_normalized": "धान के हिस्पा कीट की पहचान",
+  "query_expanded": "pest धान के हिस्पा कीट की पहचान कीड़ा कीट बग insect",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'धान' के हिस्पा कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'धान' के हिस्पा कीट की पहचान?",
+      "Crop": "General",
+      "FinalScore": 999.9054418512399,
+      "CrossScore": 0.9999054418512399
+    },
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "FinalScore": 499.94441610337077,
+      "CrossScore": 0.9998888322067415
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "FinalScore": 499.9365765320564,
+      "CrossScore": 0.9998731530641128
+    },
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice",
+      "FinalScore": 499.9268223254687,
+      "CrossScore": 0.9998536446509374
+    },
+    {
+      "Question": "धान की खेती के लिए औसत तापमान कितना होना चाहिए?",
+      "Crop": "Rice",
+      "FinalScore": 49.99590295169055,
+      "CrossScore": 0.999918059033811
+    },
+    {
+      "Question": "धान की कटाई के बाद अवशेष प्रबंधन?",
+      "Crop": "Rice",
+      "FinalScore": 49.99572888473324,
+      "CrossScore": 0.9999145776946647
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99564023475781,
+      "CrossScore": 0.9999128046951561
+    },
+    {
+      "Question": "धान की उन्नत किस्मों के नाम बताएं?",
+      "Crop": "Rice",
+      "FinalScore": 49.99552246370394,
+      "CrossScore": 0.9999104492740788
+    },
+    {
+      "Question": "धान की नर्सरी के लिए कितना क्षेत्र चाहिए?",
+      "Crop": "Rice",
+      "FinalScore": 49.995342588007894,
+      "CrossScore": 0.9999068517601578
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99526210029368,
+      "CrossScore": 0.9999052420058736
+    }
+  ],
+  "latency_ms": 408.41,
+  "final_returned": [
+    {
+      "Question": "'धान' के हिस्पा कीट की पहचान?",
+      "Crop": "General",
+      "Score": 999.9054418512399
+    },
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "Score": 499.94441610337077
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "Score": 499.9365765320564
+    },
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice",
+      "Score": 499.9268223254687
+    },
+    {
+      "Question": "धान की खेती के लिए औसत तापमान कितना होना चाहिए?",
+      "Crop": "Rice",
+      "Score": 49.99590295169055
+    }
+  ]
+}

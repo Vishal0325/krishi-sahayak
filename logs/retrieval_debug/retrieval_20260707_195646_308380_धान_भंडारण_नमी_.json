@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:46.126134",
+  "query_original": "धान भंडारण नमी?",
+  "query_normalized": "धान भंडारण नमी",
+  "query_expanded": "धान भंडारण नमी",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान भंडारण नमी?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के भंडारण के लिए धातु के ड्रम?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "भंडारण में नमी?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99239082823884,
+      "CrossScore": 0.9998478165647768
+    },
+    {
+      "Question": "धान भंडारण नमी?",
+      "Crop": "Rice",
+      "FinalScore": 49.99208120237036,
+      "CrossScore": 0.9998416240474072
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99167291303379,
+      "CrossScore": 0.9998334582606757
+    },
+    {
+      "Question": "धान के भंडारण के लिए धातु के ड्रम?",
+      "Crop": "Rice",
+      "FinalScore": 49.99160042473728,
+      "CrossScore": 0.9998320084947455
+    },
+    {
+      "Question": "भंडारण में नमी?",
+      "Crop": "Rice",
+      "FinalScore": 49.991336706687925,
+      "CrossScore": 0.9998267341337584
+    },
+    {
+      "Question": "धान की 'श्री' (SRI) विधि के लिए मार्कर?",
+      "Crop": "Rice",
+      "FinalScore": 49.990910073243995,
+      "CrossScore": 0.9998182014648799
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99070729332333,
+      "CrossScore": 0.9998141458664667
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99066931041062,
+      "CrossScore": 0.9998133862082124
+    },
+    {
+      "Question": "'धान' के 'जीवाणु झुलसा' (BLB) का घरेलू उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 49.98960970989225,
+      "CrossScore": 0.999792194197845
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 49.989555885531914,
+      "CrossScore": 0.9997911177106382
+    }
+  ],
+  "latency_ms": 182.32,
+  "final_returned": [
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 49.99239082823884
+    },
+    {
+      "Question": "धान भंडारण नमी?",
+      "Crop": "Rice",
+      "Score": 49.99208120237036
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice",
+      "Score": 49.99167291303379
+    },
+    {
+      "Question": "धान के भंडारण के लिए धातु के ड्रम?",
+      "Crop": "Rice",
+      "Score": 49.99160042473728
+    },
+    {
+      "Question": "भंडारण में नमी?",
+      "Crop": "Rice",
+      "Score": 49.991336706687925
+    }
+  ]
+}

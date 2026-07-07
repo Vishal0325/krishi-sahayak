@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:05.233631",
+  "query_original": "खरपतवारनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+  "query_normalized": "खरपतवारनाशकों का प्रतीक्षा काल waiting period",
+  "query_expanded": "खरपतवारनाशकों का प्रतीक्षा काल waiting period",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खरपतवारनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कवकनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' का 'प्रतीक्षा काल' (Waiting Period) क्यों बदलता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खरपतवारनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General",
+      "FinalScore": 0.9998702628211622,
+      "CrossScore": 0.9998702628211622
+    },
+    {
+      "Question": "'कीटनाशकों' का 'प्रतीक्षा काल' (Waiting Period) क्यों बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998578503586104,
+      "CrossScore": 0.9998578503586104
+    },
+    {
+      "Question": "कवकनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General",
+      "FinalScore": 0.9998553685287795,
+      "CrossScore": 0.9998553685287795
+    },
+    {
+      "Question": "'वेटिंग पीरियड' (Waiting Period) का पालन क्यों करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998173183877712,
+      "CrossScore": 0.9998173183877712
+    },
+    {
+      "Question": "कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998163884840304,
+      "CrossScore": 0.9998163884840304
+    },
+    {
+      "Question": "'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997913704959501,
+      "CrossScore": 0.9997913704959501
+    },
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999219243854163,
+      "CrossScore": 0.999219243854163
+    },
+    {
+      "Question": "'दुग्ध काल' (Lactation Period) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9990071887313283,
+      "CrossScore": 0.9990071887313283
+    },
+    {
+      "Question": "खरपतवारनाशकों के खाली डिब्बों का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 0.9966139937914338,
+      "CrossScore": 0.9966139937914338
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9954193419476337,
+      "CrossScore": 0.9954193419476337
+    }
+  ],
+  "latency_ms": 324.25,
+  "final_returned": [
+    {
+      "Question": "खरपतवारनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General",
+      "Score": 0.9998702628211622
+    },
+    {
+      "Question": "'कीटनाशकों' का 'प्रतीक्षा काल' (Waiting Period) क्यों बदलता है?",
+      "Crop": "General",
+      "Score": 0.9998578503586104
+    },
+    {
+      "Question": "कवकनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General",
+      "Score": 0.9998553685287795
+    },
+    {
+      "Question": "'वेटिंग पीरियड' (Waiting Period) का पालन क्यों करें?",
+      "Crop": "General",
+      "Score": 0.9998173183877712
+    },
+    {
+      "Question": "कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998163884840304
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:59.003376",
+  "query_original": "'उर्वरक' की बर्बादी और मुनाफे पर असर?",
+  "query_normalized": "उर्वरक की बर्बादी और मुनाफे पर असर",
+  "query_expanded": "poshak खाद उर्वरक की बर्बादी और मुनाफे पर असर पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'उर्वरक' की बर्बादी और मुनाफे पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'उर्वरक' की बर्बादी और मुनाफे पर असर?",
+      "Crop": "General",
+      "FinalScore": 999.8663361359139,
+      "CrossScore": 0.9998663361359139
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998953011882254,
+      "CrossScore": 0.9998953011882254
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998787009051989,
+      "CrossScore": 0.9998787009051989
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998728515275765,
+      "CrossScore": 0.9998728515275765
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998669541331392,
+      "CrossScore": 0.9998669541331392
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998665273086776,
+      "CrossScore": 0.9998665273086776
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998663665941301,
+      "CrossScore": 0.9998663665941301
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998623570479213,
+      "CrossScore": 0.9998623570479213
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998603058588312,
+      "CrossScore": 0.9998603058588312
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998590733782394,
+      "CrossScore": 0.9998590733782394
+    }
+  ],
+  "latency_ms": 218.8,
+  "final_returned": [
+    {
+      "Question": "'उर्वरक' की बर्बादी और मुनाफे पर असर?",
+      "Crop": "General",
+      "Score": 999.8663361359139
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9998953011882254
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "Score": 0.9998787009051989
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "Score": 0.9998728515275765
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "Score": 0.9998669541331392
+    }
+  ]
+}

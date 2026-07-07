@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:55.526011",
+  "query_original": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+  "query_normalized": "बादल छाए रहने cloudy weather से कीटों पर क्या प्रभाव पड़ता है",
+  "query_expanded": "pest कीड़ा बग कीट insect बादल छाए रहने cloudy weather से कीटों पर क्या प्रभाव पड़ता है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 999.85827884767,
+      "CrossScore": 0.99985827884767
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9991778906329848,
+      "CrossScore": 0.9991778906329848
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.999000974826311,
+      "CrossScore": 0.999000974826311
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9946172860381537,
+      "CrossScore": 0.9946172860381537
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.993308835326207,
+      "CrossScore": 0.993308835326207
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9925874667552181,
+      "CrossScore": 0.9925874667552181
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9921344197309285,
+      "CrossScore": 0.9921344197309285
+    },
+    {
+      "Question": "आसमान साफ रहने और तेज धूप का धान पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9919151578356279,
+      "CrossScore": 0.9919151578356279
+    },
+    {
+      "Question": "क्या कीटनाशकों का मधुमक्खियों पर असर पड़ता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9916995670204837,
+      "CrossScore": 0.9916995670204837
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9913973859430355,
+      "CrossScore": 0.9913973859430355
+    }
+  ],
+  "latency_ms": 246.41,
+  "final_returned": [
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 999.85827884767
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9991778906329848
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.999000974826311
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9946172860381537
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.993308835326207
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:33.117268",
+  "query_original": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+  "query_normalized": "खेती में प्रसंस्करण processing इकाई लगाने का जोखिम",
+  "query_expanded": "खेती में प्रसंस्करण processing इकाई लगाने का जोखिम",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "बिहार में फलों के प्रसंस्करण (Processing) की क्या स्थिति है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "मसूर की खेती में 'बीज का अंकुरण'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "खेती में जोखिम (Risk) को कैसे कम करें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+      "Crop": "Economics",
+      "FinalScore": 999.8782945863098,
+      "CrossScore": 0.9998782945863098
+    },
+    {
+      "Question": "मखाना की 'प्रसंस्करण' (Processing) इकाई?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998327995290283,
+      "CrossScore": 0.9998327995290283
+    },
+    {
+      "Question": "बिहार में फलों के प्रसंस्करण (Processing) की क्या स्थिति है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998116725207592,
+      "CrossScore": 0.9998116725207592
+    },
+    {
+      "Question": "हल्दी का 'प्रसंस्करण' (Processing) क्या है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9998102968696354,
+      "CrossScore": 0.9998102968696354
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995688253882611,
+      "CrossScore": 0.9995688253882611
+    },
+    {
+      "Question": "क्या फूलों की खेती (Floriculture) में जोखिम अधिक है?",
+      "Crop": "General",
+      "FinalScore": 0.9994868707664534,
+      "CrossScore": 0.9994868707664534
+    },
+    {
+      "Question": "खेती में जोखिम (Risk) को कैसे कम करें?",
+      "Crop": "General",
+      "FinalScore": 0.9994847814632175,
+      "CrossScore": 0.9994847814632175
+    },
+    {
+      "Question": "'नीम की खली' का जैविक खेती में उपयोग?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9994534709303693,
+      "CrossScore": 0.9994534709303693
+    },
+    {
+      "Question": "क्या खेती में 'डेटा' (Data) का कोई उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9994385940318855,
+      "CrossScore": 0.9994385940318855
+    },
+    {
+      "Question": "सरसों की खेती में 'जिप्सम' का क्या लाभ है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9994297527805528,
+      "CrossScore": 0.9994297527805528
+    }
+  ],
+  "latency_ms": 219.66,
+  "final_returned": [
+    {
+      "Question": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+      "Crop": "Economics",
+      "Score": 999.8782945863098
+    },
+    {
+      "Question": "मखाना की 'प्रसंस्करण' (Processing) इकाई?",
+      "Crop": "Makhana",
+      "Score": 0.9998327995290283
+    },
+    {
+      "Question": "बिहार में फलों के प्रसंस्करण (Processing) की क्या स्थिति है?",
+      "Crop": "Fruits",
+      "Score": 0.9998116725207592
+    },
+    {
+      "Question": "हल्दी का 'प्रसंस्करण' (Processing) क्या है?",
+      "Crop": "Turmeric",
+      "Score": 0.9998102968696354
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9995688253882611
+    }
+  ]
+}

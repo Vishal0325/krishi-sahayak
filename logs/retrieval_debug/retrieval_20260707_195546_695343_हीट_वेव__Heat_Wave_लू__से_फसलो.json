@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:46.497085",
+  "query_original": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+  "query_normalized": "हीट वेव heat wave लू से फसलों को कैसे बचाएं",
+  "query_expanded": "हीट वेव heat wave लू से फसलों को कैसे बचाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की फसल को पाले (Frost) से कैसे बचाएं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "फलों के पेड़ों को 'सर्दियों' में पाले से कैसे बचाएं?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "दालों के दानों को 'चूहे' से कैसे बचाएं?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998995494708498,
+      "CrossScore": 0.9998995494708498
+    },
+    {
+      "Question": "'हीट वेव' (Heat Wave) के समय सिंचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998578644546114,
+      "CrossScore": 0.9998578644546114
+    },
+    {
+      "Question": "लू (Heat Wave) की पहचान कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997996185041833,
+      "CrossScore": 0.9997996185041833
+    },
+    {
+      "Question": "आम की फसल में 'लू' (Heat wave) से बचाव?",
+      "Crop": "Mango",
+      "FinalScore": 0.999654171303947,
+      "CrossScore": 0.999654171303947
+    },
+    {
+      "Question": "फलों को 'धूप' (Sunburn) से कैसे बचाएं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9996203786421707,
+      "CrossScore": 0.9996203786421707
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9994465742403578,
+      "CrossScore": 0.9994465742403578
+    },
+    {
+      "Question": "पपीते के पौधों को 'ट्रांसप्लांट शॉक' से कैसे बचाएं?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9992611279910356,
+      "CrossScore": 0.9992611279910356
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9991715799300644,
+      "CrossScore": 0.9991715799300644
+    },
+    {
+      "Question": "गेहूं के भंडारण में 'घुन' से कैसे बचाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9990316301715357,
+      "CrossScore": 0.9990316301715357
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के बाद भूसे को गीला होने से कैसे बचाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9989674857063546,
+      "CrossScore": 0.9989674857063546
+    }
+  ],
+  "latency_ms": 198.45,
+  "final_returned": [
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9998995494708498
+    },
+    {
+      "Question": "'हीट वेव' (Heat Wave) के समय सिंचाई?",
+      "Crop": "General",
+      "Score": 0.9998578644546114
+    },
+    {
+      "Question": "लू (Heat Wave) की पहचान कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9997996185041833
+    },
+    {
+      "Question": "आम की फसल में 'लू' (Heat wave) से बचाव?",
+      "Crop": "Mango",
+      "Score": 0.999654171303947
+    },
+    {
+      "Question": "फलों को 'धूप' (Sunburn) से कैसे बचाएं?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9996203786421707
+    }
+  ]
+}

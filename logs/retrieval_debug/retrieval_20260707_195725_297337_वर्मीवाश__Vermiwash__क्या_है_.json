@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:25.124184",
+  "query_original": "वर्मीवाश (Vermiwash) क्या है?",
+  "query_normalized": "वर्मीवाश vermiwash क्या है",
+  "query_expanded": "वर्मीवाश vermiwash क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वर्मीवाश (Vermiwash) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वर्मीवाश (Vermiwash) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999277566826881,
+      "CrossScore": 0.9999277566826881
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997950513404082,
+      "CrossScore": 0.9997950513404082
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997433219469294,
+      "CrossScore": 0.9997433219469294
+    },
+    {
+      "Question": "'पंत हरितमा' किस्म की क्या विशेषता है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997423834306085,
+      "CrossScore": 0.9997423834306085
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999740669475414,
+      "CrossScore": 0.999740669475414
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.999723020460642,
+      "CrossScore": 0.999723020460642
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997020060296378,
+      "CrossScore": 0.9997020060296378
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997000083610922,
+      "CrossScore": 0.9997000083610922
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996934785427485,
+      "CrossScore": 0.9996934785427485
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996692657271922,
+      "CrossScore": 0.9996692657271922
+    }
+  ],
+  "latency_ms": 173.23,
+  "final_returned": [
+    {
+      "Question": "वर्मीवाश (Vermiwash) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999277566826881
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "Score": 0.9997950513404082
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997433219469294
+    },
+    {
+      "Question": "'पंत हरितमा' किस्म की क्या विशेषता है?",
+      "Crop": "Coriander",
+      "Score": 0.9997423834306085
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "Score": 0.999740669475414
+    }
+  ]
+}

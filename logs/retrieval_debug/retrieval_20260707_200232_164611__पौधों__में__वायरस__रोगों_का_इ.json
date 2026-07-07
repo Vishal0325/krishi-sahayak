@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:31.966068",
+  "query_original": "'पौधों' में 'वायरस' रोगों का इलाज?",
+  "query_normalized": "पौधों में वायरस रोगों का इलाज",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease रोग पौधों में वायरस रोगों का इलाज",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का इलाज?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का 'प्रसार' रोकने के लिए 'धोना'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'वायरस' रोगों का 'प्रसार'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'विषाणु' (Virus) रोगों का क्या कोई रासायनिक इलाज है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का इलाज?",
+      "Crop": "General",
+      "FinalScore": 9999.052201363027,
+      "CrossScore": 0.9999052201363027
+    },
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का 'प्रसार' रोकने के लिए 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 9.998959911822805,
+      "CrossScore": 0.9998959911822806
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.998766262487344,
+      "CrossScore": 0.9998766262487344
+    },
+    {
+      "Question": "पौधों in 'वायरस' रोगों का 'प्रसार'?",
+      "Crop": "General",
+      "FinalScore": 9.99874637145751,
+      "CrossScore": 0.9998746371457511
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General",
+      "FinalScore": 9.99869746043784,
+      "CrossScore": 0.9998697460437841
+    },
+    {
+      "Question": "पौधों in 'विषाणु' (Virus) रोगों का क्या कोई रासायनिक इलाज है?",
+      "Crop": "General",
+      "FinalScore": 9.998644204041652,
+      "CrossScore": 0.9998644204041651
+    },
+    {
+      "Question": "'पौधों' में 'कैल्शियम' की कमी दूर करने का तरीका?",
+      "Crop": "General",
+      "FinalScore": 9.998622971856024,
+      "CrossScore": 0.9998622971856025
+    },
+    {
+      "Question": "'पौधों' में 'सल्फर' की कमी का पहचान?",
+      "Crop": "General",
+      "FinalScore": 9.99819379671181,
+      "CrossScore": 0.999819379671181
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998831778347679,
+      "CrossScore": 0.9998831778347679
+    },
+    {
+      "Question": "आम के बाग में 'गुच्छा रोग' (Bunchy Top/Malformation) का इलाज?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998671783691367,
+      "CrossScore": 0.9998671783691367
+    }
+  ],
+  "latency_ms": 198.59,
+  "final_returned": [
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का इलाज?",
+      "Crop": "General",
+      "Score": 9999.052201363027
+    },
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का 'प्रसार' रोकने के लिए 'धोना'?",
+      "Crop": "General",
+      "Score": 9.998959911822805
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 9.998766262487344
+    },
+    {
+      "Question": "पौधों in 'वायरस' रोगों का 'प्रसार'?",
+      "Crop": "General",
+      "Score": 9.99874637145751
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General",
+      "Score": 9.99869746043784
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:40.666358",
+  "query_original": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+  "query_normalized": "रिटर्न ऑन इन्वेस्टमेंट roi क्या है",
+  "query_expanded": "रिटर्न ऑन इन्वेस्टमेंट roi क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999253967611472,
+      "CrossScore": 0.9999253967611472
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996431469234732,
+      "CrossScore": 0.9996431469234732
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999559068115802,
+      "CrossScore": 0.999559068115802
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9995057292665331,
+      "CrossScore": 0.9995057292665331
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994378813649061,
+      "CrossScore": 0.9994378813649061
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993959228266687,
+      "CrossScore": 0.9993959228266687
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9993782955727296,
+      "CrossScore": 0.9993782955727296
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9993751201001146,
+      "CrossScore": 0.9993751201001146
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999374919066464,
+      "CrossScore": 0.999374919066464
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9993657941565162,
+      "CrossScore": 0.9993657941565162
+    }
+  ],
+  "latency_ms": 305.26,
+  "final_returned": [
+    {
+      "Question": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9999253967611472
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9996431469234732
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "Score": 0.999559068115802
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9995057292665331
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9994378813649061
+    }
+  ]
+}

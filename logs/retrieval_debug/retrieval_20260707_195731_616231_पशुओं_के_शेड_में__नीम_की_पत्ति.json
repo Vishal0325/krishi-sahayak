@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:31.445821",
+  "query_original": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+  "query_normalized": "पशुओं के शेड में नीम की पत्तियों का धुआं",
+  "query_expanded": "पशुओं के शेड में नीम की पत्तियों का धुआं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के शेड में 'नमक' की ईंट?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के शेड में 'लाइट' का प्रबंध?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के शेड में 'हवा का संचार'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "ठंड की लहर (Cold Wave) से बचाव के लिए पशुओं का शेड?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+      "Crop": "General",
+      "FinalScore": 0.9998799237649488,
+      "CrossScore": 0.9998799237649488
+    },
+    {
+      "Question": "बैंगन में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998766910534784,
+      "CrossScore": 0.9998766910534784
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998715933911766,
+      "CrossScore": 0.9998715933911766
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998700046272575,
+      "CrossScore": 0.9998700046272575
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998690837264742,
+      "CrossScore": 0.9998690837264742
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.999868095692132,
+      "CrossScore": 0.999868095692132
+    },
+    {
+      "Question": "पशुओं के शेड में 'लाइट' का प्रबंध?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998679814370239,
+      "CrossScore": 0.9998679814370239
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम की खली'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998592133317937,
+      "CrossScore": 0.9998592133317937
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998581774589238,
+      "CrossScore": 0.9998581774589238
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999855213157194,
+      "CrossScore": 0.999855213157194
+    }
+  ],
+  "latency_ms": 170.52,
+  "final_returned": [
+    {
+      "Question": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+      "Crop": "General",
+      "Score": 0.9998799237649488
+    },
+    {
+      "Question": "बैंगन में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Brinjal",
+      "Score": 0.9998766910534784
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "Score": 0.9998715933911766
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.999868095692132
+    },
+    {
+      "Question": "पशुओं के शेड में 'लाइट' का प्रबंध?",
+      "Crop": "Livestock",
+      "Score": 0.9998679814370239
+    }
+  ]
+}

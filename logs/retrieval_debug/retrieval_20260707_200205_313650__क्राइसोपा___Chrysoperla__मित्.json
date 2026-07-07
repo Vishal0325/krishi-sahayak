@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:05.140072",
+  "query_original": "'क्राइसोपा' (Chrysoperla) मित्र कीट की विशेषता?",
+  "query_normalized": "क्राइसोपा chrysoperla मित्र कीट की विशेषता",
+  "query_expanded": "pest कीड़ा क्राइसोपा chrysoperla मित्र कीट की विशेषता बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की विशेषता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की विशेषता?",
+      "Crop": "General",
+      "FinalScore": 999.8861885333772,
+      "CrossScore": 0.9998861885333772
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "FinalScore": 9.998801350601092,
+      "CrossScore": 0.9998801350601092
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "FinalScore": 9.995070506954214,
+      "CrossScore": 0.9995070506954213
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.994940847980812,
+      "CrossScore": 0.9994940847980812
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.994319202872981,
+      "CrossScore": 0.9994319202872982
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General",
+      "FinalScore": 9.98609277885899,
+      "CrossScore": 0.998609277885899
+    },
+    {
+      "Question": "बरौटी (Encarsia formosa) मित्र कीट क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994580428905595,
+      "CrossScore": 0.9994580428905595
+    },
+    {
+      "Question": "धनिया की 'स्वाति' किस्म की विशेषता?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9993609477623309,
+      "CrossScore": 0.9993609477623309
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9993507929342924,
+      "CrossScore": 0.9993507929342924
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9993030314662579,
+      "CrossScore": 0.9993030314662579
+    }
+  ],
+  "latency_ms": 173.63,
+  "final_returned": [
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की विशेषता?",
+      "Crop": "General",
+      "Score": 999.8861885333772
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "Score": 9.998801350601092
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "Score": 9.995070506954214
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "Score": 9.994940847980812
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9.994319202872981
+    }
+  ]
+}

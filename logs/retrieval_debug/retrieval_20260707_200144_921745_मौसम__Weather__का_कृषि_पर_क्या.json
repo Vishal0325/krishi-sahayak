@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:44.698815",
+  "query_original": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+  "query_normalized": "मौसम weather का कृषि पर क्या प्रभाव पड़ता है",
+  "query_expanded": "मौसम weather का कृषि पर क्या प्रभाव पड़ता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 999.8878892283733,
+      "CrossScore": 0.9998878892283733
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998551106808012,
+      "CrossScore": 0.9998551106808012
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.999802810649207,
+      "CrossScore": 0.999802810649207
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9992306054812216,
+      "CrossScore": 0.9992306054812216
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9992125708055278,
+      "CrossScore": 0.9992125708055278
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9991897188241459,
+      "CrossScore": 0.9991897188241459
+    },
+    {
+      "Question": "सरसों में 'पाले' (Frost) का क्या प्रभाव पड़ता है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9990794180175088,
+      "CrossScore": 0.9990794180175088
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9990602513306766,
+      "CrossScore": 0.9990602513306766
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9990512042397092,
+      "CrossScore": 0.9990512042397092
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9989506433792805,
+      "CrossScore": 0.9989506433792805
+    }
+  ],
+  "latency_ms": 222.97,
+  "final_returned": [
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 999.8878892283733
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9998551106808012
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.999802810649207
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9992306054812216
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9992125708055278
+    }
+  ]
+}

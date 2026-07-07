@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:01.943381",
+  "query_original": "पौधों in 'जिंक' की कमी से होने वाले रोग?",
+  "query_normalized": "पौधों in जिंक की कमी से होने वाले रोग",
+  "query_expanded": "fungus फंगस झुलसा बीमारी disease रोग पौधों in जिंक की कमी से होने वाले रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों in 'जिंक' की कमी से होने वाले रोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का in 'जिंक' की कमी से 'पौधों' का बौनापन?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "सरसों in 'जिंक' की कमी से 'पौधों' का बौनापन?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों in 'जिंक' की कमी से होने वाले रोग?",
+      "Crop": "General",
+      "FinalScore": 9998.775522606265,
+      "CrossScore": 0.9998775522606265
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से रोगों का खतरा क्यों बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 9.998984253888034,
+      "CrossScore": 0.9998984253888034
+    },
+    {
+      "Question": "पौधों in 'फास्फोरस' की कमी से बैंगनी रंग क्यों आता है?",
+      "Crop": "General",
+      "FinalScore": 9.998905830633571,
+      "CrossScore": 0.9998905830633571
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "FinalScore": 9.998687738941499,
+      "CrossScore": 0.9998687738941499
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General",
+      "FinalScore": 9.998662582383709,
+      "CrossScore": 0.9998662582383709
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 9.998639496515638,
+      "CrossScore": 0.9998639496515639
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.99853753463303,
+      "CrossScore": 0.9998537534633031
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी दूर करने के लिए 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "FinalScore": 9.998466281307595,
+      "CrossScore": 0.9998466281307595
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी की जांच?",
+      "Crop": "General",
+      "FinalScore": 9.998442025557942,
+      "CrossScore": 0.9998442025557943
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी को दूर करने का समय?",
+      "Crop": "General",
+      "FinalScore": 9.998133087901886,
+      "CrossScore": 0.9998133087901886
+    }
+  ],
+  "latency_ms": 200.36,
+  "final_returned": [
+    {
+      "Question": "पौधों in 'जिंक' की कमी से होने वाले रोग?",
+      "Crop": "General",
+      "Score": 9998.775522606265
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से रोगों का खतरा क्यों बढ़ता है?",
+      "Crop": "General",
+      "Score": 9.998984253888034
+    },
+    {
+      "Question": "पौधों in 'फास्फोरस' की कमी से बैंगनी रंग क्यों आता है?",
+      "Crop": "General",
+      "Score": 9.998905830633571
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "Score": 9.998687738941499
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General",
+      "Score": 9.998662582383709
+    }
+  ]
+}

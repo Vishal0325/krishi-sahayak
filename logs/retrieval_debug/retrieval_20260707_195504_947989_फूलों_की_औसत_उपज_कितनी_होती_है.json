@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:04.776895",
+  "query_original": "फूलों की औसत उपज कितनी होती है?",
+  "query_normalized": "फूलों की औसत उपज कितनी होती है",
+  "query_expanded": "फूलों की औसत उपज कितनी होती है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलों की औसत उपज कितनी होती है?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "गेहूं की औसत उपज कितनी होती है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गन्ने की औसत उपज कितनी होती है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया की औसत उपज कितनी होती है?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का की औसत उपज कितनी होती है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फूलों की औसत उपज कितनी होती है?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9999482072655058,
+      "CrossScore": 0.9999482072655058
+    },
+    {
+      "Question": "मक्का की औसत उपज कितनी होती है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999434387790146,
+      "CrossScore": 0.9999434387790146
+    },
+    {
+      "Question": "धनिया की औसत उपज कितनी होती है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9999419307167726,
+      "CrossScore": 0.9999419307167726
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की औसत उपज कितनी होती है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9999413892336004,
+      "CrossScore": 0.9999413892336004
+    },
+    {
+      "Question": "मशरूम की औसत उपज कितनी होती है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999369293031303,
+      "CrossScore": 0.9999369293031303
+    },
+    {
+      "Question": "हल्दी की औसत उपज कितनी होती है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999368960341135,
+      "CrossScore": 0.9999368960341135
+    },
+    {
+      "Question": "लहसुन की औसत उपज कितनी होती है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9999354857279577,
+      "CrossScore": 0.9999354857279577
+    },
+    {
+      "Question": "सरसों की औसत उपज कितनी होती है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999345728705553,
+      "CrossScore": 0.9999345728705553
+    },
+    {
+      "Question": "अदरक की औसत उपज कितनी होती है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999338370292477,
+      "CrossScore": 0.9999338370292477
+    },
+    {
+      "Question": "गेहूं की औसत उपज कितनी होती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999933037061499,
+      "CrossScore": 0.999933037061499
+    }
+  ],
+  "latency_ms": 171.23,
+  "final_returned": [
+    {
+      "Question": "फूलों की औसत उपज कितनी होती है?",
+      "Crop": "Floriculture",
+      "Score": 0.9999482072655058
+    },
+    {
+      "Question": "मक्का की औसत उपज कितनी होती है?",
+      "Crop": "Maize",
+      "Score": 0.9999434387790146
+    },
+    {
+      "Question": "धनिया की औसत उपज कितनी होती है?",
+      "Crop": "Coriander",
+      "Score": 0.9999419307167726
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की औसत उपज कितनी होती है?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9999413892336004
+    },
+    {
+      "Question": "मशरूम की औसत उपज कितनी होती है?",
+      "Crop": "Mushroom",
+      "Score": 0.9999369293031303
+    }
+  ]
+}

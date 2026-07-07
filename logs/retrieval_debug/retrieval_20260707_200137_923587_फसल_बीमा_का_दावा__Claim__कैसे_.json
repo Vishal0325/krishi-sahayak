@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:37.733594",
+  "query_original": "फसल बीमा का दावा (Claim) कैसे करें?",
+  "query_normalized": "फसल बीमा का दावा claim कैसे करें",
+  "query_expanded": "फसल बीमा का दावा claim कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फसल बीमा का दावा (Claim) कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "पशुपालन में 'बीमा क्लेम' (Claim) कैसे करें?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फसल बीमा का दावा (Claim) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.9424495286211,
+      "CrossScore": 0.9999424495286211
+    },
+    {
+      "Question": "पशुपालन में 'बीमा क्लेम' (Claim) कैसे करें?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999281813863713,
+      "CrossScore": 0.9999281813863713
+    },
+    {
+      "Question": "'नीम का काढ़ा' कैसे तैयार करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997220458979074,
+      "CrossScore": 0.9997220458979074
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997150569420414,
+      "CrossScore": 0.9997150569420414
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General",
+      "FinalScore": 0.9997097987570019,
+      "CrossScore": 0.9997097987570019
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996978775041336,
+      "CrossScore": 0.9996978775041336
+    },
+    {
+      "Question": "लहसुन के बीजों का चयन कैसे करें?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9996932458377853,
+      "CrossScore": 0.9996932458377853
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996927552934833,
+      "CrossScore": 0.9996927552934833
+    },
+    {
+      "Question": "हल्दी के बीजों (प्रकंदों) का चयन कैसे करें?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9996922451874622,
+      "CrossScore": 0.9996922451874622
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9996888797314988,
+      "CrossScore": 0.9996888797314988
+    }
+  ],
+  "latency_ms": 190.02,
+  "final_returned": [
+    {
+      "Question": "फसल बीमा का दावा (Claim) कैसे करें?",
+      "Crop": "General",
+      "Score": 999.9424495286211
+    },
+    {
+      "Question": "पशुपालन में 'बीमा क्लेम' (Claim) कैसे करें?",
+      "Crop": "Livestock",
+      "Score": 0.9999281813863713
+    },
+    {
+      "Question": "'नीम का काढ़ा' कैसे तैयार करें?",
+      "Crop": "General",
+      "Score": 0.9997220458979074
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "Score": 0.9997150569420414
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General",
+      "Score": 0.9997097987570019
+    }
+  ]
+}

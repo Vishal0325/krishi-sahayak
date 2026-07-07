@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:42.770122",
+  "query_original": "'लवणीय मिट्टी' और जल निकास?",
+  "query_normalized": "लवणीय मिट्टी और जल निकास",
+  "query_expanded": "लवणीय मिट्टी और जल निकास",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'लवणीय मिट्टी' और जल निकास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मृदा जनित रोग' (Soil Borne Diseases) और 'जल निकास'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'लवणीय मिट्टी' और सफेद परत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जल धारण क्षमता' और बलुई मिट्टी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'लवणीय मिट्टी' और जल निकास?",
+      "Crop": "General",
+      "FinalScore": 999.8807925238426,
+      "CrossScore": 0.9998807925238427
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998680275032953,
+      "CrossScore": 0.9998680275032953
+    },
+    {
+      "Question": "'लवणीय मिट्टी' और सफेद परत?",
+      "Crop": "General",
+      "FinalScore": 0.9998478986756428,
+      "CrossScore": 0.9998478986756428
+    },
+    {
+      "Question": "'लवणीय मिट्टी' (Saline Soil) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9998470380899329,
+      "CrossScore": 0.9998470380899329
+    },
+    {
+      "Question": "'जल धारण क्षमता' और जैविक पदार्थ?",
+      "Crop": "General",
+      "FinalScore": 0.999818027169598,
+      "CrossScore": 0.999818027169598
+    },
+    {
+      "Question": "'जल धारण क्षमता' और बलुई मिट्टी?",
+      "Crop": "General",
+      "FinalScore": 0.9998174411483023,
+      "CrossScore": 0.9998174411483023
+    },
+    {
+      "Question": "लीची के बाग में 'जल निकास' की समस्या?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997749978660027,
+      "CrossScore": 0.9997749978660027
+    },
+    {
+      "Question": "गन्ने की खेती में 'जल निकास' क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999767553759509,
+      "CrossScore": 0.999767553759509
+    },
+    {
+      "Question": "बैंगन की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997661600005441,
+      "CrossScore": 0.9997661600005441
+    },
+    {
+      "Question": "गेहूं की 'लवणीय' मिट्टी में खेती?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997537525944339,
+      "CrossScore": 0.9997537525944339
+    }
+  ],
+  "latency_ms": 235.27,
+  "final_returned": [
+    {
+      "Question": "'लवणीय मिट्टी' और जल निकास?",
+      "Crop": "General",
+      "Score": 999.8807925238426
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9998680275032953
+    },
+    {
+      "Question": "'लवणीय मिट्टी' और सफेद परत?",
+      "Crop": "General",
+      "Score": 0.9998478986756428
+    },
+    {
+      "Question": "'लवणीय मिट्टी' (Saline Soil) की पहचान?",
+      "Crop": "General",
+      "Score": 0.9998470380899329
+    },
+    {
+      "Question": "'जल धारण क्षमता' और जैविक पदार्थ?",
+      "Crop": "General",
+      "Score": 0.999818027169598
+    }
+  ]
+}

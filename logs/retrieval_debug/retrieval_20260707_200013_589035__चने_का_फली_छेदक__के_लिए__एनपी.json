@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:13.418008",
+  "query_original": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+  "query_normalized": "चने का फली छेदक के लिए एनपीवी npv",
+  "query_expanded": "चने का फली छेदक के लिए एनपीवी npv",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "चने में 'फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "चने में 'फली छेदक' के लिए 'लाइट ट्रैप'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "चने में 'फली छेदक' के लिए 'ट्राइको-कार्ड'?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "FinalScore": 9998.991531848362,
+      "CrossScore": 0.9998991531848361
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.998807007555966,
+      "CrossScore": 0.9998807007555967
+    },
+    {
+      "Question": "'मक्का का तना छेदक' के लिए 'कार्बोफ्यूरान'?",
+      "Crop": "Maize",
+      "FinalScore": 9.996836559935648,
+      "CrossScore": 0.9996836559935649
+    },
+    {
+      "Question": "'सब्जियों in फल छेदक' के लिए 'बोरॉन'?",
+      "Crop": "Vegetables",
+      "FinalScore": 9.996590914449328,
+      "CrossScore": 0.9996590914449328
+    },
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.99581855361008,
+      "CrossScore": 0.999581855361008
+    },
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea",
+      "FinalScore": 9.992970345139177,
+      "CrossScore": 0.9992970345139178
+    },
+    {
+      "Question": "'चने का फली छेदक'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.985714699600901,
+      "CrossScore": 0.9985714699600902
+    },
+    {
+      "Question": "चने में 'फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998930601385176,
+      "CrossScore": 0.9998930601385176
+    },
+    {
+      "Question": "चने की खेती में 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996798180472063,
+      "CrossScore": 0.9996798180472063
+    },
+    {
+      "Question": "चने की फसल को 'नीलगाय' से बचाने के लिए 'तारबंदी'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996707970937201,
+      "CrossScore": 0.9996707970937201
+    }
+  ],
+  "latency_ms": 171.08,
+  "final_returned": [
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "Score": 9998.991531848362
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "Score": 9.998807007555966
+    },
+    {
+      "Question": "'मक्का का तना छेदक' के लिए 'कार्बोफ्यूरान'?",
+      "Crop": "Maize",
+      "Score": 9.996836559935648
+    },
+    {
+      "Question": "'सब्जियों in फल छेदक' के लिए 'बोरॉन'?",
+      "Crop": "Vegetables",
+      "Score": 9.996590914449328
+    },
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses",
+      "Score": 9.99581855361008
+    }
+  ]
+}

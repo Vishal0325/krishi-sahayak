@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:40.425354",
+  "query_original": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+  "query_normalized": "पौधों in लोहे iron की कमी से होने वाले रोग के लक्षण क्या हैं",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease रोग पौधों in लोहे iron की कमी से होने वाले रोग के लक्षण क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी से होने वाले रोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में जस्ते (Zinc) की कमी के क्या लक्षण हैं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "फलों के पौधों में 'जिंक' की कमी के लक्षण हैं?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9998.328849606785,
+      "CrossScore": 0.9998328849606785
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "FinalScore": 9.997644194115718,
+      "CrossScore": 0.9997644194115719
+    },
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.997201996068556,
+      "CrossScore": 0.9997201996068557
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.99713909568982,
+      "CrossScore": 0.9997139095689819
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'एसएसपी'?",
+      "Crop": "General",
+      "FinalScore": 9.997033731211323,
+      "CrossScore": 0.9997033731211323
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General",
+      "FinalScore": 9.996976533263638,
+      "CrossScore": 0.9996976533263637
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी दूर करने के लिए 'बोरेक्स'?",
+      "Crop": "General",
+      "FinalScore": 9.9963370371955,
+      "CrossScore": 0.9996337037195501
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी दूर करने के लिए 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "FinalScore": 9.996186082867792,
+      "CrossScore": 0.9996186082867792
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "FinalScore": 9.996002152506842,
+      "CrossScore": 0.9996002152506842
+    },
+    {
+      "Question": "पौधों in 'कैल्शियम' की कमी दूर करने के लिए 'जिप्सम'?",
+      "Crop": "General",
+      "FinalScore": 9.99585625040082,
+      "CrossScore": 0.9995856250400821
+    }
+  ],
+  "latency_ms": 196.48,
+  "final_returned": [
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 9998.328849606785
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "Score": 9.997644194115718
+    },
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "Score": 9.997201996068556
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "Score": 9.99713909568982
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'एसएसपी'?",
+      "Crop": "General",
+      "Score": 9.997033731211323
+    }
+  ]
+}

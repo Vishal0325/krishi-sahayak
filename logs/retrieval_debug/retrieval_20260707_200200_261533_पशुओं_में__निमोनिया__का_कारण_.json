@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:00.083715",
+  "query_original": "पशुओं में 'निमोनिया' का कारण?",
+  "query_normalized": "पशुओं में निमोनिया का कारण",
+  "query_expanded": "पशुओं में निमोनिया का कारण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'निमोनिया' का कारण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'बांझपन' का मुख्य कारण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं में 'लंगड़ापन' का कारण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'निमोनिया' का कारण?",
+      "Crop": "General",
+      "FinalScore": 999.904057732082,
+      "CrossScore": 0.999904057732082
+    },
+    {
+      "Question": "पशुओं में 'लंगड़ापन' का कारण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999109820821364,
+      "CrossScore": 0.9999109820821364
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999078397229832,
+      "CrossScore": 0.9999078397229832
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999046344760648,
+      "CrossScore": 0.9999046344760648
+    },
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General",
+      "FinalScore": 0.9999035954263886,
+      "CrossScore": 0.9999035954263886
+    },
+    {
+      "Question": "मिर्च में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999005026985317,
+      "CrossScore": 0.9999005026985317
+    },
+    {
+      "Question": "धनिया के पौधों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998979148240594,
+      "CrossScore": 0.9998979148240594
+    },
+    {
+      "Question": "अमरूद में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998966825409853,
+      "CrossScore": 0.9998966825409853
+    },
+    {
+      "Question": "भिंडी में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998947682986994,
+      "CrossScore": 0.9998947682986994
+    },
+    {
+      "Question": "पशुओं में 'बांझपन' का मुख्य कारण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998937271074294,
+      "CrossScore": 0.9998937271074294
+    }
+  ],
+  "latency_ms": 177.87,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'निमोनिया' का कारण?",
+      "Crop": "General",
+      "Score": 999.904057732082
+    },
+    {
+      "Question": "पशुओं में 'लंगड़ापन' का कारण?",
+      "Crop": "Livestock",
+      "Score": 0.9999109820821364
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits",
+      "Score": 0.9999078397229832
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "Score": 0.9999046344760648
+    },
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General",
+      "Score": 0.9999035954263886
+    }
+  ]
+}

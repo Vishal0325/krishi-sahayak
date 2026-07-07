@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:25.919557",
+  "query_original": "किसान मित्र (Kisan Mitra) कौन होते हैं?",
+  "query_normalized": "किसान मित्र kisan mitra कौन होते हैं",
+  "query_expanded": "किसान मित्र kisan mitra कौन होते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "किसान मित्र (Kisan Mitra) कौन होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'साफ' (Saaf) फफूंदनाशक में कौन से तत्व होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'केंचुओं' को किसान का मित्र क्यों कहते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "किसान मित्र (Kisan Mitra) कौन होते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9275851459172,
+      "CrossScore": 0.9999275851459172
+    },
+    {
+      "Question": "मक्का की सिंचाई के लिए महत्वपूर्ण अवस्थाएं कौन सी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997616760745647,
+      "CrossScore": 0.9997616760745647
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी शोरूम होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997412518426281,
+      "CrossScore": 0.9997412518426281
+    },
+    {
+      "Question": "मक्का में इंटर-क्रॉपिंग (Inter-cropping) के लिए कौन सी फसलें अच्छी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997268591507579,
+      "CrossScore": 0.9997268591507579
+    },
+    {
+      "Question": "मक्का की प्रमुख हाइब्रिड किस्में कौन सी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997075353362707,
+      "CrossScore": 0.9997075353362707
+    },
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996929488535249,
+      "CrossScore": 0.9996929488535249
+    },
+    {
+      "Question": "गेहूं की प्रमुख उन्नत किस्में कौन सी हैं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996486322555358,
+      "CrossScore": 0.9996486322555358
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996481809253419,
+      "CrossScore": 0.9996481809253419
+    },
+    {
+      "Question": "गेहूं की 'मेक्सिकन' किस्में कौन सी हैं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996411272466093,
+      "CrossScore": 0.9996411272466093
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.99964087056121,
+      "CrossScore": 0.99964087056121
+    }
+  ],
+  "latency_ms": 331.57,
+  "final_returned": [
+    {
+      "Question": "किसान मित्र (Kisan Mitra) कौन होते हैं?",
+      "Crop": "General",
+      "Score": 999.9275851459172
+    },
+    {
+      "Question": "मक्का की सिंचाई के लिए महत्वपूर्ण अवस्थाएं कौन सी हैं?",
+      "Crop": "Maize",
+      "Score": 0.9997616760745647
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी शोरूम होते हैं?",
+      "Crop": "General",
+      "Score": 0.9997412518426281
+    },
+    {
+      "Question": "मक्का में इंटर-क्रॉपिंग (Inter-cropping) के लिए कौन सी फसलें अच्छी हैं?",
+      "Crop": "Maize",
+      "Score": 0.9997268591507579
+    },
+    {
+      "Question": "मक्का की प्रमुख हाइब्रिड किस्में कौन सी हैं?",
+      "Crop": "Maize",
+      "Score": 0.9997075353362707
+    }
+  ]
+}

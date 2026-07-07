@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:07.742941",
+  "query_original": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+  "query_normalized": "बीज उपचार seed treatment फसल सुरक्षा की पहली सीढ़ी कैसे है",
+  "query_expanded": "बीज उपचार seed treatment फसल सुरक्षा की पहली सीढ़ी कैसे है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) बीमारियों को रोकने in कैसे मदद करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General",
+      "FinalScore": 0.9998731907965603,
+      "CrossScore": 0.9998731907965603
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) का सही क्रम?",
+      "Crop": "General",
+      "FinalScore": 0.9998653385398798,
+      "CrossScore": 0.9998653385398798
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998549926465053,
+      "CrossScore": 0.9998549926465053
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General",
+      "FinalScore": 0.99984948914747,
+      "CrossScore": 0.99984948914747
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) बीमारियों को रोकने in कैसे मदद करता है?",
+      "Crop": "General",
+      "FinalScore": 0.999845092091076,
+      "CrossScore": 0.999845092091076
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9998432188397445,
+      "CrossScore": 0.9998432188397445
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9998428881081074,
+      "CrossScore": 0.9998428881081074
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9998315680579715,
+      "CrossScore": 0.9998315680579715
+    },
+    {
+      "Question": "मटर के बीजों का उपचार (Seed Treatment) क्यों जरूरी है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998178379440548,
+      "CrossScore": 0.9998178379440548
+    },
+    {
+      "Question": "हल्दी के प्रकंदों का उपचार (Seed Treatment) कैसे करें?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9997857152297016,
+      "CrossScore": 0.9997857152297016
+    }
+  ],
+  "latency_ms": 248.06,
+  "final_returned": [
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General",
+      "Score": 0.9998731907965603
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) का सही क्रम?",
+      "Crop": "General",
+      "Score": 0.9998653385398798
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) का लाभ?",
+      "Crop": "General",
+      "Score": 0.9998549926465053
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General",
+      "Score": 0.99984948914747
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) बीमारियों को रोकने in कैसे मदद करता है?",
+      "Crop": "General",
+      "Score": 0.999845092091076
+    }
+  ]
+}

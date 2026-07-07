@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:37.456098",
+  "query_original": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+  "query_normalized": "बॉर्डर क्रॉप border crop कीटों को कैसे रोकती है",
+  "query_expanded": "बग pest कीड़ा कीट बॉर्डर क्रॉप border crop कीटों को कैसे रोकती है insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "FinalScore": 9.998948605767339,
+      "CrossScore": 0.9998948605767338
+    },
+    {
+      "Question": "'सफेद मक्खी' (Whitefly) फसलों को कैसे नुकसान पहुँचाती है?",
+      "Crop": "General",
+      "FinalScore": 9.953085017732645,
+      "CrossScore": 0.9953085017732646
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "FinalScore": 9.950369166099064,
+      "CrossScore": 0.9950369166099063
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "FinalScore": 9.919323819596803,
+      "CrossScore": 0.9919323819596803
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' और 'सूरजमुखी'?",
+      "Crop": "General",
+      "FinalScore": 9.911557344538409,
+      "CrossScore": 0.9911557344538409
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General",
+      "FinalScore": 9.91108997405937,
+      "CrossScore": 0.991108997405937
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General",
+      "FinalScore": 9.903230227765311,
+      "CrossScore": 0.9903230227765312
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General",
+      "FinalScore": 9.901592219854077,
+      "CrossScore": 0.9901592219854077
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.833311934540529,
+      "CrossScore": 0.983331193454053
+    },
+    {
+      "Question": "गंधी बग को कैसे नियंत्रित करें?",
+      "Crop": "Rice",
+      "FinalScore": 9.659170505940507,
+      "CrossScore": 0.9659170505940508
+    }
+  ],
+  "latency_ms": 318.63,
+  "final_returned": [
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "Score": 9.998948605767339
+    },
+    {
+      "Question": "'सफेद मक्खी' (Whitefly) फसलों को कैसे नुकसान पहुँचाती है?",
+      "Crop": "General",
+      "Score": 9.953085017732645
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "Score": 9.950369166099064
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "Score": 9.919323819596803
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' और 'सूरजमुखी'?",
+      "Crop": "General",
+      "Score": 9.911557344538409
+    }
+  ]
+}

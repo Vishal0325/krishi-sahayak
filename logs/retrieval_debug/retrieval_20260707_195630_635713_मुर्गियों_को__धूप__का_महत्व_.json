@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:30.182510",
+  "query_original": "मुर्गियों को 'धूप' का महत्व?",
+  "query_normalized": "मुर्गियों को धूप का महत्व",
+  "query_expanded": "मुर्गियों को धूप का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गियों को 'धूप' का महत्व?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "पशुओं को 'धूप' (Sunlight) का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "दालों की मड़ाई के बाद 'धूप' में सुखाने का महत्व?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अंडे देने वाली मुर्गियों के लिए 'कैल्शियम' का महत्व?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अंडे देने वाली मुर्गियों के लिए 'कैल्शियम' का महत्व?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999057052285596,
+      "CrossScore": 0.9999057052285596
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999017754446285,
+      "CrossScore": 0.9999017754446285
+    },
+    {
+      "Question": "मुर्गियों को 'धूप' का महत्व?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998992408494856,
+      "CrossScore": 0.9998992408494856
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999897671266173,
+      "CrossScore": 0.999897671266173
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998958730908343,
+      "CrossScore": 0.9998958730908343
+    },
+    {
+      "Question": "दालों की मड़ाई के बाद 'धूप' में सुखाने का महत्व?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998938414575541,
+      "CrossScore": 0.9998938414575541
+    },
+    {
+      "Question": "मुर्गियों को 'पकड़ने' का सही तरीका?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998933703034223,
+      "CrossScore": 0.9998933703034223
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998871493661049,
+      "CrossScore": 0.9998871493661049
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.999885454926374,
+      "CrossScore": 0.999885454926374
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998815006324809,
+      "CrossScore": 0.9998815006324809
+    }
+  ],
+  "latency_ms": 453.34,
+  "final_returned": [
+    {
+      "Question": "अंडे देने वाली मुर्गियों के लिए 'कैल्शियम' का महत्व?",
+      "Crop": "Poultry",
+      "Score": 0.9999057052285596
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "Score": 0.9999017754446285
+    },
+    {
+      "Question": "मुर्गियों को 'धूप' का महत्व?",
+      "Crop": "Poultry",
+      "Score": 0.9998992408494856
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.999897671266173
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998958730908343
+    }
+  ]
+}

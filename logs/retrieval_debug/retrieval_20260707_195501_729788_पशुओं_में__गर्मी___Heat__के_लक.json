@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:01.047546",
+  "query_original": "पशुओं में 'गर्मी' (Heat) के लक्षण?",
+  "query_normalized": "पशुओं में गर्मी heat के लक्षण",
+  "query_expanded": "पशुओं में गर्मी heat के लक्षण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'गर्मी' (Heat) के लक्षण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं में 'खुरपका-मुंहपका' (FMD) के लक्षण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Internal Parasites) के लक्षण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'विटामिन ए' की कमी के लक्षण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'गर्मी' (Heat) के लक्षण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999059809629082,
+      "CrossScore": 0.9999059809629082
+    },
+    {
+      "Question": "गन्ने के टुकड़ों को 'गर्मी' (Heat treatment) से उपचारित क्यों करते हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998869626149792,
+      "CrossScore": 0.9998869626149792
+    },
+    {
+      "Question": "मसूर में 'रतुआ' (Rust) रोग के लक्षण?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997649314241613,
+      "CrossScore": 0.9997649314241613
+    },
+    {
+      "Question": "गेहूं में 'भूरा रतुआ' (Brown Rust) के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997615474281143,
+      "CrossScore": 0.9997615474281143
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "FinalScore": 0.9996918852595799,
+      "CrossScore": 0.9996918852595799
+    },
+    {
+      "Question": "गेहूं में 'दाना झुलसा' (Alternaria Blight) के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996871331247752,
+      "CrossScore": 0.9996871331247752
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996138907527184,
+      "CrossScore": 0.9996138907527184
+    },
+    {
+      "Question": "पशुओं में 'खुरपका-मुंहपका' (FMD) के लक्षण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9996027158797597,
+      "CrossScore": 0.9996027158797597
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995478264009856,
+      "CrossScore": 0.9995478264009856
+    },
+    {
+      "Question": "'पौधों' में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.999537746636427,
+      "CrossScore": 0.999537746636427
+    }
+  ],
+  "latency_ms": 682.13,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'गर्मी' (Heat) के लक्षण?",
+      "Crop": "Livestock",
+      "Score": 0.9999059809629082
+    },
+    {
+      "Question": "गन्ने के टुकड़ों को 'गर्मी' (Heat treatment) से उपचारित क्यों करते हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998869626149792
+    },
+    {
+      "Question": "मसूर में 'रतुआ' (Rust) रोग के लक्षण?",
+      "Crop": "Pulses",
+      "Score": 0.9997649314241613
+    },
+    {
+      "Question": "गेहूं में 'भूरा रतुआ' (Brown Rust) के लक्षण?",
+      "Crop": "Wheat",
+      "Score": 0.9997615474281143
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "Score": 0.9996918852595799
+    }
+  ]
+}

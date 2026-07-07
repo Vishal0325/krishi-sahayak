@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:13.121501",
+  "query_original": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+  "query_normalized": "टमाटर in अर्ली ब्लाइट का कवक",
+  "query_expanded": "टमाटर in अर्ली ब्लाइट का कवक",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'टमाटर' में 'अर्ली ब्लाइट' का कारण?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato",
+      "FinalScore": 49995.1461925004,
+      "CrossScore": 0.999902923850008
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99500311245173,
+      "CrossScore": 0.9999000622490345
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99473705004954,
+      "CrossScore": 0.9998947410009907
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.994328927990615,
+      "CrossScore": 0.9998865785598123
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99425980480215,
+      "CrossScore": 0.999885196096043
+    },
+    {
+      "Question": "टमाटर की बुआई का समय?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99388597907205,
+      "CrossScore": 0.999877719581441
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 49.993499152846375,
+      "CrossScore": 0.9998699830569275
+    },
+    {
+      "Question": "टमाटर की 'मृदा' का पीएच मान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99303390336177,
+      "CrossScore": 0.9998606780672354
+    },
+    {
+      "Question": "टमाटर के पौधों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Tomato",
+      "FinalScore": 49.9925912258424,
+      "CrossScore": 0.9998518245168481
+    },
+    {
+      "Question": "टमाटर की खेती में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Tomato",
+      "FinalScore": 49.992536130778376,
+      "CrossScore": 0.9998507226155675
+    }
+  ],
+  "latency_ms": 199.38,
+  "final_returned": [
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato",
+      "Score": 49995.1461925004
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.99500311245173
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "Score": 49.99473705004954
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato",
+      "Score": 49.994328927990615
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "Score": 49.99425980480215
+    }
+  ]
+}

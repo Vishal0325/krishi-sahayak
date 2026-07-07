@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:24.376032",
+  "query_original": "क्या फसल बीमा प्राकृतिक आग (Fire) को भी कवर करता है?",
+  "query_normalized": "क्या फसल बीमा प्राकृतिक आग fire को भी कवर करता है",
+  "query_expanded": "क्या फसल बीमा प्राकृतिक आग fire को भी कवर करता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या फसल बीमा प्राकृतिक आग (Fire) को भी कवर करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का पीएच फसल के चुनाव को प्रभावित करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक से फसल को नुकसान हो सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण फसल सुरक्षा में मदद करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या फसल बीमा प्राकृतिक आग (Fire) को भी कवर करता है?",
+      "Crop": "General",
+      "FinalScore": 999.8757670591428,
+      "CrossScore": 0.9998757670591428
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996048465590645,
+      "CrossScore": 0.9996048465590645
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9995476821980176,
+      "CrossScore": 0.9995476821980176
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9995218944095235,
+      "CrossScore": 0.9995218944095235
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9995199197291817,
+      "CrossScore": 0.9995199197291817
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994420449361935,
+      "CrossScore": 0.9994420449361935
+    },
+    {
+      "Question": "क्या मिट्टी का रंग सूर्य की गर्मी सोखने को प्रभावित करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994370543217704,
+      "CrossScore": 0.9994370543217704
+    },
+    {
+      "Question": "मौसम आधारित फसल बीमा (WBCIS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994369459252908,
+      "CrossScore": 0.9994369459252908
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण फसल सुरक्षा में मदद करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994011257647871,
+      "CrossScore": 0.9994011257647871
+    },
+    {
+      "Question": "क्या मिट्टी का पीएच फसल के चुनाव को प्रभावित करता है?",
+      "Crop": "General",
+      "FinalScore": 0.999397676874304,
+      "CrossScore": 0.999397676874304
+    }
+  ],
+  "latency_ms": 231.37,
+  "final_returned": [
+    {
+      "Question": "क्या फसल बीमा प्राकृतिक आग (Fire) को भी कवर करता है?",
+      "Crop": "General",
+      "Score": 999.8757670591428
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "Score": 0.9996048465590645
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General",
+      "Score": 0.9995476821980176
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits",
+      "Score": 0.9995218944095235
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "Score": 0.9995199197291817
+    }
+  ]
+}

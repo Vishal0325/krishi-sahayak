@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:06.983242",
+  "query_original": "'हाइड्रोपोनिक्स' (Hydroponics) में तकनीक की भूमिका?",
+  "query_normalized": "हाइड्रोपोनिक्स hydroponics में तकनीक की भूमिका",
+  "query_expanded": "हाइड्रोपोनिक्स hydroponics में तकनीक की भूमिका",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'हाइड्रोपोनिक्स' (Hydroponics) में तकनीक की भूमिका?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'हाइड्रोपोनिक्स' (Hydroponics) में मिट्टी की जरूरत क्यों नहीं होती?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में पोटाश की क्या भूमिका है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "प्याज की खेती में 'पोटाश' की भूमिका?",
+      "Crop": "Onion"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'हाइड्रोपोनिक्स' (Hydroponics) में मिट्टी की जरूरत क्यों नहीं होती?",
+      "Crop": "General",
+      "FinalScore": 0.9998866243000879,
+      "CrossScore": 0.9998866243000879
+    },
+    {
+      "Question": "'हाइड्रोपोनिक्स' (Hydroponics) में तकनीक की भूमिका?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998772446769009,
+      "CrossScore": 0.9998772446769009
+    },
+    {
+      "Question": "'हाइड्रोपोनिक्स' में न्यूट्रिएंट फिल्म तकनीक (NFT)?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9985948867186365,
+      "CrossScore": 0.9985948867186365
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9983441907940327,
+      "CrossScore": 0.9983441907940327
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9981760973472132,
+      "CrossScore": 0.9981760973472132
+    },
+    {
+      "Question": "गन्ने में 'जिंक' की कमी से वानस्पतिक वृद्धि?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9979721033029304,
+      "CrossScore": 0.9979721033029304
+    },
+    {
+      "Question": "टमाटर की खेती में 'पोटाश' की भूमिका?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9979436072316317,
+      "CrossScore": 0.9979436072316317
+    },
+    {
+      "Question": "फसल सुरक्षा में 'मित्र कीटों' की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9976662433497719,
+      "CrossScore": 0.9976662433497719
+    },
+    {
+      "Question": "IPM में 'जल निकास' (Drainage) की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9976194892158541,
+      "CrossScore": 0.9976194892158541
+    },
+    {
+      "Question": "सोयाबीन (Soybean) की खेती बिहार में कहाँ संभव है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9975767761546899,
+      "CrossScore": 0.9975767761546899
+    }
+  ],
+  "latency_ms": 170.63,
+  "final_returned": [
+    {
+      "Question": "'हाइड्रोपोनिक्स' (Hydroponics) में मिट्टी की जरूरत क्यों नहीं होती?",
+      "Crop": "General",
+      "Score": 0.9998866243000879
+    },
+    {
+      "Question": "'हाइड्रोपोनिक्स' (Hydroponics) में तकनीक की भूमिका?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998772446769009
+    },
+    {
+      "Question": "'हाइड्रोपोनिक्स' में न्यूट्रिएंट फिल्म तकनीक (NFT)?",
+      "Crop": "Agri Tech",
+      "Score": 0.9985948867186365
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General",
+      "Score": 0.9983441907940327
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General",
+      "Score": 0.9981760973472132
+    }
+  ]
+}

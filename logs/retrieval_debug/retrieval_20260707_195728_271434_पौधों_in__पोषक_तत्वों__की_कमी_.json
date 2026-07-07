@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:28.093103",
+  "query_original": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+  "query_normalized": "पौधों in पोषक तत्वों की कमी के लक्षण",
+  "query_expanded": "पौधों in पोषक तत्वों की कमी के लक्षण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'जिप्सम'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के पौधों में 'जिंक' की कमी के लक्षण हैं?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9998568814479499,
+      "CrossScore": 0.9998568814479499
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998542059781724,
+      "CrossScore": 0.9998542059781724
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9998392657788905,
+      "CrossScore": 0.9998392657788905
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "FinalScore": 0.9998388901517838,
+      "CrossScore": 0.9998388901517838
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी दूर करने के लिए 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998377657310514,
+      "CrossScore": 0.9998377657310514
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी की जांच?",
+      "Crop": "General",
+      "FinalScore": 0.9998280055334434,
+      "CrossScore": 0.9998280055334434
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी दूर करने के लिए 'बोरेक्स'?",
+      "Crop": "General",
+      "FinalScore": 0.9998248242602227,
+      "CrossScore": 0.9998248242602227
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'एसएसपी'?",
+      "Crop": "General",
+      "FinalScore": 0.999819695765867,
+      "CrossScore": 0.999819695765867
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General",
+      "FinalScore": 0.999809703015355,
+      "CrossScore": 0.999809703015355
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "FinalScore": 0.9998016204952451,
+      "CrossScore": 0.9998016204952451
+    }
+  ],
+  "latency_ms": 178.44,
+  "final_returned": [
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "Score": 0.9998568814479499
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "Score": 0.9998542059781724
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "Score": 0.9998392657788905
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "Score": 0.9998388901517838
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी दूर करने के लिए 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "Score": 0.9998377657310514
+    }
+  ]
+}

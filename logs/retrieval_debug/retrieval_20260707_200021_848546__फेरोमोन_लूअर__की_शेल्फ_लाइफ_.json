@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:21.658463",
+  "query_original": "'फेरोमोन लूअर' की शेल्फ लाइफ?",
+  "query_normalized": "फेरोमोन लूअर की शेल्फ लाइफ",
+  "query_expanded": "फेरोमोन लूअर की शेल्फ लाइफ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फेरोमोन लूअर' की शेल्फ लाइफ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की शेल्फ लाइफ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की शुद्धता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के 'लूअर' (Lure) की गंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की शुद्धता की जांच?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फेरोमोन लूअर' की शेल्फ लाइफ?",
+      "Crop": "General",
+      "FinalScore": 999.8657960416506,
+      "CrossScore": 0.9998657960416506
+    },
+    {
+      "Question": "'फेरोमोन लूअर' का भंडारण?",
+      "Crop": "General",
+      "FinalScore": 0.9998856937731493,
+      "CrossScore": 0.9998856937731493
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998810429063358,
+      "CrossScore": 0.9998810429063358
+    },
+    {
+      "Question": "'फेरोमोन लूअर' को हाथों से न छुएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998670202136747,
+      "CrossScore": 0.9998670202136747
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की ताज़गी?",
+      "Crop": "General",
+      "FinalScore": 0.9998658765104557,
+      "CrossScore": 0.9998658765104557
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की शुद्धता?",
+      "Crop": "General",
+      "FinalScore": 0.9998612281699861,
+      "CrossScore": 0.9998612281699861
+    },
+    {
+      "Question": "'फेरोमोन लूअर' को हाथों से क्यों न छुएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998587671991961,
+      "CrossScore": 0.9998587671991961
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General",
+      "FinalScore": 0.9998437249577996,
+      "CrossScore": 0.9998437249577996
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'हवा की दिशा'?",
+      "Crop": "General",
+      "FinalScore": 0.9998432828104342,
+      "CrossScore": 0.9998432828104342
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की शुद्धता की जांच?",
+      "Crop": "General",
+      "FinalScore": 0.9998376911516239,
+      "CrossScore": 0.9998376911516239
+    }
+  ],
+  "latency_ms": 190.13,
+  "final_returned": [
+    {
+      "Question": "'फेरोमोन लूअर' की शेल्फ लाइफ?",
+      "Crop": "General",
+      "Score": 999.8657960416506
+    },
+    {
+      "Question": "'फेरोमोन लूअर' का भंडारण?",
+      "Crop": "General",
+      "Score": 0.9998856937731493
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "Score": 0.9998810429063358
+    },
+    {
+      "Question": "'फेरोमोन लूअर' को हाथों से न छुएं?",
+      "Crop": "General",
+      "Score": 0.9998670202136747
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की ताज़गी?",
+      "Crop": "General",
+      "Score": 0.9998658765104557
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:12.567601",
+  "query_original": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+  "query_normalized": "मिट्टी की हवा soil aeration क्यों जरूरी है",
+  "query_expanded": "मिट्टी की हवा soil aeration क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "मक्का की खेती में 'मिट्टी की जांच' क्यों जरूरी है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9999086467994786,
+      "CrossScore": 0.9999086467994786
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.999868824437155,
+      "CrossScore": 0.999868824437155
+    },
+    {
+      "Question": "चने की खेती में 'मिट्टी की ढेलेदार अवस्था' क्यों अच्छी है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997225759300699,
+      "CrossScore": 0.9997225759300699
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9992888113458607,
+      "CrossScore": 0.9992888113458607
+    },
+    {
+      "Question": "मिट्टी की 'समतलता' क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9992009027170217,
+      "CrossScore": 0.9992009027170217
+    },
+    {
+      "Question": "मक्का की खेती में 'मिट्टी की जांच' क्यों जरूरी है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9991320620312137,
+      "CrossScore": 0.9991320620312137
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9991142516767928,
+      "CrossScore": 0.9991142516767928
+    },
+    {
+      "Question": "औषधीय पौधों की 'सफाई' क्यों जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991086834908574,
+      "CrossScore": 0.9991086834908574
+    },
+    {
+      "Question": "सब्जियों की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9990778510145629,
+      "CrossScore": 0.9990778510145629
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9990763671537887,
+      "CrossScore": 0.9990763671537887
+    }
+  ],
+  "latency_ms": 329.74,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9999086467994786
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.999868824437155
+    },
+    {
+      "Question": "चने की खेती में 'मिट्टी की ढेलेदार अवस्था' क्यों अच्छी है?",
+      "Crop": "Pulses",
+      "Score": 0.9997225759300699
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "Score": 0.9992888113458607
+    },
+    {
+      "Question": "मिट्टी की 'समतलता' क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9992009027170217
+    }
+  ]
+}

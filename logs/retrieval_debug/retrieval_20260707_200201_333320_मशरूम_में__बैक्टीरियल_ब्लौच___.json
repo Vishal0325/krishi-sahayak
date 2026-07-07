@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:01.111402",
+  "query_original": "मशरूम में 'बैक्टीरियल ब्लौच' (Bacterial Blotch)?",
+  "query_normalized": "मशरूम में बैक्टीरियल ब्लौच bacterial blotch",
+  "query_expanded": "मशरूम में बैक्टीरियल ब्लौच bacterial blotch",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम में 'बैक्टीरियल ब्लौच' (Bacterial Blotch)?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "प्याज में 'बैंगनी धब्बा' (Purple Blotch) रोग?",
+      "Crop": "Onion"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम में 'बैक्टीरियल ब्लौच' (Bacterial Blotch)?",
+      "Crop": "Mushroom",
+      "FinalScore": 999.8779793264113,
+      "CrossScore": 0.9998779793264113
+    },
+    {
+      "Question": "लहसुन में 'बैंगनी धब्बा' (Purple Blotch) रोग?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9996145948000221,
+      "CrossScore": 0.9996145948000221
+    },
+    {
+      "Question": "प्याज में 'बैंगनी धब्बा' (Purple Blotch) रोग?",
+      "Crop": "Onion",
+      "FinalScore": 0.999568850665426,
+      "CrossScore": 0.999568850665426
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9994112624490706,
+      "CrossScore": 0.9994112624490706
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9993313849628073,
+      "CrossScore": 0.9993313849628073
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General",
+      "FinalScore": 0.9965788246036302,
+      "CrossScore": 0.9965788246036302
+    },
+    {
+      "Question": "मशरूम में 'पिंक मोल्ड' (Pink Mold) बीमारी?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9962686466152878,
+      "CrossScore": 0.9962686466152878
+    },
+    {
+      "Question": "मशरूम में 'मक्खियों' (Mushroom Flies) का नियंत्रण?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9960651217038801,
+      "CrossScore": 0.9960651217038801
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9956367541478641,
+      "CrossScore": 0.9956367541478641
+    },
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9950090496239554,
+      "CrossScore": 0.9950090496239554
+    }
+  ],
+  "latency_ms": 221.96,
+  "final_returned": [
+    {
+      "Question": "मशरूम में 'बैक्टीरियल ब्लौच' (Bacterial Blotch)?",
+      "Crop": "Mushroom",
+      "Score": 999.8779793264113
+    },
+    {
+      "Question": "लहसुन में 'बैंगनी धब्बा' (Purple Blotch) रोग?",
+      "Crop": "Garlic",
+      "Score": 0.9996145948000221
+    },
+    {
+      "Question": "प्याज में 'बैंगनी धब्बा' (Purple Blotch) रोग?",
+      "Crop": "Onion",
+      "Score": 0.999568850665426
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "Score": 0.9994112624490706
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "Score": 0.9993313849628073
+    }
+  ]
+}

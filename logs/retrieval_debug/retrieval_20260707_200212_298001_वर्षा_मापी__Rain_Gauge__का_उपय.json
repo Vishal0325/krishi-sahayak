@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:12.083934",
+  "query_original": "वर्षा मापी (Rain Gauge) का उपयोग कैसे करें?",
+  "query_normalized": "वर्षा मापी rain gauge का उपयोग कैसे करें",
+  "query_expanded": "वर्षा मापी rain gauge का उपयोग कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वर्षा मापी (Rain Gauge) का उपयोग कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गेहूं में दीमक का नियंत्रण कैसे करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वर्षा मापी (Rain Gauge) का उपयोग कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.9151714065308,
+      "CrossScore": 0.9999151714065309
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997332241905593,
+      "CrossScore": 0.9997332241905593
+    },
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.999691396365027,
+      "CrossScore": 0.999691396365027
+    },
+    {
+      "Question": "गंधी बग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.999662150079771,
+      "CrossScore": 0.999662150079771
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9996467274831018,
+      "CrossScore": 0.9996467274831018
+    },
+    {
+      "Question": "गेहूं के बीज का अंकुरण परीक्षण कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999642188144855,
+      "CrossScore": 0.999642188144855
+    },
+    {
+      "Question": "गन्ने के बीजों का चयन कैसे करें?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996321522688791,
+      "CrossScore": 0.9996321522688791
+    },
+    {
+      "Question": "स्यूडोमोनास का बीज उपचार कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996193382112482,
+      "CrossScore": 0.9996193382112482
+    },
+    {
+      "Question": "करनाल बंट का बचाव कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996144718819936,
+      "CrossScore": 0.9996144718819936
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996085684162854,
+      "CrossScore": 0.9996085684162854
+    }
+  ],
+  "latency_ms": 214.12,
+  "final_returned": [
+    {
+      "Question": "वर्षा मापी (Rain Gauge) का उपयोग कैसे करें?",
+      "Crop": "General",
+      "Score": 999.9151714065308
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "Score": 0.9997332241905593
+    },
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General",
+      "Score": 0.999691396365027
+    },
+    {
+      "Question": "गंधी बग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "Score": 0.999662150079771
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "Score": 0.9996467274831018
+    }
+  ]
+}

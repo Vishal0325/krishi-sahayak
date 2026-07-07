@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:31.007440",
+  "query_original": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+  "query_normalized": "कृषि अवसंरचना कोष aif का उपयोग",
+  "query_expanded": "कृषि अवसंरचना कोष aif का उपयोग",
+  "detected_crops": [
+    "Pulses"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि अवसंरचना कोष (AIF) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'सरकारी सब्सिडी' का सही उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.8996432030256,
+      "CrossScore": 0.9998996432030256
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 49.984772093694005,
+      "CrossScore": 0.9996954418738802
+    },
+    {
+      "Question": "कृषि अवसंरचना कोष (AIF) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998828802484749,
+      "CrossScore": 0.9998828802484749
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "FinalScore": 0.9998774509870171,
+      "CrossScore": 0.9998774509870171
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'सरकारी सब्सिडी' का सही उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998252135113008,
+      "CrossScore": 0.9998252135113008
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.999805034854815,
+      "CrossScore": 0.999805034854815
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General",
+      "FinalScore": 0.9997901217145764,
+      "CrossScore": 0.9997901217145764
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9997867465696544,
+      "CrossScore": 0.9997867465696544
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997717550516396,
+      "CrossScore": 0.9997717550516396
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'नेटवर्किंग' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9997624444589454,
+      "CrossScore": 0.9997624444589454
+    }
+  ],
+  "latency_ms": 237.76,
+  "final_returned": [
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General",
+      "Score": 999.8996432030256
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses",
+      "Score": 49.984772093694005
+    },
+    {
+      "Question": "कृषि अवसंरचना कोष (AIF) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998828802484749
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "Score": 0.9998774509870171
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'सरकारी सब्सिडी' का सही उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998252135113008
+    }
+  ]
+}

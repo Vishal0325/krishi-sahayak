@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:09.338842",
+  "query_original": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+  "query_normalized": "राष्ट्रीय खाद्य सुरक्षा मिशन में मोटा अनाज millets",
+  "query_expanded": "poshak खाद पोषण उर्वरक fertilizer राष्ट्रीय खाद्य सुरक्षा मिशन में मोटा अनाज millets",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'भंडारण' में अनाज की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'पशुपालन' एक आर्थिक सुरक्षा कवच कैसे है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "FinalScore": 999.8312257887361,
+      "CrossScore": 0.9998312257887361
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996926076256547,
+      "CrossScore": 0.9996926076256547
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996876978547776,
+      "CrossScore": 0.9996876978547776
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996745567205546,
+      "CrossScore": 0.9996745567205546
+    },
+    {
+      "Question": "'भंडारण' में अनाज की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9995281930411822,
+      "CrossScore": 0.9995281930411822
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995200139897383,
+      "CrossScore": 0.9995200139897383
+    },
+    {
+      "Question": "फसल सुरक्षा में 'बायो-सिक्योरिटी'?",
+      "Crop": "General",
+      "FinalScore": 0.9995154800960602,
+      "CrossScore": 0.9995154800960602
+    },
+    {
+      "Question": "'सब्जियों' में फसल सुरक्षा का मुख्य सूत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9994940843158465,
+      "CrossScore": 0.9994940843158465
+    },
+    {
+      "Question": "खेती में 'पशुपालन' एक आर्थिक सुरक्षा कवच कैसे है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9994929633274094,
+      "CrossScore": 0.9994929633274094
+    },
+    {
+      "Question": "फसल सुरक्षा में 'निराई-गुड़ाई'?",
+      "Crop": "General",
+      "FinalScore": 0.9994905798966672,
+      "CrossScore": 0.9994905798966672
+    }
+  ],
+  "latency_ms": 200.35,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "Score": 999.8312257887361
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9996926076256547
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.9996876978547776
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9996745567205546
+    },
+    {
+      "Question": "'भंडारण' में अनाज की सुरक्षा?",
+      "Crop": "General",
+      "Score": 0.9995281930411822
+    }
+  ]
+}

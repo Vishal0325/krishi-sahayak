@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:51.200493",
+  "query_original": "किसान रेल (Kisan Rail) क्या है?",
+  "query_normalized": "किसान रेल kisan rail क्या है",
+  "query_expanded": "किसान रेल kisan rail क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9432121103736,
+      "CrossScore": 0.9999432121103735
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996924264599282,
+      "CrossScore": 0.9996924264599282
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996051638004189,
+      "CrossScore": 0.9996051638004189
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996037529995239,
+      "CrossScore": 0.9996037529995239
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995917804215161,
+      "CrossScore": 0.9995917804215161
+    },
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General",
+      "FinalScore": 0.9994751145551468,
+      "CrossScore": 0.9994751145551468
+    },
+    {
+      "Question": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9994145945385301,
+      "CrossScore": 0.9994145945385301
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994041331002508,
+      "CrossScore": 0.9994041331002508
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9993772058364404,
+      "CrossScore": 0.9993772058364404
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.999368508325843,
+      "CrossScore": 0.999368508325843
+    }
+  ],
+  "latency_ms": 426.1,
+  "final_returned": [
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General",
+      "Score": 999.9432121103736
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "Score": 0.9996924264599282
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "Score": 0.9996051638004189
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 0.9996037529995239
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "Score": 0.9995917804215161
+    }
+  ]
+}

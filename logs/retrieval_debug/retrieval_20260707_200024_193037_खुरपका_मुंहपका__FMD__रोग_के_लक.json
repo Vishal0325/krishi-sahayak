@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:23.970597",
+  "query_original": "खुरपका-मुंहपका (FMD) रोग के लक्षण क्या हैं?",
+  "query_normalized": "खुरपका मुंहपका fmd रोग के लक्षण क्या हैं",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease खुरपका मुंहपका fmd रोग के लक्षण क्या हैं रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खुरपका-मुंहपका (FMD) रोग के लक्षण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "पशुओं में 'खुरपका-मुंहपका' (FMD) के लक्षण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग के लक्षण क्या हैं?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खुरपका-मुंहपका (FMD) रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8798466818074,
+      "CrossScore": 0.9998798466818074
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.997896625529544,
+      "CrossScore": 0.9997896625529544
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 9.997695088816933,
+      "CrossScore": 0.9997695088816932
+    },
+    {
+      "Question": "मिर्च in 'चूर्णी फफूंद' (Powdery Mildew) के क्या लक्षण हैं?",
+      "Crop": "Chilli",
+      "FinalScore": 9.996314082559564,
+      "CrossScore": 0.9996314082559565
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' (Late Blight) के लक्षण क्या हैं?",
+      "Crop": "Potato",
+      "FinalScore": 9.99596613244121,
+      "CrossScore": 0.9995966132441209
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.995073797374944,
+      "CrossScore": 0.9995073797374945
+    },
+    {
+      "Question": "पशुओं में 'खुरपका-मुंहपका' (FMD) के लक्षण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998167936815052,
+      "CrossScore": 0.9998167936815052
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997383173924356,
+      "CrossScore": 0.9997383173924356
+    },
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग के लक्षण क्या हैं?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9996983817280881,
+      "CrossScore": 0.9996983817280881
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999632991184703,
+      "CrossScore": 0.999632991184703
+    }
+  ],
+  "latency_ms": 222.47,
+  "final_returned": [
+    {
+      "Question": "खुरपका-मुंहपका (FMD) रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 999.8798466818074
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "Score": 9.997896625529544
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "Score": 9.997695088816933
+    },
+    {
+      "Question": "मिर्च in 'चूर्णी फफूंद' (Powdery Mildew) के क्या लक्षण हैं?",
+      "Crop": "Chilli",
+      "Score": 9.996314082559564
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' (Late Blight) के लक्षण क्या हैं?",
+      "Crop": "Potato",
+      "Score": 9.99596613244121
+    }
+  ]
+}

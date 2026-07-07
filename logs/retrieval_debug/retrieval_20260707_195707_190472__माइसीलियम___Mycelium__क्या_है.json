@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:07.028794",
+  "query_original": "'माइसीलियम' (Mycelium) क्या है?",
+  "query_normalized": "माइसीलियम mycelium क्या है",
+  "query_expanded": "माइसीलियम mycelium क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'माइसीलियम' (Mycelium) क्या है?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'माइसीलियम' (Mycelium) क्या है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999096487297119,
+      "CrossScore": 0.9999096487297119
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.993759358855158,
+      "CrossScore": 0.993759358855158
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9931161052939561,
+      "CrossScore": 0.9931161052939561
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9928788949185625,
+      "CrossScore": 0.9928788949185625
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9925634836963738,
+      "CrossScore": 0.9925634836963738
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9914369787660106,
+      "CrossScore": 0.9914369787660106
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9903044384800854,
+      "CrossScore": 0.9903044384800854
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9897938411080348,
+      "CrossScore": 0.9897938411080348
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9893538996661837,
+      "CrossScore": 0.9893538996661837
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9861743586336069,
+      "CrossScore": 0.9861743586336069
+    }
+  ],
+  "latency_ms": 161.8,
+  "final_returned": [
+    {
+      "Question": "'माइसीलियम' (Mycelium) क्या है?",
+      "Crop": "Mushroom",
+      "Score": 0.9999096487297119
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "Score": 0.993759358855158
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "Score": 0.9931161052939561
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9928788949185625
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "Score": 0.9925634836963738
+    }
+  ]
+}

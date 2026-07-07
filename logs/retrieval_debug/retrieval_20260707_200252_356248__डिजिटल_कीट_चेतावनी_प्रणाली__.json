@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:52.159696",
+  "query_original": "'डिजिटल कीट चेतावनी प्रणाली'?",
+  "query_normalized": "डिजिटल कीट चेतावनी प्रणाली",
+  "query_expanded": "pest डिजिटल कीट चेतावनी प्रणाली कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'डिजिटल कीट चेतावनी प्रणाली'?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'डिजिटल कीट चेतावनी प्रणाली'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.8631512948731,
+      "CrossScore": 0.9998631512948731
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.998197918438315,
+      "CrossScore": 0.9998197918438314
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.997857413803096,
+      "CrossScore": 0.9997857413803097
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.99778523019516,
+      "CrossScore": 0.9997785230195159
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997675683863967,
+      "CrossScore": 0.9997675683863967
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 9.99758584744354,
+      "CrossScore": 0.9997585847443541
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.997364583236136,
+      "CrossScore": 0.9997364583236136
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "FinalScore": 9.997039226605729,
+      "CrossScore": 0.9997039226605728
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "FinalScore": 9.996673348409818,
+      "CrossScore": 0.9996673348409817
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton",
+      "FinalScore": 9.99544283530509,
+      "CrossScore": 0.999544283530509
+    }
+  ],
+  "latency_ms": 196.59,
+  "final_returned": [
+    {
+      "Question": "'डिजिटल कीट चेतावनी प्रणाली'?",
+      "Crop": "Agri Tech",
+      "Score": 999.8631512948731
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "Score": 9.998197918438315
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.997857413803096
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "Score": 9.99778523019516
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9.997675683863967
+    }
+  ]
+}

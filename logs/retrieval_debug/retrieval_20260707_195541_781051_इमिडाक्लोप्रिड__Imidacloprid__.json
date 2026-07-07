@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:41.574591",
+  "query_original": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+  "query_normalized": "इमिडाक्लोप्रिड imidacloprid का मुख्य कार्य क्या है",
+  "query_expanded": "इमिडाक्लोप्रिड imidacloprid का मुख्य कार्य क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बागवानी में सफलता का मुख्य सूत्र क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999255026872901,
+      "CrossScore": 0.9999255026872901
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995302911140684,
+      "CrossScore": 0.9995302911140684
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9995031510852165,
+      "CrossScore": 0.9995031510852165
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9994994857344454,
+      "CrossScore": 0.9994994857344454
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9993763210821505,
+      "CrossScore": 0.9993763210821505
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999374060596422,
+      "CrossScore": 0.999374060596422
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999344394587701,
+      "CrossScore": 0.999344394587701
+    },
+    {
+      "Question": "बोरॉन (Boron) उर्वरक का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9992749483342344,
+      "CrossScore": 0.9992749483342344
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9991730106448747,
+      "CrossScore": 0.9991730106448747
+    },
+    {
+      "Question": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9991529477554106,
+      "CrossScore": 0.9991529477554106
+    }
+  ],
+  "latency_ms": 206.56,
+  "final_returned": [
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9999255026872901
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9995302911140684
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9995031510852165
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9994994857344454
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9993763210821505
+    }
+  ]
+}

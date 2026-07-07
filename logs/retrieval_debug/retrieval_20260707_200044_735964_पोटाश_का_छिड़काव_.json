@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:44.582344",
+  "query_original": "पोटाश का छिड़काव?",
+  "query_normalized": "पोटाश का छिड़काव",
+  "query_expanded": "पोटाश का छिड़काव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पोटाश का छिड़काव?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "दलहनी फसलों में 'पोटाश' का छिड़काव कब करें?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मूंग की खेती में 'पोटाश' का छिड़काव?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "पोटाश का छिड़काव कब?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "अमरूद में 'जिंक सल्फेट' का छिड़काव?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पोटाश का छिड़काव?",
+      "Crop": "Rice",
+      "FinalScore": 999.8966748560592,
+      "CrossScore": 0.9998966748560593
+    },
+    {
+      "Question": "'धान का भूरा फदका' (BPH) और पोटाश?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999064402166861,
+      "CrossScore": 0.9999064402166861
+    },
+    {
+      "Question": "पोटाश का छिड़काव कब?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998973415068518,
+      "CrossScore": 0.9998973415068518
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998965867341577,
+      "CrossScore": 0.9998965867341577
+    },
+    {
+      "Question": "दलहनी फसलों में 'पोटाश' का महत्व?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998946255096111,
+      "CrossScore": 0.9998946255096111
+    },
+    {
+      "Question": "दलहनी फसलों में 'पोटाश' का छिड़काव कब करें?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998510706594311,
+      "CrossScore": 0.9998510706594311
+    },
+    {
+      "Question": "मूंग की खेती में 'पोटाश' का छिड़काव?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999839877970642,
+      "CrossScore": 0.999839877970642
+    },
+    {
+      "Question": "दलहनी फसलों में 'मैंगनीज' का छिड़काव?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997507444244929,
+      "CrossScore": 0.9997507444244929
+    },
+    {
+      "Question": "मूंग की खेती में 'सल्फर' का छिड़काव?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997189614932566,
+      "CrossScore": 0.9997189614932566
+    },
+    {
+      "Question": "मिर्च में 'जिंक सल्फेट' का छिड़काव?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9996851078424729,
+      "CrossScore": 0.9996851078424729
+    }
+  ],
+  "latency_ms": 153.65,
+  "final_returned": [
+    {
+      "Question": "पोटाश का छिड़काव?",
+      "Crop": "Rice",
+      "Score": 999.8966748560592
+    },
+    {
+      "Question": "'धान का भूरा फदका' (BPH) और पोटाश?",
+      "Crop": "Rice",
+      "Score": 0.9999064402166861
+    },
+    {
+      "Question": "पोटाश का छिड़काव कब?",
+      "Crop": "Rice",
+      "Score": 0.9998973415068518
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "Score": 0.9998965867341577
+    },
+    {
+      "Question": "दलहनी फसलों में 'पोटाश' का महत्व?",
+      "Crop": "Pulses",
+      "Score": 0.9998946255096111
+    }
+  ]
+}

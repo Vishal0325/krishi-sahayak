@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:35.102459",
+  "query_original": "एग्रीकल्चर एक्सपोर्ट जोन (AEZ) क्या हैं?",
+  "query_normalized": "एग्रीकल्चर एक्सपोर्ट जोन aez क्या हैं",
+  "query_expanded": "एग्रीकल्चर एक्सपोर्ट जोन aez क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एग्रीकल्चर एक्सपोर्ट जोन (AEZ) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एग्रीकल्चर एक्सपोर्ट जोन (AEZ) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8953536899065,
+      "CrossScore": 0.9998953536899066
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997437667149867,
+      "CrossScore": 0.9997437667149867
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997391737512149,
+      "CrossScore": 0.9997391737512149
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999738544084875,
+      "CrossScore": 0.999738544084875
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997305938015769,
+      "CrossScore": 0.9997305938015769
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997099459119381,
+      "CrossScore": 0.9997099459119381
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997084632169454,
+      "CrossScore": 0.9997084632169454
+    },
+    {
+      "Question": "क्या एलोवेरा के कांटे खतरनाक हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996924103315932,
+      "CrossScore": 0.9996924103315932
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996797234052495,
+      "CrossScore": 0.9996797234052495
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996719281418182,
+      "CrossScore": 0.9996719281418182
+    }
+  ],
+  "latency_ms": 201.18,
+  "final_returned": [
+    {
+      "Question": "एग्रीकल्चर एक्सपोर्ट जोन (AEZ) क्या हैं?",
+      "Crop": "General",
+      "Score": 999.8953536899065
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997437667149867
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997391737512149
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.999738544084875
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997305938015769
+    }
+  ]
+}

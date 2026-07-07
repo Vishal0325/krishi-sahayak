@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:09.860252",
+  "query_original": "सीड ड्रिल (Seed Drill) से बुआई के क्या फायदे हैं?",
+  "query_normalized": "सीड ड्रिल seed drill से बुआई के क्या फायदे हैं",
+  "query_expanded": "सीड ड्रिल seed drill से बुआई के क्या फायदे हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सीड ड्रिल (Seed Drill) से बुआई के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लोबिया (Cowpea) के क्या फायदे हैं?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सीड ड्रिल (Seed Drill) से बुआई के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999088495480308,
+      "CrossScore": 0.9999088495480308
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995246822128687,
+      "CrossScore": 0.9995246822128687
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995244018985073,
+      "CrossScore": 0.9995244018985073
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999362038263792,
+      "CrossScore": 0.999362038263792
+    },
+    {
+      "Question": "गेहूं की 'सीड ड्रिल' से बुआई का खर्च?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999115529365533,
+      "CrossScore": 0.999115529365533
+    },
+    {
+      "Question": "हाथ से चलने वाला 'सीड फर्टिलाइजर ड्रिल'?",
+      "Crop": "General",
+      "FinalScore": 0.9990326758526579,
+      "CrossScore": 0.9990326758526579
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989968230776178,
+      "CrossScore": 0.9989968230776178
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9989668289009236,
+      "CrossScore": 0.9989668289009236
+    },
+    {
+      "Question": "क्या बदलती जलवायु के कारण बुआई समय से पहले करनी चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9987804227811126,
+      "CrossScore": 0.9987804227811126
+    },
+    {
+      "Question": "सरसों की 'अगेती' बुआई के क्या लाभ हैं?",
+      "Crop": "Mustard",
+      "FinalScore": 0.998744472496926,
+      "CrossScore": 0.998744472496926
+    }
+  ],
+  "latency_ms": 212.84,
+  "final_returned": [
+    {
+      "Question": "सीड ड्रिल (Seed Drill) से बुआई के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9999088495480308
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9995246822128687
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9995244018985073
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.999362038263792
+    },
+    {
+      "Question": "गेहूं की 'सीड ड्रिल' से बुआई का खर्च?",
+      "Crop": "Wheat",
+      "Score": 0.999115529365533
+    }
+  ]
+}

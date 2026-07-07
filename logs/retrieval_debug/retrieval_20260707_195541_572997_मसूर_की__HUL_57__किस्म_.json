@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:41.389443",
+  "query_original": "मसूर की 'HUL-57' किस्म?",
+  "query_normalized": "मसूर की hul 57 किस्म",
+  "query_expanded": "मसूर की hul 57 किस्म",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मसूर की 'HUL-57' किस्म?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मसूर की 'HUL-57' बीज दर?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मसूर की 'राजेंद्र मसूरी-1' किस्म?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मसूर की 'पूसा वैभव' किस्म?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मसूर की 'L-4076' किस्म?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मसूर की 'HUL-57' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998996208071731,
+      "CrossScore": 0.9998996208071731
+    },
+    {
+      "Question": "मसूर की 'HUL-57' बीज दर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998959750146482,
+      "CrossScore": 0.9998959750146482
+    },
+    {
+      "Question": "मसूर की 'DPL-62' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9994730093073187,
+      "CrossScore": 0.9994730093073187
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9990296403576586,
+      "CrossScore": 0.9990296403576586
+    },
+    {
+      "Question": "मसूर की 'L-4076' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9989622264822574,
+      "CrossScore": 0.9989622264822574
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9988905011742603,
+      "CrossScore": 0.9988905011742603
+    },
+    {
+      "Question": "मसूर की 'PL-406' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9988722814999452,
+      "CrossScore": 0.9988722814999452
+    },
+    {
+      "Question": "मसूर की 'पूसा वैभव' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9988697767662997,
+      "CrossScore": 0.9988697767662997
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.998845331744145,
+      "CrossScore": 0.998845331744145
+    },
+    {
+      "Question": "मसूर की 'राजेंद्र मसूरी-1' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9987844326256421,
+      "CrossScore": 0.9987844326256421
+    }
+  ],
+  "latency_ms": 183.73,
+  "final_returned": [
+    {
+      "Question": "मसूर की 'HUL-57' किस्म?",
+      "Crop": "Pulses",
+      "Score": 0.9998996208071731
+    },
+    {
+      "Question": "मसूर की 'HUL-57' बीज दर?",
+      "Crop": "Pulses",
+      "Score": 0.9998959750146482
+    },
+    {
+      "Question": "मसूर की 'DPL-62' किस्म?",
+      "Crop": "Pulses",
+      "Score": 0.9994730093073187
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "Score": 0.9990296403576586
+    },
+    {
+      "Question": "मसूर की 'L-4076' किस्म?",
+      "Crop": "Pulses",
+      "Score": 0.9989622264822574
+    }
+  ]
+}

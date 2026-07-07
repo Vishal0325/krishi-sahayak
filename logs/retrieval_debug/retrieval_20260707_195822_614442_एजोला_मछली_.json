@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:22.472861",
+  "query_original": "एजोला मछली?",
+  "query_normalized": "एजोला मछली",
+  "query_expanded": "एजोला मछली",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एजोला मछली?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान-मछली एकीकृत खेती?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "एजोला क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मखाना के साथ 'मछली पालन'?",
+      "Crop": "Makhana"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998383077979607,
+      "CrossScore": 0.9998383077979607
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998281102965673,
+      "CrossScore": 0.9998281102965673
+    },
+    {
+      "Question": "एजोला मछली?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998257701019022,
+      "CrossScore": 0.9998257701019022
+    },
+    {
+      "Question": "खरपतवारनाशकों के छिड़काव के लिए 'नोजल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998198564399271,
+      "CrossScore": 0.9998198564399271
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998026571673716,
+      "CrossScore": 0.9998026571673716
+    },
+    {
+      "Question": "एजोला क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997561936548022,
+      "CrossScore": 0.9997561936548022
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997455191711972,
+      "CrossScore": 0.9997455191711972
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9996698076134889,
+      "CrossScore": 0.9996698076134889
+    },
+    {
+      "Question": "एजोला का प्रयोग?",
+      "Crop": "Rice",
+      "FinalScore": 0.9996448587754742,
+      "CrossScore": 0.9996448587754742
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9996393865853536,
+      "CrossScore": 0.9996393865853536
+    }
+  ],
+  "latency_ms": 141.64,
+  "final_returned": [
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "Score": 0.9998383077979607
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998281102965673
+    },
+    {
+      "Question": "एजोला मछली?",
+      "Crop": "Rice",
+      "Score": 0.9998257701019022
+    },
+    {
+      "Question": "खरपतवारनाशकों के छिड़काव के लिए 'नोजल'?",
+      "Crop": "General",
+      "Score": 0.9998198564399271
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "Score": 0.9998026571673716
+    }
+  ]
+}

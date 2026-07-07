@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:10.738345",
+  "query_original": "बीजामृत (Beejamrut) का उपयोग?",
+  "query_normalized": "बीजामृत beejamrut का उपयोग",
+  "query_expanded": "बीजामृत beejamrut का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बीजामृत (Beejamrut) का उपयोग?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "बीज उपचार में 'बीजामृत' का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बीजामृत (Beejamrut) का उपयोग?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999142316949972,
+      "CrossScore": 0.9999142316949972
+    },
+    {
+      "Question": "'बीजामृत' (Beejamrut) बनाने की सामग्री?",
+      "Crop": "General",
+      "FinalScore": 0.9998816540951593,
+      "CrossScore": 0.9998816540951593
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998396691212718,
+      "CrossScore": 0.9998396691212718
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997997613664167,
+      "CrossScore": 0.9997997613664167
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997928620360886,
+      "CrossScore": 0.9997928620360886
+    },
+    {
+      "Question": "अश्वगंधा के बीजों का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997858859682394,
+      "CrossScore": 0.9997858859682394
+    },
+    {
+      "Question": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997714418971081,
+      "CrossScore": 0.9997714418971081
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997564684942684,
+      "CrossScore": 0.9997564684942684
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.999751704338903,
+      "CrossScore": 0.999751704338903
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.999748524220234,
+      "CrossScore": 0.999748524220234
+    }
+  ],
+  "latency_ms": 223.21,
+  "final_returned": [
+    {
+      "Question": "बीजामृत (Beejamrut) का उपयोग?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999142316949972
+    },
+    {
+      "Question": "'बीजामृत' (Beejamrut) बनाने की सामग्री?",
+      "Crop": "General",
+      "Score": 0.9998816540951593
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9998396691212718
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997997613664167
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997928620360886
+    }
+  ]
+}

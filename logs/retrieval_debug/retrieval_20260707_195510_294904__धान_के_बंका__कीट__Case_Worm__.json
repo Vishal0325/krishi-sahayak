@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:55:10.074558",
+  "query_original": "'धान के बंका' कीट (Case Worm) की पहचान?",
+  "query_normalized": "धान के बंका कीट case worm की पहचान",
+  "query_expanded": "बग pest कीड़ा कीट धान के बंका कीट case worm की पहचान insect",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice",
+      "FinalScore": 499.94153854410604,
+      "CrossScore": 0.9998830770882121
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 499.93630434456617,
+      "CrossScore": 0.9998726086891323
+    },
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "FinalScore": 499.5160198630542,
+      "CrossScore": 0.9990320397261084
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "FinalScore": 499.26253324057944,
+      "CrossScore": 0.9985250664811589
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice",
+      "FinalScore": 49.95422720547503,
+      "CrossScore": 0.9990845441095005
+    },
+    {
+      "Question": "धान की फसल में गंधी बग का हमला?",
+      "Crop": "Rice",
+      "FinalScore": 49.93968453428385,
+      "CrossScore": 0.998793690685677
+    },
+    {
+      "Question": "'धान' के 'हॉपर बर्न' और 'BPH' कीट?",
+      "Crop": "Rice",
+      "FinalScore": 49.902897372263226,
+      "CrossScore": 0.9980579474452645
+    },
+    {
+      "Question": "धान में तुलसिता की पहचान?",
+      "Crop": "Rice",
+      "FinalScore": 49.869395016118006,
+      "CrossScore": 0.9973879003223601
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.995600696504916,
+      "CrossScore": 0.9995600696504915
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 9.993351906949213,
+      "CrossScore": 0.9993351906949213
+    }
+  ],
+  "latency_ms": 220.47,
+  "final_returned": [
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice",
+      "Score": 499.94153854410604
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "Score": 499.93630434456617
+    },
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "Score": 499.5160198630542
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "Score": 499.26253324057944
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice",
+      "Score": 49.95422720547503
+    }
+  ]
+}

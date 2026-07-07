@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:02:11.653992",
+  "query_original": "'लीची का माइट' कीट?",
+  "query_normalized": "लीची का माइट कीट",
+  "query_expanded": "pest लीची का माइट कीट कीड़ा बग कीट insect",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची का 'माइट' (Litchi Mite) कीट?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 499961.34121961344,
+      "CrossScore": 0.9999226824392269
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 499.9572525015654,
+      "CrossScore": 0.9999145050031308
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 499.95076406957844,
+      "CrossScore": 0.9999015281391569
+    },
+    {
+      "Question": "'लीची का माइट' और 'सल्फर'?",
+      "Crop": "Litchi",
+      "FinalScore": 499.8776594941929,
+      "CrossScore": 0.9997553189883859
+    },
+    {
+      "Question": "लीची का 'माइट' (Litchi Mite) कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99582455703278,
+      "CrossScore": 0.9999164911406557
+    },
+    {
+      "Question": "लीची का 'फल छेदक' (Fruit Borer) कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99556518222143,
+      "CrossScore": 0.9999113036444287
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99538885645964,
+      "CrossScore": 0.9999077771291928
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99473474098173,
+      "CrossScore": 0.9998946948196346
+    },
+    {
+      "Question": "लीची के 'माइट' का रोग लक्षण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99399845491696,
+      "CrossScore": 0.9998799690983392
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.992826001603035,
+      "CrossScore": 0.9998565200320607
+    }
+  ],
+  "latency_ms": 203.12,
+  "final_returned": [
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "Score": 499961.34121961344
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "Score": 499.9572525015654
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "Score": 499.95076406957844
+    },
+    {
+      "Question": "'लीची का माइट' और 'सल्फर'?",
+      "Crop": "Litchi",
+      "Score": 499.8776594941929
+    },
+    {
+      "Question": "लीची का 'माइट' (Litchi Mite) कीट?",
+      "Crop": "Litchi",
+      "Score": 49.99582455703278
+    }
+  ]
+}

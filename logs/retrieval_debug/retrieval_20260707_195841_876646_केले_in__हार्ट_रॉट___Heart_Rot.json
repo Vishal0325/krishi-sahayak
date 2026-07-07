@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:41.674831",
+  "query_original": "केले in 'हार्ट रॉट' (Heart Rot) की पहचान?",
+  "query_normalized": "केले in हार्ट रॉट heart rot की पहचान",
+  "query_expanded": "केले in हार्ट रॉट heart rot की पहचान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "केले in 'हार्ट रॉट' (Heart Rot) की पहचान?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "केले in 'सिगाटोका' (Sigatoka) की पहचान?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "केले in 'बंची टॉप' (Bunchy Top) की पहचान?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "केले in 'हार्ट रॉट' (Heart Rot) की पहचान?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998940503927295,
+      "CrossScore": 0.9998940503927295
+    },
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998003211361532,
+      "CrossScore": 0.9998003211361532
+    },
+    {
+      "Question": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+      "Crop": "Mango",
+      "FinalScore": 0.9997803856893315,
+      "CrossScore": 0.9997803856893315
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997761979562864,
+      "CrossScore": 0.9997761979562864
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997202257484857,
+      "CrossScore": 0.9997202257484857
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996700612384348,
+      "CrossScore": 0.9996700612384348
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9990848262381351,
+      "CrossScore": 0.9990848262381351
+    },
+    {
+      "Question": "सरसों in 'डाउन मिल्ड्यू' (Downy Mildew) की पहचान?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9989560840728368,
+      "CrossScore": 0.9989560840728368
+    },
+    {
+      "Question": "मिर्च in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9989005098220226,
+      "CrossScore": 0.9989005098220226
+    },
+    {
+      "Question": "गेहूं in 'कर्नाल बंट' (Karnal Bunt) की पहचान?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9987747208556046,
+      "CrossScore": 0.9987747208556046
+    }
+  ],
+  "latency_ms": 201.93,
+  "final_returned": [
+    {
+      "Question": "केले in 'हार्ट रॉट' (Heart Rot) की पहचान?",
+      "Crop": "Banana",
+      "Score": 0.9998940503927295
+    },
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice",
+      "Score": 0.9998003211361532
+    },
+    {
+      "Question": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+      "Crop": "Mango",
+      "Score": 0.9997803856893315
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "Score": 0.9997761979562864
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 0.9997202257484857
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:16.414858",
+  "query_original": "फसल चक्र और मौसम का क्या संबंध है?",
+  "query_normalized": "फसल चक्र और मौसम का क्या संबंध है",
+  "query_expanded": "फसल चक्र और मौसम का क्या संबंध है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 999.9275044445292,
+      "CrossScore": 0.9999275044445292
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9999363848791107,
+      "CrossScore": 0.9999363848791107
+    },
+    {
+      "Question": "मौसम आधारित फसल बीमा (WBCIS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999932010440497,
+      "CrossScore": 0.999932010440497
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9999273971412568,
+      "CrossScore": 0.9999273971412568
+    },
+    {
+      "Question": "क्या मौसम के कारण फसल की गुणवत्ता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999273272500755,
+      "CrossScore": 0.9999273272500755
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 0.9999224743145638,
+      "CrossScore": 0.9999224743145638
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999216606310624,
+      "CrossScore": 0.9999216606310624
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9999212492033113,
+      "CrossScore": 0.9999212492033113
+    },
+    {
+      "Question": "प्रधानमंत्री जन औषधि केंद्र का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9999202458063879,
+      "CrossScore": 0.9999202458063879
+    },
+    {
+      "Question": "चने की 'काबुली' और 'देशी' किस्म में क्या अंतर है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.99991867051961,
+      "CrossScore": 0.99991867051961
+    }
+  ],
+  "latency_ms": 246.73,
+  "final_returned": [
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General",
+      "Score": 999.9275044445292
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "Score": 0.9999363848791107
+    },
+    {
+      "Question": "मौसम आधारित फसल बीमा (WBCIS) क्या है?",
+      "Crop": "General",
+      "Score": 0.999932010440497
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9999273971412568
+    },
+    {
+      "Question": "क्या मौसम के कारण फसल की गुणवत्ता बदलती है?",
+      "Crop": "General",
+      "Score": 0.9999273272500755
+    }
+  ]
+}

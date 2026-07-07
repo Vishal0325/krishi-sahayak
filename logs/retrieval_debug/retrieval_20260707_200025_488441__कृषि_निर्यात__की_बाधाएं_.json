@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:25.239794",
+  "query_original": "'कृषि निर्यात' की बाधाएं?",
+  "query_normalized": "कृषि निर्यात की बाधाएं",
+  "query_expanded": "कृषि निर्यात की बाधाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "फलों की 'निर्यात' (Export) के लिए पैकिंग?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General",
+      "FinalScore": 999.9241854466953,
+      "CrossScore": 0.9999241854466954
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए 'अपीडा' (APEDA)?",
+      "Crop": "General",
+      "FinalScore": 0.9999221871632324,
+      "CrossScore": 0.9999221871632324
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999172632602398,
+      "CrossScore": 0.9999172632602398
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999089895553183,
+      "CrossScore": 0.9999089895553183
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9999056331767124,
+      "CrossScore": 0.9999056331767124
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ऑनलाइन मार्केटिंग'?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999015719810863,
+      "CrossScore": 0.9999015719810863
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998988654331561,
+      "CrossScore": 0.9998988654331561
+    },
+    {
+      "Question": "कृषि विभाग बिहार की आधिकारिक वेबसाइट क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998960135945958,
+      "CrossScore": 0.9998960135945958
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998952961962008,
+      "CrossScore": 0.9998952961962008
+    },
+    {
+      "Question": "'कृषि निर्यात' और पैकेजिंग मानक?",
+      "Crop": "General",
+      "FinalScore": 0.9998942830128107,
+      "CrossScore": 0.9998942830128107
+    }
+  ],
+  "latency_ms": 248.68,
+  "final_returned": [
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General",
+      "Score": 999.9241854466953
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए 'अपीडा' (APEDA)?",
+      "Crop": "General",
+      "Score": 0.9999221871632324
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics",
+      "Score": 0.9999172632602398
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "Score": 0.9999089895553183
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9999056331767124
+    }
+  ]
+}

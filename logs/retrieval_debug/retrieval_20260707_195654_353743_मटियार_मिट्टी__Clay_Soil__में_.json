@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:54.103441",
+  "query_original": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+  "query_normalized": "मटियार मिट्टी clay soil में खेती करते समय क्या सावधानी रखें",
+  "query_expanded": "मटियार मिट्टी clay soil में खेती करते समय क्या सावधानी रखें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में फूल आने के समय क्या सावधानी रखें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो यूरिया का स्प्रे करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.999873414541589,
+      "CrossScore": 0.999873414541589
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9997591473285244,
+      "CrossScore": 0.9997591473285244
+    },
+    {
+      "Question": "मिट्टी में चूना पत्थर (Limestone) डालने का सही समय क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9985546641848179,
+      "CrossScore": 0.9985546641848179
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9981891581631388,
+      "CrossScore": 0.9981891581631388
+    },
+    {
+      "Question": "क्या धूप में मिट्टी को खुला छोड़ना अच्छा है?",
+      "Crop": "General",
+      "FinalScore": 0.9974084389370547,
+      "CrossScore": 0.9974084389370547
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने में कौन सी सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.996941414186249,
+      "CrossScore": 0.996941414186249
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9967675845607672,
+      "CrossScore": 0.9967675845607672
+    },
+    {
+      "Question": "टमाटर के भंडारण के लिए क्या सावधानी रखें?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9964547249225697,
+      "CrossScore": 0.9964547249225697
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9961166303347282,
+      "CrossScore": 0.9961166303347282
+    },
+    {
+      "Question": "क्या जैविक खेती में 'खरपतवार' समस्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9958254305215467,
+      "CrossScore": 0.9958254305215467
+    }
+  ],
+  "latency_ms": 250.41,
+  "final_returned": [
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "Score": 0.999873414541589
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9997591473285244
+    },
+    {
+      "Question": "मिट्टी में चूना पत्थर (Limestone) डालने का सही समय क्या है?",
+      "Crop": "General",
+      "Score": 0.9985546641848179
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9981891581631388
+    },
+    {
+      "Question": "क्या धूप में मिट्टी को खुला छोड़ना अच्छा है?",
+      "Crop": "General",
+      "Score": 0.9974084389370547
+    }
+  ]
+}

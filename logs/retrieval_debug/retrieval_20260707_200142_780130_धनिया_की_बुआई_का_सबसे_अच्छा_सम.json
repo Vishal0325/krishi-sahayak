@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:42.590318",
+  "query_original": "धनिया की बुआई का सबसे अच्छा समय?",
+  "query_normalized": "धनिया की बुआई का सबसे अच्छा समय",
+  "query_expanded": "धनिया की बुआई का सबसे अच्छा समय",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धनिया की बुआई का सबसे अच्छा समय?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "लहसुन की बुआई का सबसे अच्छा समय?",
+      "Crop": "Garlic"
+    },
+    {
+      "Question": "आलू की बुआई का सबसे अच्छा समय?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "अदरक की बुआई का सबसे अच्छा समय?",
+      "Crop": "Ginger"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धनिया की बुआई का सबसे अच्छा समय?",
+      "Crop": "Coriander",
+      "FinalScore": 999.9094476722918,
+      "CrossScore": 0.9999094476722917
+    },
+    {
+      "Question": "सरसों की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999142616241877,
+      "CrossScore": 0.9999142616241877
+    },
+    {
+      "Question": "पत्तागोभी की बुआई का समय?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.999913443255649,
+      "CrossScore": 0.999913443255649
+    },
+    {
+      "Question": "मटर की बुआई का सही समय?",
+      "Crop": "Pea",
+      "FinalScore": 0.9999048298853488,
+      "CrossScore": 0.9999048298853488
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999020507144256,
+      "CrossScore": 0.9999020507144256
+    },
+    {
+      "Question": "लहसुन की बुआई का सबसे अच्छा समय?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9999019863389126,
+      "CrossScore": 0.9999019863389126
+    },
+    {
+      "Question": "भिंडी की बुआई का समय?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998989573947837,
+      "CrossScore": 0.9998989573947837
+    },
+    {
+      "Question": "गेहूं की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998930699276596,
+      "CrossScore": 0.9998930699276596
+    },
+    {
+      "Question": "मक्का की 'जायद' (गर्मी) बुआई का समय?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998921017932371,
+      "CrossScore": 0.9998921017932371
+    },
+    {
+      "Question": "धनिया की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998844658981899,
+      "CrossScore": 0.9998844658981899
+    }
+  ],
+  "latency_ms": 189.86,
+  "final_returned": [
+    {
+      "Question": "धनिया की बुआई का सबसे अच्छा समय?",
+      "Crop": "Coriander",
+      "Score": 999.9094476722918
+    },
+    {
+      "Question": "सरसों की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Mustard",
+      "Score": 0.9999142616241877
+    },
+    {
+      "Question": "पत्तागोभी की बुआई का समय?",
+      "Crop": "Cabbage",
+      "Score": 0.999913443255649
+    },
+    {
+      "Question": "मटर की बुआई का सही समय?",
+      "Crop": "Pea",
+      "Score": 0.9999048298853488
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999020507144256
+    }
+  ]
+}

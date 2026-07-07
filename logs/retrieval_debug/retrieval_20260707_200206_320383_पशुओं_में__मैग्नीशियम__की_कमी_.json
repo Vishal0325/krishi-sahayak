@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:06.123307",
+  "query_original": "पशुओं में 'मैग्नीशियम' की कमी (Grass Tetany)?",
+  "query_normalized": "पशुओं में मैग्नीशियम की कमी grass tetany",
+  "query_expanded": "पशुओं में मैग्नीशियम की कमी grass tetany",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'मैग्नीशियम' की कमी (Grass Tetany)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "दलहनी फसलों में 'मैग्नीशियम' की कमी?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'मैग्नीशियम' की कमी (Grass Tetany)?",
+      "Crop": "General",
+      "FinalScore": 999.8929850586558,
+      "CrossScore": 0.9998929850586558
+    },
+    {
+      "Question": "लीची में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9990798832160076,
+      "CrossScore": 0.9990798832160076
+    },
+    {
+      "Question": "पपीते में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9989937494883964,
+      "CrossScore": 0.9989937494883964
+    },
+    {
+      "Question": "पत्तागोभी में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9989353812035474,
+      "CrossScore": 0.9989353812035474
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9989279771623759,
+      "CrossScore": 0.9989279771623759
+    },
+    {
+      "Question": "मखाना में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9989088967288013,
+      "CrossScore": 0.9989088967288013
+    },
+    {
+      "Question": "टमाटर में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9989018151585278,
+      "CrossScore": 0.9989018151585278
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9988965834549005,
+      "CrossScore": 0.9988965834549005
+    },
+    {
+      "Question": "प्याज में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Onion",
+      "FinalScore": 0.9988902844831785,
+      "CrossScore": 0.9988902844831785
+    },
+    {
+      "Question": "'पौधों' में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9988646046138174,
+      "CrossScore": 0.9988646046138174
+    }
+  ],
+  "latency_ms": 197.11,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'मैग्नीशियम' की कमी (Grass Tetany)?",
+      "Crop": "General",
+      "Score": 999.8929850586558
+    },
+    {
+      "Question": "लीची में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Litchi",
+      "Score": 0.9990798832160076
+    },
+    {
+      "Question": "पपीते में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Papaya",
+      "Score": 0.9989937494883964
+    },
+    {
+      "Question": "पत्तागोभी में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Cabbage",
+      "Score": 0.9989353812035474
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy",
+      "Score": 0.9989279771623759
+    }
+  ]
+}

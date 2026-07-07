@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:29.936087",
+  "query_original": "'अरहर की फली मक्खी' और 'नमी'?",
+  "query_normalized": "अरहर की फली मक्खी और नमी",
+  "query_expanded": "अरहर की फली मक्खी और नमी",
+  "detected_crops": [
+    "Pulses"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'अरहर का फली मक्खी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अरहर की 'सीधी बुआई' और 'रोपाई'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses",
+      "FinalScore": 49994.284045530425,
+      "CrossScore": 0.9998856809106085
+    },
+    {
+      "Question": "'अरहर में बांझपन रोग' और 'मकड़ी'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.996073944445904,
+      "CrossScore": 0.9999214788889181
+    },
+    {
+      "Question": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99497865637842,
+      "CrossScore": 0.9998995731275685
+    },
+    {
+      "Question": "अरहर की 'इंटर-क्रॉपिंग'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99485081904449,
+      "CrossScore": 0.9998970163808898
+    },
+    {
+      "Question": "अरहर की 'लंबी अवधि' वाली किस्मों की उपज?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99464041351747,
+      "CrossScore": 0.9998928082703494
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99418217181927,
+      "CrossScore": 0.9998836434363854
+    },
+    {
+      "Question": "अरहर की 'सीधी बुआई' और 'रोपाई'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.993999278948245,
+      "CrossScore": 0.999879985578965
+    },
+    {
+      "Question": "अरहर की 'मालवीय अरहर-13' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 49.993781282616126,
+      "CrossScore": 0.9998756256523225
+    },
+    {
+      "Question": "अरहर की 'अगेती' किस्में कितने दिन में पकती हैं?",
+      "Crop": "Pulses",
+      "FinalScore": 49.993281491708395,
+      "CrossScore": 0.9998656298341678
+    },
+    {
+      "Question": "'अरहर का फली मक्खी'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99274559372477,
+      "CrossScore": 0.9998549118744954
+    }
+  ],
+  "latency_ms": 152.87,
+  "final_returned": [
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses",
+      "Score": 49994.284045530425
+    },
+    {
+      "Question": "'अरहर में बांझपन रोग' और 'मकड़ी'?",
+      "Crop": "Pulses",
+      "Score": 49.996073944445904
+    },
+    {
+      "Question": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+      "Crop": "Pulses",
+      "Score": 49.99497865637842
+    },
+    {
+      "Question": "अरहर की 'इंटर-क्रॉपिंग'?",
+      "Crop": "Pulses",
+      "Score": 49.99485081904449
+    },
+    {
+      "Question": "अरहर की 'लंबी अवधि' वाली किस्मों की उपज?",
+      "Crop": "Pulses",
+      "Score": 49.99464041351747
+    }
+  ]
+}

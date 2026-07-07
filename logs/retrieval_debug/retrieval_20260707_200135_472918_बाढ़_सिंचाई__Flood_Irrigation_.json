@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:35.265248",
+  "query_original": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+  "query_normalized": "बाढ़ सिंचाई flood irrigation के नुकसान क्या हैं",
+  "query_expanded": "बाढ़ सिंचाई flood irrigation के नुकसान क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "बैंगन की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9202932496312,
+      "CrossScore": 0.9999202932496312
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999752310112455,
+      "CrossScore": 0.999752310112455
+    },
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997487787225511,
+      "CrossScore": 0.9997487787225511
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9996464325022483,
+      "CrossScore": 0.9996464325022483
+    },
+    {
+      "Question": "फूलों की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9996439548337706,
+      "CrossScore": 0.9996439548337706
+    },
+    {
+      "Question": "टमाटर की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9996299633403799,
+      "CrossScore": 0.9996299633403799
+    },
+    {
+      "Question": "हल्दी की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9996259561033235,
+      "CrossScore": 0.9996259561033235
+    },
+    {
+      "Question": "केले की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Banana",
+      "FinalScore": 0.9996048024828507,
+      "CrossScore": 0.9996048024828507
+    },
+    {
+      "Question": "अदरक की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9995992968612103,
+      "CrossScore": 0.9995992968612103
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.999564327084254,
+      "CrossScore": 0.999564327084254
+    }
+  ],
+  "latency_ms": 207.72,
+  "final_returned": [
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "Score": 999.9202932496312
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.999752310112455
+    },
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997487787225511
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli",
+      "Score": 0.9996464325022483
+    },
+    {
+      "Question": "फूलों की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Floriculture",
+      "Score": 0.9996439548337706
+    }
+  ]
+}

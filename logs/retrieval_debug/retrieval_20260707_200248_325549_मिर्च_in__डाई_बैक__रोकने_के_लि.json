@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:48.116007",
+  "query_original": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+  "query_normalized": "मिर्च in डाई बैक रोकने के लिए बीज उपचार",
+  "query_expanded": "मिर्च in डाई बैक रोकने के लिए बीज उपचार",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 49992.557848792196,
+      "CrossScore": 0.9998511569758439
+    },
+    {
+      "Question": "मिर्च के लिए उपयुक्त जलवायु?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99201510054137,
+      "CrossScore": 0.9998403020108275
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99158611629853,
+      "CrossScore": 0.9998317223259705
+    },
+    {
+      "Question": "मिर्च में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.991569259676645,
+      "CrossScore": 0.9998313851935329
+    },
+    {
+      "Question": "मिर्च के फलों को 'चमकदार' बनाने के लिए पोटाश?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99146895418762,
+      "CrossScore": 0.9998293790837524
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99089401599416,
+      "CrossScore": 0.9998178803198832
+    },
+    {
+      "Question": "मिर्च में 'डाई-बैक' (Dieback) या 'एंथ्रेक्नोज' रोग?",
+      "Crop": "Chilli",
+      "FinalScore": 49.990321316241634,
+      "CrossScore": 0.9998064263248327
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99004157456412,
+      "CrossScore": 0.9998008314912824
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "FinalScore": 49.98994904394111,
+      "CrossScore": 0.9997989808788221
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.989708955755304,
+      "CrossScore": 0.999794179115106
+    }
+  ],
+  "latency_ms": 209.58,
+  "final_returned": [
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "Score": 49992.557848792196
+    },
+    {
+      "Question": "मिर्च के लिए उपयुक्त जलवायु?",
+      "Crop": "Chilli",
+      "Score": 49.99201510054137
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli",
+      "Score": 49.99158611629853
+    },
+    {
+      "Question": "मिर्च में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Chilli",
+      "Score": 49.991569259676645
+    },
+    {
+      "Question": "मिर्च के फलों को 'चमकदार' बनाने के लिए पोटाश?",
+      "Crop": "Chilli",
+      "Score": 49.99146895418762
+    }
+  ]
+}

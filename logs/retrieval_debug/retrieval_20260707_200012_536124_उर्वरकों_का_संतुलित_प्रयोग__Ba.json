@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:12.300576",
+  "query_original": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+  "query_normalized": "उर्वरकों का संतुलित प्रयोग balanced fertilization क्या है",
+  "query_expanded": "poshak खाद पोषण उर्वरक fertilizer उर्वरकों का संतुलित प्रयोग balanced fertilization क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.902590489682,
+      "CrossScore": 0.999902590489682
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998883914099831,
+      "CrossScore": 0.9998883914099831
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9995819269048563,
+      "CrossScore": 0.9995819269048563
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9985613414194807,
+      "CrossScore": 0.9985613414194807
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984102588961415,
+      "CrossScore": 0.9984102588961415
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9980801431567649,
+      "CrossScore": 0.9980801431567649
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9978742136376093,
+      "CrossScore": 0.9978742136376093
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9975380916238168,
+      "CrossScore": 0.9975380916238168
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9974901128005225,
+      "CrossScore": 0.9974901128005225
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9974377792684479,
+      "CrossScore": 0.9974377792684479
+    }
+  ],
+  "latency_ms": 235.58,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "Score": 999.902590489682
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General",
+      "Score": 0.9998883914099831
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9995819269048563
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9985613414194807
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9984102588961415
+    }
+  ]
+}

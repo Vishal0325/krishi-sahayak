@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:18.847446",
+  "query_original": "पशुओं को 'प्यास' का संकेत?",
+  "query_normalized": "पशुओं को प्यास का संकेत",
+  "query_expanded": "पशुओं को प्यास का संकेत",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं को 'प्यास' का संकेत?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'धूप' (Sunlight) का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'नहलाने' का लाभ?",
+      "Crop": "Livestock"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999272974444932,
+      "CrossScore": 0.9999272974444932
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999270896448605,
+      "CrossScore": 0.9999270896448605
+    },
+    {
+      "Question": "पशुओं को 'अनाज' खिलाने की सीमा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999237027081818,
+      "CrossScore": 0.9999237027081818
+    },
+    {
+      "Question": "पशुओं को 'प्यास' का संकेत?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999146272882469,
+      "CrossScore": 0.9999146272882469
+    },
+    {
+      "Question": "बकरियों को 'पानी' पिलाने का नियम?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999142684917087,
+      "CrossScore": 0.9999142684917087
+    },
+    {
+      "Question": "पशुओं में 'अफरा' (Bloating) का उपचार?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999136366776009,
+      "CrossScore": 0.9999136366776009
+    },
+    {
+      "Question": "पशुओं के 'व्यवहार' को समझना?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999133932220768,
+      "CrossScore": 0.9999133932220768
+    },
+    {
+      "Question": "पशुओं को 'नहलाने' का लाभ?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999107682512001,
+      "CrossScore": 0.9999107682512001
+    },
+    {
+      "Question": "पशुओं की खाद (Manure) का प्रबंधन?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999095792597528,
+      "CrossScore": 0.9999095792597528
+    },
+    {
+      "Question": "पशुओं को 'रात का भोजन'?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999065551470333,
+      "CrossScore": 0.9999065551470333
+    }
+  ],
+  "latency_ms": 155.21,
+  "final_returned": [
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9999272974444932
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9999270896448605
+    },
+    {
+      "Question": "पशुओं को 'अनाज' खिलाने की सीमा?",
+      "Crop": "Dairy",
+      "Score": 0.9999237027081818
+    },
+    {
+      "Question": "पशुओं को 'प्यास' का संकेत?",
+      "Crop": "Dairy",
+      "Score": 0.9999146272882469
+    },
+    {
+      "Question": "बकरियों को 'पानी' पिलाने का नियम?",
+      "Crop": "Livestock",
+      "Score": 0.9999142684917087
+    }
+  ]
+}

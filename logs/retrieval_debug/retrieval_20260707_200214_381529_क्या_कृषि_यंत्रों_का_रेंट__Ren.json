@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:14.108657",
+  "query_original": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+  "query_normalized": "क्या कृषि यंत्रों का रेंट rent पर बिजनेस किया जा सकता है",
+  "query_expanded": "क्या कृषि यंत्रों का रेंट rent पर बिजनेस किया जा सकता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 999.8386475545083,
+      "CrossScore": 0.9998386475545082
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.999636506618731,
+      "CrossScore": 0.999636506618731
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995761673806889,
+      "CrossScore": 0.9995761673806889
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9995579876230859,
+      "CrossScore": 0.9995579876230859
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995290375671562,
+      "CrossScore": 0.9995290375671562
+    },
+    {
+      "Question": "क्या बीमार पशु का दूध पिया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995215057341779,
+      "CrossScore": 0.9995215057341779
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9994944921220371,
+      "CrossScore": 0.9994944921220371
+    },
+    {
+      "Question": "क्या ड्रोन किराए पर देना (Drone Custom Hiring) एक बिजनेस हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994700890929394,
+      "CrossScore": 0.9994700890929394
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994472102984987,
+      "CrossScore": 0.9994472102984987
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9994112442119553,
+      "CrossScore": 0.9994112442119553
+    }
+  ],
+  "latency_ms": 272.91,
+  "final_returned": [
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "Score": 999.8386475545083
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "Score": 0.999636506618731
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9995761673806889
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "Score": 0.9995579876230859
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9995290375671562
+    }
+  ]
+}

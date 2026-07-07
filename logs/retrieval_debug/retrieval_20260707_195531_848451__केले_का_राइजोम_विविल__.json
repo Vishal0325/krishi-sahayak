@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:31.683151",
+  "query_original": "'केले का राइजोम विविल'?",
+  "query_normalized": "केले का राइजोम विविल",
+  "query_expanded": "केले का राइजोम विविल",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'केले का राइजोम विविल'?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "'केले का तना छेदक'?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "केले में 'बंच कवरिंग' का खर्च?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "'केले का तना छेदक' (Pseudostem Borer)?",
+      "Crop": "Banana"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "केले के 'अवशेषों' (तने और पत्तियों) का उपयोग?",
+      "Crop": "Banana",
+      "FinalScore": 0.999913560877419,
+      "CrossScore": 0.999913560877419
+    },
+    {
+      "Question": "'केले का तना छेदक' (Pseudostem Borer)?",
+      "Crop": "Banana",
+      "FinalScore": 0.9999126833800849,
+      "CrossScore": 0.9999126833800849
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana",
+      "FinalScore": 0.9999118248113799,
+      "CrossScore": 0.9999118248113799
+    },
+    {
+      "Question": "'केले का तना छेदक'?",
+      "Crop": "Banana",
+      "FinalScore": 0.9999057437056212,
+      "CrossScore": 0.9999057437056212
+    },
+    {
+      "Question": "'केले का राइजोम विविल'?",
+      "Crop": "Banana",
+      "FinalScore": 0.9999035498184723,
+      "CrossScore": 0.9999035498184723
+    },
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) रोग क्या है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998886851851868,
+      "CrossScore": 0.9998886851851868
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "FinalScore": 0.999885158650184,
+      "CrossScore": 0.999885158650184
+    },
+    {
+      "Question": "केले का 'सिगाटोका' (Sigatoka) पत्ती धब्बा रोग?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998797995829266,
+      "CrossScore": 0.9998797995829266
+    },
+    {
+      "Question": "केले में 'फास्फोरस' का महत्व?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998757590033945,
+      "CrossScore": 0.9998757590033945
+    },
+    {
+      "Question": "केले के 'कंद' (Corm) का उपचार?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998735777515401,
+      "CrossScore": 0.9998735777515401
+    }
+  ],
+  "latency_ms": 165.47,
+  "final_returned": [
+    {
+      "Question": "केले के 'अवशेषों' (तने और पत्तियों) का उपयोग?",
+      "Crop": "Banana",
+      "Score": 0.999913560877419
+    },
+    {
+      "Question": "'केले का तना छेदक' (Pseudostem Borer)?",
+      "Crop": "Banana",
+      "Score": 0.9999126833800849
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana",
+      "Score": 0.9999118248113799
+    },
+    {
+      "Question": "'केले का तना छेदक'?",
+      "Crop": "Banana",
+      "Score": 0.9999057437056212
+    },
+    {
+      "Question": "'केले का राइजोम विविल'?",
+      "Crop": "Banana",
+      "Score": 0.9999035498184723
+    }
+  ]
+}

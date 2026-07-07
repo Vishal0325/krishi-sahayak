@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:05.762973",
+  "query_original": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+  "query_normalized": "फार्म पॉन्ड farm pond योजना क्या है",
+  "query_expanded": "फार्म पॉन्ड farm pond योजना क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म गेट (Farm Gate) बिक्री क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फार्म टू फोर्क' (Farm to Fork) मॉडल क्या है?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म रिकॉर्ड (Farm Record) रखना क्यों जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.986507604292216,
+      "CrossScore": 0.9986507604292216
+    },
+    {
+      "Question": "कुसुम योजना (PM-KUSUM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.950639285384694,
+      "CrossScore": 0.9950639285384695
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.945182199950503,
+      "CrossScore": 0.9945182199950503
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.931481183426653,
+      "CrossScore": 0.9931481183426653
+    },
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.926626976728905,
+      "CrossScore": 0.9926626976728904
+    },
+    {
+      "Question": "गोबर धन योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.909707223769395,
+      "CrossScore": 0.9909707223769395
+    },
+    {
+      "Question": "बिहार राज्य फसल सहायता योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.903499559004352,
+      "CrossScore": 0.9903499559004353
+    },
+    {
+      "Question": "ग्रामीण भंडारण योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.89870324679589,
+      "CrossScore": 0.989870324679589
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.879758258043726,
+      "CrossScore": 0.9879758258043725
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.863499715006482,
+      "CrossScore": 0.9863499715006482
+    }
+  ],
+  "latency_ms": 211.73,
+  "final_returned": [
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General",
+      "Score": 9.986507604292216
+    },
+    {
+      "Question": "कुसुम योजना (PM-KUSUM) क्या है?",
+      "Crop": "General",
+      "Score": 9.950639285384694
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.945182199950503
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 9.931481183426653
+    },
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "Score": 9.926626976728905
+    }
+  ]
+}

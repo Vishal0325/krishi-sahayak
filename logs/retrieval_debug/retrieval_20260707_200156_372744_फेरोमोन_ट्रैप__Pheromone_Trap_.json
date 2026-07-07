@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:56.187352",
+  "query_original": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+  "query_normalized": "फेरोमोन ट्रैप pheromone trap क्या है",
+  "query_expanded": "फेरोमोन ट्रैप pheromone trap क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' (Pheromone Trap) की निगरानी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.93365234896,
+      "CrossScore": 0.99993365234896
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' (Pheromone Trap) की निगरानी?",
+      "Crop": "General",
+      "FinalScore": 0.9999272963352124,
+      "CrossScore": 0.9999272963352124
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999170028054271,
+      "CrossScore": 0.9999170028054271
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998871796006346,
+      "CrossScore": 0.9998871796006346
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998834318781735,
+      "CrossScore": 0.9998834318781735
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998572596487738,
+      "CrossScore": 0.9998572596487738
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998451324103338,
+      "CrossScore": 0.9998451324103338
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998441475800557,
+      "CrossScore": 0.9998441475800557
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997895287427491,
+      "CrossScore": 0.9997895287427491
+    },
+    {
+      "Question": "'स्मार्ट ट्रैप' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9992080489705227,
+      "CrossScore": 0.9992080489705227
+    }
+  ],
+  "latency_ms": 185.45,
+  "final_returned": [
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 999.93365234896
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' (Pheromone Trap) की निगरानी?",
+      "Crop": "General",
+      "Score": 0.9999272963352124
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999170028054271
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998871796006346
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998834318781735
+    }
+  ]
+}

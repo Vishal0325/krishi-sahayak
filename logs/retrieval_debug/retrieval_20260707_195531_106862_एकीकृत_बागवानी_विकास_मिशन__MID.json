@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:30.863502",
+  "query_original": "एकीकृत बागवानी विकास मिशन (MIDH) क्या है?",
+  "query_normalized": "एकीकृत बागवानी विकास मिशन midh क्या है",
+  "query_expanded": "एकीकृत बागवानी विकास मिशन midh क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एकीकृत बागवानी विकास मिशन (MIDH) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बागवानी में सफलता का मुख्य सूत्र क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एकीकृत बागवानी विकास मिशन (MIDH) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998766976378989,
+      "CrossScore": 0.9998766976378989
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998354082558731,
+      "CrossScore": 0.9998354082558731
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999789504057811,
+      "CrossScore": 0.999789504057811
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997775984933492,
+      "CrossScore": 0.9997775984933492
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997770602929492,
+      "CrossScore": 0.9997770602929492
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997767393023498,
+      "CrossScore": 0.9997767393023498
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997525621997686,
+      "CrossScore": 0.9997525621997686
+    },
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997417218676796,
+      "CrossScore": 0.9997417218676796
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997403208622795,
+      "CrossScore": 0.9997403208622795
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997294481044522,
+      "CrossScore": 0.9997294481044522
+    }
+  ],
+  "latency_ms": 243.49,
+  "final_returned": [
+    {
+      "Question": "एकीकृत बागवानी विकास मिशन (MIDH) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998766976378989
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.9998354082558731
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "Score": 0.999789504057811
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics",
+      "Score": 0.9997775984933492
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997770602929492
+    }
+  ]
+}

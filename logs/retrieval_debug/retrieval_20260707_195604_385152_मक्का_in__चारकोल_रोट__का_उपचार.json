@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:03.996073",
+  "query_original": "मक्का in 'चारकोल रोट' का उपचार?",
+  "query_normalized": "मक्का in चारकोल रोट का उपचार",
+  "query_expanded": "मक्का in चारकोल रोट का उपचार",
+  "detected_crops": [
+    "Maize"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मक्का in 'चारकोल रोट' का उपचार?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'मक्का का चारकोल रोट' (Charcoal Rot) और 'सूखा'?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का in 'यूरिया' की बचत के लिए 'नैनो यूरिया' का समय?",
+      "Crop": "Maize",
+      "FinalScore": 49.994394012398935,
+      "CrossScore": 0.9998878802479787
+    },
+    {
+      "Question": "मक्का in 'चारकोल रोट' का उपचार?",
+      "Crop": "Maize",
+      "FinalScore": 49.99366362558505,
+      "CrossScore": 0.999873272511701
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.99277370651619,
+      "CrossScore": 0.9998554741303238
+    },
+    {
+      "Question": "'मक्का का चारकोल रोट' (Charcoal Rot) और 'सूखा'?",
+      "Crop": "Maize",
+      "FinalScore": 49.992659099727945,
+      "CrossScore": 0.9998531819945589
+    },
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.992604967686596,
+      "CrossScore": 0.9998520993537319
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.992483880519025,
+      "CrossScore": 0.9998496776103805
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) का जैविक उपचार?",
+      "Crop": "Maize",
+      "FinalScore": 49.99237872359175,
+      "CrossScore": 0.9998475744718349
+    },
+    {
+      "Question": "मक्का in 'पोटाश' की कमी से 'बालियों' का आकार?",
+      "Crop": "Maize",
+      "FinalScore": 49.99219555560551,
+      "CrossScore": 0.9998439111121102
+    },
+    {
+      "Question": "'मक्का' में 'मईडिस ब्लाइट' का उपचार?",
+      "Crop": "Maize",
+      "FinalScore": 49.99176819962688,
+      "CrossScore": 0.9998353639925376
+    },
+    {
+      "Question": "मक्का का बीज उपचार कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 49.991470776110134,
+      "CrossScore": 0.9998294155222027
+    }
+  ],
+  "latency_ms": 389.16,
+  "final_returned": [
+    {
+      "Question": "मक्का in 'यूरिया' की बचत के लिए 'नैनो यूरिया' का समय?",
+      "Crop": "Maize",
+      "Score": 49.994394012398935
+    },
+    {
+      "Question": "मक्का in 'चारकोल रोट' का उपचार?",
+      "Crop": "Maize",
+      "Score": 49.99366362558505
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "Score": 49.99277370651619
+    },
+    {
+      "Question": "'मक्का का चारकोल रोट' (Charcoal Rot) और 'सूखा'?",
+      "Crop": "Maize",
+      "Score": 49.992659099727945
+    },
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize",
+      "Score": 49.992604967686596
+    }
+  ]
+}

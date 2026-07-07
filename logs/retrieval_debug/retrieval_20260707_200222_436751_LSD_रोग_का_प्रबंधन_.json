@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:22.259248",
+  "query_original": "LSD रोग का प्रबंधन?",
+  "query_normalized": "lsd रोग का प्रबंधन",
+  "query_expanded": "fungus lsd रोग का प्रबंधन फंगस बीमारी झुलसा disease रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "LSD रोग का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उकठा (Wilt) रोग का प्रबंधन कैसे करें?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "LSD रोग का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 999.9107067947552,
+      "CrossScore": 0.9999107067947552
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.99380559961546,
+      "CrossScore": 0.999380559961546
+    },
+    {
+      "Question": "उकठा (Wilt) रोग का प्रबंधन कैसे करें?",
+      "Crop": "Pulses",
+      "FinalScore": 9.993436678273847,
+      "CrossScore": 0.9993436678273847
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 9.993260911786077,
+      "CrossScore": 0.9993260911786077
+    },
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "FinalScore": 9.9930850494903,
+      "CrossScore": 0.9993085049490301
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.992908592953832,
+      "CrossScore": 0.9992908592953831
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.99264669317708,
+      "CrossScore": 0.9992646693177081
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 9.992244157298954,
+      "CrossScore": 0.9992244157298954
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "FinalScore": 9.991522832289952,
+      "CrossScore": 0.9991522832289953
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.990478776432054,
+      "CrossScore": 0.9990478776432055
+    }
+  ],
+  "latency_ms": 177.53,
+  "final_returned": [
+    {
+      "Question": "LSD रोग का प्रबंधन?",
+      "Crop": "General",
+      "Score": 999.9107067947552
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.99380559961546
+    },
+    {
+      "Question": "उकठा (Wilt) रोग का प्रबंधन कैसे करें?",
+      "Crop": "Pulses",
+      "Score": 9.993436678273847
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General",
+      "Score": 9.993260911786077
+    },
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "Score": 9.9930850494903
+    }
+  ]
+}

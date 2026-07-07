@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:49.851379",
+  "query_original": "'बीज दर' और पौधों की संख्या?",
+  "query_normalized": "बीज दर और पौधों की संख्या",
+  "query_expanded": "बीज दर और पौधों की संख्या",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "मटर (Field Pea) की खेती के लिए बीज दर?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "FinalScore": 999.9100655450504,
+      "CrossScore": 0.9999100655450505
+    },
+    {
+      "Question": "'बीज दर' और सघन बागवानी?",
+      "Crop": "General",
+      "FinalScore": 0.9999280159378229,
+      "CrossScore": 0.9999280159378229
+    },
+    {
+      "Question": "बैंगन की प्रति एकड़ बीज दर?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998986184393561,
+      "CrossScore": 0.9998986184393561
+    },
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "FinalScore": 0.9998940548379878,
+      "CrossScore": 0.9998940548379878
+    },
+    {
+      "Question": "टमाटर की प्रति एकड़ बीज दर?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998923074771439,
+      "CrossScore": 0.9998923074771439
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998911875836544,
+      "CrossScore": 0.9998911875836544
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998812346799545,
+      "CrossScore": 0.9998812346799545
+    },
+    {
+      "Question": "लहसुन की प्रति एकड़ बीज (कली) दर?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998758561114252,
+      "CrossScore": 0.9998758561114252
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998756031166862,
+      "CrossScore": 0.9998756031166862
+    },
+    {
+      "Question": "पत्तागोभी की प्रति एकड़ बीज दर?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.999875402369572,
+      "CrossScore": 0.999875402369572
+    }
+  ],
+  "latency_ms": 181.97,
+  "final_returned": [
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "Score": 999.9100655450504
+    },
+    {
+      "Question": "'बीज दर' और सघन बागवानी?",
+      "Crop": "General",
+      "Score": 0.9999280159378229
+    },
+    {
+      "Question": "बैंगन की प्रति एकड़ बीज दर?",
+      "Crop": "Brinjal",
+      "Score": 0.9998986184393561
+    },
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "Score": 0.9998940548379878
+    },
+    {
+      "Question": "टमाटर की प्रति एकड़ बीज दर?",
+      "Crop": "Tomato",
+      "Score": 0.9998923074771439
+    }
+  ]
+}

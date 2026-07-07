@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:59.329159",
+  "query_original": "डीवर्मिंग (Deworming) कब करनी चाहिए?",
+  "query_normalized": "डीवर्मिंग deworming कब करनी चाहिए",
+  "query_expanded": "डीवर्मिंग deworming कब करनी चाहिए",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "डीवर्मिंग (Deworming) कब करनी चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रबी मक्का की बुआई कब करनी चाहिए?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "धान की रोपाई कब करनी चाहिए?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान की cutai कब करनी चाहिए?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई कब नहीं करनी चाहिए?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "डीवर्मिंग (Deworming) कब करनी चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998967873142028,
+      "CrossScore": 0.9998967873142028
+    },
+    {
+      "Question": "मुर्गियों में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998248483110845,
+      "CrossScore": 0.9998248483110845
+    },
+    {
+      "Question": "धान की रोपाई कब करनी चाहिए?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997964100272537,
+      "CrossScore": 0.9997964100272537
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9997775340203721,
+      "CrossScore": 0.9997775340203721
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9997502329543848,
+      "CrossScore": 0.9997502329543848
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9997431593984702,
+      "CrossScore": 0.9997431593984702
+    },
+    {
+      "Question": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997370100296674,
+      "CrossScore": 0.9997370100296674
+    },
+    {
+      "Question": "सरसों की कटाई कब करनी चाहिए?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9997369084600318,
+      "CrossScore": 0.9997369084600318
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) कब करवाना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9997303316804915,
+      "CrossScore": 0.9997303316804915
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई कब नहीं करनी चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9997299581035481,
+      "CrossScore": 0.9997299581035481
+    }
+  ],
+  "latency_ms": 174.36,
+  "final_returned": [
+    {
+      "Question": "डीवर्मिंग (Deworming) कब करनी चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998967873142028
+    },
+    {
+      "Question": "मुर्गियों में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Poultry",
+      "Score": 0.9998248483110845
+    },
+    {
+      "Question": "धान की रोपाई कब करनी चाहिए?",
+      "Crop": "Rice",
+      "Score": 0.9997964100272537
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9997775340203721
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy",
+      "Score": 0.9997502329543848
+    }
+  ]
+}

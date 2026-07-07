@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:52.275137",
+  "query_original": "'पपीते का एफिड'?",
+  "query_normalized": "पपीते का एफिड",
+  "query_expanded": "पपीते का एफिड",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पपीते का एफिड'?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "'पपीते का एफिड' (Aphid) और 'वायरस'?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "पपीते की 'मृदा' की उर्वरता का राज?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "पपीते के 'बीज' को अंकुरित करने का तरीका?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस का फैलाव?",
+      "Crop": "Papaya"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पपीते का एफिड'?",
+      "Crop": "Papaya",
+      "FinalScore": 999.9181058254635,
+      "CrossScore": 0.9999181058254635
+    },
+    {
+      "Question": "'पपीते का एफिड' (Aphid) और 'वायरस'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9999218903830481,
+      "CrossScore": 0.9999218903830481
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस का फैलाव?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9999142873745555,
+      "CrossScore": 0.9999142873745555
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9999137153734607,
+      "CrossScore": 0.9999137153734607
+    },
+    {
+      "Question": "पपीते की कटाई के समय 'दूध' (Latex) का महत्व?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9999040600192771,
+      "CrossScore": 0.9999040600192771
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'तंबाकू'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998956177944535,
+      "CrossScore": 0.9998956177944535
+    },
+    {
+      "Question": "पपीते के 'अवशेषों' का उपयोग?",
+      "Crop": "Papaya",
+      "FinalScore": 0.999895204700179,
+      "CrossScore": 0.999895204700179
+    },
+    {
+      "Question": "पपीते में 'फास्फोरस' का महत्व?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998844541094869,
+      "CrossScore": 0.9998844541094869
+    },
+    {
+      "Question": "पपीते की 'मृदा' की उर्वरता का राज?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998787404564536,
+      "CrossScore": 0.9998787404564536
+    },
+    {
+      "Question": "पपीते में सिंचाई का सही तरीका?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998770257075069,
+      "CrossScore": 0.9998770257075069
+    }
+  ],
+  "latency_ms": 174.17,
+  "final_returned": [
+    {
+      "Question": "'पपीते का एफिड'?",
+      "Crop": "Papaya",
+      "Score": 999.9181058254635
+    },
+    {
+      "Question": "'पपीते का एफिड' (Aphid) और 'वायरस'?",
+      "Crop": "Papaya",
+      "Score": 0.9999218903830481
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस का फैलाव?",
+      "Crop": "Papaya",
+      "Score": 0.9999142873745555
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya",
+      "Score": 0.9999137153734607
+    },
+    {
+      "Question": "पपीते की कटाई के समय 'दूध' (Latex) का महत्व?",
+      "Crop": "Papaya",
+      "Score": 0.9999040600192771
+    }
+  ]
+}

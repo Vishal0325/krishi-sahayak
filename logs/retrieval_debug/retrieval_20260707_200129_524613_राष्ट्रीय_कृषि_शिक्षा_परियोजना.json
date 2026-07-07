@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:29.303787",
+  "query_original": "राष्ट्रीय कृषि शिक्षा परियोजना?",
+  "query_normalized": "राष्ट्रीय कृषि शिक्षा परियोजना",
+  "query_expanded": "राष्ट्रीय कृषि शिक्षा परियोजना",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय कृषि शिक्षा परियोजना?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'निरंतर शिक्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय कृषि विकास योजना (RKVY)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय कृषि शिक्षा परियोजना?",
+      "Crop": "General",
+      "FinalScore": 9998.755974228268,
+      "CrossScore": 0.9998755974228268
+    },
+    {
+      "Question": "राष्ट्रीय कृषि विकास योजना (RKVY)?",
+      "Crop": "General",
+      "FinalScore": 9.998611476932064,
+      "CrossScore": 0.9998611476932064
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998572198995955,
+      "CrossScore": 0.9998572198995954
+    },
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 9.99830059391098,
+      "CrossScore": 0.999830059391098
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.9998583879960516,
+      "CrossScore": 0.9998583879960516
+    },
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998377338610497,
+      "CrossScore": 0.9998377338610497
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'निरंतर शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.9998300483719901,
+      "CrossScore": 0.9998300483719901
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998175255526917,
+      "CrossScore": 0.9998175255526917
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998009395173924,
+      "CrossScore": 0.9998009395173924
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "FinalScore": 0.9997942069801082,
+      "CrossScore": 0.9997942069801082
+    }
+  ],
+  "latency_ms": 220.87,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय कृषि शिक्षा परियोजना?",
+      "Crop": "General",
+      "Score": 9998.755974228268
+    },
+    {
+      "Question": "राष्ट्रीय कृषि विकास योजना (RKVY)?",
+      "Crop": "General",
+      "Score": 9.998611476932064
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "Score": 9.998572198995955
+    },
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General",
+      "Score": 9.99830059391098
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.9998583879960516
+    }
+  ]
+}

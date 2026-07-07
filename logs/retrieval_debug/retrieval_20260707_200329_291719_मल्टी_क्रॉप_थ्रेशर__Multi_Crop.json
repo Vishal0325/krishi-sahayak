@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:29.085411",
+  "query_original": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+  "query_normalized": "मल्टी क्रॉप थ्रेशर multi crop thresher क्या है",
+  "query_expanded": "मल्टी क्रॉप थ्रेशर multi crop thresher क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'बहार प्रबंधन' (Crop Regulation) क्या है?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.928014153046,
+      "CrossScore": 0.999928014153046
+    },
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998910050200571,
+      "CrossScore": 0.9998910050200571
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999780619249372,
+      "CrossScore": 0.999780619249372
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9996822804595817,
+      "CrossScore": 0.9996822804595817
+    },
+    {
+      "Question": "मक्का थ्रेशर (Maize Sheller) की क्या विशेषता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995538900921647,
+      "CrossScore": 0.9995538900921647
+    },
+    {
+      "Question": "अमरूद में 'बहार प्रबंधन' (Crop Regulation) क्या है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9995532238606258,
+      "CrossScore": 0.9995532238606258
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9994992798283543,
+      "CrossScore": 0.9994992798283543
+    },
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General",
+      "FinalScore": 0.9991971153652297,
+      "CrossScore": 0.9991971153652297
+    },
+    {
+      "Question": "क्या मशीनों से फसल की मड़ाई (Threshing) सुरक्षित है?",
+      "Crop": "General",
+      "FinalScore": 0.9989676578335117,
+      "CrossScore": 0.9989676578335117
+    },
+    {
+      "Question": "मशीनों की 'टीपीओ' (PTO) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9979039645404819,
+      "CrossScore": 0.9979039645404819
+    }
+  ],
+  "latency_ms": 206.34,
+  "final_returned": [
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General",
+      "Score": 999.928014153046
+    },
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General",
+      "Score": 0.9998910050200571
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "Score": 0.999780619249372
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "Score": 0.9996822804595817
+    },
+    {
+      "Question": "मक्का थ्रेशर (Maize Sheller) की क्या विशेषता है?",
+      "Crop": "General",
+      "Score": 0.9995538900921647
+    }
+  ]
+}

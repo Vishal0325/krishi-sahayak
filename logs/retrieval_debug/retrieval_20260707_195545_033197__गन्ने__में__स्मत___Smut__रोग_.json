@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:44.840483",
+  "query_original": "'गन्ने' में 'स्मत' (Smut) रोग?",
+  "query_normalized": "गन्ने में स्मत smut रोग",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा रोग गन्ने में स्मत smut रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.999064855280563,
+      "CrossScore": 0.9999064855280564
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998780972521336,
+      "CrossScore": 0.9998780972521336
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "FinalScore": 9.998320781595869,
+      "CrossScore": 0.9998320781595869
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "FinalScore": 9.996960611639,
+      "CrossScore": 0.9996960611639001
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99648399707621,
+      "CrossScore": 0.999648399707621
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996285186060653,
+      "CrossScore": 0.9996285186060653
+    },
+    {
+      "Question": "'गन्ने का ग्रासी शूट' (Grassy Shoot) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99623807610281,
+      "CrossScore": 0.9996238076102809
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.995878141405171,
+      "CrossScore": 0.9995878141405171
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.992504596458707,
+      "CrossScore": 0.9992504596458707
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.970899006321423,
+      "CrossScore": 0.9970899006321422
+    }
+  ],
+  "latency_ms": 192.8,
+  "final_returned": [
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.999064855280563
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.998780972521336
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "Score": 9.998320781595869
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "Score": 9.996960611639
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "Score": 9.99648399707621
+    }
+  ]
+}

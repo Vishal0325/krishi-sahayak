@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:43.957254",
+  "query_original": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+  "query_normalized": "ड्रोन स्प्रेइंग drone spraying के क्या फायदे हैं",
+  "query_expanded": "ड्रोन स्प्रेइंग drone spraying के क्या फायदे हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लोबिया (Cowpea) के क्या फायदे हैं?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का में 'ह्यूमिक एसिड' के क्या फायदे हैं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9481970405925,
+      "CrossScore": 0.9999481970405925
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) पर सरकार कितनी सब्सिडी दे रही है?",
+      "Crop": "General",
+      "FinalScore": 0.99993939403983,
+      "CrossScore": 0.99993939403983
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996561659491138,
+      "CrossScore": 0.9996561659491138
+    },
+    {
+      "Question": "सीड ड्रिल (Seed Drill) से बुआई के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995364243858662,
+      "CrossScore": 0.9995364243858662
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994816565065765,
+      "CrossScore": 0.9994816565065765
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999329163137634,
+      "CrossScore": 0.999329163137634
+    },
+    {
+      "Question": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9991953729315445,
+      "CrossScore": 0.9991953729315445
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9990994001573025,
+      "CrossScore": 0.9990994001573025
+    },
+    {
+      "Question": "क्या मशीनों के लिए मोबाइल ऐप उपलब्ध हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9990962466943931,
+      "CrossScore": 0.9990962466943931
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9990824290887472,
+      "CrossScore": 0.9990824290887472
+    }
+  ],
+  "latency_ms": 197.95,
+  "final_returned": [
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 999.9481970405925
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) पर सरकार कितनी सब्सिडी दे रही है?",
+      "Crop": "General",
+      "Score": 0.99993939403983
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9996561659491138
+    },
+    {
+      "Question": "सीड ड्रिल (Seed Drill) से बुआई के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9995364243858662
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9994816565065765
+    }
+  ]
+}

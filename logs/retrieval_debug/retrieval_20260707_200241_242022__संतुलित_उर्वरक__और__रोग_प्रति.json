@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:41.016201",
+  "query_original": "'संतुलित उर्वरक' और 'रोग प्रतिरोधक क्षमता'?",
+  "query_normalized": "संतुलित उर्वरक और रोग प्रतिरोधक क्षमता",
+  "query_expanded": "fungus poshak खाद फंगस संतुलित उर्वरक और रोग प्रतिरोधक क्षमता बीमारी झुलसा disease पोषण उर्वरक रोग fertilizer",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'संतुलित उर्वरक' और 'रोग प्रतिरोधक क्षमता'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'संतुलित उर्वरक' और 'रोग प्रतिरोधक क्षमता'?",
+      "Crop": "General",
+      "FinalScore": 9998.549489466863,
+      "CrossScore": 0.9998549489466864
+    },
+    {
+      "Question": "'मृदा जनित रोग' (Soil Borne Diseases) और 'जल निकास'?",
+      "Crop": "General",
+      "FinalScore": 9.995962920217643,
+      "CrossScore": 0.9995962920217644
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और उर्वरक दक्षता?",
+      "Crop": "General",
+      "FinalScore": 0.9998294643115105,
+      "CrossScore": 0.9998294643115105
+    },
+    {
+      "Question": "'जल धारण क्षमता' और जैविक पदार्थ?",
+      "Crop": "General",
+      "FinalScore": 0.9998188140721529,
+      "CrossScore": 0.9998188140721529
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998167479077554,
+      "CrossScore": 0.9998167479077554
+    },
+    {
+      "Question": "'जल धारण क्षमता' और बलुई मिट्टी?",
+      "Crop": "General",
+      "FinalScore": 0.9997974126987441,
+      "CrossScore": 0.9997974126987441
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997894008715421,
+      "CrossScore": 0.9997894008715421
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997747634767513,
+      "CrossScore": 0.9997747634767513
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997710287834869,
+      "CrossScore": 0.9997710287834869
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997665734392894,
+      "CrossScore": 0.9997665734392894
+    }
+  ],
+  "latency_ms": 225.94,
+  "final_returned": [
+    {
+      "Question": "'संतुलित उर्वरक' और 'रोग प्रतिरोधक क्षमता'?",
+      "Crop": "General",
+      "Score": 9998.549489466863
+    },
+    {
+      "Question": "'मृदा जनित रोग' (Soil Borne Diseases) और 'जल निकास'?",
+      "Crop": "General",
+      "Score": 9.995962920217643
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और उर्वरक दक्षता?",
+      "Crop": "General",
+      "Score": 0.9998294643115105
+    },
+    {
+      "Question": "'जल धारण क्षमता' और जैविक पदार्थ?",
+      "Crop": "General",
+      "Score": 0.9998188140721529
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9998167479077554
+    }
+  ]
+}

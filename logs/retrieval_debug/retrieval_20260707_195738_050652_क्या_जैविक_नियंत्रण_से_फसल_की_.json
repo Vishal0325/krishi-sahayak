@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:37.826471",
+  "query_original": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+  "query_normalized": "क्या जैविक नियंत्रण से फसल की लागत कम होती है",
+  "query_expanded": "क्या जैविक नियंत्रण से फसल की लागत कम होती है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या जैविक खेती से पानी की बचत होती है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या मशीनों से फसल की मड़ाई (Threshing) सुरक्षित है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 9.998864086295491,
+      "CrossScore": 0.9998864086295491
+    },
+    {
+      "Question": "क्या जैविक खेती से पानी की बचत होती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 9.998815619736522,
+      "CrossScore": 0.9998815619736522
+    },
+    {
+      "Question": "खेती की 'परिवर्तनशील लागत' (Variable Cost) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 9.998086309226387,
+      "CrossScore": 0.9998086309226388
+    },
+    {
+      "Question": "खेती की 'निश्चित लागत' (Fixed Cost) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 9.997974851219855,
+      "CrossScore": 0.9997974851219854
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998885259581791,
+      "CrossScore": 0.9998885259581791
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999886336142449,
+      "CrossScore": 0.999886336142449
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998857221092347,
+      "CrossScore": 0.9998857221092347
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998822691046857,
+      "CrossScore": 0.9998822691046857
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से पूरी तरह कीट खत्म हो जाते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998776722320947,
+      "CrossScore": 0.9998776722320947
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998751839229711,
+      "CrossScore": 0.9998751839229711
+    }
+  ],
+  "latency_ms": 224.34,
+  "final_returned": [
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming",
+      "Score": 9.998864086295491
+    },
+    {
+      "Question": "क्या जैविक खेती से पानी की बचत होती है?",
+      "Crop": "Organic Farming",
+      "Score": 9.998815619736522
+    },
+    {
+      "Question": "खेती की 'परिवर्तनशील लागत' (Variable Cost) क्या है?",
+      "Crop": "Economics",
+      "Score": 9.998086309226387
+    },
+    {
+      "Question": "खेती की 'निश्चित लागत' (Fixed Cost) क्या है?",
+      "Crop": "Economics",
+      "Score": 9.997974851219855
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General",
+      "Score": 0.9998885259581791
+    }
+  ]
+}

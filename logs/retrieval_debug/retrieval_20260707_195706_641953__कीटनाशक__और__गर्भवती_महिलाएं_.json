@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:06.424059",
+  "query_original": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+  "query_normalized": "कीटनाशक और गर्भवती महिलाएं",
+  "query_expanded": "बग pest कीड़ा कीट कीटनाशक और गर्भवती महिलाएं insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशक' और 'जल प्रदूषण'?",
+      "Crop": "General",
+      "FinalScore": 9.998761558376511,
+      "CrossScore": 0.9998761558376511
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "FinalScore": 9.998642477038148,
+      "CrossScore": 0.9998642477038148
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 9.998620557659487,
+      "CrossScore": 0.9998620557659487
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "FinalScore": 9.998569204727499,
+      "CrossScore": 0.9998569204727499
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.99852607168741,
+      "CrossScore": 0.9998526071687409
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General",
+      "FinalScore": 9.998437851471378,
+      "CrossScore": 0.9998437851471378
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998437103539215,
+      "CrossScore": 0.9998437103539216
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General",
+      "FinalScore": 9.99812874120189,
+      "CrossScore": 0.999812874120189
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998081174978008,
+      "CrossScore": 0.9998081174978009
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'सिरका'?",
+      "Crop": "General",
+      "FinalScore": 9.998079322546582,
+      "CrossScore": 0.9998079322546582
+    }
+  ],
+  "latency_ms": 217.97,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशक' और 'जल प्रदूषण'?",
+      "Crop": "General",
+      "Score": 9.998761558376511
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "Score": 9.998642477038148
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 9.998620557659487
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "Score": 9.998569204727499
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 9.99852607168741
+    }
+  ]
+}

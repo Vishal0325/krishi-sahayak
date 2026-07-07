@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:07.992786",
+  "query_original": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+  "query_normalized": "गन्ने in लाल सड़न के लिए स्वस्थ बीज",
+  "query_expanded": "गन्ने in लाल सड़न के लिए स्वस्थ बीज",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "पत्तागोभी in 'काली सड़न' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Cabbage"
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999849365959738,
+      "CrossScore": 0.999849365959738
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998463926429813,
+      "CrossScore": 0.9998463926429813
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998392207131177,
+      "CrossScore": 0.9998392207131177
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998380450216648,
+      "CrossScore": 0.9998380450216648
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998369896396874,
+      "CrossScore": 0.9998369896396874
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998352085057233,
+      "CrossScore": 0.9998352085057233
+    },
+    {
+      "Question": "पत्तागोभी in 'काली सड़न' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.99982488304539,
+      "CrossScore": 0.99982488304539
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998218678604324,
+      "CrossScore": 0.9998218678604324
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.999789549812967,
+      "CrossScore": 0.999789549812967
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9997694154635839,
+      "CrossScore": 0.9997694154635839
+    }
+  ],
+  "latency_ms": 212.15,
+  "final_returned": [
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane",
+      "Score": 0.999849365959738
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998463926429813
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998392207131177
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "Score": 0.9998380450216648
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998369896396874
+    }
+  ]
+}

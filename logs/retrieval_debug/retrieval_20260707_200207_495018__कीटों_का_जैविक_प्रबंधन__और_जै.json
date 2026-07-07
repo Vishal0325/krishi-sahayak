@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:07.300491",
+  "query_original": "'कीटों का जैविक प्रबंधन' और जैव विविधता?",
+  "query_normalized": "कीटों का जैविक प्रबंधन और जैव विविधता",
+  "query_expanded": "pest कीड़ा बग कीट कीटों का जैविक प्रबंधन और जैव विविधता insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटों का जैविक प्रबंधन' और जैव विविधता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'शिक्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और 'शिक्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और लागत?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटों का जैविक प्रबंधन' और जैव विविधता?",
+      "Crop": "General",
+      "FinalScore": 999.8699826849938,
+      "CrossScore": 0.9998699826849938
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 9.998759106717563,
+      "CrossScore": 0.9998759106717563
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998594539627803,
+      "CrossScore": 0.9998594539627802
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 9.998585094732722,
+      "CrossScore": 0.9998585094732722
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General",
+      "FinalScore": 9.998555713919338,
+      "CrossScore": 0.9998555713919338
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.99853095171378,
+      "CrossScore": 0.999853095171378
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.998484592084232,
+      "CrossScore": 0.9998484592084231
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General",
+      "FinalScore": 9.99845002553675,
+      "CrossScore": 0.999845002553675
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General",
+      "FinalScore": 9.998427662653347,
+      "CrossScore": 0.9998427662653347
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 9.998335458952855,
+      "CrossScore": 0.9998335458952856
+    }
+  ],
+  "latency_ms": 194.57,
+  "final_returned": [
+    {
+      "Question": "'कीटों का जैविक प्रबंधन' और जैव विविधता?",
+      "Crop": "General",
+      "Score": 999.8699826849938
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "Score": 9.998759106717563
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "Score": 9.998594539627803
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "Score": 9.998585094732722
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General",
+      "Score": 9.998555713919338
+    }
+  ]
+}

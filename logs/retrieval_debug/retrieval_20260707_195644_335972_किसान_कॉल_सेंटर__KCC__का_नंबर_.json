@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:44.114335",
+  "query_original": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+  "query_normalized": "किसान कॉल सेंटर kcc का नंबर क्या है",
+  "query_expanded": "किसान कॉल सेंटर kcc का नंबर क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान कॉल सेंटर' (1800-180-1551) का समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99933568463424,
+      "CrossScore": 0.9999335684634238
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.999281578916088,
+      "CrossScore": 0.9999281578916088
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 9.999235561801513,
+      "CrossScore": 0.9999235561801512
+    },
+    {
+      "Question": "क्या किसान अपना खुद का बीज बेच सकता है?",
+      "Crop": "General",
+      "FinalScore": 9.996895561675764,
+      "CrossScore": 0.9996895561675765
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998221933346656,
+      "CrossScore": 0.9998221933346656
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998096231620117,
+      "CrossScore": 0.9998096231620117
+    },
+    {
+      "Question": "क्या किसान अपनी फसल का खुद 'रिटेल' (Retail) आउटलेट खोल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997803766851819,
+      "CrossScore": 0.9997803766851819
+    },
+    {
+      "Question": "'किसान कॉल सेंटर' (1800-180-1551) का समय?",
+      "Crop": "General",
+      "FinalScore": 0.999770418876839,
+      "CrossScore": 0.999770418876839
+    },
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.999768646241184,
+      "CrossScore": 0.999768646241184
+    },
+    {
+      "Question": "क्या किसान अपना खुद का यूट्यूब चैनल (YouTube Channel) बना सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997625167004405,
+      "CrossScore": 0.9997625167004405
+    }
+  ],
+  "latency_ms": 221.78,
+  "final_returned": [
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.99933568463424
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "Score": 9.999281578916088
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "Score": 9.999235561801513
+    },
+    {
+      "Question": "क्या किसान अपना खुद का बीज बेच सकता है?",
+      "Crop": "General",
+      "Score": 9.996895561675764
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998221933346656
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:16.462956",
+  "query_original": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+  "query_normalized": "धान in अंगमारी blight का प्रबंधन",
+  "query_expanded": "धान in अंगमारी blight का प्रबंधन",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'अंगमारी' रोकने के लिए 'जल प्रबंधन'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान' में 'अंगमारी' (Blight) का रासायनिक उपचार?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'हॉपर बर्न' का आर्थिक नुकसान?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice",
+      "FinalScore": 49992.905971597895,
+      "CrossScore": 0.9998581194319579
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99306388253129,
+      "CrossScore": 0.9998612776506257
+    },
+    {
+      "Question": "'धान' में 'अंगमारी' (Blight) का रासायनिक उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 49.99240089230595,
+      "CrossScore": 0.9998480178461191
+    },
+    {
+      "Question": "धान in 'अंगमारी' रोकने के लिए 'जल प्रबंधन'?",
+      "Crop": "Rice",
+      "FinalScore": 49.98091579263097,
+      "CrossScore": 0.9996183158526193
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "FinalScore": 49.9777739385067,
+      "CrossScore": 0.999555478770134
+    },
+    {
+      "Question": "धान in 'खैरा' रोग का समय?",
+      "Crop": "Rice",
+      "FinalScore": 49.977191478325196,
+      "CrossScore": 0.9995438295665039
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97690372865714,
+      "CrossScore": 0.9995380745731428
+    },
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 49.975611991315375,
+      "CrossScore": 0.9995122398263075
+    },
+    {
+      "Question": "धान in 'हॉपर बर्न' का आर्थिक नुकसान?",
+      "Crop": "Rice",
+      "FinalScore": 49.973839096372515,
+      "CrossScore": 0.9994767819274503
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice",
+      "FinalScore": 49.97169275629215,
+      "CrossScore": 0.9994338551258429
+    }
+  ],
+  "latency_ms": 186.29,
+  "final_returned": [
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice",
+      "Score": 49992.905971597895
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "Score": 49.99306388253129
+    },
+    {
+      "Question": "'धान' में 'अंगमारी' (Blight) का रासायनिक उपचार?",
+      "Crop": "Rice",
+      "Score": 49.99240089230595
+    },
+    {
+      "Question": "धान in 'अंगमारी' रोकने के लिए 'जल प्रबंधन'?",
+      "Crop": "Rice",
+      "Score": 49.98091579263097
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "Score": 49.9777739385067
+    }
+  ]
+}

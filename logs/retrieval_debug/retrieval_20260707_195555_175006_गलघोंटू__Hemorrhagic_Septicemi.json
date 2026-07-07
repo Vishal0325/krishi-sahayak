@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:54.855190",
+  "query_original": "गलघोंटू (Hemorrhagic Septicemia) की पहचान?",
+  "query_normalized": "गलघोंटू hemorrhagic septicemia की पहचान",
+  "query_expanded": "गलघोंटू hemorrhagic septicemia की पहचान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गलघोंटू (Hemorrhagic Septicemia) की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "गन्ने में 'पायरीला' (Pyrilla) कीट की पहचान?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गलघोंटू (Hemorrhagic Septicemia) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9999050238980267,
+      "CrossScore": 0.9999050238980267
+    },
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9586906756537474,
+      "CrossScore": 0.9586906756537474
+    },
+    {
+      "Question": "'मक्का का फाल आर्मीवर्म' (Fall Armyworm) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 0.9506734898124657,
+      "CrossScore": 0.9506734898124657
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9490315785887877,
+      "CrossScore": 0.9490315785887877
+    },
+    {
+      "Question": "गन्ने में 'पायरीला' (Pyrilla) कीट की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9477052314687355,
+      "CrossScore": 0.9477052314687355
+    },
+    {
+      "Question": "'लवणीय मिट्टी' (Saline Soil) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9457329351374604,
+      "CrossScore": 0.9457329351374604
+    },
+    {
+      "Question": "गेहूं में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9329984914939926,
+      "CrossScore": 0.9329984914939926
+    },
+    {
+      "Question": "मक्का में 'तना छेदक' (Chilo partellus) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 0.9273816159942811,
+      "CrossScore": 0.9273816159942811
+    },
+    {
+      "Question": "फलों के पेड़ों में 'बोरॉन' की कमी की पहचान?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9223514425092482,
+      "CrossScore": 0.9223514425092482
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9203404282144241,
+      "CrossScore": 0.9203404282144241
+    }
+  ],
+  "latency_ms": 319.97,
+  "final_returned": [
+    {
+      "Question": "गलघोंटू (Hemorrhagic Septicemia) की पहचान?",
+      "Crop": "General",
+      "Score": 0.9999050238980267
+    },
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato",
+      "Score": 0.9586906756537474
+    },
+    {
+      "Question": "'मक्का का फाल आर्मीवर्म' (Fall Armyworm) की पहचान?",
+      "Crop": "Maize",
+      "Score": 0.9506734898124657
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "Score": 0.9490315785887877
+    },
+    {
+      "Question": "गन्ने में 'पायरीला' (Pyrilla) कीट की पहचान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9477052314687355
+    }
+  ]
+}

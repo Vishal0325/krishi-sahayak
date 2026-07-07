@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:20.882818",
+  "query_original": "क्या शहद उत्पादन पर भी सब्सिडी है?",
+  "query_normalized": "क्या शहद उत्पादन पर भी सब्सिडी है",
+  "query_expanded": "क्या शहद उत्पादन पर भी सब्सिडी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या शहद उत्पादन पर भी सब्सिडी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या बिजली के कनेक्शन पर किसानों को सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशीनों पर सब्सिडी (Subsidy) लेने की प्रक्रिया क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या शहद उत्पादन पर भी सब्सिडी है?",
+      "Crop": "General",
+      "FinalScore": 999.8965940312163,
+      "CrossScore": 0.9998965940312163
+    },
+    {
+      "Question": "'अजवायन शहद' (Ajwain Honey) की क्या खासियत है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998860284525304,
+      "CrossScore": 0.9998860284525304
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का बिजनेस पर क्या असर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998838269193844,
+      "CrossScore": 0.9998838269193844
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998838178351994,
+      "CrossScore": 0.9998838178351994
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998834654421708,
+      "CrossScore": 0.9998834654421708
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998814834557818,
+      "CrossScore": 0.9998814834557818
+    },
+    {
+      "Question": "क्या मुर्गी पालन के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998800372951231,
+      "CrossScore": 0.9998800372951231
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998788335013543,
+      "CrossScore": 0.9998788335013543
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999877186252944,
+      "CrossScore": 0.999877186252944
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998770982718903,
+      "CrossScore": 0.9998770982718903
+    }
+  ],
+  "latency_ms": 227.44,
+  "final_returned": [
+    {
+      "Question": "क्या शहद उत्पादन पर भी सब्सिडी है?",
+      "Crop": "General",
+      "Score": 999.8965940312163
+    },
+    {
+      "Question": "'अजवायन शहद' (Ajwain Honey) की क्या खासियत है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998860284525304
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का बिजनेस पर क्या असर है?",
+      "Crop": "General",
+      "Score": 0.9998838269193844
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998838178351994
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General",
+      "Score": 0.9998834654421708
+    }
+  ]
+}

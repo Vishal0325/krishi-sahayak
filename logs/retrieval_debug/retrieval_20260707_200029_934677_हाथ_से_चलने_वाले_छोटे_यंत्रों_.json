@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:29.726328",
+  "query_original": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+  "query_normalized": "हाथ से चलने वाले छोटे यंत्रों hand tools का क्या महत्व है",
+  "query_expanded": "हाथ से चलने वाले छोटे यंत्रों hand tools का क्या महत्व है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 999.8938170583383,
+      "CrossScore": 0.9998938170583384
+    },
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.999220632792955,
+      "CrossScore": 0.999220632792955
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.999148047701209,
+      "CrossScore": 0.999148047701209
+    },
+    {
+      "Question": "हल्दी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9990875349518585,
+      "CrossScore": 0.9990875349518585
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9990612697122833,
+      "CrossScore": 0.9990612697122833
+    },
+    {
+      "Question": "आलू में पोटाश का क्या महत्व है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9989996633483653,
+      "CrossScore": 0.9989996633483653
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9989939555812811,
+      "CrossScore": 0.9989939555812811
+    },
+    {
+      "Question": "धनिया में पोटाश का क्या महत्व है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9989002049856424,
+      "CrossScore": 0.9989002049856424
+    },
+    {
+      "Question": "लीची में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9988666728511008,
+      "CrossScore": 0.9988666728511008
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9988638521343043,
+      "CrossScore": 0.9988638521343043
+    }
+  ],
+  "latency_ms": 208.39,
+  "final_returned": [
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 999.8938170583383
+    },
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.999220632792955
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "Score": 0.999148047701209
+    },
+    {
+      "Question": "हल्दी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Turmeric",
+      "Score": 0.9990875349518585
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9990612697122833
+    }
+  ]
+}

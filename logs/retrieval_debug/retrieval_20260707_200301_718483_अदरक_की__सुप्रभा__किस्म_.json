@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:01.538621",
+  "query_original": "अदरक की 'सुप्रभा' किस्म?",
+  "query_normalized": "अदरक की सुप्रभा किस्म",
+  "query_expanded": "अदरक की सुप्रभा किस्म",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अदरक की 'सुप्रभा' किस्म?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "अदरक की 'सुरुचि' किस्म की विशेषता?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "अदरक की 'हिमगिरी' किस्म?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "अदरक की 'सुरुचि' किस्म की उपज?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अदरक की 'सुप्रभा' किस्म?",
+      "Crop": "Ginger",
+      "FinalScore": 999.9032813436959,
+      "CrossScore": 0.9999032813436959
+    },
+    {
+      "Question": "अदरक की 'सुरुचि' किस्म की विशेषता?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999039446767409,
+      "CrossScore": 0.9999039446767409
+    },
+    {
+      "Question": "अदरक की 'सुरुचि' किस्म की उपज?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998989540224076,
+      "CrossScore": 0.9998989540224076
+    },
+    {
+      "Question": "भिंडी की 'अर्का अनामिका' किस्म?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998988702550254,
+      "CrossScore": 0.9998988702550254
+    },
+    {
+      "Question": "अदरक की 'हिमगिरी' किस्म?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998892593307456,
+      "CrossScore": 0.9998892593307456
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998871140643063,
+      "CrossScore": 0.9998871140643063
+    },
+    {
+      "Question": "अरहर की 'मालवीय अरहर-13' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998859907345568,
+      "CrossScore": 0.9998859907345568
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998836509809689,
+      "CrossScore": 0.9998836509809689
+    },
+    {
+      "Question": "अमरूद की 'श्वेता' किस्म?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998836381105024,
+      "CrossScore": 0.9998836381105024
+    },
+    {
+      "Question": "धनिया की 'स्वाति' किस्म की विशेषता?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999872938428968,
+      "CrossScore": 0.999872938428968
+    }
+  ],
+  "latency_ms": 179.89,
+  "final_returned": [
+    {
+      "Question": "अदरक की 'सुप्रभा' किस्म?",
+      "Crop": "Ginger",
+      "Score": 999.9032813436959
+    },
+    {
+      "Question": "अदरक की 'सुरुचि' किस्म की विशेषता?",
+      "Crop": "Ginger",
+      "Score": 0.9999039446767409
+    },
+    {
+      "Question": "अदरक की 'सुरुचि' किस्म की उपज?",
+      "Crop": "Ginger",
+      "Score": 0.9998989540224076
+    },
+    {
+      "Question": "भिंडी की 'अर्का अनामिका' किस्म?",
+      "Crop": "Okra",
+      "Score": 0.9998988702550254
+    },
+    {
+      "Question": "अदरक की 'हिमगिरी' किस्म?",
+      "Crop": "Ginger",
+      "Score": 0.9998892593307456
+    }
+  ]
+}

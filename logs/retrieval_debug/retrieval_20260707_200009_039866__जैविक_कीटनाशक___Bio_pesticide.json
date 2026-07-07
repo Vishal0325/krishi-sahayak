@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:08.821288",
+  "query_original": "'जैविक कीटनाशक' (Bio-pesticides) का असर?",
+  "query_normalized": "जैविक कीटनाशक bio pesticides का असर",
+  "query_expanded": "जैविक कीटनाशक bio pesticides का असर pest कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जैविक कीटनाशक' (Bio-pesticides) का असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'जैविक कीटनाशक' (Bio-pesticides)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक दवाओं का असर तुरंत होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जैविक कीटनाशक' (Bio-pesticides) का असर?",
+      "Crop": "General",
+      "FinalScore": 999.9155300494111,
+      "CrossScore": 0.9999155300494111
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "FinalScore": 9.978283438677622,
+      "CrossScore": 0.9978283438677621
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.976146125951956,
+      "CrossScore": 0.9976146125951956
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General",
+      "FinalScore": 9.96505062902912,
+      "CrossScore": 0.9965050629029121
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और 'ओस'?",
+      "Crop": "General",
+      "FinalScore": 9.939543062229223,
+      "CrossScore": 0.9939543062229222
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General",
+      "FinalScore": 9.93786989103518,
+      "CrossScore": 0.9937869891035181
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' का पर्यावरण पर असर?",
+      "Crop": "General",
+      "FinalScore": 9.932599730025121,
+      "CrossScore": 0.993259973002512
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'नमी'?",
+      "Crop": "General",
+      "FinalScore": 9.922591638610754,
+      "CrossScore": 0.9922591638610754
+    },
+    {
+      "Question": "IPM में 'जैविक कीटनाशक' (Bio-pesticides)?",
+      "Crop": "General",
+      "FinalScore": 0.9998918430271954,
+      "CrossScore": 0.9998918430271954
+    },
+    {
+      "Question": "क्या जैविक कीटनाशक रासायनिक के समान प्रभावी हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9977344408547515,
+      "CrossScore": 0.9977344408547515
+    }
+  ],
+  "latency_ms": 218.61,
+  "final_returned": [
+    {
+      "Question": "'जैविक कीटनाशक' (Bio-pesticides) का असर?",
+      "Crop": "General",
+      "Score": 999.9155300494111
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "Score": 9.978283438677622
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "Score": 9.976146125951956
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General",
+      "Score": 9.96505062902912
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और 'ओस'?",
+      "Crop": "General",
+      "Score": 9.939543062229223
+    }
+  ]
+}

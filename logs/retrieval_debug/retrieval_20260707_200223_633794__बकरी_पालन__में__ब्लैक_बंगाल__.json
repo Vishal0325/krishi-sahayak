@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:23.458242",
+  "query_original": "'बकरी पालन' में 'ब्लैक बंगाल' नस्ल?",
+  "query_normalized": "बकरी पालन में ब्लैक बंगाल नस्ल",
+  "query_expanded": "बकरी पालन में ब्लैक बंगाल नस्ल",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बकरी पालन' में 'ब्लैक बंगाल' नस्ल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मधुमक्खी पालन' में 'इटालियन' नस्ल क्यों?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ब्लैक बंगाल (Black Bengal) बकरी की क्या विशेषता है?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "बकरी पालन में 'मुनाफा' कैसे बढ़ाएं?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "बकरी पालन में 'स्टाल फीडिंग' (Stall Feeding) क्या है?",
+      "Crop": "Livestock"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बकरी पालन' में 'ब्लैक बंगाल' नस्ल?",
+      "Crop": "General",
+      "FinalScore": 999.854032656646,
+      "CrossScore": 0.9998540326566461
+    },
+    {
+      "Question": "बकरी पालन में 'मुनाफा' कैसे बढ़ाएं?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998194750568984,
+      "CrossScore": 0.9998194750568984
+    },
+    {
+      "Question": "ब्लैक बंगाल (Black Bengal) बकरी की क्या विशेषता है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998122804569408,
+      "CrossScore": 0.9998122804569408
+    },
+    {
+      "Question": "बकरी पालन में 'मार्केटिंग' के टिप्स?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999804263160628,
+      "CrossScore": 0.999804263160628
+    },
+    {
+      "Question": "बकरी पालन में 'नर' बकरे का चुनाव?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998034494355091,
+      "CrossScore": 0.9998034494355091
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "FinalScore": 0.9997936810306918,
+      "CrossScore": 0.9997936810306918
+    },
+    {
+      "Question": "पपीते के बाग में 'मधुमक्खी पालन'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9997870340889903,
+      "CrossScore": 0.9997870340889903
+    },
+    {
+      "Question": "'मधुमक्खी पालन' में वैल्यू एडिशन?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9997867117972282,
+      "CrossScore": 0.9997867117972282
+    },
+    {
+      "Question": "बकरी पालन में 'कास्टिंग' (Castration) क्यों?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9997850792798922,
+      "CrossScore": 0.9997850792798922
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997845922481727,
+      "CrossScore": 0.9997845922481727
+    }
+  ],
+  "latency_ms": 175.58,
+  "final_returned": [
+    {
+      "Question": "'बकरी पालन' में 'ब्लैक बंगाल' नस्ल?",
+      "Crop": "General",
+      "Score": 999.854032656646
+    },
+    {
+      "Question": "बकरी पालन में 'मुनाफा' कैसे बढ़ाएं?",
+      "Crop": "Livestock",
+      "Score": 0.9998194750568984
+    },
+    {
+      "Question": "ब्लैक बंगाल (Black Bengal) बकरी की क्या विशेषता है?",
+      "Crop": "Livestock",
+      "Score": 0.9998122804569408
+    },
+    {
+      "Question": "बकरी पालन में 'मार्केटिंग' के टिप्स?",
+      "Crop": "Livestock",
+      "Score": 0.999804263160628
+    },
+    {
+      "Question": "बकरी पालन में 'नर' बकरे का चुनाव?",
+      "Crop": "Livestock",
+      "Score": 0.9998034494355091
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:28.672226",
+  "query_original": "लीची in 'फल फटने' का रासायनिक उपचार?",
+  "query_normalized": "लीची in फल फटने का रासायनिक उपचार",
+  "query_expanded": "लीची in फल फटने का रासायनिक उपचार",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची in 'फल फटने' का रासायनिक उपचार?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' से बचाने के लिए 'हार्मोन'?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची in 'फल फटने' का रासायनिक उपचार?",
+      "Crop": "Litchi",
+      "FinalScore": 49993.70279562158,
+      "CrossScore": 0.9998740559124316
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99448247316459,
+      "CrossScore": 0.9998896494632917
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99378951970857,
+      "CrossScore": 0.9998757903941714
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99328445081706,
+      "CrossScore": 0.9998656890163411
+    },
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99317106377963,
+      "CrossScore": 0.9998634212755926
+    },
+    {
+      "Question": "लीची में सिंचाई का सही तरीका?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99295232499225,
+      "CrossScore": 0.999859046499845
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' से बचाने के लिए 'हार्मोन'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99261269199488,
+      "CrossScore": 0.9998522538398975
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99252956598463,
+      "CrossScore": 0.9998505913196927
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99235013946531,
+      "CrossScore": 0.9998470027893062
+    },
+    {
+      "Question": "लीची में 'सिंचाई' का अंतराल फल पकते समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.992262384898304,
+      "CrossScore": 0.9998452476979661
+    }
+  ],
+  "latency_ms": 199.51,
+  "final_returned": [
+    {
+      "Question": "लीची in 'फल फटने' का रासायनिक उपचार?",
+      "Crop": "Litchi",
+      "Score": 49993.70279562158
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "Score": 49.99448247316459
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "Score": 49.99378951970857
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "Score": 49.99328445081706
+    },
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi",
+      "Score": 49.99317106377963
+    }
+  ]
+}

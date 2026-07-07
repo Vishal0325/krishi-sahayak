@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:09.052232",
+  "query_original": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+  "query_normalized": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है",
+  "query_expanded": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998949185100229,
+      "CrossScore": 0.9998949185100229
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998849350351003,
+      "CrossScore": 0.9998849350351003
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998819590739143,
+      "CrossScore": 0.9998819590739143
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998817314850115,
+      "CrossScore": 0.9998817314850115
+    },
+    {
+      "Question": "क्या मिट्टी का स्वास्थ्य मानव स्वास्थ्य से जुड़ा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998804513629906,
+      "CrossScore": 0.9998804513629906
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.999879544286573,
+      "CrossScore": 0.999879544286573
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998758671201041,
+      "CrossScore": 0.9998758671201041
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998737301558821,
+      "CrossScore": 0.9998737301558821
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998702080056302,
+      "CrossScore": 0.9998702080056302
+    },
+    {
+      "Question": "सरसों की खेती में 'जिप्सम' का क्या लाभ है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.999863156514423,
+      "CrossScore": 0.999863156514423
+    }
+  ],
+  "latency_ms": 232.83,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9998949185100229
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9998849350351003
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9998819590739143
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998817314850115
+    },
+    {
+      "Question": "क्या मिट्टी का स्वास्थ्य मानव स्वास्थ्य से जुड़ा है?",
+      "Crop": "General",
+      "Score": 0.9998804513629906
+    }
+  ]
+}

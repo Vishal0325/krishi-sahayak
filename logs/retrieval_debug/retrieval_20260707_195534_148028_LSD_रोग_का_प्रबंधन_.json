@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:33.948974",
+  "query_original": "LSD रोग का प्रबंधन?",
+  "query_normalized": "lsd रोग का प्रबंधन",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा रोग lsd रोग का प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "LSD रोग का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सरसों' में 'झुलसा' (Blight) का प्रबंधन?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.99380559961546,
+      "CrossScore": 0.999380559961546
+    },
+    {
+      "Question": "उकठा (Wilt) रोग का प्रबंधन कैसे करें?",
+      "Crop": "Pulses",
+      "FinalScore": 9.993436678273847,
+      "CrossScore": 0.9993436678273847
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 9.993260911786077,
+      "CrossScore": 0.9993260911786077
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.992908592953832,
+      "CrossScore": 0.9992908592953831
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 9.992244157298954,
+      "CrossScore": 0.9992244157298954
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.990478776432054,
+      "CrossScore": 0.9990478776432055
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' (Late Blight) और 'बादल'?",
+      "Crop": "Potato",
+      "FinalScore": 9.99009157988652,
+      "CrossScore": 0.999009157988652
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "FinalScore": 9.988769705631203,
+      "CrossScore": 0.9988769705631203
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' का स्प्रे?",
+      "Crop": "Rice",
+      "FinalScore": 9.984361384196749,
+      "CrossScore": 0.9984361384196748
+    },
+    {
+      "Question": "सरसों in 'झुलसा' रोकने के लिए 'बुआई का समय'?",
+      "Crop": "Mustard",
+      "FinalScore": 9.982806457733856,
+      "CrossScore": 0.9982806457733856
+    }
+  ],
+  "latency_ms": 199.12,
+  "final_returned": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.99380559961546
+    },
+    {
+      "Question": "उकठा (Wilt) रोग का प्रबंधन कैसे करें?",
+      "Crop": "Pulses",
+      "Score": 9.993436678273847
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General",
+      "Score": 9.993260911786077
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.992908592953832
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "Score": 9.992244157298954
+    }
+  ]
+}

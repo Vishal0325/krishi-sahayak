@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:36.073869",
+  "query_original": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+  "query_normalized": "मशरूम की खेती में केसिंग casing का महत्व",
+  "query_expanded": "मशरूम की खेती में केसिंग casing का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम की खेती में 'डार्क रूम' का महत्व?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998733237381144,
+      "CrossScore": 0.9998733237381144
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9997723407893243,
+      "CrossScore": 0.9997723407893243
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9997202446863048,
+      "CrossScore": 0.9997202446863048
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच पेपर' का उपयोग?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9997056956819528,
+      "CrossScore": 0.9997056956819528
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996719478458034,
+      "CrossScore": 0.9996719478458034
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996572373073311,
+      "CrossScore": 0.9996572373073311
+    },
+    {
+      "Question": "मशरूम की खेती में 'डार्क रूम' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9996345692340629,
+      "CrossScore": 0.9996345692340629
+    },
+    {
+      "Question": "टमाटर की खेती में 'फास्फोरस' का महत्व?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995932910235914,
+      "CrossScore": 0.9995932910235914
+    },
+    {
+      "Question": "मशरूम की खेती में 'लाइटिंग' का समय?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995845901938099,
+      "CrossScore": 0.9995845901938099
+    },
+    {
+      "Question": "मशरूम की खेती में 'सफलता' का राज?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995814491826527,
+      "CrossScore": 0.9995814491826527
+    }
+  ],
+  "latency_ms": 196.99,
+  "final_returned": [
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998733237381144
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9997723407893243
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9997202446863048
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच पेपर' का उपयोग?",
+      "Crop": "Mushroom",
+      "Score": 0.9997056956819528
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9996719478458034
+    }
+  ]
+}

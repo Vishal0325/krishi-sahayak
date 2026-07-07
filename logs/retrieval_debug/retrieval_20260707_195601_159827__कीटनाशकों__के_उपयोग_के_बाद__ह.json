@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:00.952608",
+  "query_original": "'कीटनाशकों' के उपयोग के बाद 'हाथ'?",
+  "query_normalized": "कीटनाशकों के उपयोग के बाद हाथ",
+  "query_expanded": "बग pest कीड़ा कीट कीटनाशकों के उपयोग के बाद हाथ insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशकों' के उपयोग के बाद 'हाथ'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "कीटनाशकों के साथ 'चिपकने वाला' (Spreader/Sticker) क्यों उपयोग करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद 'स्ट्रॉ रीपर' का उपयोग?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "FinalScore": 9.998520175347641,
+      "CrossScore": 0.9998520175347642
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.99838581999881,
+      "CrossScore": 0.999838581999881
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.998213364587812,
+      "CrossScore": 0.9998213364587812
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.99809648936524,
+      "CrossScore": 0.999809648936524
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.997998882907769,
+      "CrossScore": 0.9997998882907768
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997721466520114,
+      "CrossScore": 0.9997721466520114
+    },
+    {
+      "Question": "'कीटनाशकों' के उपयोग के बाद 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 0.9998812894803013,
+      "CrossScore": 0.9998812894803013
+    },
+    {
+      "Question": "कीटनाशकों के साथ 'चिपकने वाला' (Spreader/Sticker) क्यों उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998534733168679,
+      "CrossScore": 0.9998534733168679
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998525815875062,
+      "CrossScore": 0.9998525815875062
+    },
+    {
+      "Question": "धनिया के 'अवशेषों' का उपयोग?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998449077886572,
+      "CrossScore": 0.9998449077886572
+    }
+  ],
+  "latency_ms": 207.33,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "Score": 9.998520175347641
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.99838581999881
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "Score": 9.998213364587812
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "Score": 9.99809648936524
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "Score": 9.997998882907769
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:35.193641",
+  "query_original": "'कीटों का जीवन चक्र' और 'निगरानी'?",
+  "query_normalized": "कीटों का जीवन चक्र और निगरानी",
+  "query_expanded": "pest कीटों का जीवन चक्र और निगरानी कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'निगरानी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "तापमान का कीटों के जीवन चक्र पर प्रभाव?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 9998.801560891723,
+      "CrossScore": 0.9998801560891724
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'कार्रवाई'?",
+      "Crop": "General",
+      "FinalScore": 9.999010431718524,
+      "CrossScore": 0.9999010431718525
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 9.998957387603793,
+      "CrossScore": 0.9998957387603794
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 9.998897828103255,
+      "CrossScore": 0.9998897828103255
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 9.998848091152682,
+      "CrossScore": 0.9998848091152682
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General",
+      "FinalScore": 9.99884735607573,
+      "CrossScore": 0.999884735607573
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General",
+      "FinalScore": 9.998821947626487,
+      "CrossScore": 0.9998821947626487
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.998810465361311,
+      "CrossScore": 0.9998810465361311
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 9.9987925160864,
+      "CrossScore": 0.9998792516086401
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General",
+      "FinalScore": 9.998774908289557,
+      "CrossScore": 0.9998774908289556
+    }
+  ],
+  "latency_ms": 171.64,
+  "final_returned": [
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'निगरानी'?",
+      "Crop": "General",
+      "Score": 9998.801560891723
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'कार्रवाई'?",
+      "Crop": "General",
+      "Score": 9.999010431718524
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "Score": 9.998957387603793
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "Score": 9.998897828103255
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "Score": 9.998848091152682
+    }
+  ]
+}

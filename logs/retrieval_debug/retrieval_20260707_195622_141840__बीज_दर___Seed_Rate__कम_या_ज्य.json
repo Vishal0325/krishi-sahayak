@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:21.954740",
+  "query_original": "'बीज दर' (Seed Rate) कम या ज्यादा होने के नुकसान?",
+  "query_normalized": "बीज दर seed rate कम या ज्यादा होने के नुकसान",
+  "query_expanded": "बीज दर seed rate कम या ज्यादा होने के नुकसान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीज दर' (Seed Rate) कम या ज्यादा होने के नुकसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज दर' कम होने से नुकसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मटर (Field Pea) की खेती के लिए बीज दर?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'असिंचित' खेती के लिए बीज दर?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीज दर' (Seed Rate) कम या ज्यादा होने के नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.9998043441424482,
+      "CrossScore": 0.9998043441424482
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9989738788604485,
+      "CrossScore": 0.9989738788604485
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9988881941533122,
+      "CrossScore": 0.9988881941533122
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए कौन सा बीज उपचार करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9988490566111252,
+      "CrossScore": 0.9988490566111252
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.997589535006902,
+      "CrossScore": 0.997589535006902
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9975108136852552,
+      "CrossScore": 0.9975108136852552
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9973470086154035,
+      "CrossScore": 0.9973470086154035
+    },
+    {
+      "Question": "गेहूं की 'असिंचित' खेती के लिए बीज दर?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9966528613909993,
+      "CrossScore": 0.9966528613909993
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9963008679616059,
+      "CrossScore": 0.9963008679616059
+    },
+    {
+      "Question": "मटर (Field Pea) की खेती के लिए बीज दर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9954320674396595,
+      "CrossScore": 0.9954320674396595
+    }
+  ],
+  "latency_ms": 187.21,
+  "final_returned": [
+    {
+      "Question": "'बीज दर' (Seed Rate) कम या ज्यादा होने के नुकसान?",
+      "Crop": "General",
+      "Score": 0.9998043441424482
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9989738788604485
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9988881941533122
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए कौन सा बीज उपचार करें?",
+      "Crop": "Wheat",
+      "Score": 0.9988490566111252
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice",
+      "Score": 0.997589535006902
+    }
+  ]
+}

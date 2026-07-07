@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:41.489748",
+  "query_original": "'चिकन विंग्स' और 'लेग पीस' की मांग?",
+  "query_normalized": "चिकन विंग्स और लेग पीस की मांग",
+  "query_expanded": "चिकन विंग्स और लेग पीस की मांग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'चिकन विंग्स' और 'लेग पीस' की मांग?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "भिंडी की 'कोमल' और 'सख्त' फलियों में अंतर?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "'मांग और आपूर्ति' (Demand and Supply) का नियम?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'चिकन विंग्स' और 'लेग पीस' की मांग?",
+      "Crop": "Poultry",
+      "FinalScore": 999.8561427525179,
+      "CrossScore": 0.9998561427525179
+    },
+    {
+      "Question": "रजनीगंधा की 'सिंगल' और 'डबल' किस्मों में अंतर?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9998445903999803,
+      "CrossScore": 0.9998445903999803
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'जूस' और 'कैनिंग'?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999842587451723,
+      "CrossScore": 0.999842587451723
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General",
+      "FinalScore": 0.9998178285644653,
+      "CrossScore": 0.9998178285644653
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' और 'पैकेजिंग' क्यों जरूरी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998075806806114,
+      "CrossScore": 0.9998075806806114
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997989145506743,
+      "CrossScore": 0.9997989145506743
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9997906397685355,
+      "CrossScore": 0.9997906397685355
+    },
+    {
+      "Question": "नीम (Neem) की व्यावसायिक खेती?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997715011637118,
+      "CrossScore": 0.9997715011637118
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999767850992091,
+      "CrossScore": 0.999767850992091
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997620434480996,
+      "CrossScore": 0.9997620434480996
+    }
+  ],
+  "latency_ms": 202.02,
+  "final_returned": [
+    {
+      "Question": "'चिकन विंग्स' और 'लेग पीस' की मांग?",
+      "Crop": "Poultry",
+      "Score": 999.8561427525179
+    },
+    {
+      "Question": "रजनीगंधा की 'सिंगल' और 'डबल' किस्मों में अंतर?",
+      "Crop": "Floriculture",
+      "Score": 0.9998445903999803
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'जूस' और 'कैनिंग'?",
+      "Crop": "Litchi",
+      "Score": 0.999842587451723
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General",
+      "Score": 0.9998178285644653
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' और 'पैकेजिंग' क्यों जरूरी है?",
+      "Crop": "Fruits",
+      "Score": 0.9998075806806114
+    }
+  ]
+}

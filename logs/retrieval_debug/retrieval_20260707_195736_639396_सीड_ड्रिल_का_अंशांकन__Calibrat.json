@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:36.413937",
+  "query_original": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+  "query_normalized": "सीड ड्रिल का अंशांकन calibration क्यों जरूरी है",
+  "query_expanded": "सीड ड्रिल का अंशांकन calibration क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "दवाओं का 'अदला-बदली' क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दवाओं का 'अदला-बदली' (Rotation) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान में जिंक सल्फेट का प्रयोग क्यों जरूरी है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998882019168127,
+      "CrossScore": 0.9998882019168127
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998738916361992,
+      "CrossScore": 0.9998738916361992
+    },
+    {
+      "Question": "दलहनी फसलों का बीज उपचार क्यों जरूरी है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999840083650841,
+      "CrossScore": 0.999840083650841
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998226291943435,
+      "CrossScore": 0.9998226291943435
+    },
+    {
+      "Question": "गेहूं की 'सीड ड्रिल' से बुआई का खर्च?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999819481597755,
+      "CrossScore": 0.999819481597755
+    },
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998096747075476,
+      "CrossScore": 0.9998096747075476
+    },
+    {
+      "Question": "मटर के बीजों का उपचार (Seed Treatment) क्यों जरूरी है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998051164465243,
+      "CrossScore": 0.9998051164465243
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9997967672806987,
+      "CrossScore": 0.9997967672806987
+    },
+    {
+      "Question": "बक्सों का 'स्थानांतरण' (Migration) क्यों जरूरी है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997961823926479,
+      "CrossScore": 0.9997961823926479
+    },
+    {
+      "Question": "धान में जिंक सल्फेट का प्रयोग क्यों जरूरी है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997923146307678,
+      "CrossScore": 0.9997923146307678
+    }
+  ],
+  "latency_ms": 225.57,
+  "final_returned": [
+    {
+      "Question": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998882019168127
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998738916361992
+    },
+    {
+      "Question": "दलहनी फसलों का बीज उपचार क्यों जरूरी है?",
+      "Crop": "Pulses",
+      "Score": 0.999840083650841
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998226291943435
+    },
+    {
+      "Question": "गेहूं की 'सीड ड्रिल' से बुआई का खर्च?",
+      "Crop": "Wheat",
+      "Score": 0.999819481597755
+    }
+  ]
+}

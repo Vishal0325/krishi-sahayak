@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:40.416235",
+  "query_original": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+  "query_normalized": "पशुओं को सूखा रखने dry period का महत्व",
+  "query_expanded": "पशुओं को सूखा रखने dry period का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'धूप' (Sunlight) का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "खेत की मेड़ों को साफ रखने का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999166948335094,
+      "CrossScore": 0.9999166948335094
+    },
+    {
+      "Question": "खरपतवारनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General",
+      "FinalScore": 0.999677443281923,
+      "CrossScore": 0.999677443281923
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9993510533674723,
+      "CrossScore": 0.9993510533674723
+    },
+    {
+      "Question": "औषधीय पौधों को सुखाने का सही तरीका?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9989622279652628,
+      "CrossScore": 0.9989622279652628
+    },
+    {
+      "Question": "पशुओं को 'धूप' (Sunlight) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9987631816362681,
+      "CrossScore": 0.9987631816362681
+    },
+    {
+      "Question": "खेत की मेड़ों को साफ रखने का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9987557227397721,
+      "CrossScore": 0.9987557227397721
+    },
+    {
+      "Question": "पशुओं को 'रात का भोजन'?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9987315933198072,
+      "CrossScore": 0.9987315933198072
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9986681422674312,
+      "CrossScore": 0.9986681422674312
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9984469821776263,
+      "CrossScore": 0.9984469821776263
+    },
+    {
+      "Question": "गन्ने में 'फास्फोरस' का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9982591654985697,
+      "CrossScore": 0.9982591654985697
+    }
+  ],
+  "latency_ms": 287.93,
+  "final_returned": [
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9999166948335094
+    },
+    {
+      "Question": "खरपतवारनाशकों का 'प्रतीक्षा काल' (Waiting Period)?",
+      "Crop": "General",
+      "Score": 0.999677443281923
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9993510533674723
+    },
+    {
+      "Question": "औषधीय पौधों को सुखाने का सही तरीका?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9989622279652628
+    },
+    {
+      "Question": "पशुओं को 'धूप' (Sunlight) का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9987631816362681
+    }
+  ]
+}

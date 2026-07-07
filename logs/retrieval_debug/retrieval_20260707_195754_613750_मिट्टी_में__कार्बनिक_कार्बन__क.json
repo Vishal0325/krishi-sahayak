@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:54.386993",
+  "query_original": "मिट्टी में 'कार्बनिक कार्बन' का आदर्श स्तर?",
+  "query_normalized": "मिट्टी में कार्बनिक कार्बन का आदर्श स्तर",
+  "query_expanded": "मिट्टी में कार्बनिक कार्बन का आदर्श स्तर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में 'कार्बनिक कार्बन' का आदर्श स्तर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में 'सिंचाई' का अंतराल मिट्टी के अनुसार?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गेहूं में 'काली मिट्टी' का प्रबंधन?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में कार्बनिक पदार्थ कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998934122886481,
+      "CrossScore": 0.9998934122886481
+    },
+    {
+      "Question": "मिट्टी में 'कार्बनिक कार्बन' का आदर्श स्तर?",
+      "Crop": "General",
+      "FinalScore": 0.9998713896080194,
+      "CrossScore": 0.9998713896080194
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998710853551206,
+      "CrossScore": 0.9998710853551206
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998668584421273,
+      "CrossScore": 0.9998668584421273
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998647131682512,
+      "CrossScore": 0.9998647131682512
+    },
+    {
+      "Question": "मिट्टी में 'जिंक' और 'फास्फोरस' का संतुलन?",
+      "Crop": "General",
+      "FinalScore": 0.9998524057722287,
+      "CrossScore": 0.9998524057722287
+    },
+    {
+      "Question": "मिट्टी में 'पोटाश' का फिक्सेशन?",
+      "Crop": "General",
+      "FinalScore": 0.9998392740549042,
+      "CrossScore": 0.9998392740549042
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998299585720477,
+      "CrossScore": 0.9998299585720477
+    },
+    {
+      "Question": "गेहूं में 'काली मिट्टी' का प्रबंधन?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998232081736127,
+      "CrossScore": 0.9998232081736127
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' के लिए 'नीम केक' का मिट्टी में प्रयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998228100647352,
+      "CrossScore": 0.9998228100647352
+    }
+  ],
+  "latency_ms": 226.86,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में कार्बनिक पदार्थ कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9998934122886481
+    },
+    {
+      "Question": "मिट्टी में 'कार्बनिक कार्बन' का आदर्श स्तर?",
+      "Crop": "General",
+      "Score": 0.9998713896080194
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9998710853551206
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998668584421273
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998647131682512
+    }
+  ]
+}

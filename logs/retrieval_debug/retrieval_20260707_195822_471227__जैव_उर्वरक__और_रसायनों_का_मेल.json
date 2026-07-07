@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:22.302316",
+  "query_original": "'जैव-उर्वरक' और रसायनों का मेल?",
+  "query_normalized": "जैव उर्वरक और रसायनों का मेल",
+  "query_expanded": "खाद poshak जैव उर्वरक और रसायनों का मेल fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9999006792057165,
+      "CrossScore": 0.9999006792057165
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998765373956422,
+      "CrossScore": 0.9998765373956422
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998727396925535,
+      "CrossScore": 0.9998727396925535
+    },
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998710319938776,
+      "CrossScore": 0.9998710319938776
+    },
+    {
+      "Question": "'कीटों का जैविक प्रबंधन' और जैव विविधता?",
+      "Crop": "General",
+      "FinalScore": 0.9998688532029424,
+      "CrossScore": 0.9998688532029424
+    },
+    {
+      "Question": "'जैव-उर्वरक' और मिट्टी की सजीवता?",
+      "Crop": "General",
+      "FinalScore": 0.9998679586496751,
+      "CrossScore": 0.9998679586496751
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.999860912216338,
+      "CrossScore": 0.999860912216338
+    },
+    {
+      "Question": "'पीएसबी' (PSB) जैव-उर्वरक का कार्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998574695095971,
+      "CrossScore": 0.9998574695095971
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998542943679282,
+      "CrossScore": 0.9998542943679282
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998364066570135,
+      "CrossScore": 0.9998364066570135
+    }
+  ],
+  "latency_ms": 168.98,
+  "final_returned": [
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "Score": 0.9999006792057165
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "Score": 0.9998765373956422
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "Score": 0.9998727396925535
+    },
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General",
+      "Score": 0.9998710319938776
+    },
+    {
+      "Question": "'कीटों का जैविक प्रबंधन' और जैव विविधता?",
+      "Crop": "General",
+      "Score": 0.9998688532029424
+    }
+  ]
+}

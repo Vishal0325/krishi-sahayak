@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:15.866828",
+  "query_original": "फसल के 'ग्रेड' (A",
+  "query_normalized": "फसल के ग्रेड a",
+  "query_expanded": "फसल के ग्रेड a",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फसल के 'ग्रेड' (A",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'दाल' आधारित फसल चक्र के लाभ?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "चने की खेती में 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अमरूद in 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "चने की फसल को 'नीलगाय' से बचाने के उपाय?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फसल के 'ग्रेड' (A",
+      "Crop": "General",
+      "FinalScore": 0.999894562890507,
+      "CrossScore": 0.999894562890507
+    },
+    {
+      "Question": "गन्ने की 'पेड़ी' (Ratoon) फसल क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996299994969111,
+      "CrossScore": 0.9996299994969111
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9993635528650012,
+      "CrossScore": 0.9993635528650012
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992543406201683,
+      "CrossScore": 0.9992543406201683
+    },
+    {
+      "Question": "अमरूद in 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Guava",
+      "FinalScore": 0.99840592538424,
+      "CrossScore": 0.99840592538424
+    },
+    {
+      "Question": "अमरूद में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9982732615524957,
+      "CrossScore": 0.9982732615524957
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9976872934067897,
+      "CrossScore": 0.9976872934067897
+    },
+    {
+      "Question": "खेती में 'दाल' आधारित फसल चक्र के लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9976079640749659,
+      "CrossScore": 0.9976079640749659
+    },
+    {
+      "Question": "चने की खेती में 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9974055704433414,
+      "CrossScore": 0.9974055704433414
+    },
+    {
+      "Question": "'हरी खाद' के लिए सबसे अच्छी फसल?",
+      "Crop": "General",
+      "FinalScore": 0.9970878937147232,
+      "CrossScore": 0.9970878937147232
+    }
+  ],
+  "latency_ms": 195.86,
+  "final_returned": [
+    {
+      "Question": "फसल के 'ग्रेड' (A",
+      "Crop": "General",
+      "Score": 0.999894562890507
+    },
+    {
+      "Question": "गन्ने की 'पेड़ी' (Ratoon) फसल क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9996299994969111
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9993635528650012
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Wheat",
+      "Score": 0.9992543406201683
+    },
+    {
+      "Question": "अमरूद in 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Guava",
+      "Score": 0.99840592538424
+    }
+  ]
+}

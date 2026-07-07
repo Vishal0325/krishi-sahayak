@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:11.197624",
+  "query_original": "मटर के लिए उपयुक्त जलवायु?",
+  "query_normalized": "मटर के लिए उपयुक्त जलवायु",
+  "query_expanded": "मटर के लिए उपयुक्त जलवायु",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया के लिए उपयुक्त जलवायु?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का के लिए उपयुक्त जलवायु कैसी होनी चाहिए?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "बैंगन के लिए उपयुक्त जलवायु?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9999225051366298,
+      "CrossScore": 0.9999225051366298
+    },
+    {
+      "Question": "मटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Pea",
+      "FinalScore": 0.9999169748622843,
+      "CrossScore": 0.9999169748622843
+    },
+    {
+      "Question": "मखाना के लिए उपयुक्त जलवायु?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999157364881053,
+      "CrossScore": 0.9999157364881053
+    },
+    {
+      "Question": "सरसों के लिए उपयुक्त जलवायु कैसी होनी चाहिए?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999151614562327,
+      "CrossScore": 0.9999151614562327
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999109087099427,
+      "CrossScore": 0.9999109087099427
+    },
+    {
+      "Question": "अदरक के लिए उपयुक्त जलवायु?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999070937593645,
+      "CrossScore": 0.9999070937593645
+    },
+    {
+      "Question": "पत्तागोभी के लिए उपयुक्त जलवायु?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999046986573783,
+      "CrossScore": 0.9999046986573783
+    },
+    {
+      "Question": "लीची के लिए उपयुक्त जलवायु?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999904676571519,
+      "CrossScore": 0.999904676571519
+    },
+    {
+      "Question": "बैंगन के लिए उपयुक्त जलवायु?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999030324664356,
+      "CrossScore": 0.9999030324664356
+    },
+    {
+      "Question": "पपीते के लिए उपयुक्त जलवायु?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9999019914792949,
+      "CrossScore": 0.9999019914792949
+    }
+  ],
+  "latency_ms": 219.05,
+  "final_returned": [
+    {
+      "Question": "टमाटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Tomato",
+      "Score": 0.9999225051366298
+    },
+    {
+      "Question": "मटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Pea",
+      "Score": 0.9999169748622843
+    },
+    {
+      "Question": "मखाना के लिए उपयुक्त जलवायु?",
+      "Crop": "Makhana",
+      "Score": 0.9999157364881053
+    },
+    {
+      "Question": "सरसों के लिए उपयुक्त जलवायु कैसी होनी चाहिए?",
+      "Crop": "Mustard",
+      "Score": 0.9999151614562327
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999109087099427
+    }
+  ]
+}

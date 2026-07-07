@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:47.847358",
+  "query_original": "'फ्लोरीकल्चर' (Floriculture) में कट-फ्लावर क्या हैं?",
+  "query_normalized": "फ्लोरीकल्चर floriculture में कट फ्लावर क्या हैं",
+  "query_expanded": "फ्लोरीकल्चर floriculture में कट फ्लावर क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फ्लोरीकल्चर' (Floriculture) में कट-फ्लावर क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फ्लोरीकल्चर (Floriculture/फूलों की खेती) में क्या संभावनाएं हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेंथा की खेती में 'सकर्स' (Stolons) क्या हैं?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "बिहार में मक्का आधारित उद्योग की क्या संभावनाएं हैं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फ्लोरीकल्चर' (Floriculture) में कट-फ्लावर क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9039049155488,
+      "CrossScore": 0.9999039049155488
+    },
+    {
+      "Question": "फ्लोरीकल्चर (Floriculture/फूलों की खेती) में क्या संभावनाएं हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999138822409864,
+      "CrossScore": 0.9999138822409864
+    },
+    {
+      "Question": "क्या फूलों की खेती (Floriculture) में जोखिम अधिक है?",
+      "Crop": "General",
+      "FinalScore": 0.9998807150883762,
+      "CrossScore": 0.9998807150883762
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994164990984099,
+      "CrossScore": 0.9994164990984099
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992475942031622,
+      "CrossScore": 0.9992475942031622
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9990499613536071,
+      "CrossScore": 0.9990499613536071
+    },
+    {
+      "Question": "क्या फूलों की खेती 'पॉलीहाउस' (Polyhouse) में करना बेहतर है?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9990463560462546,
+      "CrossScore": 0.9990463560462546
+    },
+    {
+      "Question": "मशरूम के बैग में 'छेद' क्यों करते हैं?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9989196168636735,
+      "CrossScore": 0.9989196168636735
+    },
+    {
+      "Question": "बिहार में सब्जियों के विपणन (Marketing) के लिए क्या सुविधाएं हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9987918174508759,
+      "CrossScore": 0.9987918174508759
+    },
+    {
+      "Question": "मेंथा की खेती में 'सकर्स' (Stolons) क्या हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9987578672145003,
+      "CrossScore": 0.9987578672145003
+    }
+  ],
+  "latency_ms": 213.27,
+  "final_returned": [
+    {
+      "Question": "'फ्लोरीकल्चर' (Floriculture) में कट-फ्लावर क्या हैं?",
+      "Crop": "General",
+      "Score": 999.9039049155488
+    },
+    {
+      "Question": "फ्लोरीकल्चर (Floriculture/फूलों की खेती) में क्या संभावनाएं हैं?",
+      "Crop": "General",
+      "Score": 0.9999138822409864
+    },
+    {
+      "Question": "क्या फूलों की खेती (Floriculture) में जोखिम अधिक है?",
+      "Crop": "General",
+      "Score": 0.9998807150883762
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9994164990984099
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9992475942031622
+    }
+  ]
+}

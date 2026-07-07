@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:50.091986",
+  "query_original": "'पौधा संरक्षण' में इमेज प्रोसेसिंग?",
+  "query_normalized": "पौधा संरक्षण में इमेज प्रोसेसिंग",
+  "query_expanded": "पौधा संरक्षण में इमेज प्रोसेसिंग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पौधा संरक्षण' में इमेज प्रोसेसिंग?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "IPM में 'पौधा संरक्षण' (Plant Protection) का समग्र दृष्टिकोण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधा संरक्षण' में किसानों के लिए विशेषज्ञों की सलाह?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मखाना' की प्रोसेसिंग में 'ग्रेडिंग' क्यों?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधा संरक्षण' और 'मिट्टी परीक्षण'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पौधा संरक्षण' में इमेज प्रोसेसिंग?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.8791095566326,
+      "CrossScore": 0.9998791095566325
+    },
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999001215071536,
+      "CrossScore": 0.9999001215071536
+    },
+    {
+      "Question": "'पौधा संरक्षण' और 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998987251126097,
+      "CrossScore": 0.9998987251126097
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998677363614117,
+      "CrossScore": 0.9998677363614117
+    },
+    {
+      "Question": "'पौधा संरक्षण' में किसानों के लिए विशेषज्ञों की सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9998645427782539,
+      "CrossScore": 0.9998645427782539
+    },
+    {
+      "Question": "IPM में 'पौधा संरक्षण' (Plant Protection) का समग्र दृष्टिकोण?",
+      "Crop": "General",
+      "FinalScore": 0.9998406128070011,
+      "CrossScore": 0.9998406128070011
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.999837452639006,
+      "CrossScore": 0.999837452639006
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रोसेसिंग' के लिए छोटी इकाई?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998214715003457,
+      "CrossScore": 0.9998214715003457
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998054144583268,
+      "CrossScore": 0.9998054144583268
+    },
+    {
+      "Question": "मूंग की कटाई में 'एक साथ पकना' क्यों जरूरी है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998003923295379,
+      "CrossScore": 0.9998003923295379
+    }
+  ],
+  "latency_ms": 190.79,
+  "final_returned": [
+    {
+      "Question": "'पौधा संरक्षण' में इमेज प्रोसेसिंग?",
+      "Crop": "Agri Tech",
+      "Score": 999.8791095566326
+    },
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "Score": 0.9999001215071536
+    },
+    {
+      "Question": "'पौधा संरक्षण' और 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "Score": 0.9998987251126097
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics",
+      "Score": 0.9998677363614117
+    },
+    {
+      "Question": "'पौधा संरक्षण' में किसानों के लिए विशेषज्ञों की सलाह?",
+      "Crop": "General",
+      "Score": 0.9998645427782539
+    }
+  ]
+}

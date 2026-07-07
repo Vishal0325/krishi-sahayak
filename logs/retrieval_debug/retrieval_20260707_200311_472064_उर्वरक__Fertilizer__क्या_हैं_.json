@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:11.281707",
+  "query_original": "उर्वरक (Fertilizer) क्या हैं?",
+  "query_normalized": "उर्वरक fertilizer क्या हैं",
+  "query_expanded": "poshak खाद पोषण उर्वरक उर्वरक fertilizer क्या हैं fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक उर्वरक फसल सुरक्षा को बिगाड़ सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9279379842424,
+      "CrossScore": 0.9999279379842424
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999900830626638,
+      "CrossScore": 0.999900830626638
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998940182600914,
+      "CrossScore": 0.9998940182600914
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998707663349864,
+      "CrossScore": 0.9998707663349864
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998607272127847,
+      "CrossScore": 0.9998607272127847
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9988113972795983,
+      "CrossScore": 0.9988113972795983
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9979580856094918,
+      "CrossScore": 0.9979580856094918
+    },
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9973889995206606,
+      "CrossScore": 0.9973889995206606
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9973715206186506,
+      "CrossScore": 0.9973715206186506
+    },
+    {
+      "Question": "क्या रासायनिक उर्वरक मिट्टी को खराब करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9962635025200214,
+      "CrossScore": 0.9962635025200214
+    }
+  ],
+  "latency_ms": 190.39,
+  "final_returned": [
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "Score": 999.9279379842424
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.999900830626638
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "Score": 0.9998940182600914
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9998707663349864
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998607272127847
+    }
+  ]
+}

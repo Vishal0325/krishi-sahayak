@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:40.470294",
+  "query_original": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+  "query_normalized": "अवर्णात्मक खरपतवारनाशी non selective herbicides क्या हैं",
+  "query_expanded": "अवर्णात्मक खरपतवारनाशी non selective herbicides क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जमाव पूर्व खरपतवारनाशी (Pre-emergence) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जमाव पश्चात खरपतवारनाशी (Post-emergence) क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.896316380729,
+      "CrossScore": 0.999896316380729
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997149017788536,
+      "CrossScore": 0.9997149017788536
+    },
+    {
+      "Question": "IPM में 'चयनित कीटनाशक' (Selective Insecticides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992638174133295,
+      "CrossScore": 0.9992638174133295
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989592135962508,
+      "CrossScore": 0.9989592135962508
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9956104922706661,
+      "CrossScore": 0.9956104922706661
+    },
+    {
+      "Question": "क्या खरपतवारनाशी को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9944361808346642,
+      "CrossScore": 0.9944361808346642
+    },
+    {
+      "Question": "जमाव पश्चात खरपतवारनाशी (Post-emergence) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9932439034557841,
+      "CrossScore": 0.9932439034557841
+    },
+    {
+      "Question": "जमाव पूर्व खरपतवारनाशी (Pre-emergence) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9929957901545872,
+      "CrossScore": 0.9929957901545872
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी में लंबे समय तक बने रहते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9925530230781334,
+      "CrossScore": 0.9925530230781334
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9924463343107431,
+      "CrossScore": 0.9924463343107431
+    }
+  ],
+  "latency_ms": 201.1,
+  "final_returned": [
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 999.896316380729
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997149017788536
+    },
+    {
+      "Question": "IPM में 'चयनित कीटनाशक' (Selective Insecticides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9992638174133295
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9989592135962508
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "Score": 0.9956104922706661
+    }
+  ]
+}

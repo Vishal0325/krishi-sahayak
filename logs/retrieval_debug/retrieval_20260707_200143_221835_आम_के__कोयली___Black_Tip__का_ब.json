@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:42.997809",
+  "query_original": "आम के 'कोयली' (Black Tip) का बचाव?",
+  "query_normalized": "आम के कोयली black tip का बचाव",
+  "query_expanded": "आम के कोयली black tip का बचाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आम के 'कोयली' (Black Tip) का बचाव?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम के 'कोयली' (Black Tip) रोग का क्या कारण है?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम का 'कोयली' (Black Tip) रोग?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम के बाग में 'गुच्छा रोग' (Bunchy Top/Malformation) का इलाज?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम के फल पकने के लिए 'कैल्शियम कार्बाइड' का प्रयोग क्यों नहीं करना चाहिए?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आम के 'कोयली' (Black Tip) का बचाव?",
+      "Crop": "Mango",
+      "FinalScore": 999.8679683442213,
+      "CrossScore": 0.9998679683442212
+    },
+    {
+      "Question": "आम के 'कोयली' (Black Tip) रोग का क्या कारण है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9999054841311172,
+      "CrossScore": 0.9999054841311172
+    },
+    {
+      "Question": "आम का 'कोयली' (Black Tip) रोग?",
+      "Crop": "Mango",
+      "FinalScore": 0.9999050325921249,
+      "CrossScore": 0.9999050325921249
+    },
+    {
+      "Question": "आलू के 'काली रूसी' (Black Scurf) का क्या इलाज है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997756281304766,
+      "CrossScore": 0.9997756281304766
+    },
+    {
+      "Question": "आम के 'अवशेषों' (सूखी टहनियों) का उपयोग?",
+      "Crop": "Mango",
+      "FinalScore": 0.9996245451266345,
+      "CrossScore": 0.9996245451266345
+    },
+    {
+      "Question": "आम के फल पकने के लिए 'कैल्शियम कार्बाइड' का प्रयोग क्यों नहीं करना चाहिए?",
+      "Crop": "Mango",
+      "FinalScore": 0.999530507322202,
+      "CrossScore": 0.999530507322202
+    },
+    {
+      "Question": "आम के बाग में 'गुच्छा रोग' (Bunchy Top/Malformation) का इलाज?",
+      "Crop": "Mango",
+      "FinalScore": 0.9995006817964008,
+      "CrossScore": 0.9995006817964008
+    },
+    {
+      "Question": "थनैला रोग से बचाव के लिए 'स्वच्छता' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9994557496478413,
+      "CrossScore": 0.9994557496478413
+    },
+    {
+      "Question": "आम के बाग में 'चूहों' का प्रबंधन?",
+      "Crop": "Mango",
+      "FinalScore": 0.9994224757764537,
+      "CrossScore": 0.9994224757764537
+    },
+    {
+      "Question": "आम के बाग में 'मिली बग' का जैविक इलाज?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9993702419999574,
+      "CrossScore": 0.9993702419999574
+    }
+  ],
+  "latency_ms": 224.08,
+  "final_returned": [
+    {
+      "Question": "आम के 'कोयली' (Black Tip) का बचाव?",
+      "Crop": "Mango",
+      "Score": 999.8679683442213
+    },
+    {
+      "Question": "आम के 'कोयली' (Black Tip) रोग का क्या कारण है?",
+      "Crop": "Mango",
+      "Score": 0.9999054841311172
+    },
+    {
+      "Question": "आम का 'कोयली' (Black Tip) रोग?",
+      "Crop": "Mango",
+      "Score": 0.9999050325921249
+    },
+    {
+      "Question": "आलू के 'काली रूसी' (Black Scurf) का क्या इलाज है?",
+      "Crop": "Potato",
+      "Score": 0.9997756281304766
+    },
+    {
+      "Question": "आम के 'अवशेषों' (सूखी टहनियों) का उपयोग?",
+      "Crop": "Mango",
+      "Score": 0.9996245451266345
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:41.046033",
+  "query_original": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+  "query_normalized": "पीएम किसान योजना की राशि कैसे मिलती है",
+  "query_expanded": "पीएम किसान योजना की राशि कैसे मिलती है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "FinalScore": 9998.663318023819,
+      "CrossScore": 0.9998663318023819
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.999093216870088,
+      "CrossScore": 0.9999093216870089
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998810218059587,
+      "CrossScore": 0.9998810218059587
+    },
+    {
+      "Question": "पीएम-किसान की अगली किस्त कब आएगी?",
+      "Crop": "General",
+      "FinalScore": 9.998795976854172,
+      "CrossScore": 0.9998795976854172
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998750675872039,
+      "CrossScore": 0.9998750675872038
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998731892245992,
+      "CrossScore": 0.9998731892245991
+    },
+    {
+      "Question": "क्या गोबर से पेंट बनाने की कोई योजना है?",
+      "Crop": "General",
+      "FinalScore": 9.99868183706769,
+      "CrossScore": 0.9998681837067689
+    },
+    {
+      "Question": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+      "Crop": "General",
+      "FinalScore": 9.998628819572822,
+      "CrossScore": 0.9998628819572821
+    },
+    {
+      "Question": "ई-केवाईसी (e-KYC) पीएम-किसान के लिए क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 9.99837531665736,
+      "CrossScore": 0.999837531665736
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998359883840914,
+      "CrossScore": 0.9998359883840914
+    }
+  ],
+  "latency_ms": 404.1,
+  "final_returned": [
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "Score": 9998.663318023819
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 9.999093216870088
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.998810218059587
+    },
+    {
+      "Question": "पीएम-किसान की अगली किस्त कब आएगी?",
+      "Crop": "General",
+      "Score": 9.998795976854172
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998750675872039
+    }
+  ]
+}

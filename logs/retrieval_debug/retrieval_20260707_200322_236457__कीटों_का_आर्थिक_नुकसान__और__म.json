@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-07-07T20:03:22.026951",
+  "query_original": "'कीटों का आर्थिक नुकसान' और 'मुनाफा'?",
+  "query_normalized": "कीटों का आर्थिक नुकसान और मुनाफा",
+  "query_expanded": "pest कीड़ा बग कीट insect कीटों का आर्थिक नुकसान और मुनाफा",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest",
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'मुनाफा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'उपज'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'कार्रवाई'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'फसल सुरक्षा'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'मुनाफा'?",
+      "Crop": "General",
+      "FinalScore": 9998.802768205554,
+      "CrossScore": 0.9998802768205555
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 9.999122287430538,
+      "CrossScore": 0.9999122287430537
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'कार्रवाई'?",
+      "Crop": "General",
+      "FinalScore": 9.999093680229459,
+      "CrossScore": 0.9999093680229459
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 9.999054614159213,
+      "CrossScore": 0.9999054614159213
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'फसल सुरक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.999026540042912,
+      "CrossScore": 0.9999026540042912
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान स्तर' (ETL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.999017967042905,
+      "CrossScore": 0.9999017967042905
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General",
+      "FinalScore": 9.99900482297546,
+      "CrossScore": 0.9999004822975459
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'उपज'?",
+      "Crop": "General",
+      "FinalScore": 9.998974594976179,
+      "CrossScore": 0.9998974594976179
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 9.99893340914096,
+      "CrossScore": 0.999893340914096
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General",
+      "FinalScore": 9.99891803622308,
+      "CrossScore": 0.999891803622308
+    }
+  ],
+  "latency_ms": 209.55,
+  "final_returned": [
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'मुनाफा'?",
+      "Crop": "General",
+      "Score": 9998.802768205554
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "Score": 9.999122287430538
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'कार्रवाई'?",
+      "Crop": "General",
+      "Score": 9.999093680229459
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "Score": 9.999054614159213
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'फसल सुरक्षा'?",
+      "Crop": "General",
+      "Score": 9.999026540042912
+    }
+  ]
+}

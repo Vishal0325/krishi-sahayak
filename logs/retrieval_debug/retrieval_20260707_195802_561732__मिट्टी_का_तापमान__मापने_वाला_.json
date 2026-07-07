@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:02.350357",
+  "query_original": "'मिट्टी का तापमान' मापने वाला सेंसर?",
+  "query_normalized": "मिट्टी का तापमान मापने वाला सेंसर",
+  "query_expanded": "मिट्टी का तापमान मापने वाला सेंसर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिट्टी का तापमान' मापने वाला सेंसर?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'मल्चिंग' (Mulching) और मिट्टी का तापमान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी के तापमान (Soil Temperature) का अंकुरण पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "FinalScore": 0.9998950777120656,
+      "CrossScore": 0.9998950777120656
+    },
+    {
+      "Question": "'मिट्टी का तापमान' मापने वाला सेंसर?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998831350503793,
+      "CrossScore": 0.9998831350503793
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' में आलू रखने का तापमान?",
+      "Crop": "General",
+      "FinalScore": 0.9998729043784581,
+      "CrossScore": 0.9998729043784581
+    },
+    {
+      "Question": "'मल्चिंग' (Mulching) और मिट्टी का तापमान?",
+      "Crop": "General",
+      "FinalScore": 0.99987090415683,
+      "CrossScore": 0.99987090415683
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General",
+      "FinalScore": 0.9998706897859385,
+      "CrossScore": 0.9998706897859385
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998703519861165,
+      "CrossScore": 0.9998703519861165
+    },
+    {
+      "Question": "मिट्टी में 'जिंक' की कमी से होने वाला नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.9998647358707199,
+      "CrossScore": 0.9998647358707199
+    },
+    {
+      "Question": "मक्का की 'मिट्टी' का पीएच 5.0 होने पर असर?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998610275531153,
+      "CrossScore": 0.9998610275531153
+    },
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998593100897031,
+      "CrossScore": 0.9998593100897031
+    },
+    {
+      "Question": "गेहूं की 'भंडारण' में नमी मापने का आसान तरीका?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998569859450062,
+      "CrossScore": 0.9998569859450062
+    }
+  ],
+  "latency_ms": 211.47,
+  "final_returned": [
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "Score": 0.9998950777120656
+    },
+    {
+      "Question": "'मिट्टी का तापमान' मापने वाला सेंसर?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998831350503793
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' में आलू रखने का तापमान?",
+      "Crop": "General",
+      "Score": 0.9998729043784581
+    },
+    {
+      "Question": "'मल्चिंग' (Mulching) और मिट्टी का तापमान?",
+      "Crop": "General",
+      "Score": 0.99987090415683
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General",
+      "Score": 0.9998706897859385
+    }
+  ]
+}

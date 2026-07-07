@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:16.670011",
+  "query_original": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+  "query_normalized": "नीला चिपचिपा ट्रैप blue sticky trap कब लगाएं",
+  "query_expanded": "नीला चिपचिपा ट्रैप blue sticky trap कब लगाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998916198185412,
+      "CrossScore": 0.9998916198185412
+    },
+    {
+      "Question": "चिपचिपे ट्रैप (Sticky Traps) की संख्या प्रति एकड़ कितनी हो?",
+      "Crop": "General",
+      "FinalScore": 0.999851855314914,
+      "CrossScore": 0.999851855314914
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998310945810703,
+      "CrossScore": 0.9998310945810703
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998255972414086,
+      "CrossScore": 0.9998255972414086
+    },
+    {
+      "Question": "'चिपचिपे ट्रैप' (Sticky Traps) की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9997609430444416,
+      "CrossScore": 0.9997609430444416
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' (Pheromone Trap) की निगरानी?",
+      "Crop": "General",
+      "FinalScore": 0.9996152106369088,
+      "CrossScore": 0.9996152106369088
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General",
+      "FinalScore": 0.9993330797153668,
+      "CrossScore": 0.9993330797153668
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993308533146711,
+      "CrossScore": 0.9993308533146711
+    },
+    {
+      "Question": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9990307255868747,
+      "CrossScore": 0.9990307255868747
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9989645650187996,
+      "CrossScore": 0.9989645650187996
+    }
+  ],
+  "latency_ms": 198.68,
+  "final_returned": [
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "Score": 0.9998916198185412
+    },
+    {
+      "Question": "चिपचिपे ट्रैप (Sticky Traps) की संख्या प्रति एकड़ कितनी हो?",
+      "Crop": "General",
+      "Score": 0.999851855314914
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998310945810703
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998255972414086
+    },
+    {
+      "Question": "'चिपचिपे ट्रैप' (Sticky Traps) की ऊँचाई?",
+      "Crop": "General",
+      "Score": 0.9997609430444416
+    }
+  ]
+}

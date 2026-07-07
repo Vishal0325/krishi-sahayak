@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:55:55.321521",
+  "query_original": "झुलसा रोग",
+  "query_normalized": "झुलसा रोग",
+  "query_expanded": "बीमारी झुलसा झुलसा रोग fungus रोग फंगस disease",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान में झुलसा रोग के लक्षण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "झुलसा रोग के लिए ट्राइसाइक्लाजोल?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 9.994982829830308,
+      "CrossScore": 0.9994982829830308
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.994914989857595,
+      "CrossScore": 0.9994914989857595
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.993718748414254,
+      "CrossScore": 0.9993718748414254
+    },
+    {
+      "Question": "सरसों in 'झुलसा' (Blight) का कवक?",
+      "Crop": "Mustard",
+      "FinalScore": 9.991994275337705,
+      "CrossScore": 0.9991994275337704
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "FinalScore": 9.990258433927544,
+      "CrossScore": 0.9990258433927544
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice",
+      "FinalScore": 9.990022760316254,
+      "CrossScore": 0.9990022760316255
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' का स्प्रे?",
+      "Crop": "Rice",
+      "FinalScore": 9.986944418163159,
+      "CrossScore": 0.9986944418163158
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.9176882386322,
+      "CrossScore": 0.9917688238632201
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 9.738947211242172,
+      "CrossScore": 0.9738947211242172
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' के लिए 'एंटीबायोटिक'?",
+      "Crop": "Rice",
+      "FinalScore": 9.411264508303137,
+      "CrossScore": 0.9411264508303138
+    }
+  ],
+  "latency_ms": 489.16,
+  "final_returned": [
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "Score": 9.994982829830308
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.994914989857595
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.993718748414254
+    }
+  ]
+}

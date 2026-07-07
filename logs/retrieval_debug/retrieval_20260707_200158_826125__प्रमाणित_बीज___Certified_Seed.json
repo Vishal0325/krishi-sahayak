@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:58.641384",
+  "query_original": "'प्रमाणित बीज' (Certified Seed) की पहचान?",
+  "query_normalized": "प्रमाणित बीज certified seed की पहचान",
+  "query_expanded": "प्रमाणित बीज certified seed की पहचान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रमाणित बीज' (Certified Seed) की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीले टैग' वाले बीज की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रमाणित बीज' (Certified Seed) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 999.8997356048247,
+      "CrossScore": 0.9998997356048247
+    },
+    {
+      "Question": "'नीले टैग' वाले बीज की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9998770536129354,
+      "CrossScore": 0.9998770536129354
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General",
+      "FinalScore": 0.9996246608982484,
+      "CrossScore": 0.9996246608982484
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9996163241637077,
+      "CrossScore": 0.9996163241637077
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9996073569736078,
+      "CrossScore": 0.9996073569736078
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.999527468857969,
+      "CrossScore": 0.999527468857969
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9982213917816912,
+      "CrossScore": 0.9982213917816912
+    },
+    {
+      "Question": "दलहनी फसलों में 'बीज की गुणवत्ता' कैसे जांचें?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9976086398823489,
+      "CrossScore": 0.9976086398823489
+    },
+    {
+      "Question": "मटर (Field Pea) की खेती के लिए बीज दर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9974678916879728,
+      "CrossScore": 0.9974678916879728
+    },
+    {
+      "Question": "मसूर की खेती में 'बीज का अंकुरण'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9968933464135047,
+      "CrossScore": 0.9968933464135047
+    }
+  ],
+  "latency_ms": 184.76,
+  "final_returned": [
+    {
+      "Question": "'प्रमाणित बीज' (Certified Seed) की पहचान?",
+      "Crop": "General",
+      "Score": 999.8997356048247
+    },
+    {
+      "Question": "'नीले टैग' वाले बीज की पहचान?",
+      "Crop": "General",
+      "Score": 0.9998770536129354
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General",
+      "Score": 0.9996246608982484
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9996163241637077
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General",
+      "Score": 0.9996073569736078
+    }
+  ]
+}

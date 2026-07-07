@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:35.705655",
+  "query_original": "'रिडोमिल गोल्ड' (Ridomil Gold) क्या है?",
+  "query_normalized": "रिडोमिल गोल्ड ridomil gold क्या है",
+  "query_expanded": "रिडोमिल गोल्ड ridomil gold क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'रिडोमिल गोल्ड' (Ridomil Gold) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रिडोमिल गोल्ड' (Ridomil Gold) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8815304597795,
+      "CrossScore": 0.9998815304597795
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9985635906341982,
+      "CrossScore": 0.9985635906341982
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9976000758382295,
+      "CrossScore": 0.9976000758382295
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9975038492745115,
+      "CrossScore": 0.9975038492745115
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9973580770291142,
+      "CrossScore": 0.9973580770291142
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.997119420362097,
+      "CrossScore": 0.997119420362097
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9971039903558918,
+      "CrossScore": 0.9971039903558918
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.996829928034329,
+      "CrossScore": 0.996829928034329
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9966967646605152,
+      "CrossScore": 0.9966967646605152
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9956715815981777,
+      "CrossScore": 0.9956715815981777
+    }
+  ],
+  "latency_ms": 184.65,
+  "final_returned": [
+    {
+      "Question": "'रिडोमिल गोल्ड' (Ridomil Gold) क्या है?",
+      "Crop": "General",
+      "Score": 999.8815304597795
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "Score": 0.9985635906341982
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9976000758382295
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "Score": 0.9975038492745115
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9973580770291142
+    }
+  ]
+}

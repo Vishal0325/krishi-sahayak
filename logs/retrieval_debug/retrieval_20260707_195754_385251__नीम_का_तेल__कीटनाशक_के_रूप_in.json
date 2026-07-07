@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:54.150945",
+  "query_original": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+  "query_normalized": "नीम का तेल कीटनाशक के रूप in कैसे काम करता है",
+  "query_expanded": "बग pest कीड़ा नीम का तेल कीटनाशक के रूप in कैसे काम करता है कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 9.998936964986576,
+      "CrossScore": 0.9998936964986576
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 9.99854760167217,
+      "CrossScore": 0.9998547601672171
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998322888998407,
+      "CrossScore": 0.9998322888998408
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.998045818561627,
+      "CrossScore": 0.9998045818561627
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.997782969522063,
+      "CrossScore": 0.9997782969522063
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997569783206135,
+      "CrossScore": 0.9997569783206135
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General",
+      "FinalScore": 9.996991565651795,
+      "CrossScore": 0.9996991565651795
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General",
+      "FinalScore": 9.995147710997145,
+      "CrossScore": 0.9995147710997145
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General",
+      "FinalScore": 9.988364667811066,
+      "CrossScore": 0.9988364667811065
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9998590956834147,
+      "CrossScore": 0.9998590956834147
+    }
+  ],
+  "latency_ms": 234.43,
+  "final_returned": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "Score": 9.998936964986576
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 9.99854760167217
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.998322888998407
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "Score": 9.998045818561627
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.997782969522063
+    }
+  ]
+}

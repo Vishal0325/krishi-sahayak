@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:17.217734",
+  "query_original": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+  "query_normalized": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं",
+  "query_expanded": "खाद poshak fertilizer उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "कीटनाशकों के अधिक प्रयोग से नुकसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक उर्वरक फसल सुरक्षा को बिगाड़ सकते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998790391023706,
+      "CrossScore": 0.9998790391023706
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998405632540672,
+      "CrossScore": 0.9998405632540672
+    },
+    {
+      "Question": "कीटनाशकों के अधिक प्रयोग से नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.9998308115341757,
+      "CrossScore": 0.9998308115341757
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998297973319134,
+      "CrossScore": 0.9998297973319134
+    },
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998245817300431,
+      "CrossScore": 0.9998245817300431
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998220549366098,
+      "CrossScore": 0.9998220549366098
+    },
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998168252971517,
+      "CrossScore": 0.9998168252971517
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General",
+      "FinalScore": 0.999815361267168,
+      "CrossScore": 0.999815361267168
+    },
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998118643825145,
+      "CrossScore": 0.9998118643825145
+    },
+    {
+      "Question": "क्या यूरिया का अधिक प्रयोग फसल को गिरा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997966319783418,
+      "CrossScore": 0.9997966319783418
+    }
+  ],
+  "latency_ms": 234.86,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998790391023706
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998405632540672
+    },
+    {
+      "Question": "कीटनाशकों के अधिक प्रयोग से नुकसान?",
+      "Crop": "General",
+      "Score": 0.9998308115341757
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998297973319134
+    },
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "Score": 0.9998245817300431
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:56:30.026018",
+  "query_original": "लीची",
+  "query_normalized": "लीची",
+  "query_expanded": "लीची",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.992603268101696,
+      "CrossScore": 0.999852065362034
+    },
+    {
+      "Question": "लीची के लिए उपयुक्त जलवायु?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98820937478174,
+      "CrossScore": 0.9997641874956348
+    },
+    {
+      "Question": "लीची में सिंचाई का सही तरीका?",
+      "Crop": "Litchi",
+      "FinalScore": 49.987716333535765,
+      "CrossScore": 0.9997543266707153
+    },
+    {
+      "Question": "लीची के पौधे कैसे तैयार किए जाते हैं?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98729151376536,
+      "CrossScore": 0.9997458302753073
+    },
+    {
+      "Question": "लीची के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98724473021517,
+      "CrossScore": 0.9997448946043033
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.9872009110504,
+      "CrossScore": 0.999744018221008
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98711114957333,
+      "CrossScore": 0.9997422229914666
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98702207041005,
+      "CrossScore": 0.999740441408201
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.986749417520606,
+      "CrossScore": 0.9997349883504122
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' से बचाने के लिए 'हार्मोन'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98454999004256,
+      "CrossScore": 0.9996909998008512
+    }
+  ],
+  "latency_ms": 466.96,
+  "final_returned": [
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "Score": 49.992603268101696
+    },
+    {
+      "Question": "लीची के लिए उपयुक्त जलवायु?",
+      "Crop": "Litchi",
+      "Score": 49.98820937478174
+    },
+    {
+      "Question": "लीची में सिंचाई का सही तरीका?",
+      "Crop": "Litchi",
+      "Score": 49.987716333535765
+    }
+  ]
+}

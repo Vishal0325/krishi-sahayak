@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:40.019650",
+  "query_original": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+  "query_normalized": "कृषि में बहुफसली multi cropping खेती क्या है",
+  "query_expanded": "कृषि में बहुफसली multi cropping खेती क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में सबसे बड़ी चुनौती क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9272884310972,
+      "CrossScore": 0.9999272884310971
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9987896058560907,
+      "CrossScore": 0.9987896058560907
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9986797329601198,
+      "CrossScore": 0.9986797329601198
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9984631734320848,
+      "CrossScore": 0.9984631734320848
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9982657424857412,
+      "CrossScore": 0.9982657424857412
+    },
+    {
+      "Question": "खेती में 'नवाचार' (Innovation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9980428619802878,
+      "CrossScore": 0.9980428619802878
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9978765014307766,
+      "CrossScore": 0.9978765014307766
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.99785412827579,
+      "CrossScore": 0.99785412827579
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.997830216393921,
+      "CrossScore": 0.997830216393921
+    },
+    {
+      "Question": "गन्ने की खेती में 'STP' (Space Transplanting) क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9978012640379497,
+      "CrossScore": 0.9978012640379497
+    }
+  ],
+  "latency_ms": 229.41,
+  "final_returned": [
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General",
+      "Score": 999.9272884310972
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "Score": 0.9987896058560907
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9986797329601198
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9984631734320848
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9982657424857412
+    }
+  ]
+}

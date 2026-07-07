@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:44.623177",
+  "query_original": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+  "query_normalized": "वर्टिसिलियम लेकानी verticillium lecani किसके लिए है",
+  "query_expanded": "वर्टिसिलियम लेकानी verticillium lecani किसके लिए है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.9998711513498826,
+      "CrossScore": 0.9998711513498826
+    },
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9997385874557544,
+      "CrossScore": 0.9997385874557544
+    },
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.9990691607966554,
+      "CrossScore": 0.9990691607966554
+    },
+    {
+      "Question": "मक्का के लिए कैसी मिट्टी सबसे अच्छी होती है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9989525989582022,
+      "CrossScore": 0.9989525989582022
+    },
+    {
+      "Question": "लहसुन के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9988660551517825,
+      "CrossScore": 0.9988660551517825
+    },
+    {
+      "Question": "मक्का की 'शक्तिमान-1' किस्म किस राज्य के लिए अनुशंसित है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9988460387673812,
+      "CrossScore": 0.9988460387673812
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9984924875385532,
+      "CrossScore": 0.9984924875385532
+    },
+    {
+      "Question": "बैंगन में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9983416570208291,
+      "CrossScore": 0.9983416570208291
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.998322799017649,
+      "CrossScore": 0.998322799017649
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9982915707382158,
+      "CrossScore": 0.9982915707382158
+    }
+  ],
+  "latency_ms": 215.76,
+  "final_returned": [
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General",
+      "Score": 0.9998711513498826
+    },
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General",
+      "Score": 0.9997385874557544
+    },
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General",
+      "Score": 0.9990691607966554
+    },
+    {
+      "Question": "मक्का के लिए कैसी मिट्टी सबसे अच्छी होती है?",
+      "Crop": "Maize",
+      "Score": 0.9989525989582022
+    },
+    {
+      "Question": "लहसुन के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Garlic",
+      "Score": 0.9988660551517825
+    }
+  ]
+}

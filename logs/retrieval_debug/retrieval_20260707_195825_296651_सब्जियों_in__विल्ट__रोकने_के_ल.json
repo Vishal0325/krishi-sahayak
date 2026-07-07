@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:25.069308",
+  "query_original": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+  "query_normalized": "सब्जियों in विल्ट रोकने के लिए चूने का प्रयोग",
+  "query_expanded": "सब्जियों in विल्ट रोकने के लिए चूने का प्रयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "बैंगन में 'विल्ट' रोकने के लिए 'चूने' का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सरसों in 'झुलसा' रोकने के लिए 'बुआई का समय'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सब्जियों के लिए 'नैनो यूरिया' का प्रयोग?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.999857219763449,
+      "CrossScore": 0.999857219763449
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998370485383246,
+      "CrossScore": 0.9998370485383246
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998266979488649,
+      "CrossScore": 0.9998266979488649
+    },
+    {
+      "Question": "पत्तागोभी in 'काली सड़न' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998182458358041,
+      "CrossScore": 0.9998182458358041
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998068376640565,
+      "CrossScore": 0.9998068376640565
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.99977944223121,
+      "CrossScore": 0.99977944223121
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'स्यूडोमोनास'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997687809794344,
+      "CrossScore": 0.9997687809794344
+    },
+    {
+      "Question": "धान in 'अंगमारी' रोकने के लिए 'जल प्रबंधन'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997662050331292,
+      "CrossScore": 0.9997662050331292
+    },
+    {
+      "Question": "बैंगन में 'विल्ट' रोकने के लिए 'चूने' का प्रयोग?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997653658271377,
+      "CrossScore": 0.9997653658271377
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997602427378908,
+      "CrossScore": 0.9997602427378908
+    }
+  ],
+  "latency_ms": 227.47,
+  "final_returned": [
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "Score": 0.999857219763449
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "Score": 0.9998370485383246
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Vegetables",
+      "Score": 0.9998266979488649
+    },
+    {
+      "Question": "पत्तागोभी in 'काली सड़न' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Cabbage",
+      "Score": 0.9998182458358041
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "Score": 0.9998068376640565
+    }
+  ]
+}

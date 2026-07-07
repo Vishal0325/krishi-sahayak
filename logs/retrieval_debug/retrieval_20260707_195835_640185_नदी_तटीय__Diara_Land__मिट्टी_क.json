@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:35.409463",
+  "query_original": "नदी तटीय (Diara Land) मिट्टी की क्या समस्या है?",
+  "query_normalized": "नदी तटीय diara land मिट्टी की क्या समस्या है",
+  "query_expanded": "नदी तटीय diara land मिट्टी की क्या समस्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नदी तटीय (Diara Land) मिट्टी की क्या समस्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "सब्जियों की खेती में 'नीमेटोड' (Nematode) की समस्या क्या है?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नदी तटीय (Diara Land) मिट्टी की क्या समस्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999078510591659,
+      "CrossScore": 0.9999078510591659
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998200876620393,
+      "CrossScore": 0.9998200876620393
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997598583897468,
+      "CrossScore": 0.9997598583897468
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994804545144089,
+      "CrossScore": 0.9994804545144089
+    },
+    {
+      "Question": "बिहार की मिट्टी की मुख्य विशेषता क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994662814673906,
+      "CrossScore": 0.9994662814673906
+    },
+    {
+      "Question": "सब्जियों की खेती में 'नीमेटोड' (Nematode) की समस्या क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994070679850985,
+      "CrossScore": 0.9994070679850985
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से मिट्टी अम्लीय होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9993062425187048,
+      "CrossScore": 0.9993062425187048
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9993040068515382,
+      "CrossScore": 0.9993040068515382
+    },
+    {
+      "Question": "मिट्टी की 'लवणता' (EC) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991557032408471,
+      "CrossScore": 0.9991557032408471
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9990550600172676,
+      "CrossScore": 0.9990550600172676
+    }
+  ],
+  "latency_ms": 230.93,
+  "final_returned": [
+    {
+      "Question": "नदी तटीय (Diara Land) मिट्टी की क्या समस्या है?",
+      "Crop": "General",
+      "Score": 0.9999078510591659
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998200876620393
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9997598583897468
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "Score": 0.9994804545144089
+    },
+    {
+      "Question": "बिहार की मिट्टी की मुख्य विशेषता क्या है?",
+      "Crop": "General",
+      "Score": 0.9994662814673906
+    }
+  ]
+}

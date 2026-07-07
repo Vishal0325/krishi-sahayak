@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:05.688285",
+  "query_original": "नीली क्रांति (Blue Revolution) का संबंध किससे है?",
+  "query_normalized": "नीली क्रांति blue revolution का संबंध किससे है",
+  "query_expanded": "नीली क्रांति blue revolution का संबंध किससे है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नीली क्रांति (Blue Revolution) का संबंध किससे है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री जन-धन योजना का कृषि से क्या संबंध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री जन औषधि केंद्र का कृषि से क्या संबंध है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नीली क्रांति (Blue Revolution) का संबंध किससे है?",
+      "Crop": "General",
+      "FinalScore": 999.9129280835567,
+      "CrossScore": 0.9999129280835567
+    },
+    {
+      "Question": "किसानों के लिए मधुमक्खी क्रांति (Sweet Revolution) का संदेश?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999844871404799,
+      "CrossScore": 0.999844871404799
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9990805365523411,
+      "CrossScore": 0.9990805365523411
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9990604617195535,
+      "CrossScore": 0.9990604617195535
+    },
+    {
+      "Question": "प्रधानमंत्री जन-धन योजना का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9990228176673426,
+      "CrossScore": 0.9990228176673426
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 0.9989908684082925,
+      "CrossScore": 0.9989908684082925
+    },
+    {
+      "Question": "प्रधानमंत्री जन औषधि केंद्र का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9989515946572826,
+      "CrossScore": 0.9989515946572826
+    },
+    {
+      "Question": "मक्का की सफल खेती का मूल मंत्र क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9988277348511884,
+      "CrossScore": 0.9988277348511884
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9988242922091303,
+      "CrossScore": 0.9988242922091303
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9988051152027199,
+      "CrossScore": 0.9988051152027199
+    }
+  ],
+  "latency_ms": 218.41,
+  "final_returned": [
+    {
+      "Question": "नीली क्रांति (Blue Revolution) का संबंध किससे है?",
+      "Crop": "General",
+      "Score": 999.9129280835567
+    },
+    {
+      "Question": "किसानों के लिए मधुमक्खी क्रांति (Sweet Revolution) का संदेश?",
+      "Crop": "Beekeeping",
+      "Score": 0.999844871404799
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9990805365523411
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "Score": 0.9990604617195535
+    },
+    {
+      "Question": "प्रधानमंत्री जन-धन योजना का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "Score": 0.9990228176673426
+    }
+  ]
+}

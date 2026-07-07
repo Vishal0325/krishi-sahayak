@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:55.045663",
+  "query_original": "'छिड़काव' के समय 'पूरी बाजू की शर्ट'?",
+  "query_normalized": "छिड़काव के समय पूरी बाजू की शर्ट",
+  "query_expanded": "छिड़काव के समय पूरी बाजू की शर्ट",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'छिड़काव' के समय 'पूरी बाजू की शर्ट'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय 'हवा की दिशा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय हवा की दिशा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय हवा की गति?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पानी' की शुद्धता?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'छिड़काव' के समय 'पूरी बाजू की शर्ट'?",
+      "Crop": "General",
+      "FinalScore": 999.9146565911094,
+      "CrossScore": 0.9999146565911095
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.9999099908166575,
+      "CrossScore": 0.9999099908166575
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के समय 'शेलर' की गति?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998975529329136,
+      "CrossScore": 0.9998975529329136
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई' (PPE) किट?",
+      "Crop": "General",
+      "FinalScore": 0.999895420925449,
+      "CrossScore": 0.999895420925449
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई किट'?",
+      "Crop": "General",
+      "FinalScore": 0.9998914109575694,
+      "CrossScore": 0.9998914109575694
+    },
+    {
+      "Question": "प्याज की 'सिंचाई' के लिए 'नहर' के पानी की समय सारणी?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998863936808381,
+      "CrossScore": 0.9998863936808381
+    },
+    {
+      "Question": "'छिड़काव' के समय 'प्लास्टिक जूते'?",
+      "Crop": "General",
+      "FinalScore": 0.999882968666453,
+      "CrossScore": 0.999882968666453
+    },
+    {
+      "Question": "पपीते के बीज की बुआई का समय?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998812637816347,
+      "CrossScore": 0.9998812637816347
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' नोजल?",
+      "Crop": "General",
+      "FinalScore": 0.9998806234881916,
+      "CrossScore": 0.9998806234881916
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा गियर' (PPE Kit)?",
+      "Crop": "General",
+      "FinalScore": 0.9998752769611639,
+      "CrossScore": 0.9998752769611639
+    }
+  ],
+  "latency_ms": 169.18,
+  "final_returned": [
+    {
+      "Question": "'छिड़काव' के समय 'पूरी बाजू की शर्ट'?",
+      "Crop": "General",
+      "Score": 999.9146565911094
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "Score": 0.9999099908166575
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के समय 'शेलर' की गति?",
+      "Crop": "Maize",
+      "Score": 0.9998975529329136
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई' (PPE) किट?",
+      "Crop": "General",
+      "Score": 0.999895420925449
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई किट'?",
+      "Crop": "General",
+      "Score": 0.9998914109575694
+    }
+  ]
+}

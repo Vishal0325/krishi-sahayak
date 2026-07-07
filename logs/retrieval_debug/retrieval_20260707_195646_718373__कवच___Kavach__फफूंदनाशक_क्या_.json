@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:46.310077",
+  "query_original": "'कवच' (Kavach) फफूंदनाशक क्या है?",
+  "query_normalized": "कवच kavach फफूंदनाशक क्या है",
+  "query_expanded": "कवच kavach फफूंदनाशक क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कवच' (Kavach) फफूंदनाशक क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रणालीगत (Systemic) और संपर्क (Contact) फफूंदनाशक in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "कालमेघ (Kalmegh) क्या है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कवच' (Kavach) फफूंदनाशक क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999099632604588,
+      "CrossScore": 0.9999099632604588
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995825708460129,
+      "CrossScore": 0.9995825708460129
+    },
+    {
+      "Question": "कालमेघ (Kalmegh) क्या है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9995427766943623,
+      "CrossScore": 0.9995427766943623
+    },
+    {
+      "Question": "खेती में 'पशुपालन' एक आर्थिक सुरक्षा कवच कैसे है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9994743360011863,
+      "CrossScore": 0.9994743360011863
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9992181825538677,
+      "CrossScore": 0.9992181825538677
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991046181520252,
+      "CrossScore": 0.9991046181520252
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999046415557597,
+      "CrossScore": 0.999046415557597
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9989554349492766,
+      "CrossScore": 0.9989554349492766
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9989503494280297,
+      "CrossScore": 0.9989503494280297
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9986991373413115,
+      "CrossScore": 0.9986991373413115
+    }
+  ],
+  "latency_ms": 408.39,
+  "final_returned": [
+    {
+      "Question": "'कवच' (Kavach) फफूंदनाशक क्या है?",
+      "Crop": "General",
+      "Score": 0.9999099632604588
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "Score": 0.9995825708460129
+    },
+    {
+      "Question": "कालमेघ (Kalmegh) क्या है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9995427766943623
+    },
+    {
+      "Question": "खेती में 'पशुपालन' एक आर्थिक सुरक्षा कवच कैसे है?",
+      "Crop": "Economics",
+      "Score": 0.9994743360011863
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "Score": 0.9992181825538677
+    }
+  ]
+}

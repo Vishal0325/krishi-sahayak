@@ -1,0 +1,60 @@
+File Name,Total Questions,Category,Crop
+rice.csv,251,Crop,Rice
+wheat.csv,237,Crop,Wheat
+maize.csv,201,Crop,Maize
+mustard.csv,211,Crop,Mustard
+pulses.csv,208,Crop,Pulses
+potato.csv,166,Crop,Potato
+tomato.csv,106,Crop,Tomato
+onion.csv,130,Crop,Onion
+sugarcane.csv,96,Crop,Sugarcane
+dragon_fruit.csv,100,Crop,Dragon Fruit
+banana.csv,104,Crop,Banana
+litchi.csv,101,Crop,Litchi
+mango.csv,100,Crop,Mango
+guava.csv,101,Crop,Guava
+papaya.csv,101,Crop,Papaya
+makhana.csv,103,Crop,Makhana
+brinjal.csv,101,Crop,Brinjal
+chilli.csv,101,Crop,Chilli
+okra.csv,99,Crop,Okra
+garlic.csv,130,Crop,Garlic
+cauliflower.csv,101,Crop,Cauliflower
+cabbage.csv,100,Crop,Cabbage
+pea.csv,100,Crop,Pea
+turmeric.csv,100,Crop,Turmeric
+ginger.csv,100,Crop,Ginger
+coriander.csv,99,Crop,Coriander
+fertilizer.csv,101,Fertilizer,General
+soil.csv,101,Soil,General
+government.csv,101,Government Schemes,General
+weather.csv,101,Weather,General
+machinery.csv,101,Machinery,General
+business.csv,101,Business,General
+disease.csv,201,Disease,General
+pest.csv,205,Pests,General
+fungicides.csv,51,Plant Protection,General
+insecticides.csv,51,Plant Protection,General
+herbicides.csv,51,Plant Protection,General
+bio_control.csv,51,Plant Protection,General
+ipm.csv,51,Plant Protection,General
+irrigation.csv,51,Irrigation,General
+medicinal_plants.csv,101,Crop,Medicinal Plants
+dairy.csv,101,Business,Dairy
+poultry.csv,101,Business,Poultry
+mushroom.csv,101,Business,Mushroom
+beekeeping.csv,101,Business,Beekeeping
+floriculture.csv,101,Business,Floriculture
+livestock.csv,101,Business,Livestock
+organic_farming.csv,50,Business,Organic Farming
+agri_startup.csv,51,Business,Agri Startup
+miscellaneous.csv,101,General,General
+agri_economics.csv,51,Business,Economics
+livestock_diseases.csv,51,Livestock,General
+agri_tech.csv,101,General,Agri Tech
+crop_safety.csv,51,Plant Protection,General
+crop_safety_2.csv,101,Plant Protection,General
+pest_advanced.csv,111,Pests,General
+disease_advanced.csv,101,Disease,General
+agri_miscellaneous_2.csv,135,General,General
+Total Questions,6366,All Categories,All Crops

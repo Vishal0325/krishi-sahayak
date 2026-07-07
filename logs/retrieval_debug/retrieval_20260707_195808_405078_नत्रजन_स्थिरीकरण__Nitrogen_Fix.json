@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:08.206731",
+  "query_original": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+  "query_normalized": "नत्रजन स्थिरीकरण nitrogen fixation क्या है",
+  "query_expanded": "नाइट्रोजन urea nitrogen नत्रजन स्थिरीकरण nitrogen fixation क्या है यूरिया",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998927443669098,
+      "CrossScore": 0.9998927443669098
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998637355584247,
+      "CrossScore": 0.9998637355584247
+    },
+    {
+      "Question": "मटर में 'नत्रजन' (Nitrogen) की कम जरूरत क्यों होती है?",
+      "Crop": "Pea",
+      "FinalScore": 0.999770833964612,
+      "CrossScore": 0.999770833964612
+    },
+    {
+      "Question": "प्याज में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Onion",
+      "FinalScore": 0.9997476121804727,
+      "CrossScore": 0.9997476121804727
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997419793164023,
+      "CrossScore": 0.9997419793164023
+    },
+    {
+      "Question": "लहसुन में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Garlic",
+      "FinalScore": 0.999732219914649,
+      "CrossScore": 0.999732219914649
+    },
+    {
+      "Question": "बैंगन में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997317691749709,
+      "CrossScore": 0.9997317691749709
+    },
+    {
+      "Question": "धनिया में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997298468568561,
+      "CrossScore": 0.9997298468568561
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999435098644181,
+      "CrossScore": 0.999435098644181
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993041066693528,
+      "CrossScore": 0.9993041066693528
+    }
+  ],
+  "latency_ms": 198.5,
+  "final_returned": [
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998927443669098
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998637355584247
+    },
+    {
+      "Question": "मटर में 'नत्रजन' (Nitrogen) की कम जरूरत क्यों होती है?",
+      "Crop": "Pea",
+      "Score": 0.999770833964612
+    },
+    {
+      "Question": "प्याज में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Onion",
+      "Score": 0.9997476121804727
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra",
+      "Score": 0.9997419793164023
+    }
+  ]
+}

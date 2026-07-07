@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:20.362121",
+  "query_original": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+  "query_normalized": "उच्च आर्द्रता high humidity से कौन से रोग बढ़ते हैं",
+  "query_expanded": "fungus फंगस बीमारी उच्च आर्द्रता high humidity से कौन से रोग बढ़ते हैं झुलसा disease रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'साफ' (Saaf) फफूंदनाशक में कौन से तत्व होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8897893263153,
+      "CrossScore": 0.9998897893263153
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.984561772594601,
+      "CrossScore": 0.9984561772594601
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.953997366475075,
+      "CrossScore": 0.9953997366475076
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9980415743495782,
+      "CrossScore": 0.9980415743495782
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9976360564030375,
+      "CrossScore": 0.9976360564030375
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9974898167198043,
+      "CrossScore": 0.9974898167198043
+    },
+    {
+      "Question": "मक्का में इंटर-क्रॉपिंग (Inter-cropping) के लिए कौन सी फसलें अच्छी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9974168411743156,
+      "CrossScore": 0.9974168411743156
+    },
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9973770064244829,
+      "CrossScore": 0.9973770064244829
+    },
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9973067672561315,
+      "CrossScore": 0.9973067672561315
+    },
+    {
+      "Question": "सिंचाई की प्रमुख विधियाँ कौन सी हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9971082116937161,
+      "CrossScore": 0.9971082116937161
+    }
+  ],
+  "latency_ms": 208.76,
+  "final_returned": [
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General",
+      "Score": 999.8897893263153
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "Score": 9.984561772594601
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 9.953997366475075
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "Score": 0.9980415743495782
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General",
+      "Score": 0.9976360564030375
+    }
+  ]
+}

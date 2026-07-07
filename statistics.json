@@ -1,0 +1,7 @@
+{
+    "total_initial": 6441,
+    "total_after_audit": 6366,
+    "duplicates_removed": 75,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "vector_size": 384
+}

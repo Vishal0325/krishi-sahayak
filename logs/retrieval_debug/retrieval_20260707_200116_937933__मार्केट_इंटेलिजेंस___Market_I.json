@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:16.663048",
+  "query_original": "'मार्केट इंटेलिजेंस' (Market Intelligence) क्या है?",
+  "query_normalized": "मार्केट इंटेलिजेंस market intelligence क्या है",
+  "query_expanded": "मार्केट इंटेलिजेंस market intelligence क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मार्केट इंटेलिजेंस' (Market Intelligence) क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "मार्केट इंटेलिजेंस (Market Intelligence) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मार्केट इंटेलिजेंस' (Market Intelligence) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 999.9412960430144,
+      "CrossScore": 0.9999412960430144
+    },
+    {
+      "Question": "मार्केट इंटेलिजेंस (Market Intelligence) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9382711564522,
+      "CrossScore": 0.9999382711564522
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9986761992335998,
+      "CrossScore": 0.9986761992335998
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9976494209759805,
+      "CrossScore": 0.9976494209759805
+    },
+    {
+      "Question": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.997616509108089,
+      "CrossScore": 0.997616509108089
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9967081895115474,
+      "CrossScore": 0.9967081895115474
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9965376691862192,
+      "CrossScore": 0.9965376691862192
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9961397804460973,
+      "CrossScore": 0.9961397804460973
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9957230851603562,
+      "CrossScore": 0.9957230851603562
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9956842794632845,
+      "CrossScore": 0.9956842794632845
+    }
+  ],
+  "latency_ms": 274.92,
+  "final_returned": [
+    {
+      "Question": "'मार्केट इंटेलिजेंस' (Market Intelligence) क्या है?",
+      "Crop": "Economics",
+      "Score": 999.9412960430144
+    },
+    {
+      "Question": "मार्केट इंटेलिजेंस (Market Intelligence) क्या है?",
+      "Crop": "General",
+      "Score": 999.9382711564522
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9986761992335998
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "Score": 0.9976494209759805
+    },
+    {
+      "Question": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.997616509108089
+    }
+  ]
+}

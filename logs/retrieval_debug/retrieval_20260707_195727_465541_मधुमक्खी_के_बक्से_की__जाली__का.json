@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:27.127490",
+  "query_original": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+  "query_normalized": "मधुमक्खी के बक्से की जाली का उपयोग",
+  "query_expanded": "मधुमक्खी के बक्से की जाली का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का की फसल में 'सिंचाई' के लिए पाइप का उपयोग?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद 'स्ट्रॉ रीपर' का उपयोग?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999880894897936,
+      "CrossScore": 0.999880894897936
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998636129753861,
+      "CrossScore": 0.9998636129753861
+    },
+    {
+      "Question": "अश्वगंधा के बीजों का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998502021667858,
+      "CrossScore": 0.9998502021667858
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998476959294665,
+      "CrossScore": 0.9998476959294665
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के लिए कंबाइन का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998402470298937,
+      "CrossScore": 0.9998402470298937
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998400912748455,
+      "CrossScore": 0.9998400912748455
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998327406896977,
+      "CrossScore": 0.9998327406896977
+    },
+    {
+      "Question": "'नीम के फल' (Nimboli) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998318010909835,
+      "CrossScore": 0.9998318010909835
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999830890886675,
+      "CrossScore": 0.999830890886675
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खुदाई के बाद 'क्रेट्स' का उपयोग?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998246130053524,
+      "CrossScore": 0.9998246130053524
+    }
+  ],
+  "latency_ms": 338.22,
+  "final_returned": [
+    {
+      "Question": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+      "Crop": "Beekeeping",
+      "Score": 0.999880894897936
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998636129753861
+    },
+    {
+      "Question": "अश्वगंधा के बीजों का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998502021667858
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998476959294665
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के लिए कंबाइन का उपयोग?",
+      "Crop": "Maize",
+      "Score": 0.9998402470298937
+    }
+  ]
+}

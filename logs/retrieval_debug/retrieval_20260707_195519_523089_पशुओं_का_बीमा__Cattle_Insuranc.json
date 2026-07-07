@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:19.314128",
+  "query_original": "पशुओं का बीमा (Cattle Insurance) कैसे कराएं?",
+  "query_normalized": "पशुओं का बीमा cattle insurance कैसे कराएं",
+  "query_expanded": "पशुओं का बीमा cattle insurance कैसे कराएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं का बीमा (Cattle Insurance) कैसे कराएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पशु बीमा' (Cattle Insurance) में टैगिंग का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशु आहार (Poultry/Cattle Feed) बनाने का यूनिट कैसे लगाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल बीमा का दावा (Claim) कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अत्यधिक गर्मी में पशुओं का प्रबंधन कैसे करें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं का बीमा (Cattle Insurance) कैसे कराएं?",
+      "Crop": "General",
+      "FinalScore": 0.999928621157013,
+      "CrossScore": 0.999928621157013
+    },
+    {
+      "Question": "'पशु बीमा' (Cattle Insurance) में टैगिंग का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999238242613251,
+      "CrossScore": 0.9999238242613251
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997153192500859,
+      "CrossScore": 0.9997153192500859
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9996410447850381,
+      "CrossScore": 0.9996410447850381
+    },
+    {
+      "Question": "पशु आहार (Poultry/Cattle Feed) बनाने का यूनिट कैसे लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9995431317683261,
+      "CrossScore": 0.9995431317683261
+    },
+    {
+      "Question": "फसल बीमा का दावा (Claim) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9979732388088742,
+      "CrossScore": 0.9979732388088742
+    },
+    {
+      "Question": "पिछेती झुलसा का नियंत्रण कैसे करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9977841153376484,
+      "CrossScore": 0.9977841153376484
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9973080170029791,
+      "CrossScore": 0.9973080170029791
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General",
+      "FinalScore": 0.9971196531865401,
+      "CrossScore": 0.9971196531865401
+    },
+    {
+      "Question": "गंधी बग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.9970028839622459,
+      "CrossScore": 0.9970028839622459
+    }
+  ],
+  "latency_ms": 209.04,
+  "final_returned": [
+    {
+      "Question": "पशुओं का बीमा (Cattle Insurance) कैसे कराएं?",
+      "Crop": "General",
+      "Score": 0.999928621157013
+    },
+    {
+      "Question": "'पशु बीमा' (Cattle Insurance) में टैगिंग का महत्व?",
+      "Crop": "General",
+      "Score": 0.9999238242613251
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "Score": 0.9997153192500859
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "Score": 0.9996410447850381
+    },
+    {
+      "Question": "पशु आहार (Poultry/Cattle Feed) बनाने का यूनिट कैसे लगाएं?",
+      "Crop": "General",
+      "Score": 0.9995431317683261
+    }
+  ]
+}

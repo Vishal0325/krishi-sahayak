@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:38.689479",
+  "query_original": "मिट्टी की 'लवणता' (EC) क्या है?",
+  "query_normalized": "मिट्टी की लवणता ec क्या है",
+  "query_expanded": "मिट्टी की लवणता ec क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की 'लवणता' (EC) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की 'लवणता' (EC) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9278488008981,
+      "CrossScore": 0.9999278488008981
+    },
+    {
+      "Question": "'मिट्टी परीक्षण रिपोर्ट' में 'EC' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999069691125776,
+      "CrossScore": 0.9999069691125776
+    },
+    {
+      "Question": "बिहार की मिट्टी की मुख्य विशेषता क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998777557225447,
+      "CrossScore": 0.9998777557225447
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.999867232818229,
+      "CrossScore": 0.999867232818229
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998635471536726,
+      "CrossScore": 0.9998635471536726
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998625346437081,
+      "CrossScore": 0.9998625346437081
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998521539215728,
+      "CrossScore": 0.9998521539215728
+    },
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998490025585968,
+      "CrossScore": 0.9998490025585968
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998397157425655,
+      "CrossScore": 0.9998397157425655
+    },
+    {
+      "Question": "क्या बिजली गिरने से मिट्टी की उर्वरता बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998354195552432,
+      "CrossScore": 0.9998354195552432
+    }
+  ],
+  "latency_ms": 205.0,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की 'लवणता' (EC) क्या है?",
+      "Crop": "General",
+      "Score": 999.9278488008981
+    },
+    {
+      "Question": "'मिट्टी परीक्षण रिपोर्ट' में 'EC' क्या है?",
+      "Crop": "General",
+      "Score": 0.9999069691125776
+    },
+    {
+      "Question": "बिहार की मिट्टी की मुख्य विशेषता क्या है?",
+      "Crop": "General",
+      "Score": 0.9998777557225447
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "Score": 0.999867232818229
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9998635471536726
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:23.279002",
+  "query_original": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+  "query_normalized": "क्या कृषि यंत्रों पर बीमा insurance उपलब्ध है",
+  "query_expanded": "क्या कृषि यंत्रों पर बीमा insurance उपलब्ध है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999892832696961,
+      "CrossScore": 0.999892832696961
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9998832327407232,
+      "CrossScore": 0.9998832327407232
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9994742450529788,
+      "CrossScore": 0.9994742450529788
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994156353228447,
+      "CrossScore": 0.9994156353228447
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994127352632305,
+      "CrossScore": 0.9994127352632305
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9994021961784464,
+      "CrossScore": 0.9994021961784464
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993975074986462,
+      "CrossScore": 0.9993975074986462
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993779269068039,
+      "CrossScore": 0.9993779269068039
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9993717553992895,
+      "CrossScore": 0.9993717553992895
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993711677369719,
+      "CrossScore": 0.9993711677369719
+    }
+  ],
+  "latency_ms": 237.16,
+  "final_returned": [
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "Score": 0.999892832696961
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "Score": 0.9998832327407232
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics",
+      "Score": 0.9994742450529788
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "Score": 0.9994156353228447
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "Score": 0.9994127352632305
+    }
+  ]
+}

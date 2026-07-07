@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:01.738736",
+  "query_original": "खरपतवारनाशकों के घोल की सांद्रता?",
+  "query_normalized": "खरपतवारनाशकों के घोल की सांद्रता",
+  "query_expanded": "खरपतवारनाशकों के घोल की सांद्रता",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खरपतवारनाशकों के घोल की सांद्रता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने की खेती में 'नमक के घोल' का छिड़काव क्या कीड़ों को रोकता है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अमरूद की कटाई के बाद 'खेत' की सफाई?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खरपतवारनाशकों के घोल की सांद्रता?",
+      "Crop": "General",
+      "FinalScore": 999.8576265330387,
+      "CrossScore": 0.9998576265330387
+    },
+    {
+      "Question": "खरपतवारनाशकों के खाली डिब्बों का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998867884021896,
+      "CrossScore": 0.9998867884021896
+    },
+    {
+      "Question": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+      "Crop": "General",
+      "FinalScore": 0.9998848880645544,
+      "CrossScore": 0.9998848880645544
+    },
+    {
+      "Question": "खरपतवारनाशकों के लेबल पर 'नीला' निशान क्या बताता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998729641122839,
+      "CrossScore": 0.9998729641122839
+    },
+    {
+      "Question": "खरपतवारनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9998704239164611,
+      "CrossScore": 0.9998704239164611
+    },
+    {
+      "Question": "खरपतवारनाशकों के भंडारण का सही तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9998700633696638,
+      "CrossScore": 0.9998700633696638
+    },
+    {
+      "Question": "खरपतवारनाशकों के पैकेट पर 'Exp Date'?",
+      "Crop": "General",
+      "FinalScore": 0.9998549232184851,
+      "CrossScore": 0.9998549232184851
+    },
+    {
+      "Question": "खरपतवारनाशकों के छिड़काव के लिए 'नोजल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998447454744757,
+      "CrossScore": 0.9998447454744757
+    },
+    {
+      "Question": "खस (Khus) की खेती के लाभ?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999798600249207,
+      "CrossScore": 0.999798600249207
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'खेत' की तैयारी पेड़ी के लिए?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997973929951434,
+      "CrossScore": 0.9997973929951434
+    }
+  ],
+  "latency_ms": 186.09,
+  "final_returned": [
+    {
+      "Question": "खरपतवारनाशकों के घोल की सांद्रता?",
+      "Crop": "General",
+      "Score": 999.8576265330387
+    },
+    {
+      "Question": "खरपतवारनाशकों के खाली डिब्बों का क्या करें?",
+      "Crop": "General",
+      "Score": 0.9998867884021896
+    },
+    {
+      "Question": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+      "Crop": "General",
+      "Score": 0.9998848880645544
+    },
+    {
+      "Question": "खरपतवारनाशकों के लेबल पर 'नीला' निशान क्या बताता है?",
+      "Crop": "General",
+      "Score": 0.9998729641122839
+    },
+    {
+      "Question": "खरपतवारनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "Score": 0.9998704239164611
+    }
+  ]
+}

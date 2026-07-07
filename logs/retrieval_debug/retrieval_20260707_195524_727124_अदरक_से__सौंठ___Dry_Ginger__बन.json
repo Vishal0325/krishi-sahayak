@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:24.515670",
+  "query_original": "अदरक से 'सौंठ' (Dry Ginger) बनाना?",
+  "query_normalized": "अदरक से सौंठ dry ginger बनाना",
+  "query_expanded": "अदरक से सौंठ dry ginger बनाना",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अदरक से 'सौंठ' (Dry Ginger) बनाना?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "अदरक में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "अदरक में 'जिंक' की कमी से प्रकंदों का विकास?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "अदरक में 'पोटाश' की कमी से छिलके की मजबूती?",
+      "Crop": "Ginger"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अदरक से 'सौंठ' (Dry Ginger) बनाना?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999186964965628,
+      "CrossScore": 0.9999186964965628
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9980617746695014,
+      "CrossScore": 0.9980617746695014
+    },
+    {
+      "Question": "अदरक की खेती का परिचय क्या है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9972136878389185,
+      "CrossScore": 0.9972136878389185
+    },
+    {
+      "Question": "अदरक में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9971193162698057,
+      "CrossScore": 0.9971193162698057
+    },
+    {
+      "Question": "अदरक की खुदाई के बाद 'अचार' बनाना?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9971117156330442,
+      "CrossScore": 0.9971117156330442
+    },
+    {
+      "Question": "अदरक में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9968294036190575,
+      "CrossScore": 0.9968294036190575
+    },
+    {
+      "Question": "अदरक के बीजों (प्रकंदों) का चयन कैसे करें?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9966647213228674,
+      "CrossScore": 0.9966647213228674
+    },
+    {
+      "Question": "अदरक के खेत में 'चूहों' का प्रबंधन?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9964576396417286,
+      "CrossScore": 0.9964576396417286
+    },
+    {
+      "Question": "अदरक में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9962188646721963,
+      "CrossScore": 0.9962188646721963
+    },
+    {
+      "Question": "अदरक में 'पोटाश' की कमी से 'शर्करा' संचय?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9961378546976061,
+      "CrossScore": 0.9961378546976061
+    }
+  ],
+  "latency_ms": 211.55,
+  "final_returned": [
+    {
+      "Question": "अदरक से 'सौंठ' (Dry Ginger) बनाना?",
+      "Crop": "Ginger",
+      "Score": 0.9999186964965628
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "Score": 0.9980617746695014
+    },
+    {
+      "Question": "अदरक की खेती का परिचय क्या है?",
+      "Crop": "Ginger",
+      "Score": 0.9972136878389185
+    },
+    {
+      "Question": "अदरक में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Ginger",
+      "Score": 0.9971193162698057
+    },
+    {
+      "Question": "अदरक की खुदाई के बाद 'अचार' बनाना?",
+      "Crop": "Ginger",
+      "Score": 0.9971117156330442
+    }
+  ]
+}

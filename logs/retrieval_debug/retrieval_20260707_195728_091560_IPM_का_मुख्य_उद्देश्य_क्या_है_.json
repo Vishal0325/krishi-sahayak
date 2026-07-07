@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:27.879690",
+  "query_original": "IPM का मुख्य उद्देश्य क्या है?",
+  "query_normalized": "ipm का मुख्य उद्देश्य क्या है",
+  "query_expanded": "ipm का मुख्य उद्देश्य क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM की सफलता का मुख्य मंत्र क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बागवानी में सफलता का मुख्य सूत्र क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999304431466652,
+      "CrossScore": 0.9999304431466652
+    },
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9999252368052514,
+      "CrossScore": 0.9999252368052514
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999189006883538,
+      "CrossScore": 0.9999189006883538
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999141395522374,
+      "CrossScore": 0.9999141395522374
+    },
+    {
+      "Question": "IPM की सफलता का मुख्य मंत्र क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999066895137568,
+      "CrossScore": 0.9999066895137568
+    },
+    {
+      "Question": "IPM में 'बुआई का समय' कैसे महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9999026610589133,
+      "CrossScore": 0.9999026610589133
+    },
+    {
+      "Question": "क्या IPM से खेती का खर्च कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999011482367002,
+      "CrossScore": 0.9999011482367002
+    },
+    {
+      "Question": "क्या IPM केवल बड़े किसानों के लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.9998867774982328,
+      "CrossScore": 0.9998867774982328
+    },
+    {
+      "Question": "क्या IPM जैविक खेती का हिस्सा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998741943053245,
+      "CrossScore": 0.9998741943053245
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999782924470425,
+      "CrossScore": 0.999782924470425
+    }
+  ],
+  "latency_ms": 211.98,
+  "final_returned": [
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9999304431466652
+    },
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "Score": 0.9999252368052514
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "Score": 0.9999189006883538
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999141395522374
+    },
+    {
+      "Question": "IPM की सफलता का मुख्य मंत्र क्या है?",
+      "Crop": "General",
+      "Score": 0.9999066895137568
+    }
+  ]
+}

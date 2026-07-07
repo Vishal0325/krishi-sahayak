@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:24.989433",
+  "query_original": "'वेस्ट डीकम्पोजर' का छिड़काव?",
+  "query_normalized": "वेस्ट डीकम्पोजर का छिड़काव",
+  "query_expanded": "वेस्ट डीकम्पोजर का छिड़काव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'वेस्ट डीकम्पोजर' का छिड़काव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पुआल का वेस्ट डीकम्पोजर?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "अमरूद में 'जिंक सल्फेट' का छिड़काव?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'जिंक सल्फेट' का छिड़काव?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'वेस्ट डीकम्पोजर' के उपयोग से खाद कितने दिन में तैयार होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999124575253977,
+      "CrossScore": 0.9999124575253977
+    },
+    {
+      "Question": "'वेस्ट डीकम्पोजर' का छिड़काव?",
+      "Crop": "General",
+      "FinalScore": 0.9998916220921776,
+      "CrossScore": 0.9998916220921776
+    },
+    {
+      "Question": "पुआल का वेस्ट डीकम्पोजर?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998855033033551,
+      "CrossScore": 0.9998855033033551
+    },
+    {
+      "Question": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+      "Crop": "General",
+      "FinalScore": 0.9998059867333065,
+      "CrossScore": 0.9998059867333065
+    },
+    {
+      "Question": "'ड्रोन' से छिड़काव का समय?",
+      "Crop": "General",
+      "FinalScore": 0.9997990504423552,
+      "CrossScore": 0.9997990504423552
+    },
+    {
+      "Question": "मूंग की खेती में 'पोटाश' का छिड़काव?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997871684702296,
+      "CrossScore": 0.9997871684702296
+    },
+    {
+      "Question": "दलहनी फसलों में 'पोटाश' का छिड़काव कब करें?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997341527269354,
+      "CrossScore": 0.9997341527269354
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996889218479925,
+      "CrossScore": 0.9996889218479925
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज सल्फेट' का छिड़काव कब करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996099154123124,
+      "CrossScore": 0.9996099154123124
+    },
+    {
+      "Question": "मूंग की खेती में 'सल्फर' का छिड़काव?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9995909152050048,
+      "CrossScore": 0.9995909152050048
+    }
+  ],
+  "latency_ms": 192.83,
+  "final_returned": [
+    {
+      "Question": "'वेस्ट डीकम्पोजर' के उपयोग से खाद कितने दिन में तैयार होती है?",
+      "Crop": "General",
+      "Score": 0.9999124575253977
+    },
+    {
+      "Question": "'वेस्ट डीकम्पोजर' का छिड़काव?",
+      "Crop": "General",
+      "Score": 0.9998916220921776
+    },
+    {
+      "Question": "पुआल का वेस्ट डीकम्पोजर?",
+      "Crop": "Rice",
+      "Score": 0.9998855033033551
+    },
+    {
+      "Question": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+      "Crop": "General",
+      "Score": 0.9998059867333065
+    },
+    {
+      "Question": "'ड्रोन' से छिड़काव का समय?",
+      "Crop": "General",
+      "Score": 0.9997990504423552
+    }
+  ]
+}

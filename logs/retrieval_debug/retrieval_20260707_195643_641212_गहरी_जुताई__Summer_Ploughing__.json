@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:43.430785",
+  "query_original": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+  "query_normalized": "गहरी जुताई summer ploughing ipm में कैसे सहायक है",
+  "query_expanded": "गहरी जुताई summer ploughing ipm में कैसे सहायक है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'बुआई का समय' कैसे महत्वपूर्ण है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने की खेती में 'गहरी जुताई' के लाभ?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General",
+      "FinalScore": 0.9999335887322808,
+      "CrossScore": 0.9999335887322808
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद खेत की 'गहरी जुताई' (Deep Ploughing)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994835847448538,
+      "CrossScore": 0.9994835847448538
+    },
+    {
+      "Question": "IPM में 'हस्त चयन' (Hand Picking) कब प्रभावी है?",
+      "Crop": "General",
+      "FinalScore": 0.9961428889683867,
+      "CrossScore": 0.9961428889683867
+    },
+    {
+      "Question": "IPM में 'ग्रीस बैंडिंग' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9957627708536135,
+      "CrossScore": 0.9957627708536135
+    },
+    {
+      "Question": "क्या गेहूं की बुआई बिना जुताई के की जा सकती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9956367106465729,
+      "CrossScore": 0.9956367106465729
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9954308682627129,
+      "CrossScore": 0.9954308682627129
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9953548282889895,
+      "CrossScore": 0.9953548282889895
+    },
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.995290883357711,
+      "CrossScore": 0.995290883357711
+    },
+    {
+      "Question": "गेहूं में 'फुलेरिका' (Phalaris minor) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9949138233392822,
+      "CrossScore": 0.9949138233392822
+    },
+    {
+      "Question": "गेहूं की खेती में सबसे बड़ी चुनौती क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9948994921270232,
+      "CrossScore": 0.9948994921270232
+    }
+  ],
+  "latency_ms": 210.52,
+  "final_returned": [
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General",
+      "Score": 0.9999335887322808
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद खेत की 'गहरी जुताई' (Deep Ploughing)?",
+      "Crop": "Wheat",
+      "Score": 0.9994835847448538
+    },
+    {
+      "Question": "IPM में 'हस्त चयन' (Hand Picking) कब प्रभावी है?",
+      "Crop": "General",
+      "Score": 0.9961428889683867
+    },
+    {
+      "Question": "IPM में 'ग्रीस बैंडिंग' क्या है?",
+      "Crop": "General",
+      "Score": 0.9957627708536135
+    },
+    {
+      "Question": "क्या गेहूं की बुआई बिना जुताई के की जा सकती है?",
+      "Crop": "Wheat",
+      "Score": 0.9956367106465729
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:11.006359",
+  "query_original": "'बीज दर' कम होने से नुकसान?",
+  "query_normalized": "बीज दर कम होने से नुकसान",
+  "query_expanded": "बीज दर कम होने से नुकसान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीज दर' कम होने से नुकसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज दर' (Seed Rate) कम या ज्यादा होने के नुकसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ओलावृष्टि (Hailstorm) से फसल को नुकसान होने पर क्या करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में 'जिंक' की कमी से होने वाला नुकसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीज दर' कम होने से नुकसान?",
+      "Crop": "General",
+      "FinalScore": 999.9123005264388,
+      "CrossScore": 0.9999123005264388
+    },
+    {
+      "Question": "बैंगन की प्रति एकड़ बीज दर?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999106047279298,
+      "CrossScore": 0.9999106047279298
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.999902198179377,
+      "CrossScore": 0.999902198179377
+    },
+    {
+      "Question": "टमाटर की प्रति एकड़ बीज दर?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9999019471696939,
+      "CrossScore": 0.9999019471696939
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9999014507344637,
+      "CrossScore": 0.9999014507344637
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998982938657209,
+      "CrossScore": 0.9998982938657209
+    },
+    {
+      "Question": "लहसुन की प्रति एकड़ बीज (कली) दर?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998916133074095,
+      "CrossScore": 0.9998916133074095
+    },
+    {
+      "Question": "गेहूं की 'असिंचित' खेती के लिए बीज दर?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998857983637893,
+      "CrossScore": 0.9998857983637893
+    },
+    {
+      "Question": "क्या मशीनों से बीज की बर्बादी रुकती है?",
+      "Crop": "General",
+      "FinalScore": 0.99988227292159,
+      "CrossScore": 0.99988227292159
+    },
+    {
+      "Question": "प्याज की प्रति एकड़ बीज दर?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998764895885872,
+      "CrossScore": 0.9998764895885872
+    }
+  ],
+  "latency_ms": 197.75,
+  "final_returned": [
+    {
+      "Question": "'बीज दर' कम होने से नुकसान?",
+      "Crop": "General",
+      "Score": 999.9123005264388
+    },
+    {
+      "Question": "बैंगन की प्रति एकड़ बीज दर?",
+      "Crop": "Brinjal",
+      "Score": 0.9999106047279298
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "Score": 0.999902198179377
+    },
+    {
+      "Question": "टमाटर की प्रति एकड़ बीज दर?",
+      "Crop": "Tomato",
+      "Score": 0.9999019471696939
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander",
+      "Score": 0.9999014507344637
+    }
+  ]
+}

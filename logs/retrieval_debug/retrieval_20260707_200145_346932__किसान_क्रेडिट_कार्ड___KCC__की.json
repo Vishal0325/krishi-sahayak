@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:45.142774",
+  "query_original": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+  "query_normalized": "किसान क्रेडिट कार्ड kcc की ब्याज दर",
+  "query_expanded": "किसान क्रेडिट कार्ड kcc की ब्याज दर",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General",
+      "FinalScore": 999.8702160499905,
+      "CrossScore": 0.9998702160499905
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998833207813618,
+      "CrossScore": 0.9998833207813619
+    },
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997913322992213,
+      "CrossScore": 0.9997913322992212
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.996566165329332,
+      "CrossScore": 0.9996566165329333
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996753816015379,
+      "CrossScore": 0.9996753816015379
+    },
+    {
+      "Question": "लहसुन की प्रति एकड़ बीज (कली) दर?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9996154361666708,
+      "CrossScore": 0.9996154361666708
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9995929136066721,
+      "CrossScore": 0.9995929136066721
+    },
+    {
+      "Question": "'क्रेडिट स्कोर' (CIBIL Score) का किसान के लिए महत्व?",
+      "Crop": "Economics",
+      "FinalScore": 0.9995556863542884,
+      "CrossScore": 0.9995556863542884
+    },
+    {
+      "Question": "प्याज की प्रति एकड़ बीज दर?",
+      "Crop": "Onion",
+      "FinalScore": 0.9995551739966635,
+      "CrossScore": 0.9995551739966635
+    },
+    {
+      "Question": "गेहूं की 'मृदा स्वास्थ्य कार्ड' आधारित खाद?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994944791120229,
+      "CrossScore": 0.9994944791120229
+    }
+  ],
+  "latency_ms": 204.18,
+  "final_returned": [
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General",
+      "Score": 999.8702160499905
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998833207813618
+    },
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General",
+      "Score": 9.997913322992213
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.996566165329332
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane",
+      "Score": 0.9996753816015379
+    }
+  ]
+}

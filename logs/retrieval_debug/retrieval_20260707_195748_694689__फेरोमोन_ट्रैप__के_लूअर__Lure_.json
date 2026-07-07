@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:48.508927",
+  "query_original": "'फेरोमोन ट्रैप' के लूअर (Lure) को कब बदलें?",
+  "query_normalized": "फेरोमोन ट्रैप के लूअर lure को कब बदलें",
+  "query_expanded": "फेरोमोन ट्रैप के लूअर lure को कब बदलें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर (Lure) को कब बदलें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर को कब बदलें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के 'लूअर' (Lure) की गंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर (Lure) को कब बदलें?",
+      "Crop": "General",
+      "FinalScore": 0.9999006562831835,
+      "CrossScore": 0.9999006562831835
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के 'लूअर' (Lure) की गंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998827141728608,
+      "CrossScore": 0.9998827141728608
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998741602313429,
+      "CrossScore": 0.9998741602313429
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998614454093823,
+      "CrossScore": 0.9998614454093823
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998507090925833,
+      "CrossScore": 0.9998507090925833
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998278082942653,
+      "CrossScore": 0.9998278082942653
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर को कब बदलें?",
+      "Crop": "General",
+      "FinalScore": 0.9998238742923824,
+      "CrossScore": 0.9998238742923824
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General",
+      "FinalScore": 0.9998207210965284,
+      "CrossScore": 0.9998207210965284
+    },
+    {
+      "Question": "फलों के बाग में 'कीट निगरानी' के लिए लाइट ट्रैप?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997988877064777,
+      "CrossScore": 0.9997988877064777
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997937744517797,
+      "CrossScore": 0.9997937744517797
+    }
+  ],
+  "latency_ms": 185.86,
+  "final_returned": [
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर (Lure) को कब बदलें?",
+      "Crop": "General",
+      "Score": 0.9999006562831835
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के 'लूअर' (Lure) की गंध?",
+      "Crop": "General",
+      "Score": 0.9998827141728608
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998741602313429
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "Score": 0.9998614454093823
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998507090925833
+    }
+  ]
+}

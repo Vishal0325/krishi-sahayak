@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:08.629131",
+  "query_original": "पशुओं के लिए 'शुद्ध पेयजल'?",
+  "query_normalized": "पशुओं के लिए शुद्ध पेयजल",
+  "query_expanded": "पशुओं के लिए शुद्ध पेयजल",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'शुद्ध पेयजल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'शुद्ध पेयजल'?",
+      "Crop": "General",
+      "FinalScore": 999.8923675355243,
+      "CrossScore": 0.9998923675355242
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998871708861742,
+      "CrossScore": 0.9998871708861742
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999882551669647,
+      "CrossScore": 0.999882551669647
+    },
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General",
+      "FinalScore": 0.9998788667721266,
+      "CrossScore": 0.9998788667721266
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998782587205877,
+      "CrossScore": 0.9998782587205877
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' खेती?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998735155322251,
+      "CrossScore": 0.9998735155322251
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर' घास के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998676168720717,
+      "CrossScore": 0.9998676168720717
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर घास'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998590524135316,
+      "CrossScore": 0.9998590524135316
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998574563258829,
+      "CrossScore": 0.9998574563258829
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998565166116817,
+      "CrossScore": 0.9998565166116817
+    }
+  ],
+  "latency_ms": 160.9,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'शुद्ध पेयजल'?",
+      "Crop": "General",
+      "Score": 999.8923675355243
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "Score": 0.9998871708861742
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.999882551669647
+    },
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General",
+      "Score": 0.9998788667721266
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "Score": 0.9998782587205877
+    }
+  ]
+}

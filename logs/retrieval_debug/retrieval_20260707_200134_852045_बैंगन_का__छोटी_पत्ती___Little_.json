@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:01:34.630866",
+  "query_original": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+  "query_normalized": "बैंगन का छोटी पत्ती little leaf रोग क्या है",
+  "query_expanded": "fungus बैंगन का छोटी पत्ती little leaf रोग क्या है फंगस बीमारी झुलसा disease रोग",
+  "detected_crops": [
+    "Brinjal"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "'बैंगन की छोटी पत्ती' (Little Leaf) और 'फुदका' (Leaf Hopper)?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन की खेती का परिचय क्या है?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 499947.1138271139,
+      "CrossScore": 0.9998942276542278
+    },
+    {
+      "Question": "'बैंगन की छोटी पत्ती' (Little Leaf) और 'फुदका' (Leaf Hopper)?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.9538000536084,
+      "CrossScore": 0.9999076001072168
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.72492789421995,
+      "CrossScore": 0.9994498557884399
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.994968370283544,
+      "CrossScore": 0.9998993674056709
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.98816302407301,
+      "CrossScore": 0.9997632604814602
+    },
+    {
+      "Question": "बैंगन की खेती का परिचय क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.98708472662638,
+      "CrossScore": 0.9997416945325276
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.98500668033344,
+      "CrossScore": 0.9997001336066688
+    },
+    {
+      "Question": "बैंगन की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.98244353375838,
+      "CrossScore": 0.9996488706751675
+    },
+    {
+      "Question": "बैंगन का 'तना व फल छेदक' क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.980752001331766,
+      "CrossScore": 0.9996150400266353
+    },
+    {
+      "Question": "क्या बिहार में बैंगन की खेती सफल है?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.97443014725052,
+      "CrossScore": 0.9994886029450105
+    }
+  ],
+  "latency_ms": 221.22,
+  "final_returned": [
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal",
+      "Score": 499947.1138271139
+    },
+    {
+      "Question": "'बैंगन की छोटी पत्ती' (Little Leaf) और 'फुदका' (Leaf Hopper)?",
+      "Crop": "Brinjal",
+      "Score": 499.9538000536084
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "Score": 499.72492789421995
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग?",
+      "Crop": "Brinjal",
+      "Score": 49.994968370283544
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "Score": 49.98816302407301
+    }
+  ]
+}

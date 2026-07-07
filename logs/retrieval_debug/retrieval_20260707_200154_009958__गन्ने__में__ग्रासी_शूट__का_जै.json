@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:53.833354",
+  "query_original": "'गन्ने' में 'ग्रासी शूट' का जैविक बचाव?",
+  "query_normalized": "गन्ने में ग्रासी शूट का जैविक बचाव",
+  "query_expanded": "गन्ने में ग्रासी शूट का जैविक बचाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "अमरूद के बाग में 'उकठा' (Wilt) से बचाव का जैविक तरीका?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 999.8762630191217,
+      "CrossScore": 0.9998762630191217
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998745491331792,
+      "CrossScore": 0.9998745491331792
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998726318886199,
+      "CrossScore": 0.9998726318886199
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998698312196458,
+      "CrossScore": 0.9998698312196458
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998636285806208,
+      "CrossScore": 0.9998636285806208
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998603042603726,
+      "CrossScore": 0.9998603042603726
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999856663067677,
+      "CrossScore": 0.999856663067677
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998503921621875,
+      "CrossScore": 0.9998503921621875
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.99984271378241,
+      "CrossScore": 0.99984271378241
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998417087442586,
+      "CrossScore": 0.9998417087442586
+    }
+  ],
+  "latency_ms": 176.64,
+  "final_returned": [
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 999.8762630191217
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998745491331792
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998726318886199
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998698312196458
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998636285806208
+    }
+  ]
+}

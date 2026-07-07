@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:58.147840",
+  "query_original": "'मिली बग' के लिए 'साबुन का घोल'?",
+  "query_normalized": "मिली बग के लिए साबुन का घोल",
+  "query_expanded": "pest मिली बग के लिए साबुन का घोल कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम के बाग में 'मिली बग' का जैविक इलाज?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'मिली बग' से सुरक्षा के लिए ग्रीस बैंडिंग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दीमक' के लिए 'बोरिक एसिड' का घोल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आम' में मिली बग को रोकने के लिए 'पेड़ की पट्टी'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 999.8918155897076,
+      "CrossScore": 0.9998918155897075
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "FinalScore": 0.999906197230906,
+      "CrossScore": 0.999906197230906
+    },
+    {
+      "Question": "'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "General",
+      "FinalScore": 0.9999025132692491,
+      "CrossScore": 0.9999025132692491
+    },
+    {
+      "Question": "'दीमक' के लिए 'बोरिक एसिड' का घोल?",
+      "Crop": "General",
+      "FinalScore": 0.9998948990688454,
+      "CrossScore": 0.9998948990688454
+    },
+    {
+      "Question": "'आम' में मिली बग को रोकने के लिए 'पेड़ की पट्टी'?",
+      "Crop": "General",
+      "FinalScore": 0.999889823581474,
+      "CrossScore": 0.999889823581474
+    },
+    {
+      "Question": "'मिली बग' से सुरक्षा के लिए ग्रीस बैंडिंग?",
+      "Crop": "General",
+      "FinalScore": 0.9998881929614629,
+      "CrossScore": 0.9998881929614629
+    },
+    {
+      "Question": "मुर्गियों के लिए 'नमक' का घोल?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998857003128694,
+      "CrossScore": 0.9998857003128694
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "FinalScore": 0.9998846161812996,
+      "CrossScore": 0.9998846161812996
+    },
+    {
+      "Question": "'दीमक' के लिए 'बोरिक एसिड' का प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998845697410329,
+      "CrossScore": 0.9998845697410329
+    },
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General",
+      "FinalScore": 0.9998804919389773,
+      "CrossScore": 0.9998804919389773
+    }
+  ],
+  "latency_ms": 193.35,
+  "final_returned": [
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "Score": 999.8918155897076
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "Score": 0.999906197230906
+    },
+    {
+      "Question": "'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "General",
+      "Score": 0.9999025132692491
+    },
+    {
+      "Question": "'दीमक' के लिए 'बोरिक एसिड' का घोल?",
+      "Crop": "General",
+      "Score": 0.9998948990688454
+    },
+    {
+      "Question": "'आम' में मिली बग को रोकने के लिए 'पेड़ की पट्टी'?",
+      "Crop": "General",
+      "Score": 0.999889823581474
+    }
+  ]
+}

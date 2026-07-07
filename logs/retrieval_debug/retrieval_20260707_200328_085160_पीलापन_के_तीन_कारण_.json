@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:27.865178",
+  "query_original": "पीलापन के तीन कारण?",
+  "query_normalized": "पीलापन के तीन कारण",
+  "query_expanded": "पीलापन zinc deficiency पीलापन के तीन कारण yellow leaves पत्ती पीली nitrogen deficiency",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीलापन के तीन कारण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "भिंडी के बीजों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'पीलापन' का कारण?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "धनिया के पौधों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीलापन के तीन कारण?",
+      "Crop": "Rice",
+      "FinalScore": 999.8872321958625,
+      "CrossScore": 0.9998872321958624
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998874058331744,
+      "CrossScore": 0.9998874058331744
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'पीलापन' का कारण?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998650025970194,
+      "CrossScore": 0.9998650025970194
+    },
+    {
+      "Question": "मशरूम के 'धब्बों' (Spots) का कारण?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998612757987272,
+      "CrossScore": 0.9998612757987272
+    },
+    {
+      "Question": "'अंडा' फटने के कारण?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998590471718674,
+      "CrossScore": 0.9998590471718674
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) खाली रहने का क्या कारण है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998566992825485,
+      "CrossScore": 0.9998566992825485
+    },
+    {
+      "Question": "धनिया के पौधों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998502772801838,
+      "CrossScore": 0.9998502772801838
+    },
+    {
+      "Question": "'संवर्धित कृषि' (Conservation Agriculture) के तीन मुख्य सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9998474600446368,
+      "CrossScore": 0.9998474600446368
+    },
+    {
+      "Question": "भिंडी के बीजों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998438677951957,
+      "CrossScore": 0.9998438677951957
+    },
+    {
+      "Question": "मखाना के बीजों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998415888569672,
+      "CrossScore": 0.9998415888569672
+    }
+  ],
+  "latency_ms": 220.01,
+  "final_returned": [
+    {
+      "Question": "पीलापन के तीन कारण?",
+      "Crop": "Rice",
+      "Score": 999.8872321958625
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "Score": 0.9998874058331744
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'पीलापन' का कारण?",
+      "Crop": "Pulses",
+      "Score": 0.9998650025970194
+    },
+    {
+      "Question": "मशरूम के 'धब्बों' (Spots) का कारण?",
+      "Crop": "Mushroom",
+      "Score": 0.9998612757987272
+    },
+    {
+      "Question": "'अंडा' फटने के कारण?",
+      "Crop": "Poultry",
+      "Score": 0.9998590471718674
+    }
+  ]
+}

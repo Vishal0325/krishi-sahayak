@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:57.941407",
+  "query_original": "भारी मिट्टी और हल्की मिट्टी में क्या अंतर है?",
+  "query_normalized": "भारी मिट्टी और हल्की मिट्टी में क्या अंतर है",
+  "query_expanded": "भारी मिट्टी और हल्की मिट्टी में क्या अंतर है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "भारी मिट्टी और हल्की मिट्टी में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "चने की 'काबुली' और 'देशी' किस्म में क्या अंतर है?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भारी मिट्टी और हल्की मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 999.8927075412399,
+      "CrossScore": 0.9998927075412399
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9999085496165625,
+      "CrossScore": 0.9999085496165625
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998941626793463,
+      "CrossScore": 0.9998941626793463
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998783174466436,
+      "CrossScore": 0.9998783174466436
+    },
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.999875709117207,
+      "CrossScore": 0.999875709117207
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998754376513707,
+      "CrossScore": 0.9998754376513707
+    },
+    {
+      "Question": "शाही लीची और चाइना लीची में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998725867003787,
+      "CrossScore": 0.9998725867003787
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998714616981622,
+      "CrossScore": 0.9998714616981622
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998700228476792,
+      "CrossScore": 0.9998700228476792
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998602264466249,
+      "CrossScore": 0.9998602264466249
+    }
+  ],
+  "latency_ms": 272.44,
+  "final_returned": [
+    {
+      "Question": "भारी मिट्टी और हल्की मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 999.8927075412399
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9999085496165625
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9998941626793463
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998783174466436
+    },
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.999875709117207
+    }
+  ]
+}

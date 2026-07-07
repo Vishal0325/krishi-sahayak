@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:30.862088",
+  "query_original": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) वायरस?",
+  "query_normalized": "भिंडी का पीला मोजेक yellow vein mosaic वायरस",
+  "query_expanded": "भिंडी का पीला मोजेक yellow vein mosaic वायरस",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) वायरस?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) क्या है?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "मूंग में 'पीला मोजेक' (Yellow Mosaic) वायरस?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'भिंडी का पीला मोजेक' (YVMV) और 'सफेद मक्खी'?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.999892816958276,
+      "CrossScore": 0.999892816958276
+    },
+    {
+      "Question": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) वायरस?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998895931525609,
+      "CrossScore": 0.9998895931525609
+    },
+    {
+      "Question": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) क्या है?",
+      "Crop": "Okra",
+      "FinalScore": 0.999860279481929,
+      "CrossScore": 0.999860279481929
+    },
+    {
+      "Question": "भिंडी in 'YVMV' (Yellow Vein Mosaic) कैसे फैलता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998352556384381,
+      "CrossScore": 0.9998352556384381
+    },
+    {
+      "Question": "मूंग में 'पीला मोजेक' (Yellow Mosaic) वायरस?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998338025007518,
+      "CrossScore": 0.9998338025007518
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9995734285629633,
+      "CrossScore": 0.9995734285629633
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.99956042156723,
+      "CrossScore": 0.99956042156723
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) कैसे पहचानें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994588045548491,
+      "CrossScore": 0.9994588045548491
+    },
+    {
+      "Question": "'गेहूं का पीला रतुआ' (Yellow Rust) और 'हवा'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994363555498509,
+      "CrossScore": 0.9994363555498509
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) रोग क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9993234489108158,
+      "CrossScore": 0.9993234489108158
+    }
+  ],
+  "latency_ms": 350.74,
+  "final_returned": [
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra",
+      "Score": 0.999892816958276
+    },
+    {
+      "Question": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) वायरस?",
+      "Crop": "Okra",
+      "Score": 0.9998895931525609
+    },
+    {
+      "Question": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) क्या है?",
+      "Crop": "Okra",
+      "Score": 0.999860279481929
+    },
+    {
+      "Question": "भिंडी in 'YVMV' (Yellow Vein Mosaic) कैसे फैलता है?",
+      "Crop": "Okra",
+      "Score": 0.9998352556384381
+    },
+    {
+      "Question": "मूंग में 'पीला मोजेक' (Yellow Mosaic) वायरस?",
+      "Crop": "Pulses",
+      "Score": 0.9998338025007518
+    }
+  ]
+}

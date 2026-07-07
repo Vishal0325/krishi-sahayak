@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:54.603979",
+  "query_original": "मुर्गी फार्म में 'साफ-सफाई' की सूची?",
+  "query_normalized": "मुर्गी फार्म में साफ सफाई की सूची",
+  "query_expanded": "मुर्गी फार्म में साफ सफाई की सूची",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'साफ-सफाई' की सूची?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "डेरी फार्म में 'साफ-सफाई' की चेकलिस्ट?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "मक्का में 'सिंचाई' के लिए 'वाटर चैनल' (Water Channel) की सफाई?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'स्प्रेयर' की सफाई में 'सावधानी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'साउंड सिस्टम' का उपयोग?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999301094386461,
+      "CrossScore": 0.9999301094386461
+    },
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry",
+      "FinalScore": 0.999924316191246,
+      "CrossScore": 0.999924316191246
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999229609310931,
+      "CrossScore": 0.9999229609310931
+    },
+    {
+      "Question": "मुर्गी फार्म में 'वेंटिलेशन' क्यों जरूरी है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999205219337458,
+      "CrossScore": 0.9999205219337458
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999182862577838,
+      "CrossScore": 0.9999182862577838
+    },
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999138631867555,
+      "CrossScore": 0.9999138631867555
+    },
+    {
+      "Question": "मुर्गी फार्म में 'अजनबियों' का प्रवेश?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999115929424979,
+      "CrossScore": 0.9999115929424979
+    },
+    {
+      "Question": "मुर्गी फार्म के लिए 'पानी की टंकी' की ऊँचाई?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999089464990711,
+      "CrossScore": 0.9999089464990711
+    },
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 0.9999072638812229,
+      "CrossScore": 0.9999072638812229
+    },
+    {
+      "Question": "'स्प्रेयर' की सफाई में 'सावधानी'?",
+      "Crop": "General",
+      "FinalScore": 0.9999071195366604,
+      "CrossScore": 0.9999071195366604
+    }
+  ],
+  "latency_ms": 204.36,
+  "final_returned": [
+    {
+      "Question": "मुर्गी फार्म में 'साउंड सिस्टम' का उपयोग?",
+      "Crop": "Poultry",
+      "Score": 0.9999301094386461
+    },
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry",
+      "Score": 0.999924316191246
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "Score": 0.9999229609310931
+    },
+    {
+      "Question": "मुर्गी फार्म में 'वेंटिलेशन' क्यों जरूरी है?",
+      "Crop": "Poultry",
+      "Score": 0.9999205219337458
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry",
+      "Score": 0.9999182862577838
+    }
+  ]
+}

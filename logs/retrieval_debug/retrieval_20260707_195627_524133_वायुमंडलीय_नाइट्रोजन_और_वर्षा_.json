@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:27.328593",
+  "query_original": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+  "query_normalized": "वायुमंडलीय नाइट्रोजन और वर्षा",
+  "query_expanded": "नाइट्रोजन urea nitrogen वायुमंडलीय नाइट्रोजन और वर्षा यूरिया",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9998387361494248,
+      "CrossScore": 0.9998387361494248
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997950939362809,
+      "CrossScore": 0.9997950939362809
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9997727565197374,
+      "CrossScore": 0.9997727565197374
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 0.9997099359564389,
+      "CrossScore": 0.9997099359564389
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996922894888121,
+      "CrossScore": 0.9996922894888121
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9996893225591081,
+      "CrossScore": 0.9996893225591081
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996828215919792,
+      "CrossScore": 0.9996828215919792
+    },
+    {
+      "Question": "दलहनी फसलों में 'नैनो यूरिया' का प्रयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999638551256589,
+      "CrossScore": 0.999638551256589
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9996327832980849,
+      "CrossScore": 0.9996327832980849
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996211951092006,
+      "CrossScore": 0.9996211951092006
+    }
+  ],
+  "latency_ms": 195.63,
+  "final_returned": [
+    {
+      "Question": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+      "Crop": "General",
+      "Score": 0.9998387361494248
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "Score": 0.9997950939362809
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "Score": 0.9997727565197374
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 0.9997099359564389
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9996922894888121
+    }
+  ]
+}

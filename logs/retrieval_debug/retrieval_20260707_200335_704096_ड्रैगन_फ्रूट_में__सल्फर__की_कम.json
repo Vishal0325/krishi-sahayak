@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:35.503937",
+  "query_original": "ड्रैगन फ्रूट में 'सल्फर' की कमी का पहचान?",
+  "query_normalized": "ड्रैगन फ्रूट में सल्फर की कमी का पहचान",
+  "query_expanded": "ड्रैगन फ्रूट में सल्फर की कमी का पहचान",
+  "detected_crops": [
+    "Dragon Fruit"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ड्रैगन फ्रूट में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "'पौधों' में 'सल्फर' की कमी का पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'मैंगनीज' की कमी का उपचार?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'बोरॉन' की कमी से फूलों का गिरना?",
+      "Crop": "Dragon Fruit"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ड्रैगन फ्रूट में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49992.85809447518,
+      "CrossScore": 0.9998571618895036
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में शुरुआती निवेश कितना है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.996230604744746,
+      "CrossScore": 0.9999246120948949
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में 'इंटर-क्रॉपिंग' का सुझाव?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.995733924014715,
+      "CrossScore": 0.9999146784802943
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99569288005479,
+      "CrossScore": 0.9999138576010957
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में 'जल निकास' का महत्व?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.995343329636,
+      "CrossScore": 0.99990686659272
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99533326095943,
+      "CrossScore": 0.9999066652191885
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की 'सघन' खेती में 'हवा' का संचार?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99521469242007,
+      "CrossScore": 0.9999042938484014
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.994765483706054,
+      "CrossScore": 0.9998953096741211
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के भंडारण में 'पारे' की गोली का खतरा?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99475523612054,
+      "CrossScore": 0.9998951047224107
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'पोटाश' की कमी से तने की मोटाई?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99437765751739,
+      "CrossScore": 0.9998875531503478
+    }
+  ],
+  "latency_ms": 200.2,
+  "final_returned": [
+    {
+      "Question": "ड्रैगन फ्रूट में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Dragon Fruit",
+      "Score": 49992.85809447518
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में शुरुआती निवेश कितना है?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.996230604744746
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में 'इंटर-क्रॉपिंग' का सुझाव?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.995733924014715
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.99569288005479
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में 'जल निकास' का महत्व?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.995343329636
+    }
+  ]
+}

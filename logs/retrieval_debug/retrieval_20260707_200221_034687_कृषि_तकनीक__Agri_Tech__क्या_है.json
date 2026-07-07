@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:20.827937",
+  "query_original": "कृषि तकनीक (Agri Tech) क्या है?",
+  "query_normalized": "कृषि तकनीक agri tech क्या है",
+  "query_expanded": "कृषि तकनीक agri tech क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.9356234507388,
+      "CrossScore": 0.9999356234507388
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999196381942073,
+      "CrossScore": 0.9999196381942073
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999149227854223,
+      "CrossScore": 0.9999149227854223
+    },
+    {
+      "Question": "'एग्री-फिनटेक' (Agri Fintech) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999108647766016,
+      "CrossScore": 0.9999108647766016
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999100724056261,
+      "CrossScore": 0.9999100724056261
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999095061121132,
+      "CrossScore": 0.9999095061121132
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998981035980485,
+      "CrossScore": 0.9998981035980485
+    },
+    {
+      "Question": "'फार्मर आईडी' (Digital Agri ID) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998747040704773,
+      "CrossScore": 0.9998747040704773
+    },
+    {
+      "Question": "'कृषि पर्यटन' (Agri-tourism) से होने वाली अतिरिक्त आय?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998672976215291,
+      "CrossScore": 0.9998672976215291
+    },
+    {
+      "Question": "क्या कृषि ऋण (Agri Loan) माफ होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998091411541393,
+      "CrossScore": 0.9998091411541393
+    }
+  ],
+  "latency_ms": 206.8,
+  "final_returned": [
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 999.9356234507388
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999196381942073
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999149227854223
+    },
+    {
+      "Question": "'एग्री-फिनटेक' (Agri Fintech) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999108647766016
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999100724056261
+    }
+  ]
+}

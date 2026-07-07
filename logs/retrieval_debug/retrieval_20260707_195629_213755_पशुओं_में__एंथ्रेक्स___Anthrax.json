@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:29.012260",
+  "query_original": "पशुओं में 'एंथ्रेक्स' (Anthrax) रोग कितना खतरनाक है?",
+  "query_normalized": "पशुओं में एंथ्रेक्स anthrax रोग कितना खतरनाक है",
+  "query_expanded": "फंगस बीमारी fungus disease पशुओं में एंथ्रेक्स anthrax रोग कितना खतरनाक है झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'एंथ्रेक्स' (Anthrax) रोग कितना खतरनाक है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'थनैला' (Mastitis) रोग क्या है?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं में 'एन्थ्रेक्स' (Anthrax) बीमारी?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.998343483308275,
+      "CrossScore": 0.9998343483308276
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "FinalScore": 9.998056831131272,
+      "CrossScore": 0.9998056831131272
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.99758518444581,
+      "CrossScore": 0.9997585184445811
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.996334527338663,
+      "CrossScore": 0.9996334527338663
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99607459894421,
+      "CrossScore": 0.999607459894421
+    },
+    {
+      "Question": "पशुओं में 'एंथ्रेक्स' (Anthrax) रोग कितना खतरनाक है?",
+      "Crop": "General",
+      "FinalScore": 0.9998827311712121,
+      "CrossScore": 0.9998827311712121
+    },
+    {
+      "Question": "पशुओं में 'एन्थ्रेक्स' (Anthrax) बीमारी?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998535941233413,
+      "CrossScore": 0.9998535941233413
+    },
+    {
+      "Question": "अमरूद में 'उकठा' (Wilt) रोग का क्या उपचार है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998113283315543,
+      "CrossScore": 0.9998113283315543
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998090770855714,
+      "CrossScore": 0.9998090770855714
+    },
+    {
+      "Question": "नर्सरी में 'आर्द्र पतन' (Damping off) रोग?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998021226245829,
+      "CrossScore": 0.9998021226245829
+    }
+  ],
+  "latency_ms": 201.69,
+  "final_returned": [
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "Score": 9.998343483308275
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "Score": 9.998056831131272
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.99758518444581
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "Score": 9.996334527338663
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.99607459894421
+    }
+  ]
+}

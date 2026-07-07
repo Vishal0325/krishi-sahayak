@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:48.486652",
+  "query_original": "आंधी (Dust Storm) का फसलों पर भौतिक नुकसान?",
+  "query_normalized": "आंधी dust storm का फसलों पर भौतिक नुकसान",
+  "query_expanded": "आंधी dust storm का फसलों पर भौतिक नुकसान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आंधी (Dust Storm) का फसलों पर भौतिक नुकसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों की 'मिट्टी' का पीएच 8.5 से अधिक होने पर?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आंधी (Dust Storm) का फसलों पर भौतिक नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.9999110392772871,
+      "CrossScore": 0.9999110392772871
+    },
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9995535206064095,
+      "CrossScore": 0.9995535206064095
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9983717658703241,
+      "CrossScore": 0.9983717658703241
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9983315069892451,
+      "CrossScore": 0.9983315069892451
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'उपज'?",
+      "Crop": "General",
+      "FinalScore": 0.9977054353156496,
+      "CrossScore": 0.9977054353156496
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General",
+      "FinalScore": 0.9976418688164095,
+      "CrossScore": 0.9976418688164095
+    },
+    {
+      "Question": "दलहनी फसलों की 'मिट्टी' का पीएच 8.5 से अधिक होने पर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.997586105301988,
+      "CrossScore": 0.997586105301988
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9974651768456586,
+      "CrossScore": 0.9974651768456586
+    },
+    {
+      "Question": "खरपतवारों का 'आर्थिक नुकसान स्तर'?",
+      "Crop": "General",
+      "FinalScore": 0.9973835088668935,
+      "CrossScore": 0.9973835088668935
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9970262373092154,
+      "CrossScore": 0.9970262373092154
+    }
+  ],
+  "latency_ms": 183.24,
+  "final_returned": [
+    {
+      "Question": "आंधी (Dust Storm) का फसलों पर भौतिक नुकसान?",
+      "Crop": "General",
+      "Score": 0.9999110392772871
+    },
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 0.9995535206064095
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 0.9983717658703241
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 0.9983315069892451
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'उपज'?",
+      "Crop": "General",
+      "Score": 0.9977054353156496
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:11.418317",
+  "query_original": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+  "query_normalized": "आम में मिली बग का जमीन पर नियंत्रण",
+  "query_expanded": "बग आम में मिली बग का जमीन पर नियंत्रण pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम के बाग में 'मिली बग' का जैविक इलाज?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998712898657683,
+      "CrossScore": 0.9998712898657683
+    },
+    {
+      "Question": "'आम' में 'पाउडर मिल्ड्यू' का प्रबंधन?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998670607842989,
+      "CrossScore": 0.9998670607842989
+    },
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General",
+      "FinalScore": 0.9998619965621727,
+      "CrossScore": 0.9998619965621727
+    },
+    {
+      "Question": "'आम' में मिली बग को रोकने के लिए 'पेड़ की पट्टी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998565918411897,
+      "CrossScore": 0.9998565918411897
+    },
+    {
+      "Question": "आम की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998521809865185,
+      "CrossScore": 0.9998521809865185
+    },
+    {
+      "Question": "आम के बाग में 'मधुआ' (Mango Hopper) कीट का उपचार क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998456563427041,
+      "CrossScore": 0.9998456563427041
+    },
+    {
+      "Question": "आम के बाग में 'मिली बग' का जैविक इलाज?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998384038215672,
+      "CrossScore": 0.9998384038215672
+    },
+    {
+      "Question": "भिंडी में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998363100711735,
+      "CrossScore": 0.9998363100711735
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "FinalScore": 0.9998345428129303,
+      "CrossScore": 0.9998345428129303
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998334522261617,
+      "CrossScore": 0.9998334522261617
+    }
+  ],
+  "latency_ms": 247.02,
+  "final_returned": [
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango",
+      "Score": 0.9998712898657683
+    },
+    {
+      "Question": "'आम' में 'पाउडर मिल्ड्यू' का प्रबंधन?",
+      "Crop": "Mango",
+      "Score": 0.9998670607842989
+    },
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General",
+      "Score": 0.9998619965621727
+    },
+    {
+      "Question": "'आम' में मिली बग को रोकने के लिए 'पेड़ की पट्टी'?",
+      "Crop": "General",
+      "Score": 0.9998565918411897
+    },
+    {
+      "Question": "आम की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Mango",
+      "Score": 0.9998521809865185
+    }
+  ]
+}

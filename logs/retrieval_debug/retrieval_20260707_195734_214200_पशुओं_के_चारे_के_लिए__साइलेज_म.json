@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:34.014259",
+  "query_original": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+  "query_normalized": "पशुओं के चारे के लिए साइलेज मेकर",
+  "query_expanded": "पशुओं के चारे के लिए साइलेज मेकर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'मक्का का साइलेज'?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की फसल के लिए 'साइलेज' (Silage) क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का की फसल के लिए 'साइलेज' (Silage) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999086508065997,
+      "CrossScore": 0.9999086508065997
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999073884863555,
+      "CrossScore": 0.9999073884863555
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999032939782679,
+      "CrossScore": 0.9999032939782679
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998989504572015,
+      "CrossScore": 0.9998989504572015
+    },
+    {
+      "Question": "क्या पशुओं के लिए 'बीमा' जरूरी है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998981364348919,
+      "CrossScore": 0.9998981364348919
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "FinalScore": 0.9998969749310043,
+      "CrossScore": 0.9998969749310043
+    },
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General",
+      "FinalScore": 0.9998953624708871,
+      "CrossScore": 0.9998953624708871
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर' घास के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999893997944813,
+      "CrossScore": 0.999893997944813
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर घास'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998935578380622,
+      "CrossScore": 0.9998935578380622
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998933066332685,
+      "CrossScore": 0.9998933066332685
+    }
+  ],
+  "latency_ms": 200.02,
+  "final_returned": [
+    {
+      "Question": "मक्का की फसल के लिए 'साइलेज' (Silage) क्या है?",
+      "Crop": "Maize",
+      "Score": 0.9999086508065997
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.9999073884863555
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "Score": 0.9999032939782679
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "Score": 0.9998989504572015
+    },
+    {
+      "Question": "क्या पशुओं के लिए 'बीमा' जरूरी है?",
+      "Crop": "Livestock",
+      "Score": 0.9998981364348919
+    }
+  ]
+}

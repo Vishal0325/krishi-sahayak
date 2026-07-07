@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:16.568887",
+  "query_original": "दवाओं का 'अदला-बदली' क्यों जरूरी है?",
+  "query_normalized": "दवाओं का अदला बदली क्यों जरूरी है",
+  "query_expanded": "दवाओं का अदला बदली क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "दवाओं का 'अदला-बदली' क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दवाओं का 'अदला-बदली' (Rotation) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धान में जिंक सल्फेट का प्रयोग क्यों जरूरी है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मटर के बीजों का उपचार (Seed Treatment) क्यों जरूरी है?",
+      "Crop": "Pea"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "दवाओं का 'अदला-बदली' क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9999093286043239,
+      "CrossScore": 0.9999093286043239
+    },
+    {
+      "Question": "दलहनी फसलों का बीज उपचार क्यों जरूरी है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9999058554517145,
+      "CrossScore": 0.9999058554517145
+    },
+    {
+      "Question": "दवाओं का 'अदला-बदली' (Rotation) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9999010117439022,
+      "CrossScore": 0.9999010117439022
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999002014784372,
+      "CrossScore": 0.9999002014784372
+    },
+    {
+      "Question": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998975472666716,
+      "CrossScore": 0.9998975472666716
+    },
+    {
+      "Question": "मूंग की कटाई में 'एक साथ पकना' क्यों जरूरी है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999892237829097,
+      "CrossScore": 0.999892237829097
+    },
+    {
+      "Question": "क्या जैविक दवाओं का असर तुरंत होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998906204095231,
+      "CrossScore": 0.9998906204095231
+    },
+    {
+      "Question": "बक्सों का 'स्थानांतरण' (Migration) क्यों जरूरी है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998894590490528,
+      "CrossScore": 0.9998894590490528
+    },
+    {
+      "Question": "औषधीय पौधों की 'सफाई' क्यों जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.99988939589138,
+      "CrossScore": 0.99988939589138
+    },
+    {
+      "Question": "जैविक दवाओं के पैकेट पर 'CFU' का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.999886008562474,
+      "CrossScore": 0.999886008562474
+    }
+  ],
+  "latency_ms": 436.14,
+  "final_returned": [
+    {
+      "Question": "दवाओं का 'अदला-बदली' क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9999093286043239
+    },
+    {
+      "Question": "दलहनी फसलों का बीज उपचार क्यों जरूरी है?",
+      "Crop": "Pulses",
+      "Score": 0.9999058554517145
+    },
+    {
+      "Question": "दवाओं का 'अदला-बदली' (Rotation) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9999010117439022
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9999002014784372
+    },
+    {
+      "Question": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998975472666716
+    }
+  ]
+}

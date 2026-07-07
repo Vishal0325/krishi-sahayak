@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:24.427624",
+  "query_original": "कोनो वीडर का लाभ?",
+  "query_normalized": "कोनो वीडर का लाभ",
+  "query_expanded": "कोनो वीडर का लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कोनो वीडर का लाभ?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "कोनो वीडर चलाने का समय?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'सिरफिड फ्लाई' (Syrphid Fly) का लाभ?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कोनो वीडर का लाभ?",
+      "Crop": "Rice",
+      "FinalScore": 999.9167051599886,
+      "CrossScore": 0.9999167051599887
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999137000679619,
+      "CrossScore": 0.9999137000679619
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999066506216084,
+      "CrossScore": 0.9999066506216084
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999013725165412,
+      "CrossScore": 0.9999013725165412
+    },
+    {
+      "Question": "'ऑफ-सीजन' बिक्री का लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999006587461886,
+      "CrossScore": 0.9999006587461886
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'मल्चिंग' का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998983215025948,
+      "CrossScore": 0.9998983215025948
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998928890919662,
+      "CrossScore": 0.9998928890919662
+    },
+    {
+      "Question": "मेड़ों पर खरपतवार नियंत्रण का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.999891752436426,
+      "CrossScore": 0.999891752436426
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998900666339332,
+      "CrossScore": 0.9998900666339332
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998872521949722,
+      "CrossScore": 0.9998872521949722
+    }
+  ],
+  "latency_ms": 335.61,
+  "final_returned": [
+    {
+      "Question": "कोनो वीडर का लाभ?",
+      "Crop": "Rice",
+      "Score": 999.9167051599886
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9999137000679619
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "Score": 0.9999066506216084
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "Score": 0.9999013725165412
+    },
+    {
+      "Question": "'ऑफ-सीजन' बिक्री का लाभ?",
+      "Crop": "Economics",
+      "Score": 0.9999006587461886
+    }
+  ]
+}

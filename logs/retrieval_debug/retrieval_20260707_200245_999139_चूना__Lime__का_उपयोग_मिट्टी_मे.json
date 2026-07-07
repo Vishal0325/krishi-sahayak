@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:45.790105",
+  "query_original": "चूना (Lime) का उपयोग मिट्टी में क्यों?",
+  "query_normalized": "चूना lime का उपयोग मिट्टी में क्यों",
+  "query_expanded": "चूना lime का उपयोग मिट्टी में क्यों",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "चूना (Lime) का उपयोग मिट्टी में क्यों?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डेरी फार्म में 'चूना' (Lime) का उपयोग?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "चूना (Lime) का उपयोग मिट्टी में क्यों?",
+      "Crop": "General",
+      "FinalScore": 999.869440891127,
+      "CrossScore": 0.9998694408911271
+    },
+    {
+      "Question": "डेरी फार्म में 'चूना' (Lime) का उपयोग?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998177222286994,
+      "CrossScore": 0.9998177222286994
+    },
+    {
+      "Question": "मुर्गी फार्म में 'चूना' (Lime) का छिड़काव?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998079736386862,
+      "CrossScore": 0.9998079736386862
+    },
+    {
+      "Question": "मिट्टी में चूना पत्थर (Limestone) डालने का सही समय क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997672317350541,
+      "CrossScore": 0.9997672317350541
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997602045594001,
+      "CrossScore": 0.9997602045594001
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997568645257457,
+      "CrossScore": 0.9997568645257457
+    },
+    {
+      "Question": "मक्का में 'चूहों' के लिए 'बाउमा' (ट्रैप) का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997493533988837,
+      "CrossScore": 0.9997493533988837
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997140347379994,
+      "CrossScore": 0.9997140347379994
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996879874229914,
+      "CrossScore": 0.9996879874229914
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999669145888277,
+      "CrossScore": 0.999669145888277
+    }
+  ],
+  "latency_ms": 209.08,
+  "final_returned": [
+    {
+      "Question": "चूना (Lime) का उपयोग मिट्टी में क्यों?",
+      "Crop": "General",
+      "Score": 999.869440891127
+    },
+    {
+      "Question": "डेरी फार्म में 'चूना' (Lime) का उपयोग?",
+      "Crop": "Dairy",
+      "Score": 0.9998177222286994
+    },
+    {
+      "Question": "मुर्गी फार्म में 'चूना' (Lime) का छिड़काव?",
+      "Crop": "Poultry",
+      "Score": 0.9998079736386862
+    },
+    {
+      "Question": "मिट्टी में चूना पत्थर (Limestone) डालने का सही समय क्या है?",
+      "Crop": "General",
+      "Score": 0.9997672317350541
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997602045594001
+    }
+  ]
+}

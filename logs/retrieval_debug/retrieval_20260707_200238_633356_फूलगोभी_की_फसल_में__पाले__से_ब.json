@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:38.485169",
+  "query_original": "फूलगोभी की फसल में 'पाले' से बचाव?",
+  "query_normalized": "फूलगोभी की फसल में पाले से बचाव",
+  "query_expanded": "फूलगोभी की फसल में पाले से बचाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलगोभी की फसल में 'पाले' से बचाव?",
+      "Crop": "Cauliflower"
+    },
+    {
+      "Question": "भिंडी की फसल में 'पाले' से बचाव?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "धनिया की फसल में 'पाले' से बचाव?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "बैंगन की फसल में 'पाले' से बचाव?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "प्याज की फसल में 'पाले' से बचाव?",
+      "Crop": "Onion"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फूलगोभी की फसल में 'पाले' से बचाव?",
+      "Crop": "Cauliflower",
+      "FinalScore": 999.8867539593803,
+      "CrossScore": 0.9998867539593802
+    },
+    {
+      "Question": "मखाना की फसल में 'सूखे' से बचाव?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999316444351355,
+      "CrossScore": 0.9999316444351355
+    },
+    {
+      "Question": "हल्दी की फसल में 'सूखे' से बचाव?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999231350653192,
+      "CrossScore": 0.9999231350653192
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999197751734764,
+      "CrossScore": 0.9999197751734764
+    },
+    {
+      "Question": "भिंडी की फसल में 'पाले' से बचाव?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999195338292189,
+      "CrossScore": 0.9999195338292189
+    },
+    {
+      "Question": "पत्तागोभी की फसल में 'पाले' से बचाव?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999190767458683,
+      "CrossScore": 0.9999190767458683
+    },
+    {
+      "Question": "लीची की फसल में 'लू' (Loo) से बचाव?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999164692385433,
+      "CrossScore": 0.9999164692385433
+    },
+    {
+      "Question": "केले की फसल में 'तेज हवा' से बचाव?",
+      "Crop": "Banana",
+      "FinalScore": 0.9999140263251942,
+      "CrossScore": 0.9999140263251942
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999138002449989,
+      "CrossScore": 0.9999138002449989
+    },
+    {
+      "Question": "प्याज की फसल में 'पाले' से बचाव?",
+      "Crop": "Onion",
+      "FinalScore": 0.9999126047431558,
+      "CrossScore": 0.9999126047431558
+    }
+  ],
+  "latency_ms": 148.22,
+  "final_returned": [
+    {
+      "Question": "फूलगोभी की फसल में 'पाले' से बचाव?",
+      "Crop": "Cauliflower",
+      "Score": 999.8867539593803
+    },
+    {
+      "Question": "मखाना की फसल में 'सूखे' से बचाव?",
+      "Crop": "Makhana",
+      "Score": 0.9999316444351355
+    },
+    {
+      "Question": "हल्दी की फसल में 'सूखे' से बचाव?",
+      "Crop": "Turmeric",
+      "Score": 0.9999231350653192
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "Score": 0.9999197751734764
+    },
+    {
+      "Question": "भिंडी की फसल में 'पाले' से बचाव?",
+      "Crop": "Okra",
+      "Score": 0.9999195338292189
+    }
+  ]
+}

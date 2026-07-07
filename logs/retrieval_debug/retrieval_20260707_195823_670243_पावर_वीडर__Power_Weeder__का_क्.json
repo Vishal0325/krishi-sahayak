@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:23.464190",
+  "query_original": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+  "query_normalized": "पावर वीडर power weeder का क्या उपयोग है",
+  "query_expanded": "पावर वीडर power weeder का क्या उपयोग है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9999316385682795,
+      "CrossScore": 0.9999316385682795
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998887682666942,
+      "CrossScore": 0.9998887682666942
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.99964079745788,
+      "CrossScore": 0.99964079745788
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9995732361804585,
+      "CrossScore": 0.9995732361804585
+    },
+    {
+      "Question": "रोटावेटर (Rotavator) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9994115036869925,
+      "CrossScore": 0.9994115036869925
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.999315614751614,
+      "CrossScore": 0.999315614751614
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.999204256790561,
+      "CrossScore": 0.999204256790561
+    },
+    {
+      "Question": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.999011217081652,
+      "CrossScore": 0.999011217081652
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9988321467912341,
+      "CrossScore": 0.9988321467912341
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.99879928499681,
+      "CrossScore": 0.99879928499681
+    }
+  ],
+  "latency_ms": 206.15,
+  "final_returned": [
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9999316385682795
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9998887682666942
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "Score": 0.99964079745788
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9995732361804585
+    },
+    {
+      "Question": "रोटावेटर (Rotavator) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9994115036869925
+    }
+  ]
+}

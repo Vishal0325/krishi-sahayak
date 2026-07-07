@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:15.133358",
+  "query_original": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+  "query_normalized": "क्या केंचुए वाली खाद vermicompost मिट्टी के लिए श्रेष्ठ है",
+  "query_expanded": "poshak खाद पोषण उर्वरक क्या केंचुए वाली खाद vermicompost मिट्टी के लिए श्रेष्ठ है fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का के लिए कैसी मिट्टी सबसे अच्छी होती है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "FinalScore": 999.8829467914529,
+      "CrossScore": 0.999882946791453
+    },
+    {
+      "Question": "केंचुए की खाद (Vermicompost) के फायदे?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998830092806091,
+      "CrossScore": 0.9998830092806091
+    },
+    {
+      "Question": "आलू के भंडारण के लिए कौन सी जगह श्रेष्ठ है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998296060465651,
+      "CrossScore": 0.9998296060465651
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998217489259026,
+      "CrossScore": 0.9998217489259026
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998133805141873,
+      "CrossScore": 0.9998133805141873
+    },
+    {
+      "Question": "हल्दी के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.999811774309015,
+      "CrossScore": 0.999811774309015
+    },
+    {
+      "Question": "केले के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998097884576195,
+      "CrossScore": 0.9998097884576195
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998023468299634,
+      "CrossScore": 0.9998023468299634
+    },
+    {
+      "Question": "लहसुन के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9997988754336516,
+      "CrossScore": 0.9997988754336516
+    },
+    {
+      "Question": "मक्का के लिए कैसी मिट्टी सबसे अच्छी होती है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997983812147717,
+      "CrossScore": 0.9997983812147717
+    }
+  ],
+  "latency_ms": 237.1,
+  "final_returned": [
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "Score": 999.8829467914529
+    },
+    {
+      "Question": "केंचुए की खाद (Vermicompost) के फायदे?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998830092806091
+    },
+    {
+      "Question": "आलू के भंडारण के लिए कौन सी जगह श्रेष्ठ है?",
+      "Crop": "Potato",
+      "Score": 0.9998296060465651
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9998217489259026
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander",
+      "Score": 0.9998133805141873
+    }
+  ]
+}

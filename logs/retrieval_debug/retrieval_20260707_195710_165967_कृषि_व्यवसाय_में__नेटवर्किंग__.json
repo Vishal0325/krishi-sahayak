@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:09.897952",
+  "query_original": "कृषि व्यवसाय में 'नेटवर्किंग' का महत्व?",
+  "query_normalized": "कृषि व्यवसाय में नेटवर्किंग का महत्व",
+  "query_expanded": "कृषि व्यवसाय में नेटवर्किंग का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि व्यवसाय में 'नेटवर्किंग' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'ईमानदारी' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'सरकारी सब्सिडी' का सही उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'जोखिम का विविधीकरण' (Risk Diversification)?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि व्यवसाय में 'सरकारी सब्सिडी' का सही उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998763886148858,
+      "CrossScore": 0.9998763886148858
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'नेटवर्किंग' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.999872852739999,
+      "CrossScore": 0.999872852739999
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'ईमानदारी' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998700554397497,
+      "CrossScore": 0.9998700554397497
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998565759778849,
+      "CrossScore": 0.9998565759778849
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'जोखिम का विविधीकरण' (Risk Diversification)?",
+      "Crop": "General",
+      "FinalScore": 0.9998532062118701,
+      "CrossScore": 0.9998532062118701
+    },
+    {
+      "Question": "'बिग डेटा' का कृषि नीति में महत्व?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998374562037843,
+      "CrossScore": 0.9998374562037843
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999835999956396,
+      "CrossScore": 0.999835999956396
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998334690587345,
+      "CrossScore": 0.9998334690587345
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998333203651172,
+      "CrossScore": 0.9998333203651172
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998156636539307,
+      "CrossScore": 0.9998156636539307
+    }
+  ],
+  "latency_ms": 268.11,
+  "final_returned": [
+    {
+      "Question": "कृषि व्यवसाय में 'सरकारी सब्सिडी' का सही उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998763886148858
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'नेटवर्किंग' का महत्व?",
+      "Crop": "General",
+      "Score": 0.999872852739999
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'ईमानदारी' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998700554397497
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9998565759778849
+    },
+    {
+      "Question": "कृषि व्यवसाय में 'जोखिम का विविधीकरण' (Risk Diversification)?",
+      "Crop": "General",
+      "Score": 0.9998532062118701
+    }
+  ]
+}

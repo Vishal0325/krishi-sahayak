@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:55.174510",
+  "query_original": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+  "query_normalized": "प्रकाश प्रपंच light trap में तेल का उपयोग",
+  "query_expanded": "प्रकाश प्रपंच light trap में तेल का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998774595173194,
+      "CrossScore": 0.9998774595173194
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998615247893432,
+      "CrossScore": 0.9998615247893432
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998595305992096,
+      "CrossScore": 0.9998595305992096
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998545728061426,
+      "CrossScore": 0.9998545728061426
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.999852105276797,
+      "CrossScore": 0.999852105276797
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998338116918706,
+      "CrossScore": 0.9998338116918706
+    },
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General",
+      "FinalScore": 0.999823661555812,
+      "CrossScore": 0.999823661555812
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9995084833931255,
+      "CrossScore": 0.9995084833931255
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994227778955613,
+      "CrossScore": 0.9994227778955613
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9993712923840302,
+      "CrossScore": 0.9993712923840302
+    }
+  ],
+  "latency_ms": 214.35,
+  "final_returned": [
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998774595173194
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998615247893432
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "Score": 0.9998595305992096
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "Score": 0.9998545728061426
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "Score": 0.999852105276797
+    }
+  ]
+}

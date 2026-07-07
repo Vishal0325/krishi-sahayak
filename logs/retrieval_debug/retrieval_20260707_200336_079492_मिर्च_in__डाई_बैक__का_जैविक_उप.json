@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:35.891725",
+  "query_original": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+  "query_normalized": "मिर्च in डाई बैक का जैविक उपचार",
+  "query_expanded": "मिर्च in डाई बैक का जैविक उपचार",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "'मिर्च' में 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 49992.31470188942,
+      "CrossScore": 0.9998462940377885
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99511010481504,
+      "CrossScore": 0.9999022020963009
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99481415280669,
+      "CrossScore": 0.9998962830561338
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99395563345245,
+      "CrossScore": 0.999879112669049
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का 'रासायनिक' बचाव?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99366356516404,
+      "CrossScore": 0.9998732713032809
+    },
+    {
+      "Question": "मिर्च में 'डाई-बैक' (Dieback) या 'एंथ्रेक्नोज' रोग?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99361478759777,
+      "CrossScore": 0.9998722957519555
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99341687327816,
+      "CrossScore": 0.9998683374655631
+    },
+    {
+      "Question": "'मिर्च' में 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99305121863472,
+      "CrossScore": 0.9998610243726943
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99294320645477,
+      "CrossScore": 0.9998588641290954
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99288874199443,
+      "CrossScore": 0.9998577748398886
+    }
+  ],
+  "latency_ms": 187.81,
+  "final_returned": [
+    {
+      "Question": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "Score": 49992.31470188942
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "Score": 49.99511010481504
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli",
+      "Score": 49.99481415280669
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "Score": 49.99395563345245
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का 'रासायनिक' बचाव?",
+      "Crop": "Chilli",
+      "Score": 49.99366356516404
+    }
+  ]
+}

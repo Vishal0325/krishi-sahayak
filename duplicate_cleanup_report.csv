@@ -1,0 +1,76 @@
+﻿Question,Action,Reason,Original_File,New_File
+रोपाई के समय पौधों की दूरी क्या रखें?,Replaced,Found better quality (longer) answer,banana.csv,brinjal.csv
+नर्सरी में 'आर्द्र पतन' (Damping off) रोग?,Replaced,Found better quality (longer) answer,brinjal.csv,cabbage.csv
+रोपाई के समय पौधों की दूरी क्या रखें?,Dropped,"Duplicate question, shorter answer",brinjal.csv,cabbage.csv
+नर्सरी में 'आर्द्र पतन' (Damping off) रोग?,Dropped,"Duplicate question, shorter answer",cabbage.csv,cauliflower.csv
+रोपाई के समय पौधों की दूरी क्या रखें?,Replaced,Found better quality (longer) answer,brinjal.csv,cauliflower.csv
+नर्सरी में 'आर्द्र पतन' (Damping off) रोग?,Dropped,"Duplicate question, shorter answer",cabbage.csv,chilli.csv
+रोपाई के समय पौधों की दूरी क्या रखें?,Dropped,"Duplicate question, shorter answer",cauliflower.csv,chilli.csv
+'सिट्रस कैंकर' से नींबू की सुरक्षा?,Dropped,"Duplicate question, shorter answer",crop_safety.csv,crop_safety_2.csv
+ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?,Dropped,"Duplicate question, shorter answer",bio_control.csv,fungicides.csv
+क्या तेज बारिश के बाद छिड़काव दोबारा करना चाहिए?,Dropped,"Duplicate question, shorter answer",fungicides.csv,herbicides.csv
+दवाओं का 'अदला-बदली' (Rotation) क्यों जरूरी है?,Replaced,Found better quality (longer) answer,fungicides.csv,insecticides.csv
+फर्टिगेशन (Fertigation) क्या है?,Dropped,"Duplicate question, shorter answer",fertilizer.csv,irrigation.csv
+बाग लगाने के लिए पौधों की दूरी क्या रखें?,Dropped,"Duplicate question, shorter answer",guava.csv,litchi.csv
+रोपाई के समय पौधों की दूरी क्या रखें?,Dropped,"Duplicate question, shorter answer",cauliflower.csv,makhana.csv
+बाग लगाने के लिए पौधों की दूरी क्या रखें?,Replaced,Found better quality (longer) answer,guava.csv,mango.csv
+आम का 'गुच्छा रोग' (Malformed Flowers) क्या है?,Replaced,Found better quality (longer) answer,disease.csv,mango.csv
+सरसों में 'मैग्नीशियम' की कमी का उपचार?,Replaced,Found better quality (longer) answer,mustard.csv,mustard.csv
+सरसों में 'एनपीके 0:52:34' का छिड़काव?,Replaced,Found better quality (longer) answer,mustard.csv,mustard.csv
+सरसों में 'यूरिया' की बचत के लिए 'मिट्टी परीक्षण'?,Dropped,"Duplicate question, shorter answer",mustard.csv,mustard.csv
+सरसों की 'मड़ाई' के बाद 'अनाज' की पैकिंग?,Dropped,"Duplicate question, shorter answer",mustard.csv,mustard.csv
+सरसों की 'सघन' खेती in 'कीट' प्रबंधन?,Dropped,"Duplicate question, shorter answer",mustard.csv,mustard.csv
+दशपर्णी अर्क (Dashparni Arka) क्या है?,Replaced,Found better quality (longer) answer,bio_control.csv,organic_farming.csv
+वेस्ट डीकम्पोजर (Waste Decomposer) क्या है?,Replaced,Found better quality (longer) answer,fertilizer.csv,organic_farming.csv
+हरी खाद (Green Manure) कैसे तैयार करें?,Dropped,"Duplicate question, shorter answer",fertilizer.csv,organic_farming.csv
+ब्रह्मास्त्र और अग्निस्त्र क्या हैं?,Dropped,"Duplicate question, shorter answer",bio_control.csv,organic_farming.csv
+रोपाई के समय पौधों की दूरी क्या रखें?,Dropped,"Duplicate question, shorter answer",cauliflower.csv,papaya.csv
+कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?,Replaced,Found better quality (longer) answer,insecticides.csv,pest.csv
+'नीम की खली' का कीटों पर असर?,Dropped,"Duplicate question, shorter answer",agri_miscellaneous_2.csv,pest.csv
+'कीटनाशकों' को बच्चों की पहुँच से दूर क्यों रखें?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'जैविक कीटनाशक' बनाने का सही समय?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'दशपर्णी अर्क' किन कीटों पर प्रभावी है?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'गौमूत्र' और 'नीम' का मेल?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'छिड़काव' के समय ' फ्लैट फैन' नोजल?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'कीटनाशकों' के खाली पैकेट और 'पशु'?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'जैविक कीटनाशक' और 'प्रमाणन'?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'छिड़काव' के समय 'दूरी'?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest.csv
+'कीटों का आर्थिक नुकसान स्तर' (ETL) क्या है?,Dropped,"Duplicate question, shorter answer",pest.csv,pest_advanced.csv
+'कीटों का भौतिक नियंत्रण'?,Replaced,Found better quality (longer) answer,miscellaneous.csv,pest_advanced.csv
+'धान का पत्ता लपेटक' और 'नाइट्रोजन'?,Dropped,"Duplicate question, shorter answer",pest.csv,pest_advanced.csv
+'मक्का का तना छेदक' और 'डेड हार्ट'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'गन्ने का पायरिला' और 'बारिश'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कपास का सफेद मक्खी' प्रकोप?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'मित्र कीट' और 'रसायन'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कीटों का भौतिक नियंत्रण' और 'हाथ'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'दीमक' के लिए 'बोरिक एसिड'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'फेरोमोन ट्रैप' और 'कीट निगरानी'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कीटनाशक' और 'गर्भवती महिलाएं'?,Dropped,"Duplicate question, shorter answer",pest.csv,pest_advanced.csv
+'जैविक दवाओं' का प्रयोग और 'नमी'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'दशपर्णी अर्क' और 'खर्च'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'प्रकाश प्रपंच' और 'कीटों का भ्रम'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'फेरोमोन लूअर' की शेल्फ लाइफ?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कीटनाशक' और 'जल प्रदूषण'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'छिड़काव' के समय 'दूरी'?,Replaced,Found better quality (longer) answer,crop_safety_2.csv,pest_advanced.csv
+'कीटों का आर्थिक नुकसान' और 'मुनाफा'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'छिड़काव' के समय 'पानी' की शुद्धता?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'जैविक कीटनाशक' और 'भविष्य'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कीटों का जीवन चक्र' और 'तापमान'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'नीम का काढ़ा' और 'फलों' की सुरक्षा?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कीट प्रबंधन' में विशेषज्ञों का अंतिम संदेश?,Replaced,Found better quality (longer) answer,crop_safety_2.csv,pest_advanced.csv
+'दशपर्णी अर्क' और 'तीखापन'?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest_advanced.csv
+'गौमूत्र' का वैज्ञानिक लाभ?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'कीटों का एकीकृत प्रबंधन' और 'कीमत'?,Replaced,Found better quality (longer) answer,pest.csv,pest_advanced.csv
+'छिड़काव' के समय ' फ्लैट फैन' नोजल?,Dropped,"Duplicate question, shorter answer",crop_safety_2.csv,pest_advanced.csv
+आलू का 'अगेती झुलसा' (Early Blight) क्या है?,Dropped,"Duplicate question, shorter answer",disease.csv,potato.csv
+दलहनी फसलों की सफल खेती का 'मूल मंत्र'?,Dropped,"Duplicate question, shorter answer",pulses.csv,pulses.csv
+मृदा स्वास्थ्य कार्ड?,Dropped,"Duplicate question, shorter answer",rice.csv,rice.csv
+मृदा सौरीकरण (Soil Solarization) क्या है?,Replaced,Found better quality (longer) answer,bio_control.csv,soil.csv
+राइजोबियम कल्चर (Rhizobium) क्या है?,Replaced,Found better quality (longer) answer,pulses.csv,soil.csv
+गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?,Replaced,Found better quality (longer) answer,disease.csv,sugarcane.csv
+नर्सरी में 'आर्द्र पतन' (Damping off) रोग?,Dropped,"Duplicate question, shorter answer",cabbage.csv,tomato.csv
+रोपाई के समय पौधों की दूरी क्या रखें?,Dropped,"Duplicate question, shorter answer",cauliflower.csv,tomato.csv
+टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?,Dropped,"Duplicate question, shorter answer",disease.csv,tomato.csv
+टमाटर की नर्सरी कैसे तैयार करें?,Replaced,Found better quality (longer) answer,tomato.csv,vegetables.csv
+बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?,Replaced,Found better quality (longer) answer,disease.csv,vegetables.csv

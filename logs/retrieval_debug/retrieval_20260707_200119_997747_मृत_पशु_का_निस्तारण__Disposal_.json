@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:19.627714",
+  "query_original": "मृत पशु का निस्तारण (Disposal) कैसे करें?",
+  "query_normalized": "मृत पशु का निस्तारण disposal कैसे करें",
+  "query_expanded": "मृत पशु का निस्तारण disposal कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मृत पशु का निस्तारण (Disposal) कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गेहूं में दीमक का नियंत्रण कैसे करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं के बीज का अंकुरण परीक्षण कैसे करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मृत पशु का निस्तारण (Disposal) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.9019875539362,
+      "CrossScore": 0.9999019875539362
+    },
+    {
+      "Question": "प्याज के कंदों का 'छिलका' कड़ा कैसे करें?",
+      "Crop": "Onion",
+      "FinalScore": 0.9995556454805828,
+      "CrossScore": 0.9995556454805828
+    },
+    {
+      "Question": "फाल आर्मीवर्म का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9995361529828277,
+      "CrossScore": 0.9995361529828277
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9994787297803,
+      "CrossScore": 0.9994787297803
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9994776066563336,
+      "CrossScore": 0.9994776066563336
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994501970473298,
+      "CrossScore": 0.9994501970473298
+    },
+    {
+      "Question": "धनिया के बीजों का उपचार (Seed Treatment) कैसे करें?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9994183486819109,
+      "CrossScore": 0.9994183486819109
+    },
+    {
+      "Question": "मक्का का बीज उपचार कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994092146894106,
+      "CrossScore": 0.9994092146894106
+    },
+    {
+      "Question": "टमाटर के बीजों का उपचार कैसे करें?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9993868767743137,
+      "CrossScore": 0.9993868767743137
+    },
+    {
+      "Question": "प्याज के बीजों का उपचार कैसे करें?",
+      "Crop": "Onion",
+      "FinalScore": 0.9993836945910991,
+      "CrossScore": 0.9993836945910991
+    }
+  ],
+  "latency_ms": 370.1,
+  "final_returned": [
+    {
+      "Question": "मृत पशु का निस्तारण (Disposal) कैसे करें?",
+      "Crop": "General",
+      "Score": 999.9019875539362
+    },
+    {
+      "Question": "प्याज के कंदों का 'छिलका' कड़ा कैसे करें?",
+      "Crop": "Onion",
+      "Score": 0.9995556454805828
+    },
+    {
+      "Question": "फाल आर्मीवर्म का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "Score": 0.9995361529828277
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "Score": 0.9994787297803
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "Score": 0.9994776066563336
+    }
+  ]
+}

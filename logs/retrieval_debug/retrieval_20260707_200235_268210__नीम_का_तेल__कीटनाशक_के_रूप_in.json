@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:35.057587",
+  "query_original": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+  "query_normalized": "नीम का तेल कीटनाशक के रूप in कैसे काम करता है",
+  "query_expanded": "नीम का तेल कीटनाशक के रूप in कैसे काम करता है pest कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 9998.936964986575,
+      "CrossScore": 0.9998936964986576
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 9.99854760167217,
+      "CrossScore": 0.9998547601672171
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.998358840401151,
+      "CrossScore": 0.999835884040115
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998322888998407,
+      "CrossScore": 0.9998322888998408
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "FinalScore": 9.998309244228809,
+      "CrossScore": 0.9998309244228808
+    },
+    {
+      "Question": "'नीम का तेल' स्प्रे करते समय साबुन?",
+      "Crop": "General",
+      "FinalScore": 9.998205435698374,
+      "CrossScore": 0.9998205435698374
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General",
+      "FinalScore": 9.996991565651795,
+      "CrossScore": 0.9996991565651795
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9998590956834147,
+      "CrossScore": 0.9998590956834147
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9998393805322457,
+      "CrossScore": 0.9998393805322457
+    },
+    {
+      "Question": "गन्ने की 'भंडारण' सुरक्षा के लिए 'नीम तेल'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998279530459196,
+      "CrossScore": 0.9998279530459196
+    }
+  ],
+  "latency_ms": 210.67,
+  "final_returned": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "Score": 9998.936964986575
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 9.99854760167217
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.998358840401151
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.998322888998407
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "Score": 9.998309244228809
+    }
+  ]
+}

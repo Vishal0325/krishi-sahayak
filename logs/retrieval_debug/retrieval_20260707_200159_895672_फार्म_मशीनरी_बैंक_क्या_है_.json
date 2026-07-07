@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:59.703688",
+  "query_original": "फार्म मशीनरी बैंक क्या है?",
+  "query_normalized": "फार्म मशीनरी बैंक क्या है",
+  "query_expanded": "फार्म मशीनरी बैंक क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फार्म मशीनरी बैंक क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म गेट (Farm Gate) बिक्री क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फार्म मशीनरी बैंक क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.932588056181,
+      "CrossScore": 0.999932588056181
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999313901349004,
+      "CrossScore": 0.9999313901349004
+    },
+    {
+      "Question": "मक्का में पोटाश की क्या भूमिका है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999277220908169,
+      "CrossScore": 0.9999277220908169
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999271645571735,
+      "CrossScore": 0.9999271645571735
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999268165864109,
+      "CrossScore": 0.9999268165864109
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999266508618478,
+      "CrossScore": 0.9999266508618478
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999253912118738,
+      "CrossScore": 0.9999253912118738
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999222941635644,
+      "CrossScore": 0.9999222941635644
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999191966534774,
+      "CrossScore": 0.9999191966534774
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999148934927935,
+      "CrossScore": 0.9999148934927935
+    }
+  ],
+  "latency_ms": 192.01,
+  "final_returned": [
+    {
+      "Question": "फार्म मशीनरी बैंक क्या है?",
+      "Crop": "General",
+      "Score": 999.932588056181
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "Score": 0.9999313901349004
+    },
+    {
+      "Question": "मक्का में पोटाश की क्या भूमिका है?",
+      "Crop": "Maize",
+      "Score": 0.9999277220908169
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "Score": 0.9999271645571735
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999268165864109
+    }
+  ]
+}

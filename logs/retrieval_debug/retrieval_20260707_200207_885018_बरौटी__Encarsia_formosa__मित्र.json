@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:07.688816",
+  "query_original": "बरौटी (Encarsia formosa) मित्र कीट क्या है?",
+  "query_normalized": "बरौटी encarsia formosa मित्र कीट क्या है",
+  "query_expanded": "pest कीड़ा बग कीट insect बरौटी encarsia formosa मित्र कीट क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बरौटी (Encarsia formosa) मित्र कीट क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रेशम कीट पालन' (Sericulture) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' (Fall Armyworm) कीट क्या है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बरौटी (Encarsia formosa) मित्र कीट क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9117968072958,
+      "CrossScore": 0.9999117968072958
+    },
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.969045216893793,
+      "CrossScore": 0.9969045216893793
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.967056305786969,
+      "CrossScore": 0.9967056305786968
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "FinalScore": 9.965322422022984,
+      "CrossScore": 0.9965322422022984
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.963134994094489,
+      "CrossScore": 0.9963134994094489
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.960074942745267,
+      "CrossScore": 0.9960074942745267
+    },
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 9.949716982429479,
+      "CrossScore": 0.994971698242948
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.949472151036789,
+      "CrossScore": 0.9949472151036788
+    },
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.94538824711804,
+      "CrossScore": 0.994538824711804
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General",
+      "FinalScore": 9.933079732358262,
+      "CrossScore": 0.9933079732358263
+    }
+  ],
+  "latency_ms": 196.23,
+  "final_returned": [
+    {
+      "Question": "बरौटी (Encarsia formosa) मित्र कीट क्या है?",
+      "Crop": "General",
+      "Score": 999.9117968072958
+    },
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9.969045216893793
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9.967056305786969
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "Score": 9.965322422022984
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.963134994094489
+    }
+  ]
+}

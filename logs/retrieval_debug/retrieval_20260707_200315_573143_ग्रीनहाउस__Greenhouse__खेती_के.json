@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:15.371882",
+  "query_original": "ग्रीनहाउस (Greenhouse) खेती के क्या लाभ हैं?",
+  "query_normalized": "ग्रीनहाउस greenhouse खेती के क्या लाभ हैं",
+  "query_expanded": "ग्रीनहाउस greenhouse खेती के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ग्रीनहाउस (Greenhouse) खेती के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बेबी कॉर्न (Baby Corn) की खेती के क्या लाभ हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "श्री (SRI) विधि से धान की खेती के क्या लाभ हैं?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ग्रीनहाउस (Greenhouse) खेती के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8902040837263,
+      "CrossScore": 0.9998902040837263
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999656091368131,
+      "CrossScore": 0.999656091368131
+    },
+    {
+      "Question": "मखाना की खेती के क्या लाभ हैं?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9995882800873747,
+      "CrossScore": 0.9995882800873747
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9995692910311603,
+      "CrossScore": 0.9995692910311603
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995683205625369,
+      "CrossScore": 0.9995683205625369
+    },
+    {
+      "Question": "अश्वगंधा (Ashwagandha) की खेती के क्या लाभ हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9995623352932537,
+      "CrossScore": 0.9995623352932537
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9995617662708102,
+      "CrossScore": 0.9995617662708102
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994990463816823,
+      "CrossScore": 0.9994990463816823
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9994820274239283,
+      "CrossScore": 0.9994820274239283
+    },
+    {
+      "Question": "कटहल (Jackfruit) की खेती के क्या अवसर हैं?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9994762994443936,
+      "CrossScore": 0.9994762994443936
+    }
+  ],
+  "latency_ms": 201.29,
+  "final_returned": [
+    {
+      "Question": "ग्रीनहाउस (Greenhouse) खेती के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 999.8902040837263
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.999656091368131
+    },
+    {
+      "Question": "मखाना की खेती के क्या लाभ हैं?",
+      "Crop": "Makhana",
+      "Score": 0.9995882800873747
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9995692910311603
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9995683205625369
+    }
+  ]
+}

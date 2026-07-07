@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:13.591758",
+  "query_original": "धुंध (Smog/Fog) का फसलों पर असर?",
+  "query_normalized": "धुंध smog fog का फसलों पर असर",
+  "query_expanded": "धुंध smog fog का फसलों पर असर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 999.9080668832497,
+      "CrossScore": 0.9999080668832497
+    },
+    {
+      "Question": "आंधी (Dust Storm) का फसलों पर भौतिक नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.998942973853546,
+      "CrossScore": 0.998942973853546
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9988303443453285,
+      "CrossScore": 0.9988303443453285
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9979049178123736,
+      "CrossScore": 0.9979049178123736
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9977314856098483,
+      "CrossScore": 0.9977314856098483
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.997695732207136,
+      "CrossScore": 0.997695732207136
+    },
+    {
+      "Question": "मिट्टी के तापमान (Soil Temperature) का अंकुरण पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9970433808748339,
+      "CrossScore": 0.9970433808748339
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' का पर्यावरण पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9965717191816997,
+      "CrossScore": 0.9965717191816997
+    },
+    {
+      "Question": "दलहनी फसलों की 'मिट्टी' का पीएच 8.5 से अधिक होने पर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9959441484002383,
+      "CrossScore": 0.9959441484002383
+    },
+    {
+      "Question": "तापमान का दानों के भराव पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9958215632929164,
+      "CrossScore": 0.9958215632929164
+    }
+  ],
+  "latency_ms": 205.27,
+  "final_returned": [
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 999.9080668832497
+    },
+    {
+      "Question": "आंधी (Dust Storm) का फसलों पर भौतिक नुकसान?",
+      "Crop": "General",
+      "Score": 0.998942973853546
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "Score": 0.9988303443453285
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 0.9979049178123736
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 0.9977314856098483
+    }
+  ]
+}

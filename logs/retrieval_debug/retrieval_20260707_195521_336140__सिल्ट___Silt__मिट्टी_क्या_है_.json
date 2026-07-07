@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:21.085659",
+  "query_original": "'सिल्ट' (Silt) मिट्टी क्या है?",
+  "query_normalized": "सिल्ट silt मिट्टी क्या है",
+  "query_expanded": "सिल्ट silt मिट्टी क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सिल्ट' (Silt) मिट्टी क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का स्वास्थ्य मानव स्वास्थ्य से जुड़ा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सिल्ट' (Silt) मिट्टी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999921373090418,
+      "CrossScore": 0.999921373090418
+    },
+    {
+      "Question": "'केसिंग' (Casing) मिट्टी क्या है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9997686521969048,
+      "CrossScore": 0.9997686521969048
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996598833734474,
+      "CrossScore": 0.9996598833734474
+    },
+    {
+      "Question": "'मिट्टी परीक्षण रिपोर्ट' में 'EC' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996278502735975,
+      "CrossScore": 0.9996278502735975
+    },
+    {
+      "Question": "मिट्टी में केंचुओं (Earthworms) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9996113526341578,
+      "CrossScore": 0.9996113526341578
+    },
+    {
+      "Question": "क्या धूप में मिट्टी को खुला छोड़ना अच्छा है?",
+      "Crop": "General",
+      "FinalScore": 0.9996111297151511,
+      "CrossScore": 0.9996111297151511
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995915803496271,
+      "CrossScore": 0.9995915803496271
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9995671577359065,
+      "CrossScore": 0.9995671577359065
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995654685175634,
+      "CrossScore": 0.9995654685175634
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995621861163756,
+      "CrossScore": 0.9995621861163756
+    }
+  ],
+  "latency_ms": 250.55,
+  "final_returned": [
+    {
+      "Question": "'सिल्ट' (Silt) मिट्टी क्या है?",
+      "Crop": "General",
+      "Score": 0.999921373090418
+    },
+    {
+      "Question": "'केसिंग' (Casing) मिट्टी क्या है?",
+      "Crop": "Mushroom",
+      "Score": 0.9997686521969048
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "Score": 0.9996598833734474
+    },
+    {
+      "Question": "'मिट्टी परीक्षण रिपोर्ट' में 'EC' क्या है?",
+      "Crop": "General",
+      "Score": 0.9996278502735975
+    },
+    {
+      "Question": "मिट्टी में केंचुओं (Earthworms) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9996113526341578
+    }
+  ]
+}

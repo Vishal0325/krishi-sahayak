@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:58.306027",
+  "query_original": "मौसम और 'बीज उत्पादन'?",
+  "query_normalized": "मौसम और बीज उत्पादन",
+  "query_expanded": "मौसम और बीज उत्पादन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम और 'बीज उत्पादन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उत्पादन' और 'सामान्य खेती' में अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'उत्पादकता' (Productivity) और 'उत्पादन' (Production) में अंतर?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "पपीते के 'बीज उत्पादन' के लिए सावधानी?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम और 'बीज उत्पादन'?",
+      "Crop": "General",
+      "FinalScore": 999.8968155572021,
+      "CrossScore": 0.9998968155572021
+    },
+    {
+      "Question": "'बीज दर' और सघन बागवानी?",
+      "Crop": "General",
+      "FinalScore": 0.9999065069273703,
+      "CrossScore": 0.9999065069273703
+    },
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General",
+      "FinalScore": 0.999875679721196,
+      "CrossScore": 0.999875679721196
+    },
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "FinalScore": 0.999870264058266,
+      "CrossScore": 0.999870264058266
+    },
+    {
+      "Question": "'बीज उत्पादन' और 'सामान्य खेती' में अंतर?",
+      "Crop": "General",
+      "FinalScore": 0.9998473755140529,
+      "CrossScore": 0.9998473755140529
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General",
+      "FinalScore": 0.9998382447273673,
+      "CrossScore": 0.9998382447273673
+    },
+    {
+      "Question": "'जैविक बीज' उत्पादन स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998298609378196,
+      "CrossScore": 0.9998298609378196
+    },
+    {
+      "Question": "'प्रमाणित बीज' और उपज?",
+      "Crop": "General",
+      "FinalScore": 0.999823446205514,
+      "CrossScore": 0.999823446205514
+    },
+    {
+      "Question": "धनिया की 'पत्तेदार' और 'बीज' वाली किस्मों में अंतर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998186666470361,
+      "CrossScore": 0.9998186666470361
+    },
+    {
+      "Question": "बादलों के प्रकार और मौसम का अनुमान?",
+      "Crop": "General",
+      "FinalScore": 0.9998129156883064,
+      "CrossScore": 0.9998129156883064
+    }
+  ],
+  "latency_ms": 187.57,
+  "final_returned": [
+    {
+      "Question": "मौसम और 'बीज उत्पादन'?",
+      "Crop": "General",
+      "Score": 999.8968155572021
+    },
+    {
+      "Question": "'बीज दर' और सघन बागवानी?",
+      "Crop": "General",
+      "Score": 0.9999065069273703
+    },
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General",
+      "Score": 0.999875679721196
+    },
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "Score": 0.999870264058266
+    },
+    {
+      "Question": "'बीज उत्पादन' और 'सामान्य खेती' में अंतर?",
+      "Crop": "General",
+      "Score": 0.9998473755140529
+    }
+  ]
+}

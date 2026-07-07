@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:24.268749",
+  "query_original": "'जीवामृत' और मित्र सूक्ष्मजीव?",
+  "query_normalized": "जीवामृत और मित्र सूक्ष्मजीव",
+  "query_expanded": "जीवामृत और मित्र सूक्ष्मजीव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जीवामृत' और मित्र सूक्ष्मजीव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशक और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हरी खाद' और मिट्टी के सूक्ष्मजीव?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998997661953547,
+      "CrossScore": 0.9998997661953547
+    },
+    {
+      "Question": "'जीवामृत' और मित्र सूक्ष्मजीव?",
+      "Crop": "General",
+      "FinalScore": 0.9998989018807884,
+      "CrossScore": 0.9998989018807884
+    },
+    {
+      "Question": "कीटनाशक और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General",
+      "FinalScore": 0.9998838420950357,
+      "CrossScore": 0.9998838420950357
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998837680811542,
+      "CrossScore": 0.9998837680811542
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General",
+      "FinalScore": 0.9998751746391416,
+      "CrossScore": 0.9998751746391416
+    },
+    {
+      "Question": "'हरी खाद' और मिट्टी के सूक्ष्मजीव?",
+      "Crop": "General",
+      "FinalScore": 0.9998651346054996,
+      "CrossScore": 0.9998651346054996
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) क्या है और इसे कैसे बनाएं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998569908542176,
+      "CrossScore": 0.9998569908542176
+    },
+    {
+      "Question": "'मित्र फफूंद' और 'बायो-केमिकल्स' का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9998449419462198,
+      "CrossScore": 0.9998449419462198
+    },
+    {
+      "Question": "क्या जैविक और रासायनिक दवाओं को मिलाकर डाल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998231000859277,
+      "CrossScore": 0.9998231000859277
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 0.999818093785718,
+      "CrossScore": 0.999818093785718
+    }
+  ],
+  "latency_ms": 203.78,
+  "final_returned": [
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998997661953547
+    },
+    {
+      "Question": "'जीवामृत' और मित्र सूक्ष्मजीव?",
+      "Crop": "General",
+      "Score": 0.9998989018807884
+    },
+    {
+      "Question": "कीटनाशक और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General",
+      "Score": 0.9998838420950357
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+      "Crop": "General",
+      "Score": 0.9998837680811542
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General",
+      "Score": 0.9998751746391416
+    }
+  ]
+}

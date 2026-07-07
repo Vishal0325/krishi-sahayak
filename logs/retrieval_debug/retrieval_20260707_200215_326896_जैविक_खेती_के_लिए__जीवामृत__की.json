@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:15.103205",
+  "query_original": "जैविक खेती के लिए 'जीवामृत' की मात्रा?",
+  "query_normalized": "जैविक खेती के लिए जीवामृत की मात्रा",
+  "query_expanded": "जैविक खेती के लिए जीवामृत की मात्रा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक खेती के लिए 'जीवामृत' की मात्रा?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "गेहूं की 'जैविक' खाद के लिए 'जीवामृत'?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "जैविक खेती शुरू करने के लिए विशेषज्ञों की सलाह?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "जैविक खेती की सफलता के लिए अंतिम सलाह?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'प्रोपीकोनाजोल' की मात्रा?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक खेती के लिए 'जीवामृत' की मात्रा?",
+      "Crop": "Organic Farming",
+      "FinalScore": 999.8754918019631,
+      "CrossScore": 0.9998754918019631
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998635828002024,
+      "CrossScore": 0.9998635828002024
+    },
+    {
+      "Question": "जैविक खेती की सफलता के लिए अंतिम सलाह?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998609820926827,
+      "CrossScore": 0.9998609820926827
+    },
+    {
+      "Question": "किसानों के लिए जैविक खेती का भविष्य?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999860178857632,
+      "CrossScore": 0.999860178857632
+    },
+    {
+      "Question": "गेहूं की 'जैविक' खाद के लिए 'जीवामृत'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998510097251379,
+      "CrossScore": 0.9998510097251379
+    },
+    {
+      "Question": "जैविक खेती के लिए खाद?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998503149654892,
+      "CrossScore": 0.9998503149654892
+    },
+    {
+      "Question": "जैविक खेती शुरू करने के लिए विशेषज्ञों की सलाह?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999841107187191,
+      "CrossScore": 0.999841107187191
+    },
+    {
+      "Question": "मशरूम की खेती के लिए 'जल' की गुणवत्ता?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998342851381502,
+      "CrossScore": 0.9998342851381502
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998299133299287,
+      "CrossScore": 0.9998299133299287
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'महिलाओं' के लिए स्वरोजगार है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999828925229677,
+      "CrossScore": 0.999828925229677
+    }
+  ],
+  "latency_ms": 223.74,
+  "final_returned": [
+    {
+      "Question": "जैविक खेती के लिए 'जीवामृत' की मात्रा?",
+      "Crop": "Organic Farming",
+      "Score": 999.8754918019631
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998635828002024
+    },
+    {
+      "Question": "जैविक खेती की सफलता के लिए अंतिम सलाह?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998609820926827
+    },
+    {
+      "Question": "किसानों के लिए जैविक खेती का भविष्य?",
+      "Crop": "Organic Farming",
+      "Score": 0.999860178857632
+    },
+    {
+      "Question": "गेहूं की 'जैविक' खाद के लिए 'जीवामृत'?",
+      "Crop": "Wheat",
+      "Score": 0.9998510097251379
+    }
+  ]
+}

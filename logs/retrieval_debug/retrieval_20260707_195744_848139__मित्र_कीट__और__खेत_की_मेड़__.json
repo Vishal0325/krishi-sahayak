@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:44.655552",
+  "query_original": "'मित्र कीट' और 'खेत की मेड़'?",
+  "query_normalized": "मित्र कीट और खेत की मेड़",
+  "query_expanded": "बग pest कीड़ा कीट insect मित्र कीट और खेत की मेड़",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मूंग और उड़द की बुआई के लिए मेड़ विधि?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की विशेषता?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.999096389933447,
+      "CrossScore": 0.9999096389933447
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "FinalScore": 9.999091576787308,
+      "CrossScore": 0.9999091576787307
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.999061140065345,
+      "CrossScore": 0.9999061140065345
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 9.999019022787992,
+      "CrossScore": 0.9999019022787993
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.998783819430079,
+      "CrossScore": 0.9998783819430079
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.998710166207601,
+      "CrossScore": 0.9998710166207601
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General",
+      "FinalScore": 9.998567270183186,
+      "CrossScore": 0.9998567270183185
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 9.998464705446729,
+      "CrossScore": 0.9998464705446728
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.998461694088345,
+      "CrossScore": 0.9998461694088345
+    },
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.998365167483675,
+      "CrossScore": 0.9998365167483675
+    }
+  ],
+  "latency_ms": 192.68,
+  "final_returned": [
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.999096389933447
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "Score": 9.999091576787308
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "Score": 9.999061140065345
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "Score": 9.999019022787992
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 9.998783819430079
+    }
+  ]
+}

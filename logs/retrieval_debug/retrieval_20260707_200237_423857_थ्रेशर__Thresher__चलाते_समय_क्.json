@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:37.204323",
+  "query_original": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+  "query_normalized": "थ्रेशर thresher चलाते समय क्या सावधानी बरतें",
+  "query_expanded": "थ्रेशर thresher चलाते समय क्या सावधानी बरतें",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो यूरिया का स्प्रे करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General",
+      "FinalScore": 999.8616598024208,
+      "CrossScore": 0.9998616598024208
+    },
+    {
+      "Question": "धान की फसल में बाली निकलने के समय सावधानी?",
+      "Crop": "Rice",
+      "FinalScore": 49.96363269150182,
+      "CrossScore": 0.9992726538300365
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.96354856770066,
+      "CrossScore": 0.9992709713540132
+    },
+    {
+      "Question": "ट्रैक्टर के 'क्लच' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998293907969601,
+      "CrossScore": 0.9998293907969601
+    },
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998274975375071,
+      "CrossScore": 0.9998274975375071
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9997690669552187,
+      "CrossScore": 0.9997690669552187
+    },
+    {
+      "Question": "मक्का थ्रेशर (Maize Sheller) की क्या विशेषता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997644261499025,
+      "CrossScore": 0.9997644261499025
+    },
+    {
+      "Question": "क्या बदलती जलवायु के कारण बुआई समय से पहले करनी चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9996764117694307,
+      "CrossScore": 0.9996764117694307
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9996700788527818,
+      "CrossScore": 0.9996700788527818
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9996673995330232,
+      "CrossScore": 0.9996673995330232
+    }
+  ],
+  "latency_ms": 219.57,
+  "final_returned": [
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General",
+      "Score": 999.8616598024208
+    },
+    {
+      "Question": "धान की फसल में बाली निकलने के समय सावधानी?",
+      "Crop": "Rice",
+      "Score": 49.96363269150182
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "Score": 49.96354856770066
+    },
+    {
+      "Question": "ट्रैक्टर के 'क्लच' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9998293907969601
+    },
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998274975375071
+    }
+  ]
+}

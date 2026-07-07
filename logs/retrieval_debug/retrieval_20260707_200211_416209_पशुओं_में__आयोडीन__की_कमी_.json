@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:11.243072",
+  "query_original": "पशुओं में 'आयोडीन' की कमी?",
+  "query_normalized": "पशुओं में आयोडीन की कमी",
+  "query_expanded": "पशुओं में आयोडीन की कमी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'आयोडीन' की कमी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं में 'विटामिन ए' की कमी के लक्षण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'मैग्नीशियम' की कमी (Grass Tetany)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी में 'बोरोन' की कमी?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'आयोडीन' की कमी?",
+      "Crop": "General",
+      "FinalScore": 999.9017968915798,
+      "CrossScore": 0.9999017968915798
+    },
+    {
+      "Question": "पशुओं में 'मैग्नीशियम' की कमी (Grass Tetany)?",
+      "Crop": "General",
+      "FinalScore": 0.9999156261714046,
+      "CrossScore": 0.9999156261714046
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999123545343964,
+      "CrossScore": 0.9999123545343964
+    },
+    {
+      "Question": "टमाटर में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999906904240832,
+      "CrossScore": 0.999906904240832
+    },
+    {
+      "Question": "मिर्च में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 0.999904069899334,
+      "CrossScore": 0.999904069899334
+    },
+    {
+      "Question": "गन्ने में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998983880911435,
+      "CrossScore": 0.9998983880911435
+    },
+    {
+      "Question": "धनिया में 'जिंक' की कमी से बीजों का स्वाद?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998958355513845,
+      "CrossScore": 0.9998958355513845
+    },
+    {
+      "Question": "मक्का में 'कैल्शियम' की कमी के लक्षण?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998944638100573,
+      "CrossScore": 0.9998944638100573
+    },
+    {
+      "Question": "'पौधों' में 'लोहे' (Iron) की कमी और 'पीलापन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998936343418235,
+      "CrossScore": 0.9998936343418235
+    },
+    {
+      "Question": "अमरूद में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Guava",
+      "FinalScore": 0.999892039630597,
+      "CrossScore": 0.999892039630597
+    }
+  ],
+  "latency_ms": 173.18,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'आयोडीन' की कमी?",
+      "Crop": "General",
+      "Score": 999.9017968915798
+    },
+    {
+      "Question": "पशुओं में 'मैग्नीशियम' की कमी (Grass Tetany)?",
+      "Crop": "General",
+      "Score": 0.9999156261714046
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy",
+      "Score": 0.9999123545343964
+    },
+    {
+      "Question": "टमाटर में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Tomato",
+      "Score": 0.999906904240832
+    },
+    {
+      "Question": "मिर्च में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Chilli",
+      "Score": 0.999904069899334
+    }
+  ]
+}

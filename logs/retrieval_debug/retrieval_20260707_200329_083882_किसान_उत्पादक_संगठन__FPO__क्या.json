@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:28.647892",
+  "query_original": "किसान उत्पादक संगठन (FPO) क्या है?",
+  "query_normalized": "किसान उत्पादक संगठन fpo क्या है",
+  "query_expanded": "किसान उत्पादक संगठन fpo क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "किसान उत्पादक संगठन (FPO) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) बनाने के लिए कम से कम कितने किसान चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) और मार्केट पावर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "किसान उत्पादक संगठन (FPO) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9372842992799,
+      "CrossScore": 0.9999372842992799
+    },
+    {
+      "Question": "क्या FPO बनाने के लिए सरकार पैसा देती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999395058851209,
+      "CrossScore": 0.9999395058851209
+    },
+    {
+      "Question": "क्या किसान 'एफपीओ' (FPO) के जरिए लोन ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999332849397612,
+      "CrossScore": 0.9999332849397612
+    },
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.999927088184765,
+      "CrossScore": 0.999927088184765
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999143373000489,
+      "CrossScore": 0.9999143373000489
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) और मार्केट पावर?",
+      "Crop": "General",
+      "FinalScore": 0.9999123880427292,
+      "CrossScore": 0.9999123880427292
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) बनाने के लिए कम से कम कितने किसान चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999120395497211,
+      "CrossScore": 0.9999120395497211
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998918038286536,
+      "CrossScore": 0.9998918038286536
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998907289330978,
+      "CrossScore": 0.9998907289330978
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998898132850303,
+      "CrossScore": 0.9998898132850303
+    }
+  ],
+  "latency_ms": 436.02,
+  "final_returned": [
+    {
+      "Question": "किसान उत्पादक संगठन (FPO) क्या है?",
+      "Crop": "General",
+      "Score": 999.9372842992799
+    },
+    {
+      "Question": "क्या FPO बनाने के लिए सरकार पैसा देती है?",
+      "Crop": "General",
+      "Score": 0.9999395058851209
+    },
+    {
+      "Question": "क्या किसान 'एफपीओ' (FPO) के जरिए लोन ले सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9999332849397612
+    },
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "Score": 0.999927088184765
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "Score": 0.9999143373000489
+    }
+  ]
+}

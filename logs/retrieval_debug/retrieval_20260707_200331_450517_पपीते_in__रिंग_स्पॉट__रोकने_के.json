@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:31.254778",
+  "query_original": "पपीते in 'रिंग स्पॉट' रोकने के लिए 'नेट'?",
+  "query_normalized": "पपीते in रिंग स्पॉट रोकने के लिए नेट",
+  "query_expanded": "पपीते in रिंग स्पॉट रोकने के लिए नेट",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पपीते in 'रिंग स्पॉट' रोकने के लिए 'नेट'?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "भिंडी in 'YVMV' रोकने के लिए 'बॉर्डर क्रॉप'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पपीते in 'रिंग स्पॉट' रोकने के लिए 'नेट'?",
+      "Crop": "Papaya",
+      "FinalScore": 999.8633453281632,
+      "CrossScore": 0.9998633453281631
+    },
+    {
+      "Question": "पत्तागोभी in 'काली सड़न' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.999895388410389,
+      "CrossScore": 0.999895388410389
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998936962959211,
+      "CrossScore": 0.9998936962959211
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998681378207516,
+      "CrossScore": 0.9998681378207516
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998516135618473,
+      "CrossScore": 0.9998516135618473
+    },
+    {
+      "Question": "'पपीते' में 'डैम्पिंग ऑफ' रोकने के लिए 'नर्सरी' बेड?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998461650083201,
+      "CrossScore": 0.9998461650083201
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998444513383004,
+      "CrossScore": 0.9998444513383004
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998439557561438,
+      "CrossScore": 0.9998439557561438
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' रोकने के लिए 'पोटाश'?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998398233019391,
+      "CrossScore": 0.9998398233019391
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998373827225637,
+      "CrossScore": 0.9998373827225637
+    }
+  ],
+  "latency_ms": 195.79,
+  "final_returned": [
+    {
+      "Question": "पपीते in 'रिंग स्पॉट' रोकने के लिए 'नेट'?",
+      "Crop": "Papaya",
+      "Score": 999.8633453281632
+    },
+    {
+      "Question": "पत्तागोभी in 'काली सड़न' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Cabbage",
+      "Score": 0.999895388410389
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "Score": 0.9998936962959211
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "Score": 0.9998681378207516
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Vegetables",
+      "Score": 0.9998516135618473
+    }
+  ]
+}

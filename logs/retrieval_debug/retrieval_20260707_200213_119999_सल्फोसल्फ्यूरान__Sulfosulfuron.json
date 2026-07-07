@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:12.924122",
+  "query_original": "सल्फोसल्फ्यूरान (Sulfosulfuron) का विशेष उपयोग?",
+  "query_normalized": "सल्फोसल्फ्यूरान sulfosulfuron का विशेष उपयोग",
+  "query_expanded": "सल्फोसल्फ्यूरान sulfosulfuron का विशेष उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सल्फोसल्फ्यूरान (Sulfosulfuron) का विशेष उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वैलिडामाइसिन (Validamycin) का विशेष उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी के 'अवशेषों' का उपयोग?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सल्फोसल्फ्यूरान (Sulfosulfuron) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.8982876585131,
+      "CrossScore": 0.9998982876585132
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9994557327880397,
+      "CrossScore": 0.9994557327880397
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9991891426193527,
+      "CrossScore": 0.9991891426193527
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9988365055723836,
+      "CrossScore": 0.9988365055723836
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9987510468315635,
+      "CrossScore": 0.9987510468315635
+    },
+    {
+      "Question": "मेटसल्फ्यूरान (Metsulfuron) का विशेष कार्य?",
+      "Crop": "General",
+      "FinalScore": 0.9987508737317746,
+      "CrossScore": 0.9987508737317746
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9987452441882543,
+      "CrossScore": 0.9987452441882543
+    },
+    {
+      "Question": "वैलिडामाइसिन (Validamycin) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9983630019469005,
+      "CrossScore": 0.9983630019469005
+    },
+    {
+      "Question": "भिंडी के 'अवशेषों' का उपयोग?",
+      "Crop": "Okra",
+      "FinalScore": 0.9983294859344888,
+      "CrossScore": 0.9983294859344888
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9982517266352225,
+      "CrossScore": 0.9982517266352225
+    }
+  ],
+  "latency_ms": 195.92,
+  "final_returned": [
+    {
+      "Question": "सल्फोसल्फ्यूरान (Sulfosulfuron) का विशेष उपयोग?",
+      "Crop": "General",
+      "Score": 999.8982876585131
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "Score": 0.9994557327880397
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9991891426193527
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9988365055723836
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "Score": 0.9987510468315635
+    }
+  ]
+}

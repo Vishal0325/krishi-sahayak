@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:56:49.033238",
+  "query_original": "मक्का की 'हाइब्रिड' खेती in 'मुनाफा'?",
+  "query_normalized": "मक्का की हाइब्रिड खेती in मुनाफा",
+  "query_expanded": "मक्का की हाइब्रिड खेती in मुनाफा",
+  "detected_crops": [
+    "Maize"
+  ],
+  "detected_intents": [
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मक्का की 'हाइब्रिड' खेती in 'मुनाफा'?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की खेती in सफलता का सूत्र?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की 'हाइब्रिड' खेती में बीज की शुद्धता?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'खाद' का संतुलन?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का की 'सघन' खेती in 'खाद' का संतुलन?",
+      "Crop": "Maize",
+      "FinalScore": 49.99570982594702,
+      "CrossScore": 0.9999141965189403
+    },
+    {
+      "Question": "मक्का की 'हाइब्रिड' खेती in 'मुनाफा'?",
+      "Crop": "Maize",
+      "FinalScore": 49.9955891758481,
+      "CrossScore": 0.9999117835169621
+    },
+    {
+      "Question": "मक्का की 'शुष्क' खेती in 'मल्चिंग'?",
+      "Crop": "Maize",
+      "FinalScore": 49.99538619983206,
+      "CrossScore": 0.9999077239966412
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.99510237226406,
+      "CrossScore": 0.9999020474452811
+    },
+    {
+      "Question": "मक्का की खेती in सफलता के लिए विशेषज्ञों की सलाह?",
+      "Crop": "Maize",
+      "FinalScore": 49.99461155747794,
+      "CrossScore": 0.9998922311495588
+    },
+    {
+      "Question": "मक्का की खेती में 'फर्टिगेशन' के लाभ?",
+      "Crop": "Maize",
+      "FinalScore": 49.99361472671112,
+      "CrossScore": 0.9998722945342224
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 49.99354082401163,
+      "CrossScore": 0.9998708164802327
+    },
+    {
+      "Question": "मक्का की खेती in सफलता का सूत्र?",
+      "Crop": "Maize",
+      "FinalScore": 49.993440959179544,
+      "CrossScore": 0.9998688191835908
+    },
+    {
+      "Question": "मक्का की प्रमुख हाइब्रिड किस्में कौन सी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 49.993423135076185,
+      "CrossScore": 0.9998684627015237
+    },
+    {
+      "Question": "मक्का की 'पछेती' बुआई in 'मुनाफा' कम होने का कारण?",
+      "Crop": "Maize",
+      "FinalScore": 49.99338062900287,
+      "CrossScore": 0.9998676125800574
+    }
+  ],
+  "latency_ms": 203.76,
+  "final_returned": [
+    {
+      "Question": "मक्का की 'सघन' खेती in 'खाद' का संतुलन?",
+      "Crop": "Maize",
+      "Score": 49.99570982594702
+    },
+    {
+      "Question": "मक्का की 'हाइब्रिड' खेती in 'मुनाफा'?",
+      "Crop": "Maize",
+      "Score": 49.9955891758481
+    },
+    {
+      "Question": "मक्का की 'शुष्क' खेती in 'मल्चिंग'?",
+      "Crop": "Maize",
+      "Score": 49.99538619983206
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Maize",
+      "Score": 49.99510237226406
+    },
+    {
+      "Question": "मक्का की खेती in सफलता के लिए विशेषज्ञों की सलाह?",
+      "Crop": "Maize",
+      "Score": 49.99461155747794
+    }
+  ]
+}

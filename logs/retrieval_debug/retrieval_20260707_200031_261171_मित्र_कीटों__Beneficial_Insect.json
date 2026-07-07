@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:31.061916",
+  "query_original": "मित्र कीटों (Beneficial Insects) की रक्षा कैसे करें?",
+  "query_normalized": "मित्र कीटों beneficial insects की रक्षा कैसे करें",
+  "query_expanded": "pest मित्र कीटों beneficial insects की रक्षा कैसे करें कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मित्र कीटों (Beneficial Insects) की रक्षा कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' (Threshing) कैसे करें?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "औषधीय पौधों की मार्केटिंग कैसे करें?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) कौन से हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मित्र कीटों (Beneficial Insects) की रक्षा कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.8972427835583,
+      "CrossScore": 0.9998972427835583
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998846847070734,
+      "CrossScore": 0.9998846847070734
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998788322304143,
+      "CrossScore": 0.9998788322304143
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9977621864006558,
+      "CrossScore": 0.9977621864006558
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.9957540302122257,
+      "CrossScore": 0.9957540302122257
+    },
+    {
+      "Question": "टमाटर की नर्सरी कैसे तैयार करें?",
+      "Crop": "Tomato",
+      "FinalScore": 0.995403597619652,
+      "CrossScore": 0.995403597619652
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9953006844365702,
+      "CrossScore": 0.9953006844365702
+    },
+    {
+      "Question": "औषधीय पौधों की मार्केटिंग कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9952581049334301,
+      "CrossScore": 0.9952581049334301
+    },
+    {
+      "Question": "मशरूम की मार्केटिंग कैसे करें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9951629065977573,
+      "CrossScore": 0.9951629065977573
+    },
+    {
+      "Question": "मक्का की मड़ाई (Shelling) कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9951043349978781,
+      "CrossScore": 0.9951043349978781
+    }
+  ],
+  "latency_ms": 199.29,
+  "final_returned": [
+    {
+      "Question": "मित्र कीटों (Beneficial Insects) की रक्षा कैसे करें?",
+      "Crop": "General",
+      "Score": 999.8972427835583
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998846847070734
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) कौन से हैं?",
+      "Crop": "General",
+      "Score": 0.9998788322304143
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits",
+      "Score": 0.9977621864006558
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "Score": 0.9957540302122257
+    }
+  ]
+}

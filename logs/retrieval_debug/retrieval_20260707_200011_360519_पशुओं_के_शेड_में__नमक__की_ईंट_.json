@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:11.205880",
+  "query_original": "पशुओं के शेड में 'नमक' की ईंट?",
+  "query_normalized": "पशुओं के शेड में नमक की ईंट",
+  "query_expanded": "पशुओं के शेड में नमक की ईंट",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के शेड में 'नमक' की ईंट?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने की खेती में 'नमक के घोल' का छिड़काव क्या कीड़ों को रोकता है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के शेड में 'नमक' की ईंट?",
+      "Crop": "Livestock",
+      "FinalScore": 999.8973200661081,
+      "CrossScore": 0.9998973200661081
+    },
+    {
+      "Question": "मशरूम के लिए 'शेड' की दिशा?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999145972423719,
+      "CrossScore": 0.9999145972423719
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' करने के लिए शेड की ऊँचाई?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999122111647462,
+      "CrossScore": 0.9999122111647462
+    },
+    {
+      "Question": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+      "Crop": "General",
+      "FinalScore": 0.9999107253553151,
+      "CrossScore": 0.9999107253553151
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999018702815006,
+      "CrossScore": 0.9999018702815006
+    },
+    {
+      "Question": "पशुओं के शेड में 'लाइट' का प्रबंध?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999016499470517,
+      "CrossScore": 0.9999016499470517
+    },
+    {
+      "Question": "पशुओं के शेड में 'साफ-सफाई'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998872729429877,
+      "CrossScore": 0.9998872729429877
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998861306739348,
+      "CrossScore": 0.9998861306739348
+    },
+    {
+      "Question": "चने की खेती में 'नमक के घोल' का छिड़काव क्या कीड़ों को रोकता है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999881163084396,
+      "CrossScore": 0.999881163084396
+    },
+    {
+      "Question": "पशुओं के शेड में 'हवा का संचार'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998806853971363,
+      "CrossScore": 0.9998806853971363
+    }
+  ],
+  "latency_ms": 154.66,
+  "final_returned": [
+    {
+      "Question": "पशुओं के शेड में 'नमक' की ईंट?",
+      "Crop": "Livestock",
+      "Score": 999.8973200661081
+    },
+    {
+      "Question": "मशरूम के लिए 'शेड' की दिशा?",
+      "Crop": "Mushroom",
+      "Score": 0.9999145972423719
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' करने के लिए शेड की ऊँचाई?",
+      "Crop": "Dairy",
+      "Score": 0.9999122111647462
+    },
+    {
+      "Question": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+      "Crop": "General",
+      "Score": 0.9999107253553151
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "Score": 0.9999018702815006
+    }
+  ]
+}

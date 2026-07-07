@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:01.719895",
+  "query_original": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+  "query_normalized": "मेटारिज़ियम metarhizium anisopliae किसके लिए उपयोगी है",
+  "query_expanded": "मेटारिज़ियम metarhizium anisopliae किसके लिए उपयोगी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पावर टिलर (Power Tiller) छोटे किसानों के लिए कैसे उपयोगी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 999.8864252008211,
+      "CrossScore": 0.9998864252008212
+    },
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.9991134267372436,
+      "CrossScore": 0.9991134267372436
+    },
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.9980800865064359,
+      "CrossScore": 0.9980800865064359
+    },
+    {
+      "Question": "धान के लिए सबसे अच्छी मिट्टी कौन सी है?",
+      "Crop": "Rice",
+      "FinalScore": 0.997783009127962,
+      "CrossScore": 0.997783009127962
+    },
+    {
+      "Question": "मक्का की 'शक्तिमान-1' किस्म किस राज्य के लिए अनुशंसित है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9974474200064585,
+      "CrossScore": 0.9974474200064585
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9970121085269634,
+      "CrossScore": 0.9970121085269634
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9968895650776578,
+      "CrossScore": 0.9968895650776578
+    },
+    {
+      "Question": "कॉपर ऑक्सीक्लोराइड (Copper Oxychloride) कब उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9967326577954398,
+      "CrossScore": 0.9967326577954398
+    },
+    {
+      "Question": "मक्का के लिए कैसी मिट्टी सबसे अच्छी होती है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9964252931154174,
+      "CrossScore": 0.9964252931154174
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9963180292062025,
+      "CrossScore": 0.9963180292062025
+    }
+  ],
+  "latency_ms": 222.13,
+  "final_returned": [
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General",
+      "Score": 999.8864252008211
+    },
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General",
+      "Score": 0.9991134267372436
+    },
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General",
+      "Score": 0.9980800865064359
+    },
+    {
+      "Question": "धान के लिए सबसे अच्छी मिट्टी कौन सी है?",
+      "Crop": "Rice",
+      "Score": 0.997783009127962
+    },
+    {
+      "Question": "मक्का की 'शक्तिमान-1' किस्म किस राज्य के लिए अनुशंसित है?",
+      "Crop": "Maize",
+      "Score": 0.9974474200064585
+    }
+  ]
+}

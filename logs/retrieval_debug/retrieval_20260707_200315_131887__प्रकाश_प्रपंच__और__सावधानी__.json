@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:14.838988",
+  "query_original": "'प्रकाश प्रपंच' और 'सावधानी'?",
+  "query_normalized": "प्रकाश प्रपंच और सावधानी",
+  "query_expanded": "प्रकाश प्रपंच और सावधानी",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' और 'सावधानी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'मजदूरी'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' और 'सावधानी'?",
+      "Crop": "General",
+      "FinalScore": 999.8917165092982,
+      "CrossScore": 0.9998917165092982
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'मजदूरी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998962439825152,
+      "CrossScore": 0.9998962439825152
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' की खपत?",
+      "Crop": "General",
+      "FinalScore": 0.9998752730364013,
+      "CrossScore": 0.9998752730364013
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "FinalScore": 0.9998743545930908,
+      "CrossScore": 0.9998743545930908
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998724824147539,
+      "CrossScore": 0.9998724824147539
+    },
+    {
+      "Question": "'मल्चिंग' और खरपतवार?",
+      "Crop": "General",
+      "FinalScore": 0.9998702537899478,
+      "CrossScore": 0.9998702537899478
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.999865168294575,
+      "CrossScore": 0.999865168294575
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General",
+      "FinalScore": 0.9998595056835575,
+      "CrossScore": 0.9998595056835575
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9998573985478109,
+      "CrossScore": 0.9998573985478109
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' in कौन सा तेल डालें?",
+      "Crop": "General",
+      "FinalScore": 0.9998493981303581,
+      "CrossScore": 0.9998493981303581
+    }
+  ],
+  "latency_ms": 292.98,
+  "final_returned": [
+    {
+      "Question": "'प्रकाश प्रपंच' और 'सावधानी'?",
+      "Crop": "General",
+      "Score": 999.8917165092982
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'मजदूरी'?",
+      "Crop": "General",
+      "Score": 0.9998962439825152
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' की खपत?",
+      "Crop": "General",
+      "Score": 0.9998752730364013
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "Score": 0.9998743545930908
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998724824147539
+    }
+  ]
+}

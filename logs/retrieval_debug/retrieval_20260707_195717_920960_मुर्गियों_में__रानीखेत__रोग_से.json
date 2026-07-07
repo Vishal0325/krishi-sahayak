@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:17.726322",
+  "query_original": "मुर्गियों में 'रानीखेत' रोग से बचाव?",
+  "query_normalized": "मुर्गियों में रानीखेत रोग से बचाव",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा मुर्गियों में रानीखेत रोग से बचाव रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग के लक्षण क्या हैं?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998599828657142,
+      "CrossScore": 0.9998599828657141
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.998333289472022,
+      "CrossScore": 0.9998333289472022
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "FinalScore": 9.998005918782702,
+      "CrossScore": 0.9998005918782703
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "FinalScore": 9.997833303813097,
+      "CrossScore": 0.9997833303813097
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.99719079096015,
+      "CrossScore": 0.999719079096015
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.996005912314146,
+      "CrossScore": 0.9996005912314145
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.995522172058518,
+      "CrossScore": 0.9995522172058517
+    },
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998687859061324,
+      "CrossScore": 0.9998687859061324
+    },
+    {
+      "Question": "कोयली रोग से बचाव के उपाय?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998628424656933,
+      "CrossScore": 0.9998628424656933
+    },
+    {
+      "Question": "थनैला रोग से बचाव के लिए 'स्वच्छता' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998608322198682,
+      "CrossScore": 0.9998608322198682
+    }
+  ],
+  "latency_ms": 194.72,
+  "final_returned": [
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "Score": 9.998599828657142
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "Score": 9.998333289472022
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "Score": 9.998005918782702
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "Score": 9.997833303813097
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.99719079096015
+    }
+  ]
+}

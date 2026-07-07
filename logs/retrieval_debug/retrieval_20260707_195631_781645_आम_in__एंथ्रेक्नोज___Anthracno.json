@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:31.498546",
+  "query_original": "आम in 'एंथ्रेक्नोज' (Anthracnose) का प्रबंधन?",
+  "query_normalized": "आम in एंथ्रेक्नोज anthracnose का प्रबंधन",
+  "query_expanded": "आम in एंथ्रेक्नोज anthracnose का प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आम in 'एंथ्रेक्नोज' (Anthracnose) का प्रबंधन?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम in 'पाउडर मिल्ड्यू' का समय?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम in 'पाउडर मिल्ड्यू' का 'जैविक' बचाव?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आम in 'एंथ्रेक्नोज' (Anthracnose) का प्रबंधन?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998429516147258,
+      "CrossScore": 0.9998429516147258
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 0.9996967630460871,
+      "CrossScore": 0.9996967630460871
+    },
+    {
+      "Question": "मक्का in 'तुलसिता' (Downy Mildew) का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996343225016316,
+      "CrossScore": 0.9996343225016316
+    },
+    {
+      "Question": "आम in 'पाउडर मिल्ड्यू' का 'जैविक' बचाव?",
+      "Crop": "Mango",
+      "FinalScore": 0.9996068481488907,
+      "CrossScore": 0.9996068481488907
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9995944153774992,
+      "CrossScore": 0.9995944153774992
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.999582561494664,
+      "CrossScore": 0.999582561494664
+    },
+    {
+      "Question": "पपीते in 'डैम्पिंग ऑफ' का प्रबंधन?",
+      "Crop": "Papaya",
+      "FinalScore": 0.999556145660162,
+      "CrossScore": 0.999556145660162
+    },
+    {
+      "Question": "आम के बाग में 'चूहों' का प्रबंधन?",
+      "Crop": "Mango",
+      "FinalScore": 0.9995450342187864,
+      "CrossScore": 0.9995450342187864
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9995298989551274,
+      "CrossScore": 0.9995298989551274
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 0.9995275217802817,
+      "CrossScore": 0.9995275217802817
+    }
+  ],
+  "latency_ms": 283.19,
+  "final_returned": [
+    {
+      "Question": "आम in 'एंथ्रेक्नोज' (Anthracnose) का प्रबंधन?",
+      "Crop": "Mango",
+      "Score": 0.9998429516147258
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "Score": 0.9996967630460871
+    },
+    {
+      "Question": "मक्का in 'तुलसिता' (Downy Mildew) का प्रबंधन?",
+      "Crop": "Maize",
+      "Score": 0.9996343225016316
+    },
+    {
+      "Question": "आम in 'पाउडर मिल्ड्यू' का 'जैविक' बचाव?",
+      "Crop": "Mango",
+      "Score": 0.9996068481488907
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9995944153774992
+    }
+  ]
+}

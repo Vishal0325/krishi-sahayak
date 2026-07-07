@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:46.845209",
+  "query_original": "पशुओं को 'खड़ा' रखने का महत्व?",
+  "query_normalized": "पशुओं को खड़ा रखने का महत्व",
+  "query_expanded": "पशुओं को खड़ा रखने का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'धूप' (Sunlight) का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "खेत की मेड़ों को साफ रखने का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 999.9124799785576,
+      "CrossScore": 0.9999124799785576
+    },
+    {
+      "Question": "खेत की मेड़ों को साफ रखने का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9999026377581515,
+      "CrossScore": 0.9999026377581515
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999894497618516,
+      "CrossScore": 0.999894497618516
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' करने के लिए शेड की ऊँचाई?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998854111183008,
+      "CrossScore": 0.9998854111183008
+    },
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998844278835725,
+      "CrossScore": 0.9998844278835725
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998836709495642,
+      "CrossScore": 0.9998836709495642
+    },
+    {
+      "Question": "मुर्गियों को 'धूप' का महत्व?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998758344463354,
+      "CrossScore": 0.9998758344463354
+    },
+    {
+      "Question": "औषधीय पौधों की खेती में 'धीरज' का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998740778878106,
+      "CrossScore": 0.9998740778878106
+    },
+    {
+      "Question": "खेती में 'दालों' की आत्मनिर्भरता का महत्व?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998740720040685,
+      "CrossScore": 0.9998740720040685
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998732494288852,
+      "CrossScore": 0.9998732494288852
+    }
+  ],
+  "latency_ms": 203.0,
+  "final_returned": [
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "Score": 999.9124799785576
+    },
+    {
+      "Question": "खेत की मेड़ों को साफ रखने का लाभ?",
+      "Crop": "General",
+      "Score": 0.9999026377581515
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.999894497618516
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' करने के लिए शेड की ऊँचाई?",
+      "Crop": "Dairy",
+      "Score": 0.9998854111183008
+    },
+    {
+      "Question": "पशुओं को 'सूखा' रखने (Dry Period) का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9998844278835725
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:56:34.632074",
+  "query_original": "ड्रैगन फ्रूट",
+  "query_normalized": "ड्रैगन फ्रूट",
+  "query_expanded": "ड्रैगन फ्रूट",
+  "detected_crops": [
+    "Dragon Fruit"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के लिए उपयुक्त जलवायु?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के पौधे लगाने का सही समय?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के लिए कैसी मिट्टी चाहिए?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.993730793288194,
+      "CrossScore": 0.9998746158657639
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'कटाई-छंटाई' (Pruning) क्यों जरूरी है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99359844918981,
+      "CrossScore": 0.9998719689837962
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99320053703549,
+      "CrossScore": 0.9998640107407099
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के पौधे लगाने का सही समय?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99290532894767,
+      "CrossScore": 0.9998581065789534
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के लिए उपयुक्त जलवायु?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.992824421232775,
+      "CrossScore": 0.9998564884246555
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'जड़ सड़न' (Root Rot) रोग?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99267383350339,
+      "CrossScore": 0.9998534766700677
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में शुरुआती निवेश कितना है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.992650057422246,
+      "CrossScore": 0.9998530011484449
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.9924046375506,
+      "CrossScore": 0.999848092751012
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की प्रमुख किस्में कौन सी हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99177450793687,
+      "CrossScore": 0.9998354901587374
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की औसत उपज कितनी होती है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.991548074922186,
+      "CrossScore": 0.9998309614984437
+    }
+  ],
+  "latency_ms": 361.8,
+  "final_returned": [
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.993730793288194
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'कटाई-छंटाई' (Pruning) क्यों जरूरी है?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.99359844918981
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.99320053703549
+    }
+  ]
+}

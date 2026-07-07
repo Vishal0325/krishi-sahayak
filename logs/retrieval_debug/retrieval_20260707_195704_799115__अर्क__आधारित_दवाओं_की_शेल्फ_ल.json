@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:04.315808",
+  "query_original": "'अर्क' आधारित दवाओं की शेल्फ लाइफ?",
+  "query_normalized": "अर्क आधारित दवाओं की शेल्फ लाइफ",
+  "query_expanded": "अर्क आधारित दवाओं की शेल्फ लाइफ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अर्क' आधारित दवाओं की शेल्फ लाइफ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की शेल्फ लाइफ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की शेल्फ लाइफ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशरूम के बीजों (Spawn) की शेल्फ लाइफ?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "जैविक दवाओं की 'Exp Date' का महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अर्क' आधारित दवाओं की शेल्फ लाइफ?",
+      "Crop": "General",
+      "FinalScore": 0.9999071423847773,
+      "CrossScore": 0.9999071423847773
+    },
+    {
+      "Question": "'अर्क' (Extract) आधारित कीटनाशक क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998920392188045,
+      "CrossScore": 0.9998920392188045
+    },
+    {
+      "Question": "मशरूम की 'सेल्फ लाइफ' बढ़ाने के लिए 'वैक्यूम' पैकिंग?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998816200095243,
+      "CrossScore": 0.9998816200095243
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की सामग्री?",
+      "Crop": "General",
+      "FinalScore": 0.9998808496869271,
+      "CrossScore": 0.9998808496869271
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की शेल्फ लाइफ?",
+      "Crop": "General",
+      "FinalScore": 0.9998757892097577,
+      "CrossScore": 0.9998757892097577
+    },
+    {
+      "Question": "बिहार में मक्का आधारित उद्योग की क्या संभावनाएं हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998750574607478,
+      "CrossScore": 0.9998750574607478
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की सुगंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998679635599889,
+      "CrossScore": 0.9998679635599889
+    },
+    {
+      "Question": "'नीम का अर्क' बनाने की विधि?",
+      "Crop": "General",
+      "FinalScore": 0.9998611642424067,
+      "CrossScore": 0.9998611642424067
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998583416722937,
+      "CrossScore": 0.9998583416722937
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998557079435676,
+      "CrossScore": 0.9998557079435676
+    }
+  ],
+  "latency_ms": 483.48,
+  "final_returned": [
+    {
+      "Question": "'अर्क' आधारित दवाओं की शेल्फ लाइफ?",
+      "Crop": "General",
+      "Score": 0.9999071423847773
+    },
+    {
+      "Question": "'अर्क' (Extract) आधारित कीटनाशक क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998920392188045
+    },
+    {
+      "Question": "मशरूम की 'सेल्फ लाइफ' बढ़ाने के लिए 'वैक्यूम' पैकिंग?",
+      "Crop": "Mushroom",
+      "Score": 0.9998816200095243
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की सामग्री?",
+      "Crop": "General",
+      "Score": 0.9998808496869271
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की शेल्फ लाइफ?",
+      "Crop": "General",
+      "Score": 0.9998757892097577
+    }
+  ]
+}

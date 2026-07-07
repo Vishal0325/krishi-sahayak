@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:23.288083",
+  "query_original": "सल्फर (Sulphur) का उपयोग किन फसलों में अधिक करना चाहिए?",
+  "query_normalized": "सल्फर sulphur का उपयोग किन फसलों में अधिक करना चाहिए",
+  "query_expanded": "सल्फर sulphur का उपयोग किन फसलों में अधिक करना चाहिए",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सल्फर (Sulphur) का उपयोग किन फसलों में अधिक करना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्सोलर (Subsoiler) का उपयोग कितने समय बाद करना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सल्फर (Sulphur) का उपयोग किन फसलों में अधिक करना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 999.8619032317823,
+      "CrossScore": 0.9998619032317824
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998347755120245,
+      "CrossScore": 0.9998347755120245
+    },
+    {
+      "Question": "सल्फर (Wettable Sulphur) फफूंदनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9998299721909741,
+      "CrossScore": 0.9998299721909741
+    },
+    {
+      "Question": "दलहनी फसलों में 'गंधक' (Sulphur) का महत्व?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998048609636326,
+      "CrossScore": 0.9998048609636326
+    },
+    {
+      "Question": "सब्सोलर (Subsoiler) का उपयोग कितने समय बाद करना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9997364030391451,
+      "CrossScore": 0.9997364030391451
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996836436279809,
+      "CrossScore": 0.9996836436279809
+    },
+    {
+      "Question": "आम के फल पकने के लिए 'कैल्शियम कार्बाइड' का प्रयोग क्यों नहीं करना चाहिए?",
+      "Crop": "Mango",
+      "FinalScore": 0.9996754843325559,
+      "CrossScore": 0.9996754843325559
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996642210276805,
+      "CrossScore": 0.9996642210276805
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996314635952421,
+      "CrossScore": 0.9996314635952421
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996138035078361,
+      "CrossScore": 0.9996138035078361
+    }
+  ],
+  "latency_ms": 222.04,
+  "final_returned": [
+    {
+      "Question": "सल्फर (Sulphur) का उपयोग किन फसलों में अधिक करना चाहिए?",
+      "Crop": "General",
+      "Score": 999.8619032317823
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General",
+      "Score": 0.9998347755120245
+    },
+    {
+      "Question": "सल्फर (Wettable Sulphur) फफूंदनाशक के रूप में?",
+      "Crop": "General",
+      "Score": 0.9998299721909741
+    },
+    {
+      "Question": "दलहनी फसलों में 'गंधक' (Sulphur) का महत्व?",
+      "Crop": "Pulses",
+      "Score": 0.9998048609636326
+    },
+    {
+      "Question": "सब्सोलर (Subsoiler) का उपयोग कितने समय बाद करना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9997364030391451
+    }
+  ]
+}

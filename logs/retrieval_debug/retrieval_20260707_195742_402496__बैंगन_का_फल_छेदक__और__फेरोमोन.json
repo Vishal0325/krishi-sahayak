@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:57:42.228477",
+  "query_original": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+  "query_normalized": "बैंगन का फल छेदक और फेरोमोन ट्रैप",
+  "query_expanded": "बैंगन का फल छेदक और फेरोमोन ट्रैप",
+  "detected_crops": [
+    "Brinjal"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'नियमित तुड़ाई'?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'स्पिनोसाड'?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन का 'तना व फल छेदक' (Shoot and Fruit Borer) कीट?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.958494476885,
+      "CrossScore": 0.99991698895377
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'स्पिनोसाड'?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.9552385541927,
+      "CrossScore": 0.9999104771083854
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.94494718486754,
+      "CrossScore": 0.9998898943697351
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'नियमित तुड़ाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.9429788945292,
+      "CrossScore": 0.9998859577890583
+    },
+    {
+      "Question": "'बैंगन का तना छेदक' और 'कटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.9371559068664,
+      "CrossScore": 0.9998743118137328
+    },
+    {
+      "Question": "'बैंगन का तना छेदक'?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.9297269143819,
+      "CrossScore": 0.9998594538287637
+    },
+    {
+      "Question": "बैंगन का 'तना व फल छेदक' क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 499.91294085263013,
+      "CrossScore": 0.9998258817052602
+    },
+    {
+      "Question": "बैंगन का 'तना व फल छेदक' (Shoot and Fruit Borer) कीट?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99266721500785,
+      "CrossScore": 0.999853344300157
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99200771938216,
+      "CrossScore": 0.9998401543876432
+    },
+    {
+      "Question": "तना व फल छेदक का जैविक नियंत्रण?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99137600350888,
+      "CrossScore": 0.9998275200701776
+    }
+  ],
+  "latency_ms": 174.13,
+  "final_returned": [
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+      "Crop": "Brinjal",
+      "Score": 499.958494476885
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'स्पिनोसाड'?",
+      "Crop": "Brinjal",
+      "Score": 499.9552385541927
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "Score": 499.94494718486754
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'नियमित तुड़ाई'?",
+      "Crop": "Brinjal",
+      "Score": 499.9429788945292
+    },
+    {
+      "Question": "'बैंगन का तना छेदक' और 'कटाई'?",
+      "Crop": "Brinjal",
+      "Score": 499.9371559068664
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:13.819407",
+  "query_original": "कीटनाशकों के प्रयोग में 'सुरक्षा' (Personal Safety)?",
+  "query_normalized": "कीटनाशकों के प्रयोग में सुरक्षा personal safety",
+  "query_expanded": "कीटनाशकों के प्रयोग में सुरक्षा personal safety बग pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा' (Personal Safety)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरकों के प्रयोग में 'सुरक्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.919196077389225,
+      "CrossScore": 0.9919196077389225
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.911726181038656,
+      "CrossScore": 0.9911726181038656
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा' (Personal Safety)?",
+      "Crop": "General",
+      "FinalScore": 0.9998973373952753,
+      "CrossScore": 0.9998973373952753
+    },
+    {
+      "Question": "कीटनाशकों के अधिक प्रयोग से नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.9967832206224497,
+      "CrossScore": 0.9967832206224497
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9961913396524088,
+      "CrossScore": 0.9961913396524088
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9958703994277807,
+      "CrossScore": 0.9958703994277807
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9956891103946405,
+      "CrossScore": 0.9956891103946405
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9949231288185381,
+      "CrossScore": 0.9949231288185381
+    },
+    {
+      "Question": "उर्वरकों के प्रयोग में 'सुरक्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.9948968418634326,
+      "CrossScore": 0.9948968418634326
+    },
+    {
+      "Question": "मिर्च में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9941883116319409,
+      "CrossScore": 0.9941883116319409
+    }
+  ],
+  "latency_ms": 226.54,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "Score": 9.919196077389225
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9.911726181038656
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा' (Personal Safety)?",
+      "Crop": "General",
+      "Score": 0.9998973373952753
+    },
+    {
+      "Question": "कीटनाशकों के अधिक प्रयोग से नुकसान?",
+      "Crop": "General",
+      "Score": 0.9967832206224497
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9961913396524088
+    }
+  ]
+}

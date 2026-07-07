@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:30.219801",
+  "query_original": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+  "query_normalized": "ट्रैक्टर में दोहरा क्लच dual clutch क्यों जरूरी है",
+  "query_expanded": "ट्रैक्टर में दोहरा क्लच dual clutch क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मूंग की कटाई में 'एक साथ पकना' क्यों जरूरी है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "केले में 'गांठ' (Corm) की सफाई क्यों जरूरी है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गन्ने में 'बंधाई' (Propping/Tying) क्यों जरूरी है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998588504014048,
+      "CrossScore": 0.9998588504014048
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9992415540315787,
+      "CrossScore": 0.9992415540315787
+    },
+    {
+      "Question": "टमाटर में 'स्टेकिंग' (Staking/सहारा देना) क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9992364359615501,
+      "CrossScore": 0.9992364359615501
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9990805597677026,
+      "CrossScore": 0.9990805597677026
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9990417812285531,
+      "CrossScore": 0.9990417812285531
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'कटाई-छंटाई' (Pruning) क्यों जरूरी है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9989538953393269,
+      "CrossScore": 0.9989538953393269
+    },
+    {
+      "Question": "IPM में ' खरपतवार नियंत्रण' क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.998737132482222,
+      "CrossScore": 0.998737132482222
+    },
+    {
+      "Question": "गन्ने में 'बंधाई' (Propping/Tying) क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9986738261709325,
+      "CrossScore": 0.9986738261709325
+    },
+    {
+      "Question": "जैविक खेती में 'प्रमाणन' (Certification) क्यों जरूरी है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9985478640473571,
+      "CrossScore": 0.9985478640473571
+    },
+    {
+      "Question": "केले में 'गांठ' (Corm) की सफाई क्यों जरूरी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9985347190494942,
+      "CrossScore": 0.9985347190494942
+    }
+  ],
+  "latency_ms": 203.8,
+  "final_returned": [
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998588504014048
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "Score": 0.9992415540315787
+    },
+    {
+      "Question": "टमाटर में 'स्टेकिंग' (Staking/सहारा देना) क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "Score": 0.9992364359615501
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9990805597677026
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato",
+      "Score": 0.9990417812285531
+    }
+  ]
+}

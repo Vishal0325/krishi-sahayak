@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:28.953835",
+  "query_original": "'कीटों का भौतिक नियंत्रण'?",
+  "query_normalized": "कीटों का भौतिक नियंत्रण",
+  "query_expanded": "pest कीड़ा बग कीट insect कीटों का भौतिक नियंत्रण",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'जाल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 999.9168618856977,
+      "CrossScore": 0.9999168618856977
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 9.999282217136813,
+      "CrossScore": 0.9999282217136813
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 9.999263295976037,
+      "CrossScore": 0.9999263295976037
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General",
+      "FinalScore": 9.999156926038491,
+      "CrossScore": 0.999915692603849
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 9.999146878364114,
+      "CrossScore": 0.9999146878364114
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथों का उपयोग'?",
+      "Crop": "General",
+      "FinalScore": 9.999143039651392,
+      "CrossScore": 0.9999143039651391
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General",
+      "FinalScore": 9.999061969625592,
+      "CrossScore": 0.9999061969625591
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'जाल'?",
+      "Crop": "General",
+      "FinalScore": 9.998948726070326,
+      "CrossScore": 0.9998948726070326
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "FinalScore": 9.998934207243618,
+      "CrossScore": 0.9998934207243618
+    },
+    {
+      "Question": "'कीटों का प्रतिरोध' (Resistance) कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 9.99888570488179,
+      "CrossScore": 0.999888570488179
+    }
+  ],
+  "latency_ms": 180.76,
+  "final_returned": [
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण'?",
+      "Crop": "General",
+      "Score": 999.9168618856977
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "Score": 9.999282217136813
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "Score": 9.999263295976037
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General",
+      "Score": 9.999156926038491
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "Score": 9.999146878364114
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:01.296822",
+  "query_original": "फूलों की मार्केटिंग कैसे करें?",
+  "query_normalized": "फूलों की मार्केटिंग कैसे करें",
+  "query_expanded": "फूलों की मार्केटिंग कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलों की मार्केटिंग कैसे करें?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "औषधीय पौधों की मार्केटिंग कैसे करें?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की मार्केटिंग कैसे करें?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "मशरूम की मार्केटिंग कैसे करें?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' (Threshing) कैसे करें?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फूलों की मार्केटिंग कैसे करें?",
+      "Crop": "Floriculture",
+      "FinalScore": 999.9375262276392,
+      "CrossScore": 0.9999375262276392
+    },
+    {
+      "Question": "औषधीय पौधों की मार्केटिंग कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999373714367185,
+      "CrossScore": 0.9999373714367185
+    },
+    {
+      "Question": "बैंगन की नर्सरी कैसे तैयार करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999346231392606,
+      "CrossScore": 0.9999346231392606
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999302612979244,
+      "CrossScore": 0.9999302612979244
+    },
+    {
+      "Question": "मशरूम की मार्केटिंग कैसे करें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999277807907317,
+      "CrossScore": 0.9999277807907317
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999274743658119,
+      "CrossScore": 0.9999274743658119
+    },
+    {
+      "Question": "मक्का की मड़ाई (Shelling) कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999263025454665,
+      "CrossScore": 0.9999263025454665
+    },
+    {
+      "Question": "जैविक खेती में 'नाइट्रोजन' की पूर्ति कैसे करें?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999242819738713,
+      "CrossScore": 0.9999242819738713
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999223690428715,
+      "CrossScore": 0.9999223690428715
+    },
+    {
+      "Question": "टमाटर की नर्सरी कैसे तैयार करें?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999919850416355,
+      "CrossScore": 0.999919850416355
+    }
+  ],
+  "latency_ms": 196.38,
+  "final_returned": [
+    {
+      "Question": "फूलों की मार्केटिंग कैसे करें?",
+      "Crop": "Floriculture",
+      "Score": 999.9375262276392
+    },
+    {
+      "Question": "औषधीय पौधों की मार्केटिंग कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999373714367185
+    },
+    {
+      "Question": "बैंगन की नर्सरी कैसे तैयार करें?",
+      "Crop": "Brinjal",
+      "Score": 0.9999346231392606
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999302612979244
+    },
+    {
+      "Question": "मशरूम की मार्केटिंग कैसे करें?",
+      "Crop": "Mushroom",
+      "Score": 0.9999277807907317
+    }
+  ]
+}

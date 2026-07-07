@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:28.133818",
+  "query_original": "'उर्वरक' बैग पर लिखे नंबरों का ज्ञान?",
+  "query_normalized": "उर्वरक बैग पर लिखे नंबरों का ज्ञान",
+  "query_expanded": "poshak खाद पोषण उर्वरक fertilizer उर्वरक बैग पर लिखे नंबरों का ज्ञान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'उर्वरक' बैग पर लिखे नंबरों का ज्ञान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'उर्वरक' बैग पर 10:26:26 का क्या मतलब है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "दलहनी फसलों की 'मिट्टी' का पीएच 8.5 से अधिक होने पर?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'उर्वरक' बैग पर लिखे नंबरों का ज्ञान?",
+      "Crop": "General",
+      "FinalScore": 999.8628119892456,
+      "CrossScore": 0.9998628119892456
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998687259604,
+      "CrossScore": 0.9998687259604
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998638868477203,
+      "CrossScore": 0.9998638868477203
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998633844144454,
+      "CrossScore": 0.9998633844144454
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998558842233405,
+      "CrossScore": 0.9998558842233405
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9998482107563089,
+      "CrossScore": 0.9998482107563089
+    },
+    {
+      "Question": "जैव-उर्वरक का उपयोग?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998426347250765,
+      "CrossScore": 0.9998426347250765
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998305105600226,
+      "CrossScore": 0.9998305105600226
+    },
+    {
+      "Question": "'उर्वरक' की बर्बादी और मुनाफे पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998145224131622,
+      "CrossScore": 0.9998145224131622
+    },
+    {
+      "Question": "दलहनी फसलों की 'मिट्टी' का पीएच 8.5 से अधिक होने पर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998005810404245,
+      "CrossScore": 0.9998005810404245
+    }
+  ],
+  "latency_ms": 207.93,
+  "final_returned": [
+    {
+      "Question": "'उर्वरक' बैग पर लिखे नंबरों का ज्ञान?",
+      "Crop": "General",
+      "Score": 999.8628119892456
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998687259604
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998638868477203
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "Score": 0.9998633844144454
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9998558842233405
+    }
+  ]
+}

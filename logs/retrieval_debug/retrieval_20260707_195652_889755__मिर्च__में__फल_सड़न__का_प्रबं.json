@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:52.717645",
+  "query_original": "'मिर्च' में 'फल सड़न' का प्रबंधन?",
+  "query_normalized": "मिर्च में फल सड़न का प्रबंधन",
+  "query_expanded": "मिर्च में फल सड़न का प्रबंधन",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिर्च' में 'फल सड़न' का प्रबंधन?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' (Fruit Rot) का कारण?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च के बाग में 'चूहों' का प्रबंधन?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च में 'जिंक सल्फेट' का छिड़काव?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिर्च' में 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99401358986335,
+      "CrossScore": 0.999880271797267
+    },
+    {
+      "Question": "मिर्च में 'जिंक' की कमी से मिर्च का तीखापन?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99350858070707,
+      "CrossScore": 0.9998701716141415
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99336576045767,
+      "CrossScore": 0.9998673152091534
+    },
+    {
+      "Question": "मिर्च की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99333800071321,
+      "CrossScore": 0.9998667600142641
+    },
+    {
+      "Question": "'मिर्च' में 'फल सड़न' का प्रबंधन?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99328905981727,
+      "CrossScore": 0.9998657811963455
+    },
+    {
+      "Question": "मिर्च में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99304909800617,
+      "CrossScore": 0.9998609819601234
+    },
+    {
+      "Question": "मिर्च के बाग में 'चूहों' का प्रबंधन?",
+      "Crop": "Chilli",
+      "FinalScore": 49.992962720249714,
+      "CrossScore": 0.9998592544049943
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' (Fruit Rot) का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 49.992641831945775,
+      "CrossScore": 0.9998528366389154
+    },
+    {
+      "Question": "मिर्च में सिंचाई का सही तरीका?",
+      "Crop": "Chilli",
+      "FinalScore": 49.992202993795665,
+      "CrossScore": 0.9998440598759133
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99137117521863,
+      "CrossScore": 0.9998274235043727
+    }
+  ],
+  "latency_ms": 172.2,
+  "final_returned": [
+    {
+      "Question": "'मिर्च' में 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "Score": 49.99401358986335
+    },
+    {
+      "Question": "मिर्च में 'जिंक' की कमी से मिर्च का तीखापन?",
+      "Crop": "Chilli",
+      "Score": 49.99350858070707
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli",
+      "Score": 49.99336576045767
+    },
+    {
+      "Question": "मिर्च की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Chilli",
+      "Score": 49.99333800071321
+    },
+    {
+      "Question": "'मिर्च' में 'फल सड़न' का प्रबंधन?",
+      "Crop": "Chilli",
+      "Score": 49.99328905981727
+    }
+  ]
+}

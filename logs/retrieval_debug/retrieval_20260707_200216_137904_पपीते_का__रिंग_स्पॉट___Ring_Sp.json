@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:15.924580",
+  "query_original": "पपीते का 'रिंग स्पॉट' (Ring Spot) वायरस क्या है?",
+  "query_normalized": "पपीते का रिंग स्पॉट ring spot वायरस क्या है",
+  "query_expanded": "पपीते का रिंग स्पॉट ring spot वायरस क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पपीते का 'रिंग स्पॉट' (Ring Spot) वायरस क्या है?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस का फैलाव?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'तंबाकू'?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "पपीते का 'मोजेक' (Ring Spot) वायरस?",
+      "Crop": "Papaya"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पपीते का 'रिंग स्पॉट' (Ring Spot) वायरस क्या है?",
+      "Crop": "Papaya",
+      "FinalScore": 999.9076245989016,
+      "CrossScore": 0.9999076245989016
+    },
+    {
+      "Question": "पपीते का 'मोजेक' (Ring Spot) वायरस?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998952636423649,
+      "CrossScore": 0.9998952636423649
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998012734766988,
+      "CrossScore": 0.9998012734766988
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9996805613865201,
+      "CrossScore": 0.9996805613865201
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9995594966339308,
+      "CrossScore": 0.9995594966339308
+    },
+    {
+      "Question": "पौधे लगाने के लिए 'खंभों' (Poles) का क्या महत्व है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9994955265501844,
+      "CrossScore": 0.9994955265501844
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस का फैलाव?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9993689081333388,
+      "CrossScore": 0.9993689081333388
+    },
+    {
+      "Question": "'पपीते का एफिड' (Aphid) और 'वायरस'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9993279844568798,
+      "CrossScore": 0.9993279844568798
+    },
+    {
+      "Question": "आलू का 'अगेती झुलसा' (Early Blight) क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9992845950996243,
+      "CrossScore": 0.9992845950996243
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9992700537086625,
+      "CrossScore": 0.9992700537086625
+    }
+  ],
+  "latency_ms": 213.36,
+  "final_returned": [
+    {
+      "Question": "पपीते का 'रिंग स्पॉट' (Ring Spot) वायरस क्या है?",
+      "Crop": "Papaya",
+      "Score": 999.9076245989016
+    },
+    {
+      "Question": "पपीते का 'मोजेक' (Ring Spot) वायरस?",
+      "Crop": "Papaya",
+      "Score": 0.9998952636423649
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "Score": 0.9998012734766988
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.9996805613865201
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya",
+      "Score": 0.9995594966339308
+    }
+  ]
+}

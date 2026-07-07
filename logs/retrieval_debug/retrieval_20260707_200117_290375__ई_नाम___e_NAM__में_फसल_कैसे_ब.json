@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:16.939708",
+  "query_original": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+  "query_normalized": "ई नाम e nam में फसल कैसे बेचें",
+  "query_expanded": "ई नाम e nam में फसल कैसे बेचें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) और बिचौलियों का खात्मा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ई-नाम (e-NAM) पोर्टल क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+      "Crop": "General",
+      "FinalScore": 999.9209514843703,
+      "CrossScore": 0.9999209514843703
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9999262570614488,
+      "CrossScore": 0.9999262570614488
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) और बिचौलियों का खात्मा?",
+      "Crop": "General",
+      "FinalScore": 0.9999158148763239,
+      "CrossScore": 0.9999158148763239
+    },
+    {
+      "Question": "ई-नाम (e-NAM) पोर्टल क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999106086491761,
+      "CrossScore": 0.9999106086491761
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998614945484323,
+      "CrossScore": 0.9998614945484323
+    },
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998513098941685,
+      "CrossScore": 0.9998513098941685
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998406864998962,
+      "CrossScore": 0.9998406864998962
+    },
+    {
+      "Question": "बैंगन की फसल में 'पाले' से बचाव?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998097389384332,
+      "CrossScore": 0.9998097389384332
+    },
+    {
+      "Question": "मिट्टी में 'सूक्ष्मजीवों' की संख्या कैसे मापें?",
+      "Crop": "General",
+      "FinalScore": 0.9997871670497235,
+      "CrossScore": 0.9997871670497235
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 0.9997841327242712,
+      "CrossScore": 0.9997841327242712
+    }
+  ],
+  "latency_ms": 350.7,
+  "final_returned": [
+    {
+      "Question": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+      "Crop": "General",
+      "Score": 999.9209514843703
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "Score": 0.9999262570614488
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) और बिचौलियों का खात्मा?",
+      "Crop": "General",
+      "Score": 0.9999158148763239
+    },
+    {
+      "Question": "ई-नाम (e-NAM) पोर्टल क्या है?",
+      "Crop": "General",
+      "Score": 0.9999106086491761
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998614945484323
+    }
+  ]
+}

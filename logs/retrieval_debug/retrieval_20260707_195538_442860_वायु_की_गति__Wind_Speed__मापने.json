@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:38.141375",
+  "query_original": "वायु की गति (Wind Speed) मापने का यंत्र?",
+  "query_normalized": "वायु की गति wind speed मापने का यंत्र",
+  "query_expanded": "वायु की गति wind speed मापने का यंत्र",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वायु की गति (Wind Speed) मापने का यंत्र?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'भंडारण' में नमी मापने का आसान तरीका?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "नमी मापने का यंत्र?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आर्द्रता (Humidity) मापने का यंत्र?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वायु की गति (Wind Speed) मापने का यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9999036816179,
+      "CrossScore": 0.9999036816179
+    },
+    {
+      "Question": "छिड़काव के समय हवा की गति?",
+      "Crop": "General",
+      "FinalScore": 0.9992549827134579,
+      "CrossScore": 0.9992549827134579
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.999146629538803,
+      "CrossScore": 0.999146629538803
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991011704044823,
+      "CrossScore": 0.9991011704044823
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9988309569762338,
+      "CrossScore": 0.9988309569762338
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9987596447619849,
+      "CrossScore": 0.9987596447619849
+    },
+    {
+      "Question": "आर्द्रता (Humidity) मापने का यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9986645305000768,
+      "CrossScore": 0.9986645305000768
+    },
+    {
+      "Question": "मिर्च की 'मृदा' की उर्वरता का राज?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9984494756065181,
+      "CrossScore": 0.9984494756065181
+    },
+    {
+      "Question": "गेहूं की 'भंडारण' में नमी मापने का आसान तरीका?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9984329470477622,
+      "CrossScore": 0.9984329470477622
+    },
+    {
+      "Question": "बैंगन की 'मृदा' की उर्वरता का राज?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9983451253880087,
+      "CrossScore": 0.9983451253880087
+    }
+  ],
+  "latency_ms": 301.6,
+  "final_returned": [
+    {
+      "Question": "वायु की गति (Wind Speed) मापने का यंत्र?",
+      "Crop": "General",
+      "Score": 0.9999036816179
+    },
+    {
+      "Question": "छिड़काव के समय हवा की गति?",
+      "Crop": "General",
+      "Score": 0.9992549827134579
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "Score": 0.999146629538803
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9991011704044823
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9988309569762338
+    }
+  ]
+}

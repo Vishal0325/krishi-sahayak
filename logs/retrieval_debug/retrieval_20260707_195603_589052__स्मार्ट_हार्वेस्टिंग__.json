@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:03.427012",
+  "query_original": "'स्मार्ट हार्वेस्टिंग'?",
+  "query_normalized": "स्मार्ट हार्वेस्टिंग",
+  "query_expanded": "स्मार्ट हार्वेस्टिंग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्मार्ट हार्वेस्टिंग'?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वाटर हार्वेस्टिंग (Water Harvesting) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'स्मार्ट स्प्रेयर' मशीन?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998826375378747,
+      "CrossScore": 0.9998826375378747
+    },
+    {
+      "Question": "'स्मार्ट हार्वेस्टिंग'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998803951493404,
+      "CrossScore": 0.9998803951493404
+    },
+    {
+      "Question": "'स्मार्ट एग्री-वेयरहाउस'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.999878546856294,
+      "CrossScore": 0.999878546856294
+    },
+    {
+      "Question": "'स्मार्ट ग्रीनहाउस'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998719162325332,
+      "CrossScore": 0.9998719162325332
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "FinalScore": 0.9998597086308232,
+      "CrossScore": 0.9998597086308232
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998576563967959,
+      "CrossScore": 0.9998576563967959
+    },
+    {
+      "Question": "'स्मार्ट ट्रैप' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998523170818848,
+      "CrossScore": 0.9998523170818848
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998505508538899,
+      "CrossScore": 0.9998505508538899
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998438625844479,
+      "CrossScore": 0.9998438625844479
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998423056184049,
+      "CrossScore": 0.9998423056184049
+    }
+  ],
+  "latency_ms": 162.17,
+  "final_returned": [
+    {
+      "Question": "'स्मार्ट स्प्रेयर' मशीन?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998826375378747
+    },
+    {
+      "Question": "'स्मार्ट हार्वेस्टिंग'?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998803951493404
+    },
+    {
+      "Question": "'स्मार्ट एग्री-वेयरहाउस'?",
+      "Crop": "Agri Tech",
+      "Score": 0.999878546856294
+    },
+    {
+      "Question": "'स्मार्ट ग्रीनहाउस'?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998719162325332
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "Score": 0.9998597086308232
+    }
+  ]
+}

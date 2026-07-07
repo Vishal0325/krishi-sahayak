@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:07.742954",
+  "query_original": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+  "query_normalized": "उर्वरकों का संतुलित प्रयोग balanced fertilization क्या है",
+  "query_expanded": "खाद poshak fertilizer उर्वरकों का संतुलित प्रयोग balanced fertilization क्या है उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999902590489682,
+      "CrossScore": 0.999902590489682
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998883914099831,
+      "CrossScore": 0.9998883914099831
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9995819269048563,
+      "CrossScore": 0.9995819269048563
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995282719635834,
+      "CrossScore": 0.9995282719635834
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9995156061647971,
+      "CrossScore": 0.9995156061647971
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.999441730547684,
+      "CrossScore": 0.999441730547684
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999422911569977,
+      "CrossScore": 0.999422911569977
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9991171426044891,
+      "CrossScore": 0.9991171426044891
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9985613414194807,
+      "CrossScore": 0.9985613414194807
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984102588961415,
+      "CrossScore": 0.9984102588961415
+    }
+  ],
+  "latency_ms": 221.84,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "Score": 0.999902590489682
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General",
+      "Score": 0.9998883914099831
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9995819269048563
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9995282719635834
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.9995156061647971
+    }
+  ]
+}

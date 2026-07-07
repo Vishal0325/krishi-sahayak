@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:55.731907",
+  "query_original": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+  "query_normalized": "क्या मशीनों से मिट्टी की सघनता compaction बढ़ती है",
+  "query_expanded": "क्या मशीनों से मिट्टी की सघनता compaction बढ़ती है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या बिजली गिरने से मिट्टी की उर्वरता बढ़ती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 999.9327989010415,
+      "CrossScore": 0.9999327989010415
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999326773527306,
+      "CrossScore": 0.9999326773527306
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998896312575435,
+      "CrossScore": 0.9998896312575435
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998265711595448,
+      "CrossScore": 0.9998265711595448
+    },
+    {
+      "Question": "क्या कीटनाशकों से फसल की पैदावार बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998206065281106,
+      "CrossScore": 0.9998206065281106
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से मिट्टी अम्लीय होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998104543513198,
+      "CrossScore": 0.9998104543513198
+    },
+    {
+      "Question": "क्या बिजली गिरने से मिट्टी की उर्वरता बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998066257427811,
+      "CrossScore": 0.9998066257427811
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.999802653027728,
+      "CrossScore": 0.999802653027728
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.999791734207865,
+      "CrossScore": 0.999791734207865
+    },
+    {
+      "Question": "क्या मशीनों से फसल की मड़ाई (Threshing) सुरक्षित है?",
+      "Crop": "General",
+      "FinalScore": 0.9997914373234051,
+      "CrossScore": 0.9997914373234051
+    }
+  ],
+  "latency_ms": 209.83,
+  "final_returned": [
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General",
+      "Score": 999.9327989010415
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999326773527306
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "Score": 0.9998896312575435
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "Score": 0.9998265711595448
+    },
+    {
+      "Question": "क्या कीटनाशकों से फसल की पैदावार बढ़ती है?",
+      "Crop": "General",
+      "Score": 0.9998206065281106
+    }
+  ]
+}

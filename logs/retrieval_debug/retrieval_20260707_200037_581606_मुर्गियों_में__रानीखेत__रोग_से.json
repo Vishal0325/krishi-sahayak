@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:37.387211",
+  "query_original": "मुर्गियों में 'रानीखेत' रोग से बचाव?",
+  "query_normalized": "मुर्गियों में रानीखेत रोग से बचाव",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease रोग मुर्गियों में रानीखेत रोग से बचाव",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग के लक्षण क्या हैं?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "भिंडी की फसल में 'पाले' से बचाव?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "अमरूद के बाग में 'उकठा' (Wilt) से बचाव का जैविक तरीका?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "FinalScore": 999.8687859061324,
+      "CrossScore": 0.9998687859061324
+    },
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग के लक्षण क्या हैं?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998497140135837,
+      "CrossScore": 0.9998497140135837
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998268337271069,
+      "CrossScore": 0.9998268337271069
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998267126550526,
+      "CrossScore": 0.9998267126550526
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998216799074996,
+      "CrossScore": 0.9998216799074996
+    },
+    {
+      "Question": "प्याज के भंडारण में 'नमी' से बचाव?",
+      "Crop": "Onion",
+      "FinalScore": 0.999818802151248,
+      "CrossScore": 0.999818802151248
+    },
+    {
+      "Question": "हल्दी की फसल में 'सूखे' से बचाव?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9998144201643054,
+      "CrossScore": 0.9998144201643054
+    },
+    {
+      "Question": "पत्तागोभी की फसल में 'पाले' से बचाव?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998120361561884,
+      "CrossScore": 0.9998120361561884
+    },
+    {
+      "Question": "लीची की फसल में 'लू' (Loo) से बचाव?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998084463577057,
+      "CrossScore": 0.9998084463577057
+    },
+    {
+      "Question": "बैंगन की फसल में 'पाले' से बचाव?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997920736951,
+      "CrossScore": 0.9997920736951
+    }
+  ],
+  "latency_ms": 194.43,
+  "final_returned": [
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "Score": 999.8687859061324
+    },
+    {
+      "Question": "मुर्गियों में 'रानीखेत' रोग के लक्षण क्या हैं?",
+      "Crop": "Poultry",
+      "Score": 0.9998497140135837
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998268337271069
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "Score": 0.9998267126550526
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "Score": 0.9998216799074996
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:20.178657",
+  "query_original": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+  "query_normalized": "प्रधानमंत्री फसल बीमा योजना pmfby के क्या लाभ हैं",
+  "query_expanded": "प्रधानमंत्री फसल बीमा योजना pmfby के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998832000007242,
+      "CrossScore": 0.9998832000007243
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "FinalScore": 9.997708188876382,
+      "CrossScore": 0.9997708188876383
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics",
+      "FinalScore": 0.999867947821159,
+      "CrossScore": 0.999867947821159
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General",
+      "FinalScore": 0.9998424904594071,
+      "CrossScore": 0.9998424904594071
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998165358367154,
+      "CrossScore": 0.9998165358367154
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999809739664082,
+      "CrossScore": 0.999809739664082
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998066556100997,
+      "CrossScore": 0.9998066556100997
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998041470406911,
+      "CrossScore": 0.9998041470406911
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997976927847425,
+      "CrossScore": 0.9997976927847425
+    },
+    {
+      "Question": "एफपीओ (FPO) से जुड़ने के व्यापारिक लाभ क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997883004305308,
+      "CrossScore": 0.9997883004305308
+    }
+  ],
+  "latency_ms": 240.02,
+  "final_returned": [
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 9.998832000007242
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "Score": 9.997708188876382
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics",
+      "Score": 0.999867947821159
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General",
+      "Score": 0.9998424904594071
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998165358367154
+    }
+  ]
+}

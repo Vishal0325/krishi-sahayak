@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:25.596490",
+  "query_original": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+  "query_normalized": "मक्का का चारकोल रोट charcoal rot क्या है",
+  "query_expanded": "मक्का का चारकोल रोट charcoal rot क्या है",
+  "detected_crops": [
+    "Maize"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'मक्का का चारकोल रोट' (Charcoal Rot) और 'सूखा'?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की फसल में 'स्टॉक रोट' (Stalk Rot) क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की खेती का परिचय क्या है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.994825750905335,
+      "CrossScore": 0.9998965150181067
+    },
+    {
+      "Question": "'मक्का का चारकोल रोट' (Charcoal Rot) और 'सूखा'?",
+      "Crop": "Maize",
+      "FinalScore": 49.994302710331304,
+      "CrossScore": 0.9998860542066261
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.98795376054357,
+      "CrossScore": 0.9997590752108714
+    },
+    {
+      "Question": "मक्का की फसल में 'स्टॉक रोट' (Stalk Rot) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.98787920869102,
+      "CrossScore": 0.9997575841738203
+    },
+    {
+      "Question": "मक्का की खेती का परिचय क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.97067713394113,
+      "CrossScore": 0.9994135426788227
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 49.96838429776631,
+      "CrossScore": 0.9993676859553262
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.96345152134779,
+      "CrossScore": 0.9992690304269558
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) खाली रहने का क्या कारण है?",
+      "Crop": "Maize",
+      "FinalScore": 49.96306880763026,
+      "CrossScore": 0.9992613761526051
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 49.96165917207326,
+      "CrossScore": 0.9992331834414653
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' (Fall Armyworm) कीट क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.95639336282149,
+      "CrossScore": 0.9991278672564298
+    }
+  ],
+  "latency_ms": 199.66,
+  "final_returned": [
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize",
+      "Score": 49.994825750905335
+    },
+    {
+      "Question": "'मक्का का चारकोल रोट' (Charcoal Rot) और 'सूखा'?",
+      "Crop": "Maize",
+      "Score": 49.994302710331304
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "Score": 49.98795376054357
+    },
+    {
+      "Question": "मक्का की फसल में 'स्टॉक रोट' (Stalk Rot) क्या है?",
+      "Crop": "Maize",
+      "Score": 49.98787920869102
+    },
+    {
+      "Question": "मक्का की खेती का परिचय क्या है?",
+      "Crop": "Maize",
+      "Score": 49.97067713394113
+    }
+  ]
+}

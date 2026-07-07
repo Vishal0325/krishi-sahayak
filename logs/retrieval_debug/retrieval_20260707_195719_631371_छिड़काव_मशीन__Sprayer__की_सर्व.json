@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:19.434264",
+  "query_original": "छिड़काव मशीन (Sprayer) की सर्विसिंग?",
+  "query_normalized": "छिड़काव मशीन sprayer की सर्विसिंग",
+  "query_expanded": "छिड़काव मशीन sprayer की सर्विसिंग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "छिड़काव मशीन (Sprayer) की सर्विसिंग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव मशीन की 'सफाई' क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय 'हवा की दिशा'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "छिड़काव मशीन (Sprayer) की सर्विसिंग?",
+      "Crop": "General",
+      "FinalScore": 0.9999253885793818,
+      "CrossScore": 0.9999253885793818
+    },
+    {
+      "Question": "स्प्रेयर (Sprayer) मशीन के कितने प्रकार होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999227170845963,
+      "CrossScore": 0.9999227170845963
+    },
+    {
+      "Question": "आलू की फसल में 'पर्णीय छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997935566658721,
+      "CrossScore": 0.9997935566658721
+    },
+    {
+      "Question": "'दूध की टेस्टिंग' के लिए मशीन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9996320595028865,
+      "CrossScore": 0.9996320595028865
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9995987250008964,
+      "CrossScore": 0.9995987250008964
+    },
+    {
+      "Question": "शहद निकालने की मशीन (Honey Extractor) के लाभ?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999571492048242,
+      "CrossScore": 0.999571492048242
+    },
+    {
+      "Question": "आलू खुदाई की मशीन (Potato Digger) क्यों उपयोग करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9995255115367593,
+      "CrossScore": 0.9995255115367593
+    },
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General",
+      "FinalScore": 0.9995211194818826,
+      "CrossScore": 0.9995211194818826
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995134297753858,
+      "CrossScore": 0.9995134297753858
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' के लिए छोटी मशीन (Mini Dal Mill)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9995091234381142,
+      "CrossScore": 0.9995091234381142
+    }
+  ],
+  "latency_ms": 197.2,
+  "final_returned": [
+    {
+      "Question": "छिड़काव मशीन (Sprayer) की सर्विसिंग?",
+      "Crop": "General",
+      "Score": 0.9999253885793818
+    },
+    {
+      "Question": "स्प्रेयर (Sprayer) मशीन के कितने प्रकार होते हैं?",
+      "Crop": "General",
+      "Score": 0.9999227170845963
+    },
+    {
+      "Question": "आलू की फसल में 'पर्णीय छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Potato",
+      "Score": 0.9997935566658721
+    },
+    {
+      "Question": "'दूध की टेस्टिंग' के लिए मशीन?",
+      "Crop": "Dairy",
+      "Score": 0.9996320595028865
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.9995987250008964
+    }
+  ]
+}

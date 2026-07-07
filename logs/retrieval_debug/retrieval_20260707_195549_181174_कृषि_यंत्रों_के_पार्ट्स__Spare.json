@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:48.954790",
+  "query_original": "कृषि यंत्रों के पार्ट्स (Spare Parts) कहाँ से खरीदें?",
+  "query_normalized": "कृषि यंत्रों के पार्ट्स spare parts कहाँ से खरीदें",
+  "query_expanded": "कृषि यंत्रों के पार्ट्स spare parts कहाँ से खरीदें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि यंत्रों के पार्ट्स (Spare Parts) कहाँ से खरीदें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "औषधीय पौधों के 'बीज' कहाँ से प्राप्त करें?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि यंत्रों के पार्ट्स (Spare Parts) कहाँ से खरीदें?",
+      "Crop": "General",
+      "FinalScore": 0.9998888786277124,
+      "CrossScore": 0.9998888786277124
+    },
+    {
+      "Question": "कृषि को एक व्यवसाय (Business) के रूप में कैसे देखें?",
+      "Crop": "General",
+      "FinalScore": 0.9994411001740015,
+      "CrossScore": 0.9994411001740015
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9994029586132634,
+      "CrossScore": 0.9994029586132634
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 0.9993414817708262,
+      "CrossScore": 0.9993414817708262
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999322259873848,
+      "CrossScore": 0.999322259873848
+    },
+    {
+      "Question": "कृषि यंत्रों के रखरखाव के लिए मुख्य टिप्स क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992831390536069,
+      "CrossScore": 0.9992831390536069
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9991677020968996,
+      "CrossScore": 0.9991677020968996
+    },
+    {
+      "Question": "मशरूम की खेती शुरू करने के लिए ट्रेनिंग कहाँ से लें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999106994823723,
+      "CrossScore": 0.999106994823723
+    },
+    {
+      "Question": "'जैविक खेती' का प्रमाण पत्र (Certificate) कहाँ से लें?",
+      "Crop": "General",
+      "FinalScore": 0.9990986580198205,
+      "CrossScore": 0.9990986580198205
+    },
+    {
+      "Question": "किसानों के लिए कृषि विज्ञान का संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.999094020580431,
+      "CrossScore": 0.999094020580431
+    }
+  ],
+  "latency_ms": 226.5,
+  "final_returned": [
+    {
+      "Question": "कृषि यंत्रों के पार्ट्स (Spare Parts) कहाँ से खरीदें?",
+      "Crop": "General",
+      "Score": 0.9998888786277124
+    },
+    {
+      "Question": "कृषि को एक व्यवसाय (Business) के रूप में कैसे देखें?",
+      "Crop": "General",
+      "Score": 0.9994411001740015
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "Score": 0.9994029586132634
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "Score": 0.9993414817708262
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "Score": 0.999322259873848
+    }
+  ]
+}

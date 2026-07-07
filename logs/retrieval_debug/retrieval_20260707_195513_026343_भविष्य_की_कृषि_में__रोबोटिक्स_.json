@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:12.783153",
+  "query_original": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+  "query_normalized": "भविष्य की कृषि में रोबोटिक्स का क्या स्थान है",
+  "query_expanded": "भविष्य की कृषि में रोबोटिक्स का क्या स्थान है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998734520755959,
+      "CrossScore": 0.9998734520755959
+    },
+    {
+      "Question": "बिहार में 'हथिया' नक्षत्र की वर्षा का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998574347128274,
+      "CrossScore": 0.9998574347128274
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998492071603414,
+      "CrossScore": 0.9998492071603414
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998314221680732,
+      "CrossScore": 0.9998314221680732
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998173889198628,
+      "CrossScore": 0.9998173889198628
+    },
+    {
+      "Question": "बिहार में 'कृषि समन्वयक' का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998101216963211,
+      "CrossScore": 0.9998101216963211
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998065881255217,
+      "CrossScore": 0.9998065881255217
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998043590663159,
+      "CrossScore": 0.9998043590663159
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.999799043352959,
+      "CrossScore": 0.999799043352959
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General",
+      "FinalScore": 0.9997933985435938,
+      "CrossScore": 0.9997933985435938
+    }
+  ],
+  "latency_ms": 243.35,
+  "final_returned": [
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9998734520755959
+    },
+    {
+      "Question": "बिहार में 'हथिया' नक्षत्र की वर्षा का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998574347128274
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9998492071603414
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998314221680732
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9998173889198628
+    }
+  ]
+}

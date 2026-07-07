@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:04.081200",
+  "query_original": "धनिया में खाद और उर्वरक की मात्रा?",
+  "query_normalized": "धनिया में खाद और उर्वरक की मात्रा",
+  "query_expanded": "खाद poshak धनिया में खाद और उर्वरक की मात्रा fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999108827094592,
+      "CrossScore": 0.9999108827094592
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999091743960334,
+      "CrossScore": 0.9999091743960334
+    },
+    {
+      "Question": "आम में खाद और उर्वरक की मात्रा?",
+      "Crop": "Mango",
+      "FinalScore": 0.9999058118110583,
+      "CrossScore": 0.9999058118110583
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999057250084497,
+      "CrossScore": 0.9999057250084497
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999052467044617,
+      "CrossScore": 0.9999052467044617
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9999045594218923,
+      "CrossScore": 0.9999045594218923
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999045278360096,
+      "CrossScore": 0.9999045278360096
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9999036336615614,
+      "CrossScore": 0.9999036336615614
+    },
+    {
+      "Question": "मटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Pea",
+      "FinalScore": 0.9999024129121449,
+      "CrossScore": 0.9999024129121449
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9999011701033136,
+      "CrossScore": 0.9999011701033136
+    }
+  ],
+  "latency_ms": 232.38,
+  "final_returned": [
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9999108827094592
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "Score": 0.9999091743960334
+    },
+    {
+      "Question": "आम में खाद और उर्वरक की मात्रा?",
+      "Crop": "Mango",
+      "Score": 0.9999058118110583
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "Score": 0.9999057250084497
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "Score": 0.9999052467044617
+    }
+  ]
+}

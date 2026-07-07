@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:28.311878",
+  "query_original": "क्या सिंचाई से कीटों को नियंत्रित किया जा सकता है?",
+  "query_normalized": "क्या सिंचाई से कीटों को नियंत्रित किया जा सकता है",
+  "query_expanded": "बग pest कीड़ा कीट क्या सिंचाई से कीटों को नियंत्रित किया जा सकता है insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या सिंचाई से कीटों को नियंत्रित किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.99871221608825,
+      "CrossScore": 0.999871221608825
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "FinalScore": 9.998469854277461,
+      "CrossScore": 0.9998469854277462
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998965462951795,
+      "CrossScore": 0.9998965462951795
+    },
+    {
+      "Question": "क्या मशरूम को 'कच्चा' खाया जा सकता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998952584487926,
+      "CrossScore": 0.9998952584487926
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.999894301056067,
+      "CrossScore": 0.999894301056067
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999892088416884,
+      "CrossScore": 0.999892088416884
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से पूरी तरह कीट खत्म हो जाते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999891069440332,
+      "CrossScore": 0.999891069440332
+    },
+    {
+      "Question": "क्या मशरूम को 'खुले' खेत में उगाया जा सकता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998910139580477,
+      "CrossScore": 0.9998910139580477
+    },
+    {
+      "Question": "क्या शहरी कचरे से खाद बनाई जा सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998837970053628,
+      "CrossScore": 0.9998837970053628
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998817867324947,
+      "CrossScore": 0.9998817867324947
+    }
+  ],
+  "latency_ms": 275.59,
+  "final_returned": [
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.99871221608825
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "Score": 9.998469854277461
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998965462951795
+    },
+    {
+      "Question": "क्या मशरूम को 'कच्चा' खाया जा सकता है?",
+      "Crop": "Mushroom",
+      "Score": 0.9998952584487926
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.999894301056067
+    }
+  ]
+}

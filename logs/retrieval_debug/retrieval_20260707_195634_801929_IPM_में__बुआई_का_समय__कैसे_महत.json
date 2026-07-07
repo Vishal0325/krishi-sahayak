@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:34.538902",
+  "query_original": "IPM में 'बुआई का समय' कैसे महत्वपूर्ण है?",
+  "query_normalized": "ipm में बुआई का समय कैसे महत्वपूर्ण है",
+  "query_expanded": "ipm में बुआई का समय कैसे महत्वपूर्ण है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "IPM में 'बुआई का समय' कैसे महत्वपूर्ण है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरीफ मक्का की बुआई का समय क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9999319685438688,
+      "CrossScore": 0.9999319685438688
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999922509570451,
+      "CrossScore": 0.999922509570451
+    },
+    {
+      "Question": "IPM में 'बुआई का समय' कैसे महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9999123991536366,
+      "CrossScore": 0.9999123991536366
+    },
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General",
+      "FinalScore": 0.9999111516087248,
+      "CrossScore": 0.9999111516087248
+    },
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General",
+      "FinalScore": 0.9999044057635595,
+      "CrossScore": 0.9999044057635595
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998310989294602,
+      "CrossScore": 0.9998310989294602
+    },
+    {
+      "Question": "गेहूं की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998121560178795,
+      "CrossScore": 0.9998121560178795
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998100981586643,
+      "CrossScore": 0.9998100981586643
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998089503412408,
+      "CrossScore": 0.9998089503412408
+    },
+    {
+      "Question": "सरसों की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998079311558458,
+      "CrossScore": 0.9998079311558458
+    }
+  ],
+  "latency_ms": 262.95,
+  "final_returned": [
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "Score": 0.9999319685438688
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "Score": 0.999922509570451
+    },
+    {
+      "Question": "IPM में 'बुआई का समय' कैसे महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9999123991536366
+    },
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General",
+      "Score": 0.9999111516087248
+    },
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General",
+      "Score": 0.9999044057635595
+    }
+  ]
+}

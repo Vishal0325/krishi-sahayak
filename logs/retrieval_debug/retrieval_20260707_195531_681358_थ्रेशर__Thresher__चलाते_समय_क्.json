@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:31.466262",
+  "query_original": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+  "query_normalized": "थ्रेशर thresher चलाते समय क्या सावधानी बरतें",
+  "query_expanded": "थ्रेशर thresher चलाते समय क्या सावधानी बरतें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गेहूं में फूल आने के समय क्या सावधानी रखें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो यूरिया का स्प्रे करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General",
+      "FinalScore": 0.9998616598024208,
+      "CrossScore": 0.9998616598024208
+    },
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998274975375071,
+      "CrossScore": 0.9998274975375071
+    },
+    {
+      "Question": "टमाटर के भंडारण के लिए क्या सावधानी रखें?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997749843501768,
+      "CrossScore": 0.9997749843501768
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9996700788527818,
+      "CrossScore": 0.9996700788527818
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9996673995330232,
+      "CrossScore": 0.9996673995330232
+    },
+    {
+      "Question": "जैविक दवाओं को भंडारित करते समय सावधानी?",
+      "Crop": "General",
+      "FinalScore": 0.9996433474151506,
+      "CrossScore": 0.9996433474151506
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996003141370277,
+      "CrossScore": 0.9996003141370277
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9995645450669798,
+      "CrossScore": 0.9995645450669798
+    },
+    {
+      "Question": "टमाटर की खुदाई (Harvesting) के समय सावधानी?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9995372815323788,
+      "CrossScore": 0.9995372815323788
+    },
+    {
+      "Question": "लहसुन की खुदाई के समय 'सावधानी'?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9995142902974732,
+      "CrossScore": 0.9995142902974732
+    }
+  ],
+  "latency_ms": 215.19,
+  "final_returned": [
+    {
+      "Question": "थ्रेशर (Thresher) चलाते समय क्या सावधानी बरतें?",
+      "Crop": "General",
+      "Score": 0.9998616598024208
+    },
+    {
+      "Question": "मल्टी क्रॉप थ्रेशर (Multi Crop Thresher) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998274975375071
+    },
+    {
+      "Question": "टमाटर के भंडारण के लिए क्या सावधानी रखें?",
+      "Crop": "Tomato",
+      "Score": 0.9997749843501768
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "Score": 0.9996700788527818
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "Score": 0.9996673995330232
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:02.047255",
+  "query_original": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+  "query_normalized": "क्या kcc का उपयोग एटीएम atm की तरह किया जा सकता है",
+  "query_expanded": "क्या kcc का उपयोग एटीएम atm की तरह किया जा सकता है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 9.998762741097016,
+      "CrossScore": 0.9998762741097016
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9993548385357257,
+      "CrossScore": 0.9993548385357257
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992956400164923,
+      "CrossScore": 0.9992956400164923
+    },
+    {
+      "Question": "धनिया की खेती का परिचय क्या है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9992108318069604,
+      "CrossScore": 0.9992108318069604
+    },
+    {
+      "Question": "मक्का की खेती का परिचय क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.999198526836358,
+      "CrossScore": 0.999198526836358
+    },
+    {
+      "Question": "क्या बीमार पशु का दूध पिया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9991846102951765,
+      "CrossScore": 0.9991846102951765
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991535786943815,
+      "CrossScore": 0.9991535786943815
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9990954416315057,
+      "CrossScore": 0.9990954416315057
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9990272447788098,
+      "CrossScore": 0.9990272447788098
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.998963534658133,
+      "CrossScore": 0.998963534658133
+    }
+  ],
+  "latency_ms": 283.64,
+  "final_returned": [
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "Score": 9.998762741097016
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "Score": 0.9993548385357257
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat",
+      "Score": 0.9992956400164923
+    },
+    {
+      "Question": "धनिया की खेती का परिचय क्या है?",
+      "Crop": "Coriander",
+      "Score": 0.9992108318069604
+    },
+    {
+      "Question": "मक्का की खेती का परिचय क्या है?",
+      "Crop": "Maize",
+      "Score": 0.999198526836358
+    }
+  ]
+}

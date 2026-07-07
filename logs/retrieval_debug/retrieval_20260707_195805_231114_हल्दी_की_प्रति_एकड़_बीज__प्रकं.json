@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:04.911620",
+  "query_original": "हल्दी की प्रति एकड़ बीज (प्रकंद) दर?",
+  "query_normalized": "हल्दी की प्रति एकड़ बीज प्रकंद दर",
+  "query_expanded": "हल्दी की प्रति एकड़ बीज प्रकंद दर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "हल्दी की प्रति एकड़ बीज (प्रकंद) दर?",
+      "Crop": "Turmeric"
+    },
+    {
+      "Question": "अदरक की प्रति एकड़ बीज (प्रकंद) दर?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "हल्दी की प्रति एकड़ बीज (प्रकंद) दर?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999204368516746,
+      "CrossScore": 0.9999204368516746
+    },
+    {
+      "Question": "अदरक की प्रति एकड़ बीज (प्रकंद) दर?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999133173735549,
+      "CrossScore": 0.9999133173735549
+    },
+    {
+      "Question": "लहसुन की प्रति एकड़ बीज (कली) दर?",
+      "Crop": "Garlic",
+      "FinalScore": 0.999900590612117,
+      "CrossScore": 0.999900590612117
+    },
+    {
+      "Question": "पत्तागोभी की प्रति एकड़ बीज दर?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.999895215891754,
+      "CrossScore": 0.999895215891754
+    },
+    {
+      "Question": "गेंदा की प्रति एकड़ बीज दर?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9998943343121004,
+      "CrossScore": 0.9998943343121004
+    },
+    {
+      "Question": "बैंगन की प्रति एकड़ बीज दर?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.999893358711368,
+      "CrossScore": 0.999893358711368
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998922679332612,
+      "CrossScore": 0.9998922679332612
+    },
+    {
+      "Question": "मटर की प्रति एकड़ बीज दर?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998906704625949,
+      "CrossScore": 0.9998906704625949
+    },
+    {
+      "Question": "चने की प्रति एकड़ बीज दर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998900699884132,
+      "CrossScore": 0.9998900699884132
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998890048624569,
+      "CrossScore": 0.9998890048624569
+    }
+  ],
+  "latency_ms": 319.65,
+  "final_returned": [
+    {
+      "Question": "हल्दी की प्रति एकड़ बीज (प्रकंद) दर?",
+      "Crop": "Turmeric",
+      "Score": 0.9999204368516746
+    },
+    {
+      "Question": "अदरक की प्रति एकड़ बीज (प्रकंद) दर?",
+      "Crop": "Ginger",
+      "Score": 0.9999133173735549
+    },
+    {
+      "Question": "लहसुन की प्रति एकड़ बीज (कली) दर?",
+      "Crop": "Garlic",
+      "Score": 0.999900590612117
+    },
+    {
+      "Question": "पत्तागोभी की प्रति एकड़ बीज दर?",
+      "Crop": "Cabbage",
+      "Score": 0.999895215891754
+    },
+    {
+      "Question": "गेंदा की प्रति एकड़ बीज दर?",
+      "Crop": "Floriculture",
+      "Score": 0.9998943343121004
+    }
+  ]
+}

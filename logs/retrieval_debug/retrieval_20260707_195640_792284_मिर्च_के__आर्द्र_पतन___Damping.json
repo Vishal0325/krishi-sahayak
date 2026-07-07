@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:40.484288",
+  "query_original": "मिर्च के 'आर्द्र पतन' (Damping off) का कवक?",
+  "query_normalized": "मिर्च के आर्द्र पतन damping off का कवक",
+  "query_expanded": "मिर्च के आर्द्र पतन damping off का कवक",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिर्च के 'आर्द्र पतन' (Damping off) का कवक?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "आर्द्र पतन (Damping Off) को कैसे रोकें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिर्च के 'आर्द्र पतन' (Damping off) का कवक?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99525090507596,
+      "CrossScore": 0.9999050181015193
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.994452264326675,
+      "CrossScore": 0.9998890452865334
+    },
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.994093528456816,
+      "CrossScore": 0.9998818705691364
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.983498107010696,
+      "CrossScore": 0.999669962140214
+    },
+    {
+      "Question": "मिर्च के 'अवशेषों' का उपयोग?",
+      "Crop": "Chilli",
+      "FinalScore": 49.9815334274151,
+      "CrossScore": 0.999630668548302
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.980030113656035,
+      "CrossScore": 0.9996006022731206
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Chilli",
+      "FinalScore": 49.97302909062357,
+      "CrossScore": 0.9994605818124713
+    },
+    {
+      "Question": "मिर्च के बाग में 'चूहों' का प्रबंधन?",
+      "Crop": "Chilli",
+      "FinalScore": 49.967059132616825,
+      "CrossScore": 0.9993411826523365
+    },
+    {
+      "Question": "मिर्च की नर्सरी में 'आर्द्र पतन' से कैसे बचें?",
+      "Crop": "Chilli",
+      "FinalScore": 49.96599785983041,
+      "CrossScore": 0.9993199571966082
+    },
+    {
+      "Question": "मिर्च में 'खरपतवार' नियंत्रण के लिए 'हुइ'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.96598241538377,
+      "CrossScore": 0.9993196483076754
+    }
+  ],
+  "latency_ms": 308.1,
+  "final_returned": [
+    {
+      "Question": "मिर्च के 'आर्द्र पतन' (Damping off) का कवक?",
+      "Crop": "Chilli",
+      "Score": 49.99525090507596
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli",
+      "Score": 49.994452264326675
+    },
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli",
+      "Score": 49.994093528456816
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "Score": 49.983498107010696
+    },
+    {
+      "Question": "मिर्च के 'अवशेषों' का उपयोग?",
+      "Crop": "Chilli",
+      "Score": 49.9815334274151
+    }
+  ]
+}

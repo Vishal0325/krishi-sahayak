@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:51.008067",
+  "query_original": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+  "query_normalized": "कपास में गुलाबी सुंडी pink bollworm का हमला कब होता है",
+  "query_expanded": "कपास में गुलाबी सुंडी pink bollworm का हमला कब होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "गेहूं में 'एफिड' (Aphid/चेपा) का हमला कब होता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "सरसों में 'माहू' का हमला कब सबसे तेज होता है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "गेहूं में 'चूहों' का सबसे ज्यादा नुकसान कब होता है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9998808912635141,
+      "CrossScore": 0.9998808912635141
+    },
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9998694144956014,
+      "CrossScore": 0.9998694144956014
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9975001707348841,
+      "CrossScore": 0.9975001707348841
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9973495484431983,
+      "CrossScore": 0.9973495484431983
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' का 'जैविक' इलाज?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9966417606934594,
+      "CrossScore": 0.9966417606934594
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9963125009881079,
+      "CrossScore": 0.9963125009881079
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9962645585222243,
+      "CrossScore": 0.9962645585222243
+    },
+    {
+      "Question": "सब्जियों में 'मकड़ी' (Mites) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9962141539937754,
+      "CrossScore": 0.9962141539937754
+    },
+    {
+      "Question": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9959325326702578,
+      "CrossScore": 0.9959325326702578
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9957696359726957,
+      "CrossScore": 0.9957696359726957
+    }
+  ],
+  "latency_ms": 429.55,
+  "final_returned": [
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton",
+      "Score": 0.9998808912635141
+    },
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "Score": 0.9998694144956014
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "Score": 0.9975001707348841
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "Score": 0.9973495484431983
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' का 'जैविक' इलाज?",
+      "Crop": "Cotton",
+      "Score": 0.9966417606934594
+    }
+  ]
+}

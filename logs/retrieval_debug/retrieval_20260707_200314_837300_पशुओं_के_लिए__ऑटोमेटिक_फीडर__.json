@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:14.566093",
+  "query_original": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+  "query_normalized": "पशुओं के लिए ऑटोमेटिक फीडर",
+  "query_expanded": "पशुओं के लिए ऑटोमेटिक फीडर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "FinalScore": 999.8954153407589,
+      "CrossScore": 0.9998954153407589
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर घास'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998764262098361,
+      "CrossScore": 0.9998764262098361
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998603540703968,
+      "CrossScore": 0.9998603540703968
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998598599807442,
+      "CrossScore": 0.9998598599807442
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998479560978958,
+      "CrossScore": 0.9998479560978958
+    },
+    {
+      "Question": "पशुओं के लिए 'छायादार पेड़'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998475048370441,
+      "CrossScore": 0.9998475048370441
+    },
+    {
+      "Question": "पशुओं के लिए 'मक्का का साइलेज'?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998469088091102,
+      "CrossScore": 0.9998469088091102
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर' घास के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998408682312411,
+      "CrossScore": 0.9998408682312411
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998179702490143,
+      "CrossScore": 0.9998179702490143
+    },
+    {
+      "Question": "पशुओं के लिए 'सूखा चारा'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998092392174781,
+      "CrossScore": 0.9998092392174781
+    }
+  ],
+  "latency_ms": 271.25,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "Score": 999.8954153407589
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर घास'?",
+      "Crop": "Livestock",
+      "Score": 0.9998764262098361
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9998603540703968
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy",
+      "Score": 0.9998598599807442
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.9998479560978958
+    }
+  ]
+}

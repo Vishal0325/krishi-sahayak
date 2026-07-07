@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:45.912748",
+  "query_original": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+  "query_normalized": "न्यूनतम समर्थन मूल्य msp का क्या अर्थ है",
+  "query_expanded": "न्यूनतम समर्थन मूल्य msp का क्या अर्थ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "न्यूनतम समर्थन मूल्य (MSP) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक दवाओं के पैकेट पर 'CFU' का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सेरीकल्चर' (Sericulture) का क्या अर्थ है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "न्यूनतम समर्थन मूल्य (MSP) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998885269148576,
+      "CrossScore": 0.9998885269148576
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998868690156915,
+      "CrossScore": 0.9998868690156915
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9998688108024697,
+      "CrossScore": 0.9998688108024697
+    },
+    {
+      "Question": "प्याज की खेती का परिचय क्या है?",
+      "Crop": "Onion",
+      "FinalScore": 0.9996467195684975,
+      "CrossScore": 0.9996467195684975
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.999638775680646,
+      "CrossScore": 0.999638775680646
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9996102644406886,
+      "CrossScore": 0.9996102644406886
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9995706861738758,
+      "CrossScore": 0.9995706861738758
+    },
+    {
+      "Question": "मक्का की सफल खेती का मूल मंत्र क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994788976929194,
+      "CrossScore": 0.9994788976929194
+    },
+    {
+      "Question": "'सेरीकल्चर' (Sericulture) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9994659051349281,
+      "CrossScore": 0.9994659051349281
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999464201842683,
+      "CrossScore": 0.999464201842683
+    }
+  ],
+  "latency_ms": 211.96,
+  "final_returned": [
+    {
+      "Question": "न्यूनतम समर्थन मूल्य (MSP) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998885269148576
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9998868690156915
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General",
+      "Score": 0.9998688108024697
+    },
+    {
+      "Question": "प्याज की खेती का परिचय क्या है?",
+      "Crop": "Onion",
+      "Score": 0.9996467195684975
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "Score": 0.999638775680646
+    }
+  ]
+}

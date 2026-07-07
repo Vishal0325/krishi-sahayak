@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:03.015294",
+  "query_original": "'खुरों' की बीमारी (Foot Rot)?",
+  "query_normalized": "खुरों की बीमारी foot rot",
+  "query_expanded": "खुरों की बीमारी foot rot fungus फंगस बीमारी झुलसा disease रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'खुरों' की बीमारी (Foot Rot)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पपीते में 'तने की सड़न' (Foot Rot) कैसे रोकें?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "पपीते में 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "मक्का की फसल में 'स्टॉक रोट' (Stalk Rot) क्या है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'खुरों' की बीमारी (Foot Rot)?",
+      "Crop": "General",
+      "FinalScore": 999.9166295882442,
+      "CrossScore": 0.9999166295882441
+    },
+    {
+      "Question": "पपीते in 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Papaya",
+      "FinalScore": 9.998087073618189,
+      "CrossScore": 0.9998087073618189
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.997533213924646,
+      "CrossScore": 0.9997533213924645
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.99688725453421,
+      "CrossScore": 0.9996887254534209
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 9.99271063055122,
+      "CrossScore": 0.9992710630551221
+    },
+    {
+      "Question": "केले in 'हार्ट रॉट' (Heart Rot) की पहचान?",
+      "Crop": "Banana",
+      "FinalScore": 9.991577341809654,
+      "CrossScore": 0.9991577341809654
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 9.970699364175655,
+      "CrossScore": 0.9970699364175655
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी दूर करने के लिए 'बोरेक्स'?",
+      "Crop": "General",
+      "FinalScore": 9.953477833652986,
+      "CrossScore": 0.9953477833652986
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 9.922048210751232,
+      "CrossScore": 0.9922048210751231
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी की जांच?",
+      "Crop": "General",
+      "FinalScore": 9.920214612744562,
+      "CrossScore": 0.9920214612744562
+    }
+  ],
+  "latency_ms": 314.49,
+  "final_returned": [
+    {
+      "Question": "'खुरों' की बीमारी (Foot Rot)?",
+      "Crop": "General",
+      "Score": 999.9166295882442
+    },
+    {
+      "Question": "पपीते in 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Papaya",
+      "Score": 9.998087073618189
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "Score": 9.997533213924646
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 9.99688725453421
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize",
+      "Score": 9.99271063055122
+    }
+  ]
+}

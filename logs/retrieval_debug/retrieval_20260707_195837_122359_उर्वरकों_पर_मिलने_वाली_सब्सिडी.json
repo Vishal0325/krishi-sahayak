@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:36.915869",
+  "query_original": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+  "query_normalized": "उर्वरकों पर मिलने वाली सब्सिडी क्या है",
+  "query_expanded": "खाद poshak उर्वरकों पर मिलने वाली सब्सिडी क्या है fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'उर्वरक' बैग पर 10:26:26 का क्या मतलब है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999027174774903,
+      "CrossScore": 0.9999027174774903
+    },
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998884422701955,
+      "CrossScore": 0.9998884422701955
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998846414844793,
+      "CrossScore": 0.9998846414844793
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998706073927095,
+      "CrossScore": 0.9998706073927095
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998704903732809,
+      "CrossScore": 0.9998704903732809
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998698148344494,
+      "CrossScore": 0.9998698148344494
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998686633573568,
+      "CrossScore": 0.9998686633573568
+    },
+    {
+      "Question": "क्या शहद उत्पादन पर भी सब्सिडी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998638466068895,
+      "CrossScore": 0.9998638466068895
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998633917093135,
+      "CrossScore": 0.9998633917093135
+    },
+    {
+      "Question": "मशीनों पर सब्सिडी (Subsidy) लेने की प्रक्रिया क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998631961764977,
+      "CrossScore": 0.9998631961764977
+    }
+  ],
+  "latency_ms": 206.69,
+  "final_returned": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9999027174774903
+    },
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General",
+      "Score": 0.9998884422701955
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General",
+      "Score": 0.9998846414844793
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998706073927095
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General",
+      "Score": 0.9998704903732809
+    }
+  ]
+}

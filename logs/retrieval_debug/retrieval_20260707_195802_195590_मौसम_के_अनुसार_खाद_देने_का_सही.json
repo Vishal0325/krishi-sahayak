@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:02.020769",
+  "query_original": "मौसम के अनुसार खाद देने का सही समय?",
+  "query_normalized": "मौसम के अनुसार खाद देने का सही समय",
+  "query_expanded": "खाद poshak fertilizer मौसम के अनुसार खाद देने का सही समय उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "केले में 'सिंचाई' का अंतराल मौसम के अनुसार?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "मौसम के अनुसार सिंचाई का निर्धारण?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999136628626383,
+      "CrossScore": 0.9999136628626383
+    },
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9999120898622738,
+      "CrossScore": 0.9999120898622738
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999070907471174,
+      "CrossScore": 0.9999070907471174
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999069636122142,
+      "CrossScore": 0.9999069636122142
+    },
+    {
+      "Question": "क्या मिट्टी का नमूना खाद डालने के तुरंत बाद ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999064967633066,
+      "CrossScore": 0.9999064967633066
+    },
+    {
+      "Question": "मौसम के अनुसार सिंचाई का निर्धारण?",
+      "Crop": "General",
+      "FinalScore": 0.9999064111273533,
+      "CrossScore": 0.9999064111273533
+    },
+    {
+      "Question": "क्या मौसम के अनुसार सिंचाई का स्रोत बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999023744719461,
+      "CrossScore": 0.9999023744719461
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998995194848985,
+      "CrossScore": 0.9998995194848985
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' का गोबर खाद के साथ उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998994182521855,
+      "CrossScore": 0.9998994182521855
+    },
+    {
+      "Question": "सब्जियों के लिए 'तरल जैविक खाद' (Liquid Organic Fertilizer)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998965952144746,
+      "CrossScore": 0.9998965952144746
+    }
+  ],
+  "latency_ms": 174.92,
+  "final_returned": [
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9999136628626383
+    },
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General",
+      "Score": 0.9999120898622738
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999070907471174
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9999069636122142
+    },
+    {
+      "Question": "क्या मिट्टी का नमूना खाद डालने के तुरंत बाद ले सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9999064967633066
+    }
+  ]
+}

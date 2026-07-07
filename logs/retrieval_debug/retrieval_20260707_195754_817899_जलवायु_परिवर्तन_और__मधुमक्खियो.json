@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:54.616439",
+  "query_original": "जलवायु परिवर्तन और 'मधुमक्खियों' का पलायन?",
+  "query_normalized": "जलवायु परिवर्तन और मधुमक्खियों का पलायन",
+  "query_expanded": "जलवायु परिवर्तन और मधुमक्खियों का पलायन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जलवायु परिवर्तन और 'मधुमक्खियों' का पलायन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जलवायु परिवर्तन' और नई फसलों का चुनाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खियों के लिए 'नमक का पानी'?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998524396857202,
+      "CrossScore": 0.9998524396857202
+    },
+    {
+      "Question": "जलवायु परिवर्तन और 'मधुमक्खियों' का पलायन?",
+      "Crop": "General",
+      "FinalScore": 0.999845396514878,
+      "CrossScore": 0.999845396514878
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998332036685037,
+      "CrossScore": 0.9998332036685037
+    },
+    {
+      "Question": "'जलवायु परिवर्तन' और नई फसलों का चुनाव?",
+      "Crop": "General",
+      "FinalScore": 0.999833157539702,
+      "CrossScore": 0.999833157539702
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997843703185947,
+      "CrossScore": 0.9997843703185947
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997840571741488,
+      "CrossScore": 0.9997840571741488
+    },
+    {
+      "Question": "'कीटों का जैविक प्रबंधन' और जैव विविधता?",
+      "Crop": "General",
+      "FinalScore": 0.9997826243572712,
+      "CrossScore": 0.9997826243572712
+    },
+    {
+      "Question": "फफूंदनाशक और 'मिट्टी का स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9997792461502174,
+      "CrossScore": 0.9997792461502174
+    },
+    {
+      "Question": "'मल्चिंग' (Mulching) और मिट्टी का तापमान?",
+      "Crop": "General",
+      "FinalScore": 0.999770221567405,
+      "CrossScore": 0.999770221567405
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 0.999736324113047,
+      "CrossScore": 0.999736324113047
+    }
+  ],
+  "latency_ms": 201.61,
+  "final_returned": [
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998524396857202
+    },
+    {
+      "Question": "जलवायु परिवर्तन और 'मधुमक्खियों' का पलायन?",
+      "Crop": "General",
+      "Score": 0.999845396514878
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9998332036685037
+    },
+    {
+      "Question": "'जलवायु परिवर्तन' और नई फसलों का चुनाव?",
+      "Crop": "General",
+      "Score": 0.999833157539702
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 0.9997843703185947
+    }
+  ]
+}

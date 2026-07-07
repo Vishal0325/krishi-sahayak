@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:56:22.039448",
+  "query_original": "मखाना",
+  "query_normalized": "मखाना",
+  "query_expanded": "मखाना",
+  "detected_crops": [
+    "Makhana"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मखाना' की प्रोसेसिंग में 'ग्रेडिंग' क्यों?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मखाना' की 'खेत विधि' (Field System)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मखाना' की खेती के लिए बिहार का कौन सा क्षेत्र प्रसिद्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मखाना की कटाई के बाद 'खेत' की सफाई?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "मखाना की खेती का परिचय क्या है?",
+      "Crop": "Makhana"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मखाना की खेती का परिचय क्या है?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99322884367052,
+      "CrossScore": 0.9998645768734105
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99192422710295,
+      "CrossScore": 0.999838484542059
+    },
+    {
+      "Question": "मखाना के लिए उपयुक्त जलवायु?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99186906635148,
+      "CrossScore": 0.9998373813270295
+    },
+    {
+      "Question": "मखाना की प्रमुख उन्नत किस्में?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99147497155865,
+      "CrossScore": 0.999829499431173
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99102473981066,
+      "CrossScore": 0.9998204947962133
+    },
+    {
+      "Question": "मखाना की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99081413546126,
+      "CrossScore": 0.9998162827092252
+    },
+    {
+      "Question": "मखाना की 'खेत विधि' (Field System) क्या है?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99037345492427,
+      "CrossScore": 0.9998074690984853
+    },
+    {
+      "Question": "मखाना की बुआई का सही समय?",
+      "Crop": "Makhana",
+      "FinalScore": 49.98982727386234,
+      "CrossScore": 0.9997965454772467
+    },
+    {
+      "Question": "मखाना की प्रति एकड़ बीज दर?",
+      "Crop": "Makhana",
+      "FinalScore": 49.989626903927324,
+      "CrossScore": 0.9997925380785465
+    },
+    {
+      "Question": "मखाना के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Makhana",
+      "FinalScore": 49.98961329556904,
+      "CrossScore": 0.9997922659113809
+    }
+  ],
+  "latency_ms": 525.44,
+  "final_returned": [
+    {
+      "Question": "मखाना की खेती का परिचय क्या है?",
+      "Crop": "Makhana",
+      "Score": 49.99322884367052
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "Score": 49.99192422710295
+    },
+    {
+      "Question": "मखाना के लिए उपयुक्त जलवायु?",
+      "Crop": "Makhana",
+      "Score": 49.99186906635148
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:02.554262",
+  "query_original": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+  "query_normalized": "राष्ट्रीय खाद्य सुरक्षा मिशन nfsm क्या है",
+  "query_expanded": "poshak खाद पोषण उर्वरक राष्ट्रीय खाद्य सुरक्षा मिशन nfsm क्या है fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8618385612001,
+      "CrossScore": 0.9998618385612001
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998006536617559,
+      "CrossScore": 0.9998006536617559
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997893016526448,
+      "CrossScore": 0.9997893016526448
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997578895348491,
+      "CrossScore": 0.9997578895348491
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997448547122195,
+      "CrossScore": 0.9997448547122195
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "FinalScore": 0.9997430771058232,
+      "CrossScore": 0.9997430771058232
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996856669371407,
+      "CrossScore": 0.9996856669371407
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996849192541609,
+      "CrossScore": 0.9996849192541609
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996842254926144,
+      "CrossScore": 0.9996842254926144
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996773983816334,
+      "CrossScore": 0.9996773983816334
+    }
+  ],
+  "latency_ms": 228.05,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "Score": 999.8618385612001
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998006536617559
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.9997893016526448
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997578895348491
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9997448547122195
+    }
+  ]
+}

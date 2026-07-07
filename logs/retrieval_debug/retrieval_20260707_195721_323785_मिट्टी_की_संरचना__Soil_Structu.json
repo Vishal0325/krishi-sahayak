@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:21.090886",
+  "query_original": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+  "query_normalized": "मिट्टी की संरचना soil structure का क्या अर्थ है",
+  "query_expanded": "मिट्टी की संरचना soil structure का क्या अर्थ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9999194942255866,
+      "CrossScore": 0.9999194942255866
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998573555729375,
+      "CrossScore": 0.9998573555729375
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998220732601818,
+      "CrossScore": 0.9998220732601818
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997963826546353,
+      "CrossScore": 0.9997963826546353
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.999795243537838,
+      "CrossScore": 0.999795243537838
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997910473938932,
+      "CrossScore": 0.9997910473938932
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9997635255527533,
+      "CrossScore": 0.9997635255527533
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9997494824123464,
+      "CrossScore": 0.9997494824123464
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997358319265018,
+      "CrossScore": 0.9997358319265018
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996715046896173,
+      "CrossScore": 0.9996715046896173
+    }
+  ],
+  "latency_ms": 233.0,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9999194942255866
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998573555729375
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998220732601818
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997963826546353
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "Score": 0.999795243537838
+    }
+  ]
+}

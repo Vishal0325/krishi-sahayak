@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:37.852291",
+  "query_original": "लू (Heat Wave) की पहचान कैसे करें?",
+  "query_normalized": "लू heat wave की पहचान कैसे करें",
+  "query_expanded": "लू heat wave की पहचान कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लू (Heat Wave) की पहचान कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "शहद की 'शुद्धता' की पहचान कैसे करें?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम की फसल में 'लू' (Heat wave) से बचाव?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' (Threshing) कैसे करें?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लू (Heat Wave) की पहचान कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.9142294866923,
+      "CrossScore": 0.9999142294866923
+    },
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999032873384066,
+      "CrossScore": 0.9999032873384066
+    },
+    {
+      "Question": "आम की फसल में 'लू' (Heat wave) से बचाव?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998467839480757,
+      "CrossScore": 0.9998467839480757
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.9976656803980531,
+      "CrossScore": 0.9976656803980531
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9974903658741641,
+      "CrossScore": 0.9974903658741641
+    },
+    {
+      "Question": "फसलों में 'नमी' की जांच कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.997425228486446,
+      "CrossScore": 0.997425228486446
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9971191313597767,
+      "CrossScore": 0.9971191313597767
+    },
+    {
+      "Question": "दालों की 'मड़ाई' (Threshing) कैसे करें?",
+      "Crop": "Pulses",
+      "FinalScore": 0.996878999198149,
+      "CrossScore": 0.996878999198149
+    },
+    {
+      "Question": "प्याज की नर्सरी कैसे तैयार करें?",
+      "Crop": "Onion",
+      "FinalScore": 0.9968322537077431,
+      "CrossScore": 0.9968322537077431
+    },
+    {
+      "Question": "मक्का की मड़ाई (Shelling) कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9958082029058226,
+      "CrossScore": 0.9958082029058226
+    }
+  ],
+  "latency_ms": 198.02,
+  "final_returned": [
+    {
+      "Question": "लू (Heat Wave) की पहचान कैसे करें?",
+      "Crop": "General",
+      "Score": 999.9142294866923
+    },
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9999032873384066
+    },
+    {
+      "Question": "आम की फसल में 'लू' (Heat wave) से बचाव?",
+      "Crop": "Mango",
+      "Score": 0.9998467839480757
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "Score": 0.9976656803980531
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9974903658741641
+    }
+  ]
+}

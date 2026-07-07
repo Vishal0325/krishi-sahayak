@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:08.791586",
+  "query_original": "चाफ कटर (Chaff Cutter) का पशुपालन में क्या महत्व है?",
+  "query_normalized": "चाफ कटर chaff cutter का पशुपालन में क्या महत्व है",
+  "query_expanded": "चाफ कटर chaff cutter का पशुपालन में क्या महत्व है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "चाफ कटर (Chaff Cutter) का पशुपालन में क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में पोटाश का क्या महत्व है?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "चाफ कटर (Chaff Cutter) का पशुपालन में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 999.9211577575816,
+      "CrossScore": 0.9999211577575816
+    },
+    {
+      "Question": "लीची में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9993982615720141,
+      "CrossScore": 0.9993982615720141
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999325821376954,
+      "CrossScore": 0.999325821376954
+    },
+    {
+      "Question": "हल्दी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9993242878848327,
+      "CrossScore": 0.9993242878848327
+    },
+    {
+      "Question": "अदरक में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9992562932382376,
+      "CrossScore": 0.9992562932382376
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9992423764500659,
+      "CrossScore": 0.9992423764500659
+    },
+    {
+      "Question": "पत्तागोभी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9991976878203742,
+      "CrossScore": 0.9991976878203742
+    },
+    {
+      "Question": "खेती में 'नवाचार' (Innovation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9991832066365796,
+      "CrossScore": 0.9991832066365796
+    },
+    {
+      "Question": "पपीते में पोटाश का क्या महत्व है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.999145433788934,
+      "CrossScore": 0.999145433788934
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9991324485731725,
+      "CrossScore": 0.9991324485731725
+    }
+  ],
+  "latency_ms": 199.92,
+  "final_returned": [
+    {
+      "Question": "चाफ कटर (Chaff Cutter) का पशुपालन में क्या महत्व है?",
+      "Crop": "General",
+      "Score": 999.9211577575816
+    },
+    {
+      "Question": "लीची में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Litchi",
+      "Score": 0.9993982615720141
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "Score": 0.999325821376954
+    },
+    {
+      "Question": "हल्दी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Turmeric",
+      "Score": 0.9993242878848327
+    },
+    {
+      "Question": "अदरक में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Ginger",
+      "Score": 0.9992562932382376
+    }
+  ]
+}

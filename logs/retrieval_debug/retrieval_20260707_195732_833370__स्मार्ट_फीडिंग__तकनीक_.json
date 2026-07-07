@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:32.633943",
+  "query_original": "'स्मार्ट फीडिंग' तकनीक?",
+  "query_normalized": "स्मार्ट फीडिंग तकनीक",
+  "query_expanded": "स्मार्ट फीडिंग तकनीक",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्मार्ट फीडिंग' तकनीक?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'स्मार्ट फीडिंग' तकनीक?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998865702315836,
+      "CrossScore": 0.9998865702315836
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "FinalScore": 0.9998833263442788,
+      "CrossScore": 0.9998833263442788
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'रस्सी' तकनीक?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998656129201866,
+      "CrossScore": 0.9998656129201866
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998509655357412,
+      "CrossScore": 0.9998509655357412
+    },
+    {
+      "Question": "'एग्रो-लॉजिस्टिक्स' में तकनीक?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998387018554282,
+      "CrossScore": 0.9998387018554282
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998258652681844,
+      "CrossScore": 0.9998258652681844
+    },
+    {
+      "Question": "'नीलगाय' भगाने के लिए 'गंध' तकनीक?",
+      "Crop": "General",
+      "FinalScore": 0.9998175989614677,
+      "CrossScore": 0.9998175989614677
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998136081397555,
+      "CrossScore": 0.9998136081397555
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998045602408216,
+      "CrossScore": 0.9998045602408216
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General",
+      "FinalScore": 0.999787904839744,
+      "CrossScore": 0.999787904839744
+    }
+  ],
+  "latency_ms": 199.53,
+  "final_returned": [
+    {
+      "Question": "'स्मार्ट फीडिंग' तकनीक?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998865702315836
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "Score": 0.9998833263442788
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'रस्सी' तकनीक?",
+      "Crop": "Rice",
+      "Score": 0.9998656129201866
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998509655357412
+    },
+    {
+      "Question": "'एग्रो-लॉजिस्टिक्स' में तकनीक?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998387018554282
+    }
+  ]
+}

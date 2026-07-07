@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:03:26.352677",
+  "query_original": "प्रधानमंत्री मत्स्य संपदा योजना (PMMSY)?",
+  "query_normalized": "प्रधानमंत्री मत्स्य संपदा योजना pmmsy",
+  "query_expanded": "प्रधानमंत्री मत्स्य संपदा योजना pmmsy",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "प्रधानमंत्री मत्स्य संपदा योजना (PMMSY)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रधानमंत्री कृषि सिंचाई योजना' (PMKSY) का नारा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रधानमंत्री कृषि सिंचाई योजना' का उद्देश्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री कृषि सिंचाई योजना (PMKSY) के तहत 'पर ड्रॉप मोर क्रॉप'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्रधानमंत्री मत्स्य संपदा योजना (PMMSY)?",
+      "Crop": "General",
+      "FinalScore": 9998.810399570459,
+      "CrossScore": 0.9998810399570459
+    },
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998724892238776,
+      "CrossScore": 0.9998724892238776
+    },
+    {
+      "Question": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना (PMFME)?",
+      "Crop": "General",
+      "FinalScore": 9.998628301712888,
+      "CrossScore": 0.9998628301712887
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998539056647365,
+      "CrossScore": 0.9998539056647365
+    },
+    {
+      "Question": "प्रधानमंत्री उज्ज्वला योजना का कृषि पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 9.998222445282247,
+      "CrossScore": 0.9998222445282247
+    },
+    {
+      "Question": "प्रधानमंत्री जन-धन योजना का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 9.997941324033325,
+      "CrossScore": 0.9997941324033325
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997800248158415,
+      "CrossScore": 0.9997800248158414
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 9.997756653511539,
+      "CrossScore": 0.9997756653511539
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997727597697194,
+      "CrossScore": 0.9997727597697194
+    },
+    {
+      "Question": "प्रधानमंत्री कृषि सिंचाई योजना में 'वाटरशेड' क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997717280649585,
+      "CrossScore": 0.9997717280649585
+    }
+  ],
+  "latency_ms": 225.47,
+  "final_returned": [
+    {
+      "Question": "प्रधानमंत्री मत्स्य संपदा योजना (PMMSY)?",
+      "Crop": "General",
+      "Score": 9998.810399570459
+    },
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "Score": 9.998724892238776
+    },
+    {
+      "Question": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना (PMFME)?",
+      "Crop": "General",
+      "Score": 9.998628301712888
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 9.998539056647365
+    },
+    {
+      "Question": "प्रधानमंत्री उज्ज्वला योजना का कृषि पर प्रभाव?",
+      "Crop": "General",
+      "Score": 9.998222445282247
+    }
+  ]
+}

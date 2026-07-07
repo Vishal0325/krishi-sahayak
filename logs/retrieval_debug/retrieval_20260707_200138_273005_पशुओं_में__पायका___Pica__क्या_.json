@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:38.101089",
+  "query_original": "पशुओं में 'पायका' (Pica) क्या है?",
+  "query_normalized": "पशुओं में पायका pica क्या है",
+  "query_expanded": "पशुओं में पायका pica क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'पायका' (Pica) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय खेती में 'पशुओं का गोबर' श्रेष्ठ है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "पशुओं में 'थनैला' (Mastitis) रोग क्या है?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मजदूरी' अधिक लगती है?",
+      "Crop": "Organic Farming"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'पायका' (Pica) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9427320203047,
+      "CrossScore": 0.9999427320203047
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.999822719483564,
+      "CrossScore": 0.999822719483564
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998130447938526,
+      "CrossScore": 0.9998130447938526
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998073659008925,
+      "CrossScore": 0.9998073659008925
+    },
+    {
+      "Question": "क्या पशुओं को 'संगीत' सुनाना अच्छा है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9997913925752449,
+      "CrossScore": 0.9997913925752449
+    },
+    {
+      "Question": "'बांझ' पशुओं का उपचार क्या संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997773818834429,
+      "CrossScore": 0.9997773818834429
+    },
+    {
+      "Question": "पशुओं में 'टीकाकरण' (Vaccination) क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9997765947165225,
+      "CrossScore": 0.9997765947165225
+    },
+    {
+      "Question": "पशुओं में 'एंथ्रेक्स' (Anthrax) रोग कितना खतरनाक है?",
+      "Crop": "General",
+      "FinalScore": 0.9997720084401538,
+      "CrossScore": 0.9997720084401538
+    },
+    {
+      "Question": "क्या औषधीय खेती में 'पशुओं का गोबर' श्रेष्ठ है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.99976205501865,
+      "CrossScore": 0.99976205501865
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997562589659554,
+      "CrossScore": 0.9997562589659554
+    }
+  ],
+  "latency_ms": 171.95,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'पायका' (Pica) क्या है?",
+      "Crop": "General",
+      "Score": 999.9427320203047
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "Score": 0.999822719483564
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "Score": 0.9998130447938526
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998073659008925
+    },
+    {
+      "Question": "क्या पशुओं को 'संगीत' सुनाना अच्छा है?",
+      "Crop": "Dairy",
+      "Score": 0.9997913925752449
+    }
+  ]
+}

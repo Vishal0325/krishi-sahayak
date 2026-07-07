@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:34.215676",
+  "query_original": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+  "query_normalized": "आलू का कंद कीड़ा और मिट्टी चढ़ाना",
+  "query_expanded": "बग आलू का कंद कीड़ा और मिट्टी चढ़ाना pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' (Potato Tuber Moth)?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9999137870098785,
+      "CrossScore": 0.9999137870098785
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9999048374175211,
+      "CrossScore": 0.9999048374175211
+    },
+    {
+      "Question": "आलू में 'यूरिया' की टॉप ड्रेसिंग के बाद 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998920933560382,
+      "CrossScore": 0.9998920933560382
+    },
+    {
+      "Question": "आलू की खेती में 'मिट्टी का पीएच' मान?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998910398325156,
+      "CrossScore": 0.9998910398325156
+    },
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998834757761574,
+      "CrossScore": 0.9998834757761574
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी चढ़ाना' और गोड़ाई?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998758086327151,
+      "CrossScore": 0.9998758086327151
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998718358427828,
+      "CrossScore": 0.9998718358427828
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'मिट्टी का तेल' (Kerosene) न डालें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998708566316796,
+      "CrossScore": 0.9998708566316796
+    },
+    {
+      "Question": "मक्का की फसल में 'मिट्टी चढ़ाना' का दूसरा लाभ?",
+      "Crop": "Maize",
+      "FinalScore": 0.999868204318849,
+      "CrossScore": 0.999868204318849
+    },
+    {
+      "Question": "आम की खेती में 'मिट्टी चढ़ाना' और गोड़ाई?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998565265989596,
+      "CrossScore": 0.9998565265989596
+    }
+  ],
+  "latency_ms": 194.7,
+  "final_returned": [
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Potato",
+      "Score": 0.9999137870098785
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato",
+      "Score": 0.9999048374175211
+    },
+    {
+      "Question": "आलू में 'यूरिया' की टॉप ड्रेसिंग के बाद 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "Score": 0.9998920933560382
+    },
+    {
+      "Question": "आलू की खेती में 'मिट्टी का पीएच' मान?",
+      "Crop": "Potato",
+      "Score": 0.9998910398325156
+    },
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato",
+      "Score": 0.9998834757761574
+    }
+  ]
+}

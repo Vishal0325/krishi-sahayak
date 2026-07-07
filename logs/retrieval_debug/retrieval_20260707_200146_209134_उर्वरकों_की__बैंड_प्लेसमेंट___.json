@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:45.982265",
+  "query_original": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+  "query_normalized": "उर्वरकों की बैंड प्लेसमेंट band placement विधि क्या है",
+  "query_expanded": "poshak खाद पोषण उर्वरक fertilizer उर्वरकों की बैंड प्लेसमेंट band placement विधि क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की 'ट्रेंच' (Trench) विधि क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया की बुआई की विधि क्या है?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का की बुआई की विधि क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "लहसुन की बुआई की विधि क्या है?",
+      "Crop": "Garlic"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8839173901056,
+      "CrossScore": 0.9998839173901056
+    },
+    {
+      "Question": "मखाना की 'खेत विधि' (Field System) क्या है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9982276540425798,
+      "CrossScore": 0.9982276540425798
+    },
+    {
+      "Question": "हल्दी की बुआई की विधि क्या है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9981869382418037,
+      "CrossScore": 0.9981869382418037
+    },
+    {
+      "Question": "अदरक की बुआई की विधि क्या है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9981709029712154,
+      "CrossScore": 0.9981709029712154
+    },
+    {
+      "Question": "शतावरी की खेती के लिए 'मेड़' विधि क्यों अच्छी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9980823147123163,
+      "CrossScore": 0.9980823147123163
+    },
+    {
+      "Question": "डपोग विधि क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9980758796760024,
+      "CrossScore": 0.9980758796760024
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9979738231974252,
+      "CrossScore": 0.9979738231974252
+    },
+    {
+      "Question": "मटर की बुआई की विधि क्या है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9978407849983237,
+      "CrossScore": 0.9978407849983237
+    },
+    {
+      "Question": "गेहूं की बुआई की कौन सी विधि श्रेष्ठ है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9975719161979708,
+      "CrossScore": 0.9975719161979708
+    },
+    {
+      "Question": "लहसुन की बुआई की विधि क्या है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.997523686953225,
+      "CrossScore": 0.997523686953225
+    }
+  ],
+  "latency_ms": 226.91,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+      "Crop": "General",
+      "Score": 999.8839173901056
+    },
+    {
+      "Question": "मखाना की 'खेत विधि' (Field System) क्या है?",
+      "Crop": "Makhana",
+      "Score": 0.9982276540425798
+    },
+    {
+      "Question": "हल्दी की बुआई की विधि क्या है?",
+      "Crop": "Turmeric",
+      "Score": 0.9981869382418037
+    },
+    {
+      "Question": "अदरक की बुआई की विधि क्या है?",
+      "Crop": "Ginger",
+      "Score": 0.9981709029712154
+    },
+    {
+      "Question": "शतावरी की खेती के लिए 'मेड़' विधि क्यों अच्छी है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9980823147123163
+    }
+  ]
+}

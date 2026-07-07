@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:29.029343",
+  "query_original": "'नीम का तेल' और 'फल'?",
+  "query_normalized": "नीम का तेल और फल",
+  "query_expanded": "नीम का तेल और फल",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम का तेल' और 'फल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और पर्यावरण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General",
+      "FinalScore": 0.9999133606764863,
+      "CrossScore": 0.9999133606764863
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.999911118390356,
+      "CrossScore": 0.999911118390356
+    },
+    {
+      "Question": "'नीम का काढ़ा' कैसे तैयार करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999043934565655,
+      "CrossScore": 0.9999043934565655
+    },
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General",
+      "FinalScore": 0.9999012484817471,
+      "CrossScore": 0.9999012484817471
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999900270544892,
+      "CrossScore": 0.999900270544892
+    },
+    {
+      "Question": "'भिंडी' में फल छेदक के लिए 'नीम का तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.999899992847612,
+      "CrossScore": 0.999899992847612
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "FinalScore": 0.9998941776149929,
+      "CrossScore": 0.9998941776149929
+    },
+    {
+      "Question": "'नीम का तेल' और 'फल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998926103016774,
+      "CrossScore": 0.9998926103016774
+    },
+    {
+      "Question": "'नीम का तेल' और पर्यावरण?",
+      "Crop": "General",
+      "FinalScore": 0.9998925050814679,
+      "CrossScore": 0.9998925050814679
+    },
+    {
+      "Question": "'लीची का फल फटना' (Fruit Cracking) और 'बोरॉन'?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998920675258782,
+      "CrossScore": 0.9998920675258782
+    }
+  ],
+  "latency_ms": 157.93,
+  "final_returned": [
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General",
+      "Score": 0.9999133606764863
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "Score": 0.999911118390356
+    },
+    {
+      "Question": "'नीम का काढ़ा' कैसे तैयार करें?",
+      "Crop": "General",
+      "Score": 0.9999043934565655
+    },
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General",
+      "Score": 0.9999012484817471
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "Score": 0.999900270544892
+    }
+  ]
+}

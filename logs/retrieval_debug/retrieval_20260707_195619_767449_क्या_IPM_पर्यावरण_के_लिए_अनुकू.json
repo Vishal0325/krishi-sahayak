@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:19.530294",
+  "query_original": "क्या IPM पर्यावरण के लिए अनुकूल है?",
+  "query_normalized": "क्या ipm पर्यावरण के लिए अनुकूल है",
+  "query_expanded": "क्या ipm पर्यावरण के लिए अनुकूल है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या IPM पर्यावरण के लिए अनुकूल है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM केवल बड़े किसानों के लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बटन मशरूम के लिए उपयुक्त तापमान क्या है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999040122513242,
+      "CrossScore": 0.9999040122513242
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998990702562567,
+      "CrossScore": 0.9998990702562567
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998888915543029,
+      "CrossScore": 0.9998888915543029
+    },
+    {
+      "Question": "क्या IPM पर्यावरण के लिए अनुकूल है?",
+      "Crop": "General",
+      "FinalScore": 0.9998858974186546,
+      "CrossScore": 0.9998858974186546
+    },
+    {
+      "Question": "क्या IPM को अपनाने के लिए विशेष प्रशिक्षण चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.999885084488883,
+      "CrossScore": 0.999885084488883
+    },
+    {
+      "Question": "क्या मशरूम की खेती के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998811218293958,
+      "CrossScore": 0.9998811218293958
+    },
+    {
+      "Question": "क्या FPO बनाने के लिए सरकार पैसा देती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998725560798825,
+      "CrossScore": 0.9998725560798825
+    },
+    {
+      "Question": "क्या बकरी पालन के लिए सरकारी 'ऋण' मिलता है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998718578389113,
+      "CrossScore": 0.9998718578389113
+    },
+    {
+      "Question": "क्या IPM केवल बड़े किसानों के लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.9998714409825147,
+      "CrossScore": 0.9998714409825147
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "FinalScore": 0.9998701284014776,
+      "CrossScore": 0.9998701284014776
+    }
+  ],
+  "latency_ms": 237.25,
+  "final_returned": [
+    {
+      "Question": "बटन मशरूम के लिए उपयुक्त तापमान क्या है?",
+      "Crop": "Mushroom",
+      "Score": 0.9999040122513242
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998990702562567
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "Score": 0.9998888915543029
+    },
+    {
+      "Question": "क्या IPM पर्यावरण के लिए अनुकूल है?",
+      "Crop": "General",
+      "Score": 0.9998858974186546
+    },
+    {
+      "Question": "क्या IPM को अपनाने के लिए विशेष प्रशिक्षण चाहिए?",
+      "Crop": "General",
+      "Score": 0.999885084488883
+    }
+  ]
+}

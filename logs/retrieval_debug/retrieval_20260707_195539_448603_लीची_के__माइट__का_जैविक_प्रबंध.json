@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:39.255588",
+  "query_original": "लीची के 'माइट' का जैविक प्रबंधन?",
+  "query_normalized": "लीची के माइट का जैविक प्रबंधन",
+  "query_expanded": "लीची के माइट का जैविक प्रबंधन",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची' में माइट के लिए 'सल्फर' का स्प्रे?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची के बाग में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' का रोग लक्षण?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची की कटाई के बाद 'ग्रेडिंग' का व्यापारिक लाभ?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99590986112366,
+      "CrossScore": 0.9999181972224731
+    },
+    {
+      "Question": "लीची (Litchi) की खेती के लिए बिहार का कौन सा जिला प्रसिद्ध है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99546432434982,
+      "CrossScore": 0.9999092864869964
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99541741055499,
+      "CrossScore": 0.9999083482110999
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99541246990986,
+      "CrossScore": 0.9999082493981971
+    },
+    {
+      "Question": "लीची का 'माइट' (Litchi Mite) कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99534821166197,
+      "CrossScore": 0.9999069642332393
+    },
+    {
+      "Question": "लीची के बाग में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99484987130106,
+      "CrossScore": 0.9998969974260211
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994847262878785,
+      "CrossScore": 0.9998969452575758
+    },
+    {
+      "Question": "लीची के 'गुटी' पौधों में जड़ न आने का कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99482265140172,
+      "CrossScore": 0.9998964530280343
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994581507643396,
+      "CrossScore": 0.9998916301528679
+    },
+    {
+      "Question": "लीची में 'फास्फोरस' के लिए 'एसएसपी' का महत्व?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99445266107344,
+      "CrossScore": 0.9998890532214688
+    }
+  ],
+  "latency_ms": 193.12,
+  "final_returned": [
+    {
+      "Question": "लीची की कटाई के बाद 'ग्रेडिंग' का व्यापारिक लाभ?",
+      "Crop": "Litchi",
+      "Score": 49.99590986112366
+    },
+    {
+      "Question": "लीची (Litchi) की खेती के लिए बिहार का कौन सा जिला प्रसिद्ध है?",
+      "Crop": "Litchi",
+      "Score": 49.99546432434982
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi",
+      "Score": 49.99541741055499
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "Score": 49.99541246990986
+    },
+    {
+      "Question": "लीची का 'माइट' (Litchi Mite) कीट?",
+      "Crop": "Litchi",
+      "Score": 49.99534821166197
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:46.210931",
+  "query_original": "राष्ट्रीय एकीकृत कीट प्रबंधन केंद्र (NCIPM)?",
+  "query_normalized": "राष्ट्रीय एकीकृत कीट प्रबंधन केंद्र ncipm",
+  "query_expanded": "pest कीड़ा कीट बग राष्ट्रीय एकीकृत कीट प्रबंधन केंद्र ncipm insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय एकीकृत कीट प्रबंधन केंद्र (NCIPM)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) से लागत कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय एकीकृत कीट प्रबंधन केंद्र (NCIPM)?",
+      "Crop": "General",
+      "FinalScore": 999.848690807145,
+      "CrossScore": 0.999848690807145
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General",
+      "FinalScore": 9.996404257192049,
+      "CrossScore": 0.9996404257192049
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव की एकता'?",
+      "Crop": "General",
+      "FinalScore": 9.996226729909704,
+      "CrossScore": 0.9996226729909705
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.996092510621134,
+      "CrossScore": 0.9996092510621134
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.996052896849738,
+      "CrossScore": 0.9996052896849738
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General",
+      "FinalScore": 9.99596235059874,
+      "CrossScore": 0.9995962350598739
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.995829252469777,
+      "CrossScore": 0.9995829252469777
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.995295999690732,
+      "CrossScore": 0.9995295999690733
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.99519438758271,
+      "CrossScore": 0.9995194387582711
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सामूहिक कार्य'?",
+      "Crop": "General",
+      "FinalScore": 9.995133022126462,
+      "CrossScore": 0.9995133022126462
+    }
+  ],
+  "latency_ms": 243.33,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय एकीकृत कीट प्रबंधन केंद्र (NCIPM)?",
+      "Crop": "General",
+      "Score": 999.848690807145
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General",
+      "Score": 9.996404257192049
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव की एकता'?",
+      "Crop": "General",
+      "Score": 9.996226729909704
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.996092510621134
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और 'शिक्षा'?",
+      "Crop": "General",
+      "Score": 9.996052896849738
+    }
+  ]
+}

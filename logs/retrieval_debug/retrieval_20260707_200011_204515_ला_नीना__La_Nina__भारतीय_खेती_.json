@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:10.957619",
+  "query_original": "ला नीना (La Nina) भारतीय खेती के लिए कैसी है?",
+  "query_normalized": "ला नीना la nina भारतीय खेती के लिए कैसी है",
+  "query_expanded": "ला नीना la nina भारतीय खेती के लिए कैसी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ला नीना (La Nina) भारतीय खेती के लिए कैसी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "अनार (Pomegranate) की खेती के लिए कैसी जलवायु चाहिए?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "शतावरी की खेती के लिए 'मेड़' विधि क्यों अच्छी है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ला नीना (La Nina) भारतीय खेती के लिए कैसी है?",
+      "Crop": "General",
+      "FinalScore": 999.8950970201694,
+      "CrossScore": 0.9998950970201693
+    },
+    {
+      "Question": "एलोवेरा (Aloe Vera) की खेती के लिए कैसी मिट्टी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996793402778106,
+      "CrossScore": 0.9996793402778106
+    },
+    {
+      "Question": "लहसुन के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.999627020412295,
+      "CrossScore": 0.999627020412295
+    },
+    {
+      "Question": "लीची के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999622534836556,
+      "CrossScore": 0.999622534836556
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9995916881826448,
+      "CrossScore": 0.9995916881826448
+    },
+    {
+      "Question": "अनार (Pomegranate) की खेती के लिए कैसी जलवायु चाहिए?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9995467540190015,
+      "CrossScore": 0.9995467540190015
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'महिलाओं' के लिए स्वरोजगार है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995201324755485,
+      "CrossScore": 0.9995201324755485
+    },
+    {
+      "Question": "मक्का के लिए कैसी मिट्टी सबसे अच्छी होती है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9995190925552486,
+      "CrossScore": 0.9995190925552486
+    },
+    {
+      "Question": "हल्दी के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9994910123589751,
+      "CrossScore": 0.9994910123589751
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'नर्सरी' जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9994764895967808,
+      "CrossScore": 0.9994764895967808
+    }
+  ],
+  "latency_ms": 246.93,
+  "final_returned": [
+    {
+      "Question": "ला नीना (La Nina) भारतीय खेती के लिए कैसी है?",
+      "Crop": "General",
+      "Score": 999.8950970201694
+    },
+    {
+      "Question": "एलोवेरा (Aloe Vera) की खेती के लिए कैसी मिट्टी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9996793402778106
+    },
+    {
+      "Question": "लहसुन के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Garlic",
+      "Score": 0.999627020412295
+    },
+    {
+      "Question": "लीची के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Litchi",
+      "Score": 0.999622534836556
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander",
+      "Score": 0.9995916881826448
+    }
+  ]
+}

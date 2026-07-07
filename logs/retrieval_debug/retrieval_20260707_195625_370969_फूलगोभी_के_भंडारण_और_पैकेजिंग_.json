@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:25.183789",
+  "query_original": "फूलगोभी के भंडारण और पैकेजिंग?",
+  "query_normalized": "फूलगोभी के भंडारण और पैकेजिंग",
+  "query_expanded": "फूलगोभी के भंडारण और पैकेजिंग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलगोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cauliflower"
+    },
+    {
+      "Question": "बैंगन के भंडारण और पैकेजिंग?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "पपीते के भंडारण और पैकेजिंग?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "पत्तागोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cabbage"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पत्तागोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.999907589268896,
+      "CrossScore": 0.999907589268896
+    },
+    {
+      "Question": "फूलगोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9999044833978304,
+      "CrossScore": 0.9999044833978304
+    },
+    {
+      "Question": "भिंडी के भंडारण और पैकेजिंग?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999025662429235,
+      "CrossScore": 0.9999025662429235
+    },
+    {
+      "Question": "बैंगन के भंडारण और पैकेजिंग?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999007306200894,
+      "CrossScore": 0.9999007306200894
+    },
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998982875615224,
+      "CrossScore": 0.9998982875615224
+    },
+    {
+      "Question": "फूलगोभी के 'अवशेषों' (पत्तियों और डंठल) का उपयोग?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9998975508813794,
+      "CrossScore": 0.9998975508813794
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998969945775787,
+      "CrossScore": 0.9998969945775787
+    },
+    {
+      "Question": "पपीते के भंडारण और पैकेजिंग?",
+      "Crop": "Papaya",
+      "FinalScore": 0.999894869800086,
+      "CrossScore": 0.999894869800086
+    },
+    {
+      "Question": "अमरूद के भंडारण और पैकेजिंग?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998927345479669,
+      "CrossScore": 0.9998927345479669
+    },
+    {
+      "Question": "आम के भंडारण और पैकेजिंग?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998919877323786,
+      "CrossScore": 0.9998919877323786
+    }
+  ],
+  "latency_ms": 187.25,
+  "final_returned": [
+    {
+      "Question": "पत्तागोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cabbage",
+      "Score": 0.999907589268896
+    },
+    {
+      "Question": "फूलगोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cauliflower",
+      "Score": 0.9999044833978304
+    },
+    {
+      "Question": "बैंगन के भंडारण और पैकेजिंग?",
+      "Crop": "Brinjal",
+      "Score": 0.9999007306200894
+    },
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi",
+      "Score": 0.9998982875615224
+    },
+    {
+      "Question": "फूलगोभी के 'अवशेषों' (पत्तियों और डंठल) का उपयोग?",
+      "Crop": "Cauliflower",
+      "Score": 0.9998975508813794
+    }
+  ]
+}

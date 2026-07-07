@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:50.745372",
+  "query_original": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+  "query_normalized": "मिट्टी का धूप उपचार soil solarization और रोगजनक",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease मिट्टी का धूप उपचार soil solarization और रोगजनक रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "FinalScore": 9998.878676314478,
+      "CrossScore": 0.9998878676314479
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 9.998438083823618,
+      "CrossScore": 0.9998438083823619
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998430772043126,
+      "CrossScore": 0.9998430772043126
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997521891705735,
+      "CrossScore": 0.9997521891705735
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996902541680638,
+      "CrossScore": 0.9996902541680638
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9996374431162743,
+      "CrossScore": 0.9996374431162743
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9996144663690564,
+      "CrossScore": 0.9996144663690564
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996027033815015,
+      "CrossScore": 0.9996027033815015
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9995935406323355,
+      "CrossScore": 0.9995935406323355
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9995810214421537,
+      "CrossScore": 0.9995810214421537
+    }
+  ],
+  "latency_ms": 236.04,
+  "final_returned": [
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "Score": 9998.878676314478
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "Score": 9.998438083823618
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables",
+      "Score": 0.9998430772043126
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9997521891705735
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9996902541680638
+    }
+  ]
+}

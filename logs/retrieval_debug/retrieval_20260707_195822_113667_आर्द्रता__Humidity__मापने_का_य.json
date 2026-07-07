@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:21.950367",
+  "query_original": "आर्द्रता (Humidity) मापने का यंत्र?",
+  "query_normalized": "आर्द्रता humidity मापने का यंत्र",
+  "query_expanded": "आर्द्रता humidity मापने का यंत्र",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आर्द्रता (Humidity) मापने का यंत्र?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नमी मापने का यंत्र?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "वायु की गति (Wind Speed) मापने का यंत्र?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'भंडारण' में नमी मापने का आसान तरीका?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मशरूम के कमरों में 'आर्द्रता' (Humidity) कितनी हो?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998873568635995,
+      "CrossScore": 0.9998873568635995
+    },
+    {
+      "Question": "आर्द्रता (Humidity) मापने का यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9998808747936508,
+      "CrossScore": 0.9998808747936508
+    },
+    {
+      "Question": "मशरूम के कमरों में 'आर्द्रता' (Humidity) कितनी हो?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998556314244869,
+      "CrossScore": 0.9998556314244869
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9989927015971197,
+      "CrossScore": 0.9989927015971197
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9988159298500644,
+      "CrossScore": 0.9988159298500644
+    },
+    {
+      "Question": "बिहार में 'कृषि यंत्र मेला' का आयोजन?",
+      "Crop": "General",
+      "FinalScore": 0.9987393611888048,
+      "CrossScore": 0.9987393611888048
+    },
+    {
+      "Question": "वायु की गति (Wind Speed) मापने का यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9986450778114073,
+      "CrossScore": 0.9986450778114073
+    },
+    {
+      "Question": "'मिट्टी का तापमान' मापने वाला सेंसर?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9985715359382719,
+      "CrossScore": 0.9985715359382719
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9985373817554395,
+      "CrossScore": 0.9985373817554395
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9984171727355224,
+      "CrossScore": 0.9984171727355224
+    }
+  ],
+  "latency_ms": 163.42,
+  "final_returned": [
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General",
+      "Score": 0.9998873568635995
+    },
+    {
+      "Question": "आर्द्रता (Humidity) मापने का यंत्र?",
+      "Crop": "General",
+      "Score": 0.9998808747936508
+    },
+    {
+      "Question": "मशरूम के कमरों में 'आर्द्रता' (Humidity) कितनी हो?",
+      "Crop": "Mushroom",
+      "Score": 0.9998556314244869
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9989927015971197
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "Score": 0.9988159298500644
+    }
+  ]
+}

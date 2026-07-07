@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:43.299361",
+  "query_original": "फूलगोभी in 'व्हिपटेल' का कारण?",
+  "query_normalized": "फूलगोभी in व्हिपटेल का कारण",
+  "query_expanded": "फूलगोभी in व्हिपटेल का कारण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलगोभी in 'व्हिपटेल' का कारण?",
+      "Crop": "Cauliflower"
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मक्का की 'पछेती' बुआई in 'मुनाफा' कम होने का कारण?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "फूलगोभी के पौधों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Cauliflower"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फूलगोभी in 'व्हिपटेल' का कारण?",
+      "Crop": "Cauliflower",
+      "FinalScore": 999.8874997393126,
+      "CrossScore": 0.9998874997393126
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998837368216198,
+      "CrossScore": 0.9998837368216198
+    },
+    {
+      "Question": "पौधों in 'वायरस' रोगों का 'प्रसार'?",
+      "Crop": "General",
+      "FinalScore": 0.9998813524015623,
+      "CrossScore": 0.9998813524015623
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998643556187883,
+      "CrossScore": 0.9998643556187883
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998596564494553,
+      "CrossScore": 0.9998596564494553
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998580914244423,
+      "CrossScore": 0.9998580914244423
+    },
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998557747957358,
+      "CrossScore": 0.9998557747957358
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999854449615033,
+      "CrossScore": 0.999854449615033
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 0.999835324427998,
+      "CrossScore": 0.999835324427998
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998297793167384,
+      "CrossScore": 0.9998297793167384
+    }
+  ],
+  "latency_ms": 221.0,
+  "final_returned": [
+    {
+      "Question": "फूलगोभी in 'व्हिपटेल' का कारण?",
+      "Crop": "Cauliflower",
+      "Score": 999.8874997393126
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "Score": 0.9998837368216198
+    },
+    {
+      "Question": "पौधों in 'वायरस' रोगों का 'प्रसार'?",
+      "Crop": "General",
+      "Score": 0.9998813524015623
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "Score": 0.9998643556187883
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998596564494553
+    }
+  ]
+}

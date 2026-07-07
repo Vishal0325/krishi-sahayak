@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:17.665763",
+  "query_original": "नहर (Canal) सिंचाई के क्या लाभ हैं?",
+  "query_normalized": "नहर canal सिंचाई के क्या लाभ हैं",
+  "query_expanded": "नहर canal सिंचाई के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नहर (Canal) सिंचाई के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बेबी कॉर्न (Baby Corn) की खेती के क्या लाभ हैं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नहर (Canal) सिंचाई के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999245522586092,
+      "CrossScore": 0.9999245522586092
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9997837274913441,
+      "CrossScore": 0.9997837274913441
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997832588902524,
+      "CrossScore": 0.9997832588902524
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9997787722711086,
+      "CrossScore": 0.9997787722711086
+    },
+    {
+      "Question": "मखाना के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9997633739908774,
+      "CrossScore": 0.9997633739908774
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999759474572255,
+      "CrossScore": 0.999759474572255
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997550932940173,
+      "CrossScore": 0.9997550932940173
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997393922479967,
+      "CrossScore": 0.9997393922479967
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997384184182786,
+      "CrossScore": 0.9997384184182786
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997301161392599,
+      "CrossScore": 0.9997301161392599
+    }
+  ],
+  "latency_ms": 203.93,
+  "final_returned": [
+    {
+      "Question": "नहर (Canal) सिंचाई के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9999245522586092
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "Score": 0.9997837274913441
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9997832588902524
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9997787722711086
+    },
+    {
+      "Question": "मखाना के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Makhana",
+      "Score": 0.9997633739908774
+    }
+  ]
+}

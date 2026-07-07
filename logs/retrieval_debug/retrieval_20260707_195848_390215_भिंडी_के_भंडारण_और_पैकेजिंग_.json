@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:48.209436",
+  "query_original": "भिंडी के भंडारण और पैकेजिंग?",
+  "query_normalized": "भिंडी के भंडारण और पैकेजिंग",
+  "query_expanded": "भिंडी के भंडारण और पैकेजिंग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "भिंडी के भंडारण और पैकेजिंग?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "बैंगन के भंडारण और पैकेजिंग?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "पपीते के भंडारण और पैकेजिंग?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "पत्तागोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cabbage"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999015429743717,
+      "CrossScore": 0.9999015429743717
+    },
+    {
+      "Question": "भिंडी की कटाई के बाद 'पाउडर' और 'चिप्स'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998992714948972,
+      "CrossScore": 0.9998992714948972
+    },
+    {
+      "Question": "भिंडी की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998971890727345,
+      "CrossScore": 0.9998971890727345
+    },
+    {
+      "Question": "भिंडी के भंडारण और पैकेजिंग?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998941486500291,
+      "CrossScore": 0.9998941486500291
+    },
+    {
+      "Question": "बैंगन के भंडारण और पैकेजिंग?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998937213309518,
+      "CrossScore": 0.9998937213309518
+    },
+    {
+      "Question": "पत्तागोभी के भंडारण और पैकेजिंग?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998931056096511,
+      "CrossScore": 0.9998931056096511
+    },
+    {
+      "Question": "अमरूद के भंडारण और पैकेजिंग?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998838332335822,
+      "CrossScore": 0.9998838332335822
+    },
+    {
+      "Question": "भिंडी के 'अवशेषों' का उपयोग?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998780748154892,
+      "CrossScore": 0.9998780748154892
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998768872592979,
+      "CrossScore": 0.9998768872592979
+    },
+    {
+      "Question": "भिंडी के भंडारण के लिए 'प्लास्टिक क्रेट्स'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998755786786994,
+      "CrossScore": 0.9998755786786994
+    }
+  ],
+  "latency_ms": 180.86,
+  "final_returned": [
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi",
+      "Score": 0.9999015429743717
+    },
+    {
+      "Question": "भिंडी की कटाई के बाद 'पाउडर' और 'चिप्स'?",
+      "Crop": "Okra",
+      "Score": 0.9998992714948972
+    },
+    {
+      "Question": "भिंडी की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Okra",
+      "Score": 0.9998971890727345
+    },
+    {
+      "Question": "भिंडी के भंडारण और पैकेजिंग?",
+      "Crop": "Okra",
+      "Score": 0.9998941486500291
+    },
+    {
+      "Question": "बैंगन के भंडारण और पैकेजिंग?",
+      "Crop": "Brinjal",
+      "Score": 0.9998937213309518
+    }
+  ]
+}

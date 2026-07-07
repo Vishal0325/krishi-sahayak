@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:12.095422",
+  "query_original": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+  "query_normalized": "मिट्टी में मैंगनीज का पौधों पर असर",
+  "query_expanded": "मिट्टी में मैंगनीज का पौधों पर असर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की 'मिट्टी' का पीएच 5.0 होने पर असर?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 999.880396631987,
+      "CrossScore": 0.9998803966319869
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998906055977649,
+      "CrossScore": 0.9998906055977649
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.999882078776294,
+      "CrossScore": 0.999882078776294
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998707909788167,
+      "CrossScore": 0.9998707909788167
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998704567785545,
+      "CrossScore": 0.9998704567785545
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998677810002703,
+      "CrossScore": 0.9998677810002703
+    },
+    {
+      "Question": "भिंडी में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998631301536602,
+      "CrossScore": 0.9998631301536602
+    },
+    {
+      "Question": "गेहूं में 'काली मिट्टी' का प्रबंधन?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998621612172799,
+      "CrossScore": 0.9998621612172799
+    },
+    {
+      "Question": "मिर्च में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998599732525167,
+      "CrossScore": 0.9998599732525167
+    },
+    {
+      "Question": "मक्का की 'मिट्टी' का पीएच 5.0 होने पर असर?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998572710814196,
+      "CrossScore": 0.9998572710814196
+    }
+  ],
+  "latency_ms": 183.12,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+      "Crop": "General",
+      "Score": 999.880396631987
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi",
+      "Score": 0.9998906055977649
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "Score": 0.999882078776294
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "Score": 0.9998707909788167
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9998704567785545
+    }
+  ]
+}

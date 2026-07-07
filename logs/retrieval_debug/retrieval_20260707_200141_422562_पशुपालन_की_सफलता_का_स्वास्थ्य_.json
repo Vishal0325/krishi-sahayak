@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:41.255934",
+  "query_original": "पशुपालन की सफलता का स्वास्थ्य मंत्र?",
+  "query_normalized": "पशुपालन की सफलता का स्वास्थ्य मंत्र",
+  "query_expanded": "पशुपालन की सफलता का स्वास्थ्य मंत्र",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुपालन की सफलता का स्वास्थ्य मंत्र?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुपालन की सफलता का मंत्र?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "IPM की सफलता का मुख्य मंत्र क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्याज की 'शुष्क' खेती में सफलता का मंत्र?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुपालन की सफलता का स्वास्थ्य मंत्र?",
+      "Crop": "General",
+      "FinalScore": 999.9130584276397,
+      "CrossScore": 0.9999130584276398
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999145042693811,
+      "CrossScore": 0.9999145042693811
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999098524355007,
+      "CrossScore": 0.9999098524355007
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.999909480997108,
+      "CrossScore": 0.999909480997108
+    },
+    {
+      "Question": "कृषि तकनीक की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9999005832178511,
+      "CrossScore": 0.9999005832178511
+    },
+    {
+      "Question": "मशरूम की खेती की सफलता का मुख्य मंत्र?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998927263648283,
+      "CrossScore": 0.9998927263648283
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का मुख्य मंत्र?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998892823488996,
+      "CrossScore": 0.9998892823488996
+    },
+    {
+      "Question": "जैविक खेती की सफलता का मुख्य मंत्र?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998802889212486,
+      "CrossScore": 0.9998802889212486
+    },
+    {
+      "Question": "मुर्गी पालन की सफलता का मुख्य मंत्र?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998799086500147,
+      "CrossScore": 0.9998799086500147
+    },
+    {
+      "Question": "मिर्च की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998755309752106,
+      "CrossScore": 0.9998755309752106
+    }
+  ],
+  "latency_ms": 166.71,
+  "final_returned": [
+    {
+      "Question": "पशुपालन की सफलता का स्वास्थ्य मंत्र?",
+      "Crop": "General",
+      "Score": 999.9130584276397
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping",
+      "Score": 0.9999145042693811
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999098524355007
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "Score": 0.999909480997108
+    },
+    {
+      "Question": "कृषि तकनीक की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Tech",
+      "Score": 0.9999005832178511
+    }
+  ]
+}

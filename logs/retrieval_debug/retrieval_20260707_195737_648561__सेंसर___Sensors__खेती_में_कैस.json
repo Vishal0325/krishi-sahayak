@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:37.467751",
+  "query_original": "'सेंसर' (Sensors) खेती में कैसे मदद करते हैं?",
+  "query_normalized": "सेंसर sensors खेती में कैसे मदद करते हैं",
+  "query_expanded": "सेंसर sensors खेती में कैसे मदद करते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सेंसर' (Sensors) खेती में कैसे मदद करते हैं?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "फेरोमोन ट्रैप निगरानी में कैसे मदद करते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'मजदूरी' (Labor Cost) को कैसे नियंत्रित करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' कब सबसे ज्यादा नुकसान करते हैं?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सेंसर' (Sensors) खेती में कैसे मदद करते हैं?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9999104169891099,
+      "CrossScore": 0.9999104169891099
+    },
+    {
+      "Question": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996969459922089,
+      "CrossScore": 0.9996969459922089
+    },
+    {
+      "Question": "मशरूम की खेती में 'कम्प्यूटरीकृत' सेंसर?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995382902810187,
+      "CrossScore": 0.9995382902810187
+    },
+    {
+      "Question": "'पाले' (Frost) की रात में धुआं क्यों करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995267952140209,
+      "CrossScore": 0.9995267952140209
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9994828571981135,
+      "CrossScore": 0.9994828571981135
+    },
+    {
+      "Question": "सब्जियों की खेती में 'सरकारी सब्सिडी' कैसे लें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994652760504993,
+      "CrossScore": 0.9994652760504993
+    },
+    {
+      "Question": "फेरोमोन ट्रैप निगरानी में कैसे मदद करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994617499846409,
+      "CrossScore": 0.9994617499846409
+    },
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9994527398435413,
+      "CrossScore": 0.9994527398435413
+    },
+    {
+      "Question": "जैविक खेती में 'केंचुओं' की संख्या कैसे बढ़ाएं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9994162910630789,
+      "CrossScore": 0.9994162910630789
+    },
+    {
+      "Question": "लीची में 'फूल' आने से पहले सिंचाई बंद क्यों करते हैं?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9993347644691213,
+      "CrossScore": 0.9993347644691213
+    }
+  ],
+  "latency_ms": 180.92,
+  "final_returned": [
+    {
+      "Question": "'सेंसर' (Sensors) खेती में कैसे मदद करते हैं?",
+      "Crop": "Agri Tech",
+      "Score": 0.9999104169891099
+    },
+    {
+      "Question": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+      "Crop": "Economics",
+      "Score": 0.9996969459922089
+    },
+    {
+      "Question": "मशरूम की खेती में 'कम्प्यूटरीकृत' सेंसर?",
+      "Crop": "Mushroom",
+      "Score": 0.9995382902810187
+    },
+    {
+      "Question": "'पाले' (Frost) की रात में धुआं क्यों करते हैं?",
+      "Crop": "General",
+      "Score": 0.9995267952140209
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9994828571981135
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:32.027389",
+  "query_original": "मिट्टी की जल धारण क्षमता (Water Holding Capacity) कैसे बढ़ाएं?",
+  "query_normalized": "मिट्टी की जल धारण क्षमता water holding capacity कैसे बढ़ाएं",
+  "query_expanded": "मिट्टी की जल धारण क्षमता water holding capacity कैसे बढ़ाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की 'जल धारण क्षमता' (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की जल धारण क्षमता (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जल धारण क्षमता' और बलुई मिट्टी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए FYM?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की जल धारण क्षमता (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.99990989540709,
+      "CrossScore": 0.99990989540709
+    },
+    {
+      "Question": "मिट्टी की 'जल धारण क्षमता' (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998880285460983,
+      "CrossScore": 0.9998880285460983
+    },
+    {
+      "Question": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+      "Crop": "General",
+      "FinalScore": 0.999881616622998,
+      "CrossScore": 0.999881616622998
+    },
+    {
+      "Question": "मिट्टी में 'लोहे' (Iron) की उपलब्धता कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9982359359126981,
+      "CrossScore": 0.9982359359126981
+    },
+    {
+      "Question": "मिट्टी की लवणता (Salinity) कैसे कम करें?",
+      "Crop": "General",
+      "FinalScore": 0.9979353719944444,
+      "CrossScore": 0.9979353719944444
+    },
+    {
+      "Question": "मिट्टी में गंधक (Sulphur) की कमी कैसे पहचानें?",
+      "Crop": "General",
+      "FinalScore": 0.9979198897511024,
+      "CrossScore": 0.9979198897511024
+    },
+    {
+      "Question": "मक्का की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए FYM?",
+      "Crop": "Maize",
+      "FinalScore": 0.9976861268653013,
+      "CrossScore": 0.9976861268653013
+    },
+    {
+      "Question": "दूध की 'फैट' (Fat) और 'एसएनएफ' (SNF) कैसे बढ़ाएं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9976472316248192,
+      "CrossScore": 0.9976472316248192
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9973740545258921,
+      "CrossScore": 0.9973740545258921
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक पदार्थ कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9973256741558406,
+      "CrossScore": 0.9973256741558406
+    }
+  ],
+  "latency_ms": 241.27,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की जल धारण क्षमता (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.99990989540709
+    },
+    {
+      "Question": "मिट्टी की 'जल धारण क्षमता' (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9998880285460983
+    },
+    {
+      "Question": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+      "Crop": "General",
+      "Score": 0.999881616622998
+    },
+    {
+      "Question": "मिट्टी में 'लोहे' (Iron) की उपलब्धता कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9982359359126981
+    },
+    {
+      "Question": "मिट्टी की लवणता (Salinity) कैसे कम करें?",
+      "Crop": "General",
+      "Score": 0.9979353719944444
+    }
+  ]
+}

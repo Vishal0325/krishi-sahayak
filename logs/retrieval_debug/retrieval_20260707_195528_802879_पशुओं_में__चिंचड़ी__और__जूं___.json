@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:28.589165",
+  "query_original": "पशुओं में 'चिंचड़ी' और 'जूं' (Ticks/Lice) का प्रबंधन?",
+  "query_normalized": "पशुओं में चिंचड़ी और जूं ticks lice का प्रबंधन",
+  "query_expanded": "पशुओं में चिंचड़ी और जूं ticks lice का प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'चिंचड़ी' और 'जूं' (Ticks/Lice) का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "लीची के बाग में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "मखाना के खेत में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Makhana"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'चिंचड़ी' और 'जूं' (Ticks/Lice) का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 0.9998636471745278,
+      "CrossScore": 0.9998636471745278
+    },
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9996221632959639,
+      "CrossScore": 0.9996221632959639
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9996038655503157,
+      "CrossScore": 0.9996038655503157
+    },
+    {
+      "Question": "लीची के बाग में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9974498105836137,
+      "CrossScore": 0.9974498105836137
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9974065672522204,
+      "CrossScore": 0.9974065672522204
+    },
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9970611483593745,
+      "CrossScore": 0.9970611483593745
+    },
+    {
+      "Question": "'सरसों' में 'झुलसा' (Blight) का प्रबंधन?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9968323199584801,
+      "CrossScore": 0.9968323199584801
+    },
+    {
+      "Question": "बैंगन के बाग में 'चूहों' का प्रबंधन?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9968109505449818,
+      "CrossScore": 0.9968109505449818
+    },
+    {
+      "Question": "'मिर्च' में 'फल सड़न' का प्रबंधन?",
+      "Crop": "Chilli",
+      "FinalScore": 0.996661316424193,
+      "CrossScore": 0.996661316424193
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics",
+      "FinalScore": 0.9966290585408887,
+      "CrossScore": 0.9966290585408887
+    }
+  ],
+  "latency_ms": 213.86,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'चिंचड़ी' और 'जूं' (Ticks/Lice) का प्रबंधन?",
+      "Crop": "General",
+      "Score": 0.9998636471745278
+    },
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry",
+      "Score": 0.9996221632959639
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy",
+      "Score": 0.9996038655503157
+    },
+    {
+      "Question": "लीची के बाग में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Litchi",
+      "Score": 0.9974498105836137
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9974065672522204
+    }
+  ]
+}

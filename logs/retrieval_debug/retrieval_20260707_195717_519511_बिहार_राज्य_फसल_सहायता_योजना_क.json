@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:17.297188",
+  "query_original": "बिहार राज्य फसल सहायता योजना क्या है?",
+  "query_normalized": "बिहार राज्य फसल सहायता योजना क्या है",
+  "query_expanded": "बिहार राज्य फसल सहायता योजना क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बिहार राज्य फसल सहायता योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बिहार में डीजल अनुदान योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की 'पेड़ी' (Ratoon) फसल क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या बिहार में धनिया की खेती सफल है?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बिहार राज्य फसल सहायता योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998790990660456,
+      "CrossScore": 0.9998790990660456
+    },
+    {
+      "Question": "बिहार में डीजल अनुदान योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998678452840084,
+      "CrossScore": 0.9998678452840083
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998643569122121,
+      "CrossScore": 0.9998643569122122
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "FinalScore": 9.99862434593924,
+      "CrossScore": 0.9998624345939239
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998588638599378,
+      "CrossScore": 0.9998588638599378
+    },
+    {
+      "Question": "कुसुम योजना (PM-KUSUM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998428789694294,
+      "CrossScore": 0.9998428789694295
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99834903703351,
+      "CrossScore": 0.9998349037033509
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998291192344361,
+      "CrossScore": 0.9998291192344362
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998227303016597,
+      "CrossScore": 0.9998227303016597
+    },
+    {
+      "Question": "क्या बिहार में धनिया की खेती सफल है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998489783679124,
+      "CrossScore": 0.9998489783679124
+    }
+  ],
+  "latency_ms": 222.41,
+  "final_returned": [
+    {
+      "Question": "बिहार राज्य फसल सहायता योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998790990660456
+    },
+    {
+      "Question": "बिहार में डीजल अनुदान योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998678452840084
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 9.998643569122121
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "Score": 9.99862434593924
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.998588638599378
+    }
+  ]
+}

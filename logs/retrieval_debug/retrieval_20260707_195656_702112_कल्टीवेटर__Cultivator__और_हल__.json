@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:56.441200",
+  "query_original": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+  "query_normalized": "कल्टीवेटर cultivator और हल plough में क्या अंतर है",
+  "query_expanded": "कल्टीवेटर cultivator और हल plough में क्या अंतर है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "चने की 'काबुली' और 'देशी' किस्म में क्या अंतर है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का की सीधी बुआई और रोपाई में क्या अंतर है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9999010186343669,
+      "CrossScore": 0.9999010186343669
+    },
+    {
+      "Question": "मोल्ड बोर्ड हल (MB Plough) की क्या खासियत है?",
+      "Crop": "General",
+      "FinalScore": 0.9996893616541309,
+      "CrossScore": 0.9996893616541309
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9993429383833299,
+      "CrossScore": 0.9993429383833299
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9991488611352741,
+      "CrossScore": 0.9991488611352741
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9989496512142576,
+      "CrossScore": 0.9989496512142576
+    },
+    {
+      "Question": "भारी मिट्टी और हल्की मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9986903887323053,
+      "CrossScore": 0.9986903887323053
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9985240956309368,
+      "CrossScore": 0.9985240956309368
+    },
+    {
+      "Question": "प्रणालीगत (Systemic) और संपर्क (Contact) फफूंदनाशक in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9985131503823291,
+      "CrossScore": 0.9985131503823291
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9982783411360225,
+      "CrossScore": 0.9982783411360225
+    },
+    {
+      "Question": "भिंडी की 'कोमल' और 'सख्त' फलियों में अंतर?",
+      "Crop": "Okra",
+      "FinalScore": 0.9977086511702289,
+      "CrossScore": 0.9977086511702289
+    }
+  ],
+  "latency_ms": 261.09,
+  "final_returned": [
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9999010186343669
+    },
+    {
+      "Question": "मोल्ड बोर्ड हल (MB Plough) की क्या खासियत है?",
+      "Crop": "General",
+      "Score": 0.9996893616541309
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9993429383833299
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9991488611352741
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9989496512142576
+    }
+  ]
+}

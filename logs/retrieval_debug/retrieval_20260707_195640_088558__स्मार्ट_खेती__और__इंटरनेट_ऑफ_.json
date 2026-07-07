@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:39.861641",
+  "query_original": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+  "query_normalized": "स्मार्ट खेती और इंटरनेट ऑफ थिंग्स iot",
+  "query_expanded": "स्मार्ट खेती और इंटरनेट ऑफ थिंग्स iot",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उत्पादन' और 'सामान्य खेती' में अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "FinalScore": 0.9998910949900838,
+      "CrossScore": 0.9998910949900838
+    },
+    {
+      "Question": "मशरूम की खेती और 'अपशिष्ट प्रबंधन'?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998144164483209,
+      "CrossScore": 0.9998144164483209
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "FinalScore": 0.9998123769076075,
+      "CrossScore": 0.9998123769076075
+    },
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General",
+      "FinalScore": 0.999790469223923,
+      "CrossScore": 0.999790469223923
+    },
+    {
+      "Question": "जैविक खेती और 'मृदा स्वास्थ्य'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997901327205316,
+      "CrossScore": 0.9997901327205316
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.999779907330906,
+      "CrossScore": 0.999779907330906
+    },
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997741747125585,
+      "CrossScore": 0.9997741747125585
+    },
+    {
+      "Question": "सब्जियों की 'ऑफ-सीजन' खेती?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997739864487106,
+      "CrossScore": 0.9997739864487106
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी चढ़ाना' और गोड़ाई?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9997378201768835,
+      "CrossScore": 0.9997378201768835
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997332005350199,
+      "CrossScore": 0.9997332005350199
+    }
+  ],
+  "latency_ms": 227.1,
+  "final_returned": [
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "Score": 0.9998910949900838
+    },
+    {
+      "Question": "मशरूम की खेती और 'अपशिष्ट प्रबंधन'?",
+      "Crop": "Mushroom",
+      "Score": 0.9998144164483209
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "Score": 0.9998123769076075
+    },
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General",
+      "Score": 0.999790469223923
+    },
+    {
+      "Question": "जैविक खेती और 'मृदा स्वास्थ्य'?",
+      "Crop": "Organic Farming",
+      "Score": 0.9997901327205316
+    }
+  ]
+}

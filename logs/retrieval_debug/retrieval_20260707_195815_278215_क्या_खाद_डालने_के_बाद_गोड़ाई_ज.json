@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:15.052007",
+  "query_original": "क्या खाद डालने के बाद गोड़ाई जरूरी है?",
+  "query_normalized": "क्या खाद डालने के बाद गोड़ाई जरूरी है",
+  "query_expanded": "क्या खाद डालने के बाद गोड़ाई जरूरी है खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या खाद डालने के बाद गोड़ाई जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खाद डालने के तुरंत बाद बारिश होना अच्छा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरक प्रयोग के बाद सिंचाई क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का नमूना खाद डालने के तुरंत बाद ले सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या खाद डालने के तुरंत बाद बारिश होना अच्छा है?",
+      "Crop": "General",
+      "FinalScore": 0.9999210850964816,
+      "CrossScore": 0.9999210850964816
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "FinalScore": 0.9999188774842177,
+      "CrossScore": 0.9999188774842177
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999084732795546,
+      "CrossScore": 0.9999084732795546
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9999051090839792,
+      "CrossScore": 0.9999051090839792
+    },
+    {
+      "Question": "क्या मिट्टी का नमूना खाद डालने के तुरंत बाद ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.99990137665462,
+      "CrossScore": 0.99990137665462
+    },
+    {
+      "Question": "खेती के साथ पशुपालन (Integrated Farming) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998985312008272,
+      "CrossScore": 0.9998985312008272
+    },
+    {
+      "Question": "फसल कटने के बाद खेत में पुआल जलाना बिजनेस के लिए क्यों बुरा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998971547536873,
+      "CrossScore": 0.9998971547536873
+    },
+    {
+      "Question": "उर्वरक प्रयोग के बाद सिंचाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998941734776263,
+      "CrossScore": 0.9998941734776263
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998923942173867,
+      "CrossScore": 0.9998923942173867
+    },
+    {
+      "Question": "क्या खाद डालने के बाद गोड़ाई जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998920974718275,
+      "CrossScore": 0.9998920974718275
+    }
+  ],
+  "latency_ms": 226.3,
+  "final_returned": [
+    {
+      "Question": "क्या खाद डालने के तुरंत बाद बारिश होना अच्छा है?",
+      "Crop": "General",
+      "Score": 0.9999210850964816
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "Score": 0.9999188774842177
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9999084732795546
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9999051090839792
+    },
+    {
+      "Question": "क्या मिट्टी का नमूना खाद डालने के तुरंत बाद ले सकते हैं?",
+      "Crop": "General",
+      "Score": 0.99990137665462
+    }
+  ]
+}

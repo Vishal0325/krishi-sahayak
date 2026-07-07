@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:25.171443",
+  "query_original": "पशुओं को 'धूप' से बचाना?",
+  "query_normalized": "पशुओं को धूप से बचाना",
+  "query_expanded": "पशुओं को धूप से बचाना",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं को 'धूप' से बचाना?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बक्सों को 'धूप' से बचाना?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "टमाटर की खेती में 'नर्सरी' को बीमारियों से बचाना?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के बाद भूसे को आग से बचाना?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं को 'धूप' से बचाना?",
+      "Crop": "Livestock",
+      "FinalScore": 999.8783429708757,
+      "CrossScore": 0.9998783429708756
+    },
+    {
+      "Question": "फलों को 'धूप' (Sunburn) से कैसे बचाएं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9999023349921655,
+      "CrossScore": 0.9999023349921655
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998995158438224,
+      "CrossScore": 0.9998995158438224
+    },
+    {
+      "Question": "बक्सों को 'धूप' से बचाना?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999888264903826,
+      "CrossScore": 0.999888264903826
+    },
+    {
+      "Question": "बीमार पशु को स्वस्थ पशुओं से अलग क्यों रखना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998753663647127,
+      "CrossScore": 0.9998753663647127
+    },
+    {
+      "Question": "'जैव-उर्वरक' को धूप से क्यों बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998733797734823,
+      "CrossScore": 0.9998733797734823
+    },
+    {
+      "Question": "पशुओं को 'धूप' (Sunlight) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999867953739179,
+      "CrossScore": 0.999867953739179
+    },
+    {
+      "Question": "फलों के पेड़ों को 'सर्दियों' में पाले से कैसे बचाएं?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998606954693989,
+      "CrossScore": 0.9998606954693989
+    },
+    {
+      "Question": "धान की फसल को गिरने से बचाना?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998567237394924,
+      "CrossScore": 0.9998567237394924
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के बाद भूसे को 'चूहों' से बचाना?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998517742089952,
+      "CrossScore": 0.9998517742089952
+    }
+  ],
+  "latency_ms": 169.03,
+  "final_returned": [
+    {
+      "Question": "पशुओं को 'धूप' से बचाना?",
+      "Crop": "Livestock",
+      "Score": 999.8783429708757
+    },
+    {
+      "Question": "फलों को 'धूप' (Sunburn) से कैसे बचाएं?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9999023349921655
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998995158438224
+    },
+    {
+      "Question": "बक्सों को 'धूप' से बचाना?",
+      "Crop": "Beekeeping",
+      "Score": 0.999888264903826
+    },
+    {
+      "Question": "बीमार पशु को स्वस्थ पशुओं से अलग क्यों रखना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998753663647127
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:57.041254",
+  "query_original": "सिंचाई के यंत्रों के लिए ऋण (Loan)?",
+  "query_normalized": "सिंचाई के यंत्रों के लिए ऋण loan",
+  "query_expanded": "सिंचाई के यंत्रों के लिए ऋण loan",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सिंचाई के यंत्रों के लिए ऋण (Loan)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सिंचाई के यंत्रों के लिए ऋण (Loan)?",
+      "Crop": "General",
+      "FinalScore": 999.9088803124907,
+      "CrossScore": 0.9999088803124907
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9998937569982178,
+      "CrossScore": 0.9998937569982178
+    },
+    {
+      "Question": "लहसुन की सिंचाई के लिए 'ड्रिप' और 'स्प्रिंकलर'?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9990072662903464,
+      "CrossScore": 0.9990072662903464
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava",
+      "FinalScore": 0.9988919308035441,
+      "CrossScore": 0.9988919308035441
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 0.9988895267892859,
+      "CrossScore": 0.9988895267892859
+    },
+    {
+      "Question": "गेहूं की 'सिंचाई' के लिए स्प्रिंकलर (फुहारा) विधि?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9988430824508178,
+      "CrossScore": 0.9988430824508178
+    },
+    {
+      "Question": "प्याज की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Onion",
+      "FinalScore": 0.9988387637661564,
+      "CrossScore": 0.9988387637661564
+    },
+    {
+      "Question": "धनिया की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9987844968844114,
+      "CrossScore": 0.9987844968844114
+    },
+    {
+      "Question": "मिर्च में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9986367966383033,
+      "CrossScore": 0.9986367966383033
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9984873972764634,
+      "CrossScore": 0.9984873972764634
+    }
+  ],
+  "latency_ms": 222.98,
+  "final_returned": [
+    {
+      "Question": "सिंचाई के यंत्रों के लिए ऋण (Loan)?",
+      "Crop": "General",
+      "Score": 999.9088803124907
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "Score": 0.9998937569982178
+    },
+    {
+      "Question": "लहसुन की सिंचाई के लिए 'ड्रिप' और 'स्प्रिंकलर'?",
+      "Crop": "Garlic",
+      "Score": 0.9990072662903464
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava",
+      "Score": 0.9988919308035441
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "Score": 0.9988895267892859
+    }
+  ]
+}

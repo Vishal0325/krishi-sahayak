@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:35.989522",
+  "query_original": "'एग्री-डेटा' का मालिकाना हक?",
+  "query_normalized": "एग्री डेटा का मालिकाना हक",
+  "query_expanded": "एग्री डेटा का मालिकाना हक",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एग्री-डेटा' का मालिकाना हक?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "क्या खेती में 'डेटा' (Data) का कोई उपयोग है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एग्री-डेटा' का मालिकाना हक?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.9100734346673,
+      "CrossScore": 0.9999100734346673
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.99990833702348,
+      "CrossScore": 0.99990833702348
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998967479382433,
+      "CrossScore": 0.9998967479382433
+    },
+    {
+      "Question": "एग्री-स्टार्टअप का भविष्य क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999893905415596,
+      "CrossScore": 0.999893905415596
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998856466761193,
+      "CrossScore": 0.9998856466761193
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999883454218201,
+      "CrossScore": 0.999883454218201
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998792605892834,
+      "CrossScore": 0.9998792605892834
+    },
+    {
+      "Question": "'वेस्ट डीकम्पोजर' का छिड़काव?",
+      "Crop": "General",
+      "FinalScore": 0.999871377834362,
+      "CrossScore": 0.999871377834362
+    },
+    {
+      "Question": "'मक्का का तना छेदक' और 'डेड हार्ट'?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998661261806845,
+      "CrossScore": 0.9998661261806845
+    },
+    {
+      "Question": "'बिग डेटा' का कृषि नीति में महत्व?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998618920384309,
+      "CrossScore": 0.9998618920384309
+    }
+  ],
+  "latency_ms": 160.86,
+  "final_returned": [
+    {
+      "Question": "'एग्री-डेटा' का मालिकाना हक?",
+      "Crop": "Agri Tech",
+      "Score": 999.9100734346673
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "Score": 0.99990833702348
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "Score": 0.9998967479382433
+    },
+    {
+      "Question": "एग्री-स्टार्टअप का भविष्य क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.999893905415596
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998856466761193
+    }
+  ]
+}

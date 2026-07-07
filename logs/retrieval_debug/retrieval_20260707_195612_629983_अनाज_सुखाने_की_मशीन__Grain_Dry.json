@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:12.407974",
+  "query_original": "अनाज सुखाने की मशीन (Grain Dryer) क्यों जरूरी है?",
+  "query_normalized": "अनाज सुखाने की मशीन grain dryer क्यों जरूरी है",
+  "query_expanded": "अनाज सुखाने की मशीन grain dryer क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अनाज सुखाने की मशीन (Grain Dryer) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव मशीन की 'सफाई' क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मूंग की कटाई में 'एक साथ पकना' क्यों जरूरी है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'स्प्रेयर' की सफाई क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "केले में 'गांठ' (Corm) की सफाई क्यों जरूरी है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अनाज सुखाने की मशीन (Grain Dryer) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998860563797015,
+      "CrossScore": 0.9998860563797015
+    },
+    {
+      "Question": "मटर (Pea) की खेती में बीज उपचार क्यों जरूरी है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9994303601124643,
+      "CrossScore": 0.9994303601124643
+    },
+    {
+      "Question": "सब्जियों की 'स्टेकिंग' (Staking/सहारा देना) क्यों जरूरी है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9992411470075641,
+      "CrossScore": 0.9992411470075641
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9992008536007254,
+      "CrossScore": 0.9992008536007254
+    },
+    {
+      "Question": "मक्का की खेती में 'मिट्टी की जांच' क्यों जरूरी है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9990414534224272,
+      "CrossScore": 0.9990414534224272
+    },
+    {
+      "Question": "मूंग की कटाई में 'एक साथ पकना' क्यों जरूरी है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9989539302197287,
+      "CrossScore": 0.9989539302197287
+    },
+    {
+      "Question": "मक्का की फसल में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9989143400848037,
+      "CrossScore": 0.9989143400848037
+    },
+    {
+      "Question": "गन्ने की खेती में 'जल निकास' क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9988891818754669,
+      "CrossScore": 0.9988891818754669
+    },
+    {
+      "Question": "छिड़काव मशीन की 'सफाई' क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9987478337460544,
+      "CrossScore": 0.9987478337460544
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रमाणन' (Certification) क्यों जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9987340114682632,
+      "CrossScore": 0.9987340114682632
+    }
+  ],
+  "latency_ms": 222.13,
+  "final_returned": [
+    {
+      "Question": "अनाज सुखाने की मशीन (Grain Dryer) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998860563797015
+    },
+    {
+      "Question": "मटर (Pea) की खेती में बीज उपचार क्यों जरूरी है?",
+      "Crop": "Pea",
+      "Score": 0.9994303601124643
+    },
+    {
+      "Question": "सब्जियों की 'स्टेकिंग' (Staking/सहारा देना) क्यों जरूरी है?",
+      "Crop": "Vegetables",
+      "Score": 0.9992411470075641
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "Score": 0.9992008536007254
+    },
+    {
+      "Question": "मक्का की खेती में 'मिट्टी की जांच' क्यों जरूरी है?",
+      "Crop": "Maize",
+      "Score": 0.9990414534224272
+    }
+  ]
+}

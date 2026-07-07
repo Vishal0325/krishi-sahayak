@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:23.096575",
+  "query_original": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+  "query_normalized": "लीची in जड़ सड़न का मुख्य कारण",
+  "query_expanded": "लीची in जड़ सड़न का मुख्य कारण",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'गुटी' पौधों में जड़ न आने का कारण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची in 'फल फटने' का रासायनिक उपचार?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची' में 'जड़ सड़न' रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 49993.05295441769,
+      "CrossScore": 0.9998610590883538
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.992308881139564,
+      "CrossScore": 0.9998461776227913
+    },
+    {
+      "Question": "लीची के 'गुटी' पौधों में जड़ न आने का कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99156864870382,
+      "CrossScore": 0.9998313729740764
+    },
+    {
+      "Question": "लीची की 'मृदा' का पीएच मान?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99110608024978,
+      "CrossScore": 0.9998221216049956
+    },
+    {
+      "Question": "'लीची' में 'जड़ सड़न' रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.991044025773505,
+      "CrossScore": 0.9998208805154701
+    },
+    {
+      "Question": "लीची की 'जायद' उत्पादन ही मुख्य है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99001155305515,
+      "CrossScore": 0.9998002310611029
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98936805826451,
+      "CrossScore": 0.9997873611652902
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' से बचाने के लिए 'हार्मोन'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98887840839637,
+      "CrossScore": 0.9997775681679274
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.988623213243045,
+      "CrossScore": 0.9997724642648609
+    },
+    {
+      "Question": "लीची in 'फल फटने' का रासायनिक उपचार?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98827598452955,
+      "CrossScore": 0.999765519690591
+    }
+  ],
+  "latency_ms": 190.06,
+  "final_returned": [
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi",
+      "Score": 49993.05295441769
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "Score": 49.992308881139564
+    },
+    {
+      "Question": "लीची के 'गुटी' पौधों में जड़ न आने का कारण?",
+      "Crop": "Litchi",
+      "Score": 49.99156864870382
+    },
+    {
+      "Question": "लीची की 'मृदा' का पीएच मान?",
+      "Crop": "Litchi",
+      "Score": 49.99110608024978
+    },
+    {
+      "Question": "'लीची' में 'जड़ सड़न' रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Litchi",
+      "Score": 49.991044025773505
+    }
+  ]
+}

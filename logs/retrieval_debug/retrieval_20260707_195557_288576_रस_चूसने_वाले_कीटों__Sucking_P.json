@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:57.049920",
+  "query_original": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+  "query_normalized": "रस चूसने वाले कीटों sucking pests के लिए कौन से कीटनाशक अच्छे हैं",
+  "query_expanded": "बग pest कीड़ा कीट रस चूसने वाले कीटों sucking pests के लिए कौन से कीटनाशक अच्छे हैं insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चबाने वाले कीटों (Chewing Pests) के लिए कीटनाशक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई के लिए 'दो आंख' वाले टुकड़े क्यों अच्छे हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'भंडारण कीट' (Storage Pests) से बचाव के लिए 'हर्मेटिक बैग्स'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 9.995495399453343,
+      "CrossScore": 0.9995495399453344
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.990535634138386,
+      "CrossScore": 0.9990535634138386
+    },
+    {
+      "Question": "'गंधी बग' के लिए सबसे सस्ता देशी उपाय?",
+      "Crop": "Rice",
+      "FinalScore": 9.966056596779222,
+      "CrossScore": 0.9966056596779223
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.961267437406194,
+      "CrossScore": 0.9961267437406194
+    },
+    {
+      "Question": "'मित्र कीट' (Beneficial Insects) कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 9.961081232524567,
+      "CrossScore": 0.9961081232524567
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 9.960946962609285,
+      "CrossScore": 0.9960946962609285
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक डालने से कीटों in प्रतिरोधक क्षमता (Resistance) आती है?",
+      "Crop": "General",
+      "FinalScore": 9.955750536304123,
+      "CrossScore": 0.9955750536304122
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.93035521957217,
+      "CrossScore": 0.993035521957217
+    },
+    {
+      "Question": "'मकड़ी' (Mites) के लिए कौन सी दवा श्रेष्ठ है?",
+      "Crop": "General",
+      "FinalScore": 9.929933189484046,
+      "CrossScore": 0.9929933189484047
+    },
+    {
+      "Question": "सफेद मक्खी के नियंत्रण के लिए कौन सी दवा अच्छी है?",
+      "Crop": "General",
+      "FinalScore": 9.760590501378152,
+      "CrossScore": 0.9760590501378152
+    }
+  ],
+  "latency_ms": 238.84,
+  "final_returned": [
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General",
+      "Score": 9.995495399453343
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 9.990535634138386
+    },
+    {
+      "Question": "'गंधी बग' के लिए सबसे सस्ता देशी उपाय?",
+      "Crop": "Rice",
+      "Score": 9.966056596779222
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "Score": 9.961267437406194
+    },
+    {
+      "Question": "'मित्र कीट' (Beneficial Insects) कौन से हैं?",
+      "Crop": "General",
+      "Score": 9.961081232524567
+    }
+  ]
+}

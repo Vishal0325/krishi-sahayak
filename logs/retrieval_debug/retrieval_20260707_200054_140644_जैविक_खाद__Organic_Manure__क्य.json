@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:53.798343",
+  "query_original": "जैविक खाद (Organic Manure) क्या है?",
+  "query_normalized": "जैविक खाद organic manure क्या है",
+  "query_expanded": "poshak खाद पोषण उर्वरक जैविक खाद organic manure क्या है fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9279292564337,
+      "CrossScore": 0.9999279292564337
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998421753482286,
+      "CrossScore": 0.9998421753482286
+    },
+    {
+      "Question": "जैविक उत्पादों (Organic Products) का बाजार कैसा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998036099789042,
+      "CrossScore": 0.9998036099789042
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997917560501207,
+      "CrossScore": 0.9997917560501207
+    },
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997520225426504,
+      "CrossScore": 0.9997520225426504
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996722707599294,
+      "CrossScore": 0.9996722707599294
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9994395235296606,
+      "CrossScore": 0.9994395235296606
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999121061103059,
+      "CrossScore": 0.999121061103059
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9989441453445964,
+      "CrossScore": 0.9989441453445964
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9988478412016479,
+      "CrossScore": 0.9988478412016479
+    }
+  ],
+  "latency_ms": 342.33,
+  "final_returned": [
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "Score": 999.9279292564337
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998421753482286
+    },
+    {
+      "Question": "जैविक उत्पादों (Organic Products) का बाजार कैसा है?",
+      "Crop": "General",
+      "Score": 0.9998036099789042
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9997917560501207
+    },
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General",
+      "Score": 0.9997520225426504
+    }
+  ]
+}

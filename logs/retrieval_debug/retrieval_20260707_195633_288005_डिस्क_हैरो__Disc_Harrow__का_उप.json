@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:33.053744",
+  "query_original": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+  "query_normalized": "डिस्क हैरो disc harrow का उपयोग कब किया जाता है",
+  "query_expanded": "डिस्क हैरो disc harrow का उपयोग कब किया जाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998895876778364,
+      "CrossScore": 0.9998895876778364
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995237888013634,
+      "CrossScore": 0.9995237888013634
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995140256301351,
+      "CrossScore": 0.9995140256301351
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999503990772436,
+      "CrossScore": 0.999503990772436
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995029004894574,
+      "CrossScore": 0.9995029004894574
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9994705588752372,
+      "CrossScore": 0.9994705588752372
+    },
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9994517481249169,
+      "CrossScore": 0.9994517481249169
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9993994624648114,
+      "CrossScore": 0.9993994624648114
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9993536830714199,
+      "CrossScore": 0.9993536830714199
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993535460019071,
+      "CrossScore": 0.9993535460019071
+    }
+  ],
+  "latency_ms": 234.45,
+  "final_returned": [
+    {
+      "Question": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9998895876778364
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9995237888013634
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9995140256301351
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.999503990772436
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9995029004894574
+    }
+  ]
+}

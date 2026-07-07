@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:34.663820",
+  "query_original": "क्या मौसम के कारण कीटों का 'प्रवास' (Migration) होता है?",
+  "query_normalized": "क्या मौसम के कारण कीटों का प्रवास migration होता है",
+  "query_expanded": "बग pest कीड़ा कीट क्या मौसम के कारण कीटों का प्रवास migration होता है insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या मौसम के कारण कीटों का 'प्रवास' (Migration) होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) खाली रहने का क्या कारण है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सरसों के तेल में चरपराहट का कारण क्या है?",
+      "Crop": "Mustard"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.995726310140373,
+      "CrossScore": 0.9995726310140373
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.995157192754924,
+      "CrossScore": 0.9995157192754924
+    },
+    {
+      "Question": "मिली बग का उपचार क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.994552480401554,
+      "CrossScore": 0.9994552480401554
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.993249778725207,
+      "CrossScore": 0.9993249778725207
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.993198612712964,
+      "CrossScore": 0.9993198612712965
+    },
+    {
+      "Question": "क्या मौसम के कारण कीटों का 'प्रवास' (Migration) होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999907858703711,
+      "CrossScore": 0.999907858703711
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994906731182304,
+      "CrossScore": 0.9994906731182304
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.999474360802514,
+      "CrossScore": 0.999474360802514
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) खाली रहने का क्या कारण है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994401348694315,
+      "CrossScore": 0.9994401348694315
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994355744138151,
+      "CrossScore": 0.9994355744138151
+    }
+  ],
+  "latency_ms": 230.45,
+  "final_returned": [
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 9.995726310140373
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.995157192754924
+    },
+    {
+      "Question": "मिली बग का उपचार क्या है?",
+      "Crop": "General",
+      "Score": 9.994552480401554
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9.993249778725207
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "Score": 9.993198612712964
+    }
+  ]
+}

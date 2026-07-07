@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:56.469927",
+  "query_original": "जैविक खेती में 'बॉर्डर क्रॉप'?",
+  "query_normalized": "जैविक खेती में बॉर्डर क्रॉप",
+  "query_expanded": "जैविक खेती में बॉर्डर क्रॉप",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक खेती में 'बॉर्डर क्रॉप'?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "औषधीय खेती में 'जैविक मल्चिंग' का लाभ?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999117402674652,
+      "CrossScore": 0.9999117402674652
+    },
+    {
+      "Question": "जैविक खेती में 'बॉर्डर क्रॉप'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999100700044843,
+      "CrossScore": 0.9999100700044843
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999897446785402,
+      "CrossScore": 0.999897446785402
+    },
+    {
+      "Question": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998960578100418,
+      "CrossScore": 0.9998960578100418
+    },
+    {
+      "Question": "'जैविक खेती' में 'बफर जोन' (Buffer Zone)?",
+      "Crop": "General",
+      "FinalScore": 0.9998872869161832,
+      "CrossScore": 0.9998872869161832
+    },
+    {
+      "Question": "जैविक खेती में 'नाइट्रोजन' की पूर्ति कैसे करें?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998861636780448,
+      "CrossScore": 0.9998861636780448
+    },
+    {
+      "Question": "'भिंडी' में 'YVMV' के लिए 'बॉर्डर क्रॉप'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998780370242438,
+      "CrossScore": 0.9998780370242438
+    },
+    {
+      "Question": "क्या जैविक खेती में 'खरपतवार' समस्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998764688585959,
+      "CrossScore": 0.9998764688585959
+    },
+    {
+      "Question": "क्या जैविक खेती में रासायनिक फफूंदनाशक मान्य हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998716834771425,
+      "CrossScore": 0.9998716834771425
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998697964607164,
+      "CrossScore": 0.9998697964607164
+    }
+  ],
+  "latency_ms": 182.2,
+  "final_returned": [
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999117402674652
+    },
+    {
+      "Question": "जैविक खेती में 'बॉर्डर क्रॉप'?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999100700044843
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "Score": 0.999897446785402
+    },
+    {
+      "Question": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998960578100418
+    },
+    {
+      "Question": "'जैविक खेती' में 'बफर जोन' (Buffer Zone)?",
+      "Crop": "General",
+      "Score": 0.9998872869161832
+    }
+  ]
+}

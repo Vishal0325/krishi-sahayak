@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:58.847584",
+  "query_original": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+  "query_normalized": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन nbhm क्या है",
+  "query_expanded": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन nbhm क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998360340430352,
+      "CrossScore": 0.9998360340430352
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997904564374691,
+      "CrossScore": 0.9997904564374691
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997867591758007,
+      "CrossScore": 0.9997867591758007
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997643138192324,
+      "CrossScore": 0.9997643138192324
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997537582291375,
+      "CrossScore": 0.9997537582291375
+    },
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997419136249197,
+      "CrossScore": 0.9997419136249197
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन के लिए 'लाइसेंस' चाहिए?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997277514391387,
+      "CrossScore": 0.9997277514391387
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रोपोलिस' (Propolis) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997272432549091,
+      "CrossScore": 0.9997272432549091
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997053340628622,
+      "CrossScore": 0.9997053340628622
+    },
+    {
+      "Question": "मधुमक्खी पालन (Beekeeping) का परिचय क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9996926978755342,
+      "CrossScore": 0.9996926978755342
+    }
+  ],
+  "latency_ms": 238.36,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998360340430352
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997904564374691
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.9997867591758007
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9997643138192324
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997537582291375
+    }
+  ]
+}

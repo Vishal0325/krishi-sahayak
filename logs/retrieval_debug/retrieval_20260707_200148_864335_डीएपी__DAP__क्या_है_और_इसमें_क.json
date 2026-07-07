@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:48.625274",
+  "query_original": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+  "query_normalized": "डीएपी dap क्या है और इसमें कौन से तत्व होते हैं",
+  "query_expanded": "डीएपी phosphorus dap डीएपी dap क्या है और इसमें कौन से तत्व होते हैं फॉस्फोरस",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'साफ' (Saaf) फफूंदनाशक में कौन से तत्व होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई से खरपतवार कम होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9077943643067,
+      "CrossScore": 0.9999077943643067
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999894386090054,
+      "CrossScore": 0.999894386090054
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998077570978954,
+      "CrossScore": 0.9998077570978954
+    },
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997974358769984,
+      "CrossScore": 0.9997974358769984
+    },
+    {
+      "Question": "क्या खरपतवारनाशी से फसल की पैदावार बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.9997272708188328,
+      "CrossScore": 0.9997272708188328
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997145492911089,
+      "CrossScore": 0.9997145492911089
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई से खरपतवार कम होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997011325515042,
+      "CrossScore": 0.9997011325515042
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999680613154651,
+      "CrossScore": 0.999680613154651
+    },
+    {
+      "Question": "शाही लीची और चाइना लीची में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999670901275106,
+      "CrossScore": 0.999670901275106
+    },
+    {
+      "Question": "क्या IPM से उपज की गुणवत्ता सुधरती है?",
+      "Crop": "General",
+      "FinalScore": 0.9996580796692668,
+      "CrossScore": 0.9996580796692668
+    }
+  ],
+  "latency_ms": 239.09,
+  "final_returned": [
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "Score": 999.9077943643067
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.999894386090054
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998077570978954
+    },
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General",
+      "Score": 0.9997974358769984
+    },
+    {
+      "Question": "क्या खरपतवारनाशी से फसल की पैदावार बढ़ती है?",
+      "Crop": "General",
+      "Score": 0.9997272708188328
+    }
+  ]
+}

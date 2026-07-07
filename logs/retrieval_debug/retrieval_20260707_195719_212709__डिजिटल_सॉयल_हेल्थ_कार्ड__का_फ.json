@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:19.004592",
+  "query_original": "'डिजिटल सॉयल हेल्थ कार्ड' का फायदा?",
+  "query_normalized": "डिजिटल सॉयल हेल्थ कार्ड का फायदा",
+  "query_expanded": "डिजिटल सॉयल हेल्थ कार्ड का फायदा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'डिजिटल सॉयल हेल्थ कार्ड' का फायदा?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "दलहनी फसलों की 'मृदा' का स्वास्थ्य कार्ड?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का बिजनेस पर क्या असर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998927977416832,
+      "CrossScore": 0.9998927977416832
+    },
+    {
+      "Question": "क्या खेती में 'डिजिटल डायरी' (Digital Diary) का उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998795091337703,
+      "CrossScore": 0.9998795091337703
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998714157269745,
+      "CrossScore": 0.9998714157269745
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998671654500297,
+      "CrossScore": 0.9998671654500297
+    },
+    {
+      "Question": "'डिजिटल सॉयल हेल्थ कार्ड' का फायदा?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998669278693798,
+      "CrossScore": 0.9998669278693798
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998572690399429,
+      "CrossScore": 0.9998572690399429
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "FinalScore": 0.9998520292461147,
+      "CrossScore": 0.9998520292461147
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998425180917859,
+      "CrossScore": 0.9998425180917859
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998357375024534,
+      "CrossScore": 0.9998357375024534
+    },
+    {
+      "Question": "सरकारी योजनाओं का लाभ लेने के लिए आधार कार्ड जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998127611438699,
+      "CrossScore": 0.9998127611438699
+    }
+  ],
+  "latency_ms": 208.2,
+  "final_returned": [
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998927977416832
+    },
+    {
+      "Question": "क्या खेती में 'डिजिटल डायरी' (Digital Diary) का उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9998795091337703
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998714157269745
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998671654500297
+    },
+    {
+      "Question": "'डिजिटल सॉयल हेल्थ कार्ड' का फायदा?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998669278693798
+    }
+  ]
+}

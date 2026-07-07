@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:55.808793",
+  "query_original": "ग्रामीण भंडारण योजना क्या है?",
+  "query_normalized": "ग्रामीण भंडारण योजना क्या है",
+  "query_expanded": "ग्रामीण भंडारण योजना क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ग्रामीण भंडारण योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के भंडारण के लिए 'कोल्ड चेन' क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "प्याज के भंडारण में सबसे बड़ी समस्या क्या है?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ग्रामीण भंडारण योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99898587691985,
+      "CrossScore": 0.999898587691985
+    },
+    {
+      "Question": "गोबर धन योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998879061181189,
+      "CrossScore": 0.999887906118119
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998863578175785,
+      "CrossScore": 0.9998863578175784
+    },
+    {
+      "Question": "क्या गोबर से पेंट बनाने की कोई योजना है?",
+      "Crop": "General",
+      "FinalScore": 9.998837687461595,
+      "CrossScore": 0.9998837687461595
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 9.998829443358405,
+      "CrossScore": 0.9998829443358405
+    },
+    {
+      "Question": "प्रधानमंत्री कृषि सिंचाई योजना में 'वाटरशेड' क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998762127450965,
+      "CrossScore": 0.9998762127450964
+    },
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99871045397741,
+      "CrossScore": 0.999871045397741
+    },
+    {
+      "Question": "प्रधानमंत्री जन-धन योजना का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 9.99864856542595,
+      "CrossScore": 0.999864856542595
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998581456755302,
+      "CrossScore": 0.9998581456755301
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998511197864193,
+      "CrossScore": 0.9998511197864193
+    }
+  ],
+  "latency_ms": 217.11,
+  "final_returned": [
+    {
+      "Question": "ग्रामीण भंडारण योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.99898587691985
+    },
+    {
+      "Question": "गोबर धन योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998879061181189
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998863578175785
+    },
+    {
+      "Question": "क्या गोबर से पेंट बनाने की कोई योजना है?",
+      "Crop": "General",
+      "Score": 9.998837687461595
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 9.998829443358405
+    }
+  ]
+}

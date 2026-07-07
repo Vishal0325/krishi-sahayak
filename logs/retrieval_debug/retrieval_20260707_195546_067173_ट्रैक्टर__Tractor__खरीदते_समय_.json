@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:45.833945",
+  "query_original": "ट्रैक्टर (Tractor) खरीदते समय किन बातों का ध्यान रखें?",
+  "query_normalized": "ट्रैक्टर tractor खरीदते समय किन बातों का ध्यान रखें",
+  "query_expanded": "ट्रैक्टर tractor खरीदते समय किन बातों का ध्यान रखें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्रैक्टर (Tractor) खरीदते समय किन बातों का ध्यान रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ऋण' (Credit) लेते समय किन बातों का ध्यान रखें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' में किन बातों का ध्यान रखें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "ट्रैक्टर के 'टायर प्रेशर' का ध्यान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो यूरिया का स्प्रे करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्रैक्टर (Tractor) खरीदते समय किन बातों का ध्यान रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9998679352287446,
+      "CrossScore": 0.9998679352287446
+    },
+    {
+      "Question": "ट्रैक्टर के 'क्लच' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.999482363539073,
+      "CrossScore": 0.999482363539073
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9993180793378967,
+      "CrossScore": 0.9993180793378967
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9992595314321359,
+      "CrossScore": 0.9992595314321359
+    },
+    {
+      "Question": "'हच' (Hatchery) से चूजे खरीदते समय क्या देखें?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9992587021908395,
+      "CrossScore": 0.9992587021908395
+    },
+    {
+      "Question": "ट्रैक्टर के 'टायर प्रेशर' का ध्यान?",
+      "Crop": "General",
+      "FinalScore": 0.9991356702122397,
+      "CrossScore": 0.9991356702122397
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9989936584106637,
+      "CrossScore": 0.9989936584106637
+    },
+    {
+      "Question": "ट्रैक्टर में 'एयर क्लीनर' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9988660097829877,
+      "CrossScore": 0.9988660097829877
+    },
+    {
+      "Question": "'कीट निगरानी' के लिए 'लाइट ट्रैप' का समय?",
+      "Crop": "General",
+      "FinalScore": 0.9988321106360206,
+      "CrossScore": 0.9988321106360206
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9986727571915872,
+      "CrossScore": 0.9986727571915872
+    }
+  ],
+  "latency_ms": 233.36,
+  "final_returned": [
+    {
+      "Question": "ट्रैक्टर (Tractor) खरीदते समय किन बातों का ध्यान रखें?",
+      "Crop": "General",
+      "Score": 0.9998679352287446
+    },
+    {
+      "Question": "ट्रैक्टर के 'क्लच' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.999482363539073
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9993180793378967
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "Score": 0.9992595314321359
+    },
+    {
+      "Question": "'हच' (Hatchery) से चूजे खरीदते समय क्या देखें?",
+      "Crop": "Poultry",
+      "Score": 0.9992587021908395
+    }
+  ]
+}

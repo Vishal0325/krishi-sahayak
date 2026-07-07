@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:20.572875",
+  "query_original": "मत्स्य पालन (Fish Farming) में कितना मुनाफा है?",
+  "query_normalized": "मत्स्य पालन fish farming में कितना मुनाफा है",
+  "query_expanded": "मत्स्य पालन fish farming में कितना मुनाफा है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मत्स्य पालन (Fish Farming) में कितना मुनाफा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मत्स्य पालन' (Fish Farming) में स्टार्टअप?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "शतावरी की खेती में कितना समय लगता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "लीची के बाग में 'मधुमक्खी पालन' से कितना लाभ?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मत्स्य पालन (Fish Farming) में कितना मुनाफा है?",
+      "Crop": "General",
+      "FinalScore": 9999.311009944218,
+      "CrossScore": 0.9999311009944218
+    },
+    {
+      "Question": "'मत्स्य पालन' (Fish Farming) में स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 9.998952906048507,
+      "CrossScore": 0.9998952906048506
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "FinalScore": 9.998382459612579,
+      "CrossScore": 0.9998382459612578
+    },
+    {
+      "Question": "मुर्गी पालन (Poultry Farming) का परिचय क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 9.998164684751643,
+      "CrossScore": 0.9998164684751644
+    },
+    {
+      "Question": "बकरी पालन (Goat Farming) का परिचय क्या है?",
+      "Crop": "Livestock",
+      "FinalScore": 9.997800843735233,
+      "CrossScore": 0.9997800843735233
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General",
+      "FinalScore": 9.997690515418208,
+      "CrossScore": 0.9997690515418208
+    },
+    {
+      "Question": "बकरी पालन (Goat Farming) को 'एटीएम' क्यों कहा जाता है?",
+      "Crop": "General",
+      "FinalScore": 9.99751758781847,
+      "CrossScore": 0.999751758781847
+    },
+    {
+      "Question": "बकरी पालन में 'स्टाल फीडिंग' (Stall Feeding) क्या है?",
+      "Crop": "Livestock",
+      "FinalScore": 9.980761671927448,
+      "CrossScore": 0.9980761671927448
+    },
+    {
+      "Question": "मुर्गी पालन में 'रिकॉर्ड' रखना क्यों जरूरी है?",
+      "Crop": "Poultry",
+      "FinalScore": 9.975029087670213,
+      "CrossScore": 0.9975029087670214
+    },
+    {
+      "Question": "बटन मशरूम की 'कंपोस्ट' बनाने में कितना समय लगता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.968947475491474,
+      "CrossScore": 0.9968947475491473
+    }
+  ],
+  "latency_ms": 253.3,
+  "final_returned": [
+    {
+      "Question": "मत्स्य पालन (Fish Farming) में कितना मुनाफा है?",
+      "Crop": "General",
+      "Score": 9999.311009944218
+    },
+    {
+      "Question": "'मत्स्य पालन' (Fish Farming) में स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 9.998952906048507
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "Score": 9.998382459612579
+    },
+    {
+      "Question": "मुर्गी पालन (Poultry Farming) का परिचय क्या है?",
+      "Crop": "Poultry",
+      "Score": 9.998164684751643
+    },
+    {
+      "Question": "बकरी पालन (Goat Farming) का परिचय क्या है?",
+      "Crop": "Livestock",
+      "Score": 9.997800843735233
+    }
+  ]
+}

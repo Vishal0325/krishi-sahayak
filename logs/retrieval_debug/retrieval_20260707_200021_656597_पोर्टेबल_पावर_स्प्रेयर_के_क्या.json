@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:21.451878",
+  "query_original": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+  "query_normalized": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं",
+  "query_expanded": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लोबिया (Cowpea) के क्या फायदे हैं?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का में 'ह्यूमिक एसिड' के क्या फायदे हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9027287016277,
+      "CrossScore": 0.9999027287016277
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998750793805121,
+      "CrossScore": 0.9998750793805121
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998715877587045,
+      "CrossScore": 0.9998715877587045
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998667422259899,
+      "CrossScore": 0.9998667422259899
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999861808257031,
+      "CrossScore": 0.999861808257031
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998606278411738,
+      "CrossScore": 0.9998606278411738
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998585608672338,
+      "CrossScore": 0.9998585608672338
+    },
+    {
+      "Question": "क्या एलोवेरा के कांटे खतरनाक हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998565055290939,
+      "CrossScore": 0.9998565055290939
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998433800616138,
+      "CrossScore": 0.9998433800616138
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998430159938094,
+      "CrossScore": 0.9998430159938094
+    }
+  ],
+  "latency_ms": 204.75,
+  "final_returned": [
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 999.9027287016277
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9998750793805121
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9998715877587045
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9998667422259899
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "Score": 0.999861808257031
+    }
+  ]
+}

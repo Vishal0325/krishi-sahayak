@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:52.201448",
+  "query_original": "सर्दियों की 'मावट' (Winter Rain) क्या है?",
+  "query_normalized": "सर्दियों की मावट winter rain क्या है",
+  "query_expanded": "सर्दियों की मावट winter rain क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सर्दियों की 'मावट' (Winter Rain) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या गेहूं की बुआई बिना जुताई के की जा सकती है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "आम की 'आम्रपाली' किस्म की क्या विशेषता है?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सर्दियों की 'मावट' (Winter Rain) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999315394075067,
+      "CrossScore": 0.9999315394075067
+    },
+    {
+      "Question": "टमाटर की 'काशी विशेष' किस्म की क्या विशेषता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9985187396005389,
+      "CrossScore": 0.9985187396005389
+    },
+    {
+      "Question": "टमाटर की 'अर्का रक्षक' किस्म की क्या विशेषता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9983188950523216,
+      "CrossScore": 0.9983188950523216
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9980270305837503,
+      "CrossScore": 0.9980270305837503
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9980069061821808,
+      "CrossScore": 0.9980069061821808
+    },
+    {
+      "Question": "धनिया की बुआई की विधि क्या है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9978942556876257,
+      "CrossScore": 0.9978942556876257
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9978206312834225,
+      "CrossScore": 0.9978206312834225
+    },
+    {
+      "Question": "क्या गेहूं की बुआई बिना जुताई के की जा सकती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9977217254965232,
+      "CrossScore": 0.9977217254965232
+    },
+    {
+      "Question": "लहसुन की बुआई की विधि क्या है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9976918164513429,
+      "CrossScore": 0.9976918164513429
+    },
+    {
+      "Question": "मक्का की 'गंगा-11' किस्म की क्या खासियत है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9975848338484377,
+      "CrossScore": 0.9975848338484377
+    }
+  ],
+  "latency_ms": 178.32,
+  "final_returned": [
+    {
+      "Question": "सर्दियों की 'मावट' (Winter Rain) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999315394075067
+    },
+    {
+      "Question": "टमाटर की 'काशी विशेष' किस्म की क्या विशेषता है?",
+      "Crop": "Tomato",
+      "Score": 0.9985187396005389
+    },
+    {
+      "Question": "टमाटर की 'अर्का रक्षक' किस्म की क्या विशेषता है?",
+      "Crop": "Tomato",
+      "Score": 0.9983188950523216
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "Score": 0.9980270305837503
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "Score": 0.9980069061821808
+    }
+  ]
+}

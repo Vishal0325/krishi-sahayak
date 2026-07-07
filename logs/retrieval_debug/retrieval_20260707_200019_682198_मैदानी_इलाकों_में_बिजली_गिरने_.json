@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:19.504926",
+  "query_original": "मैदानी इलाकों में बिजली गिरने (Lightning) से बचाव?",
+  "query_normalized": "मैदानी इलाकों में बिजली गिरने lightning से बचाव",
+  "query_expanded": "मैदानी इलाकों में बिजली गिरने lightning से बचाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मैदानी इलाकों में बिजली गिरने (Lightning) से बचाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी की फसल में 'पाले' से बचाव?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "अमरूद के बाग में 'उकठा' (Wilt) से बचाव का जैविक तरीका?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' की कमी से गिरने (Lodging) की समस्या?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मैदानी इलाकों में बिजली गिरने (Lightning) से बचाव?",
+      "Crop": "General",
+      "FinalScore": 999.9073529777075,
+      "CrossScore": 0.9999073529777075
+    },
+    {
+      "Question": "हल्दी की फसल में 'सूखे' से बचाव?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9998053292790704,
+      "CrossScore": 0.9998053292790704
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998018218398005,
+      "CrossScore": 0.9998018218398005
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997982023523995,
+      "CrossScore": 0.9997982023523995
+    },
+    {
+      "Question": "लीची की फसल में 'लू' (Loo) से बचाव?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999782328602821,
+      "CrossScore": 0.999782328602821
+    },
+    {
+      "Question": "बैंगन की फसल में 'पाले' से बचाव?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997760581444897,
+      "CrossScore": 0.9997760581444897
+    },
+    {
+      "Question": "अमरूद के बाग में 'उकठा' (Wilt) से बचाव का जैविक तरीका?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999765966395474,
+      "CrossScore": 0.999765966395474
+    },
+    {
+      "Question": "टमाटर की फसल में 'पाले' से बचाव?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997260075672639,
+      "CrossScore": 0.9997260075672639
+    },
+    {
+      "Question": "भिंडी की फसल में 'पाले' से बचाव?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997182338894584,
+      "CrossScore": 0.9997182338894584
+    },
+    {
+      "Question": "प्याज के भंडारण में 'नमी' से बचाव?",
+      "Crop": "Onion",
+      "FinalScore": 0.999710971705409,
+      "CrossScore": 0.999710971705409
+    }
+  ],
+  "latency_ms": 177.32,
+  "final_returned": [
+    {
+      "Question": "मैदानी इलाकों में बिजली गिरने (Lightning) से बचाव?",
+      "Crop": "General",
+      "Score": 999.9073529777075
+    },
+    {
+      "Question": "हल्दी की फसल में 'सूखे' से बचाव?",
+      "Crop": "Turmeric",
+      "Score": 0.9998053292790704
+    },
+    {
+      "Question": "अदरक की फसल में 'सूखे' से बचाव?",
+      "Crop": "Ginger",
+      "Score": 0.9998018218398005
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9997982023523995
+    },
+    {
+      "Question": "लीची की फसल में 'लू' (Loo) से बचाव?",
+      "Crop": "Litchi",
+      "Score": 0.999782328602821
+    }
+  ]
+}

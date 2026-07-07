@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:22.801713",
+  "query_original": "पशुओं में 'हवा' (Panting) चलना?",
+  "query_normalized": "पशुओं में हवा panting चलना",
+  "query_expanded": "पशुओं में हवा panting चलना",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'हवा' (Panting) चलना?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के शेड में 'हवा का संचार'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मिर्च की 'सघन' खेती में 'हवा का संचार'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी की 'सघन' खेती में 'हवा का संचार'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गन्ने की 'सघन' खेती में 'हवा' का महत्व?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'हवा' (Panting) चलना?",
+      "Crop": "General",
+      "FinalScore": 999.9201710869136,
+      "CrossScore": 0.9999201710869136
+    },
+    {
+      "Question": "पशुओं में 'थनैला' (Mastitis) रोग क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9993870038597468,
+      "CrossScore": 0.9993870038597468
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9993266115265795,
+      "CrossScore": 0.9993266115265795
+    },
+    {
+      "Question": "पशुओं के शेड में 'हवा का संचार'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9991523979232161,
+      "CrossScore": 0.9991523979232161
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9991501804505315,
+      "CrossScore": 0.9991501804505315
+    },
+    {
+      "Question": "लहसुन की 'सघन' खेती में 'हवा का संचार'?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9990286372098881,
+      "CrossScore": 0.9990286372098881
+    },
+    {
+      "Question": "लहसुन की 'सघन' खेती में 'हवा' का महत्व?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9990255236019133,
+      "CrossScore": 0.9990255236019133
+    },
+    {
+      "Question": "हल्दी की 'सघन' खेती में 'हवा का संचार'?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9989583873174481,
+      "CrossScore": 0.9989583873174481
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.998947213840027,
+      "CrossScore": 0.998947213840027
+    },
+    {
+      "Question": "बैंगन की 'सघन' खेती में 'हवा का संचार'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9989374988140254,
+      "CrossScore": 0.9989374988140254
+    }
+  ],
+  "latency_ms": 194.29,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'हवा' (Panting) चलना?",
+      "Crop": "General",
+      "Score": 999.9201710869136
+    },
+    {
+      "Question": "पशुओं में 'थनैला' (Mastitis) रोग क्या है?",
+      "Crop": "Dairy",
+      "Score": 0.9993870038597468
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9993266115265795
+    },
+    {
+      "Question": "पशुओं के शेड में 'हवा का संचार'?",
+      "Crop": "Livestock",
+      "Score": 0.9991523979232161
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "Score": 0.9991501804505315
+    }
+  ]
+}

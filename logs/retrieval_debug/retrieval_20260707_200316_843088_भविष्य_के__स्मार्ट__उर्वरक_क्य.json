@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:16.651148",
+  "query_original": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+  "query_normalized": "भविष्य के स्मार्ट उर्वरक क्या हैं",
+  "query_expanded": "poshak खाद भविष्य के स्मार्ट उर्वरक क्या हैं पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लोबिया (Cowpea) के क्या फायदे हैं?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "क्या एलोवेरा के कांटे खतरनाक हैं?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8793929187215,
+      "CrossScore": 0.9998793929187214
+    },
+    {
+      "Question": "भविष्य के 'एग्री-प्रेन्योर' (Agripreneur) कौन हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998865852652147,
+      "CrossScore": 0.9998865852652147
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998780627235646,
+      "CrossScore": 0.9998780627235646
+    },
+    {
+      "Question": "मक्का में 'ह्यूमिक एसिड' के क्या फायदे हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998613698174785,
+      "CrossScore": 0.9998613698174785
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998589463327103,
+      "CrossScore": 0.9998589463327103
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998588194419086,
+      "CrossScore": 0.9998588194419086
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998481512583499,
+      "CrossScore": 0.9998481512583499
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998462412660899,
+      "CrossScore": 0.9998462412660899
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998438747922123,
+      "CrossScore": 0.9998438747922123
+    },
+    {
+      "Question": "क्या जैविक खेती में 'पोटाश' के जैविक स्रोत हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998435903418429,
+      "CrossScore": 0.9998435903418429
+    }
+  ],
+  "latency_ms": 191.98,
+  "final_returned": [
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General",
+      "Score": 999.8793929187215
+    },
+    {
+      "Question": "भविष्य के 'एग्री-प्रेन्योर' (Agripreneur) कौन हैं?",
+      "Crop": "General",
+      "Score": 0.9998865852652147
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998780627235646
+    },
+    {
+      "Question": "मक्का में 'ह्यूमिक एसिड' के क्या फायदे हैं?",
+      "Crop": "Maize",
+      "Score": 0.9998613698174785
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998589463327103
+    }
+  ]
+}

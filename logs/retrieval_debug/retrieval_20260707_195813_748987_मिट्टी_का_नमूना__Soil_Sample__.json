@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:13.503446",
+  "query_original": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+  "query_normalized": "मिट्टी का नमूना soil sample लेने का सही तरीका क्या है",
+  "query_expanded": "मिट्टी का नमूना soil sample लेने का सही तरीका क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लहसुन की बुआई का सही तरीका क्या है?",
+      "Crop": "Garlic"
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999054267016092,
+      "CrossScore": 0.9999054267016092
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998439800073826,
+      "CrossScore": 0.9998439800073826
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9997427403132906,
+      "CrossScore": 0.9997427403132906
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997405574457451,
+      "CrossScore": 0.9997405574457451
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996858730474314,
+      "CrossScore": 0.9996858730474314
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996525172443782,
+      "CrossScore": 0.9996525172443782
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9991703056682758,
+      "CrossScore": 0.9991703056682758
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9991654634000492,
+      "CrossScore": 0.9991654634000492
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9991361518704482,
+      "CrossScore": 0.9991361518704482
+    },
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9990319152176924,
+      "CrossScore": 0.9990319152176924
+    }
+  ],
+  "latency_ms": 245.71,
+  "final_returned": [
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9999054267016092
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998439800073826
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9997427403132906
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9997405574457451
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "Score": 0.9996858730474314
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:44.393023",
+  "query_original": "लेजर लेवलर के लाभ?",
+  "query_normalized": "लेजर लेवलर के लाभ",
+  "query_expanded": "लेजर लेवलर के लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लेजर लेवलर के लाभ?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लहसुन में 'सिंचाई' के लिए 'लेजर लेवलिंग' का लाभ?",
+      "Crop": "Garlic"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998866244081991,
+      "CrossScore": 0.9998866244081991
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998723819379408,
+      "CrossScore": 0.9998723819379408
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का तकनीकी लाभ?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998693945709171,
+      "CrossScore": 0.9998693945709171
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999867518373184,
+      "CrossScore": 0.999867518373184
+    },
+    {
+      "Question": "लेजर लेवलर के लाभ?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998478374593762,
+      "CrossScore": 0.9998478374593762
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998460085616533,
+      "CrossScore": 0.9998460085616533
+    },
+    {
+      "Question": "लहसुन में 'सिंचाई' के लिए 'लेजर लेवलिंग' का लाभ?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998382407171583,
+      "CrossScore": 0.9998382407171583
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998065798266119,
+      "CrossScore": 0.9998065798266119
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9997383311142831,
+      "CrossScore": 0.9997383311142831
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' के लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997372771836339,
+      "CrossScore": 0.9997372771836339
+    }
+  ],
+  "latency_ms": 227.85,
+  "final_returned": [
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998866244081991
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9998723819379408
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का तकनीकी लाभ?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998693945709171
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.999867518373184
+    },
+    {
+      "Question": "लेजर लेवलर के लाभ?",
+      "Crop": "Rice",
+      "Score": 0.9998478374593762
+    }
+  ]
+}

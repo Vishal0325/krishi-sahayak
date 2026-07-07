@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:31.052573",
+  "query_original": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+  "query_normalized": "पशुओं के लिए खनिज मिश्रण mineral mixture की मात्रा",
+  "query_expanded": "पशुओं के लिए खनिज मिश्रण mineral mixture की मात्रा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "मुर्गियों के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'प्रोपीकोनाजोल' की मात्रा?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998885329736316,
+      "CrossScore": 0.9998885329736316
+    },
+    {
+      "Question": "मुर्गियों के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Poultry",
+      "FinalScore": 0.999879366924564,
+      "CrossScore": 0.999879366924564
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998767770935292,
+      "CrossScore": 0.9998767770935292
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9987460363075779,
+      "CrossScore": 0.9987460363075779
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9986526551154968,
+      "CrossScore": 0.9986526551154968
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'प्रोपीकोनाजोल' की मात्रा?",
+      "Crop": "Rice",
+      "FinalScore": 0.9985944852200956,
+      "CrossScore": 0.9985944852200956
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.998586293157576,
+      "CrossScore": 0.998586293157576
+    },
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General",
+      "FinalScore": 0.9984850101807713,
+      "CrossScore": 0.9984850101807713
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'खेत' की तैयारी पेड़ी के लिए?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.998459943295437,
+      "CrossScore": 0.998459943295437
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी दूर करने के लिए 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "FinalScore": 0.9984221436717328,
+      "CrossScore": 0.9984221436717328
+    }
+  ],
+  "latency_ms": 170.17,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.9998885329736316
+    },
+    {
+      "Question": "मुर्गियों के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Poultry",
+      "Score": 0.999879366924564
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "Score": 0.9998767770935292
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9987460363075779
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9986526551154968
+    }
+  ]
+}

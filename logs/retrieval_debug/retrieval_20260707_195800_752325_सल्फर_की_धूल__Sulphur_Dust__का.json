@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:00.570943",
+  "query_original": "सल्फर की धूल (Sulphur Dust) का प्रयोग?",
+  "query_normalized": "सल्फर की धूल sulphur dust का प्रयोग",
+  "query_expanded": "सल्फर की धूल sulphur dust का प्रयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सल्फर की धूल (Sulphur Dust) का प्रयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गेहूं में 'सल्फर' की कमी का असर?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गन्ने में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सल्फर की धूल (Sulphur Dust) का प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.999909762816847,
+      "CrossScore": 0.999909762816847
+    },
+    {
+      "Question": "सल्फर (Sulphur) का उपयोग किन फसलों में अधिक करना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9997921355407592,
+      "CrossScore": 0.9997921355407592
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9985487453494721,
+      "CrossScore": 0.9985487453494721
+    },
+    {
+      "Question": "धनिया में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9984536555720729,
+      "CrossScore": 0.9984536555720729
+    },
+    {
+      "Question": "बैंगन में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9984015846442301,
+      "CrossScore": 0.9984015846442301
+    },
+    {
+      "Question": "हल्दी में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9981558692978819,
+      "CrossScore": 0.9981558692978819
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.997980792970124,
+      "CrossScore": 0.997980792970124
+    },
+    {
+      "Question": "अदरक में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9979052667053886,
+      "CrossScore": 0.9979052667053886
+    },
+    {
+      "Question": "गेहूं में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9978230791609988,
+      "CrossScore": 0.9978230791609988
+    },
+    {
+      "Question": "लीची में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9977939299700398,
+      "CrossScore": 0.9977939299700398
+    }
+  ],
+  "latency_ms": 181.46,
+  "final_returned": [
+    {
+      "Question": "सल्फर की धूल (Sulphur Dust) का प्रयोग?",
+      "Crop": "General",
+      "Score": 0.999909762816847
+    },
+    {
+      "Question": "सल्फर (Sulphur) का उपयोग किन फसलों में अधिक करना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9997921355407592
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "Score": 0.9985487453494721
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.997980792970124
+    },
+    {
+      "Question": "गेहूं में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Wheat",
+      "Score": 0.9978230791609988
+    }
+  ]
+}

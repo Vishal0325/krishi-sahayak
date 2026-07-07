@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:24.963370",
+  "query_original": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+  "query_normalized": "वायुमंडलीय नाइट्रोजन और वर्षा",
+  "query_expanded": "nitrogen नाइट्रोजन यूरिया वायुमंडलीय नाइट्रोजन और वर्षा urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'नाइट्रोजन' की कमी और बीमारी का भ्रम?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+      "Crop": "General",
+      "FinalScore": 999.8387361494248,
+      "CrossScore": 0.9998387361494248
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997950939362809,
+      "CrossScore": 0.9997950939362809
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9997727565197374,
+      "CrossScore": 0.9997727565197374
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997510327639896,
+      "CrossScore": 0.9997510327639896
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9997370952677338,
+      "CrossScore": 0.9997370952677338
+    },
+    {
+      "Question": "धान को कितनी वर्षा की आवश्यकता होती है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997359492689494,
+      "CrossScore": 0.9997359492689494
+    },
+    {
+      "Question": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9997331239580896,
+      "CrossScore": 0.9997331239580896
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.9997186003410596,
+      "CrossScore": 0.9997186003410596
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 0.9997099359564389,
+      "CrossScore": 0.9997099359564389
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9996969601493129,
+      "CrossScore": 0.9996969601493129
+    }
+  ],
+  "latency_ms": 206.49,
+  "final_returned": [
+    {
+      "Question": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+      "Crop": "General",
+      "Score": 999.8387361494248
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "Score": 0.9997950939362809
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "Score": 0.9997727565197374
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "Score": 0.9997510327639896
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya",
+      "Score": 0.9997370952677338
+    }
+  ]
+}

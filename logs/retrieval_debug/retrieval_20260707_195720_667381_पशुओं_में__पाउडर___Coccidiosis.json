@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:20.468523",
+  "query_original": "पशुओं में 'पाउडर' (Coccidiosis) दस्त?",
+  "query_normalized": "पशुओं में पाउडर coccidiosis दस्त",
+  "query_expanded": "पशुओं में पाउडर coccidiosis दस्त",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'पाउडर' (Coccidiosis) दस्त?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुर्गियों में 'खूनी दस्त' (Coccidiosis) का उपचार?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "'सब्जियों' में 'बैक्टीरियल विल्ट' और 'ब्लीचिंग पाउडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आम' में 'पाउडर मिल्ड्यू' का प्रबंधन?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "लीची में 'पाउडर' जैसा धब्बा (Powdery Mildew)?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गियों में 'खूनी दस्त' (Coccidiosis) का उपचार?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999027181268559,
+      "CrossScore": 0.9999027181268559
+    },
+    {
+      "Question": "पशुओं में 'पाउडर' (Coccidiosis) दस्त?",
+      "Crop": "General",
+      "FinalScore": 0.999900179111971,
+      "CrossScore": 0.999900179111971
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9996258992240713,
+      "CrossScore": 0.9996258992240713
+    },
+    {
+      "Question": "पशुओं में 'टीकाकरण' (Vaccination) क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9994787759865014,
+      "CrossScore": 0.9994787759865014
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9994370071021057,
+      "CrossScore": 0.9994370071021057
+    },
+    {
+      "Question": "'सब्जियों' में 'बैक्टीरियल विल्ट' और 'ब्लीचिंग पाउडर'?",
+      "Crop": "General",
+      "FinalScore": 0.99942421807719,
+      "CrossScore": 0.99942421807719
+    },
+    {
+      "Question": "'आम' में 'पाउडर मिल्ड्यू' का प्रबंधन?",
+      "Crop": "Mango",
+      "FinalScore": 0.9992165936855858,
+      "CrossScore": 0.9992165936855858
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.99914305808678,
+      "CrossScore": 0.99914305808678
+    },
+    {
+      "Question": "लीची में 'पाउडर' जैसा धब्बा (Powdery Mildew)?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9991162369932998,
+      "CrossScore": 0.9991162369932998
+    },
+    {
+      "Question": "पशुओं में 'खुरपका-मुंहपका' (FMD) के लक्षण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9989393702482607,
+      "CrossScore": 0.9989393702482607
+    }
+  ],
+  "latency_ms": 198.96,
+  "final_returned": [
+    {
+      "Question": "मुर्गियों में 'खूनी दस्त' (Coccidiosis) का उपचार?",
+      "Crop": "Poultry",
+      "Score": 0.9999027181268559
+    },
+    {
+      "Question": "पशुओं में 'पाउडर' (Coccidiosis) दस्त?",
+      "Crop": "General",
+      "Score": 0.999900179111971
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9996258992240713
+    },
+    {
+      "Question": "पशुओं में 'टीकाकरण' (Vaccination) क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "Score": 0.9994787759865014
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy",
+      "Score": 0.9994370071021057
+    }
+  ]
+}

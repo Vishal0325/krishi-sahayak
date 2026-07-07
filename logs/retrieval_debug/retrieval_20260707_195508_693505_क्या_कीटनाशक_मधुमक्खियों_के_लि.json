@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:08.410778",
+  "query_original": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+  "query_normalized": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं",
+  "query_expanded": "बग क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फफूंदनाशक इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या एलोवेरा के कांटे खतरनाक हैं?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "FinalScore": 9.998491871728223,
+      "CrossScore": 0.9998491871728223
+    },
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "FinalScore": 9.998358632259594,
+      "CrossScore": 0.9998358632259594
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.998057364661591,
+      "CrossScore": 0.9998057364661591
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.997579809296962,
+      "CrossScore": 0.9997579809296963
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998935054509952,
+      "CrossScore": 0.9998935054509952
+    },
+    {
+      "Question": "क्या जैविक कीटनाशक रासायनिक के समान प्रभावी हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998824910651011,
+      "CrossScore": 0.9998824910651011
+    },
+    {
+      "Question": "क्या कीटनाशक इंसानों के स्वास्थ्य पर असर डालते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998809844740839,
+      "CrossScore": 0.9998809844740839
+    },
+    {
+      "Question": "क्या रासायनिक कीटनाशक मिट्टी के मित्र कीटों को मारते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998718707904212,
+      "CrossScore": 0.9998718707904212
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998701787942226,
+      "CrossScore": 0.9998701787942226
+    },
+    {
+      "Question": "चबाने वाले कीटों (Chewing Pests) के लिए कीटनाशक?",
+      "Crop": "General",
+      "FinalScore": 0.9998658921124909,
+      "CrossScore": 0.9998658921124909
+    }
+  ],
+  "latency_ms": 282.84,
+  "final_returned": [
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "Score": 9.998491871728223
+    },
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "Score": 9.998358632259594
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "Score": 9.998057364661591
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "Score": 9.997579809296962
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "Score": 0.9998935054509952
+    }
+  ]
+}

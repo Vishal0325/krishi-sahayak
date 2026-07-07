@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:15.304028",
+  "query_original": "'अमरूद की फल मक्खी'?",
+  "query_normalized": "अमरूद की फल मक्खी",
+  "query_expanded": "अमरूद की फल मक्खी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अमरूद की फल मक्खी'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "अमरूद का 'फल मक्खी' (Fruit Fly) कीट?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "अमरूद की 'अर्का मृदुला' किस्म?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "अमरूद की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "अमरूद में 'पोटाश' की कमी से छिलके की मजबूती?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अमरूद की 'शुष्क' खेती में सफलता?",
+      "Crop": "Guava",
+      "FinalScore": 0.9999064102348996,
+      "CrossScore": 0.9999064102348996
+    },
+    {
+      "Question": "अमरूद की 'सघन' बागवानी में 'वायु संचार'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9999036569996194,
+      "CrossScore": 0.9999036569996194
+    },
+    {
+      "Question": "अमरूद का 'फल मक्खी' (Fruit Fly) कीट?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998969611761725,
+      "CrossScore": 0.9998969611761725
+    },
+    {
+      "Question": "अमरूद की 'श्वेता' किस्म?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998890535388545,
+      "CrossScore": 0.9998890535388545
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998886550355662,
+      "CrossScore": 0.9998886550355662
+    },
+    {
+      "Question": "अमरूद में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998874142074168,
+      "CrossScore": 0.9998874142074168
+    },
+    {
+      "Question": "अमरूद की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998872861638245,
+      "CrossScore": 0.9998872861638245
+    },
+    {
+      "Question": "'अमरूद की फल मक्खी'?",
+      "Crop": "Guava",
+      "FinalScore": 0.999887238755101,
+      "CrossScore": 0.999887238755101
+    },
+    {
+      "Question": "अमरूद में 'पोटाश' की कमी से छिलके की मजबूती?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998829963391664,
+      "CrossScore": 0.9998829963391664
+    },
+    {
+      "Question": "अमरूद की कटाई के बाद 'जैम' और 'जेली' बनाना?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998758997852759,
+      "CrossScore": 0.9998758997852759
+    }
+  ],
+  "latency_ms": 143.89,
+  "final_returned": [
+    {
+      "Question": "अमरूद की 'शुष्क' खेती में सफलता?",
+      "Crop": "Guava",
+      "Score": 0.9999064102348996
+    },
+    {
+      "Question": "अमरूद की 'सघन' बागवानी में 'वायु संचार'?",
+      "Crop": "Guava",
+      "Score": 0.9999036569996194
+    },
+    {
+      "Question": "अमरूद का 'फल मक्खी' (Fruit Fly) कीट?",
+      "Crop": "Guava",
+      "Score": 0.9998969611761725
+    },
+    {
+      "Question": "अमरूद की 'श्वेता' किस्म?",
+      "Crop": "Guava",
+      "Score": 0.9998890535388545
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava",
+      "Score": 0.9998886550355662
+    }
+  ]
+}

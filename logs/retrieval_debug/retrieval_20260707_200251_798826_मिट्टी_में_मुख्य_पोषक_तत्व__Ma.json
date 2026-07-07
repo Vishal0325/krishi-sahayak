@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:51.573267",
+  "query_original": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+  "query_normalized": "मिट्टी में मुख्य पोषक तत्व macronutrients कौन से हैं",
+  "query_expanded": "मिट्टी में मुख्य पोषक तत्व macronutrients कौन से हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'साफ' (Saaf) फफूंदनाशक में कौन से तत्व होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक वर्षा से मिट्टी के पोषक तत्व कम हो जाते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8571602550753,
+      "CrossScore": 0.9998571602550753
+    },
+    {
+      "Question": "सूक्ष्म पोषक तत्व (Micronutrients) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997681093770237,
+      "CrossScore": 0.9997681093770237
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996647585524934,
+      "CrossScore": 0.9996647585524934
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9996066378346959,
+      "CrossScore": 0.9996066378346959
+    },
+    {
+      "Question": "भारत में मधुमक्खियों की प्रमुख प्रजातियाँ कौन सी हैं?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9995954695295707,
+      "CrossScore": 0.9995954695295707
+    },
+    {
+      "Question": "क्या मिट्टी का स्वास्थ्य मानव स्वास्थ्य से जुड़ा है?",
+      "Crop": "General",
+      "FinalScore": 0.9995026540340181,
+      "CrossScore": 0.9995026540340181
+    },
+    {
+      "Question": "मिट्टी में बोरॉन की कमी के कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994781252449344,
+      "CrossScore": 0.9994781252449344
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994636244373796,
+      "CrossScore": 0.9994636244373796
+    },
+    {
+      "Question": "क्या अधिक वर्षा से मिट्टी के पोषक तत्व कम हो जाते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999419784976892,
+      "CrossScore": 0.999419784976892
+    },
+    {
+      "Question": "एक मधुमक्खी परिवार (Colony) में कौन-कौन होते हैं?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9993581014077056,
+      "CrossScore": 0.9993581014077056
+    }
+  ],
+  "latency_ms": 225.59,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General",
+      "Score": 999.8571602550753
+    },
+    {
+      "Question": "सूक्ष्म पोषक तत्व (Micronutrients) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997681093770237
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "Score": 0.9996647585524934
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "Score": 0.9996066378346959
+    },
+    {
+      "Question": "भारत में मधुमक्खियों की प्रमुख प्रजातियाँ कौन सी हैं?",
+      "Crop": "Beekeeping",
+      "Score": 0.9995954695295707
+    }
+  ]
+}

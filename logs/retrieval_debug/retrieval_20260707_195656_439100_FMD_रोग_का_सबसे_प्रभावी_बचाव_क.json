@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:56.237685",
+  "query_original": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+  "query_normalized": "fmd रोग का सबसे प्रभावी बचाव क्या है",
+  "query_expanded": "फंगस बीमारी fungus fmd रोग का सबसे प्रभावी बचाव क्या है disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "आलू का 'पिछेती झुलसा' (Late Blight) क्या है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "मटर का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pea"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.997697704706622,
+      "CrossScore": 0.9997697704706622
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.997424394256587,
+      "CrossScore": 0.9997424394256588
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 9.996551655480332,
+      "CrossScore": 0.9996551655480332
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 9.99654212842883,
+      "CrossScore": 0.999654212842883
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.996387646607687,
+      "CrossScore": 0.9996387646607686
+    },
+    {
+      "Question": "पिछेती झुलसा का जैविक उपचार क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 9.995785902500815,
+      "CrossScore": 0.9995785902500816
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.995739410238919,
+      "CrossScore": 0.999573941023892
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.991974970473217,
+      "CrossScore": 0.9991974970473217
+    },
+    {
+      "Question": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999901915093504,
+      "CrossScore": 0.999901915093504
+    },
+    {
+      "Question": "अमरूद का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9997709331420037,
+      "CrossScore": 0.9997709331420037
+    }
+  ],
+  "latency_ms": 201.57,
+  "final_returned": [
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 9.997697704706622
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 9.997424394256587
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "Score": 9.996551655480332
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "Score": 9.99654212842883
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.996387646607687
+    }
+  ]
+}

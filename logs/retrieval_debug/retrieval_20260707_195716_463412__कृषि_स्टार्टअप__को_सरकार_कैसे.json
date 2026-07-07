@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:16.220110",
+  "query_original": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+  "query_normalized": "कृषि स्टार्टअप को सरकार कैसे मदद करती है",
+  "query_expanded": "कृषि स्टार्टअप को सरकार कैसे मदद करती है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) बीमारियों को रोकने in कैसे मदद करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' से लागत कैसे कम होती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998944839354446,
+      "CrossScore": 0.9998944839354446
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998857264680088,
+      "CrossScore": 0.9998857264680088
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.9998801285449227,
+      "CrossScore": 0.9998801285449227
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "FinalScore": 0.9998793632435227,
+      "CrossScore": 0.9998793632435227
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998786462986553,
+      "CrossScore": 0.9998786462986553
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998745838194193,
+      "CrossScore": 0.9998745838194193
+    },
+    {
+      "Question": "कृषि को एक व्यवसाय (Business) के रूप में कैसे देखें?",
+      "Crop": "General",
+      "FinalScore": 0.999870798247849,
+      "CrossScore": 0.999870798247849
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General",
+      "FinalScore": 0.9998626039670996,
+      "CrossScore": 0.9998626039670996
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998618174807425,
+      "CrossScore": 0.9998618174807425
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "FinalScore": 0.9998605121727114,
+      "CrossScore": 0.9998605121727114
+    }
+  ],
+  "latency_ms": 243.43,
+  "final_returned": [
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "Score": 0.9998944839354446
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "Score": 0.9998857264680088
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.9998801285449227
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "Score": 0.9998793632435227
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998786462986553
+    }
+  ]
+}

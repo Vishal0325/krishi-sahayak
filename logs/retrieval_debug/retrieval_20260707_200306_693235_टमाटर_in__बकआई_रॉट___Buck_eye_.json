@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:06.498812",
+  "query_original": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+  "query_normalized": "टमाटर in बकआई रॉट buck eye rot का लक्षण",
+  "query_expanded": "टमाटर in बकआई रॉट buck eye rot का लक्षण",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'टमाटर' में 'बकआई रॉट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 49993.73176763165,
+      "CrossScore": 0.9998746353526331
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98016577616332,
+      "CrossScore": 0.9996033155232663
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.96862949109388,
+      "CrossScore": 0.9993725898218776
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.92362044033758,
+      "CrossScore": 0.9984724088067516
+    },
+    {
+      "Question": "'टमाटर' में 'बकआई रॉट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.88892191019037,
+      "CrossScore": 0.9977784382038074
+    },
+    {
+      "Question": "टमाटर in 'ब्लासम एंड रॉट' (Blossom End R) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.87137782988663,
+      "CrossScore": 0.9974275565977326
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.860372424085725,
+      "CrossScore": 0.9972074484817145
+    },
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato",
+      "FinalScore": 49.849711704133206,
+      "CrossScore": 0.9969942340826641
+    },
+    {
+      "Question": "'टमाटर' में 'ब्लॉसम एंड रॉट' और 'कैल्शियम'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.84415655816134,
+      "CrossScore": 0.9968831311632268
+    },
+    {
+      "Question": "टमाटर की खेती में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Tomato",
+      "FinalScore": 49.8395873486159,
+      "CrossScore": 0.996791746972318
+    }
+  ],
+  "latency_ms": 194.46,
+  "final_returned": [
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "Score": 49993.73176763165
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato",
+      "Score": 49.98016577616332
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "Score": 49.96862949109388
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "Score": 49.92362044033758
+    },
+    {
+      "Question": "'टमाटर' में 'बकआई रॉट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Tomato",
+      "Score": 49.88892191019037
+    }
+  ]
+}

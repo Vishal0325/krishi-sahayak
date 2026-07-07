@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:04.491244",
+  "query_original": "'अंडा ग्रेडिंग' मशीन?",
+  "query_normalized": "अंडा ग्रेडिंग मशीन",
+  "query_expanded": "अंडा ग्रेडिंग मशीन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अंडा ग्रेडिंग' मशीन?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "'ऑटोमेटिक ग्रेडिंग मशीन'?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "अमरूद की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अंडा ग्रेडिंग' मशीन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998764575498617,
+      "CrossScore": 0.9998764575498617
+    },
+    {
+      "Question": "'मखाना' की प्रोसेसिंग में 'ग्रेडिंग' क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.9998625852309542,
+      "CrossScore": 0.9998625852309542
+    },
+    {
+      "Question": "अश्वगंधा की जड़ों की 'ग्रेडिंग'?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998351861915373,
+      "CrossScore": 0.9998351861915373
+    },
+    {
+      "Question": "'ऑटोमेटिक ग्रेडिंग मशीन'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998327536074215,
+      "CrossScore": 0.9998327536074215
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' के लिए छोटी मशीन (Mini Dal Mill)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998297937614894,
+      "CrossScore": 0.9998297937614894
+    },
+    {
+      "Question": "औषधीय पौधों की 'ग्रेडिंग' का मापदंड?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998288717173918,
+      "CrossScore": 0.9998288717173918
+    },
+    {
+      "Question": "प्याज की खुदाई के बाद 'ग्रेडिंग' का व्यापारिक लाभ?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998200811431388,
+      "CrossScore": 0.9998200811431388
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' में किन बातों का ध्यान रखें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998181057532176,
+      "CrossScore": 0.9998181057532176
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.999798403897803,
+      "CrossScore": 0.999798403897803
+    },
+    {
+      "Question": "धनिया की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997890401257647,
+      "CrossScore": 0.9997890401257647
+    }
+  ],
+  "latency_ms": 167.28,
+  "final_returned": [
+    {
+      "Question": "'अंडा ग्रेडिंग' मशीन?",
+      "Crop": "Poultry",
+      "Score": 0.9998764575498617
+    },
+    {
+      "Question": "'मखाना' की प्रोसेसिंग में 'ग्रेडिंग' क्यों?",
+      "Crop": "General",
+      "Score": 0.9998625852309542
+    },
+    {
+      "Question": "अश्वगंधा की जड़ों की 'ग्रेडिंग'?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998351861915373
+    },
+    {
+      "Question": "'ऑटोमेटिक ग्रेडिंग मशीन'?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998327536074215
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' के लिए छोटी मशीन (Mini Dal Mill)?",
+      "Crop": "Pulses",
+      "Score": 0.9998297937614894
+    }
+  ]
+}

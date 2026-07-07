@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:48.991023",
+  "query_original": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+  "query_normalized": "राष्ट्रीय सतत कृषि मिशन nmsa क्या है",
+  "query_expanded": "राष्ट्रीय सतत कृषि मिशन nmsa क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998821953243203,
+      "CrossScore": 0.9998821953243203
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998514496244005,
+      "CrossScore": 0.9998514496244005
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998025395300484,
+      "CrossScore": 0.9998025395300484
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.99979882710212,
+      "CrossScore": 0.99979882710212
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997919882306107,
+      "CrossScore": 0.9997919882306107
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9997781798136409,
+      "CrossScore": 0.9997781798136409
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997777911646154,
+      "CrossScore": 0.9997777911646154
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997739161865534,
+      "CrossScore": 0.9997739161865534
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997719386504572,
+      "CrossScore": 0.9997719386504572
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997621886064105,
+      "CrossScore": 0.9997621886064105
+    }
+  ],
+  "latency_ms": 243.88,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998821953243203
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.9998514496244005
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998025395300484
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.99979882710212
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997919882306107
+    }
+  ]
+}

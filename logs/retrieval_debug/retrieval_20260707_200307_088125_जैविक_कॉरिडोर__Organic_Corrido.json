@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:06.870999",
+  "query_original": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+  "query_normalized": "जैविक कॉरिडोर organic corridor बिहार में क्या है",
+  "query_expanded": "जैविक कॉरिडोर organic corridor बिहार में क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक दवाओं से कीटों में प्रतिरोध आता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9078331315384,
+      "CrossScore": 0.9999078331315384
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999197656866403,
+      "CrossScore": 0.9999197656866403
+    },
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997605333351863,
+      "CrossScore": 0.9997605333351863
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9996674176064928,
+      "CrossScore": 0.9996674176064928
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996580467447987,
+      "CrossScore": 0.9996580467447987
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मजदूरी' अधिक लगती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9983015283753682,
+      "CrossScore": 0.9983015283753682
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9981415350925362,
+      "CrossScore": 0.9981415350925362
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9980870784107214,
+      "CrossScore": 0.9980870784107214
+    },
+    {
+      "Question": "क्या जैविक खेती में 'जिंक' की कमी हो सकती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.997946083426343,
+      "CrossScore": 0.997946083426343
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9978653141381149,
+      "CrossScore": 0.9978653141381149
+    }
+  ],
+  "latency_ms": 217.16,
+  "final_returned": [
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General",
+      "Score": 999.9078331315384
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999197656866403
+    },
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997605333351863
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9996674176064928
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9996580467447987
+    }
+  ]
+}

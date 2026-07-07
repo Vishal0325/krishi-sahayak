@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:43.718619",
+  "query_original": "कीटनाशकों के पैकेट पर 'Batch No' और 'Expiry'?",
+  "query_normalized": "कीटनाशकों के पैकेट पर batch no और expiry",
+  "query_expanded": "बग pest कीड़ा कीट कीटनाशकों के पैकेट पर batch no और expiry insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटनाशकों के पैकेट पर 'Batch No' और 'Expiry'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के पैकेट पर 'लाल' निशान क्या दर्शाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' के पैकेट पर लाल त्रिकोण का मतलब?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'नहर'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'नहर'?",
+      "Crop": "General",
+      "FinalScore": 9.927972838919752,
+      "CrossScore": 0.9927972838919752
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 9.90975414450038,
+      "CrossScore": 0.9909754144500379
+    },
+    {
+      "Question": "कीटनाशकों के लेबल पर 'लाल' रंग के निशान का क्या मतलब है?",
+      "Crop": "General",
+      "FinalScore": 9.90032347200156,
+      "CrossScore": 0.990032347200156
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली डिब्बों और 'नदी'?",
+      "Crop": "General",
+      "FinalScore": 9.883459787696342,
+      "CrossScore": 0.9883459787696343
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.87141537203184,
+      "CrossScore": 0.9871415372031841
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.862907942507515,
+      "CrossScore": 0.9862907942507515
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "FinalScore": 9.84076812781521,
+      "CrossScore": 0.9840768127815209
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.828234197841253,
+      "CrossScore": 0.9828234197841254
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 9.757653197593028,
+      "CrossScore": 0.9757653197593028
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.74491149750233,
+      "CrossScore": 0.974491149750233
+    }
+  ],
+  "latency_ms": 198.62,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'नहर'?",
+      "Crop": "General",
+      "Score": 9.927972838919752
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 9.90975414450038
+    },
+    {
+      "Question": "कीटनाशकों के लेबल पर 'लाल' रंग के निशान का क्या मतलब है?",
+      "Crop": "General",
+      "Score": 9.90032347200156
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली डिब्बों और 'नदी'?",
+      "Crop": "General",
+      "Score": 9.883459787696342
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "Score": 9.87141537203184
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:29.525049",
+  "query_original": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+  "query_normalized": "कीट प्रबंधन में शिक्षा का महत्व",
+  "query_expanded": "बग pest कीड़ा कीट कीट प्रबंधन में शिक्षा का महत्व insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में सफलता का राज?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.999013284916836,
+      "CrossScore": 0.9999013284916837
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General",
+      "FinalScore": 9.99889601469411,
+      "CrossScore": 0.999889601469411
+    },
+    {
+      "Question": "'कीट प्रबंधन' में सफलता का राज?",
+      "Crop": "General",
+      "FinalScore": 9.998781436236104,
+      "CrossScore": 0.9998781436236104
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 9.998703192211003,
+      "CrossScore": 0.9998703192211003
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.998667475627215,
+      "CrossScore": 0.9998667475627214
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.998647527661074,
+      "CrossScore": 0.9998647527661073
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.998627270642118,
+      "CrossScore": 0.9998627270642118
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.998454096345748,
+      "CrossScore": 0.9998454096345748
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General",
+      "FinalScore": 9.998265279936625,
+      "CrossScore": 0.9998265279936625
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.9998637132079115,
+      "CrossScore": 0.9998637132079115
+    }
+  ],
+  "latency_ms": 224.55,
+  "final_returned": [
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.999013284916836
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General",
+      "Score": 9.99889601469411
+    },
+    {
+      "Question": "'कीट प्रबंधन' में सफलता का राज?",
+      "Crop": "General",
+      "Score": 9.998781436236104
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+      "Crop": "General",
+      "Score": 9.998703192211003
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'शिक्षा'?",
+      "Crop": "General",
+      "Score": 9.998667475627215
+    }
+  ]
+}

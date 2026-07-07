@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:14.274590",
+  "query_original": "खारी मिट्टी के लिए सबसे अच्छा उर्वरक?",
+  "query_normalized": "खारी मिट्टी के लिए सबसे अच्छा उर्वरक",
+  "query_expanded": "खाद poshak खारी मिट्टी के लिए सबसे अच्छा उर्वरक fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खारी मिट्टी के लिए सबसे अच्छा उर्वरक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बनाने के लिए सबसे अच्छा केंचुआ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हरी खाद' के लिए सबसे अच्छी फसल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों के लिए 'तरल जैविक खाद' (Liquid Organic Fertilizer)?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "मृदा जनित रोगों (Soil Borne Diseases) के लिए सबसे अच्छा जैविक समाधान क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खारी मिट्टी के लिए सबसे अच्छा उर्वरक?",
+      "Crop": "General",
+      "FinalScore": 0.999880763875169,
+      "CrossScore": 0.999880763875169
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998774765761432,
+      "CrossScore": 0.9998774765761432
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998767180943906,
+      "CrossScore": 0.9998767180943906
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998648307670522,
+      "CrossScore": 0.9998648307670522
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998644600877002,
+      "CrossScore": 0.9998644600877002
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998617196780732,
+      "CrossScore": 0.9998617196780732
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बनाने के लिए सबसे अच्छा केंचुआ?",
+      "Crop": "General",
+      "FinalScore": 0.9998572600570983,
+      "CrossScore": 0.9998572600570983
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998471802310525,
+      "CrossScore": 0.9998471802310525
+    },
+    {
+      "Question": "उर्वरक प्रबंधन में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9998407679023137,
+      "CrossScore": 0.9998407679023137
+    },
+    {
+      "Question": "क्या खाद डालने के तुरंत बाद बारिश होना अच्छा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998400113572213,
+      "CrossScore": 0.9998400113572213
+    }
+  ],
+  "latency_ms": 200.78,
+  "final_returned": [
+    {
+      "Question": "खारी मिट्टी के लिए सबसे अच्छा उर्वरक?",
+      "Crop": "General",
+      "Score": 0.999880763875169
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998774765761432
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "Score": 0.9998767180943906
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "Score": 0.9998648307670522
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "Score": 0.9998644600877002
+    }
+  ]
+}

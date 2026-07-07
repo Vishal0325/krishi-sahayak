@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:51.663564",
+  "query_original": "ग्रामीण विकास मंत्रालय की 'आजीविका' योजना?",
+  "query_normalized": "ग्रामीण विकास मंत्रालय की आजीविका योजना",
+  "query_expanded": "ग्रामीण विकास मंत्रालय की आजीविका योजना",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ग्रामीण विकास मंत्रालय की 'आजीविका' योजना?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'बोरॉन' की कमी से जड़ों का विकास?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "हल्दी में 'जिंक' की कमी से प्रकंदों का विकास?",
+      "Crop": "Turmeric"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ग्रामीण विकास मंत्रालय की 'आजीविका' योजना?",
+      "Crop": "General",
+      "FinalScore": 9998.492975743544,
+      "CrossScore": 0.9998492975743544
+    },
+    {
+      "Question": "ग्रामीण भंडारण योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99804573284848,
+      "CrossScore": 0.999804573284848
+    },
+    {
+      "Question": "बिहार में 'मखाना विकास' की योजनाएं?",
+      "Crop": "General",
+      "FinalScore": 9.997781330678162,
+      "CrossScore": 0.9997781330678162
+    },
+    {
+      "Question": "राष्ट्रीय कृषि विकास योजना (RKVY)?",
+      "Crop": "General",
+      "FinalScore": 9.997758391797708,
+      "CrossScore": 0.9997758391797708
+    },
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997488613444318,
+      "CrossScore": 0.9997488613444317
+    },
+    {
+      "Question": "क्या गोबर से पेंट बनाने की कोई योजना है?",
+      "Crop": "General",
+      "FinalScore": 9.997359104963099,
+      "CrossScore": 0.9997359104963099
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "FinalScore": 9.996517714186467,
+      "CrossScore": 0.9996517714186468
+    },
+    {
+      "Question": "गन्ने की 'राजेंद्र गन्ना-1' किस्म की विशेषता?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997820143645615,
+      "CrossScore": 0.9997820143645615
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "FinalScore": 0.999748408146871,
+      "CrossScore": 0.999748408146871
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997393867815961,
+      "CrossScore": 0.9997393867815961
+    }
+  ],
+  "latency_ms": 227.47,
+  "final_returned": [
+    {
+      "Question": "ग्रामीण विकास मंत्रालय की 'आजीविका' योजना?",
+      "Crop": "General",
+      "Score": 9998.492975743544
+    },
+    {
+      "Question": "ग्रामीण भंडारण योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.99804573284848
+    },
+    {
+      "Question": "बिहार में 'मखाना विकास' की योजनाएं?",
+      "Crop": "General",
+      "Score": 9.997781330678162
+    },
+    {
+      "Question": "राष्ट्रीय कृषि विकास योजना (RKVY)?",
+      "Crop": "General",
+      "Score": 9.997758391797708
+    },
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General",
+      "Score": 9.997488613444318
+    }
+  ]
+}

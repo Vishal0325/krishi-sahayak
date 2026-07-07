@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:10.820717",
+  "query_original": "नमक के घोल का बीज उपचार?",
+  "query_normalized": "नमक के घोल का बीज उपचार",
+  "query_expanded": "नमक के घोल का बीज उपचार",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नमक के घोल का बीज उपचार?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "नमक के घोल से बीज उपचार?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "चने की खेती में 'नमक के घोल' का छिड़काव क्या कीड़ों को रोकता है?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नमक के घोल का बीज उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999171394566279,
+      "CrossScore": 0.9999171394566279
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार' के रसायनों का क्रम?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9999161281805913,
+      "CrossScore": 0.9999161281805913
+    },
+    {
+      "Question": "मुर्गियों के लिए 'नमक' का घोल?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999071234336362,
+      "CrossScore": 0.9999071234336362
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999047635220318,
+      "CrossScore": 0.9999047635220318
+    },
+    {
+      "Question": "नमक के घोल से बीज उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 0.999903773788685,
+      "CrossScore": 0.999903773788685
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9999028095513449,
+      "CrossScore": 0.9999028095513449
+    },
+    {
+      "Question": "मधुमक्खियों के लिए 'नमक का पानी'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999009183449843,
+      "CrossScore": 0.9999009183449843
+    },
+    {
+      "Question": "मक्का का बीज उपचार कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.999897639938745,
+      "CrossScore": 0.999897639938745
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998973409194939,
+      "CrossScore": 0.9998973409194939
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998889250293009,
+      "CrossScore": 0.9998889250293009
+    }
+  ],
+  "latency_ms": 200.09,
+  "final_returned": [
+    {
+      "Question": "नमक के घोल का बीज उपचार?",
+      "Crop": "Rice",
+      "Score": 0.9999171394566279
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार' के रसायनों का क्रम?",
+      "Crop": "Pulses",
+      "Score": 0.9999161281805913
+    },
+    {
+      "Question": "मुर्गियों के लिए 'नमक' का घोल?",
+      "Crop": "Poultry",
+      "Score": 0.9999071234336362
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "Score": 0.9999047635220318
+    },
+    {
+      "Question": "नमक के घोल से बीज उपचार?",
+      "Crop": "Rice",
+      "Score": 0.999903773788685
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:52.637985",
+  "query_original": "ओलों के बाद फसल की 'हीलिंग'?",
+  "query_normalized": "ओलों के बाद फसल की हीलिंग",
+  "query_expanded": "ओलों के बाद फसल की हीलिंग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ओलों के बाद फसल की 'हीलिंग'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ओलावृष्टि' (Hailstorm) के बाद फसल की देखभाल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद की कटाई के बाद 'खेत' की सफाई?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "चने की खेती में 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "भिंडी की कटाई के बाद 'खेत' की सफाई?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ओलों के बाद फसल की 'हीलिंग'?",
+      "Crop": "General",
+      "FinalScore": 999.910480096217,
+      "CrossScore": 0.9999104800962171
+    },
+    {
+      "Question": "बैंगन की कटाई के बाद 'पैकेजिंग' के लिए क्रेट्स?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999121543878917,
+      "CrossScore": 0.9999121543878917
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'लोडिंग' की चुनौती?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999090113361042,
+      "CrossScore": 0.9999090113361042
+    },
+    {
+      "Question": "भिंडी की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999078073764421,
+      "CrossScore": 0.9999078073764421
+    },
+    {
+      "Question": "मिर्च की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999076202824932,
+      "CrossScore": 0.9999076202824932
+    },
+    {
+      "Question": "धनिया की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998977680180823,
+      "CrossScore": 0.9998977680180823
+    },
+    {
+      "Question": "'छिड़काव' के बाद स्प्रेयर की सफाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998976630692678,
+      "CrossScore": 0.9998976630692678
+    },
+    {
+      "Question": "बैंगन की खुदाई के बाद 'जड़ों' का प्रबंधन?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998951216253481,
+      "CrossScore": 0.9998951216253481
+    },
+    {
+      "Question": "बैंगन की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998929403529635,
+      "CrossScore": 0.9998929403529635
+    },
+    {
+      "Question": "गेहूं की 'पडलिंग' के बाद बुआई (Wheat after Rice)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998859341885779,
+      "CrossScore": 0.9998859341885779
+    }
+  ],
+  "latency_ms": 168.41,
+  "final_returned": [
+    {
+      "Question": "ओलों के बाद फसल की 'हीलिंग'?",
+      "Crop": "General",
+      "Score": 999.910480096217
+    },
+    {
+      "Question": "बैंगन की कटाई के बाद 'पैकेजिंग' के लिए क्रेट्स?",
+      "Crop": "Brinjal",
+      "Score": 0.9999121543878917
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'लोडिंग' की चुनौती?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999090113361042
+    },
+    {
+      "Question": "भिंडी की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Okra",
+      "Score": 0.9999078073764421
+    },
+    {
+      "Question": "मिर्च की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Chilli",
+      "Score": 0.9999076202824932
+    }
+  ]
+}

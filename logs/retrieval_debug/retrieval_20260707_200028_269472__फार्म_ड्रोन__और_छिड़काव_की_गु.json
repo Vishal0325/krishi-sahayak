@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:28.083589",
+  "query_original": "'फार्म ड्रोन' और छिड़काव की गुणवत्ता?",
+  "query_normalized": "फार्म ड्रोन और छिड़काव की गुणवत्ता",
+  "query_expanded": "फार्म ड्रोन और छिड़काव की गुणवत्ता",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फार्म ड्रोन' और छिड़काव की गुणवत्ता?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "क्या मशीनों से फसल की गुणवत्ता सुधरती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मूंग की खेती में 'सल्फर' का छिड़काव?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'ड्रोन' से छिड़काव का समय?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फार्म ड्रोन' और छिड़काव की गुणवत्ता?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.8816468725331,
+      "CrossScore": 0.9998816468725331
+    },
+    {
+      "Question": "'ड्रोन' से छिड़काव के लिए लाइसेंस?",
+      "Crop": "General",
+      "FinalScore": 0.9998987040574036,
+      "CrossScore": 0.9998987040574036
+    },
+    {
+      "Question": "दूध की 'गुणवत्ता' कैसे जांचें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998801486608487,
+      "CrossScore": 0.9998801486608487
+    },
+    {
+      "Question": "मशरूम की खेती के लिए 'जल' की गुणवत्ता?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998624742029344,
+      "CrossScore": 0.9998624742029344
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.999860023847915,
+      "CrossScore": 0.999860023847915
+    },
+    {
+      "Question": "फसल सुरक्षा में 'ड्रोन' की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9998578536116578,
+      "CrossScore": 0.9998578536116578
+    },
+    {
+      "Question": "फार्म बिजनेस में 'पैकेजिंग' की कला?",
+      "Crop": "General",
+      "FinalScore": 0.9998452000285992,
+      "CrossScore": 0.9998452000285992
+    },
+    {
+      "Question": "क्या रसायनों से फसल की गुणवत्ता गिरती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998398040565595,
+      "CrossScore": 0.9998398040565595
+    },
+    {
+      "Question": "गेहूं में 'पोटाश' की कमी से दानों की गुणवत्ता?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998334414270116,
+      "CrossScore": 0.9998334414270116
+    },
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998320571830999,
+      "CrossScore": 0.9998320571830999
+    }
+  ],
+  "latency_ms": 185.92,
+  "final_returned": [
+    {
+      "Question": "'फार्म ड्रोन' और छिड़काव की गुणवत्ता?",
+      "Crop": "Agri Tech",
+      "Score": 999.8816468725331
+    },
+    {
+      "Question": "'ड्रोन' से छिड़काव के लिए लाइसेंस?",
+      "Crop": "General",
+      "Score": 0.9998987040574036
+    },
+    {
+      "Question": "दूध की 'गुणवत्ता' कैसे जांचें?",
+      "Crop": "Dairy",
+      "Score": 0.9998801486608487
+    },
+    {
+      "Question": "मशरूम की खेती के लिए 'जल' की गुणवत्ता?",
+      "Crop": "Mushroom",
+      "Score": 0.9998624742029344
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.999860023847915
+    }
+  ]
+}

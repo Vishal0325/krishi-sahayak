@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:30.354382",
+  "query_original": "'स्मार्ट एग्री-वेयरहाउस'?",
+  "query_normalized": "स्मार्ट एग्री वेयरहाउस",
+  "query_expanded": "स्मार्ट एग्री वेयरहाउस",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्मार्ट एग्री-वेयरहाउस'?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'वेयरहाउस रसीद' (Warehouse Receipt) पर लोन?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'इंक्यूबेशन सेंटर'?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998965550747402,
+      "CrossScore": 0.9998965550747402
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998856518010422,
+      "CrossScore": 0.9998856518010422
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998764891174896,
+      "CrossScore": 0.9998764891174896
+    },
+    {
+      "Question": "एग्री-स्टार्टअप शुरू करने वाले युवाओं के लिए सलाह?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998742336468942,
+      "CrossScore": 0.9998742336468942
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998723457907339,
+      "CrossScore": 0.9998723457907339
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "FinalScore": 0.9998690041823362,
+      "CrossScore": 0.9998690041823362
+    },
+    {
+      "Question": "'स्मार्ट एग्री-वेयरहाउस'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998613123030261,
+      "CrossScore": 0.9998613123030261
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998593247116722,
+      "CrossScore": 0.9998593247116722
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998532701655592,
+      "CrossScore": 0.9998532701655592
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999844174327432,
+      "CrossScore": 0.999844174327432
+    }
+  ],
+  "latency_ms": 182.57,
+  "final_returned": [
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'इंक्यूबेशन सेंटर'?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998965550747402
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998856518010422
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998764891174896
+    },
+    {
+      "Question": "एग्री-स्टार्टअप शुरू करने वाले युवाओं के लिए सलाह?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998742336468942
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998723457907339
+    }
+  ]
+}

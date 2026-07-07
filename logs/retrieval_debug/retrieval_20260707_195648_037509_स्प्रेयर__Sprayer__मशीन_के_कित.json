@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:47.812180",
+  "query_original": "स्प्रेयर (Sprayer) मशीन के कितने प्रकार होते हैं?",
+  "query_normalized": "स्प्रेयर sprayer मशीन के कितने प्रकार होते हैं",
+  "query_expanded": "स्प्रेयर sprayer मशीन के कितने प्रकार होते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "स्प्रेयर (Sprayer) मशीन के कितने प्रकार होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी शोरूम होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "स्प्रेयर (Sprayer) मशीन के कितने प्रकार होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999910098042395,
+      "CrossScore": 0.999910098042395
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997584097472538,
+      "CrossScore": 0.9997584097472538
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997259592358317,
+      "CrossScore": 0.9997259592358317
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.999714619224914,
+      "CrossScore": 0.999714619224914
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996944941168535,
+      "CrossScore": 0.9996944941168535
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996777374394522,
+      "CrossScore": 0.9996777374394522
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996456384889194,
+      "CrossScore": 0.9996456384889194
+    },
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato",
+      "FinalScore": 0.9996319744322308,
+      "CrossScore": 0.9996319744322308
+    },
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General",
+      "FinalScore": 0.999603000203594,
+      "CrossScore": 0.999603000203594
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995952021967729,
+      "CrossScore": 0.9995952021967729
+    }
+  ],
+  "latency_ms": 225.47,
+  "final_returned": [
+    {
+      "Question": "स्प्रेयर (Sprayer) मशीन के कितने प्रकार होते हैं?",
+      "Crop": "General",
+      "Score": 0.999910098042395
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9997584097472538
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.9997259592358317
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "Score": 0.999714619224914
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "Score": 0.9996944941168535
+    }
+  ]
+}

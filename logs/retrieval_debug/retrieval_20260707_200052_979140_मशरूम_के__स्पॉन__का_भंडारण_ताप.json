@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:52.808296",
+  "query_original": "मशरूम के 'स्पॉन' का भंडारण तापमान?",
+  "query_normalized": "मशरूम के स्पॉन का भंडारण तापमान",
+  "query_expanded": "मशरूम के स्पॉन का भंडारण तापमान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम के 'स्पॉन' का भंडारण तापमान?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "अमरूद के भंडारण में 'पारे' की गोली का खतरा?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च के भंडारण में 'पारे' की गोली का खतरा?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "भिंडी के भंडारण में 'पारे' की गोली का खतरा?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम के 'स्पॉन' का भंडारण तापमान?",
+      "Crop": "Mushroom",
+      "FinalScore": 999.9062803815112,
+      "CrossScore": 0.9999062803815112
+    },
+    {
+      "Question": "बटन मशरूम के लिए उपयुक्त तापमान क्या है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999309748613655,
+      "CrossScore": 0.9999309748613655
+    },
+    {
+      "Question": "दालों के भंडारण में 'तापमान'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999916290941106,
+      "CrossScore": 0.999916290941106
+    },
+    {
+      "Question": "मशरूम के 'वेस्ट' (बचे हुए भूसे) का क्या करें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999053529026514,
+      "CrossScore": 0.9999053529026514
+    },
+    {
+      "Question": "मशरूम के भंडारण के तरीके?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999019825068156,
+      "CrossScore": 0.9999019825068156
+    },
+    {
+      "Question": "गेहूं की 'मृदा' का तापमान जमाव के लिए?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998981727568192,
+      "CrossScore": 0.9998981727568192
+    },
+    {
+      "Question": "मशरूम के 'धब्बों' (Spots) का कारण?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998913823747441,
+      "CrossScore": 0.9998913823747441
+    },
+    {
+      "Question": "टमाटर के भंडारण में 'चूहों' का नुकसान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998863764548843,
+      "CrossScore": 0.9998863764548843
+    },
+    {
+      "Question": "प्याज के लिए 'शीत भंडार' (Cold Storage) का तापमान?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998825308368599,
+      "CrossScore": 0.9998825308368599
+    },
+    {
+      "Question": "लहसुन के भंडारण में 'चूहों' का प्रबंधन?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998793915386415,
+      "CrossScore": 0.9998793915386415
+    }
+  ],
+  "latency_ms": 170.95,
+  "final_returned": [
+    {
+      "Question": "मशरूम के 'स्पॉन' का भंडारण तापमान?",
+      "Crop": "Mushroom",
+      "Score": 999.9062803815112
+    },
+    {
+      "Question": "बटन मशरूम के लिए उपयुक्त तापमान क्या है?",
+      "Crop": "Mushroom",
+      "Score": 0.9999309748613655
+    },
+    {
+      "Question": "दालों के भंडारण में 'तापमान'?",
+      "Crop": "Pulses",
+      "Score": 0.999916290941106
+    },
+    {
+      "Question": "मशरूम के 'वेस्ट' (बचे हुए भूसे) का क्या करें?",
+      "Crop": "Mushroom",
+      "Score": 0.9999053529026514
+    },
+    {
+      "Question": "मशरूम के भंडारण के तरीके?",
+      "Crop": "Mushroom",
+      "Score": 0.9999019825068156
+    }
+  ]
+}

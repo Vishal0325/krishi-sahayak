@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:36.807211",
+  "query_original": "'पोमोलॉजी' (Pomology) किसे कहते हैं?",
+  "query_normalized": "पोमोलॉजी pomology किसे कहते हैं",
+  "query_expanded": "पोमोलॉजी pomology किसे कहते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पोमोलॉजी' (Pomology) किसे कहते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सफ़ेद मूसली को 'व्हाइट गोल्ड' क्यों कहते हैं?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "'केंचुओं' को किसान का मित्र क्यों कहते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कैल्शियम अमोनियम नाइट्रेट (CAN) को 'किसान खाद' क्यों कहते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के पौधों में 'जिंक' की कमी के लक्षण हैं?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पोमोलॉजी' (Pomology) किसे कहते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.893033111757,
+      "CrossScore": 0.9998930331117569
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9993607156690334,
+      "CrossScore": 0.9993607156690334
+    },
+    {
+      "Question": "कैल्शियम अमोनियम नाइट्रेट (CAN) को 'किसान खाद' क्यों कहते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992405653728055,
+      "CrossScore": 0.9992405653728055
+    },
+    {
+      "Question": "'केंचुओं' को किसान का मित्र क्यों कहते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991952962544204,
+      "CrossScore": 0.9991952962544204
+    },
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991653536535928,
+      "CrossScore": 0.9991653536535928
+    },
+    {
+      "Question": "मेंथा की खेती में 'सकर्स' (Stolons) क्या हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991603645071451,
+      "CrossScore": 0.9991603645071451
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991566813538248,
+      "CrossScore": 0.9991566813538248
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9991542470414972,
+      "CrossScore": 0.9991542470414972
+    },
+    {
+      "Question": "क्या औषधीय पौधों को 'कीट' नुकसान पहुँचाते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991204864009104,
+      "CrossScore": 0.9991204864009104
+    },
+    {
+      "Question": "सफ़ेद मूसली को 'व्हाइट गोल्ड' क्यों कहते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991049576366736,
+      "CrossScore": 0.9991049576366736
+    }
+  ],
+  "latency_ms": 202.2,
+  "final_returned": [
+    {
+      "Question": "'पोमोलॉजी' (Pomology) किसे कहते हैं?",
+      "Crop": "General",
+      "Score": 999.893033111757
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9993607156690334
+    },
+    {
+      "Question": "कैल्शियम अमोनियम नाइट्रेट (CAN) को 'किसान खाद' क्यों कहते हैं?",
+      "Crop": "General",
+      "Score": 0.9992405653728055
+    },
+    {
+      "Question": "'केंचुओं' को किसान का मित्र क्यों कहते हैं?",
+      "Crop": "General",
+      "Score": 0.9991952962544204
+    },
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9991653536535928
+    }
+  ]
+}

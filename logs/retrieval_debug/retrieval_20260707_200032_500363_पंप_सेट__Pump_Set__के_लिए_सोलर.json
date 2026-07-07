@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:32.284268",
+  "query_original": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+  "query_normalized": "पंप सेट pump set के लिए सोलर पैनल का उपयोग कैसे करें",
+  "query_expanded": "पंप सेट pump set के लिए सोलर पैनल का उपयोग कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "अमरूद में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "फलों को 'एक समान पकाने' के लिए क्या उपयोग करें?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.8839576750581,
+      "CrossScore": 0.9998839576750581
+    },
+    {
+      "Question": "सोलर पंप (Solar Pump) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9996075966438001,
+      "CrossScore": 0.9996075966438001
+    },
+    {
+      "Question": "मक्का की 'सिंचाई' के लिए 'पंप सेट' की सर्विस?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994307820931729,
+      "CrossScore": 0.9994307820931729
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9994041490019205,
+      "CrossScore": 0.9994041490019205
+    },
+    {
+      "Question": "सिंचाई के लिए 'टेंसियोमीटर' (Tensiometer) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9993098263089651,
+      "CrossScore": 0.9993098263089651
+    },
+    {
+      "Question": "पपीते के लिए 'नर्सरी' कैसे तैयार करें?",
+      "Crop": "Papaya",
+      "FinalScore": 0.999077126308974,
+      "CrossScore": 0.999077126308974
+    },
+    {
+      "Question": "निर्यात (Export) के लिए खेती कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9988869648936823,
+      "CrossScore": 0.9988869648936823
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9987914663996685,
+      "CrossScore": 0.9987914663996685
+    },
+    {
+      "Question": "फलों को 'एक समान पकाने' के लिए क्या उपयोग करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9986969859267723,
+      "CrossScore": 0.9986969859267723
+    },
+    {
+      "Question": "मिर्च में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.998632885170257,
+      "CrossScore": 0.998632885170257
+    }
+  ],
+  "latency_ms": 216.13,
+  "final_returned": [
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General",
+      "Score": 999.8839576750581
+    },
+    {
+      "Question": "सोलर पंप (Solar Pump) के लाभ?",
+      "Crop": "General",
+      "Score": 0.9996075966438001
+    },
+    {
+      "Question": "मक्का की 'सिंचाई' के लिए 'पंप सेट' की सर्विस?",
+      "Crop": "Maize",
+      "Score": 0.9994307820931729
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "Score": 0.9994041490019205
+    },
+    {
+      "Question": "सिंचाई के लिए 'टेंसियोमीटर' (Tensiometer) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9993098263089651
+    }
+  ]
+}

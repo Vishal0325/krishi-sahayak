@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:37.595523",
+  "query_original": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+  "query_normalized": "एजोला azolla का चारा के रूप में उपयोग",
+  "query_expanded": "एजोला azolla का चारा के रूप में उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.8902003145319,
+      "CrossScore": 0.9998902003145319
+    },
+    {
+      "Question": "मक्का में 'चूहों' के लिए 'बाउमा' (ट्रैप) का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997673377950759,
+      "CrossScore": 0.9997673377950759
+    },
+    {
+      "Question": "सरसों में 'खरपतवार' नियंत्रण के लिए 'एट्राजीन' का उपयोग?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9997471981897745,
+      "CrossScore": 0.9997471981897745
+    },
+    {
+      "Question": "अश्वगंधा के बीजों का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997242572603764,
+      "CrossScore": 0.9997242572603764
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999722323483446,
+      "CrossScore": 0.999722323483446
+    },
+    {
+      "Question": "सब्जियों में 'जैविक कीटनाशक' के रूप में क्या उपयोग करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997111827067171,
+      "CrossScore": 0.9997111827067171
+    },
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996866420697422,
+      "CrossScore": 0.9996866420697422
+    },
+    {
+      "Question": "आलू के भंडारण में 'नेप्थलीन' का उपयोग?",
+      "Crop": "Potato",
+      "FinalScore": 0.9996764722293771,
+      "CrossScore": 0.9996764722293771
+    },
+    {
+      "Question": "मक्का में 'चूहों' के लिए 'गैस' का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996590061204749,
+      "CrossScore": 0.9996590061204749
+    },
+    {
+      "Question": "प्याज में 'चूहों' के लिए 'जिंक फास्फाइड' का उपयोग?",
+      "Crop": "Onion",
+      "FinalScore": 0.9996483784221406,
+      "CrossScore": 0.9996483784221406
+    }
+  ],
+  "latency_ms": 183.07,
+  "final_returned": [
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 999.8902003145319
+    },
+    {
+      "Question": "मक्का में 'चूहों' के लिए 'बाउमा' (ट्रैप) का उपयोग?",
+      "Crop": "Maize",
+      "Score": 0.9997673377950759
+    },
+    {
+      "Question": "सरसों में 'खरपतवार' नियंत्रण के लिए 'एट्राजीन' का उपयोग?",
+      "Crop": "Mustard",
+      "Score": 0.9997471981897745
+    },
+    {
+      "Question": "अश्वगंधा के बीजों का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9997242572603764
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses",
+      "Score": 0.999722323483446
+    }
+  ]
+}

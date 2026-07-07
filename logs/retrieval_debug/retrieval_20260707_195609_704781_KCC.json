@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:56:09.156357",
+  "query_original": "KCC",
+  "query_normalized": "kcc",
+  "query_expanded": "kcc",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "KCC बनवाने के लिए किन दस्तावेजों की जरूरत होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "KCC की लिमिट कैसे तय होती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.995202513894286,
+      "CrossScore": 0.9995202513894287
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.9888642295296,
+      "CrossScore": 0.9988864229529599
+    },
+    {
+      "Question": "KCC की लिमिट कैसे तय होती है?",
+      "Crop": "General",
+      "FinalScore": 9.987979369439465,
+      "CrossScore": 0.9987979369439465
+    },
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.986360836965826,
+      "CrossScore": 0.9986360836965825
+    },
+    {
+      "Question": "KCC बनवाने के लिए किन दस्तावेजों की जरूरत होती है?",
+      "Crop": "General",
+      "FinalScore": 9.980200297683592,
+      "CrossScore": 0.9980200297683592
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 9.965353403748137,
+      "CrossScore": 0.9965353403748137
+    },
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General",
+      "FinalScore": 0.9993233251031037,
+      "CrossScore": 0.9993233251031037
+    },
+    {
+      "Question": "'ऋण' (Credit) लेते समय किन बातों का ध्यान रखें?",
+      "Crop": "Economics",
+      "FinalScore": 0.8854159361370081,
+      "CrossScore": 0.8854159361370081
+    },
+    {
+      "Question": "'बिसोडेक' (Bispyribac-sodium) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.00031967197865839423,
+      "CrossScore": 0.00031967197865839423
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 5.025631886678191e-05,
+      "CrossScore": 5.025631886678191e-05
+    }
+  ],
+  "latency_ms": 548.55,
+  "final_returned": [
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.995202513894286
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "Score": 9.9888642295296
+    },
+    {
+      "Question": "KCC की लिमिट कैसे तय होती है?",
+      "Crop": "General",
+      "Score": 9.987979369439465
+    }
+  ]
+}

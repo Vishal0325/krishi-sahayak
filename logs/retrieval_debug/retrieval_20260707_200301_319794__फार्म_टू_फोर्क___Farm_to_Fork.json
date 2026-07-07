@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:01.140078",
+  "query_original": "'फार्म टू फोर्क' (Farm to Fork) मॉडल क्या है?",
+  "query_normalized": "फार्म टू फोर्क farm to fork मॉडल क्या है",
+  "query_expanded": "फार्म टू फोर्क farm to fork मॉडल क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फार्म टू फोर्क' (Farm to Fork) मॉडल क्या है?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म गेट (Farm Gate) बिक्री क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि कचरे से कंचन (Waste to Wealth) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फार्म टू फोर्क' (Farm to Fork) मॉडल क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 999.9197939908152,
+      "CrossScore": 0.9999197939908151
+    },
+    {
+      "Question": "'फार्म रिकॉर्ड बुक' (Farm Diary) कैसे रखें?",
+      "Crop": "Economics",
+      "FinalScore": 0.999001090462454,
+      "CrossScore": 0.999001090462454
+    },
+    {
+      "Question": "फार्म रिकॉर्ड (Farm Record) रखना क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9988340369844908,
+      "CrossScore": 0.9988340369844908
+    },
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.998286757670504,
+      "CrossScore": 0.998286757670504
+    },
+    {
+      "Question": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9977213070763051,
+      "CrossScore": 0.9977213070763051
+    },
+    {
+      "Question": "फार्म गेट (Farm Gate) बिक्री क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9973161620090667,
+      "CrossScore": 0.9973161620090667
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9948579891942577,
+      "CrossScore": 0.9948579891942577
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9934113239074376,
+      "CrossScore": 0.9934113239074376
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9913779087491884,
+      "CrossScore": 0.9913779087491884
+    },
+    {
+      "Question": "फार्म बिजनेस में 'सप्लाई चेन' (Supply Chain) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9892381428030711,
+      "CrossScore": 0.9892381428030711
+    }
+  ],
+  "latency_ms": 179.75,
+  "final_returned": [
+    {
+      "Question": "'फार्म टू फोर्क' (Farm to Fork) मॉडल क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 999.9197939908152
+    },
+    {
+      "Question": "'फार्म रिकॉर्ड बुक' (Farm Diary) कैसे रखें?",
+      "Crop": "Economics",
+      "Score": 0.999001090462454
+    },
+    {
+      "Question": "फार्म रिकॉर्ड (Farm Record) रखना क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9988340369844908
+    },
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.998286757670504
+    },
+    {
+      "Question": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+      "Crop": "General",
+      "Score": 0.9977213070763051
+    }
+  ]
+}

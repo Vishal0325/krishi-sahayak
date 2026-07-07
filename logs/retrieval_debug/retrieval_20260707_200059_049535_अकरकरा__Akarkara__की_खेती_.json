@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:58.872691",
+  "query_original": "अकरकरा (Akarkara) की खेती?",
+  "query_normalized": "अकरकरा akarkara की खेती",
+  "query_expanded": "अकरकरा akarkara की खेती",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अकरकरा (Akarkara) की खेती?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "राजमा (Kidney Bean) की खेती बिहार में?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "भिंडी की खेती में 'पोटाश' की टॉप ड्रेसिंग?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "खस (Khus) की खेती के लाभ?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती पारंपरिक खेती से बेहतर है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अकरकरा (Akarkara) की खेती?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 999.9096542436494,
+      "CrossScore": 0.9999096542436493
+    },
+    {
+      "Question": "केसर (Saffron) की खेती बिहार में संभव है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997752150804823,
+      "CrossScore": 0.9997752150804823
+    },
+    {
+      "Question": "भिंडी की खेती में 'पोटाश' की टॉप ड्रेसिंग?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997638635104994,
+      "CrossScore": 0.9997638635104994
+    },
+    {
+      "Question": "धनिया की खेती में 'पोटाश' की टॉप ड्रेसिंग?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997565755118103,
+      "CrossScore": 0.9997565755118103
+    },
+    {
+      "Question": "आंवला (Aonla) की खेती के स्वास्थ्य लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997553327520442,
+      "CrossScore": 0.9997553327520442
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999754602678405,
+      "CrossScore": 0.999754602678405
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती पारंपरिक खेती से बेहतर है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997247877999117,
+      "CrossScore": 0.9997247877999117
+    },
+    {
+      "Question": "मटर (Field Pea) की खेती के लिए बीज दर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997109832786637,
+      "CrossScore": 0.9997109832786637
+    },
+    {
+      "Question": "सोयाबीन (Soybean) की खेती बिहार में कहाँ संभव है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996973228078643,
+      "CrossScore": 0.9996973228078643
+    },
+    {
+      "Question": "भिंडी की सफल खेती के लिए विशेषज्ञों की अंतिम सलाह?",
+      "Crop": "Okra",
+      "FinalScore": 0.9996914807936254,
+      "CrossScore": 0.9996914807936254
+    }
+  ],
+  "latency_ms": 176.88,
+  "final_returned": [
+    {
+      "Question": "अकरकरा (Akarkara) की खेती?",
+      "Crop": "Medicinal Plants",
+      "Score": 999.9096542436494
+    },
+    {
+      "Question": "केसर (Saffron) की खेती बिहार में संभव है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9997752150804823
+    },
+    {
+      "Question": "भिंडी की खेती में 'पोटाश' की टॉप ड्रेसिंग?",
+      "Crop": "Okra",
+      "Score": 0.9997638635104994
+    },
+    {
+      "Question": "धनिया की खेती में 'पोटाश' की टॉप ड्रेसिंग?",
+      "Crop": "Coriander",
+      "Score": 0.9997565755118103
+    },
+    {
+      "Question": "आंवला (Aonla) की खेती के स्वास्थ्य लाभ?",
+      "Crop": "Fruits",
+      "Score": 0.9997553327520442
+    }
+  ]
+}

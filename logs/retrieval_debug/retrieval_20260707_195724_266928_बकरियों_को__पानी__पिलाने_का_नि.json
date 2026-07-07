@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:24.048935",
+  "query_original": "बकरियों को 'पानी' पिलाने का नियम?",
+  "query_normalized": "बकरियों को पानी पिलाने का नियम",
+  "query_expanded": "बकरियों को पानी पिलाने का नियम",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बकरियों को 'पानी' पिलाने का नियम?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "फफूंदनाशकों को मिलाने का नियम क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का in 'सिंचाई' के लिए 'नहर' के पानी का नियम?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मधुमक्खियों के लिए 'नमक का पानी'?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "'मांग और आपूर्ति' (Demand and Supply) का नियम?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बकरियों को संतुलित आहार में क्या दें?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999884210795696,
+      "CrossScore": 0.999884210795696
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998818687668236,
+      "CrossScore": 0.9998818687668236
+    },
+    {
+      "Question": "बकरियों को 'पानी' पिलाने का नियम?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998781091081745,
+      "CrossScore": 0.9998781091081745
+    },
+    {
+      "Question": "मधुमक्खियों के लिए 'नमक का पानी'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998752679221318,
+      "CrossScore": 0.9998752679221318
+    },
+    {
+      "Question": "पपीते के 'बीज' को अंकुरित करने का तरीका?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998713665502621,
+      "CrossScore": 0.9998713665502621
+    },
+    {
+      "Question": "सब्जियों में सिंचाई का नियम?",
+      "Crop": "General",
+      "FinalScore": 0.999861258733641,
+      "CrossScore": 0.999861258733641
+    },
+    {
+      "Question": "मखाना की कटाई के समय 'पानी' का स्तर?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998428941003945,
+      "CrossScore": 0.9998428941003945
+    },
+    {
+      "Question": "फफूंदनाशकों को मिलाने का नियम क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998389141149668,
+      "CrossScore": 0.9998389141149668
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का टीडीएस' (TDS)?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999837469067333,
+      "CrossScore": 0.999837469067333
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का छिड़काव'?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998370354861088,
+      "CrossScore": 0.9998370354861088
+    }
+  ],
+  "latency_ms": 218.07,
+  "final_returned": [
+    {
+      "Question": "बकरियों को संतुलित आहार में क्या दें?",
+      "Crop": "Livestock",
+      "Score": 0.999884210795696
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998818687668236
+    },
+    {
+      "Question": "बकरियों को 'पानी' पिलाने का नियम?",
+      "Crop": "Livestock",
+      "Score": 0.9998781091081745
+    },
+    {
+      "Question": "मधुमक्खियों के लिए 'नमक का पानी'?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998752679221318
+    },
+    {
+      "Question": "पपीते के 'बीज' को अंकुरित करने का तरीका?",
+      "Crop": "Fruits",
+      "Score": 0.9998713665502621
+    }
+  ]
+}

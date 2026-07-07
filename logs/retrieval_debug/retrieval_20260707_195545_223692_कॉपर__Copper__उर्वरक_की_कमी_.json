@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:45.034587",
+  "query_original": "कॉपर (Copper) उर्वरक की कमी?",
+  "query_normalized": "कॉपर copper उर्वरक की कमी",
+  "query_expanded": "खाद poshak कॉपर copper उर्वरक की कमी fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कॉपर (Copper) उर्वरक की कमी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "दलहनी फसलों में 'तांबा' (Copper) की कमी?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कॉपर (Copper) उर्वरक की कमी?",
+      "Crop": "General",
+      "FinalScore": 0.9998766901128182,
+      "CrossScore": 0.9998766901128182
+    },
+    {
+      "Question": "दलहनी फसलों में 'तांबा' (Copper) की कमी?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998301902693685,
+      "CrossScore": 0.9998301902693685
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9992838508963623,
+      "CrossScore": 0.9992838508963623
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9992608987635997,
+      "CrossScore": 0.9992608987635997
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9992215758014588,
+      "CrossScore": 0.9992215758014588
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9991725487326301,
+      "CrossScore": 0.9991725487326301
+    },
+    {
+      "Question": "अदरक में खाद और उर्वरक की मात्रा?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9991707514479208,
+      "CrossScore": 0.9991707514479208
+    },
+    {
+      "Question": "पत्तागोभी में खाद और उर्वरक की मात्रा?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.999148736634853,
+      "CrossScore": 0.999148736634853
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9991376864453655,
+      "CrossScore": 0.9991376864453655
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9991268786317986,
+      "CrossScore": 0.9991268786317986
+    }
+  ],
+  "latency_ms": 189.17,
+  "final_returned": [
+    {
+      "Question": "कॉपर (Copper) उर्वरक की कमी?",
+      "Crop": "General",
+      "Score": 0.9998766901128182
+    },
+    {
+      "Question": "दलहनी फसलों में 'तांबा' (Copper) की कमी?",
+      "Crop": "Pulses",
+      "Score": 0.9998301902693685
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "Score": 0.9992838508963623
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9992608987635997
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "Score": 0.9992215758014588
+    }
+  ]
+}

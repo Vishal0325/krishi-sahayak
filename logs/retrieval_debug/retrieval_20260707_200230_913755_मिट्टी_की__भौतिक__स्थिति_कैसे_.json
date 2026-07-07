@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:30.717338",
+  "query_original": "मिट्टी की 'भौतिक' स्थिति कैसे सुधारें?",
+  "query_normalized": "मिट्टी की भौतिक स्थिति कैसे सुधारें",
+  "query_expanded": "मिट्टी की भौतिक स्थिति कैसे सुधारें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की 'भौतिक' स्थिति कैसे सुधारें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में 'सूक्ष्मजीवों' की संख्या कैसे मापें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद अवशेषों को मिट्टी में कैसे मिलाएं?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की 'भौतिक' स्थिति कैसे सुधारें?",
+      "Crop": "General",
+      "FinalScore": 999.9141166239323,
+      "CrossScore": 0.9999141166239323
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999214789637958,
+      "CrossScore": 0.9999214789637958
+    },
+    {
+      "Question": "मिट्टी में 'नाइट्रोजन' की बर्बादी कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9999121300915966,
+      "CrossScore": 0.9999121300915966
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999116525254013,
+      "CrossScore": 0.9999116525254013
+    },
+    {
+      "Question": "मिट्टी में 'लोहे' (Iron) की उपलब्धता कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999083849108882,
+      "CrossScore": 0.9999083849108882
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "FinalScore": 0.9999076870321237,
+      "CrossScore": 0.9999076870321237
+    },
+    {
+      "Question": "औषधीय पौधों की मार्केटिंग कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999057671617309,
+      "CrossScore": 0.9999057671617309
+    },
+    {
+      "Question": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+      "Crop": "General",
+      "FinalScore": 0.999905251764219,
+      "CrossScore": 0.999905251764219
+    },
+    {
+      "Question": "मिट्टी की कढोर परत (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "FinalScore": 0.9999051483469708,
+      "CrossScore": 0.9999051483469708
+    },
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "FinalScore": 0.9999044748356422,
+      "CrossScore": 0.9999044748356422
+    }
+  ],
+  "latency_ms": 196.46,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की 'भौतिक' स्थिति कैसे सुधारें?",
+      "Crop": "General",
+      "Score": 999.9141166239323
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9999214789637958
+    },
+    {
+      "Question": "मिट्टी में 'नाइट्रोजन' की बर्बादी कैसे रोकें?",
+      "Crop": "General",
+      "Score": 0.9999121300915966
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9999116525254013
+    },
+    {
+      "Question": "मिट्टी में 'लोहे' (Iron) की उपलब्धता कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9999083849108882
+    }
+  ]
+}

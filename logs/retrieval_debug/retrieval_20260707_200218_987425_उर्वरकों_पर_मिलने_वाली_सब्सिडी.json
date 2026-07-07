@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:18.761393",
+  "query_original": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+  "query_normalized": "उर्वरकों पर मिलने वाली सब्सिडी क्या है",
+  "query_expanded": "poshak खाद उर्वरकों पर मिलने वाली सब्सिडी क्या है पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या बिजली के कनेक्शन पर किसानों को सब्सिडी मिलती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8884422701955,
+      "CrossScore": 0.9998884422701955
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999027173847235,
+      "CrossScore": 0.9999027173847235
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998846414844793,
+      "CrossScore": 0.9998846414844793
+    },
+    {
+      "Question": "क्या मुर्गी पालन के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998755961179474,
+      "CrossScore": 0.9998755961179474
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998714152365263,
+      "CrossScore": 0.9998714152365263
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998706073927095,
+      "CrossScore": 0.9998706073927095
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998704903732809,
+      "CrossScore": 0.9998704903732809
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998698148344494,
+      "CrossScore": 0.9998698148344494
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998683968357384,
+      "CrossScore": 0.9998683968357384
+    },
+    {
+      "Question": "क्या उर्वरकों से भूजल प्रदूषित होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998667938054445,
+      "CrossScore": 0.9998667938054445
+    }
+  ],
+  "latency_ms": 226.07,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General",
+      "Score": 999.8884422701955
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9999027173847235
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General",
+      "Score": 0.9998846414844793
+    },
+    {
+      "Question": "क्या मुर्गी पालन के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Poultry",
+      "Score": 0.9998755961179474
+    },
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998714152365263
+    }
+  ]
+}

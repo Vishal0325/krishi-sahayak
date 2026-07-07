@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:11.205600",
+  "query_original": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+  "query_normalized": "अरहर की कटाई के बाद मिट्टी की स्थिति",
+  "query_expanded": "अरहर की कटाई के बाद मिट्टी की स्थिति",
+  "detected_crops": [
+    "Pulses"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अरहर की 'cutai' के बाद 'खेत' की स्थिति?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मिट्टी की 'भौतिक' स्थिति कैसे सुधारें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अरहर की 'इंटर-क्रॉपिंग'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अरहर की 'सीधी बुआई' और 'रोपाई'?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+      "Crop": "Pulses",
+      "FinalScore": 49993.87216955213,
+      "CrossScore": 0.9998774433910427
+    },
+    {
+      "Question": "अरहर की 'बहार' (Bahar) किस्म की क्या विशेषता है?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99342791211864,
+      "CrossScore": 0.9998685582423729
+    },
+    {
+      "Question": "जायद मूंग की बुआई कब करें?",
+      "Crop": "Pulses",
+      "FinalScore": 49.991769957651925,
+      "CrossScore": 0.9998353991530385
+    },
+    {
+      "Question": "अरहर की 'इंटर-क्रॉपिंग'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.991639498153326,
+      "CrossScore": 0.9998327899630666
+    },
+    {
+      "Question": "अरहर की 'cutai' के बाद 'खेत' की स्थिति?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99160796593547,
+      "CrossScore": 0.9998321593187094
+    },
+    {
+      "Question": "अरहर की 'राजेंद्र अरहर-1' किस्म?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99052193135548,
+      "CrossScore": 0.9998104386271096
+    },
+    {
+      "Question": "अरहर की 'सीधी बुआई' और 'रोपाई'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.98895312673274,
+      "CrossScore": 0.9997790625346548
+    },
+    {
+      "Question": "अरहर की बुआई का सही समय?",
+      "Crop": "Pulses",
+      "FinalScore": 49.98823458555886,
+      "CrossScore": 0.9997646917111771
+    },
+    {
+      "Question": "'अरहर का फली मक्खी'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.98596754069131,
+      "CrossScore": 0.9997193508138262
+    },
+    {
+      "Question": "बिहार में 'हथिया' नक्षत्र की वर्षा का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998874928734047,
+      "CrossScore": 0.9998874928734047
+    }
+  ],
+  "latency_ms": 229.94,
+  "final_returned": [
+    {
+      "Question": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+      "Crop": "Pulses",
+      "Score": 49993.87216955213
+    },
+    {
+      "Question": "अरहर की 'बहार' (Bahar) किस्म की क्या विशेषता है?",
+      "Crop": "Pulses",
+      "Score": 49.99342791211864
+    },
+    {
+      "Question": "जायद मूंग की बुआई कब करें?",
+      "Crop": "Pulses",
+      "Score": 49.991769957651925
+    },
+    {
+      "Question": "अरहर की 'इंटर-क्रॉपिंग'?",
+      "Crop": "Pulses",
+      "Score": 49.991639498153326
+    },
+    {
+      "Question": "अरहर की 'cutai' के बाद 'खेत' की स्थिति?",
+      "Crop": "Pulses",
+      "Score": 49.99160796593547
+    }
+  ]
+}

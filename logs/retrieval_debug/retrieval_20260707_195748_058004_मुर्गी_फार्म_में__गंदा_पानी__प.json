@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:47.851614",
+  "query_original": "मुर्गी फार्म में 'गंदा पानी' प्रबंधन?",
+  "query_normalized": "मुर्गी फार्म में गंदा पानी प्रबंधन",
+  "query_expanded": "मुर्गी फार्म में गंदा पानी प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'गंदा पानी' प्रबंधन?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'समय प्रबंधन' (Time Management)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डेरी फार्म में 'गोबर' का सही प्रबंधन?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999127752555578,
+      "CrossScore": 0.9999127752555578
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999910768081019,
+      "CrossScore": 0.999910768081019
+    },
+    {
+      "Question": "मुर्गी फार्म में 'साउंड सिस्टम' का उपयोग?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999106001245083,
+      "CrossScore": 0.9999106001245083
+    },
+    {
+      "Question": "डेरी फार्म में 'गोबर' का सही प्रबंधन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999052791364352,
+      "CrossScore": 0.9999052791364352
+    },
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999051056454321,
+      "CrossScore": 0.9999051056454321
+    },
+    {
+      "Question": "मुर्गी फार्म में 'अजनबियों' का प्रवेश?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999049271224925,
+      "CrossScore": 0.9999049271224925
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999015523625934,
+      "CrossScore": 0.9999015523625934
+    },
+    {
+      "Question": "मुर्गी फार्म में 'इमरजेंसी लाइट'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998996653068513,
+      "CrossScore": 0.9998996653068513
+    },
+    {
+      "Question": "मुर्गी फार्म में 'वेंटिलेशन' क्यों जरूरी है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998974878499606,
+      "CrossScore": 0.9998974878499606
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998972943117179,
+      "CrossScore": 0.9998972943117179
+    }
+  ],
+  "latency_ms": 206.49,
+  "final_returned": [
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry",
+      "Score": 0.9999127752555578
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping",
+      "Score": 0.999910768081019
+    },
+    {
+      "Question": "मुर्गी फार्म में 'साउंड सिस्टम' का उपयोग?",
+      "Crop": "Poultry",
+      "Score": 0.9999106001245083
+    },
+    {
+      "Question": "डेरी फार्म में 'गोबर' का सही प्रबंधन?",
+      "Crop": "Dairy",
+      "Score": 0.9999052791364352
+    },
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry",
+      "Score": 0.9999051056454321
+    }
+  ]
+}

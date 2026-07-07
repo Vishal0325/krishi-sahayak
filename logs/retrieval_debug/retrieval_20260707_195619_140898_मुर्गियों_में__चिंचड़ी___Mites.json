@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:18.939214",
+  "query_original": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+  "query_normalized": "मुर्गियों में चिंचड़ी mites lice का प्रबंधन",
+  "query_expanded": "मुर्गियों में चिंचड़ी mites lice का प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' और 'जूं' (Ticks/Lice) का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "भिंडी के खेत में 'चूहों' का प्रबंधन?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.999877368107023,
+      "CrossScore": 0.999877368107023
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' और 'जूं' (Ticks/Lice) का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 0.9997774115975683,
+      "CrossScore": 0.9997774115975683
+    },
+    {
+      "Question": "टमाटर में 'रूट नॉट नीमेटोड' (Root Knot Nematode) का प्रबंधन?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9995901048175541,
+      "CrossScore": 0.9995901048175541
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9994257285650608,
+      "CrossScore": 0.9994257285650608
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 0.9993816211423471,
+      "CrossScore": 0.9993816211423471
+    },
+    {
+      "Question": "प्याज के भंडारण में 'चूहों' का प्रबंधन?",
+      "Crop": "Onion",
+      "FinalScore": 0.9993111093660201,
+      "CrossScore": 0.9993111093660201
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9993031198016211,
+      "CrossScore": 0.9993031198016211
+    },
+    {
+      "Question": "लहसुन के भंडारण में 'चूहों' का प्रबंधन?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9992945675397862,
+      "CrossScore": 0.9992945675397862
+    },
+    {
+      "Question": "बैंगन के बाग में 'चूहों' का प्रबंधन?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9991597206071013,
+      "CrossScore": 0.9991597206071013
+    },
+    {
+      "Question": "धनिया के खेत में 'चूहों' का प्रबंधन?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9991293398007184,
+      "CrossScore": 0.9991293398007184
+    }
+  ],
+  "latency_ms": 201.77,
+  "final_returned": [
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry",
+      "Score": 0.999877368107023
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' और 'जूं' (Ticks/Lice) का प्रबंधन?",
+      "Crop": "General",
+      "Score": 0.9997774115975683
+    },
+    {
+      "Question": "टमाटर में 'रूट नॉट नीमेटोड' (Root Knot Nematode) का प्रबंधन?",
+      "Crop": "Tomato",
+      "Score": 0.9995901048175541
+    },
+    {
+      "Question": "पशुओं में 'चिंचड़ी' (Ticks) का प्रबंधन?",
+      "Crop": "Dairy",
+      "Score": 0.9994257285650608
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "Score": 0.9993816211423471
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:51.475519",
+  "query_original": "उर्वरकों की 'ब्रॉडकास्टिंग' (Broadcasting) क्या है?",
+  "query_normalized": "उर्वरकों की ब्रॉडकास्टिंग broadcasting क्या है",
+  "query_expanded": "poshak खाद पोषण उर्वरक उर्वरकों की ब्रॉडकास्टिंग broadcasting क्या है fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों की 'ब्रॉडकास्टिंग' (Broadcasting) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या गेहूं की बुआई बिना जुताई के की जा सकती है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या मशीनों से फसल की गुणवत्ता सुधरती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों की 'ब्रॉडकास्टिंग' (Broadcasting) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9291259208576,
+      "CrossScore": 0.9999291259208576
+    },
+    {
+      "Question": "मशीनों की 'टीपीओ' (PTO) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997493758615568,
+      "CrossScore": 0.9997493758615568
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996887622497515,
+      "CrossScore": 0.9996887622497515
+    },
+    {
+      "Question": "क्या गेहूं की खेती के साथ सरसों उगाई जा सकती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996659090663506,
+      "CrossScore": 0.9996659090663506
+    },
+    {
+      "Question": "अरहर की 'बहार' (Bahar) किस्म की क्या विशेषता है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996612050374132,
+      "CrossScore": 0.9996612050374132
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996554787010842,
+      "CrossScore": 0.9996554787010842
+    },
+    {
+      "Question": "धनिया की बुआई की विधि क्या है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9996473395696213,
+      "CrossScore": 0.9996473395696213
+    },
+    {
+      "Question": "लहसुन की बुआई की विधि क्या है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9996451388307002,
+      "CrossScore": 0.9996451388307002
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999622770819764,
+      "CrossScore": 0.999622770819764
+    },
+    {
+      "Question": "क्या गेहूं की बुआई बिना जुताई के की जा सकती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995756664956574,
+      "CrossScore": 0.9995756664956574
+    }
+  ],
+  "latency_ms": 186.46,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों की 'ब्रॉडकास्टिंग' (Broadcasting) क्या है?",
+      "Crop": "General",
+      "Score": 999.9291259208576
+    },
+    {
+      "Question": "मशीनों की 'टीपीओ' (PTO) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997493758615568
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9996887622497515
+    },
+    {
+      "Question": "क्या गेहूं की खेती के साथ सरसों उगाई जा सकती है?",
+      "Crop": "Wheat",
+      "Score": 0.9996659090663506
+    },
+    {
+      "Question": "अरहर की 'बहार' (Bahar) किस्म की क्या विशेषता है?",
+      "Crop": "Pulses",
+      "Score": 0.9996612050374132
+    }
+  ]
+}

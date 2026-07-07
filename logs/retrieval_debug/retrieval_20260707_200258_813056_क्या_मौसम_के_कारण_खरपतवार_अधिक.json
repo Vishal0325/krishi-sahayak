@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:58.578993",
+  "query_original": "क्या मौसम के कारण खरपतवार अधिक उगते हैं?",
+  "query_normalized": "क्या मौसम के कारण खरपतवार अधिक उगते हैं",
+  "query_expanded": "क्या मौसम के कारण खरपतवार अधिक उगते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या मौसम के कारण खरपतवार अधिक उगते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मौसम के कारण फसल की गुणवत्ता बदलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में बोरॉन की कमी के कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मौसम के कारण कीटों का 'प्रवास' (Migration) होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या मौसम के कारण खरपतवार अधिक उगते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.911259905823,
+      "CrossScore": 0.9999112599058231
+    },
+    {
+      "Question": "क्या मौसम के कारण फसल की गुणवत्ता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999036117884871,
+      "CrossScore": 0.9999036117884871
+    },
+    {
+      "Question": "मिट्टी में बोरॉन की कमी के कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998964006826822,
+      "CrossScore": 0.9998964006826822
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998926729545208,
+      "CrossScore": 0.9998926729545208
+    },
+    {
+      "Question": "क्या मुर्गी के 'पंख' बिकते हैं?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998925395173368,
+      "CrossScore": 0.9998925395173368
+    },
+    {
+      "Question": "क्या मौसम के अनुसार कीटनाशकों का असर बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998920447778701,
+      "CrossScore": 0.9998920447778701
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई से खरपतवार कम होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999888524151097,
+      "CrossScore": 0.999888524151097
+    },
+    {
+      "Question": "क्या मौसम के कारण कीटों का 'प्रवास' (Migration) होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998838843991573,
+      "CrossScore": 0.9998838843991573
+    },
+    {
+      "Question": "अश्वगंधा (Ashwagandha) की खेती के क्या लाभ हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998825518936354,
+      "CrossScore": 0.9998825518936354
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) खाली रहने का क्या कारण है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998819843970429,
+      "CrossScore": 0.9998819843970429
+    }
+  ],
+  "latency_ms": 234.11,
+  "final_returned": [
+    {
+      "Question": "क्या मौसम के कारण खरपतवार अधिक उगते हैं?",
+      "Crop": "General",
+      "Score": 999.911259905823
+    },
+    {
+      "Question": "क्या मौसम के कारण फसल की गुणवत्ता बदलती है?",
+      "Crop": "General",
+      "Score": 0.9999036117884871
+    },
+    {
+      "Question": "मिट्टी में बोरॉन की कमी के कारण क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998964006826822
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998926729545208
+    },
+    {
+      "Question": "क्या मुर्गी के 'पंख' बिकते हैं?",
+      "Crop": "Poultry",
+      "Score": 0.9998925395173368
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:05.315177",
+  "query_original": "सरसों in 'सफेद रतुआ' का जैविक बचाव?",
+  "query_normalized": "सरसों in सफेद रतुआ का जैविक बचाव",
+  "query_expanded": "सरसों in सफेद रतुआ का जैविक बचाव",
+  "detected_crops": [
+    "Mustard"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सरसों in 'सफेद रतुआ' का जैविक बचाव?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों में 'सफेद रतुआ' का जैविक नियंत्रण?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों in 'सफेद रतुआ' का समय?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'सरसों का सफेद रतुआ' (White Rust) और 'पत्तियां'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'सरसों' में 'सफेद रतुआ' का समय?",
+      "Crop": "Mustard"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सरसों in 'सफेद रतुआ' का जैविक बचाव?",
+      "Crop": "Mustard",
+      "FinalScore": 49994.634051969864,
+      "CrossScore": 0.9998926810393972
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.993091816077715,
+      "CrossScore": 0.9998618363215543
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99294464629953,
+      "CrossScore": 0.9998588929259905
+    },
+    {
+      "Question": "सरसों in 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "FinalScore": 49.992875269243584,
+      "CrossScore": 0.9998575053848716
+    },
+    {
+      "Question": "सरसों in 'झुलसा' रोकने के लिए 'बुआई का समय'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99246165197619,
+      "CrossScore": 0.9998492330395239
+    },
+    {
+      "Question": "'सरसों का सफेद रतुआ' (White Rust) और 'पत्तियां'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.992341286289296,
+      "CrossScore": 0.9998468257257859
+    },
+    {
+      "Question": "'सरसों' में 'सफेद रतुआ' का समय?",
+      "Crop": "Mustard",
+      "FinalScore": 49.992234430849514,
+      "CrossScore": 0.9998446886169903
+    },
+    {
+      "Question": "'सरसों' में 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99206747075326,
+      "CrossScore": 0.9998413494150653
+    },
+    {
+      "Question": "सरसों में 'सफेद रतुआ' का जैविक नियंत्रण?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99204740879432,
+      "CrossScore": 0.9998409481758864
+    },
+    {
+      "Question": "सरसों in 'जिंक' की कमी से 'पौधों' का बौनापन?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99185620947534,
+      "CrossScore": 0.9998371241895068
+    }
+  ],
+  "latency_ms": 176.11,
+  "final_returned": [
+    {
+      "Question": "सरसों in 'सफेद रतुआ' का जैविक बचाव?",
+      "Crop": "Mustard",
+      "Score": 49994.634051969864
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) क्या है?",
+      "Crop": "Mustard",
+      "Score": 49.993091816077715
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) रोग क्या है?",
+      "Crop": "Mustard",
+      "Score": 49.99294464629953
+    },
+    {
+      "Question": "सरसों in 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "Score": 49.992875269243584
+    },
+    {
+      "Question": "सरसों in 'झुलसा' रोकने के लिए 'बुआई का समय'?",
+      "Crop": "Mustard",
+      "Score": 49.99246165197619
+    }
+  ]
+}

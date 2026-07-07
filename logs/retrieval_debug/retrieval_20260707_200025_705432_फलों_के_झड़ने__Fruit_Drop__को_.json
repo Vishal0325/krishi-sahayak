@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:25.489843",
+  "query_original": "फलों के झड़ने (Fruit Drop) को कैसे रोकें?",
+  "query_normalized": "फलों के झड़ने fruit drop को कैसे रोकें",
+  "query_expanded": "फलों के झड़ने fruit drop को कैसे रोकें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फलों के झड़ने (Fruit Drop) को कैसे रोकें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "टमाटर के फलों को 'फटने' (Fruit Cracking) से कैसे बचाएं?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर के फलों में 'सड़न' (Fruit Rot) कैसे रोकें?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "फलों के पेड़ों को 'सर्दियों' में पाले से कैसे बचाएं?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "भंडारण के दौरान नुकसान (Post-Harvest Loss) को कैसे रोकें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फलों के झड़ने (Fruit Drop) को कैसे रोकें?",
+      "Crop": "Fruits",
+      "FinalScore": 999.9129196970199,
+      "CrossScore": 0.9999129196970199
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999160375947012,
+      "CrossScore": 0.9999160375947012
+    },
+    {
+      "Question": "टमाटर के फलों को 'फटने' (Fruit Cracking) से कैसे बचाएं?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998185753320096,
+      "CrossScore": 0.9998185753320096
+    },
+    {
+      "Question": "टमाटर के फलों में 'सड़न' (Fruit Rot) कैसे रोकें?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997854920025484,
+      "CrossScore": 0.9997854920025484
+    },
+    {
+      "Question": "भंडारण के दौरान नुकसान (Post-Harvest Loss) को कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9995586841966744,
+      "CrossScore": 0.9995586841966744
+    },
+    {
+      "Question": "फलों को 'धूप' (Sunburn) से कैसे बचाएं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9992379109084636,
+      "CrossScore": 0.9992379109084636
+    },
+    {
+      "Question": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9989717969493936,
+      "CrossScore": 0.9989717969493936
+    },
+    {
+      "Question": "फलों को 'एक समान पकाने' के लिए क्या उपयोग करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9986912029708814,
+      "CrossScore": 0.9986912029708814
+    },
+    {
+      "Question": "क्या फलों के पौधों को 'बोरॉन' की अधिक जरूरत होती है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9983285027383698,
+      "CrossScore": 0.9983285027383698
+    },
+    {
+      "Question": "अमरूद के फलों को 'कीड़ों' से बचाने का देशी तरीका?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9980942426377787,
+      "CrossScore": 0.9980942426377787
+    }
+  ],
+  "latency_ms": 215.62,
+  "final_returned": [
+    {
+      "Question": "फलों के झड़ने (Fruit Drop) को कैसे रोकें?",
+      "Crop": "Fruits",
+      "Score": 999.9129196970199
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "Score": 0.9999160375947012
+    },
+    {
+      "Question": "टमाटर के फलों को 'फटने' (Fruit Cracking) से कैसे बचाएं?",
+      "Crop": "Tomato",
+      "Score": 0.9998185753320096
+    },
+    {
+      "Question": "टमाटर के फलों में 'सड़न' (Fruit Rot) कैसे रोकें?",
+      "Crop": "Tomato",
+      "Score": 0.9997854920025484
+    },
+    {
+      "Question": "भंडारण के दौरान नुकसान (Post-Harvest Loss) को कैसे रोकें?",
+      "Crop": "General",
+      "Score": 0.9995586841966744
+    }
+  ]
+}

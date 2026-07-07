@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:19.292277",
+  "query_original": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+  "query_normalized": "अम्लीय मिट्टी acidic soil का सुधार कैसे करें",
+  "query_expanded": "अम्लीय मिट्टी acidic soil का सुधार कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गेहूं में दीमक का नियंत्रण कैसे करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "करनाल बंट का बचाव कैसे करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.8877252229065,
+      "CrossScore": 0.9998877252229065
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997068745900417,
+      "CrossScore": 0.9997068745900417
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "FinalScore": 0.9997019429517635,
+      "CrossScore": 0.9997019429517635
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996772916414876,
+      "CrossScore": 0.9996772916414876
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9996285441033179,
+      "CrossScore": 0.9996285441033179
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General",
+      "FinalScore": 0.9995543419080689,
+      "CrossScore": 0.9995543419080689
+    },
+    {
+      "Question": "मक्का की 'मिट्टी' का पीएच 5.5 होने पर क्या करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9976310648918542,
+      "CrossScore": 0.9976310648918542
+    },
+    {
+      "Question": "आलू का बीज उपचार कैसे करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.997553563875454,
+      "CrossScore": 0.997553563875454
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9972051503175722,
+      "CrossScore": 0.9972051503175722
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9969667292126024,
+      "CrossScore": 0.9969667292126024
+    }
+  ],
+  "latency_ms": 211.02,
+  "final_returned": [
+    {
+      "Question": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+      "Crop": "General",
+      "Score": 999.8877252229065
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9997068745900417
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "Score": 0.9997019429517635
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "Score": 0.9996772916414876
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "Score": 0.9996285441033179
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:13.190699",
+  "query_original": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+  "query_normalized": "कोल्ड स्टोरेज cold storage का किसान के लिए क्या महत्व है",
+  "query_expanded": "कोल्ड स्टोरेज cold storage का किसान के लिए क्या महत्व है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधे लगाने के लिए 'खंभों' (Poles) का क्या महत्व है?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कोल्ड स्टोरेज के लिए बिजली बिल में छूट मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्रेडिट स्कोर' (CIBIL Score) का किसान के लिए महत्व?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998964015717864,
+      "CrossScore": 0.9998964015717864
+    },
+    {
+      "Question": "प्याज के लिए 'शीत भंडार' (Cold Storage) का तापमान?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998733859310301,
+      "CrossScore": 0.9998733859310301
+    },
+    {
+      "Question": "क्या कोल्ड स्टोरेज के लिए बिजली बिल में छूट मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998652860116332,
+      "CrossScore": 0.9998652860116332
+    },
+    {
+      "Question": "आलू के बीजों का 'शीत भंडार' (Cold Storage) से निकालने के बाद क्या करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998648222600444,
+      "CrossScore": 0.9998648222600444
+    },
+    {
+      "Question": "'कोल्ड चेन' (Cold Chain) प्रबंधन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995999533410037,
+      "CrossScore": 0.9995999533410037
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994884886236152,
+      "CrossScore": 0.9994884886236152
+    },
+    {
+      "Question": "सरसों के तेल का 'घानी' (Cold Pressed) क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9993644966054211,
+      "CrossScore": 0.9993644966054211
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9986873073877011,
+      "CrossScore": 0.9986873073877011
+    },
+    {
+      "Question": "दालों के दानों को 'घुन' से बचाने के लिए 'कोल्ड स्टोरेज'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.99819223086377,
+      "CrossScore": 0.99819223086377
+    },
+    {
+      "Question": "फलों के भंडारण के लिए 'कोल्ड चेन' क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9967566796658559,
+      "CrossScore": 0.9967566796658559
+    }
+  ],
+  "latency_ms": 239.6,
+  "final_returned": [
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998964015717864
+    },
+    {
+      "Question": "प्याज के लिए 'शीत भंडार' (Cold Storage) का तापमान?",
+      "Crop": "Onion",
+      "Score": 0.9998733859310301
+    },
+    {
+      "Question": "क्या कोल्ड स्टोरेज के लिए बिजली बिल में छूट मिलती है?",
+      "Crop": "General",
+      "Score": 0.9998652860116332
+    },
+    {
+      "Question": "आलू के बीजों का 'शीत भंडार' (Cold Storage) से निकालने के बाद क्या करें?",
+      "Crop": "Potato",
+      "Score": 0.9998648222600444
+    },
+    {
+      "Question": "'कोल्ड चेन' (Cold Chain) प्रबंधन क्या है?",
+      "Crop": "General",
+      "Score": 0.9995999533410037
+    }
+  ]
+}

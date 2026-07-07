@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:17.851079",
+  "query_original": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+  "query_normalized": "पीएम किसान की ई केवाईसी e kyc कहाँ कराएं",
+  "query_expanded": "पीएम किसान की ई केवाईसी e kyc कहाँ कराएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ई-केवाईसी (e-KYC) पीएम-किसान के लिए क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान की अगली किस्त कब आएगी?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998897812338184,
+      "CrossScore": 0.9998897812338184
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998586968834006,
+      "CrossScore": 0.9998586968834006
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 0.9998574903020494,
+      "CrossScore": 0.9998574903020494
+    },
+    {
+      "Question": "ई-केवाईसी (e-KYC) पीएम-किसान के लिए क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998539098438586,
+      "CrossScore": 0.9998539098438586
+    },
+    {
+      "Question": "मक्का की खेती शुरू करने से पहले किसान को क्या करना चाहिए?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998316470557068,
+      "CrossScore": 0.9998316470557068
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998177736668165,
+      "CrossScore": 0.9998177736668165
+    },
+    {
+      "Question": "पीएम-किसान की अगली किस्त कब आएगी?",
+      "Crop": "General",
+      "FinalScore": 0.9998114139432798,
+      "CrossScore": 0.9998114139432798
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998040110443427,
+      "CrossScore": 0.9998040110443427
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9997860088320841,
+      "CrossScore": 0.9997860088320841
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.999779290767639,
+      "CrossScore": 0.999779290767639
+    }
+  ],
+  "latency_ms": 633.86,
+  "final_returned": [
+    {
+      "Question": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+      "Crop": "General",
+      "Score": 0.9998897812338184
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 0.9998586968834006
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "Score": 0.9998574903020494
+    },
+    {
+      "Question": "ई-केवाईसी (e-KYC) पीएम-किसान के लिए क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998539098438586
+    },
+    {
+      "Question": "मक्का की खेती शुरू करने से पहले किसान को क्या करना चाहिए?",
+      "Crop": "Maize",
+      "Score": 0.9998316470557068
+    }
+  ]
+}

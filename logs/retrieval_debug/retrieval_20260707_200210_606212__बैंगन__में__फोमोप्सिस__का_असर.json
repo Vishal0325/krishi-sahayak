@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:10.428190",
+  "query_original": "'बैंगन' में 'फोमोप्सिस' का असर?",
+  "query_normalized": "बैंगन में फोमोप्सिस का असर",
+  "query_expanded": "बैंगन में फोमोप्सिस का असर",
+  "detected_crops": [
+    "Brinjal"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बैंगन' में 'फोमोप्सिस' का असर?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन in 'फोमोप्सिस' का असर बीजों पर?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन में सिंचाई का सही तरीका?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बैंगन' में 'फोमोप्सिस' का असर?",
+      "Crop": "Brinjal",
+      "FinalScore": 49995.40429962468,
+      "CrossScore": 0.9999080859924936
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.995507331893634,
+      "CrossScore": 0.9999101466378727
+    },
+    {
+      "Question": "बैंगन में 'लाल मकड़ी' (Red Spider Mite) का प्रकोप?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.995078960398324,
+      "CrossScore": 0.9999015792079665
+    },
+    {
+      "Question": "बैंगन में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99480817073797,
+      "CrossScore": 0.9998961634147594
+    },
+    {
+      "Question": "बैंगन की 'सघन' खेती में 'हवा का संचार'?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99478544151969,
+      "CrossScore": 0.9998957088303938
+    },
+    {
+      "Question": "बैंगन में 'एनपीके 19:19:19' का छिड़काव कब करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99472038199657,
+      "CrossScore": 0.9998944076399314
+    },
+    {
+      "Question": "बैंगन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99467318528213,
+      "CrossScore": 0.9998934637056427
+    },
+    {
+      "Question": "बैंगन में 'फोमोप्सिस ब्लाइट' (Phomopsis Blight)?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99462539245218,
+      "CrossScore": 0.9998925078490436
+    },
+    {
+      "Question": "बैंगन में 'सिंचाई' का अंतराल गर्मियों में?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99455918203455,
+      "CrossScore": 0.999891183640691
+    },
+    {
+      "Question": "बैंगन in 'फोमोप्सिस' का असर बीजों पर?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99452516083307,
+      "CrossScore": 0.9998905032166614
+    }
+  ],
+  "latency_ms": 178.05,
+  "final_returned": [
+    {
+      "Question": "'बैंगन' में 'फोमोप्सिस' का असर?",
+      "Crop": "Brinjal",
+      "Score": 49995.40429962468
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "Score": 49.995507331893634
+    },
+    {
+      "Question": "बैंगन में 'लाल मकड़ी' (Red Spider Mite) का प्रकोप?",
+      "Crop": "Brinjal",
+      "Score": 49.995078960398324
+    },
+    {
+      "Question": "बैंगन में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Brinjal",
+      "Score": 49.99480817073797
+    },
+    {
+      "Question": "बैंगन की 'सघन' खेती में 'हवा का संचार'?",
+      "Crop": "Brinjal",
+      "Score": 49.99478544151969
+    }
+  ]
+}

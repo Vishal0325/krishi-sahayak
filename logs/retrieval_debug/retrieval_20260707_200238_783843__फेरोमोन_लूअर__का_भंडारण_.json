@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:38.634681",
+  "query_original": "'फेरोमोन लूअर' का भंडारण?",
+  "query_normalized": "फेरोमोन लूअर का भंडारण",
+  "query_expanded": "फेरोमोन लूअर का भंडारण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फेरोमोन लूअर' का भंडारण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'फेरोमोन लूअर' को हाथों से क्यों न छुएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद के भंडारण में 'पारे' की गोली का खतरा?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फेरोमोन लूअर' का भंडारण?",
+      "Crop": "General",
+      "FinalScore": 999.9067884954211,
+      "CrossScore": 0.9999067884954211
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की शुद्धता?",
+      "Crop": "General",
+      "FinalScore": 0.9998960402649065,
+      "CrossScore": 0.9998960402649065
+    },
+    {
+      "Question": "'फेरोमोन लूअर' को हाथों से क्यों न छुएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998842923617235,
+      "CrossScore": 0.9998842923617235
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998698106136862,
+      "CrossScore": 0.9998698106136862
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "FinalScore": 0.9998685635063859,
+      "CrossScore": 0.9998685635063859
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर को कब बदलें?",
+      "Crop": "General",
+      "FinalScore": 0.9998642034260975,
+      "CrossScore": 0.9998642034260975
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9998188838541816,
+      "CrossScore": 0.9998188838541816
+    },
+    {
+      "Question": "लेमन ग्रास के तेल का भंडारण?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998037477504941,
+      "CrossScore": 0.9998037477504941
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999786013728849,
+      "CrossScore": 0.999786013728849
+    },
+    {
+      "Question": "खरपतवारनाशकों के भंडारण का सही तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9997649766932885,
+      "CrossScore": 0.9997649766932885
+    }
+  ],
+  "latency_ms": 149.19,
+  "final_returned": [
+    {
+      "Question": "'फेरोमोन लूअर' का भंडारण?",
+      "Crop": "General",
+      "Score": 999.9067884954211
+    },
+    {
+      "Question": "'फेरोमोन लूअर' की शुद्धता?",
+      "Crop": "General",
+      "Score": 0.9998960402649065
+    },
+    {
+      "Question": "'फेरोमोन लूअर' को हाथों से क्यों न छुएं?",
+      "Crop": "General",
+      "Score": 0.9998842923617235
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998698106136862
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "Score": 0.9998685635063859
+    }
+  ]
+}

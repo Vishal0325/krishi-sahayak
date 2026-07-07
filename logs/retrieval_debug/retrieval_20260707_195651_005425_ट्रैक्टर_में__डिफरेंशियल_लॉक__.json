@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:50.751016",
+  "query_original": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+  "query_normalized": "ट्रैक्टर में डिफरेंशियल लॉक differential lock का क्या काम है",
+  "query_expanded": "ट्रैक्टर में डिफरेंशियल लॉक differential lock का क्या काम है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या नमक का पानी फसल सुरक्षा में काम आता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9999147475286798,
+      "CrossScore": 0.9999147475286798
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9991511847721768,
+      "CrossScore": 0.9991511847721768
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9990866673130311,
+      "CrossScore": 0.9990866673130311
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9990774287416458,
+      "CrossScore": 0.9990774287416458
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9990612321466243,
+      "CrossScore": 0.9990612321466243
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9989685121433002,
+      "CrossScore": 0.9989685121433002
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9988993570758844,
+      "CrossScore": 0.9988993570758844
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9986847882478869,
+      "CrossScore": 0.9986847882478869
+    },
+    {
+      "Question": "सरसों के तेल में चरपराहट का कारण क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9986456035490381,
+      "CrossScore": 0.9986456035490381
+    },
+    {
+      "Question": "मिट्टी में फास्फोरस को घोलने वाले बैक्टीरिया (PSB) का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9984438203089901,
+      "CrossScore": 0.9984438203089901
+    }
+  ],
+  "latency_ms": 254.54,
+  "final_returned": [
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General",
+      "Score": 0.9999147475286798
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "Score": 0.9991511847721768
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9990866673130311
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9990774287416458
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9990612321466243
+    }
+  ]
+}

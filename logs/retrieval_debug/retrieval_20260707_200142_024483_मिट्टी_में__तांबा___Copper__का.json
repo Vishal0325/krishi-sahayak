@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:41.790800",
+  "query_original": "मिट्टी में 'तांबा' (Copper) का महत्व?",
+  "query_normalized": "मिट्टी में तांबा copper का महत्व",
+  "query_expanded": "मिट्टी में तांबा copper का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में 'तांबा' (Copper) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'मिट्टी का रंग' महत्व?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में 'तांबा' (Copper) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 999.8830074956677,
+      "CrossScore": 0.9998830074956677
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998983007513991,
+      "CrossScore": 0.9998983007513991
+    },
+    {
+      "Question": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998261463110886,
+      "CrossScore": 0.9998261463110886
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998210307485716,
+      "CrossScore": 0.9998210307485716
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998198114312637,
+      "CrossScore": 0.9998198114312637
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998026887763338,
+      "CrossScore": 0.9998026887763338
+    },
+    {
+      "Question": "मिट्टी में 'कैल्शियम' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9997970054884915,
+      "CrossScore": 0.9997970054884915
+    },
+    {
+      "Question": "ट्रैक्टर में 'एयर क्लीनर' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9997809127302671,
+      "CrossScore": 0.9997809127302671
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997784389578596,
+      "CrossScore": 0.9997784389578596
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997765073660578,
+      "CrossScore": 0.9997765073660578
+    }
+  ],
+  "latency_ms": 233.71,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में 'तांबा' (Copper) का महत्व?",
+      "Crop": "General",
+      "Score": 999.8830074956677
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9998983007513991
+    },
+    {
+      "Question": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998261463110886
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998210307485716
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998198114312637
+    }
+  ]
+}

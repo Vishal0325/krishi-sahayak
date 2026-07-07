@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:30.126757",
+  "query_original": "'दशपर्णी अर्क' और 'खर्च'?",
+  "query_normalized": "दशपर्णी अर्क और खर्च",
+  "query_expanded": "दशपर्णी अर्क और खर्च",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'दशपर्णी अर्क' और 'खर्च'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दशपर्णी अर्क' और 'तीखापन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दशपर्णी अर्क (Dashparni Arka) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की शेल्फ लाइफ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने के लिए कौन सी पत्तियां नहीं लेनी चाहिए?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'दशपर्णी अर्क' और 'खर्च'?",
+      "Crop": "General",
+      "FinalScore": 999.8901979063678,
+      "CrossScore": 0.9998901979063678
+    },
+    {
+      "Question": "'दशपर्णी अर्क' और 'तीखापन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998711739548417,
+      "CrossScore": 0.9998711739548417
+    },
+    {
+      "Question": "'दशपर्णी अर्क' किन कीटों पर प्रभावी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998697574700208,
+      "CrossScore": 0.9998697574700208
+    },
+    {
+      "Question": "'दशपर्णी अर्क' से फसल सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9998616437080694,
+      "CrossScore": 0.9998616437080694
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998489497084573,
+      "CrossScore": 0.9998489497084573
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने में कौन सी सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9998364434663345,
+      "CrossScore": 0.9998364434663345
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने के लिए कौन सी पत्तियां नहीं लेनी चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998285038576823,
+      "CrossScore": 0.9998285038576823
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की सुगंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998272878591256,
+      "CrossScore": 0.9998272878591256
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की सामग्री?",
+      "Crop": "General",
+      "FinalScore": 0.9998219644787527,
+      "CrossScore": 0.9998219644787527
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने में किन पत्तियों का उपयोग करें?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998029925660404,
+      "CrossScore": 0.9998029925660404
+    }
+  ],
+  "latency_ms": 177.23,
+  "final_returned": [
+    {
+      "Question": "'दशपर्णी अर्क' और 'खर्च'?",
+      "Crop": "General",
+      "Score": 999.8901979063678
+    },
+    {
+      "Question": "'दशपर्णी अर्क' और 'तीखापन'?",
+      "Crop": "General",
+      "Score": 0.9998711739548417
+    },
+    {
+      "Question": "'दशपर्णी अर्क' किन कीटों पर प्रभावी है?",
+      "Crop": "General",
+      "Score": 0.9998697574700208
+    },
+    {
+      "Question": "'दशपर्णी अर्क' से फसल सुरक्षा?",
+      "Crop": "General",
+      "Score": 0.9998616437080694
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998489497084573
+    }
+  ]
+}

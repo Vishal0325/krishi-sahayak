@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:53.129862",
+  "query_original": "लीची की 'पेड़ी' फसल नहीं ली जाती?",
+  "query_normalized": "लीची की पेड़ी फसल नहीं ली जाती",
+  "query_expanded": "लीची की पेड़ी फसल नहीं ली जाती",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची की 'पेड़ी' फसल नहीं ली जाती?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची की फसल में 'लू' (Loo) से बचाव?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची की 'मशीनी' खुदाई नहीं होती",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची की 'पेड़ी' फसल नहीं ली जाती?",
+      "Crop": "Litchi",
+      "FinalScore": 49992.23283868151,
+      "CrossScore": 0.9998446567736302
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99411330928965,
+      "CrossScore": 0.999882266185793
+    },
+    {
+      "Question": "लीची की 'पारे' की गोली से बीज उपचार?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99370765157168,
+      "CrossScore": 0.9998741530314337
+    },
+    {
+      "Question": "लीची की खेती में 'नर्सरी' में गुटी तैयार करना?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99368889136513,
+      "CrossScore": 0.9998737778273026
+    },
+    {
+      "Question": "लीची की 'जायद' उत्पादन ही मुख्य है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.993344623109884,
+      "CrossScore": 0.9998668924621976
+    },
+    {
+      "Question": "लीची की प्रमुख उन्नत किस्में?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99331472258556,
+      "CrossScore": 0.9998662944517112
+    },
+    {
+      "Question": "लीची की 'अगेती' कटाई के लाभ?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99297135114605,
+      "CrossScore": 0.9998594270229211
+    },
+    {
+      "Question": "लीची की 'शहद' (Honey) की क्या विशेषता है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99280884522985,
+      "CrossScore": 0.999856176904597
+    },
+    {
+      "Question": "लीची की 'मशीनी' खुदाई नहीं होती",
+      "Crop": "Litchi",
+      "FinalScore": 49.992722425236444,
+      "CrossScore": 0.9998544485047289
+    },
+    {
+      "Question": "लीची की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99262547994511,
+      "CrossScore": 0.9998525095989023
+    }
+  ],
+  "latency_ms": 196.78,
+  "final_returned": [
+    {
+      "Question": "लीची की 'पेड़ी' फसल नहीं ली जाती?",
+      "Crop": "Litchi",
+      "Score": 49992.23283868151
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "Score": 49.99411330928965
+    },
+    {
+      "Question": "लीची की 'पारे' की गोली से बीज उपचार?",
+      "Crop": "Litchi",
+      "Score": 49.99370765157168
+    },
+    {
+      "Question": "लीची की खेती में 'नर्सरी' में गुटी तैयार करना?",
+      "Crop": "Litchi",
+      "Score": 49.99368889136513
+    },
+    {
+      "Question": "लीची की 'जायद' उत्पादन ही मुख्य है?",
+      "Crop": "Litchi",
+      "Score": 49.993344623109884
+    }
+  ]
+}

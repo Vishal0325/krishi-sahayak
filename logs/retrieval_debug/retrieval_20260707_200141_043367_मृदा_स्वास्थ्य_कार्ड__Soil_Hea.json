@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:40.792355",
+  "query_original": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+  "query_normalized": "मृदा स्वास्थ्य कार्ड soil health card योजना का उद्देश्य क्या है",
+  "query_expanded": "मृदा स्वास्थ्य कार्ड soil health card योजना का उद्देश्य क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की वैधता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की रिपोर्ट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का बिजनेस पर क्या असर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 9998.950474922547,
+      "CrossScore": 0.9998950474922548
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का नवीनीकरण कब होता है?",
+      "Crop": "General",
+      "FinalScore": 9.923663702838702,
+      "CrossScore": 0.9923663702838702
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.919517398659478,
+      "CrossScore": 0.9919517398659478
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.915776613172294,
+      "CrossScore": 0.9915776613172294
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 9.877050517950215,
+      "CrossScore": 0.9877050517950214
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.8673381724374,
+      "CrossScore": 0.98673381724374
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.866671639959257,
+      "CrossScore": 0.9866671639959257
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "FinalScore": 9.808758290787758,
+      "CrossScore": 0.9808758290787757
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998724741460439,
+      "CrossScore": 0.9998724741460439
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की रिपोर्ट?",
+      "Crop": "General",
+      "FinalScore": 0.9998718678581185,
+      "CrossScore": 0.9998718678581185
+    }
+  ],
+  "latency_ms": 251.05,
+  "final_returned": [
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 9998.950474922547
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का नवीनीकरण कब होता है?",
+      "Crop": "General",
+      "Score": 9.923663702838702
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.919517398659478
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.915776613172294
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 9.877050517950215
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:47.660603",
+  "query_original": "तापमान का कीटों के जीवन चक्र पर प्रभाव?",
+  "query_normalized": "तापमान का कीटों के जीवन चक्र पर प्रभाव",
+  "query_expanded": "बग तापमान का कीटों के जीवन चक्र पर प्रभाव pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "तापमान का कीटों के जीवन चक्र पर प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'निगरानी'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "FinalScore": 9.99840276883386,
+      "CrossScore": 0.9998402768833858
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 9.998232993475598,
+      "CrossScore": 0.9998232993475599
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998177312661765,
+      "CrossScore": 0.9998177312661765
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 9.997884586215765,
+      "CrossScore": 0.9997884586215764
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 9.997858093978047,
+      "CrossScore": 0.9997858093978047
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'तापमान'?",
+      "Crop": "General",
+      "FinalScore": 9.997788268958898,
+      "CrossScore": 0.9997788268958898
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997496006163649,
+      "CrossScore": 0.999749600616365
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.997257788974633,
+      "CrossScore": 0.9997257788974633
+    },
+    {
+      "Question": "तापमान का दानों के भराव पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.99987316685227,
+      "CrossScore": 0.99987316685227
+    },
+    {
+      "Question": "प्याज की 'पछेती' बुआई में 'तापमान' का प्रभाव?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998571484049107,
+      "CrossScore": 0.9998571484049107
+    }
+  ],
+  "latency_ms": 189.44,
+  "final_returned": [
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "Score": 9.99840276883386
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "Score": 9.998232993475598
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.998177312661765
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'निगरानी'?",
+      "Crop": "General",
+      "Score": 9.997884586215765
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "Score": 9.997858093978047
+    }
+  ]
+}

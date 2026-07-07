@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:14.623869",
+  "query_original": "फसल सुरक्षा में 'ड्रोन' की भूमिका?",
+  "query_normalized": "फसल सुरक्षा में ड्रोन की भूमिका",
+  "query_expanded": "फसल सुरक्षा में ड्रोन की भूमिका",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फसल सुरक्षा में 'ड्रोन' की भूमिका?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा में 'मित्र कीटों' की भूमिका?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा में 'हवा की दिशा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी की फसल में 'पाले' से बचाव?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फसल सुरक्षा में 'हवा की दिशा'?",
+      "Crop": "General",
+      "FinalScore": 0.9999222932002544,
+      "CrossScore": 0.9999222932002544
+    },
+    {
+      "Question": "फसल सुरक्षा में 'जल प्रबंधन'?",
+      "Crop": "General",
+      "FinalScore": 0.9999189403520499,
+      "CrossScore": 0.9999189403520499
+    },
+    {
+      "Question": "फसल सुरक्षा में 'समग्र प्रबंधन' (IPM)?",
+      "Crop": "General",
+      "FinalScore": 0.9999186069768239,
+      "CrossScore": 0.9999186069768239
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9999128255629754,
+      "CrossScore": 0.9999128255629754
+    },
+    {
+      "Question": "टमाटर की खेती में 'पोटाश' की भूमिका?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9999104861569406,
+      "CrossScore": 0.9999104861569406
+    },
+    {
+      "Question": "फसल सुरक्षा में 'मल्चिंग' (Mulching) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9999100994997845,
+      "CrossScore": 0.9999100994997845
+    },
+    {
+      "Question": "फसल सुरक्षा में 'नीम' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999093741589526,
+      "CrossScore": 0.9999093741589526
+    },
+    {
+      "Question": "फसल सुरक्षा में 'मित्र कीटों' की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.999908375737319,
+      "CrossScore": 0.999908375737319
+    },
+    {
+      "Question": "पक्षियों से फसल की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9999073119756766,
+      "CrossScore": 0.9999073119756766
+    },
+    {
+      "Question": "मक्का में पोटाश की क्या भूमिका है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998947045595624,
+      "CrossScore": 0.9998947045595624
+    }
+  ],
+  "latency_ms": 349.23,
+  "final_returned": [
+    {
+      "Question": "फसल सुरक्षा में 'हवा की दिशा'?",
+      "Crop": "General",
+      "Score": 0.9999222932002544
+    },
+    {
+      "Question": "फसल सुरक्षा में 'जल प्रबंधन'?",
+      "Crop": "General",
+      "Score": 0.9999189403520499
+    },
+    {
+      "Question": "फसल सुरक्षा में 'समग्र प्रबंधन' (IPM)?",
+      "Crop": "General",
+      "Score": 0.9999186069768239
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General",
+      "Score": 0.9999128255629754
+    },
+    {
+      "Question": "टमाटर की खेती में 'पोटाश' की भूमिका?",
+      "Crop": "Tomato",
+      "Score": 0.9999104861569406
+    }
+  ]
+}

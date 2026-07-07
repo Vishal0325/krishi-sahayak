@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:56.879384",
+  "query_original": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+  "query_normalized": "कपास का गुलाबी सुंडी pink bollworm क्या है",
+  "query_expanded": "कपास का गुलाबी सुंडी pink bollworm क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' का 'जैविक' इलाज?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9999095407956079,
+      "CrossScore": 0.9999095407956079
+    },
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9999019668030006,
+      "CrossScore": 0.9999019668030006
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9993504095178553,
+      "CrossScore": 0.9993504095178553
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9992715227762512,
+      "CrossScore": 0.9992715227762512
+    },
+    {
+      "Question": "प्याज की खेती का परिचय क्या है?",
+      "Crop": "Onion",
+      "FinalScore": 0.9990767063436338,
+      "CrossScore": 0.9990767063436338
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9989520739665257,
+      "CrossScore": 0.9989520739665257
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9989380644852974,
+      "CrossScore": 0.9989380644852974
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9987798883001089,
+      "CrossScore": 0.9987798883001089
+    },
+    {
+      "Question": "पीला रतुआ का उपचार क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9987490717155078,
+      "CrossScore": 0.9987490717155078
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.99873240430834,
+      "CrossScore": 0.99873240430834
+    }
+  ],
+  "latency_ms": 244.91,
+  "final_returned": [
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "Score": 0.9999095407956079
+    },
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton",
+      "Score": 0.9999019668030006
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "Score": 0.9993504095178553
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9992715227762512
+    },
+    {
+      "Question": "प्याज की खेती का परिचय क्या है?",
+      "Crop": "Onion",
+      "Score": 0.9990767063436338
+    }
+  ]
+}

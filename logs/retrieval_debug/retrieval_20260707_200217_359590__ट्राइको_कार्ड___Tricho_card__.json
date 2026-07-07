@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:17.131984",
+  "query_original": "'ट्राइको-कार्ड' (Tricho-card) क्या है?",
+  "query_normalized": "ट्राइको कार्ड tricho card क्या है",
+  "query_expanded": "ट्राइको कार्ड tricho card क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्राइको-कार्ड (Tricho-card) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ट्राइको-कार्ड' (Tricho-card) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'मृदा स्वास्थ्य कार्ड' जरूरी है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का बिजनेस पर क्या असर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ट्राइको-कार्ड' (Tricho-card) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9278271932762,
+      "CrossScore": 0.9999278271932762
+    },
+    {
+      "Question": "ट्राइको-कार्ड (Tricho-card) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9272880844056,
+      "CrossScore": 0.9999272880844057
+    },
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997818548914665,
+      "CrossScore": 0.9997818548914665
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997304864141457,
+      "CrossScore": 0.9997304864141457
+    },
+    {
+      "Question": "'ट्राइको-कार्ड' को खेत in कहाँ लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9993568466685453,
+      "CrossScore": 0.9993568466685453
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9992834088517668,
+      "CrossScore": 0.9992834088517668
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991897840655098,
+      "CrossScore": 0.9991897840655098
+    },
+    {
+      "Question": "क्या पशुओं के लिए भी आधार कार्ड (UID) होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9991840219076662,
+      "CrossScore": 0.9991840219076662
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9989374795819855,
+      "CrossScore": 0.9989374795819855
+    },
+    {
+      "Question": "गन्ने की 'पेड़ी' (Ratoon) फसल क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9989170484868392,
+      "CrossScore": 0.9989170484868392
+    }
+  ],
+  "latency_ms": 227.64,
+  "final_returned": [
+    {
+      "Question": "'ट्राइको-कार्ड' (Tricho-card) क्या है?",
+      "Crop": "General",
+      "Score": 999.9278271932762
+    },
+    {
+      "Question": "ट्राइको-कार्ड (Tricho-card) क्या है?",
+      "Crop": "General",
+      "Score": 999.9272880844056
+    },
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997818548914665
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9997304864141457
+    },
+    {
+      "Question": "'ट्राइको-कार्ड' को खेत in कहाँ लगाएं?",
+      "Crop": "General",
+      "Score": 0.9993568466685453
+    }
+  ]
+}

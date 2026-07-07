@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:23.055112",
+  "query_original": "पोटाश की कमी के लक्षण क्या हैं?",
+  "query_normalized": "पोटाश की कमी के लक्षण क्या हैं",
+  "query_expanded": "पोटाश की कमी के लक्षण क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में जस्ते (Zinc) की कमी के क्या लक्षण हैं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का में जिंक की कमी के लक्षण क्या हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "नाइट्रोजन की कमी के क्या लक्षण हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मैंगनीज की कमी के लक्षण क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में बोरॉन की कमी के कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999162565296775,
+      "CrossScore": 0.9999162565296775
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999121724800774,
+      "CrossScore": 0.9999121724800774
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999034292583158,
+      "CrossScore": 0.9999034292583158
+    },
+    {
+      "Question": "मैंगनीज की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999896002091533,
+      "CrossScore": 0.999896002091533
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998852944700718,
+      "CrossScore": 0.9998852944700718
+    },
+    {
+      "Question": "मक्का में जिंक की कमी के लक्षण क्या हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998822655121922,
+      "CrossScore": 0.9998822655121922
+    },
+    {
+      "Question": "मक्का की फसल में 'पोटाश' की कमी के लक्षण?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998818318133498,
+      "CrossScore": 0.9998818318133498
+    },
+    {
+      "Question": "सब्जियों में 'पोटाश' की कमी के लक्षण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998806432934425,
+      "CrossScore": 0.9998806432934425
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998724963973825,
+      "CrossScore": 0.9998724963973825
+    },
+    {
+      "Question": "भिंडी में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998679073952498,
+      "CrossScore": 0.9998679073952498
+    }
+  ],
+  "latency_ms": 177.54,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में बोरॉन की कमी के कारण क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9999162565296775
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9999121724800774
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण?",
+      "Crop": "Rice",
+      "Score": 0.9999034292583158
+    },
+    {
+      "Question": "मैंगनीज की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 0.999896002091533
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998852944700718
+    }
+  ]
+}

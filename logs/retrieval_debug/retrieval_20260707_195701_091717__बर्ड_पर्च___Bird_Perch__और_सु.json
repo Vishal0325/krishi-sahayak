@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:00.787872",
+  "query_original": "'बर्ड पर्च' (Bird Perch) और सुंडी नियंत्रण?",
+  "query_normalized": "बर्ड पर्च bird perch और सुंडी नियंत्रण",
+  "query_expanded": "बर्ड पर्च bird perch और सुंडी नियंत्रण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बर्ड पर्च' (Bird Perch) और सुंडी नियंत्रण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'बर्ड पर्च' (Bird Perch) का वैज्ञानिक आधार?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण और 'मृदा स्वास्थ्य'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बर्ड पर्च' (Bird Perch) और सुंडी नियंत्रण?",
+      "Crop": "General",
+      "FinalScore": 0.9998776674494917,
+      "CrossScore": 0.9998776674494917
+    },
+    {
+      "Question": "IPM में 'बर्ड पर्च' (Bird Perch) का वैज्ञानिक आधार?",
+      "Crop": "General",
+      "FinalScore": 0.9998252686671407,
+      "CrossScore": 0.9998252686671407
+    },
+    {
+      "Question": "चिड़िया बैठने के स्टैंड (Bird Perches) क्यों जरूरी हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997481477464293,
+      "CrossScore": 0.9997481477464293
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' के लिए 'बर्ड पर्च' का लाभ?",
+      "Crop": "Maize",
+      "FinalScore": 0.9952605797192849,
+      "CrossScore": 0.9952605797192849
+    },
+    {
+      "Question": "मिर्च में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9950101813968044,
+      "CrossScore": 0.9950101813968044
+    },
+    {
+      "Question": "बर्ड पर्च क्यों लगाएं?",
+      "Crop": "Rice",
+      "FinalScore": 0.9937915303352634,
+      "CrossScore": 0.9937915303352634
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथों का उपयोग'?",
+      "Crop": "General",
+      "FinalScore": 0.9932908417069967,
+      "CrossScore": 0.9932908417069967
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 0.9929170855477271,
+      "CrossScore": 0.9929170855477271
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General",
+      "FinalScore": 0.9918914376279104,
+      "CrossScore": 0.9918914376279104
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हस्त चयन'?",
+      "Crop": "General",
+      "FinalScore": 0.9912193889033047,
+      "CrossScore": 0.9912193889033047
+    }
+  ],
+  "latency_ms": 303.98,
+  "final_returned": [
+    {
+      "Question": "'बर्ड पर्च' (Bird Perch) और सुंडी नियंत्रण?",
+      "Crop": "General",
+      "Score": 0.9998776674494917
+    },
+    {
+      "Question": "IPM में 'बर्ड पर्च' (Bird Perch) का वैज्ञानिक आधार?",
+      "Crop": "General",
+      "Score": 0.9998252686671407
+    },
+    {
+      "Question": "चिड़िया बैठने के स्टैंड (Bird Perches) क्यों जरूरी हैं?",
+      "Crop": "General",
+      "Score": 0.9997481477464293
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' के लिए 'बर्ड पर्च' का लाभ?",
+      "Crop": "Maize",
+      "Score": 0.9952605797192849
+    },
+    {
+      "Question": "मिर्च में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Chilli",
+      "Score": 0.9950101813968044
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:21.111766",
+  "query_original": "सिंचाई और खाद का संबंध?",
+  "query_normalized": "सिंचाई और खाद का संबंध",
+  "query_expanded": "poshak खाद सिंचाई और खाद का संबंध पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सिंचाई और खाद का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'सफेद मक्खी' और 'पीला मोजेक' का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सिंचाई और खाद का संबंध?",
+      "Crop": "General",
+      "FinalScore": 999.9191190229866,
+      "CrossScore": 0.9999191190229866
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999042061037305,
+      "CrossScore": 0.9999042061037305
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और उर्वरक दक्षता?",
+      "Crop": "General",
+      "FinalScore": 0.9998888673951914,
+      "CrossScore": 0.9998888673951914
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998886991956119,
+      "CrossScore": 0.9998886991956119
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998787559496279,
+      "CrossScore": 0.9998787559496279
+    },
+    {
+      "Question": "'सफेद मक्खी' और 'पीला मोजेक' का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.999876386139582,
+      "CrossScore": 0.999876386139582
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998756174688003,
+      "CrossScore": 0.9998756174688003
+    },
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9998681505195762,
+      "CrossScore": 0.9998681505195762
+    },
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9998571987953637,
+      "CrossScore": 0.9998571987953637
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998507382722299,
+      "CrossScore": 0.9998507382722299
+    }
+  ],
+  "latency_ms": 172.62,
+  "final_returned": [
+    {
+      "Question": "सिंचाई और खाद का संबंध?",
+      "Crop": "General",
+      "Score": 999.9191190229866
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "Score": 0.9999042061037305
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और उर्वरक दक्षता?",
+      "Crop": "General",
+      "Score": 0.9998888673951914
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9998886991956119
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "Score": 0.9998787559496279
+    }
+  ]
+}

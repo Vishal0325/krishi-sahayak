@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:49.498194",
+  "query_original": "'मटर का फली छेदक' कीट?",
+  "query_normalized": "मटर का फली छेदक कीट",
+  "query_expanded": "बग pest कीड़ा कीट मटर का फली छेदक कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "मटर का 'फली छेदक' (Pod Borer) कीट?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "'चने का फली छेदक'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "गन्ने का 'तना छेदक' (Stem Borer) कीट?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea",
+      "FinalScore": 9.999128085199109,
+      "CrossScore": 0.9999128085199109
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.998730194591362,
+      "CrossScore": 0.9998730194591362
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.998566812445866,
+      "CrossScore": 0.9998566812445865
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.998509960860789,
+      "CrossScore": 0.9998509960860789
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton",
+      "FinalScore": 9.998483325747245,
+      "CrossScore": 0.9998483325747244
+    },
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.99808219561384,
+      "CrossScore": 0.999808219561384
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "FinalScore": 9.997625388893422,
+      "CrossScore": 0.9997625388893421
+    },
+    {
+      "Question": "'चने का फली छेदक'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.993562469101384,
+      "CrossScore": 0.9993562469101385
+    },
+    {
+      "Question": "मटर का 'फली छेदक' (Pod Borer) कीट?",
+      "Crop": "Pea",
+      "FinalScore": 0.9999233443402866,
+      "CrossScore": 0.9999233443402866
+    },
+    {
+      "Question": "टमाटर का 'फल छेदक' (Fruit Borer) कीट?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9999171797446976,
+      "CrossScore": 0.9999171797446976
+    }
+  ],
+  "latency_ms": 180.37,
+  "final_returned": [
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea",
+      "Score": 9.999128085199109
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9.998730194591362
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9.998566812445866
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "Score": 9.998509960860789
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton",
+      "Score": 9.998483325747245
+    }
+  ]
+}

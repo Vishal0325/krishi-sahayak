@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:56.374526",
+  "query_original": "धान का 'झूठा कंड' (False Smut) क्या है?",
+  "query_normalized": "धान का झूठा कंड false smut क्या है",
+  "query_expanded": "धान का झूठा कंड false smut क्या है",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान का 'झूठा कंड' (False Smut) क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "झूठा कंड (False Smut) का उपचार क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान का 'झूठा कंड' (False Smut) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49996.55476390255,
+      "CrossScore": 0.9999310952780511
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "FinalScore": 49.996517773478274,
+      "CrossScore": 0.9999303554695654
+    },
+    {
+      "Question": "झूठा कंड (False Smut) का उपचार क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99289917008494,
+      "CrossScore": 0.9998579834016987
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.985552015575344,
+      "CrossScore": 0.9997110403115069
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.98253961806506,
+      "CrossScore": 0.9996507923613013
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97828009382045,
+      "CrossScore": 0.999565601876409
+    },
+    {
+      "Question": "धान का 'खैरा' रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.977598115263305,
+      "CrossScore": 0.9995519623052661
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.976357931832005,
+      "CrossScore": 0.9995271586366401
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97508349202128,
+      "CrossScore": 0.9995016698404255
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97471077333457,
+      "CrossScore": 0.9994942154666915
+    }
+  ],
+  "latency_ms": 181.9,
+  "final_returned": [
+    {
+      "Question": "धान का 'झूठा कंड' (False Smut) क्या है?",
+      "Crop": "Rice",
+      "Score": 49996.55476390255
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "Score": 49.996517773478274
+    },
+    {
+      "Question": "झूठा कंड (False Smut) का उपचार क्या है?",
+      "Crop": "Rice",
+      "Score": 49.99289917008494
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 49.985552015575344
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 49.98253961806506
+    }
+  ]
+}

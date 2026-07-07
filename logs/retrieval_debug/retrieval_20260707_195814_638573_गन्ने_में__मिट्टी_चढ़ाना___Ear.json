@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:14.457373",
+  "query_original": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+  "query_normalized": "गन्ने में मिट्टी चढ़ाना earthing up कब करें",
+  "query_expanded": "गन्ने में मिट्टी चढ़ाना earthing up कब करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "मक्का की फसल में 'मिट्टी चढ़ाना' कब करें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999440609046288,
+      "CrossScore": 0.9999440609046288
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9999295983873325,
+      "CrossScore": 0.9999295983873325
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9999198395624931,
+      "CrossScore": 0.9999198395624931
+    },
+    {
+      "Question": "गन्ने में 'यूरिया' की अंतिम डोज कब दें?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999007700859885,
+      "CrossScore": 0.9999007700859885
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998909594872902,
+      "CrossScore": 0.9998909594872902
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995690384509743,
+      "CrossScore": 0.9995690384509743
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9995460554996956,
+      "CrossScore": 0.9995460554996956
+    },
+    {
+      "Question": "भिंडी में 'एनपीके 19:19:19' का छिड़काव कब करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9995183153842184,
+      "CrossScore": 0.9995183153842184
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज सल्फेट' का छिड़काव कब करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995124290191706,
+      "CrossScore": 0.9995124290191706
+    },
+    {
+      "Question": "अंगूर के बाग में 'छंटाई' (Pruning) कब करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9993871487342337,
+      "CrossScore": 0.9993871487342337
+    }
+  ],
+  "latency_ms": 181.3,
+  "final_returned": [
+    {
+      "Question": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999440609046288
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Potato",
+      "Score": 0.9999295983873325
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato",
+      "Score": 0.9999198395624931
+    },
+    {
+      "Question": "गन्ने में 'यूरिया' की अंतिम डोज कब दें?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999007700859885
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9998909594872902
+    }
+  ]
+}

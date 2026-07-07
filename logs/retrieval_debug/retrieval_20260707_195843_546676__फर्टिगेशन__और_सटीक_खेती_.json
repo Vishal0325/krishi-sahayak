@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:43.375215",
+  "query_original": "'फर्टिगेशन' और सटीक खेती?",
+  "query_normalized": "फर्टिगेशन और सटीक खेती",
+  "query_expanded": "फर्टिगेशन और सटीक खेती",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फर्टिगेशन' और सटीक खेती?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उत्पादन' और 'सामान्य खेती' में अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में 'फर्टिगेशन' के लाभ?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "FinalScore": 0.9998950332799318,
+      "CrossScore": 0.9998950332799318
+    },
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General",
+      "FinalScore": 0.9998874637959321,
+      "CrossScore": 0.9998874637959321
+    },
+    {
+      "Question": "'फर्टिगेशन' और सटीक खेती?",
+      "Crop": "General",
+      "FinalScore": 0.9998838372213199,
+      "CrossScore": 0.9998838372213199
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998812354727017,
+      "CrossScore": 0.9998812354727017
+    },
+    {
+      "Question": "जैविक खेती और 'मृदा स्वास्थ्य'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998707159237202,
+      "CrossScore": 0.9998707159237202
+    },
+    {
+      "Question": "जैविक खेती और 'मधुमक्खी पालन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998517541376153,
+      "CrossScore": 0.9998517541376153
+    },
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998512782736777,
+      "CrossScore": 0.9998512782736777
+    },
+    {
+      "Question": "जैविक खेती और 'बायो-डायवर्सिटी' (Biodiversity)?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998360548355331,
+      "CrossScore": 0.9998360548355331
+    },
+    {
+      "Question": "'फर्टिगेशन' और समय की बचत?",
+      "Crop": "General",
+      "FinalScore": 0.9998267309947291,
+      "CrossScore": 0.9998267309947291
+    },
+    {
+      "Question": "'पीएच' मीटर और सटीक जांच?",
+      "Crop": "General",
+      "FinalScore": 0.9998264669477064,
+      "CrossScore": 0.9998264669477064
+    }
+  ],
+  "latency_ms": 171.56,
+  "final_returned": [
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "Score": 0.9998950332799318
+    },
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General",
+      "Score": 0.9998874637959321
+    },
+    {
+      "Question": "'फर्टिगेशन' और सटीक खेती?",
+      "Crop": "General",
+      "Score": 0.9998838372213199
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "Score": 0.9998812354727017
+    },
+    {
+      "Question": "जैविक खेती और 'मृदा स्वास्थ्य'?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998707159237202
+    }
+  ]
+}

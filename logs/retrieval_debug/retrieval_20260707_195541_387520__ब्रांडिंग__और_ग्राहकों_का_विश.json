@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:41.187208",
+  "query_original": "'ब्रांडिंग' और ग्राहकों का विश्वास?",
+  "query_normalized": "ब्रांडिंग और ग्राहकों का विश्वास",
+  "query_expanded": "ब्रांडिंग और ग्राहकों का विश्वास",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ब्रांडिंग' और ग्राहकों का विश्वास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'लीची का माइट' और 'सल्फर'?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'तंबाकू'?",
+      "Crop": "Papaya"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ब्रांडिंग' और ग्राहकों का विश्वास?",
+      "Crop": "General",
+      "FinalScore": 0.9998790645905651,
+      "CrossScore": 0.9998790645905651
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.999875358401838,
+      "CrossScore": 0.999875358401838
+    },
+    {
+      "Question": "'ब्रांडिंग' (Branding) का छोटे किसानों के लिए महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998414032605335,
+      "CrossScore": 0.9998414032605335
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998388600391427,
+      "CrossScore": 0.9998388600391427
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 0.9998174303556494,
+      "CrossScore": 0.9998174303556494
+    },
+    {
+      "Question": "'पपीते का रिंग स्पॉट' वायरस और 'फल'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998142139031796,
+      "CrossScore": 0.9998142139031796
+    },
+    {
+      "Question": "'मल्चिंग' (Mulching) और मिट्टी का तापमान?",
+      "Crop": "General",
+      "FinalScore": 0.999812583063395,
+      "CrossScore": 0.999812583063395
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998091840971642,
+      "CrossScore": 0.9998091840971642
+    },
+    {
+      "Question": "'जिंक सल्फेट' और धान का खैरा रोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998061276441741,
+      "CrossScore": 0.9998061276441741
+    },
+    {
+      "Question": "फफूंदनाशक और 'मिट्टी का स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9998057831380472,
+      "CrossScore": 0.9998057831380472
+    }
+  ],
+  "latency_ms": 200.4,
+  "final_returned": [
+    {
+      "Question": "'ब्रांडिंग' और ग्राहकों का विश्वास?",
+      "Crop": "General",
+      "Score": 0.9998790645905651
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "Score": 0.999875358401838
+    },
+    {
+      "Question": "'ब्रांडिंग' (Branding) का छोटे किसानों के लिए महत्व?",
+      "Crop": "General",
+      "Score": 0.9998414032605335
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 0.9998388600391427
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "Score": 0.9998174303556494
+    }
+  ]
+}

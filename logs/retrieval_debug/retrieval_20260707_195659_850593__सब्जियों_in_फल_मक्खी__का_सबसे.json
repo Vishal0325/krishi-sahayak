@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:59.680092",
+  "query_original": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+  "query_normalized": "सब्जियों in फल मक्खी का सबसे प्रभावी इलाज",
+  "query_expanded": "सब्जियों in फल मक्खी का सबसे प्रभावी इलाज",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998645541442596,
+      "CrossScore": 0.9998645541442596
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998468157936561,
+      "CrossScore": 0.9998468157936561
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999843014197542,
+      "CrossScore": 0.999843014197542
+    },
+    {
+      "Question": "'सब्जियों in फल छेदक' के लिए 'बोरॉन'?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998422514775828,
+      "CrossScore": 0.9998422514775828
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998415208704662,
+      "CrossScore": 0.9998415208704662
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999840643048002,
+      "CrossScore": 0.999840643048002
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'नीम तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998242916244581,
+      "CrossScore": 0.9998242916244581
+    },
+    {
+      "Question": "सब्जियों in 'नीमेटोड' (Nematodes) का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998236857662801,
+      "CrossScore": 0.9998236857662801
+    },
+    {
+      "Question": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998138395703557,
+      "CrossScore": 0.9998138395703557
+    },
+    {
+      "Question": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998013592938392,
+      "CrossScore": 0.9998013592938392
+    }
+  ],
+  "latency_ms": 170.68,
+  "final_returned": [
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "Score": 0.9998645541442596
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "Score": 0.9998468157936561
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "Score": 0.999843014197542
+    },
+    {
+      "Question": "'सब्जियों in फल छेदक' के लिए 'बोरॉन'?",
+      "Crop": "Vegetables",
+      "Score": 0.9998422514775828
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "Score": 0.9998415208704662
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:56:08.945765",
+  "query_original": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+  "query_normalized": "धान का तना छेदक stem borer कीट क्या है",
+  "query_expanded": "धान का तना छेदक stem borer कीट क्या है बग pest कीड़ा कीट insect",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice",
+      "FinalScore": 499.9568398282034,
+      "CrossScore": 0.9999136796564068
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.9529612896564,
+      "CrossScore": 0.9999059225793128
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.887848288767,
+      "CrossScore": 0.999775696577534
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.8647566787883,
+      "CrossScore": 0.9997295133575765
+    },
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.8533490975363,
+      "CrossScore": 0.9997066981950726
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "FinalScore": 499.80362149036387,
+      "CrossScore": 0.9996072429807278
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 499.76917671677415,
+      "CrossScore": 0.9995383534335484
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.98928369771407,
+      "CrossScore": 0.9997856739542814
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.98701643924395,
+      "CrossScore": 0.9997403287848791
+    },
+    {
+      "Question": "धान की फसल में गंधी बग का हमला?",
+      "Crop": "Rice",
+      "FinalScore": 49.98393739414663,
+      "CrossScore": 0.9996787478829327
+    }
+  ],
+  "latency_ms": 389.12,
+  "final_returned": [
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice",
+      "Score": 499.9568398282034
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 499.9529612896564
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "Score": 499.887848288767
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice",
+      "Score": 499.8647566787883
+    },
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 499.8533490975363
+    }
+  ]
+}

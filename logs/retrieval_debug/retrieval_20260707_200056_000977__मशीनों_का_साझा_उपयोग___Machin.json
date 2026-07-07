@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:55.773883",
+  "query_original": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+  "query_normalized": "मशीनों का साझा उपयोग machine sharing क्यों किफायती है",
+  "query_expanded": "मशीनों का साझा उपयोग machine sharing क्यों किफायती है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "मशीनों को साझा करना (Machine Sharing) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 999.9244324435319,
+      "CrossScore": 0.9999244324435319
+    },
+    {
+      "Question": "मशीनों को साझा करना (Machine Sharing) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999148164399605,
+      "CrossScore": 0.9999148164399605
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998678827054327,
+      "CrossScore": 0.9998678827054327
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9996279770849713,
+      "CrossScore": 0.9996279770849713
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993771850610428,
+      "CrossScore": 0.9993771850610428
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993296811152323,
+      "CrossScore": 0.9993296811152323
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9993145615631557,
+      "CrossScore": 0.9993145615631557
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9992314569736426,
+      "CrossScore": 0.9992314569736426
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9992292655167289,
+      "CrossScore": 0.9992292655167289
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9991884995058585,
+      "CrossScore": 0.9991884995058585
+    }
+  ],
+  "latency_ms": 227.12,
+  "final_returned": [
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "Score": 999.9244324435319
+    },
+    {
+      "Question": "मशीनों को साझा करना (Machine Sharing) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999148164399605
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998678827054327
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9996279770849713
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9993771850610428
+    }
+  ]
+}

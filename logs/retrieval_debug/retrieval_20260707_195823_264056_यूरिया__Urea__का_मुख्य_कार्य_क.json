@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:23.043483",
+  "query_original": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+  "query_normalized": "यूरिया urea का मुख्य कार्य क्या है",
+  "query_expanded": "नाइट्रोजन urea nitrogen यूरिया यूरिया urea का मुख्य कार्य क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'सल्फर' (गंधक) का क्या कार्य है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या यूरिया का अधिक प्रयोग फसल को गिरा सकता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999198730365828,
+      "CrossScore": 0.9999198730365828
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999151164630865,
+      "CrossScore": 0.9999151164630865
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999092244429243,
+      "CrossScore": 0.9999092244429243
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998349172410969,
+      "CrossScore": 0.9998349172410969
+    },
+    {
+      "Question": "क्लोरेंट्रानिलिप्रोल (Coragen) का मुख्य कार्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998120728932309,
+      "CrossScore": 0.9998120728932309
+    },
+    {
+      "Question": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998098562761728,
+      "CrossScore": 0.9998098562761728
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.999795775046631,
+      "CrossScore": 0.999795775046631
+    },
+    {
+      "Question": "क्या यूरिया का अधिक प्रयोग फसल को गिरा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997852685429025,
+      "CrossScore": 0.9997852685429025
+    },
+    {
+      "Question": "क्या यूरिया का घोल बनाकर पौधों पर डाल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997703993943259,
+      "CrossScore": 0.9997703993943259
+    },
+    {
+      "Question": "बेंटोनाइट सल्फर का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9997702758936757,
+      "CrossScore": 0.9997702758936757
+    }
+  ],
+  "latency_ms": 220.67,
+  "final_returned": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9999198730365828
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9999151164630865
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999092244429243
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998349172410969
+    },
+    {
+      "Question": "क्लोरेंट्रानिलिप्रोल (Coragen) का मुख्य कार्य?",
+      "Crop": "General",
+      "Score": 0.9998120728932309
+    }
+  ]
+}

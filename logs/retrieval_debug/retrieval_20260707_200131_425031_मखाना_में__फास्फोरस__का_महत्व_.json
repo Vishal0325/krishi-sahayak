@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:31.246790",
+  "query_original": "मखाना में 'फास्फोरस' का महत्व?",
+  "query_normalized": "मखाना में फास्फोरस का महत्व",
+  "query_expanded": "मखाना में फास्फोरस का महत्व",
+  "detected_crops": [
+    "Makhana"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मखाना में 'फास्फोरस' का महत्व?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "ट्रैक्टर में 'एयर क्लीनर' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मखाना में 'फास्फोरस' का महत्व?",
+      "Crop": "Makhana",
+      "FinalScore": 49995.18569714011,
+      "CrossScore": 0.9999037139428021
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana",
+      "FinalScore": 49.996264031922934,
+      "CrossScore": 0.9999252806384586
+    },
+    {
+      "Question": "मखाना के खेत में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99570458617059,
+      "CrossScore": 0.9999140917234118
+    },
+    {
+      "Question": "मखाना में 'फास्फोरस' के लिए 'डीएपी'?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99528984501782,
+      "CrossScore": 0.9999057969003564
+    },
+    {
+      "Question": "मखाना में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99446684593504,
+      "CrossScore": 0.9998893369187007
+    },
+    {
+      "Question": "मखाना में 'सिंचाई' का अंतराल खेत विधि में?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99429437041107,
+      "CrossScore": 0.9998858874082214
+    },
+    {
+      "Question": "मखाना में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Makhana",
+      "FinalScore": 49.9939727445516,
+      "CrossScore": 0.9998794548910319
+    },
+    {
+      "Question": "मखाना में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Makhana",
+      "FinalScore": 49.993911287365144,
+      "CrossScore": 0.9998782257473029
+    },
+    {
+      "Question": "मखाना में 'जिंक' की कमी से पत्तों का आकार?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99373137910793,
+      "CrossScore": 0.9998746275821586
+    },
+    {
+      "Question": "मखाना के बीजों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Makhana",
+      "FinalScore": 49.993631205772004,
+      "CrossScore": 0.9998726241154401
+    }
+  ],
+  "latency_ms": 178.33,
+  "final_returned": [
+    {
+      "Question": "मखाना में 'फास्फोरस' का महत्व?",
+      "Crop": "Makhana",
+      "Score": 49995.18569714011
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana",
+      "Score": 49.996264031922934
+    },
+    {
+      "Question": "मखाना के खेत में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Makhana",
+      "Score": 49.99570458617059
+    },
+    {
+      "Question": "मखाना में 'फास्फोरस' के लिए 'डीएपी'?",
+      "Crop": "Makhana",
+      "Score": 49.99528984501782
+    },
+    {
+      "Question": "मखाना में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Makhana",
+      "Score": 49.99446684593504
+    }
+  ]
+}

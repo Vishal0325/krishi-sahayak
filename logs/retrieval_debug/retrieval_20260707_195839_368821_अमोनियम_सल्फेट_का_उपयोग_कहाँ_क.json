@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:39.199598",
+  "query_original": "अमोनियम सल्फेट का उपयोग कहाँ करें?",
+  "query_normalized": "अमोनियम सल्फेट का उपयोग कहाँ करें",
+  "query_expanded": "अमोनियम सल्फेट का उपयोग कहाँ करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अमोनियम सल्फेट का उपयोग कहाँ करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आयरन सल्फेट (Iron Sulphate) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'जिंक सल्फेट' का छिड़काव कब करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999245875044753,
+      "CrossScore": 0.9999245875044753
+    },
+    {
+      "Question": "अमोनियम सल्फेट का उपयोग कहाँ करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999144488938693,
+      "CrossScore": 0.9999144488938693
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999135510679725,
+      "CrossScore": 0.9999135510679725
+    },
+    {
+      "Question": "क्या खेती में 'डिजिटल डायरी' (Digital Diary) का उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999124588610627,
+      "CrossScore": 0.9999124588610627
+    },
+    {
+      "Question": "भिंडी के 'अवशेषों' का उपयोग?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999120749392194,
+      "CrossScore": 0.9999120749392194
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999911665330059,
+      "CrossScore": 0.999911665330059
+    },
+    {
+      "Question": "मशरूम का 'बीज' (Spawn) कहाँ से प्राप्त करें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999087723304549,
+      "CrossScore": 0.9999087723304549
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999073077330516,
+      "CrossScore": 0.9999073077330516
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999062976282602,
+      "CrossScore": 0.9999062976282602
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999060770240843,
+      "CrossScore": 0.9999060770240843
+    }
+  ],
+  "latency_ms": 169.32,
+  "final_returned": [
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 0.9999245875044753
+    },
+    {
+      "Question": "अमोनियम सल्फेट का उपयोग कहाँ करें?",
+      "Crop": "General",
+      "Score": 0.9999144488938693
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "Score": 0.9999135510679725
+    },
+    {
+      "Question": "क्या खेती में 'डिजिटल डायरी' (Digital Diary) का उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9999124588610627
+    },
+    {
+      "Question": "भिंडी के 'अवशेषों' का उपयोग?",
+      "Crop": "Okra",
+      "Score": 0.9999120749392194
+    }
+  ]
+}

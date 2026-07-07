@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:08.924539",
+  "query_original": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+  "query_normalized": "धान in शीथ रॉट sheath rot का लक्षण",
+  "query_expanded": "धान in शीथ रॉट sheath rot का लक्षण",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "शीथ रॉट का लक्षण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'फुट रॉट' का जैविक उपचार?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'फुट रॉट' के लक्षण?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 49993.74298855366,
+      "CrossScore": 0.9998748597710733
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.984470777490486,
+      "CrossScore": 0.9996894155498097
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 49.964943653580605,
+      "CrossScore": 0.9992988730716121
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.96143285707138,
+      "CrossScore": 0.9992286571414276
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'वैलिडामाइसिन'?",
+      "Crop": "Rice",
+      "FinalScore": 49.959188147250266,
+      "CrossScore": 0.9991837629450053
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'प्रोपीकोनाजोल' की मात्रा?",
+      "Crop": "Rice",
+      "FinalScore": 49.94706522269561,
+      "CrossScore": 0.9989413044539123
+    },
+    {
+      "Question": "धान में शीथ ब्लाइट का नियंत्रण?",
+      "Crop": "Rice",
+      "FinalScore": 49.94667333347501,
+      "CrossScore": 0.9989334666695002
+    },
+    {
+      "Question": "धान in 'हॉपर बर्न' का आर्थिक नुकसान?",
+      "Crop": "Rice",
+      "FinalScore": 49.94573342035064,
+      "CrossScore": 0.9989146684070128
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 49.945036461550515,
+      "CrossScore": 0.9989007292310104
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "FinalScore": 49.94463199586411,
+      "CrossScore": 0.9988926399172822
+    }
+  ],
+  "latency_ms": 164.08,
+  "final_returned": [
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice",
+      "Score": 49993.74298855366
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 49.984470777490486
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "Score": 49.964943653580605
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 49.96143285707138
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'वैलिडामाइसिन'?",
+      "Crop": "Rice",
+      "Score": 49.959188147250266
+    }
+  ]
+}

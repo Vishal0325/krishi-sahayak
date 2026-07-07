@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:07.342834",
+  "query_original": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+  "query_normalized": "जीवामृत jeevamrut का रोग नियंत्रण में महत्व",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा जीवामृत jeevamrut का रोग नियंत्रण में महत्व रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पालक में 'झुलसा' रोग का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "चने में 'झुलसा' का रासायनिक नियंत्रण?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.997660757083485,
+      "CrossScore": 0.9997660757083485
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "FinalScore": 9.997150629186185,
+      "CrossScore": 0.9997150629186186
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 9.996677253388583,
+      "CrossScore": 0.9996677253388583
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.995558531986124,
+      "CrossScore": 0.9995558531986124
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.995551744206937,
+      "CrossScore": 0.9995551744206936
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.995103823621028,
+      "CrossScore": 0.9995103823621028
+    },
+    {
+      "Question": "'सरसों' में 'झुलसा' (Blight) का प्रबंधन?",
+      "Crop": "Mustard",
+      "FinalScore": 9.994115300488687,
+      "CrossScore": 0.9994115300488686
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.99355279252011,
+      "CrossScore": 0.999355279252011
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998961444019466,
+      "CrossScore": 0.9998961444019466
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998658783009453,
+      "CrossScore": 0.9998658783009453
+    }
+  ],
+  "latency_ms": 232.83,
+  "final_returned": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.997660757083485
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "Score": 9.997150629186185
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "Score": 9.996677253388583
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "Score": 9.995558531986124
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.995551744206937
+    }
+  ]
+}

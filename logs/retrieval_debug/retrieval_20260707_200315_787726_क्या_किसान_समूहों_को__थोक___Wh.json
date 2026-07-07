@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:15.574689",
+  "query_original": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+  "query_normalized": "क्या किसान समूहों को थोक wholesale खरीदारों से जोड़ना संभव है",
+  "query_expanded": "क्या किसान समूहों को थोक wholesale खरीदारों से जोड़ना संभव है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM अपनाने से किसान को अधिक लाभ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती शुरू करने से पहले किसान को क्या करना चाहिए?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "क्या चूहों से फसल को बड़ा खतरा है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "FinalScore": 999.8797546441667,
+      "CrossScore": 0.9998797546441667
+    },
+    {
+      "Question": "मक्का की खेती शुरू करने से पहले किसान को क्या करना चाहिए?",
+      "Crop": "Maize",
+      "FinalScore": 0.9995259518655555,
+      "CrossScore": 0.9995259518655555
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994055240257825,
+      "CrossScore": 0.9994055240257825
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9993987465720968,
+      "CrossScore": 0.9993987465720968
+    },
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General",
+      "FinalScore": 0.9993788999608451,
+      "CrossScore": 0.9993788999608451
+    },
+    {
+      "Question": "क्या चूहों से फसल को बड़ा खतरा है?",
+      "Crop": "General",
+      "FinalScore": 0.9993475277604134,
+      "CrossScore": 0.9993475277604134
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9993429803381321,
+      "CrossScore": 0.9993429803381321
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9993358451880855,
+      "CrossScore": 0.9993358451880855
+    },
+    {
+      "Question": "क्या मशरूम से 'मूल्य संवर्धन' (Value Addition) संभव है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9993262520446511,
+      "CrossScore": 0.9993262520446511
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती में 'फसल विविधीकरण' संभव है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9992564856326274,
+      "CrossScore": 0.9992564856326274
+    }
+  ],
+  "latency_ms": 213.07,
+  "final_returned": [
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "Score": 999.8797546441667
+    },
+    {
+      "Question": "मक्का की खेती शुरू करने से पहले किसान को क्या करना चाहिए?",
+      "Crop": "Maize",
+      "Score": 0.9995259518655555
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "Score": 0.9994055240257825
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9993987465720968
+    },
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General",
+      "Score": 0.9993788999608451
+    }
+  ]
+}

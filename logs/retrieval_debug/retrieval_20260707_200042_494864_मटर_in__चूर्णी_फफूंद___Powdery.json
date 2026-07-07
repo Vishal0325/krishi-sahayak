@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:42.321513",
+  "query_original": "मटर in 'चूर्णी फफूंद' (Powdery Mildew) का समय?",
+  "query_normalized": "मटर in चूर्णी फफूंद powdery mildew का समय",
+  "query_expanded": "मटर in चूर्णी फफूंद powdery mildew का समय",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' (Powdery Mildew) का समय?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "'मटर' में चूर्णी फफूंद (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मटर में 'चूर्णी फफूंद' (Powdery Mildew)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' का 'रासायनिक' इलाज?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "मटर में 'चूर्णी फफूंद' (Powdery Mildew) रोग?",
+      "Crop": "Pea"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' (Powdery Mildew) का समय?",
+      "Crop": "Pea",
+      "FinalScore": 9999.026827765136,
+      "CrossScore": 0.9999026827765136
+    },
+    {
+      "Question": "मिर्च in 'चूर्णी फफूंद' (Powdery Mildew) के क्या लक्षण हैं?",
+      "Crop": "Chilli",
+      "FinalScore": 9.998892093712312,
+      "CrossScore": 0.9998892093712312
+    },
+    {
+      "Question": "'मिर्च की चूर्णी फफूंद' (Powdery Mildew)?",
+      "Crop": "Chilli",
+      "FinalScore": 9.99885976165774,
+      "CrossScore": 0.9998859761657741
+    },
+    {
+      "Question": "चूर्णी फफूंद (Powdery Mildew) का नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 9.998787485501499,
+      "CrossScore": 0.9998787485501499
+    },
+    {
+      "Question": "सरसों in 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "FinalScore": 9.998769543909328,
+      "CrossScore": 0.9998769543909328
+    },
+    {
+      "Question": "'सरसों' में 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "FinalScore": 9.99873861449551,
+      "CrossScore": 0.999873861449551
+    },
+    {
+      "Question": "मटर in 'जड़ सड़न' का समय?",
+      "Crop": "Pea",
+      "FinalScore": 9.988403859161277,
+      "CrossScore": 0.9988403859161277
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' का 'रासायनिक' इलाज?",
+      "Crop": "Pea",
+      "FinalScore": 9.984278027715192,
+      "CrossScore": 0.9984278027715192
+    },
+    {
+      "Question": "सरसों in 'झुलसा' रोकने के लिए 'बुआई का समय'?",
+      "Crop": "Mustard",
+      "FinalScore": 9.981697996065478,
+      "CrossScore": 0.9981697996065478
+    },
+    {
+      "Question": "आम in 'पाउडर मिल्ड्यू' का समय?",
+      "Crop": "Mango",
+      "FinalScore": 9.969532297340676,
+      "CrossScore": 0.9969532297340675
+    }
+  ],
+  "latency_ms": 173.44,
+  "final_returned": [
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' (Powdery Mildew) का समय?",
+      "Crop": "Pea",
+      "Score": 9999.026827765136
+    },
+    {
+      "Question": "मिर्च in 'चूर्णी फफूंद' (Powdery Mildew) के क्या लक्षण हैं?",
+      "Crop": "Chilli",
+      "Score": 9.998892093712312
+    },
+    {
+      "Question": "'मिर्च की चूर्णी फफूंद' (Powdery Mildew)?",
+      "Crop": "Chilli",
+      "Score": 9.99885976165774
+    },
+    {
+      "Question": "चूर्णी फफूंद (Powdery Mildew) का नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "Score": 9.998787485501499
+    },
+    {
+      "Question": "सरसों in 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "Score": 9.998769543909328
+    }
+  ]
+}

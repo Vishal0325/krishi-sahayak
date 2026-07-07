@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:21.806092",
+  "query_original": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+  "query_normalized": "गन्ने की बुआई की मशीन sugarcane planter के क्या लाभ हैं",
+  "query_expanded": "गन्ने की बुआई की मशीन sugarcane planter के क्या लाभ हैं",
+  "detected_crops": [
+    "Sugarcane"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की बुआई के लिए 'दो आंख' वाले टुकड़े क्यों अच्छे हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की 'अगेती' बुआई के लाभ?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की बुआई की 'ट्रेंच' (Trench) विधि क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की पेड़ी फसल के लाभ?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49995.958996553105,
+      "CrossScore": 0.999919179931062
+    },
+    {
+      "Question": "गन्ने की खेती में 'मजदूरी' कम करने के यंत्र?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.990988733006006,
+      "CrossScore": 0.9998197746601202
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.95643748765355,
+      "CrossScore": 0.9991287497530711
+    },
+    {
+      "Question": "गन्ने की खेती शुरू करने वाले किसानों के लिए सलाह?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.94453649876473,
+      "CrossScore": 0.9988907299752946
+    },
+    {
+      "Question": "गन्ने की पेड़ी फसल के लाभ?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.943661913147196,
+      "CrossScore": 0.9988732382629439
+    },
+    {
+      "Question": "गन्ने की बुआई के लिए 'दो आंख' वाले टुकड़े क्यों अच्छे हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.94007782778207,
+      "CrossScore": 0.9988015565556414
+    },
+    {
+      "Question": "गन्ने की बुआई की 'ट्रेंच' (Trench) विधि क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.938429972133385,
+      "CrossScore": 0.9987685994426677
+    },
+    {
+      "Question": "गन्ने की खेती के लिए सरकारी सब्सिडी?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.93019304837408,
+      "CrossScore": 0.9986038609674815
+    },
+    {
+      "Question": "बुआई के समय पंक्तियों के बीच की दूरी?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.928894071430484,
+      "CrossScore": 0.9985778814286097
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 49.92474507837768,
+      "CrossScore": 0.9984949015675536
+    }
+  ],
+  "latency_ms": 219.27,
+  "final_returned": [
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 49995.958996553105
+    },
+    {
+      "Question": "गन्ने की खेती में 'मजदूरी' कम करने के यंत्र?",
+      "Crop": "Sugarcane",
+      "Score": 49.990988733006006
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 49.95643748765355
+    },
+    {
+      "Question": "गन्ने की खेती शुरू करने वाले किसानों के लिए सलाह?",
+      "Crop": "Sugarcane",
+      "Score": 49.94453649876473
+    },
+    {
+      "Question": "गन्ने की पेड़ी फसल के लाभ?",
+      "Crop": "Sugarcane",
+      "Score": 49.943661913147196
+    }
+  ]
+}

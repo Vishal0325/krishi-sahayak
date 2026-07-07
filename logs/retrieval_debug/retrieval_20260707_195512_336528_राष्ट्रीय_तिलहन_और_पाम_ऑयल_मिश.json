@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:12.146444",
+  "query_original": "राष्ट्रीय तिलहन और पाम ऑयल मिशन?",
+  "query_normalized": "राष्ट्रीय तिलहन और पाम ऑयल मिशन",
+  "query_expanded": "राष्ट्रीय तिलहन और पाम ऑयल मिशन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय तिलहन और पाम ऑयल मिशन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998931785677255,
+      "CrossScore": 0.9998931785677255
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998869567942414,
+      "CrossScore": 0.9998869567942414
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998832190444934,
+      "CrossScore": 0.9998832190444934
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "FinalScore": 0.9998807074671919,
+      "CrossScore": 0.9998807074671919
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन के तहत अनुदान?",
+      "Crop": "General",
+      "FinalScore": 0.9998784289017554,
+      "CrossScore": 0.9998784289017554
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998769542736019,
+      "CrossScore": 0.9998769542736019
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998743750788867,
+      "CrossScore": 0.9998743750788867
+    },
+    {
+      "Question": "राष्ट्रीय तिलहन और पाम ऑयल मिशन?",
+      "Crop": "General",
+      "FinalScore": 0.9998704509727007,
+      "CrossScore": 0.9998704509727007
+    },
+    {
+      "Question": "फफूंदनाशक और 'मिट्टी का स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9998574492578227,
+      "CrossScore": 0.9998574492578227
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "FinalScore": 0.9998505596889086,
+      "CrossScore": 0.9998505596889086
+    }
+  ],
+  "latency_ms": 190.24,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998931785677255
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.9998869567942414
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998832190444934
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "Score": 0.9998807074671919
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन के तहत अनुदान?",
+      "Crop": "General",
+      "Score": 0.9998784289017554
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:35.054842",
+  "query_original": "बिहार में डीजल अनुदान योजना क्या है?",
+  "query_normalized": "बिहार में डीजल अनुदान योजना क्या है",
+  "query_expanded": "बिहार में डीजल अनुदान योजना क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बिहार में डीजल अनुदान योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बिहार में फलों के प्रसंस्करण (Processing) की क्या स्थिति है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या बिहार में धनिया की खेती सफल है?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "क्या बिहार में बैंगन की खेती सफल है?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बिहार में डीजल अनुदान योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9998.893919889717,
+      "CrossScore": 0.9998893919889716
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "FinalScore": 9.99877084325035,
+      "CrossScore": 0.999877084325035
+    },
+    {
+      "Question": "प्रधानमंत्री कृषि सिंचाई योजना में 'वाटरशेड' क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998767298494597,
+      "CrossScore": 0.9998767298494596
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998665946188481,
+      "CrossScore": 0.9998665946188481
+    },
+    {
+      "Question": "बिहार राज्य फसल सहायता योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.9986555678127,
+      "CrossScore": 0.9998655567812699
+    },
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998183690123263,
+      "CrossScore": 0.9998183690123263
+    },
+    {
+      "Question": "क्या बिहार में पपीते की खेती सफल है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998630104223825,
+      "CrossScore": 0.9998630104223825
+    },
+    {
+      "Question": "क्या बिहार में ड्रैगन फ्रूट की खेती सफल है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998563383656152,
+      "CrossScore": 0.9998563383656152
+    },
+    {
+      "Question": "क्या बिहार में फूलगोभी की खेती सफल है?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9998537604356953,
+      "CrossScore": 0.9998537604356953
+    },
+    {
+      "Question": "क्या बिहार में धनिया की खेती सफल है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999853073597662,
+      "CrossScore": 0.999853073597662
+    }
+  ],
+  "latency_ms": 208.75,
+  "final_returned": [
+    {
+      "Question": "बिहार में डीजल अनुदान योजना क्या है?",
+      "Crop": "General",
+      "Score": 9998.893919889717
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "Score": 9.99877084325035
+    },
+    {
+      "Question": "प्रधानमंत्री कृषि सिंचाई योजना में 'वाटरशेड' क्या है?",
+      "Crop": "General",
+      "Score": 9.998767298494597
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General",
+      "Score": 9.998665946188481
+    },
+    {
+      "Question": "बिहार राज्य फसल सहायता योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.9986555678127
+    }
+  ]
+}

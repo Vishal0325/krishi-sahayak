@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:47.840600",
+  "query_original": "एग्री-स्टार्टअप का भविष्य क्या है?",
+  "query_normalized": "एग्री स्टार्टअप का भविष्य क्या है",
+  "query_expanded": "एग्री स्टार्टअप का भविष्य क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एग्री-स्टार्टअप का भविष्य क्या है?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998933523046921,
+      "CrossScore": 0.9998933523046921
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998929675052219,
+      "CrossScore": 0.9998929675052219
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998905019637001,
+      "CrossScore": 0.9998905019637001
+    },
+    {
+      "Question": "एग्री-स्टार्टअप का भविष्य क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998864885392795,
+      "CrossScore": 0.9998864885392795
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998680013255281,
+      "CrossScore": 0.9998680013255281
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998602533665555,
+      "CrossScore": 0.9998602533665555
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998497552789939,
+      "CrossScore": 0.9998497552789939
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998454215740054,
+      "CrossScore": 0.9998454215740054
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998324246126985,
+      "CrossScore": 0.9998324246126985
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998256205210745,
+      "CrossScore": 0.9998256205210745
+    }
+  ],
+  "latency_ms": 198.41,
+  "final_returned": [
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998933523046921
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998929675052219
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998905019637001
+    },
+    {
+      "Question": "एग्री-स्टार्टअप का भविष्य क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998864885392795
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998680013255281
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:15.364074",
+  "query_original": "उर्वरकों की 'दक्षता' (Efficiency) कैसे बढ़ाएं?",
+  "query_normalized": "उर्वरकों की दक्षता efficiency कैसे बढ़ाएं",
+  "query_expanded": "उर्वरकों की दक्षता efficiency कैसे बढ़ाएं खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों की 'दक्षता' (Efficiency) कैसे बढ़ाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों की 'दक्षता' (Efficiency) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999031150962455,
+      "CrossScore": 0.9999031150962455
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9992097639757385,
+      "CrossScore": 0.9992097639757385
+    },
+    {
+      "Question": "पत्तागोभी में खाद और उर्वरक की मात्रा?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9990648458662655,
+      "CrossScore": 0.9990648458662655
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9990572057275893,
+      "CrossScore": 0.9990572057275893
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9990322499706652,
+      "CrossScore": 0.9990322499706652
+    },
+    {
+      "Question": "अदरक में खाद और उर्वरक की मात्रा?",
+      "Crop": "Ginger",
+      "FinalScore": 0.999027318455768,
+      "CrossScore": 0.999027318455768
+    },
+    {
+      "Question": "गेहूं में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9990242359522421,
+      "CrossScore": 0.9990242359522421
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9990227776333924,
+      "CrossScore": 0.9990227776333924
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9990057944750311,
+      "CrossScore": 0.9990057944750311
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9989799652627092,
+      "CrossScore": 0.9989799652627092
+    }
+  ],
+  "latency_ms": 405.81,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों की 'दक्षता' (Efficiency) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9999031150962455
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9992097639757385
+    },
+    {
+      "Question": "पत्तागोभी में खाद और उर्वरक की मात्रा?",
+      "Crop": "Cabbage",
+      "Score": 0.9990648458662655
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "Score": 0.9990572057275893
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "Score": 0.9990322499706652
+    }
+  ]
+}

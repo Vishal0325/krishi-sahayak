@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:24.729006",
+  "query_original": "'भिंडी' में फल छेदक के लिए 'नीम का तेल'?",
+  "query_normalized": "भिंडी में फल छेदक के लिए नीम का तेल",
+  "query_expanded": "भिंडी में फल छेदक के लिए नीम का तेल",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'भिंडी' में फल छेदक के लिए 'नीम का तेल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी में 'फल छेदक' के लिए 'स्पिनोसाड'?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' के लिए 'नीम तेल'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सब्जियों in फल छेदक' के लिए 'बोरॉन'?",
+      "Crop": "Vegetables",
+      "FinalScore": 9.99866905280939,
+      "CrossScore": 0.999866905280939
+    },
+    {
+      "Question": "'भिंडी का फल छेदक'?",
+      "Crop": "Okra",
+      "FinalScore": 9.998461956626215,
+      "CrossScore": 0.9998461956626215
+    },
+    {
+      "Question": "'नीम का तेल' और 'फल'?",
+      "Crop": "General",
+      "FinalScore": 9.998159200915001,
+      "CrossScore": 0.9998159200915002
+    },
+    {
+      "Question": "भिंडी में 'फल छेदक' के लिए 'स्पिनोसाड'?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9999003579984689,
+      "CrossScore": 0.9999003579984689
+    },
+    {
+      "Question": "'भिंडी' में फल छेदक के लिए 'नीम का तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998906635816559,
+      "CrossScore": 0.9998906635816559
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए 'मिट्टी का तेल' (Kerosene)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998850984046215,
+      "CrossScore": 0.9998850984046215
+    },
+    {
+      "Question": "'बैंगन' में तना व फल छेदक का जैविक नियंत्रण?",
+      "Crop": "General",
+      "FinalScore": 0.9998815795906586,
+      "CrossScore": 0.9998815795906586
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "FinalScore": 0.999881255176433,
+      "CrossScore": 0.999881255176433
+    },
+    {
+      "Question": "'बैंगन' में फल छेदक के लिए 'ट्राइको-कार्ड'?",
+      "Crop": "General",
+      "FinalScore": 0.9998761546567217,
+      "CrossScore": 0.9998761546567217
+    },
+    {
+      "Question": "भिंडी में 'खरपतवार' नियंत्रण के लिए 'हुइ'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998761466261038,
+      "CrossScore": 0.9998761466261038
+    }
+  ],
+  "latency_ms": 197.53,
+  "final_returned": [
+    {
+      "Question": "'सब्जियों in फल छेदक' के लिए 'बोरॉन'?",
+      "Crop": "Vegetables",
+      "Score": 9.99866905280939
+    },
+    {
+      "Question": "'भिंडी का फल छेदक'?",
+      "Crop": "Okra",
+      "Score": 9.998461956626215
+    },
+    {
+      "Question": "'नीम का तेल' और 'फल'?",
+      "Crop": "General",
+      "Score": 9.998159200915001
+    },
+    {
+      "Question": "भिंडी में 'फल छेदक' के लिए 'स्पिनोसाड'?",
+      "Crop": "Vegetables",
+      "Score": 0.9999003579984689
+    },
+    {
+      "Question": "'भिंडी' में फल छेदक के लिए 'नीम का तेल'?",
+      "Crop": "General",
+      "Score": 0.9998906635816559
+    }
+  ]
+}

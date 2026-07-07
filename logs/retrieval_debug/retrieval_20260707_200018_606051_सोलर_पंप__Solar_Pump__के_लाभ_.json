@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:18.394533",
+  "query_original": "सोलर पंप (Solar Pump) के लाभ?",
+  "query_normalized": "सोलर पंप solar pump के लाभ",
+  "query_expanded": "सोलर पंप solar pump के लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सोलर पंप (Solar Pump) के लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सोलर पंप (Solar Pump) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 999.8821283541951,
+      "CrossScore": 0.9998821283541951
+    },
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997812533771743,
+      "CrossScore": 0.9997812533771743
+    },
+    {
+      "Question": "मिर्च में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9989444420370411,
+      "CrossScore": 0.9989444420370411
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9985710440895582,
+      "CrossScore": 0.9985710440895582
+    },
+    {
+      "Question": "मटर में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Pea",
+      "FinalScore": 0.9984998994777066,
+      "CrossScore": 0.9984998994777066
+    },
+    {
+      "Question": "पत्तागोभी में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9984247264153794,
+      "CrossScore": 0.9984247264153794
+    },
+    {
+      "Question": "धनिया में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Coriander",
+      "FinalScore": 0.998415811228696,
+      "CrossScore": 0.998415811228696
+    },
+    {
+      "Question": "पपीते में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9984056028181695,
+      "CrossScore": 0.9984056028181695
+    },
+    {
+      "Question": "केले में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Banana",
+      "FinalScore": 0.9984041842725473,
+      "CrossScore": 0.9984041842725473
+    },
+    {
+      "Question": "भिंडी में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9984029439123147,
+      "CrossScore": 0.9984029439123147
+    }
+  ],
+  "latency_ms": 211.55,
+  "final_returned": [
+    {
+      "Question": "सोलर पंप (Solar Pump) के लाभ?",
+      "Crop": "General",
+      "Score": 999.8821283541951
+    },
+    {
+      "Question": "पंप सेट (Pump Set) के लिए सोलर पैनल का उपयोग कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9997812533771743
+    },
+    {
+      "Question": "मिर्च में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Chilli",
+      "Score": 0.9989444420370411
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9985710440895582
+    },
+    {
+      "Question": "पपीते में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Papaya",
+      "Score": 0.9984056028181695
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:06.909414",
+  "query_original": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+  "query_normalized": "ओस dew का फसलों पर क्या प्रभाव पड़ता है",
+  "query_expanded": "ओस dew का फसलों पर क्या प्रभाव पड़ता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 999.8972342583488,
+      "CrossScore": 0.9998972342583489
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998064722774348,
+      "CrossScore": 0.9998064722774348
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.999790333327952,
+      "CrossScore": 0.999790333327952
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.999761039210705,
+      "CrossScore": 0.999761039210705
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997564536334514,
+      "CrossScore": 0.9997564536334514
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997402034804674,
+      "CrossScore": 0.9997402034804674
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997386188577633,
+      "CrossScore": 0.9997386188577633
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999734333638889,
+      "CrossScore": 0.999734333638889
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997086032701472,
+      "CrossScore": 0.9997086032701472
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997023041901537,
+      "CrossScore": 0.9997023041901537
+    }
+  ],
+  "latency_ms": 224.3,
+  "final_returned": [
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 999.8972342583488
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9998064722774348
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.999790333327952
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.999761039210705
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses",
+      "Score": 0.9997564536334514
+    }
+  ]
+}

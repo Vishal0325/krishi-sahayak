@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:00.956129",
+  "query_original": "नाइट्रोजन की अधिकता से 'कीटों' पर प्रभाव?",
+  "query_normalized": "नाइट्रोजन की अधिकता से कीटों पर प्रभाव",
+  "query_expanded": "बग नाइट्रोजन urea nitrogen pest कीड़ा कीट यूरिया नाइट्रोजन की अधिकता से कीटों पर प्रभाव insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नाइट्रोजन की अधिकता से 'कीटों' पर प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गन्ने में 'यूरिया' की अधिकता से नुकसान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "गेहूं में 'नाइट्रोजन' की अधिकता से नुकसान?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नाइट्रोजन की अधिकता से 'कीटों' पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.99988578496846,
+      "CrossScore": 0.99988578496846
+    },
+    {
+      "Question": "टमाटर में 'यूरिया' की अधिकता से नुकसान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998637369876933,
+      "CrossScore": 0.9998637369876933
+    },
+    {
+      "Question": "पत्तागोभी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998459592171683,
+      "CrossScore": 0.9998459592171683
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998451442235127,
+      "CrossScore": 0.9998451442235127
+    },
+    {
+      "Question": "गन्ने में 'यूरिया' की अधिकता से नुकसान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998305289825989,
+      "CrossScore": 0.9998305289825989
+    },
+    {
+      "Question": "मखाना की खेती में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998266701854694,
+      "CrossScore": 0.9998266701854694
+    },
+    {
+      "Question": "धनिया में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998221580669534,
+      "CrossScore": 0.9998221580669534
+    },
+    {
+      "Question": "आलू की खेती में 'यूरिया' की अधिकता से नुकसान?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998215414502046,
+      "CrossScore": 0.9998215414502046
+    },
+    {
+      "Question": "लीची में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998154232273238,
+      "CrossScore": 0.9998154232273238
+    },
+    {
+      "Question": "अदरक में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9997987012322386,
+      "CrossScore": 0.9997987012322386
+    }
+  ],
+  "latency_ms": 199.98,
+  "final_returned": [
+    {
+      "Question": "नाइट्रोजन की अधिकता से 'कीटों' पर प्रभाव?",
+      "Crop": "General",
+      "Score": 0.99988578496846
+    },
+    {
+      "Question": "टमाटर में 'यूरिया' की अधिकता से नुकसान?",
+      "Crop": "Tomato",
+      "Score": 0.9998637369876933
+    },
+    {
+      "Question": "पत्तागोभी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Cabbage",
+      "Score": 0.9998459592171683
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9998451442235127
+    },
+    {
+      "Question": "गन्ने में 'यूरिया' की अधिकता से नुकसान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998305289825989
+    }
+  ]
+}

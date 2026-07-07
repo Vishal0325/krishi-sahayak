@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:06.105958",
+  "query_original": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+  "query_normalized": "कीट प्रबंधन में शिक्षा का महत्व",
+  "query_expanded": "कीट प्रबंधन में शिक्षा का महत्व pest कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में सफलता का राज?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 9998.703192211002,
+      "CrossScore": 0.9998703192211003
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General",
+      "FinalScore": 9.99889601469411,
+      "CrossScore": 0.999889601469411
+    },
+    {
+      "Question": "'कीट प्रबंधन' में सफलता का राज?",
+      "Crop": "General",
+      "FinalScore": 9.998781436236104,
+      "CrossScore": 0.9998781436236104
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.998647527661074,
+      "CrossScore": 0.9998647527661073
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.998627270642118,
+      "CrossScore": 0.9998627270642118
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998783114128609,
+      "CrossScore": 0.9998783114128609
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.9998637132079115,
+      "CrossScore": 0.9998637132079115
+    },
+    {
+      "Question": "पत्तागोभी में 'चूरा' (Aphids) कीट का प्रबंधन?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998397893918611,
+      "CrossScore": 0.9998397893918611
+    },
+    {
+      "Question": "डेरी फार्मिंग में 'शिक्षा' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998302744446554,
+      "CrossScore": 0.9998302744446554
+    },
+    {
+      "Question": "मटर में 'माहू' (Aphids) कीट का प्रबंधन?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998192909551487,
+      "CrossScore": 0.9998192909551487
+    }
+  ],
+  "latency_ms": 174.17,
+  "final_returned": [
+    {
+      "Question": "'कीट प्रबंधन' में 'शिक्षा' का महत्व?",
+      "Crop": "General",
+      "Score": 9998.703192211002
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General",
+      "Score": 9.99889601469411
+    },
+    {
+      "Question": "'कीट प्रबंधन' में सफलता का राज?",
+      "Crop": "General",
+      "Score": 9.998781436236104
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "Score": 9.998647527661074
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "Score": 9.998627270642118
+    }
+  ]
+}

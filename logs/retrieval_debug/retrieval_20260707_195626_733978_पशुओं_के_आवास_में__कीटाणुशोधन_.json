@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:26.524783",
+  "query_original": "पशुओं के आवास में 'कीटाणुशोधन' (Disinfection)?",
+  "query_normalized": "पशुओं के आवास में कीटाणुशोधन disinfection",
+  "query_expanded": "बग pest पशुओं के आवास में कीटाणुशोधन disinfection कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के आवास में 'कीटाणुशोधन' (Disinfection)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम के बाग में 'मिली बग' का जैविक इलाज?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "फलों के बाग में 'कीट निगरानी' के लिए लाइट ट्रैप?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के आवास में 'कीटाणुशोधन' (Disinfection)?",
+      "Crop": "General",
+      "FinalScore": 0.9998873575080742,
+      "CrossScore": 0.9998873575080742
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Internal Parasites) के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9994608321463132,
+      "CrossScore": 0.9994608321463132
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "FinalScore": 0.9993820365068572,
+      "CrossScore": 0.9993820365068572
+    },
+    {
+      "Question": "पशुओं के लिए 'आदर्श आवास' (Animal Shed) कैसा हो?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9993668024709427,
+      "CrossScore": 0.9993668024709427
+    },
+    {
+      "Question": "मशरूम की खेती में 'कीट' प्रबंधन के लिए पीला ट्रैप?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9993115763251329,
+      "CrossScore": 0.9993115763251329
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9992802791179649,
+      "CrossScore": 0.9992802791179649
+    },
+    {
+      "Question": "फलों के बाग में 'कीट निगरानी' के लिए लाइट ट्रैप?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9991775137408935,
+      "CrossScore": 0.9991775137408935
+    },
+    {
+      "Question": "पशुओं में 'टीकाकरण' के बाद क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9991105863667175,
+      "CrossScore": 0.9991105863667175
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'कीट' प्रबंधन के लिए नीम तेल?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9991098479259762,
+      "CrossScore": 0.9991098479259762
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9990670613808491,
+      "CrossScore": 0.9990670613808491
+    }
+  ],
+  "latency_ms": 209.36,
+  "final_returned": [
+    {
+      "Question": "पशुओं के आवास में 'कीटाणुशोधन' (Disinfection)?",
+      "Crop": "General",
+      "Score": 0.9998873575080742
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Internal Parasites) के लक्षण?",
+      "Crop": "General",
+      "Score": 0.9994608321463132
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "Score": 0.9993820365068572
+    },
+    {
+      "Question": "पशुओं के लिए 'आदर्श आवास' (Animal Shed) कैसा हो?",
+      "Crop": "Dairy",
+      "Score": 0.9993668024709427
+    },
+    {
+      "Question": "मशरूम की खेती में 'कीट' प्रबंधन के लिए पीला ट्रैप?",
+      "Crop": "Mushroom",
+      "Score": 0.9993115763251329
+    }
+  ]
+}

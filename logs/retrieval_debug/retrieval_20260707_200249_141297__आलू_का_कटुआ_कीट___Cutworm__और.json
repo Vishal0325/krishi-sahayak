@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:02:48.957509",
+  "query_original": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+  "query_normalized": "आलू का कटुआ कीट cutworm और रात",
+  "query_expanded": "pest कीड़ा कीट बग आलू का कटुआ कीट cutworm और रात insect",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' और 'कोहरा'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "FinalScore": 499941.40683383646,
+      "CrossScore": 0.999882813667673
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "FinalScore": 499.9403892707107,
+      "CrossScore": 0.9998807785414213
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 499.3434701958273,
+      "CrossScore": 0.9986869403916546
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato",
+      "FinalScore": 49.96026561844108,
+      "CrossScore": 0.9992053123688215
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' और 'कोहरा'?",
+      "Crop": "Potato",
+      "FinalScore": 49.81106389775572,
+      "CrossScore": 0.9962212779551145
+    },
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99852890513954,
+      "CrossScore": 0.9998528905139541
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.990681536312605,
+      "CrossScore": 0.9990681536312606
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General",
+      "FinalScore": 9.98857386118088,
+      "CrossScore": 0.9988573861180879
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.988162816964687,
+      "CrossScore": 0.9988162816964686
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General",
+      "FinalScore": 9.988014755024988,
+      "CrossScore": 0.9988014755024988
+    }
+  ],
+  "latency_ms": 183.83,
+  "final_returned": [
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "Score": 499941.40683383646
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "Score": 499.9403892707107
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "Score": 499.3434701958273
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato",
+      "Score": 49.96026561844108
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' और 'कोहरा'?",
+      "Crop": "Potato",
+      "Score": 49.81106389775572
+    }
+  ]
+}

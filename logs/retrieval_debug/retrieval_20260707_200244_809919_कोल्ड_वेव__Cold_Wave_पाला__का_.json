@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:44.559668",
+  "query_original": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+  "query_normalized": "कोल्ड वेव cold wave पाला का फसलों पर क्या असर होता है",
+  "query_expanded": "कोल्ड वेव cold wave पाला का फसलों पर क्या असर होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "तापमान का दानों के भराव पर क्या असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आसमान साफ रहने और तेज धूप का धान पर क्या असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या रात के तापमान का फसल पर असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक दवाओं का असर तुरंत होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 999.8716601049288,
+      "CrossScore": 0.9998716601049288
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997729079195411,
+      "CrossScore": 0.9997729079195411
+    },
+    {
+      "Question": "तापमान का दानों के भराव पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9989341979682009,
+      "CrossScore": 0.9989341979682009
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9988653301143288,
+      "CrossScore": 0.9988653301143288
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9987822498672323,
+      "CrossScore": 0.9987822498672323
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.998773385567179,
+      "CrossScore": 0.998773385567179
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का बिजनेस पर क्या असर है?",
+      "Crop": "General",
+      "FinalScore": 0.9985161553449899,
+      "CrossScore": 0.9985161553449899
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9984487534778312,
+      "CrossScore": 0.9984487534778312
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9984082573043243,
+      "CrossScore": 0.9984082573043243
+    },
+    {
+      "Question": "क्या खरपतवारनाशकों से बीज का जमाव प्रभावित होता है?",
+      "Crop": "General",
+      "FinalScore": 0.99833550295266,
+      "CrossScore": 0.99833550295266
+    }
+  ],
+  "latency_ms": 250.29,
+  "final_returned": [
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "Score": 999.8716601049288
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9997729079195411
+    },
+    {
+      "Question": "तापमान का दानों के भराव पर क्या असर होता है?",
+      "Crop": "General",
+      "Score": 0.9989341979682009
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9988653301143288
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses",
+      "Score": 0.9987822498672323
+    }
+  ]
+}

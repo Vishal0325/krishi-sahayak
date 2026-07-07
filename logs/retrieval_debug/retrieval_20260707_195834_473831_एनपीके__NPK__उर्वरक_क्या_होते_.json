@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:34.108437",
+  "query_original": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+  "query_normalized": "एनपीके npk उर्वरक क्या होते हैं",
+  "query_expanded": "खाद एनपीके npk उर्वरक क्या होते हैं poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999169586303626,
+      "CrossScore": 0.9999169586303626
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997283876691745,
+      "CrossScore": 0.9997283876691745
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9996965504819653,
+      "CrossScore": 0.9996965504819653
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996798900784682,
+      "CrossScore": 0.9996798900784682
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996775296820216,
+      "CrossScore": 0.9996775296820216
+    },
+    {
+      "Question": "क्या रासायनिक उर्वरक मिट्टी को खराब करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996625492353937,
+      "CrossScore": 0.9996625492353937
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996382587623963,
+      "CrossScore": 0.9996382587623963
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9996131642159326,
+      "CrossScore": 0.9996131642159326
+    },
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996037805736468,
+      "CrossScore": 0.9996037805736468
+    },
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995859952012864,
+      "CrossScore": 0.9995859952012864
+    }
+  ],
+  "latency_ms": 365.51,
+  "final_returned": [
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9999169586303626
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997283876691745
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9996965504819653
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "Score": 0.9996798900784682
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9996775296820216
+    }
+  ]
+}

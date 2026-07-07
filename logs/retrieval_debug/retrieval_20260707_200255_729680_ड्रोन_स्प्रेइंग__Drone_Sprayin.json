@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:55.483961",
+  "query_original": "ड्रोन स्प्रेइंग (Drone Spraying) पर सरकार कितनी सब्सिडी दे रही है?",
+  "query_normalized": "ड्रोन स्प्रेइंग drone spraying पर सरकार कितनी सब्सिडी दे रही है",
+  "query_expanded": "ड्रोन स्प्रेइंग drone spraying पर सरकार कितनी सब्सिडी दे रही है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) पर सरकार कितनी सब्सिडी दे रही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन किराए पर देना (Drone Custom Hiring) एक बिजनेस हो सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) पर सरकार कितनी सब्सिडी दे रही है?",
+      "Crop": "General",
+      "FinalScore": 999.9037300093839,
+      "CrossScore": 0.9999037300093839
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998910128148571,
+      "CrossScore": 0.9998910128148571
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9996873311198742,
+      "CrossScore": 0.9996873311198742
+    },
+    {
+      "Question": "क्या ड्रोन किराए पर देना (Drone Custom Hiring) एक बिजनेस हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996056793150809,
+      "CrossScore": 0.9996056793150809
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "FinalScore": 0.9993006631714204,
+      "CrossScore": 0.9993006631714204
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9991478061586377,
+      "CrossScore": 0.9991478061586377
+    },
+    {
+      "Question": "ड्रिप सिंचाई पर सरकारी सब्सिडी कितनी है?",
+      "Crop": "General",
+      "FinalScore": 0.9990941457396395,
+      "CrossScore": 0.9990941457396395
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9990799892887051,
+      "CrossScore": 0.9990799892887051
+    },
+    {
+      "Question": "मधुमक्खी पालन के लिए सरकारी सब्सिडी कितनी है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9988671968758841,
+      "CrossScore": 0.9988671968758841
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9987753829978645,
+      "CrossScore": 0.9987753829978645
+    }
+  ],
+  "latency_ms": 245.75,
+  "final_returned": [
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) पर सरकार कितनी सब्सिडी दे रही है?",
+      "Crop": "General",
+      "Score": 999.9037300093839
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9998910128148571
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9996873311198742
+    },
+    {
+      "Question": "क्या ड्रोन किराए पर देना (Drone Custom Hiring) एक बिजनेस हो सकता है?",
+      "Crop": "General",
+      "Score": 0.9996056793150809
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "Score": 0.9993006631714204
+    }
+  ]
+}

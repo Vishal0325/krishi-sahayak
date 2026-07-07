@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:12.065883",
+  "query_original": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+  "query_normalized": "पीएम किसान pm kisan सम्मान निधि की पात्रता क्या है",
+  "query_expanded": "पीएम किसान pm kisan सम्मान निधि की पात्रता क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 9999.18851100788,
+      "CrossScore": 0.9999188511007879
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998672634518561,
+      "CrossScore": 0.9998672634518562
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "FinalScore": 9.996307394879949,
+      "CrossScore": 0.999630739487995
+    },
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.995796765005569,
+      "CrossScore": 0.9995796765005568
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.995597392760668,
+      "CrossScore": 0.9995597392760669
+    },
+    {
+      "Question": "कुफरी पुखराज किस्म की क्या विशेषता है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9996514203379231,
+      "CrossScore": 0.9996514203379231
+    },
+    {
+      "Question": "क्या किसान अपनी फसल की 'एमएसपी' (MSP) पर गारंटी ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995933608054347,
+      "CrossScore": 0.9995933608054347
+    },
+    {
+      "Question": "'स्वर्ण वैदेही' किस्म की क्या विशेषता है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9995462601295222,
+      "CrossScore": 0.9995462601295222
+    },
+    {
+      "Question": "मक्का की खेती शुरू करने से पहले किसान को क्या करना चाहिए?",
+      "Crop": "Maize",
+      "FinalScore": 0.9995015261298447,
+      "CrossScore": 0.9995015261298447
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9993783367525445,
+      "CrossScore": 0.9993783367525445
+    }
+  ],
+  "latency_ms": 489.63,
+  "final_returned": [
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 9999.18851100788
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.998672634518561
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "Score": 9.996307394879949
+    },
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General",
+      "Score": 9.995796765005569
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.995597392760668
+    }
+  ]
+}

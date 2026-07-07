@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:21.362580",
+  "query_original": "धान रोपाई मशीन (Rice Transplanter) का क्या महत्व है?",
+  "query_normalized": "धान रोपाई मशीन rice transplanter का क्या महत्व है",
+  "query_expanded": "धान रोपाई मशीन rice transplanter का क्या महत्व है",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान रोपाई मशीन (Rice Transplanter) का क्या महत्व है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान का 'खैरा' रोग क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान रोपाई मशीन (Rice Transplanter) का क्या महत्व है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99606913435445,
+      "CrossScore": 0.999921382687089
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.9901843275704,
+      "CrossScore": 0.9998036865514079
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.980793334477056,
+      "CrossScore": 0.999615866689541
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97971384686055,
+      "CrossScore": 0.9995942769372109
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97842042048395,
+      "CrossScore": 0.999568408409679
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.978156269761904,
+      "CrossScore": 0.9995631253952381
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.974073782186345,
+      "CrossScore": 0.9994814756437269
+    },
+    {
+      "Question": "धान में फास्फोरस का महत्व?",
+      "Crop": "Rice",
+      "FinalScore": 49.9738015159123,
+      "CrossScore": 0.9994760303182461
+    },
+    {
+      "Question": "धान में पडलिंग का महत्व?",
+      "Crop": "Rice",
+      "FinalScore": 49.97360598577542,
+      "CrossScore": 0.9994721197155084
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97358961542057,
+      "CrossScore": 0.9994717923084114
+    }
+  ],
+  "latency_ms": 199.19,
+  "final_returned": [
+    {
+      "Question": "धान रोपाई मशीन (Rice Transplanter) का क्या महत्व है?",
+      "Crop": "Rice",
+      "Score": 49.99606913435445
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 49.9901843275704
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "Score": 49.980793334477056
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice",
+      "Score": 49.97971384686055
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 49.97842042048395
+    }
+  ]
+}

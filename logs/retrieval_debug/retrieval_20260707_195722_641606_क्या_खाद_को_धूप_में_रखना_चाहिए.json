@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:22.457588",
+  "query_original": "क्या खाद को धूप में रखना चाहिए?",
+  "query_normalized": "क्या खाद को धूप में रखना चाहिए",
+  "query_expanded": "खाद poshak fertilizer क्या खाद को धूप में रखना चाहिए पोषण उर्वरक",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खाद को सीधे तने के पास डालना चाहिए?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999078533438092,
+      "CrossScore": 0.9999078533438092
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998941186674866,
+      "CrossScore": 0.9998941186674866
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998928705012405,
+      "CrossScore": 0.9998928705012405
+    },
+    {
+      "Question": "धान में खाद की कितनी मात्रा डालनी चाहिए?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998909197605372,
+      "CrossScore": 0.9998909197605372
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998895340743736,
+      "CrossScore": 0.9998895340743736
+    },
+    {
+      "Question": "क्या खाद को सीधे तने के पास डालना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998861844092871,
+      "CrossScore": 0.9998861844092871
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998844640252988,
+      "CrossScore": 0.9998844640252988
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998808062773076,
+      "CrossScore": 0.9998808062773076
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998796220228408,
+      "CrossScore": 0.9998796220228408
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998763663353671,
+      "CrossScore": 0.9998763663353671
+    }
+  ],
+  "latency_ms": 184.12,
+  "final_returned": [
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9999078533438092
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998941186674866
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9998928705012405
+    },
+    {
+      "Question": "धान में खाद की कितनी मात्रा डालनी चाहिए?",
+      "Crop": "Rice",
+      "Score": 0.9998909197605372
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "Score": 0.9998895340743736
+    }
+  ]
+}

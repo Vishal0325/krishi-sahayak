@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:47.477318",
+  "query_original": "टमाटर in 'बैक्टीरियल विल्ट' की पहचान?",
+  "query_normalized": "टमाटर in बैक्टीरियल विल्ट की पहचान",
+  "query_expanded": "टमाटर in बैक्टीरियल विल्ट की पहचान",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "टमाटर in 'बैक्टीरियल विल्ट' की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर in 'बैक्टीरियल विल्ट' की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.9910281708882,
+      "CrossScore": 0.999820563417764
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98967385637882,
+      "CrossScore": 0.9997934771275764
+    },
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98944163218846,
+      "CrossScore": 0.9997888326437692
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.989051170756575,
+      "CrossScore": 0.9997810234151315
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98902412041529,
+      "CrossScore": 0.9997804824083057
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.988290641253755,
+      "CrossScore": 0.999765812825075
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98721264499219,
+      "CrossScore": 0.9997442528998438
+    },
+    {
+      "Question": "टमाटर की बुआई का समय?",
+      "Crop": "Tomato",
+      "FinalScore": 49.9863627348438,
+      "CrossScore": 0.9997272546968761
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.986055655629066,
+      "CrossScore": 0.9997211131125814
+    },
+    {
+      "Question": "टमाटर की नर्सरी कैसे तैयार करें?",
+      "Crop": "Tomato",
+      "FinalScore": 49.982213179069404,
+      "CrossScore": 0.9996442635813881
+    }
+  ],
+  "latency_ms": 214.44,
+  "final_returned": [
+    {
+      "Question": "टमाटर in 'बैक्टीरियल विल्ट' की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.9910281708882
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "Score": 49.98967385637882
+    },
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.98944163218846
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "Score": 49.989051170756575
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "Score": 49.98902412041529
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:30.198442",
+  "query_original": "पशुओं के लिए 'चारा काटने की मशीन'?",
+  "query_normalized": "पशुओं के लिए चारा काटने की मशीन",
+  "query_expanded": "पशुओं के लिए चारा काटने की मशीन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' के लिए छोटी मशीन (Mini Dal Mill)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General",
+      "FinalScore": 0.999905799146095,
+      "CrossScore": 0.999905799146095
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999037233994577,
+      "CrossScore": 0.9999037233994577
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999033898365477,
+      "CrossScore": 0.9999033898365477
+    },
+    {
+      "Question": "पौधों की छंटाई के लिए 'प्रूनिंग आरी' (Pruning Saw)?",
+      "Crop": "General",
+      "FinalScore": 0.9999004486030424,
+      "CrossScore": 0.9999004486030424
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' के लिए छोटी मशीन (Mini Dal Mill)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998968176234596,
+      "CrossScore": 0.9998968176234596
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999895125125616,
+      "CrossScore": 0.999895125125616
+    },
+    {
+      "Question": "'दूध की टेस्टिंग' के लिए मशीन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998946899995433,
+      "CrossScore": 0.9998946899995433
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999893949920596,
+      "CrossScore": 0.999893949920596
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998911233370623,
+      "CrossScore": 0.9998911233370623
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998910400403178,
+      "CrossScore": 0.9998910400403178
+    }
+  ],
+  "latency_ms": 154.18,
+  "final_returned": [
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General",
+      "Score": 0.999905799146095
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "Score": 0.9999037233994577
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "Score": 0.9999033898365477
+    },
+    {
+      "Question": "पौधों की छंटाई के लिए 'प्रूनिंग आरी' (Pruning Saw)?",
+      "Crop": "General",
+      "Score": 0.9999004486030424
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' के लिए छोटी मशीन (Mini Dal Mill)?",
+      "Crop": "Pulses",
+      "Score": 0.9998968176234596
+    }
+  ]
+}

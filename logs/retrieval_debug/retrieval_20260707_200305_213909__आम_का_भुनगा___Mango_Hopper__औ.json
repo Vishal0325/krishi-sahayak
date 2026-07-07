@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:04.995058",
+  "query_original": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+  "query_normalized": "आम का भुनगा mango hopper और बौर inflorescence",
+  "query_expanded": "आम का भुनगा mango hopper और बौर inflorescence",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'आम का गुच्छा रोग' (Malformation) और 'बौर'?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम का 'मधुआ' (Mango Hopper) कीट?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+      "Crop": "Mango",
+      "FinalScore": 999.8848540318608,
+      "CrossScore": 0.9998848540318608
+    },
+    {
+      "Question": "आम के बाग में 'मधुआ' (Mango Hopper) कीट का उपचार क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9988870073045365,
+      "CrossScore": 0.9988870073045365
+    },
+    {
+      "Question": "आम का 'मधुआ' (Mango Hopper) कीट?",
+      "Crop": "Mango",
+      "FinalScore": 0.9988647690002679,
+      "CrossScore": 0.9988647690002679
+    },
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9987661009642228,
+      "CrossScore": 0.9987661009642228
+    },
+    {
+      "Question": "आम (Mango) के बाग लगाने का सही समय क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9949407889919218,
+      "CrossScore": 0.9949407889919218
+    },
+    {
+      "Question": "आम का 'गुच्छा रोग' (Malformed Flowers) क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9936827744177826,
+      "CrossScore": 0.9936827744177826
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango",
+      "FinalScore": 0.9854638059452794,
+      "CrossScore": 0.9854638059452794
+    },
+    {
+      "Question": "आम के बाग में 'गुच्छा रोग' (Bunchy Top/Malformation) का इलाज?",
+      "Crop": "Mango",
+      "FinalScore": 0.9788511201152831,
+      "CrossScore": 0.9788511201152831
+    },
+    {
+      "Question": "'आम का गुच्छा रोग' (Malformation) और 'बौर'?",
+      "Crop": "Mango",
+      "FinalScore": 0.9777999666453061,
+      "CrossScore": 0.9777999666453061
+    },
+    {
+      "Question": "आम की खेती का परिचय क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9768985738192946,
+      "CrossScore": 0.9768985738192946
+    }
+  ],
+  "latency_ms": 218.87,
+  "final_returned": [
+    {
+      "Question": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+      "Crop": "Mango",
+      "Score": 999.8848540318608
+    },
+    {
+      "Question": "आम के बाग में 'मधुआ' (Mango Hopper) कीट का उपचार क्या है?",
+      "Crop": "Mango",
+      "Score": 0.9988870073045365
+    },
+    {
+      "Question": "आम का 'मधुआ' (Mango Hopper) कीट?",
+      "Crop": "Mango",
+      "Score": 0.9988647690002679
+    },
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango",
+      "Score": 0.9987661009642228
+    },
+    {
+      "Question": "आम (Mango) के बाग लगाने का सही समय क्या है?",
+      "Crop": "Mango",
+      "Score": 0.9949407889919218
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:37.171343",
+  "query_original": "रेन गन (Rain Gun) सिंचाई क्या है?",
+  "query_normalized": "रेन गन rain gun सिंचाई क्या है",
+  "query_expanded": "रेन गन rain gun सिंचाई क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "रेन गन (Rain Gun) सिंचाई क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रेन गन' (Rain Gun) सिंचाई का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई के लिए भी मशीनों की जरूरत है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खारे पानी से फलों की सिंचाई की जा सकती है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "रेन गन (Rain Gun) सिंचाई क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9197261971137,
+      "CrossScore": 0.9999197261971138
+    },
+    {
+      "Question": "'रेन गन' (Rain Gun) सिंचाई का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9999110067806941,
+      "CrossScore": 0.9999110067806941
+    },
+    {
+      "Question": "क्या गन्ने की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9976016610350916,
+      "CrossScore": 0.9976016610350916
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9971684506782295,
+      "CrossScore": 0.9971684506782295
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "FinalScore": 0.9967080956407808,
+      "CrossScore": 0.9967080956407808
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9952455718102796,
+      "CrossScore": 0.9952455718102796
+    },
+    {
+      "Question": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9950895827414213,
+      "CrossScore": 0.9950895827414213
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9928262364180712,
+      "CrossScore": 0.9928262364180712
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.990743031112522,
+      "CrossScore": 0.990743031112522
+    },
+    {
+      "Question": "क्या आलू की खेती में ड्रिप सिंचाई संभव है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9888380326904005,
+      "CrossScore": 0.9888380326904005
+    }
+  ],
+  "latency_ms": 214.25,
+  "final_returned": [
+    {
+      "Question": "रेन गन (Rain Gun) सिंचाई क्या है?",
+      "Crop": "General",
+      "Score": 999.9197261971137
+    },
+    {
+      "Question": "'रेन गन' (Rain Gun) सिंचाई का लाभ?",
+      "Crop": "General",
+      "Score": 0.9999110067806941
+    },
+    {
+      "Question": "क्या गन्ने की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9976016610350916
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "Score": 0.9971684506782295
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "Score": 0.9967080956407808
+    }
+  ]
+}

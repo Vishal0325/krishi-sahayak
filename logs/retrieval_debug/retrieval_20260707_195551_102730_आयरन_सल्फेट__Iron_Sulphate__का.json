@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:50.895801",
+  "query_original": "आयरन सल्फेट (Iron Sulphate) का उपयोग कहाँ होता है?",
+  "query_normalized": "आयरन सल्फेट iron sulphate का उपयोग कहाँ होता है",
+  "query_expanded": "आयरन सल्फेट iron sulphate का उपयोग कहाँ होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आयरन सल्फेट (Iron Sulphate) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ना कटाई मशीन (Sugarcane Harvester) का उपयोग कहाँ होता है?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आयरन सल्फेट (Iron Sulphate) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999017313184896,
+      "CrossScore": 0.9999017313184896
+    },
+    {
+      "Question": "जिंक सल्फेट (Zinc Sulphate) का महत्व क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998278366961929,
+      "CrossScore": 0.9998278366961929
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996934332434367,
+      "CrossScore": 0.9996934332434367
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996861071540891,
+      "CrossScore": 0.9996861071540891
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996311201819084,
+      "CrossScore": 0.9996311201819084
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995489059220207,
+      "CrossScore": 0.9995489059220207
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995255893247385,
+      "CrossScore": 0.9995255893247385
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994680473674862,
+      "CrossScore": 0.9994680473674862
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9994222139772717,
+      "CrossScore": 0.9994222139772717
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994082180362653,
+      "CrossScore": 0.9994082180362653
+    }
+  ],
+  "latency_ms": 207.19,
+  "final_returned": [
+    {
+      "Question": "आयरन सल्फेट (Iron Sulphate) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9999017313184896
+    },
+    {
+      "Question": "जिंक सल्फेट (Zinc Sulphate) का महत्व क्या है?",
+      "Crop": "General",
+      "Score": 0.9998278366961929
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9996934332434367
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9996861071540891
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9996311201819084
+    }
+  ]
+}

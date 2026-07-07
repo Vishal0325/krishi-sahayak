@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:38.412990",
+  "query_original": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+  "query_normalized": "क्या जैव उर्वरक रसायनों का विकल्प हैं",
+  "query_expanded": "poshak खाद पोषण क्या जैव उर्वरक रसायनों का विकल्प हैं उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "'पीएसबी' (PSB) जैव-उर्वरक का कार्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8860992894462,
+      "CrossScore": 0.9998860992894462
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998756953683252,
+      "CrossScore": 0.9998756953683252
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'शाकाहारियों' के लिए मांस का विकल्प है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998659381407059,
+      "CrossScore": 0.9998659381407059
+    },
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998658656391127,
+      "CrossScore": 0.9998658656391127
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998642578002199,
+      "CrossScore": 0.9998642578002199
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998625486684626,
+      "CrossScore": 0.9998625486684626
+    },
+    {
+      "Question": "क्या रासायनिक उर्वरक मिट्टी को खराब करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998617579110727,
+      "CrossScore": 0.9998617579110727
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9998599988862433,
+      "CrossScore": 0.9998599988862433
+    },
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998598186832363,
+      "CrossScore": 0.9998598186832363
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998542965908789,
+      "CrossScore": 0.9998542965908789
+    }
+  ],
+  "latency_ms": 216.35,
+  "final_returned": [
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General",
+      "Score": 999.8860992894462
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998756953683252
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'शाकाहारियों' के लिए मांस का विकल्प है?",
+      "Crop": "Mushroom",
+      "Score": 0.9998659381407059
+    },
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998658656391127
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998642578002199
+    }
+  ]
+}

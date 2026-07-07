@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:13.986710",
+  "query_original": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+  "query_normalized": "मिल्किंग मशीन milking machine के क्या फायदे हैं",
+  "query_expanded": "मिल्किंग मशीन milking machine के क्या फायदे हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General",
+      "FinalScore": 0.9999263560779967,
+      "CrossScore": 0.9999263560779967
+    },
+    {
+      "Question": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999209989598745,
+      "CrossScore": 0.9999209989598745
+    },
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato",
+      "FinalScore": 0.9993641640011867,
+      "CrossScore": 0.9993641640011867
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9993317171877375,
+      "CrossScore": 0.9993317171877375
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9993081377858394,
+      "CrossScore": 0.9993081377858394
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999298206916255,
+      "CrossScore": 0.999298206916255
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9992855782255634,
+      "CrossScore": 0.9992855782255634
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992612726740764,
+      "CrossScore": 0.9992612726740764
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992476859748742,
+      "CrossScore": 0.9992476859748742
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999232591319829,
+      "CrossScore": 0.999232591319829
+    }
+  ],
+  "latency_ms": 235.64,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General",
+      "Score": 0.9999263560779967
+    },
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato",
+      "Score": 0.9993641640011867
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9993317171877375
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "Score": 0.9993081377858394
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.999298206916255
+    }
+  ]
+}

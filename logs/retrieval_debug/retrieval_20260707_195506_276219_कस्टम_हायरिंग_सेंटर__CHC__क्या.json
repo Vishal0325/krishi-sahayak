@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:06.091855",
+  "query_original": "कस्टम हायरिंग सेंटर (CHC) क्या है?",
+  "query_normalized": "कस्टम हायरिंग सेंटर chc क्या है",
+  "query_expanded": "कस्टम हायरिंग सेंटर chc क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कस्टम हायरिंग सेंटर (CHC) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए 'कस्टम हायरिंग सेंटर' (CHC) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' (CHC) स्टार्टअप?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' खोलने के लिए सब्सिडी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कस्टम हायरिंग सेंटर (CHC) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999193446153524,
+      "CrossScore": 0.9999193446153524
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' (CHC) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999077306838768,
+      "CrossScore": 0.9999077306838768
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए 'कस्टम हायरिंग सेंटर' (CHC) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999023010864113,
+      "CrossScore": 0.9999023010864113
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' खोलने के लिए सब्सिडी?",
+      "Crop": "General",
+      "FinalScore": 0.9998911558283657,
+      "CrossScore": 0.9998911558283657
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998733029600846,
+      "CrossScore": 0.9998733029600846
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9997885598502027,
+      "CrossScore": 0.9997885598502027
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997479433175485,
+      "CrossScore": 0.9997479433175485
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997405366667147,
+      "CrossScore": 0.9997405366667147
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997173384447879,
+      "CrossScore": 0.9997173384447879
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997114961693946,
+      "CrossScore": 0.9997114961693946
+    }
+  ],
+  "latency_ms": 184.46,
+  "final_returned": [
+    {
+      "Question": "कस्टम हायरिंग सेंटर (CHC) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999193446153524
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' (CHC) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999077306838768
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए 'कस्टम हायरिंग सेंटर' (CHC) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999023010864113
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' खोलने के लिए सब्सिडी?",
+      "Crop": "General",
+      "Score": 0.9998911558283657
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "Score": 0.9998733029600846
+    }
+  ]
+}

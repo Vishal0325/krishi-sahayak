@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:28.745213",
+  "query_original": "मशरूम के 'धब्बों' (Spots) का कारण?",
+  "query_normalized": "मशरूम के धब्बों spots का कारण",
+  "query_expanded": "मशरूम के धब्बों spots का कारण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम के 'धब्बों' (Spots) का कारण?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "भिंडी के बीजों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) खाली रहने का क्या कारण है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "बैंगन के पौधों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम के 'धब्बों' (Spots) का कारण?",
+      "Crop": "Mushroom",
+      "FinalScore": 999.8926089704197,
+      "CrossScore": 0.9998926089704196
+    },
+    {
+      "Question": "मशरूम के 'वेस्ट' (बचे हुए भूसे) का क्या करें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9996824912113431,
+      "CrossScore": 0.9996824912113431
+    },
+    {
+      "Question": "मशरूम के बैगों को 'रद्द' (Discard) करने का समय?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9996516253163732,
+      "CrossScore": 0.9996516253163732
+    },
+    {
+      "Question": "मशरूम उत्पादकों के लिए 'एफपीओ' (FPO) का लाभ?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9996053698237374,
+      "CrossScore": 0.9996053698237374
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'शाकाहारियों' के लिए मांस का विकल्प है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9996041913141429,
+      "CrossScore": 0.9996041913141429
+    },
+    {
+      "Question": "मशरूम के 'स्पॉन' का भंडारण तापमान?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995940881492283,
+      "CrossScore": 0.9995940881492283
+    },
+    {
+      "Question": "मशरूम के 'बैग' (Bags) का चुनाव?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995907814220388,
+      "CrossScore": 0.9995907814220388
+    },
+    {
+      "Question": "मशरूम के 'कैप' का रंग फीका क्यों पड़ता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995256099002406,
+      "CrossScore": 0.9995256099002406
+    },
+    {
+      "Question": "लीची के 'गुटी' पौधों में जड़ न आने का कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9994710917666574,
+      "CrossScore": 0.9994710917666574
+    },
+    {
+      "Question": "किसानों के लिए मशरूम क्रांति का संदेश?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9994166028102625,
+      "CrossScore": 0.9994166028102625
+    }
+  ],
+  "latency_ms": 206.94,
+  "final_returned": [
+    {
+      "Question": "मशरूम के 'धब्बों' (Spots) का कारण?",
+      "Crop": "Mushroom",
+      "Score": 999.8926089704197
+    },
+    {
+      "Question": "मशरूम के 'वेस्ट' (बचे हुए भूसे) का क्या करें?",
+      "Crop": "Mushroom",
+      "Score": 0.9996824912113431
+    },
+    {
+      "Question": "मशरूम के बैगों को 'रद्द' (Discard) करने का समय?",
+      "Crop": "Mushroom",
+      "Score": 0.9996516253163732
+    },
+    {
+      "Question": "मशरूम उत्पादकों के लिए 'एफपीओ' (FPO) का लाभ?",
+      "Crop": "Mushroom",
+      "Score": 0.9996053698237374
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'शाकाहारियों' के लिए मांस का विकल्प है?",
+      "Crop": "Mushroom",
+      "Score": 0.9996041913141429
+    }
+  ]
+}

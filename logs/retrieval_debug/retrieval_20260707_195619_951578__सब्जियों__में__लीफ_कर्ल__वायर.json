@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:19.769093",
+  "query_original": "'सब्जियों' में 'लीफ कर्ल' वायरस?",
+  "query_normalized": "सब्जियों में लीफ कर्ल वायरस",
+  "query_expanded": "सब्जियों में लीफ कर्ल वायरस",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सब्जियों' में 'लीफ कर्ल' वायरस?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आलू में 'लीफ कर्ल' (Leaf Curl) वायरस?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "लीफ कर्ल वायरस का नियंत्रण?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "मक्का में 'टर्सिकम लीफ ब्लाइट' (Turcicum Leaf Blight) क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का इलाज?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General",
+      "FinalScore": 0.9999016597001763,
+      "CrossScore": 0.9999016597001763
+    },
+    {
+      "Question": "'सब्जियों' में 'बैक्टीरियल विल्ट' और 'ब्लीचिंग पाउडर'?",
+      "Crop": "General",
+      "FinalScore": 0.999896595510287,
+      "CrossScore": 0.999896595510287
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' और 'पीला ट्रैप'?",
+      "Crop": "General",
+      "FinalScore": 0.9998910452352436,
+      "CrossScore": 0.9998910452352436
+    },
+    {
+      "Question": "'सब्जियों' में 'लीफ कर्ल' वायरस?",
+      "Crop": "General",
+      "FinalScore": 0.9998903764906227,
+      "CrossScore": 0.9998903764906227
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 0.9998769085059601,
+      "CrossScore": 0.9998769085059601
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'नमक'?",
+      "Crop": "General",
+      "FinalScore": 0.9998727506135348,
+      "CrossScore": 0.9998727506135348
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' के लिए 'नीम तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998725304356328,
+      "CrossScore": 0.9998725304356328
+    },
+    {
+      "Question": "'गन्ने' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998575306552117,
+      "CrossScore": 0.9998575306552117
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999855560374077,
+      "CrossScore": 0.999855560374077
+    },
+    {
+      "Question": "सब्जियों में सिंचाई का नियम?",
+      "Crop": "General",
+      "FinalScore": 0.9998518530547232,
+      "CrossScore": 0.9998518530547232
+    }
+  ],
+  "latency_ms": 182.58,
+  "final_returned": [
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General",
+      "Score": 0.9999016597001763
+    },
+    {
+      "Question": "'सब्जियों' में 'बैक्टीरियल विल्ट' और 'ब्लीचिंग पाउडर'?",
+      "Crop": "General",
+      "Score": 0.999896595510287
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' और 'पीला ट्रैप'?",
+      "Crop": "General",
+      "Score": 0.9998910452352436
+    },
+    {
+      "Question": "'सब्जियों' में 'लीफ कर्ल' वायरस?",
+      "Crop": "General",
+      "Score": 0.9998903764906227
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General",
+      "Score": 0.9998769085059601
+    }
+  ]
+}

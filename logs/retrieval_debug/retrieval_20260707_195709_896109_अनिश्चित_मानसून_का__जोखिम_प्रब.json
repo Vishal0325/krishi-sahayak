@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:09.693939",
+  "query_original": "अनिश्चित मानसून का 'जोखिम प्रबंधन'?",
+  "query_normalized": "अनिश्चित मानसून का जोखिम प्रबंधन",
+  "query_expanded": "अनिश्चित मानसून का जोखिम प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अनिश्चित मानसून का 'जोखिम प्रबंधन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अनिश्चित मानसून का 'जोखिम प्रबंधन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998439000979518,
+      "CrossScore": 0.9998439000979518
+    },
+    {
+      "Question": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998237071158098,
+      "CrossScore": 0.9998237071158098
+    },
+    {
+      "Question": "टमाटर में 'रूट नॉट नीमेटोड' (Root Knot Nematode) का प्रबंधन?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998196825275015,
+      "CrossScore": 0.9998196825275015
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998183135845612,
+      "CrossScore": 0.9998183135845612
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General",
+      "FinalScore": 0.9998162602855503,
+      "CrossScore": 0.9998162602855503
+    },
+    {
+      "Question": "'आम' में 'पाउडर मिल्ड्यू' का प्रबंधन?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998022899070023,
+      "CrossScore": 0.9998022899070023
+    },
+    {
+      "Question": "लहसुन के भंडारण में 'चूहों' का प्रबंधन?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998006468189894,
+      "CrossScore": 0.9998006468189894
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997996569036433,
+      "CrossScore": 0.9997996569036433
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997992756399605,
+      "CrossScore": 0.9997992756399605
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997908460735861,
+      "CrossScore": 0.9997908460735861
+    }
+  ],
+  "latency_ms": 202.26,
+  "final_returned": [
+    {
+      "Question": "अनिश्चित मानसून का 'जोखिम प्रबंधन'?",
+      "Crop": "General",
+      "Score": 0.9998439000979518
+    },
+    {
+      "Question": "खेती में 'प्रसंस्करण' (Processing) इकाई लगाने का जोखिम?",
+      "Crop": "Economics",
+      "Score": 0.9998237071158098
+    },
+    {
+      "Question": "टमाटर में 'रूट नॉट नीमेटोड' (Root Knot Nematode) का प्रबंधन?",
+      "Crop": "Tomato",
+      "Score": 0.9998196825275015
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998183135845612
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General",
+      "Score": 0.9998162602855503
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:32.125230",
+  "query_original": "'सिरफिड फ्लाई' (Syrphid Fly) का लाभ?",
+  "query_normalized": "सिरफिड फ्लाई syrphid fly का लाभ",
+  "query_expanded": "सिरफिड फ्लाई syrphid fly का लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सिरफिड फ्लाई' (Syrphid Fly) का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "अमरूद की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सिरफिड फ्लाई' (Syrphid Fly) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 999.9034007067722,
+      "CrossScore": 0.9999034007067722
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9990596243614519,
+      "CrossScore": 0.9990596243614519
+    },
+    {
+      "Question": "'एफपीओ' (FPO) का मुख्य लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9941429525430898,
+      "CrossScore": 0.9941429525430898
+    },
+    {
+      "Question": "'गौमूत्र' का वैज्ञानिक लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9936100656414472,
+      "CrossScore": 0.9936100656414472
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9913045819140245,
+      "CrossScore": 0.9913045819140245
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9912538551459317,
+      "CrossScore": 0.9912538551459317
+    },
+    {
+      "Question": "धनिया में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9890895606982053,
+      "CrossScore": 0.9890895606982053
+    },
+    {
+      "Question": "औषधीय खेती में 'जैविक मल्चिंग' का लाभ?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9888765396279525,
+      "CrossScore": 0.9888765396279525
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9884658827225943,
+      "CrossScore": 0.9884658827225943
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9879153932798019,
+      "CrossScore": 0.9879153932798019
+    }
+  ],
+  "latency_ms": 184.82,
+  "final_returned": [
+    {
+      "Question": "'सिरफिड फ्लाई' (Syrphid Fly) का लाभ?",
+      "Crop": "General",
+      "Score": 999.9034007067722
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "Score": 0.9990596243614519
+    },
+    {
+      "Question": "'एफपीओ' (FPO) का मुख्य लाभ?",
+      "Crop": "General",
+      "Score": 0.9941429525430898
+    },
+    {
+      "Question": "'गौमूत्र' का वैज्ञानिक लाभ?",
+      "Crop": "General",
+      "Score": 0.9936100656414472
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9913045819140245
+    }
+  ]
+}

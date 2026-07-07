@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:20.500871",
+  "query_original": "पौधों in 'नाइट्रोजन' की कमी और बीमारी का भ्रम?",
+  "query_normalized": "पौधों in नाइट्रोजन की कमी और बीमारी का भ्रम",
+  "query_expanded": "fungus nitrogen फंगस बीमारी झुलसा disease नाइट्रोजन यूरिया रोग पौधों in नाइट्रोजन की कमी और बीमारी का भ्रम urea",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों in 'नाइट्रोजन' की कमी और बीमारी का भ्रम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'फास्फोरस' की कमी और 'जड़ों' का विकास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी और 'प्रकाश'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों in 'नाइट्रोजन' की कमी और बीमारी का भ्रम?",
+      "Crop": "General",
+      "FinalScore": 9999.01550860538,
+      "CrossScore": 0.999901550860538
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General",
+      "FinalScore": 9.999141396341132,
+      "CrossScore": 0.9999141396341132
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 9.99907541759148,
+      "CrossScore": 0.9999075417591481
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "FinalScore": 9.999030133239854,
+      "CrossScore": 0.9999030133239853
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "FinalScore": 9.999024617549582,
+      "CrossScore": 0.9999024617549581
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी और 'प्रकाश'?",
+      "Crop": "General",
+      "FinalScore": 9.998987648930687,
+      "CrossScore": 0.9998987648930686
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से रोगों का खतरा क्यों बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 9.998925688201302,
+      "CrossScore": 0.9998925688201302
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'जिप्सम'?",
+      "Crop": "General",
+      "FinalScore": 9.998905445563397,
+      "CrossScore": 0.9998905445563396
+    },
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.998881284404298,
+      "CrossScore": 0.9998881284404298
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी की जांच?",
+      "Crop": "General",
+      "FinalScore": 9.9988574346564,
+      "CrossScore": 0.9998857434656401
+    }
+  ],
+  "latency_ms": 197.39,
+  "final_returned": [
+    {
+      "Question": "पौधों in 'नाइट्रोजन' की कमी और बीमारी का भ्रम?",
+      "Crop": "General",
+      "Score": 9999.01550860538
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General",
+      "Score": 9.999141396341132
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "Score": 9.99907541759148
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "Score": 9.999030133239854
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "Score": 9.999024617549582
+    }
+  ]
+}

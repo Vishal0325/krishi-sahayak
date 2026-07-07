@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:19.215520",
+  "query_original": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+  "query_normalized": "मल्चिंग mulching सिंचाई में कैसे मदद करती है",
+  "query_expanded": "मल्चिंग mulching सिंचाई में कैसे मदद करती है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "टमाटर में 'मल्चिंग' (Mulching) के लाभ?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "फेरोमोन ट्रैप निगरानी में कैसे मदद करते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा में 'मल्चिंग' (Mulching) का लाभ?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 999.9032343876511,
+      "CrossScore": 0.999903234387651
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999116214326877,
+      "CrossScore": 0.9999116214326877
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9999068434990842,
+      "CrossScore": 0.9999068434990842
+    },
+    {
+      "Question": "टमाटर में 'मल्चिंग' (Mulching) के लाभ?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9999044232641118,
+      "CrossScore": 0.9999044232641118
+    },
+    {
+      "Question": "फसल सुरक्षा में 'मल्चिंग' (Mulching) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9999020077398205,
+      "CrossScore": 0.9999020077398205
+    },
+    {
+      "Question": "मल्चिंग मशीन (Mulching Machine) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998980923261599,
+      "CrossScore": 0.9998980923261599
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' के लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998013270930753,
+      "CrossScore": 0.9998013270930753
+    },
+    {
+      "Question": "मिर्च में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9997762210008415,
+      "CrossScore": 0.9997762210008415
+    },
+    {
+      "Question": "भिंडी में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997596426107843,
+      "CrossScore": 0.9997596426107843
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997250395796529,
+      "CrossScore": 0.9997250395796529
+    }
+  ],
+  "latency_ms": 231.7,
+  "final_returned": [
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General",
+      "Score": 999.9032343876511
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999116214326877
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9999068434990842
+    },
+    {
+      "Question": "टमाटर में 'मल्चिंग' (Mulching) के लाभ?",
+      "Crop": "Tomato",
+      "Score": 0.9999044232641118
+    },
+    {
+      "Question": "फसल सुरक्षा में 'मल्चिंग' (Mulching) का लाभ?",
+      "Crop": "General",
+      "Score": 0.9999020077398205
+    }
+  ]
+}

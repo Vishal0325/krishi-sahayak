@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:46.420766",
+  "query_original": "'सफेद ग्रब' (White Grub) का प्रबंधन?",
+  "query_normalized": "सफेद ग्रब white grub का प्रबंधन",
+  "query_expanded": "सफेद ग्रब white grub का प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सफेद ग्रब' (White Grub) का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सरसों का सफेद रतुआ' (White Rust) और 'पत्तियां'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) रोग क्या है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) क्या है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "भिंडी में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सफेद ग्रब' (White Grub) का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 999.9310717505231,
+      "CrossScore": 0.9999310717505231
+    },
+    {
+      "Question": "'सरसों का सफेद रतुआ' (White Rust) और 'पत्तियां'?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995344584371229,
+      "CrossScore": 0.9995344584371229
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995325039859889,
+      "CrossScore": 0.9995325039859889
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9992142831391685,
+      "CrossScore": 0.9992142831391685
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'जड़ों' का प्रबंधन?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9972083844762795,
+      "CrossScore": 0.9972083844762795
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 0.9963534310121774,
+      "CrossScore": 0.9963534310121774
+    },
+    {
+      "Question": "टमाटर में 'रूट नॉट नीमेटोड' (Root Knot Nematode) का प्रबंधन?",
+      "Crop": "Tomato",
+      "FinalScore": 0.996251608659785,
+      "CrossScore": 0.996251608659785
+    },
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9957163583822026,
+      "CrossScore": 0.9957163583822026
+    },
+    {
+      "Question": "गन्ने में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9954045792629055,
+      "CrossScore": 0.9954045792629055
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 0.9953366969702357,
+      "CrossScore": 0.9953366969702357
+    }
+  ],
+  "latency_ms": 181.69,
+  "final_returned": [
+    {
+      "Question": "'सफेद ग्रब' (White Grub) का प्रबंधन?",
+      "Crop": "General",
+      "Score": 999.9310717505231
+    },
+    {
+      "Question": "'सरसों का सफेद रतुआ' (White Rust) और 'पत्तियां'?",
+      "Crop": "Mustard",
+      "Score": 0.9995344584371229
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) क्या है?",
+      "Crop": "Mustard",
+      "Score": 0.9995325039859889
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) रोग क्या है?",
+      "Crop": "Mustard",
+      "Score": 0.9992142831391685
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'जड़ों' का प्रबंधन?",
+      "Crop": "Sugarcane",
+      "Score": 0.9972083844762795
+    }
+  ]
+}

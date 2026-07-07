@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:44.306654",
+  "query_original": "'सब्जियों in कीटनाशक' और 'धोना'?",
+  "query_normalized": "सब्जियों in कीटनाशक और धोना",
+  "query_expanded": "pest सब्जियों in कीटनाशक और धोना कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'सिरका'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'नमक'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 9998.72228759402,
+      "CrossScore": 0.9998722287594021
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'सिरका'?",
+      "Crop": "General",
+      "FinalScore": 9.998778054865129,
+      "CrossScore": 0.999877805486513
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General",
+      "FinalScore": 9.998706298463652,
+      "CrossScore": 0.9998706298463653
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 9.998607191116038,
+      "CrossScore": 0.9998607191116039
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 9.998565469817947,
+      "CrossScore": 0.9998565469817948
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'नमक'?",
+      "Crop": "General",
+      "FinalScore": 9.998467253524492,
+      "CrossScore": 0.9998467253524492
+    },
+    {
+      "Question": "'कीटनाशक' और 'जल प्रदूषण'?",
+      "Crop": "General",
+      "FinalScore": 9.998296721601056,
+      "CrossScore": 0.9998296721601057
+    },
+    {
+      "Question": "'सब्जियों in फल छेदक' के लिए 'बोरॉन'?",
+      "Crop": "Vegetables",
+      "FinalScore": 9.99821195518496,
+      "CrossScore": 0.999821195518496
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "FinalScore": 9.99776071809338,
+      "CrossScore": 0.999776071809338
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.997587274112798,
+      "CrossScore": 0.9997587274112798
+    }
+  ],
+  "latency_ms": 180.77,
+  "final_returned": [
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General",
+      "Score": 9998.72228759402
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'सिरका'?",
+      "Crop": "General",
+      "Score": 9.998778054865129
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'सिरका'?",
+      "Crop": "General",
+      "Score": 9.998706298463652
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "Score": 9.998607191116038
+    },
+    {
+      "Question": "'सब्जियों' में कीटनाशक और 'धोना'?",
+      "Crop": "General",
+      "Score": 9.998565469817947
+    }
+  ]
+}

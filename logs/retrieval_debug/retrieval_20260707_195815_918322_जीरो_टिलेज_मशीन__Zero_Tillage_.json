@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:15.737049",
+  "query_original": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+  "query_normalized": "जीरो टिलेज मशीन zero tillage machine का उपयोग कब करें",
+  "query_expanded": "जीरो टिलेज मशीन zero tillage machine का उपयोग कब करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999002215563987,
+      "CrossScore": 0.9999002215563987
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998274156056303,
+      "CrossScore": 0.9998274156056303
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9997038859621916,
+      "CrossScore": 0.9997038859621916
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9995939275329836,
+      "CrossScore": 0.9995939275329836
+    },
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9993569410581296,
+      "CrossScore": 0.9993569410581296
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9991158849349765,
+      "CrossScore": 0.9991158849349765
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9990763301917333,
+      "CrossScore": 0.9990763301917333
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9990739368384933,
+      "CrossScore": 0.9990739368384933
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9988722363799836,
+      "CrossScore": 0.9988722363799836
+    },
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9987905652858494,
+      "CrossScore": 0.9987905652858494
+    }
+  ],
+  "latency_ms": 181.46,
+  "final_returned": [
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 0.9999002215563987
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998274156056303
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9997038859621916
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "Score": 0.9995939275329836
+    },
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9993569410581296
+    }
+  ]
+}

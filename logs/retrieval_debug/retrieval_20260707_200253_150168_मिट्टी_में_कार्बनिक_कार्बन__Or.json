@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:52.909708",
+  "query_original": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+  "query_normalized": "मिट्टी में कार्बनिक कार्बन organic carbon बढ़ाने का तरीका क्या है",
+  "query_expanded": "मिट्टी में कार्बनिक कार्बन organic carbon बढ़ाने का तरीका क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कार्बनिक कार्बन' (Organic Carbon) बढ़ाने का देसी तरीका?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8657521408684,
+      "CrossScore": 0.9998657521408684
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.999872250688105,
+      "CrossScore": 0.999872250688105
+    },
+    {
+      "Question": "'कार्बनिक कार्बन' (Organic Carbon) बढ़ाने का देसी तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.99976416523589,
+      "CrossScore": 0.99976416523589
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9985684296269841,
+      "CrossScore": 0.9985684296269841
+    },
+    {
+      "Question": "मिट्टी में जस्ते (Zinc) की कमी का कारण क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.998478019065836,
+      "CrossScore": 0.998478019065836
+    },
+    {
+      "Question": "मिट्टी में 'कार्बनिक कार्बन' का आदर्श स्तर?",
+      "Crop": "General",
+      "FinalScore": 0.9983653926646545,
+      "CrossScore": 0.9983653926646545
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9983556851535139,
+      "CrossScore": 0.9983556851535139
+    },
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9981807904343571,
+      "CrossScore": 0.9981807904343571
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9975449140198408,
+      "CrossScore": 0.9975449140198408
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9973666032923391,
+      "CrossScore": 0.9973666032923391
+    }
+  ],
+  "latency_ms": 240.52,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "Score": 999.8657521408684
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.999872250688105
+    },
+    {
+      "Question": "'कार्बनिक कार्बन' (Organic Carbon) बढ़ाने का देसी तरीका?",
+      "Crop": "General",
+      "Score": 0.99976416523589
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9985684296269841
+    },
+    {
+      "Question": "मिट्टी में जस्ते (Zinc) की कमी का कारण क्या है?",
+      "Crop": "General",
+      "Score": 0.998478019065836
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:19.953238",
+  "query_original": "पर्ण छिड़काव (Foliar Spray) कब सबसे प्रभावी होता है?",
+  "query_normalized": "पर्ण छिड़काव foliar spray कब सबसे प्रभावी होता है",
+  "query_expanded": "पर्ण छिड़काव foliar spray कब सबसे प्रभावी होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पर्ण छिड़काव (Foliar Spray) कब सबसे प्रभावी होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सरसों में 'पर्ण छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "गेहूं में 'चूहों' का सबसे ज्यादा नुकसान कब होता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'पर्णीय छिड़काव' (Foliar Spray) के लिए सबसे अच्छा समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की फसल में 'जल भराव' का सबसे बुरा असर कब होता है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पर्ण छिड़काव (Foliar Spray) कब सबसे प्रभावी होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999094380869777,
+      "CrossScore": 0.9999094380869777
+    },
+    {
+      "Question": "'पर्णीय छिड़काव' (Foliar Spray) के लिए सबसे अच्छा समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998695882095824,
+      "CrossScore": 0.9998695882095824
+    },
+    {
+      "Question": "आलू की फसल में 'पर्णीय छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998579828600243,
+      "CrossScore": 0.9998579828600243
+    },
+    {
+      "Question": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+      "Crop": "General",
+      "FinalScore": 0.9998544404547722,
+      "CrossScore": 0.9998544404547722
+    },
+    {
+      "Question": "IPM में 'पर्णीय छिड़काव' (Foliar Spray) का नियम?",
+      "Crop": "General",
+      "FinalScore": 0.9998425772448184,
+      "CrossScore": 0.9998425772448184
+    },
+    {
+      "Question": "सरसों में 'पर्ण छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998398239128656,
+      "CrossScore": 0.9998398239128656
+    },
+    {
+      "Question": "पीला रतुआ के लिए सबसे प्रभावी दवा कौन सी है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995807489616813,
+      "CrossScore": 0.9995807489616813
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994477932582062,
+      "CrossScore": 0.9994477932582062
+    },
+    {
+      "Question": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993479560676379,
+      "CrossScore": 0.9993479560676379
+    },
+    {
+      "Question": "IPM में 'हस्त चयन' (Hand Picking) कब प्रभावी है?",
+      "Crop": "General",
+      "FinalScore": 0.9993465438907785,
+      "CrossScore": 0.9993465438907785
+    }
+  ],
+  "latency_ms": 223.96,
+  "final_returned": [
+    {
+      "Question": "पर्ण छिड़काव (Foliar Spray) कब सबसे प्रभावी होता है?",
+      "Crop": "General",
+      "Score": 0.9999094380869777
+    },
+    {
+      "Question": "'पर्णीय छिड़काव' (Foliar Spray) के लिए सबसे अच्छा समय?",
+      "Crop": "General",
+      "Score": 0.9998695882095824
+    },
+    {
+      "Question": "आलू की फसल में 'पर्णीय छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Potato",
+      "Score": 0.9998579828600243
+    },
+    {
+      "Question": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+      "Crop": "General",
+      "Score": 0.9998544404547722
+    },
+    {
+      "Question": "IPM में 'पर्णीय छिड़काव' (Foliar Spray) का नियम?",
+      "Crop": "General",
+      "Score": 0.9998425772448184
+    }
+  ]
+}

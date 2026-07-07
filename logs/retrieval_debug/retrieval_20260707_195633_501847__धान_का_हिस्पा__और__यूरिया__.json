@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:33.289817",
+  "query_original": "'धान का हिस्पा' और 'यूरिया'?",
+  "query_normalized": "धान का हिस्पा और यूरिया",
+  "query_expanded": "नाइट्रोजन urea nitrogen यूरिया धान का हिस्पा और यूरिया",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) और 'पत्तियां'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99593062048854,
+      "CrossScore": 0.9999186124097708
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) और 'पत्तियां'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99569781002166,
+      "CrossScore": 0.9999139562004332
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99568034710976,
+      "CrossScore": 0.9999136069421952
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 49.995498184487374,
+      "CrossScore": 0.9999099636897475
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99502362138306,
+      "CrossScore": 0.9999004724276612
+    },
+    {
+      "Question": "बासमती धान की खेती में नाइट्रोजन?",
+      "Crop": "Rice",
+      "FinalScore": 49.993886142311894,
+      "CrossScore": 0.9998777228462379
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "FinalScore": 49.99372145463289,
+      "CrossScore": 0.9998744290926578
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' का स्प्रे?",
+      "Crop": "Rice",
+      "FinalScore": 49.99334748463856,
+      "CrossScore": 0.9998669496927712
+    },
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice",
+      "FinalScore": 49.992755264628514,
+      "CrossScore": 0.9998551052925703
+    },
+    {
+      "Question": "धान में नाइट्रोजन की कमी के लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 49.99249715612744,
+      "CrossScore": 0.9998499431225488
+    }
+  ],
+  "latency_ms": 212.18,
+  "final_returned": [
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 49.99593062048854
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) और 'पत्तियां'?",
+      "Crop": "Rice",
+      "Score": 49.99569781002166
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "Score": 49.99568034710976
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 49.995498184487374
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice",
+      "Score": 49.99502362138306
+    }
+  ]
+}

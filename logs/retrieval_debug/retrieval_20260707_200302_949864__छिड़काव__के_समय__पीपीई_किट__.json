@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:02.777927",
+  "query_original": "'छिड़काव' के समय 'पीपीई किट'?",
+  "query_normalized": "छिड़काव के समय पीपीई किट",
+  "query_expanded": "छिड़काव के समय पीपीई किट",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई किट'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई' (PPE) किट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'छिड़काव' के समय सुरक्षा गियर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय 'हवा की दिशा'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई किट'?",
+      "Crop": "General",
+      "FinalScore": 999.8992399847464,
+      "CrossScore": 0.9998992399847464
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.999901053928678,
+      "CrossScore": 0.999901053928678
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई' (PPE) किट?",
+      "Crop": "General",
+      "FinalScore": 0.9998995376883006,
+      "CrossScore": 0.9998995376883006
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पूरी बाजू की शर्ट'?",
+      "Crop": "General",
+      "FinalScore": 0.999892821864088,
+      "CrossScore": 0.999892821864088
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा गियर' (PPE Kit)?",
+      "Crop": "General",
+      "FinalScore": 0.999883104066488,
+      "CrossScore": 0.999883104066488
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' (Cone) नोजल?",
+      "Crop": "General",
+      "FinalScore": 0.9998810156793417,
+      "CrossScore": 0.9998810156793417
+    },
+    {
+      "Question": "'छिड़काव' के समय 'प्लास्टिक जूते'?",
+      "Crop": "General",
+      "FinalScore": 0.9998788109690813,
+      "CrossScore": 0.9998788109690813
+    },
+    {
+      "Question": "'छिड़काव' के समय ' फ्लैट फैन' नोजल?",
+      "Crop": "General",
+      "FinalScore": 0.999877063694852,
+      "CrossScore": 0.999877063694852
+    },
+    {
+      "Question": "'पर्णीय छिड़काव' (Foliar Spray) के लिए सबसे अच्छा समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998692490286041,
+      "CrossScore": 0.9998692490286041
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998686609778525,
+      "CrossScore": 0.9998686609778525
+    }
+  ],
+  "latency_ms": 171.98,
+  "final_returned": [
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई किट'?",
+      "Crop": "General",
+      "Score": 999.8992399847464
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "Score": 0.999901053928678
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई' (PPE) किट?",
+      "Crop": "General",
+      "Score": 0.9998995376883006
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पूरी बाजू की शर्ट'?",
+      "Crop": "General",
+      "Score": 0.999892821864088
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा गियर' (PPE Kit)?",
+      "Crop": "General",
+      "Score": 0.999883104066488
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:33.957395",
+  "query_original": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+  "query_normalized": "मूंगफली का टिक्का रोग tikka disease",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease रोग मूंगफली का टिक्का रोग tikka disease",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9999.104388553342,
+      "CrossScore": 0.9999104388553341
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 9.996117040787366,
+      "CrossScore": 0.9996117040787367
+    },
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "FinalScore": 9.989536317055776,
+      "CrossScore": 0.9989536317055776
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.987052756341232,
+      "CrossScore": 0.9987052756341233
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "FinalScore": 9.984130899947104,
+      "CrossScore": 0.9984130899947103
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.983758101703117,
+      "CrossScore": 0.9983758101703117
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 9.98303633263708,
+      "CrossScore": 0.9983036332637081
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "FinalScore": 9.982691452620124,
+      "CrossScore": 0.9982691452620124
+    },
+    {
+      "Question": "'गन्ने का उकठा' (Wilt) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.9817834352378,
+      "CrossScore": 0.99817834352378
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "FinalScore": 9.980503019024843,
+      "CrossScore": 0.9980503019024843
+    }
+  ],
+  "latency_ms": 222.85,
+  "final_returned": [
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9999.104388553342
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "Score": 9.996117040787366
+    },
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "Score": 9.989536317055776
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.987052756341232
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "Score": 9.984130899947104
+    }
+  ]
+}

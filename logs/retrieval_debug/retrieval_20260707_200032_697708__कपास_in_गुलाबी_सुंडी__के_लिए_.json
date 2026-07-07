@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:32.502175",
+  "query_original": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+  "query_normalized": "कपास in गुलाबी सुंडी के लिए फेरोमोन ट्रैप का समय",
+  "query_expanded": "कपास in गुलाबी सुंडी के लिए फेरोमोन ट्रैप का समय",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "सरसों in 'झुलसा' रोकने के लिए 'बुआई का समय'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' का 'जैविक' इलाज?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "मक्का in 'यूरिया' की बचत के लिए 'नैनो यूरिया' का समय?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'कीट निगरानी' के लिए 'लाइट ट्रैप' का समय?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 9998.423893496802,
+      "CrossScore": 0.9998423893496802
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "FinalScore": 9.998307557070737,
+      "CrossScore": 0.9998307557070737
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "FinalScore": 9.998278788800047,
+      "CrossScore": 0.9998278788800046
+    },
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton",
+      "FinalScore": 9.99822755484982,
+      "CrossScore": 0.999822755484982
+    },
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "FinalScore": 9.998130399807424,
+      "CrossScore": 0.9998130399807424
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997958828954213,
+      "CrossScore": 0.9997958828954213
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' का 'जैविक' इलाज?",
+      "Crop": "Cotton",
+      "FinalScore": 9.997896830081853,
+      "CrossScore": 0.9997896830081853
+    },
+    {
+      "Question": "'थ्रिप्स' के लिए 'नीला ट्रैप' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998303873682101,
+      "CrossScore": 0.9998303873682101
+    },
+    {
+      "Question": "'कीट निगरानी' के लिए 'लाइट ट्रैप' का समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998283769165605,
+      "CrossScore": 0.9998283769165605
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998240349347811,
+      "CrossScore": 0.9998240349347811
+    }
+  ],
+  "latency_ms": 195.59,
+  "final_returned": [
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "Score": 9998.423893496802
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "Score": 9.998307557070737
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "Score": 9.998278788800047
+    },
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton",
+      "Score": 9.99822755484982
+    },
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "Score": 9.998130399807424
+    }
+  ]
+}

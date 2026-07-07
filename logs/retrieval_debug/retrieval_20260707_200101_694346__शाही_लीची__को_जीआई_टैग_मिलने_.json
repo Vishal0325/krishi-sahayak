@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:01.495119",
+  "query_original": "'शाही लीची' को जीआई टैग मिलने का लाभ?",
+  "query_normalized": "शाही लीची को जीआई टैग मिलने का लाभ",
+  "query_expanded": "शाही लीची को जीआई टैग मिलने का लाभ",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'शाही लीची' को जीआई टैग मिलने का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मुजफ्फरपुर की लीची को 'जीआई टैग' (GI Tag) मिला है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'शाही लीची' का निर्यात?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची की 'शाही' किस्म का औसत वजन?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'शाही लीची' को जीआई टैग मिलने का लाभ?",
+      "Crop": "General",
+      "FinalScore": 999.8872771351283,
+      "CrossScore": 0.9998872771351284
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'ग्रेडिंग' का व्यापारिक लाभ?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99470034197717,
+      "CrossScore": 0.9998940068395434
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99332517533004,
+      "CrossScore": 0.9998665035066008
+    },
+    {
+      "Question": "लीची में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99330625158926,
+      "CrossScore": 0.9998661250317852
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99321693368975,
+      "CrossScore": 0.999864338673795
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99299931684922,
+      "CrossScore": 0.9998599863369844
+    },
+    {
+      "Question": "क्या मुजफ्फरपुर की लीची को 'जीआई टैग' (GI Tag) मिला है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.9925792913477,
+      "CrossScore": 0.999851585826954
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.992524171702776,
+      "CrossScore": 0.9998504834340555
+    },
+    {
+      "Question": "लीची की 'शाही' किस्म का औसत वजन?",
+      "Crop": "Litchi",
+      "FinalScore": 49.990420418191064,
+      "CrossScore": 0.9998084083638213
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.989936740901534,
+      "CrossScore": 0.9997987348180307
+    }
+  ],
+  "latency_ms": 199.28,
+  "final_returned": [
+    {
+      "Question": "'शाही लीची' को जीआई टैग मिलने का लाभ?",
+      "Crop": "General",
+      "Score": 999.8872771351283
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'ग्रेडिंग' का व्यापारिक लाभ?",
+      "Crop": "Litchi",
+      "Score": 49.99470034197717
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "Score": 49.99332517533004
+    },
+    {
+      "Question": "लीची में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Litchi",
+      "Score": 49.99330625158926
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "Score": 49.99321693368975
+    }
+  ]
+}

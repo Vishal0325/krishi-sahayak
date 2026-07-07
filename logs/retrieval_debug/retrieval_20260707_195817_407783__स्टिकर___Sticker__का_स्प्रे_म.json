@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:17.232560",
+  "query_original": "'स्टिकर' (Sticker) का स्प्रे में उपयोग?",
+  "query_normalized": "स्टिकर sticker का स्प्रे में उपयोग",
+  "query_expanded": "स्टिकर sticker का स्प्रे में उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्टिकर' (Sticker) का स्प्रे में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'स्टिकर' (Sticker) का स्प्रे में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999246076375778,
+      "CrossScore": 0.9999246076375778
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.999917188431713,
+      "CrossScore": 0.999917188431713
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999133196053416,
+      "CrossScore": 0.9999133196053416
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996883462574621,
+      "CrossScore": 0.9996883462574621
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996695528485419,
+      "CrossScore": 0.9996695528485419
+    },
+    {
+      "Question": "'ब्लॉकचेन' (Blockchain) तकनीक का कृषि में उपयोग?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9996640322661272,
+      "CrossScore": 0.9996640322661272
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996429318522051,
+      "CrossScore": 0.9996429318522051
+    },
+    {
+      "Question": "'लीची' में माइट के लिए 'सल्फर' का स्प्रे?",
+      "Crop": "General",
+      "FinalScore": 0.9996315923367344,
+      "CrossScore": 0.9996315923367344
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9996063454199757,
+      "CrossScore": 0.9996063454199757
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने में किन पत्तियों का उपयोग करें?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9995748711028474,
+      "CrossScore": 0.9995748711028474
+    }
+  ],
+  "latency_ms": 175.33,
+  "final_returned": [
+    {
+      "Question": "'स्टिकर' (Sticker) का स्प्रे में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999246076375778
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.999917188431713
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999133196053416
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9996883462574621
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9996695528485419
+    }
+  ]
+}

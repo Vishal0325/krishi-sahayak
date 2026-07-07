@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:17.361478",
+  "query_original": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+  "query_normalized": "मिट्टी को प्रदूषण से कैसे बचाएं",
+  "query_expanded": "मिट्टी को प्रदूषण से कैसे बचाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की फसल को पाले (Frost) से कैसे बचाएं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "फलों के पेड़ों को 'सर्दियों' में पाले से कैसे बचाएं?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "दालों के दानों को 'चूहे' से कैसे बचाएं?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 999.8959580508114,
+      "CrossScore": 0.9998959580508113
+    },
+    {
+      "Question": "ट्रैक्टर के 'क्लच' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999007182186899,
+      "CrossScore": 0.9999007182186899
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998889543645968,
+      "CrossScore": 0.9998889543645968
+    },
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "FinalScore": 0.9998784765376534,
+      "CrossScore": 0.9998784765376534
+    },
+    {
+      "Question": "पत्तागोभी के सिर को 'फटने' से कैसे बचाएं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998516676016966,
+      "CrossScore": 0.9998516676016966
+    },
+    {
+      "Question": "पपीते के पौधों को 'ट्रांसप्लांट शॉक' से कैसे बचाएं?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998511158114275,
+      "CrossScore": 0.9998511158114275
+    },
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998481053522683,
+      "CrossScore": 0.9998481053522683
+    },
+    {
+      "Question": "गेहूं के भंडारण में 'घुन' से कैसे बचाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998465604046654,
+      "CrossScore": 0.9998465604046654
+    },
+    {
+      "Question": "बक्सों को 'चींटियों' से कैसे बचाएं?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998435755762324,
+      "CrossScore": 0.9998435755762324
+    },
+    {
+      "Question": "फलों को 'धूप' (Sunburn) से कैसे बचाएं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998134908050083,
+      "CrossScore": 0.9998134908050083
+    }
+  ],
+  "latency_ms": 175.84,
+  "final_returned": [
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 999.8959580508114
+    },
+    {
+      "Question": "ट्रैक्टर के 'क्लच' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9999007182186899
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9998889543645968
+    },
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "Score": 0.9998784765376534
+    },
+    {
+      "Question": "पत्तागोभी के सिर को 'फटने' से कैसे बचाएं?",
+      "Crop": "Vegetables",
+      "Score": 0.9998516676016966
+    }
+  ]
+}

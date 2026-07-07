@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:56.508532",
+  "query_original": "फूलों की 'मिट्टी' का पीएच 6.5?",
+  "query_normalized": "फूलों की मिट्टी का पीएच 6 5",
+  "query_expanded": "फूलों की मिट्टी का पीएच 6 5",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलों की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "अमरूद की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "धनिया की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फूलों की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Floriculture",
+      "FinalScore": 999.9172159872128,
+      "CrossScore": 0.9999172159872128
+    },
+    {
+      "Question": "भिंडी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999297163126438,
+      "CrossScore": 0.9999297163126438
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999289463204566,
+      "CrossScore": 0.9999289463204566
+    },
+    {
+      "Question": "अमरूद की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Guava",
+      "FinalScore": 0.9999279277444224,
+      "CrossScore": 0.9999279277444224
+    },
+    {
+      "Question": "पत्तागोभी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999276340894976,
+      "CrossScore": 0.9999276340894976
+    },
+    {
+      "Question": "मटर की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Pea",
+      "FinalScore": 0.9999265182643142,
+      "CrossScore": 0.9999265182643142
+    },
+    {
+      "Question": "मखाना की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999264533485291,
+      "CrossScore": 0.9999264533485291
+    },
+    {
+      "Question": "बैंगन की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999261251610319,
+      "CrossScore": 0.9999261251610319
+    },
+    {
+      "Question": "हल्दी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999246428575753,
+      "CrossScore": 0.9999246428575753
+    },
+    {
+      "Question": "अदरक की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999234242688197,
+      "CrossScore": 0.9999234242688197
+    }
+  ],
+  "latency_ms": 161.96,
+  "final_returned": [
+    {
+      "Question": "फूलों की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Floriculture",
+      "Score": 999.9172159872128
+    },
+    {
+      "Question": "भिंडी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Okra",
+      "Score": 0.9999297163126438
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "Score": 0.9999289463204566
+    },
+    {
+      "Question": "अमरूद की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Guava",
+      "Score": 0.9999279277444224
+    },
+    {
+      "Question": "पत्तागोभी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Cabbage",
+      "Score": 0.9999276340894976
+    }
+  ]
+}

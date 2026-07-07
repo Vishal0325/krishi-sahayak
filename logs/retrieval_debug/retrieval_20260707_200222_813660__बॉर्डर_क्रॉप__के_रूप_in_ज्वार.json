@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:22.615104",
+  "query_original": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+  "query_normalized": "बॉर्डर क्रॉप के रूप in ज्वार का महत्व",
+  "query_expanded": "बॉर्डर क्रॉप के रूप in ज्वार का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी in 'YVMV' रोकने के लिए 'बॉर्डर क्रॉप'?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General",
+      "FinalScore": 999.8854829940638,
+      "CrossScore": 0.9998854829940638
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9999066766108358,
+      "CrossScore": 0.9999066766108358
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "FinalScore": 0.9999030207224818,
+      "CrossScore": 0.9999030207224818
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9999007781286711,
+      "CrossScore": 0.9999007781286711
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998969582284698,
+      "CrossScore": 0.9998969582284698
+    },
+    {
+      "Question": "'थ्रिप्स' के लिए 'नीला ट्रैप' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998891020881587,
+      "CrossScore": 0.9998891020881587
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998876426481044,
+      "CrossScore": 0.9998876426481044
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'मक्का'?",
+      "Crop": "General",
+      "FinalScore": 0.9998794910938738,
+      "CrossScore": 0.9998794910938738
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998738340227478,
+      "CrossScore": 0.9998738340227478
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998631711281036,
+      "CrossScore": 0.9998631711281036
+    }
+  ],
+  "latency_ms": 198.59,
+  "final_returned": [
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General",
+      "Score": 999.8854829940638
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' का लाभ?",
+      "Crop": "General",
+      "Score": 0.9999066766108358
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "Score": 0.9999030207224818
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9999007781286711
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General",
+      "Score": 0.9998969582284698
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:15.701160",
+  "query_original": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+  "query_normalized": "ट्राइकोडर्मा विरिडी trichoderma viride क्या है",
+  "query_expanded": "ट्राइकोडर्मा विरिडी trichoderma viride क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्राइकोडर्मा (Trichoderma) क्या है और इसका उपयोग कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.923670105986,
+      "CrossScore": 0.999923670105986
+    },
+    {
+      "Question": "ट्राइकोडर्मा (Trichoderma) क्या है और इसका उपयोग कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997329417133579,
+      "CrossScore": 0.9997329417133579
+    },
+    {
+      "Question": "ट्राइको-कार्ड (Tricho-card) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996617430352549,
+      "CrossScore": 0.9996617430352549
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General",
+      "FinalScore": 0.9995823214713918,
+      "CrossScore": 0.9995823214713918
+    },
+    {
+      "Question": "'कवच' (Kavach) फफूंदनाशक क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994573836044656,
+      "CrossScore": 0.9994573836044656
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9993662690703257,
+      "CrossScore": 0.9993662690703257
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9992203230325618,
+      "CrossScore": 0.9992203230325618
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991887071047739,
+      "CrossScore": 0.9991887071047739
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9990987357389509,
+      "CrossScore": 0.9990987357389509
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9990068368021919,
+      "CrossScore": 0.9990068368021919
+    }
+  ],
+  "latency_ms": 221.97,
+  "final_returned": [
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General",
+      "Score": 999.923670105986
+    },
+    {
+      "Question": "ट्राइकोडर्मा (Trichoderma) क्या है और इसका उपयोग कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9997329417133579
+    },
+    {
+      "Question": "ट्राइको-कार्ड (Tricho-card) क्या है?",
+      "Crop": "General",
+      "Score": 0.9996617430352549
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General",
+      "Score": 0.9995823214713918
+    },
+    {
+      "Question": "'कवच' (Kavach) फफूंदनाशक क्या है?",
+      "Crop": "General",
+      "Score": 0.9994573836044656
+    }
+  ]
+}

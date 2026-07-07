@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:39.450091",
+  "query_original": "जैविक खाद (Organic Manure) क्या है?",
+  "query_normalized": "जैविक खाद organic manure क्या है",
+  "query_expanded": "खाद poshak fertilizer जैविक खाद organic manure क्या है उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999279292564337,
+      "CrossScore": 0.9999279292564337
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998421753482286,
+      "CrossScore": 0.9998421753482286
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998198337652117,
+      "CrossScore": 0.9998198337652117
+    },
+    {
+      "Question": "सब्जियों के लिए 'तरल जैविक खाद' (Liquid Organic Fertilizer)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998190890716516,
+      "CrossScore": 0.9998190890716516
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997917560501207,
+      "CrossScore": 0.9997917560501207
+    },
+    {
+      "Question": "जैविक कॉरिडोर (Organic Corridor) बिहार में क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997520225426504,
+      "CrossScore": 0.9997520225426504
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996722707599294,
+      "CrossScore": 0.9996722707599294
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9994395235296606,
+      "CrossScore": 0.9994395235296606
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9992580526951111,
+      "CrossScore": 0.9992580526951111
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999166799082177,
+      "CrossScore": 0.999166799082177
+    }
+  ],
+  "latency_ms": 214.41,
+  "final_returned": [
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999279292564337
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998421753482286
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9998198337652117
+    },
+    {
+      "Question": "सब्जियों के लिए 'तरल जैविक खाद' (Liquid Organic Fertilizer)?",
+      "Crop": "Vegetables",
+      "Score": 0.9998190890716516
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9997917560501207
+    }
+  ]
+}

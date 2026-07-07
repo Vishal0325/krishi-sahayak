@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:01:14.210214",
+  "query_original": "ड्रैगन फ्रूट की 'थ्रिप्स' कीट समस्या?",
+  "query_normalized": "ड्रैगन फ्रूट की थ्रिप्स कीट समस्या",
+  "query_expanded": "pest कीड़ा बग कीट insect ड्रैगन फ्रूट की थ्रिप्स कीट समस्या",
+  "detected_crops": [
+    "Dragon Fruit"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ड्रैगन फ्रूट की 'थ्रिप्स' कीट समस्या?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'फंगस' की समस्या?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की प्रमुख किस्में कौन सी हैं?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की औसत उपज कितनी होती है?",
+      "Crop": "Dragon Fruit"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ड्रैगन फ्रूट की 'थ्रिप्स' कीट समस्या?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49993.36556434678,
+      "CrossScore": 0.9998673112869356
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99451948827973,
+      "CrossScore": 0.9998903897655945
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में शुरुआती निवेश कितना है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99447631395847,
+      "CrossScore": 0.9998895262791695
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'पोटाश' की मात्रा मिट्टी परीक्षण के आधार पर?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99375935087137,
+      "CrossScore": 0.9998751870174275
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की औसत उपज कितनी होती है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99353436599187,
+      "CrossScore": 0.9998706873198374
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की प्रमुख किस्में कौन सी हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99339719588195,
+      "CrossScore": 0.999867943917639
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खुदाई (Harvesting) के बाद भंडारण?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.993217496378804,
+      "CrossScore": 0.9998643499275761
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती शुरू करने के लिए विशेषज्ञों की सलाह?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99318546545954,
+      "CrossScore": 0.9998637093091908
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की 'मशीनी' बुआई?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.99311510219112,
+      "CrossScore": 0.9998623020438223
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खुदाई के बाद 'क्रेट्स' का उपयोग?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 49.992804572029186,
+      "CrossScore": 0.9998560914405837
+    }
+  ],
+  "latency_ms": 205.54,
+  "final_returned": [
+    {
+      "Question": "ड्रैगन फ्रूट की 'थ्रिप्स' कीट समस्या?",
+      "Crop": "Dragon Fruit",
+      "Score": 49993.36556434678
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती का परिचय क्या है?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.99451948827973
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की खेती में शुरुआती निवेश कितना है?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.99447631395847
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'पोटाश' की मात्रा मिट्टी परीक्षण के आधार पर?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.99375935087137
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की औसत उपज कितनी होती है?",
+      "Crop": "Dragon Fruit",
+      "Score": 49.99353436599187
+    }
+  ]
+}

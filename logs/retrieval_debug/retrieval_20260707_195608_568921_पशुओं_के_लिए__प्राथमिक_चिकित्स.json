@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:08.379633",
+  "query_original": "पशुओं के लिए 'प्राथमिक चिकित्सा किट' (First Aid Kit)?",
+  "query_normalized": "पशुओं के लिए प्राथमिक चिकित्सा किट first aid kit",
+  "query_expanded": "पशुओं के लिए प्राथमिक चिकित्सा किट first aid kit",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'प्राथमिक चिकित्सा किट' (First Aid Kit)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डेरी फार्म में 'प्राथमिक चिकित्सा किट' (First Aid)?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'प्राथमिक चिकित्सा किट' (First Aid Kit)?",
+      "Crop": "General",
+      "FinalScore": 0.9999018708429465,
+      "CrossScore": 0.9999018708429465
+    },
+    {
+      "Question": "डेरी फार्म में 'प्राथमिक चिकित्सा किट' (First Aid)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9994354608898149,
+      "CrossScore": 0.9994354608898149
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9962247856089748,
+      "CrossScore": 0.9962247856089748
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "FinalScore": 0.9957770635276848,
+      "CrossScore": 0.9957770635276848
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9953917841096791,
+      "CrossScore": 0.9953917841096791
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9945872733694386,
+      "CrossScore": 0.9945872733694386
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9942197974924455,
+      "CrossScore": 0.9942197974924455
+    },
+    {
+      "Question": "पशुओं के लिए 'विटामिन' की कमी?",
+      "Crop": "Livestock",
+      "FinalScore": 0.994194105538556,
+      "CrossScore": 0.994194105538556
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9937631724833115,
+      "CrossScore": 0.9937631724833115
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9937407690582873,
+      "CrossScore": 0.9937407690582873
+    }
+  ],
+  "latency_ms": 189.4,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'प्राथमिक चिकित्सा किट' (First Aid Kit)?",
+      "Crop": "General",
+      "Score": 0.9999018708429465
+    },
+    {
+      "Question": "डेरी फार्म में 'प्राथमिक चिकित्सा किट' (First Aid)?",
+      "Crop": "Dairy",
+      "Score": 0.9994354608898149
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "Score": 0.9962247856089748
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "Score": 0.9957770635276848
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy",
+      "Score": 0.9953917841096791
+    }
+  ]
+}

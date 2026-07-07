@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:19.815228",
+  "query_original": "'गौमूत्र' और 'फफूंद'?",
+  "query_normalized": "गौमूत्र और फफूंद",
+  "query_expanded": "गौमूत्र और फफूंद",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गौमूत्र' और 'फफूंद'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'गौमूत्र' और 'कीट'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'गौमूत्र' और 'नीम' का मेल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मित्र फफूंद' और 'बायो-केमिकल्स' का मेल?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गौमूत्र' और 'फफूंद'?",
+      "Crop": "General",
+      "FinalScore": 999.0836496194597,
+      "CrossScore": 0.9990836496194597
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General",
+      "FinalScore": 9.873287462212348,
+      "CrossScore": 0.9873287462212348
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' का 'रासायनिक' इलाज?",
+      "Crop": "Pea",
+      "FinalScore": 2.804400004154253,
+      "CrossScore": 0.28044000041542533
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana",
+      "FinalScore": 2.1712759816193814,
+      "CrossScore": 0.21712759816193813
+    },
+    {
+      "Question": "'मिर्च की चूर्णी फफूंद' (Powdery Mildew)?",
+      "Crop": "Chilli",
+      "FinalScore": 2.1148205681490047,
+      "CrossScore": 0.21148205681490045
+    },
+    {
+      "Question": "'लीची का माइट' और 'सल्फर'?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9953386154795414,
+      "CrossScore": 0.9953386154795414
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' और 'सूरजमुखी'?",
+      "Crop": "General",
+      "FinalScore": 0.9938079048795518,
+      "CrossScore": 0.9938079048795518
+    },
+    {
+      "Question": "'गौमूत्र' और 'कीट'?",
+      "Crop": "General",
+      "FinalScore": 0.9848813963827587,
+      "CrossScore": 0.9848813963827587
+    },
+    {
+      "Question": "'गौमूत्र' और 'नीम' का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9841102745194003,
+      "CrossScore": 0.9841102745194003
+    },
+    {
+      "Question": "अरहर की 'सीधी बुआई' और 'रोपाई'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9761123375261074,
+      "CrossScore": 0.9761123375261074
+    }
+  ],
+  "latency_ms": 164.16,
+  "final_returned": [
+    {
+      "Question": "'गौमूत्र' और 'फफूंद'?",
+      "Crop": "General",
+      "Score": 999.0836496194597
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General",
+      "Score": 9.873287462212348
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' का 'रासायनिक' इलाज?",
+      "Crop": "Pea",
+      "Score": 2.804400004154253
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana",
+      "Score": 2.1712759816193814
+    },
+    {
+      "Question": "'मिर्च की चूर्णी फफूंद' (Powdery Mildew)?",
+      "Crop": "Chilli",
+      "Score": 2.1148205681490047
+    }
+  ]
+}

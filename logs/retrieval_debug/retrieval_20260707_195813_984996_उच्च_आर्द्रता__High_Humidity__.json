@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:13.750680",
+  "query_original": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+  "query_normalized": "उच्च आर्द्रता high humidity से कौन से रोग बढ़ते हैं",
+  "query_expanded": "फंगस बीमारी उच्च आर्द्रता high humidity से कौन से रोग बढ़ते हैं fungus disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.984561772594601,
+      "CrossScore": 0.9984561772594601
+    },
+    {
+      "Question": "क्या अधिक पानी देने से पौधों in बीमारियां बढ़ सकती हैं?",
+      "Crop": "General",
+      "FinalScore": 9.970761957681612,
+      "CrossScore": 0.9970761957681612
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.957362035194748,
+      "CrossScore": 0.9957362035194749
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General",
+      "FinalScore": 9.954862280689342,
+      "CrossScore": 0.9954862280689343
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.953997366475075,
+      "CrossScore": 0.9953997366475076
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.9437070390223,
+      "CrossScore": 0.99437070390223
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी से होने वाले रोग?",
+      "Crop": "General",
+      "FinalScore": 9.917494783688314,
+      "CrossScore": 0.9917494783688314
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.907962321925977,
+      "CrossScore": 0.9907962321925977
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.907151146812577,
+      "CrossScore": 0.9907151146812576
+    },
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998897893263153,
+      "CrossScore": 0.9998897893263153
+    }
+  ],
+  "latency_ms": 234.44,
+  "final_returned": [
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "Score": 9.984561772594601
+    },
+    {
+      "Question": "क्या अधिक पानी देने से पौधों in बीमारियां बढ़ सकती हैं?",
+      "Crop": "General",
+      "Score": 9.970761957681612
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.957362035194748
+    },
+    {
+      "Question": "पौधों in 'बोरोन' की कमी से 'फटने' के रोग?",
+      "Crop": "General",
+      "Score": 9.954862280689342
+    },
+    {
+      "Question": "पौधों in लोहे (Iron) की कमी से होने वाले रोग के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 9.953997366475075
+    }
+  ]
+}

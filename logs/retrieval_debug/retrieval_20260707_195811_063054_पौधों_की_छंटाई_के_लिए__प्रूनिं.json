@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:10.866497",
+  "query_original": "पौधों की छंटाई के लिए 'प्रूनिंग आरी' (Pruning Saw)?",
+  "query_normalized": "पौधों की छंटाई के लिए प्रूनिंग आरी pruning saw",
+  "query_expanded": "पौधों की छंटाई के लिए प्रूनिंग आरी pruning saw",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों की छंटाई के लिए 'प्रूनिंग आरी' (Pruning Saw)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बैंगन के पौधों की 'छंटाई' (Pruning)?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "अनानास की खेती के लिए पौधों की दूरी?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रोसेसिंग' के लिए छोटी इकाई?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों की छंटाई के लिए 'प्रूनिंग आरी' (Pruning Saw)?",
+      "Crop": "General",
+      "FinalScore": 0.9998982657362798,
+      "CrossScore": 0.9998982657362798
+    },
+    {
+      "Question": "बैंगन के पौधों की 'छंटाई' (Pruning)?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997353504285661,
+      "CrossScore": 0.9997353504285661
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रूनिंग' (Pruning)?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997300049576548,
+      "CrossScore": 0.9997300049576548
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'टहनियों' की छंटाई (Pruning)?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9997291675690347,
+      "CrossScore": 0.9997291675690347
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9974257427611493,
+      "CrossScore": 0.9974257427611493
+    },
+    {
+      "Question": "औषधीय पौधों की खेती में 'जल प्रबंधन' के लिए ड्रिप?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9966253062452848,
+      "CrossScore": 0.9966253062452848
+    },
+    {
+      "Question": "प्याज की रोपाई के लिए पौधों की उम्र कितनी होनी चाहिए?",
+      "Crop": "Onion",
+      "FinalScore": 0.9966079139806212,
+      "CrossScore": 0.9966079139806212
+    },
+    {
+      "Question": "'पौधों' में 'पोटाश' की कमी दूर करने के लिए 'एसओपी'?",
+      "Crop": "General",
+      "FinalScore": 0.996475379347976,
+      "CrossScore": 0.996475379347976
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रोसेसिंग' के लिए छोटी इकाई?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9964620282573556,
+      "CrossScore": 0.9964620282573556
+    },
+    {
+      "Question": "प्याज की रोपाई के लिए पौधों की सही उम्र?",
+      "Crop": "Onion",
+      "FinalScore": 0.9962707678272844,
+      "CrossScore": 0.9962707678272844
+    }
+  ],
+  "latency_ms": 196.68,
+  "final_returned": [
+    {
+      "Question": "पौधों की छंटाई के लिए 'प्रूनिंग आरी' (Pruning Saw)?",
+      "Crop": "General",
+      "Score": 0.9998982657362798
+    },
+    {
+      "Question": "बैंगन के पौधों की 'छंटाई' (Pruning)?",
+      "Crop": "Brinjal",
+      "Score": 0.9997353504285661
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रूनिंग' (Pruning)?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9997300049576548
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'टहनियों' की छंटाई (Pruning)?",
+      "Crop": "Litchi",
+      "Score": 0.9997291675690347
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9974257427611493
+    }
+  ]
+}

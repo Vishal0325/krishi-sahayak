@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:02.948409",
+  "query_original": "'अरहर की फली मक्खी' और 'नमी'?",
+  "query_normalized": "अरहर की फली मक्खी और नमी",
+  "query_expanded": "अरहर की फली मक्खी और नमी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'अरहर का फली मक्खी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अरहर की 'सीधी बुआई' और 'रोपाई'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998995731275685,
+      "CrossScore": 0.9998995731275685
+    },
+    {
+      "Question": "'भिंडी का पीला मोजेक' (YVMV) और 'सफेद मक्खी'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998986278164157,
+      "CrossScore": 0.9998986278164157
+    },
+    {
+      "Question": "अरहर की 'इंटर-क्रॉपिंग'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998970163808898,
+      "CrossScore": 0.9998970163808898
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' और 'पीला ट्रैप'?",
+      "Crop": "General",
+      "FinalScore": 0.9998961053751693,
+      "CrossScore": 0.9998961053751693
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998957525789686,
+      "CrossScore": 0.9998957525789686
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998947432091568,
+      "CrossScore": 0.9998947432091568
+    },
+    {
+      "Question": "अरहर की 'लंबी अवधि' वाली किस्मों की उपज?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998928082703494,
+      "CrossScore": 0.9998928082703494
+    },
+    {
+      "Question": "मक्का की 'हाइब्रिड' और 'देसी' किस्म में अंतर?",
+      "Crop": "Maize",
+      "FinalScore": 0.999889445766795,
+      "CrossScore": 0.999889445766795
+    },
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998856809106085,
+      "CrossScore": 0.9998856809106085
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998836434363854,
+      "CrossScore": 0.9998836434363854
+    }
+  ],
+  "latency_ms": 199.04,
+  "final_returned": [
+    {
+      "Question": "अरहर की 'कटाई' के बाद 'मिट्टी' की स्थिति?",
+      "Crop": "Pulses",
+      "Score": 0.9998995731275685
+    },
+    {
+      "Question": "'भिंडी का पीला मोजेक' (YVMV) और 'सफेद मक्खी'?",
+      "Crop": "Okra",
+      "Score": 0.9998986278164157
+    },
+    {
+      "Question": "अरहर की 'इंटर-क्रॉपिंग'?",
+      "Crop": "Pulses",
+      "Score": 0.9998970163808898
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' और 'पीला ट्रैप'?",
+      "Crop": "General",
+      "Score": 0.9998961053751693
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9998957525789686
+    }
+  ]
+}

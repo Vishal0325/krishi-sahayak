@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:26.203189",
+  "query_original": "'दीमक' के लिए 'मटकी विधि'?",
+  "query_normalized": "दीमक के लिए मटकी विधि",
+  "query_expanded": "दीमक के लिए मटकी विधि",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'दीमक' के लिए 'मटकी विधि'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मूंग और उड़द की बुआई के लिए मेड़ विधि?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'दीमक' के लिए 'मटकी विधि'?",
+      "Crop": "General",
+      "FinalScore": 0.9999038873200935,
+      "CrossScore": 0.9999038873200935
+    },
+    {
+      "Question": "'दीमक' के लिए 'बोरिक एसिड'?",
+      "Crop": "General",
+      "FinalScore": 0.9998995568462142,
+      "CrossScore": 0.9998995568462142
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998900954581572,
+      "CrossScore": 0.9998900954581572
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 0.9998881110507115,
+      "CrossScore": 0.9998881110507115
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998803088961321,
+      "CrossScore": 0.9998803088961321
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998774832354504,
+      "CrossScore": 0.9998774832354504
+    },
+    {
+      "Question": "'दीमक' के लिए 'मटियार' मिट्टी?",
+      "Crop": "General",
+      "FinalScore": 0.9998764181968244,
+      "CrossScore": 0.9998764181968244
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998745985282732,
+      "CrossScore": 0.9998745985282732
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.99986458578323,
+      "CrossScore": 0.99986458578323
+    },
+    {
+      "Question": "धनिया की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998513881366078,
+      "CrossScore": 0.9998513881366078
+    }
+  ],
+  "latency_ms": 187.24,
+  "final_returned": [
+    {
+      "Question": "'दीमक' के लिए 'मटकी विधि'?",
+      "Crop": "General",
+      "Score": 0.9999038873200935
+    },
+    {
+      "Question": "'दीमक' के लिए 'बोरिक एसिड'?",
+      "Crop": "General",
+      "Score": 0.9998995568462142
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998900954581572
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 0.9998881110507115
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "Score": 0.9998803088961321
+    }
+  ]
+}

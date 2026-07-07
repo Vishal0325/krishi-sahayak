@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:18.811549",
+  "query_original": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+  "query_normalized": "सुपर सीडर super seeder और हैप्पी सीडर में क्या अंतर है",
+  "query_expanded": "सुपर सीडर super seeder और हैप्पी सीडर में क्या अंतर है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'हैप्पी सीडर' और 'सुपर सीडर' में मुख्य अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "चने की 'काबुली' और 'देशी' किस्म में क्या अंतर है?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 999.9009954125294,
+      "CrossScore": 0.9999009954125294
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998904978914773,
+      "CrossScore": 0.9998904978914773
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995884837367518,
+      "CrossScore": 0.9995884837367518
+    },
+    {
+      "Question": "'हैप्पी सीडर' और 'सुपर सीडर' में मुख्य अंतर?",
+      "Crop": "General",
+      "FinalScore": 0.9979110309809012,
+      "CrossScore": 0.9979110309809012
+    },
+    {
+      "Question": "प्रणालीगत (Systemic) और संपर्क (Contact) फफूंदनाशक in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9955116536813798,
+      "CrossScore": 0.9955116536813798
+    },
+    {
+      "Question": "सरसों की खेती में 'पीली' और 'काली' सरसों में क्या अंतर है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9948963261735595,
+      "CrossScore": 0.9948963261735595
+    },
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9912037788734357,
+      "CrossScore": 0.9912037788734357
+    },
+    {
+      "Question": "सब्जियों में 'अमीनो एसिड' और 'ह्यूमिक एसिड' का क्या लाभ है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9904768936633953,
+      "CrossScore": 0.9904768936633953
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9903017093856779,
+      "CrossScore": 0.9903017093856779
+    },
+    {
+      "Question": "शाही लीची और चाइना लीची में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9902461523197887,
+      "CrossScore": 0.9902461523197887
+    }
+  ],
+  "latency_ms": 257.14,
+  "final_returned": [
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 999.9009954125294
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "Score": 0.9998904978914773
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9995884837367518
+    },
+    {
+      "Question": "'हैप्पी सीडर' और 'सुपर सीडर' में मुख्य अंतर?",
+      "Crop": "General",
+      "Score": 0.9979110309809012
+    },
+    {
+      "Question": "प्रणालीगत (Systemic) और संपर्क (Contact) फफूंदनाशक in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9955116536813798
+    }
+  ]
+}

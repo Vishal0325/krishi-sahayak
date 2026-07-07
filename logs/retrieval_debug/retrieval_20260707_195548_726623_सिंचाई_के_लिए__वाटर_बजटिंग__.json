@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:48.583038",
+  "query_original": "सिंचाई के लिए 'वाटर बजटिंग'?",
+  "query_normalized": "सिंचाई के लिए वाटर बजटिंग",
+  "query_expanded": "सिंचाई के लिए वाटर बजटिंग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सिंचाई के लिए 'वाटर बजटिंग'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'सिंचाई' के लिए 'वाटर चैनल' (Water Channel) की सफाई?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का in 'सिंचाई' के लिए 'वाटर टैंक' (Water Tank)?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "सरसों in 'सिंचाई' के लिए 'वाटर चैनल'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सिंचाई के लिए 'वाटर बजटिंग'?",
+      "Crop": "General",
+      "FinalScore": 0.9998979955893363,
+      "CrossScore": 0.9998979955893363
+    },
+    {
+      "Question": "गेहूं की 'सिंचाई' के लिए स्प्रिंकलर (फुहारा) विधि?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998755302630797,
+      "CrossScore": 0.9998755302630797
+    },
+    {
+      "Question": "ब्राह्मी की खेती के लिए 'सिंचाई'?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998702589860659,
+      "CrossScore": 0.9998702589860659
+    },
+    {
+      "Question": "सरसों in 'सिंचाई' के लिए 'वाटर चैनल'?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998588442100486,
+      "CrossScore": 0.9998588442100486
+    },
+    {
+      "Question": "प्याज की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998570387102005,
+      "CrossScore": 0.9998570387102005
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava",
+      "FinalScore": 0.999855319423999,
+      "CrossScore": 0.999855319423999
+    },
+    {
+      "Question": "धनिया की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998531691143616,
+      "CrossScore": 0.9998531691143616
+    },
+    {
+      "Question": "मक्का में 'सिंचाई' के लिए 'वाटर चैनल' (Water Channel) की सफाई?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998451834958553,
+      "CrossScore": 0.9998451834958553
+    },
+    {
+      "Question": "भिंडी में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998449638267652,
+      "CrossScore": 0.9998449638267652
+    },
+    {
+      "Question": "बैंगन की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998384233892057,
+      "CrossScore": 0.9998384233892057
+    }
+  ],
+  "latency_ms": 143.67,
+  "final_returned": [
+    {
+      "Question": "सिंचाई के लिए 'वाटर बजटिंग'?",
+      "Crop": "General",
+      "Score": 0.9998979955893363
+    },
+    {
+      "Question": "गेहूं की 'सिंचाई' के लिए स्प्रिंकलर (फुहारा) विधि?",
+      "Crop": "Wheat",
+      "Score": 0.9998755302630797
+    },
+    {
+      "Question": "ब्राह्मी की खेती के लिए 'सिंचाई'?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998702589860659
+    },
+    {
+      "Question": "सरसों in 'सिंचाई' के लिए 'वाटर चैनल'?",
+      "Crop": "Mustard",
+      "Score": 0.9998588442100486
+    },
+    {
+      "Question": "प्याज की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Onion",
+      "Score": 0.9998570387102005
+    }
+  ]
+}

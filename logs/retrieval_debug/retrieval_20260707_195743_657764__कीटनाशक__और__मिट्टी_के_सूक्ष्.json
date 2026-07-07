@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:43.431632",
+  "query_original": "'कीटनाशक' और 'मिट्टी के सूक्ष्मजीव'?",
+  "query_normalized": "कीटनाशक और मिट्टी के सूक्ष्मजीव",
+  "query_expanded": "बग pest कीड़ा कीट insect कीटनाशक और मिट्टी के सूक्ष्मजीव",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटनाशक और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हरी खाद' और मिट्टी के सूक्ष्मजीव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी के केंचुए'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी के केंचुए'?",
+      "Crop": "General",
+      "FinalScore": 9.998879711946692,
+      "CrossScore": 0.9998879711946692
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.99865455466852,
+      "CrossScore": 0.999865455466852
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General",
+      "FinalScore": 9.998638746469183,
+      "CrossScore": 0.9998638746469184
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 9.998558495894137,
+      "CrossScore": 0.9998558495894138
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998452602400969,
+      "CrossScore": 0.9998452602400969
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 9.998290775175375,
+      "CrossScore": 0.9998290775175376
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998172598515865,
+      "CrossScore": 0.9998172598515864
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 9.998059149440765,
+      "CrossScore": 0.9998059149440766
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.997763752102477,
+      "CrossScore": 0.9997763752102478
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.997551299514079,
+      "CrossScore": 0.9997551299514078
+    }
+  ],
+  "latency_ms": 226.22,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी के केंचुए'?",
+      "Crop": "General",
+      "Score": 9.998879711946692
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 9.99865455466852
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General",
+      "Score": 9.998638746469183
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 9.998558495894137
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.998452602400969
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:48.327113",
+  "query_original": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+  "query_normalized": "जैव उर्वरक bio fertilizer के प्रयोग का सही समय",
+  "query_expanded": "poshak खाद जैव उर्वरक bio fertilizer के प्रयोग का सही समय पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'चूहा' नियंत्रण के लिए 'बाउमा' (Baiting) का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "आम के पौधे लगाने का सही समय?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "FinalScore": 999.8962449719023,
+      "CrossScore": 0.9998962449719023
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999869786031228,
+      "CrossScore": 0.999869786031228
+    },
+    {
+      "Question": "जैविक खेती में 'जैव-उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998485022629074,
+      "CrossScore": 0.9998485022629074
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9949030164277382,
+      "CrossScore": 0.9949030164277382
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9927267425406902,
+      "CrossScore": 0.9927267425406902
+    },
+    {
+      "Question": "जैव-उर्वरक का उपयोग?",
+      "Crop": "Rice",
+      "FinalScore": 0.9925671150818501,
+      "CrossScore": 0.9925671150818501
+    },
+    {
+      "Question": "'जैविक कीटनाशक' बनाने का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9911336578196402,
+      "CrossScore": 0.9911336578196402
+    },
+    {
+      "Question": "'पीएसबी' (PSB) जैव-उर्वरक का कार्य?",
+      "Crop": "General",
+      "FinalScore": 0.9879037859458029,
+      "CrossScore": 0.9879037859458029
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9850559750668749,
+      "CrossScore": 0.9850559750668749
+    },
+    {
+      "Question": "'चूहा' नियंत्रण के लिए 'बाउमा' (Baiting) का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9849045962310081,
+      "CrossScore": 0.9849045962310081
+    }
+  ],
+  "latency_ms": 217.66,
+  "final_returned": [
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "Score": 999.8962449719023
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "Score": 0.999869786031228
+    },
+    {
+      "Question": "जैविक खेती में 'जैव-उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998485022629074
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "Score": 0.9949030164277382
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9927267425406902
+    }
+  ]
+}

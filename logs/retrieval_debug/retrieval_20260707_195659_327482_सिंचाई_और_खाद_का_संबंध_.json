@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:59.148945",
+  "query_original": "सिंचाई और खाद का संबंध?",
+  "query_normalized": "सिंचाई और खाद का संबंध",
+  "query_expanded": "खाद सिंचाई और खाद का संबंध poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सिंचाई और खाद का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सिंचाई और खाद का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9999191190229866,
+      "CrossScore": 0.9999191190229866
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9999115689125683,
+      "CrossScore": 0.9999115689125683
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999027745123591,
+      "CrossScore": 0.9999027745123591
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998891542100473,
+      "CrossScore": 0.9998891542100473
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और उर्वरक दक्षता?",
+      "Crop": "General",
+      "FinalScore": 0.9998888673951914,
+      "CrossScore": 0.9998888673951914
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998886991956119,
+      "CrossScore": 0.9998886991956119
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998853569085798,
+      "CrossScore": 0.9998853569085798
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998791034468409,
+      "CrossScore": 0.9998791034468409
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998726129406633,
+      "CrossScore": 0.9998726129406633
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998688306911235,
+      "CrossScore": 0.9998688306911235
+    }
+  ],
+  "latency_ms": 178.61,
+  "final_returned": [
+    {
+      "Question": "सिंचाई और खाद का संबंध?",
+      "Crop": "General",
+      "Score": 0.9999191190229866
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9999115689125683
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9999027745123591
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "Score": 0.9998891542100473
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और उर्वरक दक्षता?",
+      "Crop": "General",
+      "Score": 0.9998888673951914
+    }
+  ]
+}

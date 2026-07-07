@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:44.987059",
+  "query_original": "'बीज उपचार' और किसान की बचत?",
+  "query_normalized": "बीज उपचार और किसान की बचत",
+  "query_expanded": "बीज उपचार और किसान की बचत",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उपचार' में कवकनाशी की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों में 'बीज उपचार' की दवा 'कार्बेन्डाजिम' की मात्रा?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "FinalScore": 999.880503790037,
+      "CrossScore": 0.999880503790037
+    },
+    {
+      "Question": "'बीज उपचार' और पर्यावरण?",
+      "Crop": "General",
+      "FinalScore": 0.9998942826095744,
+      "CrossScore": 0.9998942826095744
+    },
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998893917780269,
+      "CrossScore": 0.9998893917780269
+    },
+    {
+      "Question": "'बीज उपचार' में कवकनाशी की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9998821761136303,
+      "CrossScore": 0.9998821761136303
+    },
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "FinalScore": 0.9998794339688779,
+      "CrossScore": 0.9998794339688779
+    },
+    {
+      "Question": "'बीज उपचार' में 'कार्बेन्डाजिम' की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.999876932330728,
+      "CrossScore": 0.999876932330728
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General",
+      "FinalScore": 0.9998746825628548,
+      "CrossScore": 0.9998746825628548
+    },
+    {
+      "Question": "लीची की 'पारे' की गोली से बीज उपचार?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999873772531367,
+      "CrossScore": 0.999873772531367
+    },
+    {
+      "Question": "दलहनी फसलों में 'बीज उपचार' की दवा 'कार्बेन्डाजिम' की मात्रा?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998588458252112,
+      "CrossScore": 0.9998588458252112
+    },
+    {
+      "Question": "मटर (Pea) की खेती में बीज उपचार क्यों जरूरी है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998491558201551,
+      "CrossScore": 0.9998491558201551
+    }
+  ],
+  "latency_ms": 179.66,
+  "final_returned": [
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "Score": 999.880503790037
+    },
+    {
+      "Question": "'बीज उपचार' और पर्यावरण?",
+      "Crop": "General",
+      "Score": 0.9998942826095744
+    },
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General",
+      "Score": 0.9998893917780269
+    },
+    {
+      "Question": "'बीज उपचार' में कवकनाशी की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9998821761136303
+    },
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "Score": 0.9998794339688779
+    }
+  ]
+}

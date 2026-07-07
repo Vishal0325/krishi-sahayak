@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:57.718631",
+  "query_original": "'कीटनाशकों' के खाली पैकेट और 'नहर'?",
+  "query_normalized": "कीटनाशकों के खाली पैकेट और नहर",
+  "query_expanded": "pest कीटनाशकों के खाली पैकेट और नहर कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'नहर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पशु'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के पैकेट पर 'Batch No' और 'Expiry'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'नहर'?",
+      "Crop": "General",
+      "FinalScore": 9999.004599940097,
+      "CrossScore": 0.9999004599940097
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली डिब्बों और 'नदी'?",
+      "Crop": "General",
+      "FinalScore": 9.998894569408645,
+      "CrossScore": 0.9998894569408644
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेटों का निस्तारण?",
+      "Crop": "General",
+      "FinalScore": 9.998880121019502,
+      "CrossScore": 0.9998880121019502
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 9.998874794622198,
+      "CrossScore": 0.9998874794622198
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "FinalScore": 9.998787675104085,
+      "CrossScore": 0.9998787675104085
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 9.998650705473356,
+      "CrossScore": 0.9998650705473356
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.9985941187536,
+      "CrossScore": 0.99985941187536
+    },
+    {
+      "Question": "कीटनाशकों के पैकेट पर 'लाल' निशान क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998989668368387,
+      "CrossScore": 0.9998989668368387
+    },
+    {
+      "Question": "कीटनाशकों के खाली डिब्बों का सुरक्षित निपटान?",
+      "Crop": "General",
+      "FinalScore": 0.9998910077223176,
+      "CrossScore": 0.9998910077223176
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पशु'?",
+      "Crop": "General",
+      "FinalScore": 0.999889198594767,
+      "CrossScore": 0.999889198594767
+    }
+  ],
+  "latency_ms": 221.34,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'नहर'?",
+      "Crop": "General",
+      "Score": 9999.004599940097
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली डिब्बों और 'नदी'?",
+      "Crop": "General",
+      "Score": 9.998894569408645
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेटों का निस्तारण?",
+      "Crop": "General",
+      "Score": 9.998880121019502
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 9.998874794622198
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "Score": 9.998787675104085
+    }
+  ]
+}

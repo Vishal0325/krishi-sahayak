@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:48.406599",
+  "query_original": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+  "query_normalized": "टमाटर in उकठा wilt रोकने के लिए ट्राइकोडर्मा",
+  "query_expanded": "टमाटर in उकठा wilt रोकने के लिए ट्राइकोडर्मा",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'टमाटर' में 'बकआई रॉट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'नीम तेल'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "FinalScore": 49993.35553599404,
+      "CrossScore": 0.9998671107198808
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99052017796158,
+      "CrossScore": 0.9998104035592316
+    },
+    {
+      "Question": "टमाटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Tomato",
+      "FinalScore": 49.9832915830033,
+      "CrossScore": 0.999665831660066
+    },
+    {
+      "Question": "टमाटर के भंडारण के लिए क्या सावधानी रखें?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98259481105722,
+      "CrossScore": 0.9996518962211444
+    },
+    {
+      "Question": "टमाटर में 'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98231744496258,
+      "CrossScore": 0.9996463488992516
+    },
+    {
+      "Question": "टमाटर में 'फास्फोरस' के लिए 'सिंगल सुपर फास्फेट'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98143817953073,
+      "CrossScore": 0.9996287635906146
+    },
+    {
+      "Question": "'टमाटर' में 'बकआई रॉट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97938960679518,
+      "CrossScore": 0.9995877921359037
+    },
+    {
+      "Question": "टमाटर के दानों को 'चमकदार' बनाने के लिए पोटाश?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97860505351224,
+      "CrossScore": 0.9995721010702449
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97850370571788,
+      "CrossScore": 0.9995700741143575
+    },
+    {
+      "Question": "टमाटर में 'लाल रंग' के लिए जिम्मेदार तत्व?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97843210165553,
+      "CrossScore": 0.9995686420331106
+    }
+  ],
+  "latency_ms": 217.3,
+  "final_returned": [
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "Score": 49993.35553599404
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "Score": 49.99052017796158
+    },
+    {
+      "Question": "टमाटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Tomato",
+      "Score": 49.9832915830033
+    },
+    {
+      "Question": "टमाटर के भंडारण के लिए क्या सावधानी रखें?",
+      "Crop": "Tomato",
+      "Score": 49.98259481105722
+    },
+    {
+      "Question": "टमाटर में 'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप'?",
+      "Crop": "Tomato",
+      "Score": 49.98231744496258
+    }
+  ]
+}

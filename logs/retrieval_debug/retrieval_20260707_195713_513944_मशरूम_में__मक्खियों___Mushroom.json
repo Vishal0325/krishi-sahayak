@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:13.260856",
+  "query_original": "मशरूम में 'मक्खियों' (Mushroom Flies) का नियंत्रण?",
+  "query_normalized": "मशरूम में मक्खियों mushroom flies का नियंत्रण",
+  "query_expanded": "मशरूम में मक्खियों mushroom flies का नियंत्रण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम में 'मक्खियों' (Mushroom Flies) का नियंत्रण?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम में 'हरा फफूंद' (Green Mold) का उपचार?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का छिड़काव'?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम में 'मक्खियों' (Mushroom Flies) का नियंत्रण?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998687091857117,
+      "CrossScore": 0.9998687091857117
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997628662741277,
+      "CrossScore": 0.9997628662741277
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General",
+      "FinalScore": 0.9995457152554144,
+      "CrossScore": 0.9995457152554144
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.998977956545889,
+      "CrossScore": 0.998977956545889
+    },
+    {
+      "Question": "मशरूम की खेती का परिचय क्या है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9988426553292206,
+      "CrossScore": 0.9988426553292206
+    },
+    {
+      "Question": "'कैल्सियम कार्बोनेट' का मशरूम में उपयोग?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9985671782557555,
+      "CrossScore": 0.9985671782557555
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच पेपर' का उपयोग?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9983918184230606,
+      "CrossScore": 0.9983918184230606
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9983860338493324,
+      "CrossScore": 0.9983860338493324
+    },
+    {
+      "Question": "मशरूम की खेती में 'सफलता' का राज?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9982164730430952,
+      "CrossScore": 0.9982164730430952
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का टीडीएस' (TDS)?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9981598866753117,
+      "CrossScore": 0.9981598866753117
+    }
+  ],
+  "latency_ms": 253.34,
+  "final_returned": [
+    {
+      "Question": "मशरूम में 'मक्खियों' (Mushroom Flies) का नियंत्रण?",
+      "Crop": "Mushroom",
+      "Score": 0.9998687091857117
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "Score": 0.9997628662741277
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General",
+      "Score": 0.9995457152554144
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.998977956545889
+    },
+    {
+      "Question": "मशरूम की खेती का परिचय क्या है?",
+      "Crop": "Mushroom",
+      "Score": 0.9988426553292206
+    }
+  ]
+}

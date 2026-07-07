@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:54.898859",
+  "query_original": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+  "query_normalized": "इमामेक्टिन बेंजोएट emamectin benzoate किसके लिए है",
+  "query_expanded": "इमामेक्टिन बेंजोएट emamectin benzoate किसके लिए है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General",
+      "FinalScore": 999.8962423994764,
+      "CrossScore": 0.9998962423994764
+    },
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9994713064864741,
+      "CrossScore": 0.9994713064864741
+    },
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.999414513070803,
+      "CrossScore": 0.999414513070803
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9993568583147622,
+      "CrossScore": 0.9993568583147622
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999016253113373,
+      "CrossScore": 0.999016253113373
+    },
+    {
+      "Question": "धान के लिए सबसे अच्छी मिट्टी कौन सी है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9990073022302781,
+      "CrossScore": 0.9990073022302781
+    },
+    {
+      "Question": "मक्का के लिए कैसी मिट्टी सबसे अच्छी होती है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9986789304683944,
+      "CrossScore": 0.9986789304683944
+    },
+    {
+      "Question": "लहसुन में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9984757652434114,
+      "CrossScore": 0.9984757652434114
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9981060685700301,
+      "CrossScore": 0.9981060685700301
+    },
+    {
+      "Question": "मक्का की 'शक्तिमान-1' किस्म किस राज्य के लिए अनुशंसित है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9980633827152162,
+      "CrossScore": 0.9980633827152162
+    }
+  ],
+  "latency_ms": 226.79,
+  "final_returned": [
+    {
+      "Question": "इमामेक्टिन बेंजोएट (Emamectin Benzoate) किसके लिए है?",
+      "Crop": "General",
+      "Score": 999.8962423994764
+    },
+    {
+      "Question": "मेटारिज़ियम (Metarhizium anisopliae) किसके लिए उपयोगी है?",
+      "Crop": "General",
+      "Score": 0.9994713064864741
+    },
+    {
+      "Question": "वर्टिसिलियम लेकानी (Verticillium lecani) किसके लिए है?",
+      "Crop": "General",
+      "Score": 0.999414513070803
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9993568583147622
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.999016253113373
+    }
+  ]
+}

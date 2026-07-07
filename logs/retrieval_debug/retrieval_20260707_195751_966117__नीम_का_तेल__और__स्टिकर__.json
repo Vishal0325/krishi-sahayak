@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:51.784078",
+  "query_original": "'नीम का तेल' और 'स्टिकर'?",
+  "query_normalized": "नीम का तेल और स्टिकर",
+  "query_expanded": "नीम का तेल और स्टिकर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और पर्यावरण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'फल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "FinalScore": 0.9999203035860792,
+      "CrossScore": 0.9999203035860792
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9999157096458707,
+      "CrossScore": 0.9999157096458707
+    },
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General",
+      "FinalScore": 0.999913172680897,
+      "CrossScore": 0.999913172680897
+    },
+    {
+      "Question": "'नीम का काढ़ा' कैसे तैयार करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999047880391778,
+      "CrossScore": 0.9999047880391778
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General",
+      "FinalScore": 0.9999045790781451,
+      "CrossScore": 0.9999045790781451
+    },
+    {
+      "Question": "'नीम का तेल' और पर्यावरण?",
+      "Crop": "General",
+      "FinalScore": 0.9999010839283804,
+      "CrossScore": 0.9999010839283804
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999002227932975,
+      "CrossScore": 0.9999002227932975
+    },
+    {
+      "Question": "'भिंडी' में फल छेदक के लिए 'नीम का तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998975009480503,
+      "CrossScore": 0.9998975009480503
+    },
+    {
+      "Question": "'नीम का तेल' स्प्रे करते समय साबुन?",
+      "Crop": "General",
+      "FinalScore": 0.999895237971624,
+      "CrossScore": 0.999895237971624
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.9998916346996595,
+      "CrossScore": 0.9998916346996595
+    }
+  ],
+  "latency_ms": 182.14,
+  "final_returned": [
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "Score": 0.9999203035860792
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "Score": 0.9999157096458707
+    },
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General",
+      "Score": 0.999913172680897
+    },
+    {
+      "Question": "'नीम का काढ़ा' कैसे तैयार करें?",
+      "Crop": "General",
+      "Score": 0.9999047880391778
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General",
+      "Score": 0.9999045790781451
+    }
+  ]
+}

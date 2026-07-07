@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-07-07T19:56:50.901892",
+  "query_original": "DAP",
+  "query_normalized": "dap",
+  "query_expanded": "dap phosphorus फॉस्फोरस डीएपी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "दलहनी फसलों में 'फास्फोरस' के लिए डीएपी (DAP) या एसएसपी (SSP)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में 'फास्फोरस' के लिए 'डीएपी' क्यों लोकप्रिय है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गेहूं में 'फास्फोरस' को डीएपी के रूप में देने के लाभ?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9993697670582743,
+      "CrossScore": 0.9993697670582743
+    },
+    {
+      "Question": "दलहनी फसलों में 'फास्फोरस' के लिए डीएपी (DAP) या एसएसपी (SSP)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9984134646769767,
+      "CrossScore": 0.9984134646769767
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9894295363152745,
+      "CrossScore": 0.9894295363152745
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.0009641102749043407,
+      "CrossScore": 0.0009641102749043407
+    },
+    {
+      "Question": "जिंक का प्रयोग यूरिया के साथ करना चाहिए या डीएपी के साथ?",
+      "Crop": "General",
+      "FinalScore": 4.031895513607882e-05,
+      "CrossScore": 4.031895513607882e-05
+    },
+    {
+      "Question": "जैविक खेती में 'फॉस्फोरस' की पूर्ति?",
+      "Crop": "Organic Farming",
+      "FinalScore": 3.0767087136740706e-05,
+      "CrossScore": 3.0767087136740706e-05
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए 'बीज उपचार' सबसे सस्ता तरीका है?",
+      "Crop": "Wheat",
+      "FinalScore": 2.5963297263526256e-05,
+      "CrossScore": 2.5963297263526256e-05
+    },
+    {
+      "Question": "गन्ने में 'फास्फोरस' के लिए 'डीएपी' क्यों लोकप्रिय है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 2.5099775107044397e-05,
+      "CrossScore": 2.5099775107044397e-05
+    },
+    {
+      "Question": "आलू में 'फास्फोरस' को डीएपी के रूप में देने के लाभ?",
+      "Crop": "Potato",
+      "FinalScore": 2.5052999128004005e-05,
+      "CrossScore": 2.5052999128004005e-05
+    },
+    {
+      "Question": "गिलोय (Giloy) की खेती?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 2.4416503609955036e-05,
+      "CrossScore": 2.4416503609955036e-05
+    }
+  ],
+  "latency_ms": 418.55,
+  "final_returned": [
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "Score": 0.9993697670582743
+    },
+    {
+      "Question": "दलहनी फसलों में 'फास्फोरस' के लिए डीएपी (DAP) या एसएसपी (SSP)?",
+      "Crop": "Pulses",
+      "Score": 0.9984134646769767
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9894295363152745
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:57:01.093728",
+  "query_original": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+  "query_normalized": "टमाटर का लीफ कर्ल leaf curl रोग क्या है",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा रोग टमाटर का लीफ कर्ल leaf curl रोग क्या है",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीफ कर्ल वायरस का नियंत्रण?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'मिर्च' में 'मरोड़िया' रोग (Leaf Curl) और 'पोटाश'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 499.9475733123495,
+      "CrossScore": 0.999895146624699
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 499.6433620896826,
+      "CrossScore": 0.9992867241793653
+    },
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato",
+      "FinalScore": 499.46644368461466,
+      "CrossScore": 0.9989328873692294
+    },
+    {
+      "Question": "लीफ कर्ल वायरस का नियंत्रण?",
+      "Crop": "Tomato",
+      "FinalScore": 49.946410856636774,
+      "CrossScore": 0.9989282171327355
+    },
+    {
+      "Question": "टमाटर में 'लीफ माइनर' कीट की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.92954691835224,
+      "CrossScore": 0.9985909383670447
+    },
+    {
+      "Question": "पौधों in 'धुआं' (Sooty Mold) रोग क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99463743290592,
+      "CrossScore": 0.999463743290592
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.992923630659357,
+      "CrossScore": 0.9992923630659357
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.992696588359824,
+      "CrossScore": 0.9992696588359824
+    },
+    {
+      "Question": "'सब्जियों' में 'लीफ कर्ल' वायरस?",
+      "Crop": "General",
+      "FinalScore": 9.989292754250991,
+      "CrossScore": 0.9989292754250991
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.98716160294931,
+      "CrossScore": 0.998716160294931
+    }
+  ],
+  "latency_ms": 563.38,
+  "final_returned": [
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "Score": 499.9475733123495
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "Score": 499.6433620896826
+    },
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato",
+      "Score": 499.46644368461466
+    },
+    {
+      "Question": "लीफ कर्ल वायरस का नियंत्रण?",
+      "Crop": "Tomato",
+      "Score": 49.946410856636774
+    },
+    {
+      "Question": "टमाटर में 'लीफ माइनर' कीट की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.92954691835224
+    }
+  ]
+}

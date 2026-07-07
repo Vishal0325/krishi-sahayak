@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:49.573486",
+  "query_original": "तटीय क्षेत्रों में चक्रवात (Cyclone) से खेती का बचाव कैसे करें?",
+  "query_normalized": "तटीय क्षेत्रों में चक्रवात cyclone से खेती का बचाव कैसे करें",
+  "query_expanded": "तटीय क्षेत्रों में चक्रवात cyclone से खेती का बचाव कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "तटीय क्षेत्रों में चक्रवात (Cyclone) से खेती का बचाव कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गेहूं में दीमक का नियंत्रण कैसे करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "खेती में 'मजदूरी' (Labor Cost) को कैसे नियंत्रित करें?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "तटीय क्षेत्रों में चक्रवात (Cyclone) से खेती का बचाव कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998488086362588,
+      "CrossScore": 0.9998488086362588
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.998895520242136,
+      "CrossScore": 0.998895520242136
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9988808419131908,
+      "CrossScore": 0.9988808419131908
+    },
+    {
+      "Question": "खीरा वर्गीय फसलों (Cucurbits) में 'फल मक्खी' का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9986033842235295,
+      "CrossScore": 0.9986033842235295
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9985649155178539,
+      "CrossScore": 0.9985649155178539
+    },
+    {
+      "Question": "खेती में जोखिम (Risk) को कैसे कम करें?",
+      "Crop": "General",
+      "FinalScore": 0.9985299419734021,
+      "CrossScore": 0.9985299419734021
+    },
+    {
+      "Question": "पत्तागोभी (Cabbage) में 'डायमंड बैक मोथ' (DBM) का नियंत्रण कैसे करें?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9984479866794383,
+      "CrossScore": 0.9984479866794383
+    },
+    {
+      "Question": "करनाल बंट का बचाव कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9984057515861475,
+      "CrossScore": 0.9984057515861475
+    },
+    {
+      "Question": "अमरूद के बाग में 'उकठा' (Wilt) से बचाव का जैविक तरीका?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9982314664920275,
+      "CrossScore": 0.9982314664920275
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.998175498247393,
+      "CrossScore": 0.998175498247393
+    }
+  ],
+  "latency_ms": 216.98,
+  "final_returned": [
+    {
+      "Question": "तटीय क्षेत्रों में चक्रवात (Cyclone) से खेती का बचाव कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9998488086362588
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "Score": 0.998895520242136
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "Score": 0.9988808419131908
+    },
+    {
+      "Question": "खीरा वर्गीय फसलों (Cucurbits) में 'फल मक्खी' का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "Score": 0.9986033842235295
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "Score": 0.9985649155178539
+    }
+  ]
+}

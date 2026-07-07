@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:06.711179",
+  "query_original": "मिट्टी की कढोर परत (Hard Pan) को कैसे तोड़ें?",
+  "query_normalized": "मिट्टी की कढोर परत hard pan को कैसे तोड़ें",
+  "query_expanded": "मिट्टी की कढोर परत hard pan को कैसे तोड़ें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की कढोर परत (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद अवशेषों को मिट्टी में कैसे मिलाएं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "आलू की खुदाई के बाद 'मिट्टी' को कैसे साफ करें?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "FinalScore": 0.9999207841133188,
+      "CrossScore": 0.9999207841133188
+    },
+    {
+      "Question": "मिट्टी की कढोर परत (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "FinalScore": 0.9999085898968184,
+      "CrossScore": 0.9999085898968184
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9997851382888437,
+      "CrossScore": 0.9997851382888437
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "FinalScore": 0.9997709303027192,
+      "CrossScore": 0.9997709303027192
+    },
+    {
+      "Question": "मिट्टी में 'लोहे' (Iron) की उपलब्धता कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9997703227616688,
+      "CrossScore": 0.9997703227616688
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "FinalScore": 0.9997545809180731,
+      "CrossScore": 0.9997545809180731
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9996911370514051,
+      "CrossScore": 0.9996911370514051
+    },
+    {
+      "Question": "मिट्टी की लवणता (Salinity) कैसे कम करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996610317086542,
+      "CrossScore": 0.9996610317086542
+    },
+    {
+      "Question": "मिट्टी में गंधक (Sulphur) की कमी कैसे पहचानें?",
+      "Crop": "General",
+      "FinalScore": 0.999657443765011,
+      "CrossScore": 0.999657443765011
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद अवशेषों को मिट्टी में कैसे मिलाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996457631246932,
+      "CrossScore": 0.9996457631246932
+    }
+  ],
+  "latency_ms": 222.74,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "Score": 0.9999207841133188
+    },
+    {
+      "Question": "मिट्टी की कढोर परत (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "Score": 0.9999085898968184
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9997851382888437
+    },
+    {
+      "Question": "मिट्टी की कठोर परत तोड़ने के लिए कौन सा यंत्र?",
+      "Crop": "General",
+      "Score": 0.9997709303027192
+    },
+    {
+      "Question": "मिट्टी में 'लोहे' (Iron) की उपलब्धता कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9997703227616688
+    }
+  ]
+}

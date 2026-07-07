@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:21.437032",
+  "query_original": "'प्रेस मड' (Press Mud) खाद क्या है?",
+  "query_normalized": "प्रेस मड press mud खाद क्या है",
+  "query_expanded": "poshak प्रेस मड press mud खाद क्या है खाद पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रेस मड' (Press Mud) खाद क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रेस मड' (Press Mud) खाद क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9234256562387,
+      "CrossScore": 0.9999234256562387
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999046634811875,
+      "CrossScore": 0.9999046634811875
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "FinalScore": 0.9996485563760407,
+      "CrossScore": 0.9996485563760407
+    },
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994882569774795,
+      "CrossScore": 0.9994882569774795
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994833565423299,
+      "CrossScore": 0.9994833565423299
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994741558433179,
+      "CrossScore": 0.9994741558433179
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9994683824152246,
+      "CrossScore": 0.9994683824152246
+    },
+    {
+      "Question": "क्या 'राख' (Ash) खाद का काम करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9994640427350419,
+      "CrossScore": 0.9994640427350419
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General",
+      "FinalScore": 0.9993932888287897,
+      "CrossScore": 0.9993932888287897
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9993629878913717,
+      "CrossScore": 0.9993629878913717
+    }
+  ],
+  "latency_ms": 193.19,
+  "final_returned": [
+    {
+      "Question": "'प्रेस मड' (Press Mud) खाद क्या है?",
+      "Crop": "General",
+      "Score": 999.9234256562387
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999046634811875
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "Score": 0.9996485563760407
+    },
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "Score": 0.9994882569774795
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "Score": 0.9994833565423299
+    }
+  ]
+}

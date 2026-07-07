@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:29.725320",
+  "query_original": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+  "query_normalized": "मिट्टी में ह्यूमस humus का महत्व",
+  "query_expanded": "मिट्टी में ह्यूमस humus का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'मिट्टी का रंग' महत्व?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 999.9074169187901,
+      "CrossScore": 0.99990741691879
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998024726808306,
+      "CrossScore": 0.9998024726808306
+    },
+    {
+      "Question": "मिट्टी में 'कैल्शियम' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9997922983922416,
+      "CrossScore": 0.9997922983922416
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997916567486821,
+      "CrossScore": 0.9997916567486821
+    },
+    {
+      "Question": "ट्रैक्टर में 'एयर क्लीनर' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9997731870621642,
+      "CrossScore": 0.9997731870621642
+    },
+    {
+      "Question": "धनिया में पोटाश का क्या महत्व है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997682716053511,
+      "CrossScore": 0.9997682716053511
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997592958595936,
+      "CrossScore": 0.9997592958595936
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997553789362903,
+      "CrossScore": 0.9997553789362903
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9997468081443244,
+      "CrossScore": 0.9997468081443244
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997368738421616,
+      "CrossScore": 0.9997368738421616
+    }
+  ],
+  "latency_ms": 198.65,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+      "Crop": "General",
+      "Score": 999.9074169187901
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998024726808306
+    },
+    {
+      "Question": "मिट्टी में 'कैल्शियम' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9997922983922416
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.9997916567486821
+    },
+    {
+      "Question": "ट्रैक्टर में 'एयर क्लीनर' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9997731870621642
+    }
+  ]
+}

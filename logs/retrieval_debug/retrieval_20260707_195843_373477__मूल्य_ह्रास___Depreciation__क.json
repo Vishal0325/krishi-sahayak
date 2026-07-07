@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:43.157443",
+  "query_original": "'मूल्य ह्रास' (Depreciation) का हिसाब?",
+  "query_normalized": "मूल्य ह्रास depreciation का हिसाब",
+  "query_expanded": "मूल्य ह्रास depreciation का हिसाब",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मूल्य ह्रास' (Depreciation) का हिसाब?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'गुणवत्ता प्रमाणन' (Certification) का आर्थिक मूल्य?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'यूरिया' की मात्रा का सही हिसाब?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का में 'यूरिया' की मात्रा का सही हिसाब कैसे लगाएं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मूल्य ह्रास' (Depreciation) का हिसाब?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999079639932784,
+      "CrossScore": 0.9999079639932784
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9992535343804703,
+      "CrossScore": 0.9992535343804703
+    },
+    {
+      "Question": "मक्का में 'यूरिया' की मात्रा का सही हिसाब कैसे लगाएं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9989971976595114,
+      "CrossScore": 0.9989971976595114
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9989679449761522,
+      "CrossScore": 0.9989679449761522
+    },
+    {
+      "Question": "'मांग और आपूर्ति' (Demand and Supply) का नियम?",
+      "Crop": "Economics",
+      "FinalScore": 0.9989024583590324,
+      "CrossScore": 0.9989024583590324
+    },
+    {
+      "Question": "'बाजार मूल्य' (Market Price) और 'एमएसपी' (MSP) में अंतर?",
+      "Crop": "Economics",
+      "FinalScore": 0.998858354416458,
+      "CrossScore": 0.998858354416458
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9988149002124814,
+      "CrossScore": 0.9988149002124814
+    },
+    {
+      "Question": "'गुणवत्ता प्रमाणन' (Certification) का आर्थिक मूल्य?",
+      "Crop": "Economics",
+      "FinalScore": 0.9988005367138626,
+      "CrossScore": 0.9988005367138626
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' में किन बातों का ध्यान रखें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9987285748937089,
+      "CrossScore": 0.9987285748937089
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.998705534569072,
+      "CrossScore": 0.998705534569072
+    }
+  ],
+  "latency_ms": 216.19,
+  "final_returned": [
+    {
+      "Question": "'मूल्य ह्रास' (Depreciation) का हिसाब?",
+      "Crop": "Economics",
+      "Score": 0.9999079639932784
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9992535343804703
+    },
+    {
+      "Question": "मक्का में 'यूरिया' की मात्रा का सही हिसाब कैसे लगाएं?",
+      "Crop": "Maize",
+      "Score": 0.9989971976595114
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9989679449761522
+    },
+    {
+      "Question": "'मांग और आपूर्ति' (Demand and Supply) का नियम?",
+      "Crop": "Economics",
+      "Score": 0.9989024583590324
+    }
+  ]
+}

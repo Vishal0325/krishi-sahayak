@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:36.735889",
+  "query_original": "समुद्र तल से ऊँचाई (Altitude) और मौसम?",
+  "query_normalized": "समुद्र तल से ऊँचाई altitude और मौसम",
+  "query_expanded": "समुद्र तल से ऊँचाई altitude और मौसम",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "समुद्र तल से ऊँचाई (Altitude) और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "समुद्र तल से ऊँचाई (Altitude) और मौसम?",
+      "Crop": "General",
+      "FinalScore": 0.9999005520231644,
+      "CrossScore": 0.9999005520231644
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 0.999526441443263,
+      "CrossScore": 0.999526441443263
+    },
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9989560104760218,
+      "CrossScore": 0.9989560104760218
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9989550617073198,
+      "CrossScore": 0.9989550617073198
+    },
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9988589371759323,
+      "CrossScore": 0.9988589371759323
+    },
+    {
+      "Question": "बादलों के प्रकार और मौसम का अनुमान?",
+      "Crop": "General",
+      "FinalScore": 0.9986532478222668,
+      "CrossScore": 0.9986532478222668
+    },
+    {
+      "Question": "भिंडी की 'कोमल' और 'सख्त' फलियों में अंतर?",
+      "Crop": "Okra",
+      "FinalScore": 0.9986154566115693,
+      "CrossScore": 0.9986154566115693
+    },
+    {
+      "Question": "मौसम और उर्वरक की 'लीचिंग'?",
+      "Crop": "General",
+      "FinalScore": 0.9985502413020692,
+      "CrossScore": 0.9985502413020692
+    },
+    {
+      "Question": "मौसम और 'मत्स्य पालन'?",
+      "Crop": "General",
+      "FinalScore": 0.9983839594926027,
+      "CrossScore": 0.9983839594926027
+    },
+    {
+      "Question": "मौसम और 'कृषि वानिकी' (Agro-forestry)?",
+      "Crop": "General",
+      "FinalScore": 0.9982915593526667,
+      "CrossScore": 0.9982915593526667
+    }
+  ],
+  "latency_ms": 155.33,
+  "final_returned": [
+    {
+      "Question": "समुद्र तल से ऊँचाई (Altitude) और मौसम?",
+      "Crop": "General",
+      "Score": 0.9999005520231644
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "Score": 0.999526441443263
+    },
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard",
+      "Score": 0.9989560104760218
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "Score": 0.9989550617073198
+    },
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General",
+      "Score": 0.9988589371759323
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:00.941022",
+  "query_original": "क्या ठंडी हवाएं पौधों को सुखा सकती हैं?",
+  "query_normalized": "क्या ठंडी हवाएं पौधों को सुखा सकती हैं",
+  "query_expanded": "क्या ठंडी हवाएं पौधों को सुखा सकती हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या ठंडी हवाएं पौधों को सुखा सकती हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को 'कीट' नुकसान पहुँचाते हैं?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या अधिक पानी देने से पौधों in बीमारियां बढ़ सकती हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पशुओं को 'मानव दवाएं' दी जा सकती हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को जंगली जानवरों से खतरा है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या ठंडी हवाएं पौधों को सुखा सकती हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9196628661912,
+      "CrossScore": 0.9999196628661912
+    },
+    {
+      "Question": "क्या औषधीय पौधों के अवशेषों से 'अगरबत्ती' बनाई जा सकती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999312699712999,
+      "CrossScore": 0.9999312699712999
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999242075663229,
+      "CrossScore": 0.9999242075663229
+    },
+    {
+      "Question": "क्या पौधों को 'सनबर्न' (Sunburn) हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999230278282124,
+      "CrossScore": 0.9999230278282124
+    },
+    {
+      "Question": "क्या औषधीय पौधों को जंगली जानवरों से खतरा है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999219835830222,
+      "CrossScore": 0.9999219835830222
+    },
+    {
+      "Question": "क्या अधिक पानी देने से पौधों in बीमारियां बढ़ सकती हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999921227948078,
+      "CrossScore": 0.999921227948078
+    },
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999212021787451,
+      "CrossScore": 0.9999212021787451
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'हर्बल' चाय के लिए की जा सकती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999194672747687,
+      "CrossScore": 0.9999194672747687
+    },
+    {
+      "Question": "क्या पशुओं को 'मानव दवाएं' दी जा सकती हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999187436216028,
+      "CrossScore": 0.9999187436216028
+    },
+    {
+      "Question": "क्या किचन गार्डन (Kitchen Garden) से घर की जरूरतें पूरी हो सकती हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9999161716782613,
+      "CrossScore": 0.9999161716782613
+    }
+  ],
+  "latency_ms": 197.68,
+  "final_returned": [
+    {
+      "Question": "क्या ठंडी हवाएं पौधों को सुखा सकती हैं?",
+      "Crop": "General",
+      "Score": 999.9196628661912
+    },
+    {
+      "Question": "क्या औषधीय पौधों के अवशेषों से 'अगरबत्ती' बनाई जा सकती है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999312699712999
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9999242075663229
+    },
+    {
+      "Question": "क्या पौधों को 'सनबर्न' (Sunburn) हो सकता है?",
+      "Crop": "General",
+      "Score": 0.9999230278282124
+    },
+    {
+      "Question": "क्या औषधीय पौधों को जंगली जानवरों से खतरा है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999219835830222
+    }
+  ]
+}

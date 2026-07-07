@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:51.658714",
+  "query_original": "ओलावृष्टि (Hailstorm) से फसल को नुकसान होने पर क्या करें?",
+  "query_normalized": "ओलावृष्टि hailstorm से फसल को नुकसान होने पर क्या करें",
+  "query_expanded": "ओलावृष्टि hailstorm से फसल को नुकसान होने पर क्या करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ओलावृष्टि (Hailstorm) से फसल को नुकसान होने पर क्या करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक से फसल को नुकसान हो सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पाले' (Frost) की चेतावनी होने पर क्या करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के समय आसमान में बादल होने पर क्या करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ओलावृष्टि (Hailstorm) से फसल को नुकसान होने पर क्या करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998931066289615,
+      "CrossScore": 0.9998931066289615
+    },
+    {
+      "Question": "'ओलावृष्टि' (Hailstorm) के बाद फसल की देखभाल?",
+      "Crop": "General",
+      "FinalScore": 0.9998531842344778,
+      "CrossScore": 0.9998531842344778
+    },
+    {
+      "Question": "क्या कीटनाशकों से फसल की पैदावार बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.998707819582817,
+      "CrossScore": 0.998707819582817
+    },
+    {
+      "Question": "गेहूं की फसल को पाले (Frost) से कैसे बचाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9985869473130203,
+      "CrossScore": 0.9985869473130203
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9985096129035221,
+      "CrossScore": 0.9985096129035221
+    },
+    {
+      "Question": "गेहूं की उपज बढ़ाने के लिए क्या करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9984749043158664,
+      "CrossScore": 0.9984749043158664
+    },
+    {
+      "Question": "कटे हुए आलू को बोने से पहले क्या करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9984366863060996,
+      "CrossScore": 0.9984366863060996
+    },
+    {
+      "Question": "सरसों के दानों को 'चितकबरा' होने से कैसे बचाएं?",
+      "Crop": "Mustard",
+      "FinalScore": 0.99836123665377,
+      "CrossScore": 0.99836123665377
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक से फसल को नुकसान हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9983214859180529,
+      "CrossScore": 0.9983214859180529
+    },
+    {
+      "Question": "'बीज दर' कम होने से नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.9981105045080567,
+      "CrossScore": 0.9981105045080567
+    }
+  ],
+  "latency_ms": 197.15,
+  "final_returned": [
+    {
+      "Question": "ओलावृष्टि (Hailstorm) से फसल को नुकसान होने पर क्या करें?",
+      "Crop": "General",
+      "Score": 0.9998931066289615
+    },
+    {
+      "Question": "'ओलावृष्टि' (Hailstorm) के बाद फसल की देखभाल?",
+      "Crop": "General",
+      "Score": 0.9998531842344778
+    },
+    {
+      "Question": "क्या कीटनाशकों से फसल की पैदावार बढ़ती है?",
+      "Crop": "General",
+      "Score": 0.998707819582817
+    },
+    {
+      "Question": "गेहूं की फसल को पाले (Frost) से कैसे बचाएं?",
+      "Crop": "Wheat",
+      "Score": 0.9985869473130203
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "Score": 0.9985096129035221
+    }
+  ]
+}

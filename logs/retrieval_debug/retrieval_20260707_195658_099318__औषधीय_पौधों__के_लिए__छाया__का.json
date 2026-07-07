@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:57.893769",
+  "query_original": "'औषधीय पौधों' के लिए 'छाया' का महत्व?",
+  "query_normalized": "औषधीय पौधों के लिए छाया का महत्व",
+  "query_expanded": "औषधीय पौधों के लिए छाया का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'औषधीय पौधों' के लिए 'छाया' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "औषधीय पौधों की खेती के लिए 'सीमैप' (CIMAP) का योगदान?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999059819491092,
+      "CrossScore": 0.9999059819491092
+    },
+    {
+      "Question": "औषधीय पौधों की खेती के लिए 'सीमैप' (CIMAP) का योगदान?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999044567978832,
+      "CrossScore": 0.9999044567978832
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रोसेसिंग' के लिए छोटी इकाई?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998995798308885,
+      "CrossScore": 0.9998995798308885
+    },
+    {
+      "Question": "'मोबाइल ऐप्स' का किसानों के लिए महत्व?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998909925472176,
+      "CrossScore": 0.9998909925472176
+    },
+    {
+      "Question": "'औषधीय पौधों' के लिए 'छाया' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998906562832169,
+      "CrossScore": 0.9998906562832169
+    },
+    {
+      "Question": "औषधीय पौधों की सफल खेती के लिए अंतिम सुझाव?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998806101690202,
+      "CrossScore": 0.9998806101690202
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998798221606056,
+      "CrossScore": 0.9998798221606056
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998791546212159,
+      "CrossScore": 0.9998791546212159
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998782231926616,
+      "CrossScore": 0.9998782231926616
+    },
+    {
+      "Question": "किसानों के लिए औषधीय खेती का भविष्य?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998776799305269,
+      "CrossScore": 0.9998776799305269
+    }
+  ],
+  "latency_ms": 205.67,
+  "final_returned": [
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999059819491092
+    },
+    {
+      "Question": "औषधीय पौधों की खेती के लिए 'सीमैप' (CIMAP) का योगदान?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999044567978832
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रोसेसिंग' के लिए छोटी इकाई?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998995798308885
+    },
+    {
+      "Question": "'मोबाइल ऐप्स' का किसानों के लिए महत्व?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998909925472176
+    },
+    {
+      "Question": "'औषधीय पौधों' के लिए 'छाया' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998906562832169
+    }
+  ]
+}

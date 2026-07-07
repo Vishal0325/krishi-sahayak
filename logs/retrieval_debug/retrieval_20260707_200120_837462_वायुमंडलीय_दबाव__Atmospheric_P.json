@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:20.619171",
+  "query_original": "वायुमंडलीय दबाव (Atmospheric Pressure) का मौसम पर प्रभाव?",
+  "query_normalized": "वायुमंडलीय दबाव atmospheric pressure का मौसम पर प्रभाव",
+  "query_expanded": "वायुमंडलीय दबाव atmospheric pressure का मौसम पर प्रभाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वायुमंडलीय दबाव (Atmospheric Pressure) का मौसम पर प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री उज्ज्वला योजना का कृषि पर प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वायुमंडलीय दबाव (Atmospheric Pressure) का मौसम पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 999.8586823309355,
+      "CrossScore": 0.9998586823309354
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9960094942392822,
+      "CrossScore": 0.9960094942392822
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9953835089457852,
+      "CrossScore": 0.9953835089457852
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9948688764777894,
+      "CrossScore": 0.9948688764777894
+    },
+    {
+      "Question": "प्रधानमंत्री उज्ज्वला योजना का कृषि पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9940942384809356,
+      "CrossScore": 0.9940942384809356
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9930479666691859,
+      "CrossScore": 0.9930479666691859
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9928895743837765,
+      "CrossScore": 0.9928895743837765
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.992577717650854,
+      "CrossScore": 0.992577717650854
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9900752690828873,
+      "CrossScore": 0.9900752690828873
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 0.9893272831813469,
+      "CrossScore": 0.9893272831813469
+    }
+  ],
+  "latency_ms": 218.33,
+  "final_returned": [
+    {
+      "Question": "वायुमंडलीय दबाव (Atmospheric Pressure) का मौसम पर प्रभाव?",
+      "Crop": "General",
+      "Score": 999.8586823309355
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9960094942392822
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9953835089457852
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9948688764777894
+    },
+    {
+      "Question": "प्रधानमंत्री उज्ज्वला योजना का कृषि पर प्रभाव?",
+      "Crop": "General",
+      "Score": 0.9940942384809356
+    }
+  ]
+}

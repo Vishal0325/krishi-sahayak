@@ -1,0 +1,12 @@
+File,Row,Snippet,Issue,Severity,ConflictsWith
+business.csv,23,मार्केट इंटेलिजेंस (Market Int,Duplicate Question,High,agri_economics.csv
+disease.csv,104,आलू के 'अगेती झुलसा' का कवक?,Duplicate Question,High,crop_safety_2.csv
+disease_advanced.csv,61,'धान' के शीथ ब्लाइट के लिए 'वै,Duplicate Question,High,disease.csv
+disease_advanced.csv,80,'धान' के शीथ ब्लाइट का 'कवक'?,Duplicate Question,High,disease.csv
+herbicides.csv,30,छिड़काव के समय 'हवा की दिशा'?,Duplicate Question,High,fungicides.csv
+insecticides.csv,42,कीटनाशक और 'मिट्टी के सूक्ष्मज,Duplicate Question,High,crop_safety_2.csv
+miscellaneous.csv,48,'कृषि स्टार्टअप' (Agri Startup,Duplicate Question,High,business.csv
+pest.csv,30,'मित्र कीट' (Beneficial Insect,Duplicate Question,High,bio_control.csv
+pest.csv,31,'ट्राइको-कार्ड' (Tricho-card) ,Duplicate Question,High,bio_control.csv
+soil.csv,15,मिट्टी की जल धारण क्षमता (Wate,Duplicate Question,High,irrigation.csv
+weather.csv,73,पराबैंगनी किरणों (UV Rays) का ,Duplicate Question,High,agri_miscellaneous_2.csv

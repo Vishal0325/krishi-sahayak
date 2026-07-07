@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:44.372899",
+  "query_original": "बिहार में 'मखाना विकास' की योजनाएं?",
+  "query_normalized": "बिहार में मखाना विकास की योजनाएं",
+  "query_expanded": "बिहार में मखाना विकास की योजनाएं",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बिहार में 'मखाना विकास' की योजनाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मखाना (Makhana) की खेती बिहार के किस क्षेत्र में अधिक होती है?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "स्ट्रॉबेरी (Strawberry) की खेती बिहार में कहाँ संभव है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "राजमा (Kidney Bean) की खेती बिहार में?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "बिहार में फूलों की खेती के प्रमुख केंद्र?",
+      "Crop": "Floriculture"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बिहार में 'मखाना विकास' की योजनाएं?",
+      "Crop": "General",
+      "FinalScore": 9.99877397103858,
+      "CrossScore": 0.9998773971038579
+    },
+    {
+      "Question": "'मखाना' की खेती के लिए बिहार का कौन सा क्षेत्र प्रसिद्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9998915753697069,
+      "CrossScore": 0.9998915753697069
+    },
+    {
+      "Question": "बिहार में मक्का आधारित उद्योग की क्या संभावनाएं हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998836480963329,
+      "CrossScore": 0.9998836480963329
+    },
+    {
+      "Question": "मखाना (Makhana) की खेती बिहार के किस क्षेत्र में अधिक होती है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998693761378779,
+      "CrossScore": 0.9998693761378779
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998612334628758,
+      "CrossScore": 0.9998612334628758
+    },
+    {
+      "Question": "सोयाबीन (Soybean) की खेती बिहार में कहाँ संभव है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998348227685612,
+      "CrossScore": 0.9998348227685612
+    },
+    {
+      "Question": "बिहार में फूलों की खेती के प्रमुख केंद्र?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9998284718040977,
+      "CrossScore": 0.9998284718040977
+    },
+    {
+      "Question": "मखाना की खेती में सबसे बड़ी चुनौती?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998248857169743,
+      "CrossScore": 0.9998248857169743
+    },
+    {
+      "Question": "क्या बिहार में पपीते की खेती सफल है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998244006585882,
+      "CrossScore": 0.9998244006585882
+    },
+    {
+      "Question": "क्या बिहार में धनिया की खेती सफल है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999820631500002,
+      "CrossScore": 0.999820631500002
+    }
+  ],
+  "latency_ms": 210.62,
+  "final_returned": [
+    {
+      "Question": "बिहार में 'मखाना विकास' की योजनाएं?",
+      "Crop": "General",
+      "Score": 9.99877397103858
+    },
+    {
+      "Question": "'मखाना' की खेती के लिए बिहार का कौन सा क्षेत्र प्रसिद्ध है?",
+      "Crop": "General",
+      "Score": 0.9998915753697069
+    },
+    {
+      "Question": "बिहार में मक्का आधारित उद्योग की क्या संभावनाएं हैं?",
+      "Crop": "Maize",
+      "Score": 0.9998836480963329
+    },
+    {
+      "Question": "मखाना (Makhana) की खेती बिहार के किस क्षेत्र में अधिक होती है?",
+      "Crop": "Makhana",
+      "Score": 0.9998693761378779
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "Score": 0.9998612334628758
+    }
+  ]
+}

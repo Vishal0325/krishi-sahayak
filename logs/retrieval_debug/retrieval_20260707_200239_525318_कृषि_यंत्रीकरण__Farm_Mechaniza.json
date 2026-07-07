@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:39.332450",
+  "query_original": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+  "query_normalized": "कृषि यंत्रीकरण farm mechanization का क्या लाभ है",
+  "query_expanded": "कृषि यंत्रीकरण farm mechanization का क्या लाभ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 999.9175837502748,
+      "CrossScore": 0.9999175837502748
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997585281144317,
+      "CrossScore": 0.9997585281144317
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997132211166537,
+      "CrossScore": 0.9997132211166537
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997039429838739,
+      "CrossScore": 0.9997039429838739
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997017542067314,
+      "CrossScore": 0.9997017542067314
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996775585793812,
+      "CrossScore": 0.9996775585793812
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996456509882505,
+      "CrossScore": 0.9996456509882505
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.999634844694523,
+      "CrossScore": 0.999634844694523
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General",
+      "FinalScore": 0.9996177304939189,
+      "CrossScore": 0.9996177304939189
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9996167354247985,
+      "CrossScore": 0.9996167354247985
+    }
+  ],
+  "latency_ms": 192.92,
+  "final_returned": [
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 999.9175837502748
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9997585281144317
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "Score": 0.9997132211166537
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9997039429838739
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9997017542067314
+    }
+  ]
+}

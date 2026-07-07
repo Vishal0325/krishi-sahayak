@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:42.228553",
+  "query_original": "क्या जैविक उत्पाद महंगे बिकते हैं?",
+  "query_normalized": "क्या जैविक उत्पाद महंगे बिकते हैं",
+  "query_expanded": "क्या जैविक उत्पाद महंगे बिकते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या जैविक उत्पाद महंगे बिकते हैं?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक और रासायनिक दवाओं को मिलाकर डाल सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक दवाएं मनुष्यों के लिए सुरक्षित हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से पूरी तरह कीट खत्म हो जाते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या जैविक उत्पाद महंगे बिकते हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 999.9214923657455,
+      "CrossScore": 0.9999214923657455
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999180768474734,
+      "CrossScore": 0.9999180768474734
+    },
+    {
+      "Question": "क्या जैविक दवाएं मनुष्यों के लिए सुरक्षित हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999159946683212,
+      "CrossScore": 0.9999159946683212
+    },
+    {
+      "Question": "क्या जैविक खेती में 'पोटाश' के जैविक स्रोत हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999139980361178,
+      "CrossScore": 0.9999139980361178
+    },
+    {
+      "Question": "क्या जैविक खेती में 'खरपतवार' समस्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999138051768222,
+      "CrossScore": 0.9999138051768222
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9999110421615287,
+      "CrossScore": 0.9999110421615287
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999110350355854,
+      "CrossScore": 0.9999110350355854
+    },
+    {
+      "Question": "क्या जैविक खेती में रासायनिक फफूंदनाशक मान्य हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999090646813404,
+      "CrossScore": 0.9999090646813404
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999090041342696,
+      "CrossScore": 0.9999090041342696
+    },
+    {
+      "Question": "क्या रासायनिक और जैविक खाद को मिलाकर डाल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999086237986877,
+      "CrossScore": 0.9999086237986877
+    }
+  ],
+  "latency_ms": 193.33,
+  "final_returned": [
+    {
+      "Question": "क्या जैविक उत्पाद महंगे बिकते हैं?",
+      "Crop": "Organic Farming",
+      "Score": 999.9214923657455
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999180768474734
+    },
+    {
+      "Question": "क्या जैविक दवाएं मनुष्यों के लिए सुरक्षित हैं?",
+      "Crop": "General",
+      "Score": 0.9999159946683212
+    },
+    {
+      "Question": "क्या जैविक खेती में 'पोटाश' के जैविक स्रोत हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999139980361178
+    },
+    {
+      "Question": "क्या जैविक खेती में 'खरपतवार' समस्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999138051768222
+    }
+  ]
+}

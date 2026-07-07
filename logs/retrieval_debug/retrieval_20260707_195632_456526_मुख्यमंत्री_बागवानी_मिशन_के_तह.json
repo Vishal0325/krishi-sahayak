@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:32.102434",
+  "query_original": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी (Fruit Belt)?",
+  "query_normalized": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी fruit belt",
+  "query_expanded": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी fruit belt",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी (Fruit Belt)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की 'सी' (C) श्रेणी के फल क्या हैं?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन के तहत अनुदान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बागवानी शुरू करने वाले किसानों के लिए मुख्य सलाह?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी (Fruit Belt)?",
+      "Crop": "General",
+      "FinalScore": 0.9998744720714992,
+      "CrossScore": 0.9998744720714992
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997149602127332,
+      "CrossScore": 0.9997149602127332
+    },
+    {
+      "Question": "टमाटर का 'फल छेदक' (Fruit Borer) कीट?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9996503233036772,
+      "CrossScore": 0.9996503233036772
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9995687594140483,
+      "CrossScore": 0.9995687594140483
+    },
+    {
+      "Question": "'लीची का फल फटना' (Fruit Cracking) और 'बोरॉन'?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9995265123088245,
+      "CrossScore": 0.9995265123088245
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9993591772196438,
+      "CrossScore": 0.9993591772196438
+    },
+    {
+      "Question": "बागवानी शुरू करने वाले किसानों के लिए मुख्य सलाह?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9992136869247783,
+      "CrossScore": 0.9992136869247783
+    },
+    {
+      "Question": "'आम' में मिली बग को रोकने के लिए 'पेड़ की पट्टी'?",
+      "Crop": "General",
+      "FinalScore": 0.9991921943096386,
+      "CrossScore": 0.9991921943096386
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'पोटाश' की मात्रा मिट्टी परीक्षण के आधार पर?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9991781310955106,
+      "CrossScore": 0.9991781310955106
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट के लिए सरकारी अनुदान मिलता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9990990255164491,
+      "CrossScore": 0.9990990255164491
+    }
+  ],
+  "latency_ms": 354.28,
+  "final_returned": [
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी (Fruit Belt)?",
+      "Crop": "General",
+      "Score": 0.9998744720714992
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "Score": 0.9997149602127332
+    },
+    {
+      "Question": "टमाटर का 'फल छेदक' (Fruit Borer) कीट?",
+      "Crop": "Tomato",
+      "Score": 0.9996503233036772
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "Score": 0.9995687594140483
+    },
+    {
+      "Question": "'लीची का फल फटना' (Fruit Cracking) और 'बोरॉन'?",
+      "Crop": "Fruits",
+      "Score": 0.9995265123088245
+    }
+  ]
+}

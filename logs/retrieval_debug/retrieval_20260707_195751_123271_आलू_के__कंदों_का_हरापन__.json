@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:50.918509",
+  "query_original": "आलू के 'कंदों का हरापन'?",
+  "query_normalized": "आलू के कंदों का हरापन",
+  "query_expanded": "आलू के कंदों का हरापन",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आलू के 'कंदों का हरापन'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के 'कंदों का सड़न' खेत in?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के कंदों का हरा रंग क्यों हो जाता है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का 'जैविक' इलाज?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'निराई' का समय?",
+      "Crop": "Potato",
+      "FinalScore": 49.995858943797295,
+      "CrossScore": 0.9999171788759459
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "FinalScore": 49.99568332013865,
+      "CrossScore": 0.999913666402773
+    },
+    {
+      "Question": "आलू के दानों का 'हरा रंग' क्यों होता है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99539836202501,
+      "CrossScore": 0.9999079672405001
+    },
+    {
+      "Question": "आलू के कंदों का हरा रंग क्यों हो जाता है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99539437594118,
+      "CrossScore": 0.9999078875188236
+    },
+    {
+      "Question": "आलू में 'सल्फर' के लिए एसएसपी (SSP) का महत्व?",
+      "Crop": "Potato",
+      "FinalScore": 49.99539136213912,
+      "CrossScore": 0.9999078272427824
+    },
+    {
+      "Question": "आलू की खुदाई के बाद 'त्रिपाल' का उपयोग?",
+      "Crop": "Potato",
+      "FinalScore": 49.99490986115573,
+      "CrossScore": 0.9998981972231147
+    },
+    {
+      "Question": "आलू में 'सिंचाई' के लिए मेड़-नाली विधि का लाभ?",
+      "Crop": "Potato",
+      "FinalScore": 49.994904660037385,
+      "CrossScore": 0.9998980932007476
+    },
+    {
+      "Question": "आलू की बुआई के लिए बीज का वजन कितना हो?",
+      "Crop": "Potato",
+      "FinalScore": 49.99465577992376,
+      "CrossScore": 0.9998931155984752
+    },
+    {
+      "Question": "'आलू' के पिछेती झुलसा का 'आर्थिक नुकसान'?",
+      "Crop": "Potato",
+      "FinalScore": 49.99465216046728,
+      "CrossScore": 0.9998930432093457
+    },
+    {
+      "Question": "आलू के भंडारण में 'सड़न' (Soft Rot) का कारण?",
+      "Crop": "Potato",
+      "FinalScore": 49.994509157106,
+      "CrossScore": 0.9998901831421201
+    }
+  ],
+  "latency_ms": 204.85,
+  "final_returned": [
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'निराई' का समय?",
+      "Crop": "Potato",
+      "Score": 49.995858943797295
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "Score": 49.99568332013865
+    },
+    {
+      "Question": "आलू के दानों का 'हरा रंग' क्यों होता है?",
+      "Crop": "Potato",
+      "Score": 49.99539836202501
+    },
+    {
+      "Question": "आलू के कंदों का हरा रंग क्यों हो जाता है?",
+      "Crop": "Potato",
+      "Score": 49.99539437594118
+    },
+    {
+      "Question": "आलू में 'सल्फर' के लिए एसएसपी (SSP) का महत्व?",
+      "Crop": "Potato",
+      "Score": 49.99539136213912
+    }
+  ]
+}

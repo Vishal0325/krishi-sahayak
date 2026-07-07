@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:13.792703",
+  "query_original": "मौसम और 'कृषि वानिकी' (Agro-forestry)?",
+  "query_normalized": "मौसम और कृषि वानिकी agro forestry",
+  "query_expanded": "मौसम और कृषि वानिकी agro forestry",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम और 'कृषि वानिकी' (Agro-forestry)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'कृषि वानिकी' (Agroforestry) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम और 'कृषि वानिकी' (Agro-forestry)?",
+      "Crop": "General",
+      "FinalScore": 999.9101360125347,
+      "CrossScore": 0.9999101360125348
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998960330279149,
+      "CrossScore": 0.9998960330279149
+    },
+    {
+      "Question": "'कृषि वानिकी' (Agroforestry) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991125139353245,
+      "CrossScore": 0.9991125139353245
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "FinalScore": 0.9939536786717093,
+      "CrossScore": 0.9939536786717093
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.9930466991568249,
+      "CrossScore": 0.9930466991568249
+    },
+    {
+      "Question": "मौसम और 'बीज उत्पादन'?",
+      "Crop": "General",
+      "FinalScore": 0.9917309363846392,
+      "CrossScore": 0.9917309363846392
+    },
+    {
+      "Question": "'कृषि निर्यात' और पैकेजिंग मानक?",
+      "Crop": "General",
+      "FinalScore": 0.9909008674307815,
+      "CrossScore": 0.9909008674307815
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General",
+      "FinalScore": 0.9891303679520337,
+      "CrossScore": 0.9891303679520337
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और मौसम?",
+      "Crop": "General",
+      "FinalScore": 0.9891252605658268,
+      "CrossScore": 0.9891252605658268
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9888170031051124,
+      "CrossScore": 0.9888170031051124
+    }
+  ],
+  "latency_ms": 230.73,
+  "final_returned": [
+    {
+      "Question": "मौसम और 'कृषि वानिकी' (Agro-forestry)?",
+      "Crop": "General",
+      "Score": 999.9101360125347
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+      "Crop": "General",
+      "Score": 0.9998960330279149
+    },
+    {
+      "Question": "'कृषि वानिकी' (Agroforestry) क्या है?",
+      "Crop": "General",
+      "Score": 0.9991125139353245
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "Score": 0.9939536786717093
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.9930466991568249
+    }
+  ]
+}

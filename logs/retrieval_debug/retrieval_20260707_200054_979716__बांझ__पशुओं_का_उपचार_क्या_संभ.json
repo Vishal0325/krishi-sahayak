@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:54.784922",
+  "query_original": "'बांझ' पशुओं का उपचार क्या संभव है?",
+  "query_normalized": "बांझ पशुओं का उपचार क्या संभव है",
+  "query_expanded": "बांझ पशुओं का उपचार क्या संभव है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बांझ' पशुओं का उपचार क्या संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीला रतुआ का उपचार क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय खेती में 'पशुओं का गोबर' श्रेष्ठ है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बांझ' पशुओं का उपचार क्या संभव है?",
+      "Crop": "General",
+      "FinalScore": 999.9063577436547,
+      "CrossScore": 0.9999063577436547
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9999228761063749,
+      "CrossScore": 0.9999228761063749
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9999190417039286,
+      "CrossScore": 0.9999190417039286
+    },
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9999183174206122,
+      "CrossScore": 0.9999183174206122
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999180566896197,
+      "CrossScore": 0.9999180566896197
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती में 'फसल विविधीकरण' संभव है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999178983798725,
+      "CrossScore": 0.9999178983798725
+    },
+    {
+      "Question": "मिली बग का उपचार क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999151298987897,
+      "CrossScore": 0.9999151298987897
+    },
+    {
+      "Question": "मिर्च की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.999914230386379,
+      "CrossScore": 0.999914230386379
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9999138762459284,
+      "CrossScore": 0.9999138762459284
+    },
+    {
+      "Question": "पिछेती झुलसा का जैविक उपचार क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9999132043866625,
+      "CrossScore": 0.9999132043866625
+    }
+  ],
+  "latency_ms": 194.82,
+  "final_returned": [
+    {
+      "Question": "'बांझ' पशुओं का उपचार क्या संभव है?",
+      "Crop": "General",
+      "Score": 999.9063577436547
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9999228761063749
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "Score": 0.9999190417039286
+    },
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses",
+      "Score": 0.9999183174206122
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice",
+      "Score": 0.9999180566896197
+    }
+  ]
+}

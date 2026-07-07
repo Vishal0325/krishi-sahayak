@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:09.445893",
+  "query_original": "फार्म बिजनेस में 'पैकेजिंग' की कला?",
+  "query_normalized": "फार्म बिजनेस में पैकेजिंग की कला",
+  "query_expanded": "फार्म बिजनेस में पैकेजिंग की कला",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फार्म बिजनेस में 'पैकेजिंग' की कला?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की खेती में 'सोलर बिजनेस'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999075203321096,
+      "CrossScore": 0.9999075203321096
+    },
+    {
+      "Question": "भिंडी की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999057745298782,
+      "CrossScore": 0.9999057745298782
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General",
+      "FinalScore": 0.9999052324272613,
+      "CrossScore": 0.9999052324272613
+    },
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 0.9999036070088353,
+      "CrossScore": 0.9999036070088353
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999902727959576,
+      "CrossScore": 0.999902727959576
+    },
+    {
+      "Question": "धनिया की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999899438008237,
+      "CrossScore": 0.999899438008237
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998970342522339,
+      "CrossScore": 0.9998970342522339
+    },
+    {
+      "Question": "भविष्य की खेती में 'सोलर बिजनेस'?",
+      "Crop": "General",
+      "FinalScore": 0.9998958804382436,
+      "CrossScore": 0.9998958804382436
+    },
+    {
+      "Question": "सब्जियों की 'पैकेजिंग' में प्लास्टिक क्रेट्स क्यों?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998909401457048,
+      "CrossScore": 0.9998909401457048
+    },
+    {
+      "Question": "दालों की 'पैकेजिंग' के लिए सुझाव?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999890547061273,
+      "CrossScore": 0.999890547061273
+    }
+  ],
+  "latency_ms": 171.41,
+  "final_returned": [
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "Score": 0.9999075203321096
+    },
+    {
+      "Question": "भिंडी की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Okra",
+      "Score": 0.9999057745298782
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General",
+      "Score": 0.9999052324272613
+    },
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General",
+      "Score": 0.9999036070088353
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "Score": 0.999902727959576
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:10.229253",
+  "query_original": "मधुमक्खी पालन का 'सही समय' क्या है?",
+  "query_normalized": "मधुमक्खी पालन का सही समय क्या है",
+  "query_expanded": "मधुमक्खी पालन का सही समय क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मधुमक्खी पालन का 'सही समय' क्या है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "गेहूं की कटाई का सही समय क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "हल्दी की बुआई का सही समय क्या है?",
+      "Crop": "Turmeric"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मधुमक्खी पालन का 'सही समय' क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999042828048491,
+      "CrossScore": 0.9999042828048491
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन से फसलों की पैदावार बढ़ती है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999903041620185,
+      "CrossScore": 0.999903041620185
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998995581871313,
+      "CrossScore": 0.9998995581871313
+    },
+    {
+      "Question": "मधुमक्खी पालन (Beekeeping) का परिचय क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998968597267421,
+      "CrossScore": 0.9998968597267421
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'रॉयल जेली' (Royal Jelly) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999895769079345,
+      "CrossScore": 0.999895769079345
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'फ्लोरल कैलेंडर' (Floral Calendar) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998933798608348,
+      "CrossScore": 0.9998933798608348
+    },
+    {
+      "Question": "शहद निकालने का 'सही समय' क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998894559921665,
+      "CrossScore": 0.9998894559921665
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998891920438551,
+      "CrossScore": 0.9998891920438551
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998750212370591,
+      "CrossScore": 0.9998750212370591
+    },
+    {
+      "Question": "रानी मधुमक्खी (Queen Bee) का क्या कार्य है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998724590664273,
+      "CrossScore": 0.9998724590664273
+    }
+  ],
+  "latency_ms": 372.47,
+  "final_returned": [
+    {
+      "Question": "मधुमक्खी पालन का 'सही समय' क्या है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9999042828048491
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन से फसलों की पैदावार बढ़ती है?",
+      "Crop": "Beekeeping",
+      "Score": 0.999903041620185
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998995581871313
+    },
+    {
+      "Question": "मधुमक्खी पालन (Beekeeping) का परिचय क्या है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998968597267421
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'रॉयल जेली' (Royal Jelly) क्या है?",
+      "Crop": "Beekeeping",
+      "Score": 0.999895769079345
+    }
+  ]
+}

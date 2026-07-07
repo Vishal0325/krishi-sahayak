@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:28.060069",
+  "query_original": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+  "query_normalized": "लीफ फोल्डर leaf folder कीट क्या है",
+  "query_expanded": "pest लीफ फोल्डर leaf folder कीट क्या है कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मक्का में 'टर्सिकम लीफ ब्लाइट' (Turcicum Leaf Blight) क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'लीफ माइनर' (Leaf Miner) क्या है?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9999.308113612833,
+      "CrossScore": 0.9999308113612833
+    },
+    {
+      "Question": "'लीफ माइनर' (Leaf Miner) क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 9.989050013222897,
+      "CrossScore": 0.9989050013222897
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.956752811089377,
+      "CrossScore": 0.9956752811089377
+    },
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.951603856509587,
+      "CrossScore": 0.9951603856509587
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.950105578085779,
+      "CrossScore": 0.9950105578085778
+    },
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 9.945219907061817,
+      "CrossScore": 0.9945219907061817
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.918080308972009,
+      "CrossScore": 0.9918080308972009
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9989850302544281,
+      "CrossScore": 0.9989850302544281
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9984945589906429,
+      "CrossScore": 0.9984945589906429
+    },
+    {
+      "Question": "मक्का में 'टर्सिकम लीफ ब्लाइट' (Turcicum Leaf Blight) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9984476053556081,
+      "CrossScore": 0.9984476053556081
+    }
+  ],
+  "latency_ms": 238.07,
+  "final_returned": [
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9999.308113612833
+    },
+    {
+      "Question": "'लीफ माइनर' (Leaf Miner) क्या है?",
+      "Crop": "Vegetables",
+      "Score": 9.989050013222897
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9.956752811089377
+    },
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "Score": 9.951603856509587
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.950105578085779
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:14.255392",
+  "query_original": "'ड्रिप सिंचाई' के एमिटर (Emitter) की सफाई?",
+  "query_normalized": "ड्रिप सिंचाई के एमिटर emitter की सफाई",
+  "query_expanded": "ड्रिप सिंचाई के एमिटर emitter की सफाई",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ड्रिप सिंचाई' के एमिटर (Emitter) की सफाई?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रिप सिंचाई के फिल्टर (Filters) की सफाई क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई के लिए भी मशीनों की जरूरत है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ड्रिप सिंचाई' के एमिटर (Emitter) की सफाई?",
+      "Crop": "General",
+      "FinalScore": 999.8824914012569,
+      "CrossScore": 0.9998824914012568
+    },
+    {
+      "Question": "ड्रिप सिंचाई के फिल्टर (Filters) की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.999815195879664,
+      "CrossScore": 0.999815195879664
+    },
+    {
+      "Question": "लहसुन की सिंचाई के लिए 'ड्रिप' और 'स्प्रिंकलर'?",
+      "Crop": "Garlic",
+      "FinalScore": 0.999773807517415,
+      "CrossScore": 0.999773807517415
+    },
+    {
+      "Question": "टमाटर की खेती में 'ड्रिप सिंचाई' के फायदे?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997723069249292,
+      "CrossScore": 0.9997723069249292
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli",
+      "FinalScore": 0.999755069008394,
+      "CrossScore": 0.999755069008394
+    },
+    {
+      "Question": "गेहूं की 'सिंचाई' के लिए ड्रिप विधि के लाभ?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997379276413612,
+      "CrossScore": 0.9997379276413612
+    },
+    {
+      "Question": "भिंडी की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Okra",
+      "FinalScore": 0.99972618436154,
+      "CrossScore": 0.99972618436154
+    },
+    {
+      "Question": "टमाटर की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997161964679049,
+      "CrossScore": 0.9997161964679049
+    },
+    {
+      "Question": "पत्तागोभी की सिंचाई के लिए 'ड्रिप' और 'बाढ़' में तुलना?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9997123651461276,
+      "CrossScore": 0.9997123651461276
+    },
+    {
+      "Question": "अदरक की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9997038571648932,
+      "CrossScore": 0.9997038571648932
+    }
+  ],
+  "latency_ms": 193.9,
+  "final_returned": [
+    {
+      "Question": "'ड्रिप सिंचाई' के एमिटर (Emitter) की सफाई?",
+      "Crop": "General",
+      "Score": 999.8824914012569
+    },
+    {
+      "Question": "ड्रिप सिंचाई के फिल्टर (Filters) की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.999815195879664
+    },
+    {
+      "Question": "लहसुन की सिंचाई के लिए 'ड्रिप' और 'स्प्रिंकलर'?",
+      "Crop": "Garlic",
+      "Score": 0.999773807517415
+    },
+    {
+      "Question": "टमाटर की खेती में 'ड्रिप सिंचाई' के फायदे?",
+      "Crop": "Tomato",
+      "Score": 0.9997723069249292
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli",
+      "Score": 0.999755069008394
+    }
+  ]
+}

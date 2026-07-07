@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:21.218668",
+  "query_original": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+  "query_normalized": "लेजर लैंड लेवलर laser land leveler का मिट्टी के स्वास्थ्य पर क्या प्रभाव है",
+  "query_expanded": "लेजर लैंड लेवलर laser land leveler का मिट्टी के स्वास्थ्य पर क्या प्रभाव है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का स्वास्थ्य मानव स्वास्थ्य से जुड़ा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.999839630896985,
+      "CrossScore": 0.999839630896985
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999825430534785,
+      "CrossScore": 0.999825430534785
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.999812300860658,
+      "CrossScore": 0.999812300860658
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9969528241588296,
+      "CrossScore": 0.9969528241588296
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9956628472331315,
+      "CrossScore": 0.9956628472331315
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'मृदा स्वास्थ्य कार्ड' जरूरी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.988812351508002,
+      "CrossScore": 0.988812351508002
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9874429055605783,
+      "CrossScore": 0.9874429055605783
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9785944752942998,
+      "CrossScore": 0.9785944752942998
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9770000751615818,
+      "CrossScore": 0.9770000751615818
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9729348790892729,
+      "CrossScore": 0.9729348790892729
+    }
+  ],
+  "latency_ms": 275.47,
+  "final_returned": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.999839630896985
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.999825430534785
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "Score": 0.999812300860658
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "Score": 0.9969528241588296
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General",
+      "Score": 0.9956628472331315
+    }
+  ]
+}

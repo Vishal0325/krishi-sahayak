@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:57.884583",
+  "query_original": "'कीटनाशक' छिड़कते समय 'चश्मा'?",
+  "query_normalized": "कीटनाशक छिड़कते समय चश्मा",
+  "query_expanded": "pest कीटनाशक छिड़कते समय चश्मा कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'चश्मा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय जूते?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय सुरक्षा के उपाय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय सावधानी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'नोजल' की ऊँचाई?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'चश्मा'?",
+      "Crop": "General",
+      "FinalScore": 9999.061565228265,
+      "CrossScore": 0.9999061565228266
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.9989507431027,
+      "CrossScore": 0.99989507431027
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय जूते?",
+      "Crop": "General",
+      "FinalScore": 9.998858077286961,
+      "CrossScore": 0.9998858077286962
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 9.998788272620672,
+      "CrossScore": 0.9998788272620671
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General",
+      "FinalScore": 9.998758668833684,
+      "CrossScore": 0.9998758668833685
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998675937692937,
+      "CrossScore": 0.9998675937692937
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "FinalScore": 9.998586564561858,
+      "CrossScore": 0.9998586564561859
+    },
+    {
+      "Question": "'छिड़काव' के समय 'पीपीई किट'?",
+      "Crop": "General",
+      "FinalScore": 9.998151546418372,
+      "CrossScore": 0.9998151546418372
+    },
+    {
+      "Question": "'छिड़काव' के समय सुरक्षा गियर?",
+      "Crop": "General",
+      "FinalScore": 9.99800834719625,
+      "CrossScore": 0.9998008347196251
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'हवा' की गति?",
+      "Crop": "General",
+      "FinalScore": 0.9998935605785364,
+      "CrossScore": 0.9998935605785364
+    }
+  ],
+  "latency_ms": 191.86,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'चश्मा'?",
+      "Crop": "General",
+      "Score": 9999.061565228265
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 9.9989507431027
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय जूते?",
+      "Crop": "General",
+      "Score": 9.998858077286961
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "Score": 9.998788272620672
+    },
+    {
+      "Question": "'सब्जियों in कीटनाशक' और 'धोना'?",
+      "Crop": "General",
+      "Score": 9.998758668833684
+    }
+  ]
+}

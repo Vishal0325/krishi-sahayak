@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:59.478201",
+  "query_original": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+  "query_normalized": "यूरिया urea का मुख्य कार्य क्या है",
+  "query_expanded": "यूरिया urea का मुख्य कार्य क्या है nitrogen नाइट्रोजन यूरिया urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बागवानी में सफलता का मुख्य सूत्र क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9198730365828,
+      "CrossScore": 0.9999198730365828
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999092244429243,
+      "CrossScore": 0.9999092244429243
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998349172410969,
+      "CrossScore": 0.9998349172410969
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998338311816992,
+      "CrossScore": 0.9998338311816992
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998243448938238,
+      "CrossScore": 0.9998243448938238
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998132861816297,
+      "CrossScore": 0.9998132861816297
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998103509452523,
+      "CrossScore": 0.9998103509452523
+    },
+    {
+      "Question": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998098562761728,
+      "CrossScore": 0.9998098562761728
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9997870684028365,
+      "CrossScore": 0.9997870684028365
+    },
+    {
+      "Question": "क्या यूरिया का अधिक प्रयोग फसल को गिरा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997852685429025,
+      "CrossScore": 0.9997852685429025
+    }
+  ],
+  "latency_ms": 230.51,
+  "final_returned": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 999.9198730365828
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999092244429243
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998349172410969
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998338311816992
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9998243448938238
+    }
+  ]
+}

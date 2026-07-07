@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:36.099200",
+  "query_original": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+  "query_normalized": "आलू बोने की मशीन potato planter के क्या लाभ हैं",
+  "query_expanded": "आलू बोने की मशीन potato planter के क्या लाभ हैं",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू की खेती में 'ट्रैक्टर चालित प्लांटर' के लाभ?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू की खुदाई के बाद उन्हें 'ढेर' में क्यों रखते हैं?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के बीजों को 'अंकुरित' (Sprouting) करके बोने के लाभ?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू की 'मिट्टी' की तैयारी में 'रोटावेटर' के लाभ?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato",
+      "FinalScore": 49.99524942397336,
+      "CrossScore": 0.9999049884794673
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' (Late Blight) के लक्षण क्या हैं?",
+      "Crop": "Potato",
+      "FinalScore": 49.9715914928538,
+      "CrossScore": 0.9994318298570759
+    },
+    {
+      "Question": "आलू की खेती का परिचय क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.96759661268684,
+      "CrossScore": 0.9993519322537369
+    },
+    {
+      "Question": "आलू की 'मिट्टी' की तैयारी में 'रोटावेटर' के लाभ?",
+      "Crop": "Potato",
+      "FinalScore": 49.96713401668741,
+      "CrossScore": 0.9993426803337482
+    },
+    {
+      "Question": "आलू के बीजों को 'अंकुरित' (Sprouting) करके बोने के लाभ?",
+      "Crop": "Potato",
+      "FinalScore": 49.96695642390085,
+      "CrossScore": 0.999339128478017
+    },
+    {
+      "Question": "आलू में 'सिंचाई' के लिए मेड़-नाली विधि का लाभ?",
+      "Crop": "Potato",
+      "FinalScore": 49.96064339459736,
+      "CrossScore": 0.9992128678919472
+    },
+    {
+      "Question": "आलू की बुआई के लिए मेड़ की ऊंचाई कितनी हो?",
+      "Crop": "Potato",
+      "FinalScore": 49.96012153335926,
+      "CrossScore": 0.9992024306671853
+    },
+    {
+      "Question": "आलू की प्रमुख उन्नत किस्में कौन सी हैं?",
+      "Crop": "Potato",
+      "FinalScore": 49.95876569934178,
+      "CrossScore": 0.9991753139868357
+    },
+    {
+      "Question": "आलू की 'डीहॉल्मिंग' (Dehaulming) क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.95781972147362,
+      "CrossScore": 0.9991563944294723
+    },
+    {
+      "Question": "आलू की बुआई की विधि क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.955959471509665,
+      "CrossScore": 0.9991191894301933
+    }
+  ],
+  "latency_ms": 219.98,
+  "final_returned": [
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato",
+      "Score": 49.99524942397336
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' (Late Blight) के लक्षण क्या हैं?",
+      "Crop": "Potato",
+      "Score": 49.9715914928538
+    },
+    {
+      "Question": "आलू की खेती का परिचय क्या है?",
+      "Crop": "Potato",
+      "Score": 49.96759661268684
+    },
+    {
+      "Question": "आलू की 'मिट्टी' की तैयारी में 'रोटावेटर' के लाभ?",
+      "Crop": "Potato",
+      "Score": 49.96713401668741
+    },
+    {
+      "Question": "आलू के बीजों को 'अंकुरित' (Sprouting) करके बोने के लाभ?",
+      "Crop": "Potato",
+      "Score": 49.96695642390085
+    }
+  ]
+}

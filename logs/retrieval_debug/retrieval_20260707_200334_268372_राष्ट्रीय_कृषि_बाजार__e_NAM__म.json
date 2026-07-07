@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:34.047025",
+  "query_original": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+  "query_normalized": "राष्ट्रीय कृषि बाजार e nam में पंजीकरण कैसे करें",
+  "query_expanded": "राष्ट्रीय कृषि बाजार e nam में पंजीकरण कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'चूहा' नियंत्रण कैसे करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं में दीमक का नियंत्रण कैसे करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 999.8507002663963,
+      "CrossScore": 0.9998507002663963
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9997869798659067,
+      "CrossScore": 0.9997869798659067
+    },
+    {
+      "Question": "कृषि को एक व्यवसाय (Business) के रूप में कैसे देखें?",
+      "Crop": "General",
+      "FinalScore": 0.9997655912206137,
+      "CrossScore": 0.9997655912206137
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996820274334933,
+      "CrossScore": 0.9996820274334933
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996294488298005,
+      "CrossScore": 0.9996294488298005
+    },
+    {
+      "Question": "गेहूं में 'चूहा' नियंत्रण कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995998480713594,
+      "CrossScore": 0.9995998480713594
+    },
+    {
+      "Question": "धान में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.9995732622161447,
+      "CrossScore": 0.9995732622161447
+    },
+    {
+      "Question": "धान में सिंचाई का प्रबंधन कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9995368247909333,
+      "CrossScore": 0.9995368247909333
+    },
+    {
+      "Question": "खेती में जोखिम (Risk) को कैसे कम करें?",
+      "Crop": "General",
+      "FinalScore": 0.9995025378732675,
+      "CrossScore": 0.9995025378732675
+    },
+    {
+      "Question": "गेहूं की फसल में 'नमी' की जांच कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994825445856114,
+      "CrossScore": 0.9994825445856114
+    }
+  ],
+  "latency_ms": 221.38,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय कृषि बाजार (e-NAM) में पंजीकरण कैसे करें?",
+      "Crop": "General",
+      "Score": 999.8507002663963
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "Score": 0.9997869798659067
+    },
+    {
+      "Question": "कृषि को एक व्यवसाय (Business) के रूप में कैसे देखें?",
+      "Crop": "General",
+      "Score": 0.9997655912206137
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9996820274334933
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "Score": 0.9996294488298005
+    }
+  ]
+}

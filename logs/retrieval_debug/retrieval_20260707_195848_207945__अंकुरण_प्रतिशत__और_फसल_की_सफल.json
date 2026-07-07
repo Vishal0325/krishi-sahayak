@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:48.040788",
+  "query_original": "'अंकुरण प्रतिशत' और फसल की सफलता?",
+  "query_normalized": "अंकुरण प्रतिशत और फसल की सफलता",
+  "query_expanded": "अंकुरण प्रतिशत और फसल की सफलता",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अंकुरण प्रतिशत' और फसल की सफलता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' की जांच क्यों?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' और लागत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "अमरूद की 'शुष्क' खेती में सफलता?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अंकुरण प्रतिशत' और लागत?",
+      "Crop": "General",
+      "FinalScore": 0.9998965547788121,
+      "CrossScore": 0.9998965547788121
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' और फसल की सफलता?",
+      "Crop": "General",
+      "FinalScore": 0.9998840669494793,
+      "CrossScore": 0.9998840669494793
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' की जांच क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.999870076998073,
+      "CrossScore": 0.999870076998073
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998687101872457,
+      "CrossScore": 0.9998687101872457
+    },
+    {
+      "Question": "अमरूद की 'शुष्क' खेती में सफलता?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998669088344311,
+      "CrossScore": 0.9998669088344311
+    },
+    {
+      "Question": "मिर्च की 'शुष्क' खेती में सफलता?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998651302330182,
+      "CrossScore": 0.9998651302330182
+    },
+    {
+      "Question": "भिंडी की 'शुष्क' खेती में सफलता?",
+      "Crop": "Okra",
+      "FinalScore": 0.999843675477918,
+      "CrossScore": 0.999843675477918
+    },
+    {
+      "Question": "धनिया की 'शुष्क' खेती में सफलता?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998396009227725,
+      "CrossScore": 0.9998396009227725
+    },
+    {
+      "Question": "बैंगन की 'शुष्क' खेती में सफलता?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998370183923405,
+      "CrossScore": 0.9998370183923405
+    },
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998305380315525,
+      "CrossScore": 0.9998305380315525
+    }
+  ],
+  "latency_ms": 167.3,
+  "final_returned": [
+    {
+      "Question": "'अंकुरण प्रतिशत' और लागत?",
+      "Crop": "General",
+      "Score": 0.9998965547788121
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' और फसल की सफलता?",
+      "Crop": "General",
+      "Score": 0.9998840669494793
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' की जांच क्यों?",
+      "Crop": "General",
+      "Score": 0.999870076998073
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998687101872457
+    },
+    {
+      "Question": "अमरूद की 'शुष्क' खेती में सफलता?",
+      "Crop": "Guava",
+      "Score": 0.9998669088344311
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:12.484188",
+  "query_original": "'एकीकृत पोषक तत्व प्रबंधन' (INM)?",
+  "query_normalized": "एकीकृत पोषक तत्व प्रबंधन inm",
+  "query_expanded": "एकीकृत पोषक तत्व प्रबंधन inm",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एकीकृत पोषक तत्व प्रबंधन' (INM)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'हरियाली' बनाए रखने के लिए सूक्ष्म पोषक तत्व?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'शिक्षा'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एकीकृत पोषक तत्व प्रबंधन' (INM)?",
+      "Crop": "General",
+      "FinalScore": 999.8896620897925,
+      "CrossScore": 0.9998896620897926
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General",
+      "FinalScore": 0.9998281758435159,
+      "CrossScore": 0.9998281758435159
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और लागत?",
+      "Crop": "General",
+      "FinalScore": 0.9998188743557334,
+      "CrossScore": 0.9998188743557334
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) से लागत कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9997919471713765,
+      "CrossScore": 0.9997919471713765
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.999783629313621,
+      "CrossScore": 0.999783629313621
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997735053846198,
+      "CrossScore": 0.9997735053846198
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'किसान मित्र'?",
+      "Crop": "General",
+      "FinalScore": 0.9997339001566066,
+      "CrossScore": 0.9997339001566066
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'शिक्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.999730298254589,
+      "CrossScore": 0.999730298254589
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9997300309556029,
+      "CrossScore": 0.9997300309556029
+    },
+    {
+      "Question": "राष्ट्रीय एकीकृत कीट प्रबंधन केंद्र (NCIPM)?",
+      "Crop": "General",
+      "FinalScore": 0.9997251732439636,
+      "CrossScore": 0.9997251732439636
+    }
+  ],
+  "latency_ms": 229.58,
+  "final_returned": [
+    {
+      "Question": "'एकीकृत पोषक तत्व प्रबंधन' (INM)?",
+      "Crop": "General",
+      "Score": 999.8896620897925
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'कीमत'?",
+      "Crop": "General",
+      "Score": 0.9998281758435159
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और लागत?",
+      "Crop": "General",
+      "Score": 0.9998188743557334
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) से लागत कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9997919471713765
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और 'शिक्षा'?",
+      "Crop": "General",
+      "Score": 0.999783629313621
+    }
+  ]
+}

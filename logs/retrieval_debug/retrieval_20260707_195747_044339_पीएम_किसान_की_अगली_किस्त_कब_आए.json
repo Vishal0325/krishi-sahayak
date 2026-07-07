@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:46.609360",
+  "query_original": "पीएम-किसान की अगली किस्त कब आएगी?",
+  "query_normalized": "पीएम किसान की अगली किस्त कब आएगी",
+  "query_expanded": "पीएम किसान की अगली किस्त कब आएगी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीएम-किसान की अगली किस्त कब आएगी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'यूरिया' की तीसरी किस्त कब दें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएम-किसान की अगली किस्त कब आएगी?",
+      "Crop": "General",
+      "FinalScore": 0.9998759934724069,
+      "CrossScore": 0.9998759934724069
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998739470597942,
+      "CrossScore": 0.9998739470597942
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998403822398855,
+      "CrossScore": 0.9998403822398855
+    },
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "FinalScore": 0.9998362697972379,
+      "CrossScore": 0.9998362697972379
+    },
+    {
+      "Question": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998138003379783,
+      "CrossScore": 0.9998138003379783
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.999802367182541,
+      "CrossScore": 0.999802367182541
+    },
+    {
+      "Question": "'किसान कॉल सेंटर' की उपयोगिता?",
+      "Crop": "General",
+      "FinalScore": 0.9997860484110608,
+      "CrossScore": 0.9997860484110608
+    },
+    {
+      "Question": "बैंगन में 'यूरिया' की अंतिम डोज कब दें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997842393140784,
+      "CrossScore": 0.9997842393140784
+    },
+    {
+      "Question": "गेहूं में 'यूरिया' की तीसरी किस्त कब दें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997841724443861,
+      "CrossScore": 0.9997841724443861
+    },
+    {
+      "Question": "रबी मक्का की बुआई कब करनी चाहिए?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997819806915599,
+      "CrossScore": 0.9997819806915599
+    }
+  ],
+  "latency_ms": 435.12,
+  "final_returned": [
+    {
+      "Question": "पीएम-किसान की अगली किस्त कब आएगी?",
+      "Crop": "General",
+      "Score": 0.9998759934724069
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 0.9998739470597942
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "Score": 0.9998403822398855
+    },
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "Score": 0.9998362697972379
+    },
+    {
+      "Question": "पीएम-किसान की ई-केवाईसी (e-KYC) कहाँ कराएं?",
+      "Crop": "General",
+      "Score": 0.9998138003379783
+    }
+  ]
+}

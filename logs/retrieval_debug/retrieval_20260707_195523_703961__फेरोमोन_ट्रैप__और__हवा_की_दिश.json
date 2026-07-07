@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:23.517589",
+  "query_original": "'फेरोमोन ट्रैप' और 'हवा की दिशा'?",
+  "query_normalized": "फेरोमोन ट्रैप और हवा की दिशा",
+  "query_expanded": "फेरोमोन ट्रैप और हवा की दिशा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'हवा की दिशा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय 'हवा की दिशा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'कीट निगरानी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "छिड़काव के समय हवा की दिशा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' के लिए फेरोमोन ट्रैप की संख्या?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General",
+      "FinalScore": 0.9999074036749532,
+      "CrossScore": 0.9999074036749532
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999061268082021,
+      "CrossScore": 0.9999061268082021
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'हवा की दिशा'?",
+      "Crop": "General",
+      "FinalScore": 0.9999001161734568,
+      "CrossScore": 0.9999001161734568
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998987303274433,
+      "CrossScore": 0.9998987303274433
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'कीट निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998962579320022,
+      "CrossScore": 0.9998962579320022
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' (Pheromone Trap) की निगरानी?",
+      "Crop": "General",
+      "FinalScore": 0.9998946871877216,
+      "CrossScore": 0.9998946871877216
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' का पर्यावरण पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998903647822273,
+      "CrossScore": 0.9998903647822273
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998870381495882,
+      "CrossScore": 0.9998870381495882
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998859663797262,
+      "CrossScore": 0.9998859663797262
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के 'लूअर' (Lure) की गंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998831312614233,
+      "CrossScore": 0.9998831312614233
+    }
+  ],
+  "latency_ms": 186.47,
+  "final_returned": [
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General",
+      "Score": 0.9999074036749532
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+      "Crop": "Brinjal",
+      "Score": 0.9999061268082021
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'हवा की दिशा'?",
+      "Crop": "General",
+      "Score": 0.9999001161734568
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "Score": 0.9998987303274433
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'कीट निगरानी'?",
+      "Crop": "General",
+      "Score": 0.9998962579320022
+    }
+  ]
+}

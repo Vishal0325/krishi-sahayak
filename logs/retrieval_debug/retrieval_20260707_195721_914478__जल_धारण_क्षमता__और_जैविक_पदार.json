@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:21.719748",
+  "query_original": "'जल धारण क्षमता' और जैविक पदार्थ?",
+  "query_normalized": "जल धारण क्षमता और जैविक पदार्थ",
+  "query_expanded": "जल धारण क्षमता और जैविक पदार्थ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जल धारण क्षमता' और जैविक पदार्थ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जल धारण क्षमता' और बलुई मिट्टी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सरसों की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए जैविक खाद?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए FYM?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जल धारण क्षमता' और जैविक पदार्थ?",
+      "Crop": "General",
+      "FinalScore": 0.9998677304336504,
+      "CrossScore": 0.9998677304336504
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998552553972394,
+      "CrossScore": 0.9998552553972394
+    },
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998533447196802,
+      "CrossScore": 0.9998533447196802
+    },
+    {
+      "Question": "'जल धारण क्षमता' और बलुई मिट्टी?",
+      "Crop": "General",
+      "FinalScore": 0.9998349043330382,
+      "CrossScore": 0.9998349043330382
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9998282904905477,
+      "CrossScore": 0.9998282904905477
+    },
+    {
+      "Question": "मक्का की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए FYM?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998230599367086,
+      "CrossScore": 0.9998230599367086
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "FinalScore": 0.9998211757404752,
+      "CrossScore": 0.9998211757404752
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998144396277717,
+      "CrossScore": 0.9998144396277717
+    },
+    {
+      "Question": "सरसों की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए जैविक खाद?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9997985432078996,
+      "CrossScore": 0.9997985432078996
+    },
+    {
+      "Question": "मिट्टी की 'जल धारण क्षमता' (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9997977319388751,
+      "CrossScore": 0.9997977319388751
+    }
+  ],
+  "latency_ms": 194.85,
+  "final_returned": [
+    {
+      "Question": "'जल धारण क्षमता' और जैविक पदार्थ?",
+      "Crop": "General",
+      "Score": 0.9998677304336504
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 0.9998552553972394
+    },
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998533447196802
+    },
+    {
+      "Question": "'जल धारण क्षमता' और बलुई मिट्टी?",
+      "Crop": "General",
+      "Score": 0.9998349043330382
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "Score": 0.9998282904905477
+    }
+  ]
+}

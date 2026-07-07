@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:57.458250",
+  "query_original": "पशुओं में 'पेट के कीड़े' (Internal Parasites) के लक्षण?",
+  "query_normalized": "पशुओं में पेट के कीड़े internal parasites के लक्षण",
+  "query_expanded": "पशुओं में पेट के कीड़े internal parasites के लक्षण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Internal Parasites) के लक्षण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं में 'खुरपका-मुंहपका' (FMD) के लक्षण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं में 'गर्मी' (Heat) के लक्षण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मुर्गियों में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Poultry"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Internal Parasites) के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 999.9036121561427,
+      "CrossScore": 0.9999036121561427
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "FinalScore": 0.9986241601249067,
+      "CrossScore": 0.9986241601249067
+    },
+    {
+      "Question": "पशुओं में 'विटामिन ए' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.99824909995825,
+      "CrossScore": 0.99824909995825
+    },
+    {
+      "Question": "मुर्गियों में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9981634172232814,
+      "CrossScore": 0.9981634172232814
+    },
+    {
+      "Question": "टमाटर में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9975041983123561,
+      "CrossScore": 0.9975041983123561
+    },
+    {
+      "Question": "गेहूं में 'दाना झुलसा' (Alternaria Blight) के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9973658692870729,
+      "CrossScore": 0.9973658692870729
+    },
+    {
+      "Question": "मक्का की फसल में 'पोटाश' की कमी के लक्षण?",
+      "Crop": "Maize",
+      "FinalScore": 0.997127108695288,
+      "CrossScore": 0.997127108695288
+    },
+    {
+      "Question": "पशुओं में 'खुरपका-मुंहपका' (FMD) के लक्षण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9970256759842522,
+      "CrossScore": 0.9970256759842522
+    },
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9969077925148334,
+      "CrossScore": 0.9969077925148334
+    },
+    {
+      "Question": "मसूर में 'रतुआ' (Rust) रोग के लक्षण?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9967012139145567,
+      "CrossScore": 0.9967012139145567
+    }
+  ],
+  "latency_ms": 182.7,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'पेट के कीड़े' (Internal Parasites) के लक्षण?",
+      "Crop": "General",
+      "Score": 999.9036121561427
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "Score": 0.9986241601249067
+    },
+    {
+      "Question": "पशुओं में 'विटामिन ए' की कमी के लक्षण?",
+      "Crop": "General",
+      "Score": 0.99824909995825
+    },
+    {
+      "Question": "मुर्गियों में 'पेट के कीड़े' (Deworming) की दवा कब दें?",
+      "Crop": "Poultry",
+      "Score": 0.9981634172232814
+    },
+    {
+      "Question": "टमाटर में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Tomato",
+      "Score": 0.9975041983123561
+    }
+  ]
+}

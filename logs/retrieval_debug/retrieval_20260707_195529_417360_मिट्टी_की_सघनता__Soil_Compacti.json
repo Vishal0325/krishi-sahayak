@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:29.188611",
+  "query_original": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+  "query_normalized": "मिट्टी की सघनता soil compaction क्या है",
+  "query_expanded": "मिट्टी की सघनता soil compaction क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999946062930177,
+      "CrossScore": 0.999946062930177
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9999294135224807,
+      "CrossScore": 0.9999294135224807
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998671157884341,
+      "CrossScore": 0.9998671157884341
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998637246435156,
+      "CrossScore": 0.9998637246435156
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998526028118112,
+      "CrossScore": 0.9998526028118112
+    },
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998505411632691,
+      "CrossScore": 0.9998505411632691
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9998458099126466,
+      "CrossScore": 0.9998458099126466
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998279605919866,
+      "CrossScore": 0.9998279605919866
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997915154605059,
+      "CrossScore": 0.9997915154605059
+    },
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997851929805897,
+      "CrossScore": 0.9997851929805897
+    }
+  ],
+  "latency_ms": 228.84,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "Score": 0.999946062930177
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "Score": 0.9999294135224807
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998671157884341
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998637246435156
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9998526028118112
+    }
+  ]
+}

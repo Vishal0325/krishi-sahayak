@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:39.811322",
+  "query_original": "'नीम का तेल' स्प्रे करते समय साबुन?",
+  "query_normalized": "नीम का तेल स्प्रे करते समय साबुन",
+  "query_expanded": "नीम का तेल स्प्रे करते समय साबुन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम का तेल' स्प्रे करते समय साबुन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो यूरिया का स्प्रे करते समय क्या सावधानी रखें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "FinalScore": 0.9999084767706357,
+      "CrossScore": 0.9999084767706357
+    },
+    {
+      "Question": "'कीटनाशकों' का छिड़काव करते समय 'खाना'?",
+      "Crop": "General",
+      "FinalScore": 0.9999075224485815,
+      "CrossScore": 0.9999075224485815
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9998997384730833,
+      "CrossScore": 0.9998997384730833
+    },
+    {
+      "Question": "'नीम का तेल' स्प्रे करते समय साबुन?",
+      "Crop": "General",
+      "FinalScore": 0.9998967168206153,
+      "CrossScore": 0.9998967168206153
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998925561164038,
+      "CrossScore": 0.9998925561164038
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998917113463751,
+      "CrossScore": 0.9998917113463751
+    },
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General",
+      "FinalScore": 0.9998895386037664,
+      "CrossScore": 0.9998895386037664
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998828015986458,
+      "CrossScore": 0.9998828015986458
+    },
+    {
+      "Question": "नैनो यूरिया का स्प्रे करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.99988169832413,
+      "CrossScore": 0.99988169832413
+    },
+    {
+      "Question": "'नीम का तेल' और पर्यावरण?",
+      "Crop": "General",
+      "FinalScore": 0.9998797118679635,
+      "CrossScore": 0.9998797118679635
+    }
+  ],
+  "latency_ms": 222.49,
+  "final_returned": [
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "Score": 0.9999084767706357
+    },
+    {
+      "Question": "'कीटनाशकों' का छिड़काव करते समय 'खाना'?",
+      "Crop": "General",
+      "Score": 0.9999075224485815
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "Score": 0.9998997384730833
+    },
+    {
+      "Question": "'नीम का तेल' स्प्रे करते समय साबुन?",
+      "Crop": "General",
+      "Score": 0.9998967168206153
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General",
+      "Score": 0.9998925561164038
+    }
+  ]
+}

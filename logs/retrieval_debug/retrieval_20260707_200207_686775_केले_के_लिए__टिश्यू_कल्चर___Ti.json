@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:07.496637",
+  "query_original": "केले के लिए 'टिश्यू कल्चर' (Tissue Culture) पौधे क्यों श्रेष्ठ हैं?",
+  "query_normalized": "केले के लिए टिश्यू कल्चर tissue culture पौधे क्यों श्रेष्ठ हैं",
+  "query_expanded": "केले के लिए टिश्यू कल्चर tissue culture पौधे क्यों श्रेष्ठ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "केले के लिए 'टिश्यू कल्चर' (Tissue Culture) पौधे क्यों श्रेष्ठ हैं?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की सिंचाई के लिए 'ड्रिप' श्रेष्ठ क्यों है?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "पपीते की सिंचाई के लिए 'ड्रिप' श्रेष्ठ क्यों है?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "सरसों में 'फास्फोरस' के लिए एसएसपी (SSP) क्यों श्रेष्ठ है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सब्जियों के लिए 'वर्मीकम्पोस्ट' क्यों श्रेष्ठ है?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "केले के लिए 'टिश्यू कल्चर' (Tissue Culture) पौधे क्यों श्रेष्ठ हैं?",
+      "Crop": "Banana",
+      "FinalScore": 999.8939316151179,
+      "CrossScore": 0.999893931615118
+    },
+    {
+      "Question": "केले (Banana) की रोपाई के लिए कौन सी विधि श्रेष्ठ है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998639614564881,
+      "CrossScore": 0.9998639614564881
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9987926089563717,
+      "CrossScore": 0.9987926089563717
+    },
+    {
+      "Question": "आलू के भंडारण के लिए कौन सी जगह श्रेष्ठ है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9987824168846761,
+      "CrossScore": 0.9987824168846761
+    },
+    {
+      "Question": "लीची के पौधे कैसे तैयार किए जाते हैं?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9986681429016643,
+      "CrossScore": 0.9986681429016643
+    },
+    {
+      "Question": "सब्जियों के लिए 'वर्मीकम्पोस्ट' क्यों श्रेष्ठ है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.99848146803192,
+      "CrossScore": 0.99848146803192
+    },
+    {
+      "Question": "लीची की कटाई के समय 'डंठल' के साथ पत्तियों को क्यों छोड़ते हैं?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9984679242638411,
+      "CrossScore": 0.9984679242638411
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला ट्रैप' ही क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.9984248749016031,
+      "CrossScore": 0.9984248749016031
+    },
+    {
+      "Question": "क्या मशीनों के लिए सोलर चार्जिंग स्टेशन हो सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984138415363385,
+      "CrossScore": 0.9984138415363385
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.998300761726869,
+      "CrossScore": 0.998300761726869
+    }
+  ],
+  "latency_ms": 190.2,
+  "final_returned": [
+    {
+      "Question": "केले के लिए 'टिश्यू कल्चर' (Tissue Culture) पौधे क्यों श्रेष्ठ हैं?",
+      "Crop": "Banana",
+      "Score": 999.8939316151179
+    },
+    {
+      "Question": "केले (Banana) की रोपाई के लिए कौन सी विधि श्रेष्ठ है?",
+      "Crop": "Banana",
+      "Score": 0.9998639614564881
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9987926089563717
+    },
+    {
+      "Question": "आलू के भंडारण के लिए कौन सी जगह श्रेष्ठ है?",
+      "Crop": "Potato",
+      "Score": 0.9987824168846761
+    },
+    {
+      "Question": "लीची के पौधे कैसे तैयार किए जाते हैं?",
+      "Crop": "Litchi",
+      "Score": 0.9986681429016643
+    }
+  ]
+}

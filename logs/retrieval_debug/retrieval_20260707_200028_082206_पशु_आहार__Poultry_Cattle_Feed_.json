@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:27.874892",
+  "query_original": "पशु आहार (Poultry/Cattle Feed) बनाने का यूनिट कैसे लगाएं?",
+  "query_normalized": "पशु आहार poultry cattle feed बनाने का यूनिट कैसे लगाएं",
+  "query_expanded": "पशु आहार poultry cattle feed बनाने का यूनिट कैसे लगाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशु आहार (Poultry/Cattle Feed) बनाने का यूनिट कैसे लगाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पशु आहार' (Poultry/Cattle Feed) यूनिट?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'पशु बीमा' (Cattle Insurance) में टैगिंग का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'यूरिया' की मात्रा का सही हिसाब कैसे लगाएं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "पशुओं का बीमा (Cattle Insurance) कैसे कराएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशु आहार (Poultry/Cattle Feed) बनाने का यूनिट कैसे लगाएं?",
+      "Crop": "General",
+      "FinalScore": 999.8949127982974,
+      "CrossScore": 0.9998949127982973
+    },
+    {
+      "Question": "'पशु आहार' (Poultry/Cattle Feed) यूनिट?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998745789160847,
+      "CrossScore": 0.9998745789160847
+    },
+    {
+      "Question": "मुर्गी पालन (Poultry Farming) का परिचय क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9993847565622109,
+      "CrossScore": 0.9993847565622109
+    },
+    {
+      "Question": "'पशु बीमा' (Cattle Insurance) में टैगिंग का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9986912509615047,
+      "CrossScore": 0.9986912509615047
+    },
+    {
+      "Question": "पशुओं का बीमा (Cattle Insurance) कैसे कराएं?",
+      "Crop": "General",
+      "FinalScore": 0.99821306556817,
+      "CrossScore": 0.99821306556817
+    },
+    {
+      "Question": "सुअरों का आहार प्रबंधन?",
+      "Crop": "Livestock",
+      "FinalScore": 0.98842110390476,
+      "CrossScore": 0.98842110390476
+    },
+    {
+      "Question": "'दूध का पाउडर' बनाने का लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9884057588011345,
+      "CrossScore": 0.9884057588011345
+    },
+    {
+      "Question": "खीरा वर्गीय फसलों (Cucurbits) में 'फल मक्खी' का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9874098709784243,
+      "CrossScore": 0.9874098709784243
+    },
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9868563084964012,
+      "CrossScore": 0.9868563084964012
+    },
+    {
+      "Question": "मृत पशु का निस्तारण (Disposal) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9862950037921752,
+      "CrossScore": 0.9862950037921752
+    }
+  ],
+  "latency_ms": 207.36,
+  "final_returned": [
+    {
+      "Question": "पशु आहार (Poultry/Cattle Feed) बनाने का यूनिट कैसे लगाएं?",
+      "Crop": "General",
+      "Score": 999.8949127982974
+    },
+    {
+      "Question": "'पशु आहार' (Poultry/Cattle Feed) यूनिट?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998745789160847
+    },
+    {
+      "Question": "मुर्गी पालन (Poultry Farming) का परिचय क्या है?",
+      "Crop": "Poultry",
+      "Score": 0.9993847565622109
+    },
+    {
+      "Question": "'पशु बीमा' (Cattle Insurance) में टैगिंग का महत्व?",
+      "Crop": "General",
+      "Score": 0.9986912509615047
+    },
+    {
+      "Question": "पशुओं का बीमा (Cattle Insurance) कैसे कराएं?",
+      "Crop": "General",
+      "Score": 0.99821306556817
+    }
+  ]
+}

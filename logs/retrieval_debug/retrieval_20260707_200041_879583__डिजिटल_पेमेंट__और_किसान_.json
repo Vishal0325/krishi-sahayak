@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:41.693106",
+  "query_original": "'डिजिटल पेमेंट' और किसान?",
+  "query_normalized": "डिजिटल पेमेंट और किसान",
+  "query_expanded": "डिजिटल पेमेंट और किसान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'डिजिटल पेमेंट' और किसान?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ला नीना' और किसान की खुशी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) और मार्केट पावर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'डिजिटल पेमेंट' और किसान?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.8657121953246,
+      "CrossScore": 0.9998657121953246
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "FinalScore": 0.9998945732458309,
+      "CrossScore": 0.9998945732458309
+    },
+    {
+      "Question": "'एग्री-फिनटेक' और डिजिटल लोन?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998670005578283,
+      "CrossScore": 0.9998670005578283
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General",
+      "FinalScore": 0.9998639733900959,
+      "CrossScore": 0.9998639733900959
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "FinalScore": 0.999857219763449,
+      "CrossScore": 0.999857219763449
+    },
+    {
+      "Question": "'स्मार्ट खेती' और 'इंटरनेट ऑफ थिंग्स' (IoT)?",
+      "Crop": "General",
+      "FinalScore": 0.9998489546054328,
+      "CrossScore": 0.9998489546054328
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' और 'किसान मित्र'?",
+      "Crop": "General",
+      "FinalScore": 0.999843420975709,
+      "CrossScore": 0.999843420975709
+    },
+    {
+      "Question": "'डिजिटल सॉयल मैपिंग' और सिंचाई?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998394955097775,
+      "CrossScore": 0.9998394955097775
+    },
+    {
+      "Question": "'डिजिटल भुगतान' (Digital Payment) के लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.999837483324535,
+      "CrossScore": 0.999837483324535
+    },
+    {
+      "Question": "फसल सुरक्षा और 'डिजिटल ऐप'?",
+      "Crop": "General",
+      "FinalScore": 0.999833245809534,
+      "CrossScore": 0.999833245809534
+    }
+  ],
+  "latency_ms": 186.5,
+  "final_returned": [
+    {
+      "Question": "'डिजिटल पेमेंट' और किसान?",
+      "Crop": "Agri Tech",
+      "Score": 999.8657121953246
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "Score": 0.9998945732458309
+    },
+    {
+      "Question": "'एग्री-फिनटेक' और डिजिटल लोन?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998670005578283
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General",
+      "Score": 0.9998639733900959
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "Score": 0.999857219763449
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:44.519988",
+  "query_original": "'बछड़ों' में होने वाली मुख्य बीमारी?",
+  "query_normalized": "बछड़ों में होने वाली मुख्य बीमारी",
+  "query_expanded": "फंगस बीमारी fungus बछड़ों में होने वाली मुख्य बीमारी disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बछड़ों' में होने वाली मुख्य बीमारी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "धान में झुलसा रोग के लक्षण?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.999052282702037,
+      "CrossScore": 0.9999052282702037
+    },
+    {
+      "Question": "धान in 'लीफ फोल्डर' के बाद होने वाली बीमारी?",
+      "Crop": "Rice",
+      "FinalScore": 9.999022818927749,
+      "CrossScore": 0.999902281892775
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.99894487859448,
+      "CrossScore": 0.999894487859448
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99889503733187,
+      "CrossScore": 0.999889503733187
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "FinalScore": 9.998887662514019,
+      "CrossScore": 0.9998887662514019
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "FinalScore": 9.998856867970357,
+      "CrossScore": 0.9998856867970356
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998828020456688,
+      "CrossScore": 0.9998828020456689
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 9.998756773502471,
+      "CrossScore": 0.9998756773502471
+    },
+    {
+      "Question": "'सरसों' में 'झुलसा' (Blight) का प्रबंधन?",
+      "Crop": "Mustard",
+      "FinalScore": 9.998291676198004,
+      "CrossScore": 0.9998291676198005
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.997494494485558,
+      "CrossScore": 0.9997494494485557
+    }
+  ],
+  "latency_ms": 204.02,
+  "final_returned": [
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "Score": 9.999052282702037
+    },
+    {
+      "Question": "धान in 'लीफ फोल्डर' के बाद होने वाली बीमारी?",
+      "Crop": "Rice",
+      "Score": 9.999022818927749
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.99894487859448
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.99889503733187
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "Score": 9.998887662514019
+    }
+  ]
+}

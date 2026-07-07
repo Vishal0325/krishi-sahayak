@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:37.537854",
+  "query_original": "'नीम की खली' और 'सफेद ग्रब'?",
+  "query_normalized": "नीम की खली और सफेद ग्रब",
+  "query_expanded": "नीम की खली और सफेद ग्रब",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम की खली' और 'सफेद ग्रब'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम की खली' और 'दीमक'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम की खली' और 'मिट्टी के कीड़े'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम की खली' और 'सफेद ग्रब'?",
+      "Crop": "General",
+      "FinalScore": 0.9999166582039054,
+      "CrossScore": 0.9999166582039054
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999010505319119,
+      "CrossScore": 0.9999010505319119
+    },
+    {
+      "Question": "'नीम की खली' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.999887210257276,
+      "CrossScore": 0.999887210257276
+    },
+    {
+      "Question": "'नीम की खली' का कीटों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998870779977181,
+      "CrossScore": 0.9998870779977181
+    },
+    {
+      "Question": "'नीम की खली' और 'दीमक'?",
+      "Crop": "General",
+      "FinalScore": 0.9998716083282759,
+      "CrossScore": 0.9998716083282759
+    },
+    {
+      "Question": "'दीमक' से बचाव के लिए 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 0.9998564438066881,
+      "CrossScore": 0.9998564438066881
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 0.9998501810254262,
+      "CrossScore": 0.9998501810254262
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998440720682545,
+      "CrossScore": 0.9998440720682545
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998437431362314,
+      "CrossScore": 0.9998437431362314
+    },
+    {
+      "Question": "बैंगन में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998413436664357,
+      "CrossScore": 0.9998413436664357
+    }
+  ],
+  "latency_ms": 159.73,
+  "final_returned": [
+    {
+      "Question": "'नीम की खली' और 'सफेद ग्रब'?",
+      "Crop": "General",
+      "Score": 0.9999166582039054
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999010505319119
+    },
+    {
+      "Question": "'नीम की खली' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "Score": 0.999887210257276
+    },
+    {
+      "Question": "'नीम की खली' का कीटों पर असर?",
+      "Crop": "General",
+      "Score": 0.9998870779977181
+    },
+    {
+      "Question": "'नीम की खली' और 'दीमक'?",
+      "Crop": "General",
+      "Score": 0.9998716083282759
+    }
+  ]
+}

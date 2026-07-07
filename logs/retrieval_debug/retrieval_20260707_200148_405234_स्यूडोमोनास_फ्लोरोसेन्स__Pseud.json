@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:48.222937",
+  "query_original": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के लाभ?",
+  "query_normalized": "स्यूडोमोनास फ्लोरोसेन्स pseudomonas fluorescens के लाभ",
+  "query_expanded": "स्यूडोमोनास फ्लोरोसेन्स pseudomonas fluorescens के लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "खेती में 'दाल' आधारित फसल चक्र के लाभ?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 999.8790536347597,
+      "CrossScore": 0.9998790536347597
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998786284767961,
+      "CrossScore": 0.9998786284767961
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9974529271101689,
+      "CrossScore": 0.9974529271101689
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' के लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9973976391367706,
+      "CrossScore": 0.9973976391367706
+    },
+    {
+      "Question": "धतूरा (Dhatura) की खेती के औषधीय लाभ?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9971008079149632,
+      "CrossScore": 0.9971008079149632
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9960959648219669,
+      "CrossScore": 0.9960959648219669
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'स्यूडोमोनास'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9958871674125437,
+      "CrossScore": 0.9958871674125437
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9956114361730505,
+      "CrossScore": 0.9956114361730505
+    },
+    {
+      "Question": "मिर्च की 'जायद' उत्पादन के लाभ?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9949650833512026,
+      "CrossScore": 0.9949650833512026
+    },
+    {
+      "Question": "दालों के विपणन के लिए 'एफपीओ' (FPO) का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9948231047449898,
+      "CrossScore": 0.9948231047449898
+    }
+  ],
+  "latency_ms": 182.35,
+  "final_returned": [
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के लाभ?",
+      "Crop": "General",
+      "Score": 999.8790536347597
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998786284767961
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.9974529271101689
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' के लाभ?",
+      "Crop": "Fruits",
+      "Score": 0.9973976391367706
+    },
+    {
+      "Question": "धतूरा (Dhatura) की खेती के औषधीय लाभ?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9971008079149632
+    }
+  ]
+}

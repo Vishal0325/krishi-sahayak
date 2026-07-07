@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:43.992100",
+  "query_original": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+  "query_normalized": "आर्द्रताग्राही hygroscopic उर्वरक क्या होते हैं",
+  "query_expanded": "poshak खाद आर्द्रताग्राही hygroscopic उर्वरक क्या होते हैं पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी शोरूम होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.886360526679,
+      "CrossScore": 0.999886360526679
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995278189359579,
+      "CrossScore": 0.9995278189359579
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994441440246803,
+      "CrossScore": 0.9994441440246803
+    },
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994351815559471,
+      "CrossScore": 0.9994351815559471
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9993840128756167,
+      "CrossScore": 0.9993840128756167
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999340911665034,
+      "CrossScore": 0.999340911665034
+    },
+    {
+      "Question": "क्या रासायनिक उर्वरक मिट्टी को खराब करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9993213863707958,
+      "CrossScore": 0.9993213863707958
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992930111832414,
+      "CrossScore": 0.9992930111832414
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी शोरूम होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992598288009615,
+      "CrossScore": 0.9992598288009615
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999253759845559,
+      "CrossScore": 0.999253759845559
+    }
+  ],
+  "latency_ms": 231.48,
+  "final_returned": [
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 999.886360526679
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9995278189359579
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9994441440246803
+    },
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9994351815559471
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9993840128756167
+    }
+  ]
+}

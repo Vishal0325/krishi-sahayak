@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:04.801511",
+  "query_original": "फूलगोभी in 'हलो स्टेम' (Hollow Stem) क्यों होता है?",
+  "query_normalized": "फूलगोभी in हलो स्टेम hollow stem क्यों होता है",
+  "query_expanded": "फूलगोभी in हलो स्टेम hollow stem क्यों होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलगोभी in 'हलो स्टेम' (Hollow Stem) क्यों होता है?",
+      "Crop": "Cauliflower"
+    },
+    {
+      "Question": "पपीते in 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "पौधों in 'फास्फोरस' की कमी से बैंगनी रंग क्यों आता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पपीते में 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "आलू के दानों का 'हरा रंग' क्यों होता है?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फूलगोभी in 'हलो स्टेम' (Hollow Stem) क्यों होता है?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9998975526398399,
+      "CrossScore": 0.9998975526398399
+    },
+    {
+      "Question": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9992712512841562,
+      "CrossScore": 0.9992712512841562
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9991517806532467,
+      "CrossScore": 0.9991517806532467
+    },
+    {
+      "Question": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+      "Crop": "Mango",
+      "FinalScore": 0.9990672031479694,
+      "CrossScore": 0.9990672031479694
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9990290068624347,
+      "CrossScore": 0.9990290068624347
+    },
+    {
+      "Question": "पौधों in 'फास्फोरस' की कमी से बैंगनी रंग क्यों आता है?",
+      "Crop": "General",
+      "FinalScore": 0.998983863421339,
+      "CrossScore": 0.998983863421339
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से रोगों का खतरा क्यों बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9988703461690558,
+      "CrossScore": 0.9988703461690558
+    },
+    {
+      "Question": "लीची का 'फल फटना' (Fruit Cracking) क्यों होता है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9988188255238646,
+      "CrossScore": 0.9988188255238646
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9987998492882408,
+      "CrossScore": 0.9987998492882408
+    },
+    {
+      "Question": "फूलगोभी in 'व्हिपटेल' का कारण?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9987802944108242,
+      "CrossScore": 0.9987802944108242
+    }
+  ],
+  "latency_ms": 511.45,
+  "final_returned": [
+    {
+      "Question": "फूलगोभी in 'हलो स्टेम' (Hollow Stem) क्यों होता है?",
+      "Crop": "Cauliflower",
+      "Score": 0.9998975526398399
+    },
+    {
+      "Question": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "Score": 0.9992712512841562
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "Score": 0.9991517806532467
+    },
+    {
+      "Question": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+      "Crop": "Mango",
+      "Score": 0.9990672031479694
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9990290068624347
+    }
+  ]
+}

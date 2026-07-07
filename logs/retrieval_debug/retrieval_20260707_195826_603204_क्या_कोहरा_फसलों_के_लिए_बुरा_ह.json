@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:26.402500",
+  "query_original": "क्या कोहरा फसलों के लिए बुरा है?",
+  "query_normalized": "क्या कोहरा फसलों के लिए बुरा है",
+  "query_expanded": "क्या कोहरा फसलों के लिए बुरा है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या कोहरा फसलों के लिए बुरा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बटन मशरूम के लिए उपयुक्त तापमान क्या है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999454947842702,
+      "CrossScore": 0.9999454947842702
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9999360807117322,
+      "CrossScore": 0.9999360807117322
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "FinalScore": 0.9999360294896197,
+      "CrossScore": 0.9999360294896197
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999358685442601,
+      "CrossScore": 0.9999358685442601
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999356731576907,
+      "CrossScore": 0.9999356731576907
+    },
+    {
+      "Question": "किसानों के लिए व्यापारिक सलाह क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999354899728109,
+      "CrossScore": 0.9999354899728109
+    },
+    {
+      "Question": "क्या कोहरा फसलों के लिए बुरा है?",
+      "Crop": "General",
+      "FinalScore": 0.9999349276648484,
+      "CrossScore": 0.9999349276648484
+    },
+    {
+      "Question": "क्या जैविक दवाएं मनुष्यों के लिए सुरक्षित हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999933699088911,
+      "CrossScore": 0.999933699088911
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9999274543755811,
+      "CrossScore": 0.9999274543755811
+    },
+    {
+      "Question": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999265962836285,
+      "CrossScore": 0.9999265962836285
+    }
+  ],
+  "latency_ms": 200.85,
+  "final_returned": [
+    {
+      "Question": "बटन मशरूम के लिए उपयुक्त तापमान क्या है?",
+      "Crop": "Mushroom",
+      "Score": 0.9999454947842702
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "Score": 0.9999360807117322
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "Score": 0.9999360294896197
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999358685442601
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits",
+      "Score": 0.9999356731576907
+    }
+  ]
+}

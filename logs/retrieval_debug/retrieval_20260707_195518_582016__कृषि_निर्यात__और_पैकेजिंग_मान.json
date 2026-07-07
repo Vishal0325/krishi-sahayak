@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:18.375884",
+  "query_original": "'कृषि निर्यात' और पैकेजिंग मानक?",
+  "query_normalized": "कृषि निर्यात और पैकेजिंग मानक",
+  "query_expanded": "कृषि निर्यात और पैकेजिंग मानक",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि निर्यात' और पैकेजिंग मानक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "बैंगन के भंडारण और पैकेजिंग?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.9999208864795992,
+      "CrossScore": 0.9999208864795992
+    },
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999174351566141,
+      "CrossScore": 0.9999174351566141
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "FinalScore": 0.9999061579546192,
+      "CrossScore": 0.9999061579546192
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999041133412118,
+      "CrossScore": 0.9999041133412118
+    },
+    {
+      "Question": "'कृषि निर्यात' और पैकेजिंग मानक?",
+      "Crop": "General",
+      "FinalScore": 0.9998921448949694,
+      "CrossScore": 0.9998921448949694
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General",
+      "FinalScore": 0.999890966349609,
+      "CrossScore": 0.999890966349609
+    },
+    {
+      "Question": "कृषि उत्पादों की ग्रेडिंग (Grading) और पैकिंग क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998798630646818,
+      "CrossScore": 0.9998798630646818
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "FinalScore": 0.9998780337678349,
+      "CrossScore": 0.9998780337678349
+    },
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998756996353823,
+      "CrossScore": 0.9998756996353823
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए 'अपीडा' (APEDA)?",
+      "Crop": "General",
+      "FinalScore": 0.9998736857185834,
+      "CrossScore": 0.9998736857185834
+    }
+  ],
+  "latency_ms": 206.27,
+  "final_returned": [
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.9999208864795992
+    },
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General",
+      "Score": 0.9999174351566141
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "Score": 0.9999061579546192
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics",
+      "Score": 0.9999041133412118
+    },
+    {
+      "Question": "'कृषि निर्यात' और पैकेजिंग मानक?",
+      "Crop": "General",
+      "Score": 0.9998921448949694
+    }
+  ]
+}

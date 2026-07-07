@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:08.877266",
+  "query_original": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+  "query_normalized": "टमाटर में बैक्टीरियल विल्ट bilt की पहचान",
+  "query_expanded": "टमाटर में बैक्टीरियल विल्ट bilt की पहचान",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'बैक्टीरियल विल्ट' की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर में 'लीफ माइनर' कीट की पहचान?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49991.987284766234,
+      "CrossScore": 0.9998397456953247
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98690352629298,
+      "CrossScore": 0.9997380705258596
+    },
+    {
+      "Question": "टमाटर की फसल में 'पाले' से बचाव?",
+      "Crop": "Tomato",
+      "FinalScore": 49.9815091435385,
+      "CrossScore": 0.9996301828707701
+    },
+    {
+      "Question": "टमाटर in 'बैक्टीरियल विल्ट' की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97813701069099,
+      "CrossScore": 0.9995627402138199
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97699124182014,
+      "CrossScore": 0.9995398248364027
+    },
+    {
+      "Question": "टमाटर की खेती में 'हरी खाद' के फायदे?",
+      "Crop": "Tomato",
+      "FinalScore": 49.976686882196944,
+      "CrossScore": 0.9995337376439389
+    },
+    {
+      "Question": "टमाटर की खेती में 'नर्सरी' को बीमारियों से बचाना?",
+      "Crop": "Tomato",
+      "FinalScore": 49.976168390927725,
+      "CrossScore": 0.9995233678185544
+    },
+    {
+      "Question": "टमाटर की फसल में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97538670668759,
+      "CrossScore": 0.9995077341337517
+    },
+    {
+      "Question": "टमाटर की खेती में 'मजदूरी' कम करने के तरीके?",
+      "Crop": "Tomato",
+      "FinalScore": 49.975141233500935,
+      "CrossScore": 0.9995028246700187
+    },
+    {
+      "Question": "टमाटर की खेती में सबसे बड़ी चुनौती?",
+      "Crop": "Tomato",
+      "FinalScore": 49.97432485986801,
+      "CrossScore": 0.9994864971973603
+    }
+  ],
+  "latency_ms": 208.67,
+  "final_returned": [
+    {
+      "Question": "'टमाटर' में 'बैक्टीरियल विल्ट' (Bilt) की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49991.987284766234
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "Score": 49.98690352629298
+    },
+    {
+      "Question": "टमाटर की फसल में 'पाले' से बचाव?",
+      "Crop": "Tomato",
+      "Score": 49.9815091435385
+    },
+    {
+      "Question": "टमाटर in 'बैक्टीरियल विल्ट' की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.97813701069099
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.97699124182014
+    }
+  ]
+}

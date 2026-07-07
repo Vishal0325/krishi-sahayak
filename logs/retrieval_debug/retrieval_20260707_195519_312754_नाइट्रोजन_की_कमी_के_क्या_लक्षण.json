@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:19.122231",
+  "query_original": "नाइट्रोजन की कमी के क्या लक्षण हैं?",
+  "query_normalized": "नाइट्रोजन की कमी के क्या लक्षण हैं",
+  "query_expanded": "नाइट्रोजन urea nitrogen नाइट्रोजन की कमी के क्या लक्षण हैं यूरिया",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नाइट्रोजन की कमी के क्या लक्षण हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में जस्ते (Zinc) की कमी के क्या लक्षण हैं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का में जिंक की कमी के लक्षण क्या हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मैंगनीज की कमी के लक्षण क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मैंगनीज की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999940997466501,
+      "CrossScore": 0.999940997466501
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999940433252586,
+      "CrossScore": 0.999940433252586
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999382812216455,
+      "CrossScore": 0.9999382812216455
+    },
+    {
+      "Question": "मक्का में 'नाइट्रोजन' की कमी से पत्तियां कैसी दिखती हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999332521036632,
+      "CrossScore": 0.9999332521036632
+    },
+    {
+      "Question": "मक्का में जिंक की कमी के लक्षण क्या हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999313091539794,
+      "CrossScore": 0.9999313091539794
+    },
+    {
+      "Question": "धान में नाइट्रोजन की कमी के लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999258431872113,
+      "CrossScore": 0.9999258431872113
+    },
+    {
+      "Question": "लहसुन में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9999245177880555,
+      "CrossScore": 0.9999245177880555
+    },
+    {
+      "Question": "नाइट्रोजन की कमी के क्या लक्षण हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999229972140207,
+      "CrossScore": 0.9999229972140207
+    },
+    {
+      "Question": "प्याज में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Onion",
+      "FinalScore": 0.9999205911757807,
+      "CrossScore": 0.9999205911757807
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999197455616545,
+      "CrossScore": 0.9999197455616545
+    }
+  ],
+  "latency_ms": 190.63,
+  "final_returned": [
+    {
+      "Question": "मैंगनीज की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 0.999940997466501
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.999940433252586
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9999382812216455
+    },
+    {
+      "Question": "मक्का में 'नाइट्रोजन' की कमी से पत्तियां कैसी दिखती हैं?",
+      "Crop": "Maize",
+      "Score": 0.9999332521036632
+    },
+    {
+      "Question": "मक्का में जिंक की कमी के लक्षण क्या हैं?",
+      "Crop": "Maize",
+      "Score": 0.9999313091539794
+    }
+  ]
+}

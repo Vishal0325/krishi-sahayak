@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:59.035926",
+  "query_original": "'हो' (Hand Hoe) बनाम खरपतवारनाशी?",
+  "query_normalized": "हो hand hoe बनाम खरपतवारनाशी",
+  "query_expanded": "हो hand hoe बनाम खरपतवारनाशी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'हो' (Hand Hoe) बनाम खरपतवारनाशी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'हो' (Hoe)?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'हो' (Hand Hoe) बनाम खरपतवारनाशी?",
+      "Crop": "General",
+      "FinalScore": 999.9202559969006,
+      "CrossScore": 0.9999202559969006
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'हो' (Hoe)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998244527232092,
+      "CrossScore": 0.9998244527232092
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997712301986612,
+      "CrossScore": 0.9997712301986612
+    },
+    {
+      "Question": "'टेंडम' (Tendem) खरपतवारनाशी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996678824228812,
+      "CrossScore": 0.9996678824228812
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "FinalScore": 0.9994929565611269,
+      "CrossScore": 0.9994929565611269
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9994195775591811,
+      "CrossScore": 0.9994195775591811
+    },
+    {
+      "Question": "क्या मशीनों के लिए सोलर चार्जिंग स्टेशन हो सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9993308657501151,
+      "CrossScore": 0.9993308657501151
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9992455429159917,
+      "CrossScore": 0.9992455429159917
+    },
+    {
+      "Question": "क्या खरपतवारनाशी को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992443654149817,
+      "CrossScore": 0.9992443654149817
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991745269927691,
+      "CrossScore": 0.9991745269927691
+    }
+  ],
+  "latency_ms": 211.29,
+  "final_returned": [
+    {
+      "Question": "'हो' (Hand Hoe) बनाम खरपतवारनाशी?",
+      "Crop": "General",
+      "Score": 999.9202559969006
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'हो' (Hoe)?",
+      "Crop": "Wheat",
+      "Score": 0.9998244527232092
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9997712301986612
+    },
+    {
+      "Question": "'टेंडम' (Tendem) खरपतवारनाशी क्या है?",
+      "Crop": "General",
+      "Score": 0.9996678824228812
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "Score": 0.9994929565611269
+    }
+  ]
+}

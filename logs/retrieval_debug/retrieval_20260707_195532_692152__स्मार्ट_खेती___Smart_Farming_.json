@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:32.484551",
+  "query_original": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+  "query_normalized": "स्मार्ट खेती smart farming क्या है",
+  "query_expanded": "स्मार्ट खेती smart farming क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अनुबंध खेती (Contract Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "FinalScore": 0.9999242480299773,
+      "CrossScore": 0.9999242480299773
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999917306090426,
+      "CrossScore": 0.999917306090426
+    },
+    {
+      "Question": "अनुबंध खेती (Contract Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998171352255585,
+      "CrossScore": 0.9998171352255585
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997977165095796,
+      "CrossScore": 0.9997977165095796
+    },
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997898914578377,
+      "CrossScore": 0.9997898914578377
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997745597980325,
+      "CrossScore": 0.9997745597980325
+    },
+    {
+      "Question": "वर्षा आधारित खेती (Rainfed Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997452285772561,
+      "CrossScore": 0.9997452285772561
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "FinalScore": 0.9997447861027133,
+      "CrossScore": 0.9997447861027133
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9997336920371375,
+      "CrossScore": 0.9997336920371375
+    },
+    {
+      "Question": "जलवायु स्मार्ट गांव (Climate Smart Village) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996209109821335,
+      "CrossScore": 0.9996209109821335
+    }
+  ],
+  "latency_ms": 207.75,
+  "final_returned": [
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "Score": 0.9999242480299773
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "Score": 0.999917306090426
+    },
+    {
+      "Question": "अनुबंध खेती (Contract Farming) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998171352255585
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9997977165095796
+    },
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9997898914578377
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:50.460851",
+  "query_original": "खरपतवारों का 'आर्थिक नुकसान स्तर'?",
+  "query_normalized": "खरपतवारों का आर्थिक नुकसान स्तर",
+  "query_expanded": "खरपतवारों का आर्थिक नुकसान स्तर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खरपतवारों का 'आर्थिक नुकसान स्तर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान स्तर' (ETL) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धान in 'हॉपर बर्न' का आर्थिक नुकसान?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "खरपतवारों का 'आर्थिक नुकसान स्तर'?",
+      "Crop": "General",
+      "FinalScore": 0.9998550540252761,
+      "CrossScore": 0.9998550540252761
+    },
+    {
+      "Question": "'आर्थिक नुकसान स्तर' (ETL) क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9998236857662801,
+      "CrossScore": 0.9998236857662801
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'फसल सुरक्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.9998159039429552,
+      "CrossScore": 0.9998159039429552
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 0.9998114258107467,
+      "CrossScore": 0.9998114258107467
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'उपज'?",
+      "Crop": "General",
+      "FinalScore": 0.9998100778777287,
+      "CrossScore": 0.9998100778777287
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'कार्रवाई'?",
+      "Crop": "General",
+      "FinalScore": 0.9998046517169918,
+      "CrossScore": 0.9998046517169918
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान स्तर' (ETL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998000380152661,
+      "CrossScore": 0.9998000380152661
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General",
+      "FinalScore": 0.999793712700263,
+      "CrossScore": 0.999793712700263
+    },
+    {
+      "Question": "आर्थिक नुकसान स्तर (ETL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997899489455501,
+      "CrossScore": 0.9997899489455501
+    },
+    {
+      "Question": "कीटों का 'आर्थिक देहरी स्तर' (EIL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997834848536653,
+      "CrossScore": 0.9997834848536653
+    }
+  ],
+  "latency_ms": 232.31,
+  "final_returned": [
+    {
+      "Question": "खरपतवारों का 'आर्थिक नुकसान स्तर'?",
+      "Crop": "General",
+      "Score": 0.9998550540252761
+    },
+    {
+      "Question": "'आर्थिक नुकसान स्तर' (ETL) क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9998236857662801
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'फसल सुरक्षा'?",
+      "Crop": "General",
+      "Score": 0.9998159039429552
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "Score": 0.9998114258107467
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'उपज'?",
+      "Crop": "General",
+      "Score": 0.9998100778777287
+    }
+  ]
+}

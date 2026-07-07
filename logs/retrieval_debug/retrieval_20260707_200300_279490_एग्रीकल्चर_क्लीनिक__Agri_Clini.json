@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:00.079706",
+  "query_original": "एग्रीकल्चर क्लीनिक (Agri Clinic) योजना?",
+  "query_normalized": "एग्रीकल्चर क्लीनिक agri clinic योजना",
+  "query_expanded": "एग्रीकल्चर क्लीनिक agri clinic योजना",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एग्रीकल्चर क्लीनिक (Agri Clinic) योजना?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एग्रीकल्चर क्लीनिक (Agri Clinic) योजना?",
+      "Crop": "General",
+      "FinalScore": 9998.817332894185,
+      "CrossScore": 0.9998817332894184
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998665270541326,
+      "CrossScore": 0.9998665270541326
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999849835771236,
+      "CrossScore": 0.999849835771236
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9996811890416676,
+      "CrossScore": 0.9996811890416676
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999461369945287,
+      "CrossScore": 0.999461369945287
+    },
+    {
+      "Question": "'एग्रो-प्रोसेसिंग' (Agri-processing) से लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.999406833692981,
+      "CrossScore": 0.999406833692981
+    },
+    {
+      "Question": "'एग्री-फिनटेक' (Agri Fintech) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9993836358490613,
+      "CrossScore": 0.9993836358490613
+    },
+    {
+      "Question": "'एग्री-टूरिज्म' (Agri-tourism) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9993639936938292,
+      "CrossScore": 0.9993639936938292
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9992543395542887,
+      "CrossScore": 0.9992543395542887
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agri-forestry) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9991757963474576,
+      "CrossScore": 0.9991757963474576
+    }
+  ],
+  "latency_ms": 199.82,
+  "final_returned": [
+    {
+      "Question": "एग्रीकल्चर क्लीनिक (Agri Clinic) योजना?",
+      "Crop": "General",
+      "Score": 9998.817332894185
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "Score": 0.9998665270541326
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "Score": 0.999849835771236
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General",
+      "Score": 0.9996811890416676
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.999461369945287
+    }
+  ]
+}

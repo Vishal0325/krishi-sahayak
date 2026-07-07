@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:13.993505",
+  "query_original": "'कृषि यंत्रीकरण' से लागत कैसे कम होती है?",
+  "query_normalized": "कृषि यंत्रीकरण से लागत कैसे कम होती है",
+  "query_expanded": "कृषि यंत्रीकरण से लागत कैसे कम होती है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि यंत्रीकरण' से लागत कैसे कम होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से रोजगार कम होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 9.998896578811195,
+      "CrossScore": 0.9998896578811195
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) से लागत कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 9.998819436522814,
+      "CrossScore": 0.9998819436522813
+    },
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 9.9987178425928,
+      "CrossScore": 0.9998717842592799
+    },
+    {
+      "Question": "क्या जैविक खेती से पानी की बचत होती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 9.998619362797976,
+      "CrossScore": 0.9998619362797976
+    },
+    {
+      "Question": "सॉयल सोलरिजेशन से पैसा कैसे बचता है?",
+      "Crop": "General",
+      "FinalScore": 9.99858454686453,
+      "CrossScore": 0.999858454686453
+    },
+    {
+      "Question": "फसल चक्र (Crop Rotation) से मुनाफा कैसे बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 9.998496799037557,
+      "CrossScore": 0.9998496799037557
+    },
+    {
+      "Question": "'अवसर लागत' (Opportunity Cost) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 9.997555808316514,
+      "CrossScore": 0.9997555808316515
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998953261447792,
+      "CrossScore": 0.9998953261447792
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998938871024368,
+      "CrossScore": 0.9998938871024368
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' से लागत कैसे कम होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998929338190614,
+      "CrossScore": 0.9998929338190614
+    }
+  ],
+  "latency_ms": 278.17,
+  "final_returned": [
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "Score": 9.998896578811195
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) से लागत कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 9.998819436522814
+    },
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming",
+      "Score": 9.9987178425928
+    },
+    {
+      "Question": "क्या जैविक खेती से पानी की बचत होती है?",
+      "Crop": "Organic Farming",
+      "Score": 9.998619362797976
+    },
+    {
+      "Question": "सॉयल सोलरिजेशन से पैसा कैसे बचता है?",
+      "Crop": "General",
+      "Score": 9.99858454686453
+    }
+  ]
+}

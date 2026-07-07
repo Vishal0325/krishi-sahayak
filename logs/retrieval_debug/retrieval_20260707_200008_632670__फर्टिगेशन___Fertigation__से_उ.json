@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:08.423285",
+  "query_original": "'फर्टिगेशन' (Fertigation) से उर्वरक की बचत?",
+  "query_normalized": "फर्टिगेशन fertigation से उर्वरक की बचत",
+  "query_expanded": "poshak खाद फर्टिगेशन fertigation से उर्वरक की बचत पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फर्टिगेशन' (Fertigation) से उर्वरक की बचत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फर्टिगेशन' (Fertigation) के लिए कौन से उर्वरक चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'जीरो टिलेज' से कितनी बचत होती है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'लेजर लेवलर' से पानी की कितनी बचत होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फर्टिगेशन' और समय की बचत?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फर्टिगेशन' (Fertigation) से उर्वरक की बचत?",
+      "Crop": "General",
+      "FinalScore": 999.8856656480896,
+      "CrossScore": 0.9998856656480896
+    },
+    {
+      "Question": "'फर्टिगेशन' (Fertigation) के लिए कौन से उर्वरक चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998858481196679,
+      "CrossScore": 0.9998858481196679
+    },
+    {
+      "Question": "आलू की खेती में 'फर्टिगेशन' (Fertigation) के फायदे?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998258641059082,
+      "CrossScore": 0.9998258641059082
+    },
+    {
+      "Question": "'फर्टिगेशन' और समय की बचत?",
+      "Crop": "General",
+      "FinalScore": 0.9975834594224187,
+      "CrossScore": 0.9975834594224187
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' से होने वाली आर्थिक बचत?",
+      "Crop": "Economics",
+      "FinalScore": 0.9975209327348477,
+      "CrossScore": 0.9975209327348477
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9974849694201093,
+      "CrossScore": 0.9974849694201093
+    },
+    {
+      "Question": "'लेजर लेवलर' से पानी की कितनी बचत होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9973205502410872,
+      "CrossScore": 0.9973205502410872
+    },
+    {
+      "Question": "मखाना में 'यूरिया' की बचत के लिए 'जैव उर्वरक'?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9972981287321312,
+      "CrossScore": 0.9972981287321312
+    },
+    {
+      "Question": "गेहूं की 'जीरो टिलेज' से कितनी बचत होती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9972321567929338,
+      "CrossScore": 0.9972321567929338
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.997072697576228,
+      "CrossScore": 0.997072697576228
+    }
+  ],
+  "latency_ms": 209.42,
+  "final_returned": [
+    {
+      "Question": "'फर्टिगेशन' (Fertigation) से उर्वरक की बचत?",
+      "Crop": "General",
+      "Score": 999.8856656480896
+    },
+    {
+      "Question": "'फर्टिगेशन' (Fertigation) के लिए कौन से उर्वरक चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998858481196679
+    },
+    {
+      "Question": "आलू की खेती में 'फर्टिगेशन' (Fertigation) के फायदे?",
+      "Crop": "Potato",
+      "Score": 0.9998258641059082
+    },
+    {
+      "Question": "'फर्टिगेशन' और समय की बचत?",
+      "Crop": "General",
+      "Score": 0.9975834594224187
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' से होने वाली आर्थिक बचत?",
+      "Crop": "Economics",
+      "Score": 0.9975209327348477
+    }
+  ]
+}

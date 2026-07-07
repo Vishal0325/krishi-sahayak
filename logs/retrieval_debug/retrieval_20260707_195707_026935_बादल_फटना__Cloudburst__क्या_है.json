@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:06.864315",
+  "query_original": "बादल फटना (Cloudburst) क्या है?",
+  "query_normalized": "बादल फटना cloudburst क्या है",
+  "query_expanded": "बादल फटना cloudburst क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बादल फटना (Cloudburst) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बादल फटना (Cloudburst) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999190444831384,
+      "CrossScore": 0.9999190444831384
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997341963192244,
+      "CrossScore": 0.9997341963192244
+    },
+    {
+      "Question": "'ब्रेक-ईवन पॉइंट' (Break-even Point) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996795352595156,
+      "CrossScore": 0.9996795352595156
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9995655666769617,
+      "CrossScore": 0.9995655666769617
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9995263674067695,
+      "CrossScore": 0.9995263674067695
+    },
+    {
+      "Question": "दलहनी फसलों में 'फास्फोरस' की मात्रा बढ़ाने से क्या होता है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9994492697556718,
+      "CrossScore": 0.9994492697556718
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999448905335165,
+      "CrossScore": 0.999448905335165
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994448490206951,
+      "CrossScore": 0.9994448490206951
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994385699519648,
+      "CrossScore": 0.9994385699519648
+    },
+    {
+      "Question": "बागवानी में सफलता का मुख्य सूत्र क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9993992724068302,
+      "CrossScore": 0.9993992724068302
+    }
+  ],
+  "latency_ms": 162.69,
+  "final_returned": [
+    {
+      "Question": "बादल फटना (Cloudburst) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999190444831384
+    },
+    {
+      "Question": "बादल छाए रहने (Cloudy Weather) से कीटों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9997341963192244
+    },
+    {
+      "Question": "'ब्रेक-ईवन पॉइंट' (Break-even Point) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9996795352595156
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "Score": 0.9995655666769617
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses",
+      "Score": 0.9995263674067695
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:33.527446",
+  "query_original": "पपीते में सिंचाई का सही तरीका?",
+  "query_normalized": "पपीते में सिंचाई का सही तरीका",
+  "query_expanded": "पपीते में सिंचाई का सही तरीका",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पपीते में सिंचाई का सही तरीका?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में सिंचाई का सही तरीका?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "बैंगन में सिंचाई का सही तरीका?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "प्याज में सिंचाई का सही तरीका?",
+      "Crop": "Onion"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पपीते में सिंचाई का सही तरीका?",
+      "Crop": "Papaya",
+      "FinalScore": 999.9255114958387,
+      "CrossScore": 0.9999255114958387
+    },
+    {
+      "Question": "पत्तागोभी में सिंचाई का सही तरीका?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999237860424116,
+      "CrossScore": 0.9999237860424116
+    },
+    {
+      "Question": "लीची में सिंचाई का सही तरीका?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999233436092938,
+      "CrossScore": 0.9999233436092938
+    },
+    {
+      "Question": "प्याज में सिंचाई का सही तरीका?",
+      "Crop": "Onion",
+      "FinalScore": 0.9999225289284982,
+      "CrossScore": 0.9999225289284982
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9999210316486352,
+      "CrossScore": 0.9999210316486352
+    },
+    {
+      "Question": "अदरक में सिंचाई का सही तरीका?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999166740972512,
+      "CrossScore": 0.9999166740972512
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999150288360754,
+      "CrossScore": 0.9999150288360754
+    },
+    {
+      "Question": "हल्दी में सिंचाई का सही तरीका?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999116951442398,
+      "CrossScore": 0.9999116951442398
+    },
+    {
+      "Question": "मिर्च में सिंचाई का सही तरीका?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999101044718761,
+      "CrossScore": 0.9999101044718761
+    },
+    {
+      "Question": "अमरूद में सिंचाई का सही तरीका?",
+      "Crop": "Guava",
+      "FinalScore": 0.9999041039228541,
+      "CrossScore": 0.9999041039228541
+    }
+  ],
+  "latency_ms": 185.36,
+  "final_returned": [
+    {
+      "Question": "पपीते में सिंचाई का सही तरीका?",
+      "Crop": "Papaya",
+      "Score": 999.9255114958387
+    },
+    {
+      "Question": "पत्तागोभी में सिंचाई का सही तरीका?",
+      "Crop": "Cabbage",
+      "Score": 0.9999237860424116
+    },
+    {
+      "Question": "लीची में सिंचाई का सही तरीका?",
+      "Crop": "Litchi",
+      "Score": 0.9999233436092938
+    },
+    {
+      "Question": "प्याज में सिंचाई का सही तरीका?",
+      "Crop": "Onion",
+      "Score": 0.9999225289284982
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9999210316486352
+    }
+  ]
+}

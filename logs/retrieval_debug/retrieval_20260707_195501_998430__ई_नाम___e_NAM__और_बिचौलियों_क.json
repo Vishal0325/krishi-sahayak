@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:01.732756",
+  "query_original": "'ई-नाम' (e-NAM) और बिचौलियों का खात्मा?",
+  "query_normalized": "ई नाम e nam और बिचौलियों का खात्मा",
+  "query_expanded": "ई नाम e nam और बिचौलियों का खात्मा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ई-नाम' (e-NAM) और बिचौलियों का खात्मा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ई-नाम (e-NAM) पोर्टल क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9999055411654576,
+      "CrossScore": 0.9999055411654576
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) और बिचौलियों का खात्मा?",
+      "Crop": "General",
+      "FinalScore": 0.999902820486855,
+      "CrossScore": 0.999902820486855
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+      "Crop": "General",
+      "FinalScore": 0.9998974770965465,
+      "CrossScore": 0.9998974770965465
+    },
+    {
+      "Question": "ई-नाम (e-NAM) पोर्टल क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998892917448442,
+      "CrossScore": 0.9998892917448442
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998505631087755,
+      "CrossScore": 0.9998505631087755
+    },
+    {
+      "Question": "'बिचौलियों' (Middlemen) का आर्थिक प्रभाव?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998427121326628,
+      "CrossScore": 0.9998427121326628
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998143295438536,
+      "CrossScore": 0.9998143295438536
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997799837032477,
+      "CrossScore": 0.9997799837032477
+    },
+    {
+      "Question": "'ब्रांडिंग' और ग्राहकों का विश्वास?",
+      "Crop": "General",
+      "FinalScore": 0.9997150775878675,
+      "CrossScore": 0.9997150775878675
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 0.999698707069157,
+      "CrossScore": 0.999698707069157
+    }
+  ],
+  "latency_ms": 265.9,
+  "final_returned": [
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "Score": 0.9999055411654576
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) और बिचौलियों का खात्मा?",
+      "Crop": "General",
+      "Score": 0.999902820486855
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) में फसल कैसे बेचें?",
+      "Crop": "General",
+      "Score": 0.9998974770965465
+    },
+    {
+      "Question": "ई-नाम (e-NAM) पोर्टल क्या है?",
+      "Crop": "General",
+      "Score": 0.9998892917448442
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998505631087755
+    }
+  ]
+}

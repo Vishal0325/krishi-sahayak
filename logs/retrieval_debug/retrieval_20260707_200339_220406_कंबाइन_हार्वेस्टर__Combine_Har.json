@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:39.050873",
+  "query_original": "कंबाइन हार्वेस्टर (Combine Harvester) क्या है?",
+  "query_normalized": "कंबाइन हार्वेस्टर combine harvester क्या है",
+  "query_expanded": "कंबाइन हार्वेस्टर combine harvester क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कंबाइन हार्वेस्टर (Combine Harvester) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कंबाइन हार्वेस्टर (Combine Harvester) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9316854238866,
+      "CrossScore": 0.9999316854238867
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9985981686819685,
+      "CrossScore": 0.9985981686819685
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.998571611435344,
+      "CrossScore": 0.998571611435344
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9982037268756445,
+      "CrossScore": 0.9982037268756445
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9979909766984455,
+      "CrossScore": 0.9979909766984455
+    },
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.997874143843027,
+      "CrossScore": 0.997874143843027
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9975102950472409,
+      "CrossScore": 0.9975102950472409
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9972656571354077,
+      "CrossScore": 0.9972656571354077
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9969952070425108,
+      "CrossScore": 0.9969952070425108
+    },
+    {
+      "Question": "बिहार में फलों के प्रसंस्करण (Processing) की क्या स्थिति है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9967298909140625,
+      "CrossScore": 0.9967298909140625
+    }
+  ],
+  "latency_ms": 169.57,
+  "final_returned": [
+    {
+      "Question": "कंबाइन हार्वेस्टर (Combine Harvester) क्या है?",
+      "Crop": "General",
+      "Score": 999.9316854238866
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9985981686819685
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.998571611435344
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "Score": 0.9982037268756445
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9979909766984455
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:32.592520",
+  "query_original": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+  "query_normalized": "ट्रैक्टर में पावर स्टीयरिंग का क्या लाभ है",
+  "query_expanded": "ट्रैक्टर में पावर स्टीयरिंग का क्या लाभ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 999.8690463954458,
+      "CrossScore": 0.9998690463954458
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998605468833248,
+      "CrossScore": 0.9998605468833248
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998553922475903,
+      "CrossScore": 0.9998553922475903
+    },
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998457610928023,
+      "CrossScore": 0.9998457610928023
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998449892516287,
+      "CrossScore": 0.9998449892516287
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998392941301302,
+      "CrossScore": 0.9998392941301302
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998378006880289,
+      "CrossScore": 0.9998378006880289
+    },
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9998325107149925,
+      "CrossScore": 0.9998325107149925
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9998243611394415,
+      "CrossScore": 0.9998243611394415
+    },
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998086973297771,
+      "CrossScore": 0.9998086973297771
+    }
+  ],
+  "latency_ms": 207.93,
+  "final_returned": [
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 999.8690463954458
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "Score": 0.9998605468833248
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9998553922475903
+    },
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998457610928023
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998449892516287
+    }
+  ]
+}

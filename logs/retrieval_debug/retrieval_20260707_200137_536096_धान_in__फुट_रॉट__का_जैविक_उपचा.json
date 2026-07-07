@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:37.373151",
+  "query_original": "धान in 'फुट रॉट' का जैविक उपचार?",
+  "query_normalized": "धान in फुट रॉट का जैविक उपचार",
+  "query_expanded": "धान in फुट रॉट का जैविक उपचार",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान in 'फुट रॉट' का जैविक उपचार?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'फुट रॉट' के लक्षण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान in 'फुट रॉट' का जैविक उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 49992.68213485778,
+      "CrossScore": 0.9998536426971556
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 49.99551599039013,
+      "CrossScore": 0.9999103198078026
+    },
+    {
+      "Question": "धान in 'अंगमारी' रोकने के लिए 'जल प्रबंधन'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99483704737205,
+      "CrossScore": 0.999896740947441
+    },
+    {
+      "Question": "धान in 'हॉपर बर्न' का आर्थिक नुकसान?",
+      "Crop": "Rice",
+      "FinalScore": 49.99473875610103,
+      "CrossScore": 0.9998947751220206
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'मिट्टी उपचार'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99451685894593,
+      "CrossScore": 0.9998903371789186
+    },
+    {
+      "Question": "'धान' के 'जीवाणु झुलसा' (BLB) का घरेलू उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 49.99447518139105,
+      "CrossScore": 0.999889503627821
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 49.99442104962961,
+      "CrossScore": 0.9998884209925922
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice",
+      "FinalScore": 49.994405392492766,
+      "CrossScore": 0.9998881078498554
+    },
+    {
+      "Question": "धान in 'लीफ स्पॉट' (Leaf Spot) का कारण?",
+      "Crop": "Rice",
+      "FinalScore": 49.99440239884893,
+      "CrossScore": 0.9998880479769786
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.994224699395744,
+      "CrossScore": 0.9998844939879149
+    }
+  ],
+  "latency_ms": 162.99,
+  "final_returned": [
+    {
+      "Question": "धान in 'फुट रॉट' का जैविक उपचार?",
+      "Crop": "Rice",
+      "Score": 49992.68213485778
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "Score": 49.99551599039013
+    },
+    {
+      "Question": "धान in 'अंगमारी' रोकने के लिए 'जल प्रबंधन'?",
+      "Crop": "Rice",
+      "Score": 49.99483704737205
+    },
+    {
+      "Question": "धान in 'हॉपर बर्न' का आर्थिक नुकसान?",
+      "Crop": "Rice",
+      "Score": 49.99473875610103
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' के लिए 'मिट्टी उपचार'?",
+      "Crop": "Rice",
+      "Score": 49.99451685894593
+    }
+  ]
+}

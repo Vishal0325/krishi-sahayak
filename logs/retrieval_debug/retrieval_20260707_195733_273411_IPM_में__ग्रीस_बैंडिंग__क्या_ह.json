@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:33.051147",
+  "query_original": "IPM में 'ग्रीस बैंडिंग' क्या है?",
+  "query_normalized": "ipm में ग्रीस बैंडिंग क्या है",
+  "query_expanded": "ipm में ग्रीस बैंडिंग क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "IPM में 'ग्रीस बैंडिंग' क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9999213022787843,
+      "CrossScore": 0.9999213022787843
+    },
+    {
+      "Question": "IPM में 'ग्रीस बैंडिंग' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999119037299801,
+      "CrossScore": 0.9999119037299801
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999104327059981,
+      "CrossScore": 0.9999104327059981
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999901472722077,
+      "CrossScore": 0.999901472722077
+    },
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General",
+      "FinalScore": 0.9998987217324817,
+      "CrossScore": 0.9998987217324817
+    },
+    {
+      "Question": "IPM में 'बुआई का समय' कैसे महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9998943872985747,
+      "CrossScore": 0.9998943872985747
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998917529525335,
+      "CrossScore": 0.9998917529525335
+    },
+    {
+      "Question": "क्या IPM से खेती का खर्च कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998851101275972,
+      "CrossScore": 0.9998851101275972
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999879805772154,
+      "CrossScore": 0.999879805772154
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998687310925257,
+      "CrossScore": 0.9998687310925257
+    }
+  ],
+  "latency_ms": 222.35,
+  "final_returned": [
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "Score": 0.9999213022787843
+    },
+    {
+      "Question": "IPM में 'ग्रीस बैंडिंग' क्या है?",
+      "Crop": "General",
+      "Score": 0.9999119037299801
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9999104327059981
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "Score": 0.999901472722077
+    },
+    {
+      "Question": "गहरी जुताई (Summer Ploughing) IPM में कैसे सहायक है?",
+      "Crop": "General",
+      "Score": 0.9998987217324817
+    }
+  ]
+}

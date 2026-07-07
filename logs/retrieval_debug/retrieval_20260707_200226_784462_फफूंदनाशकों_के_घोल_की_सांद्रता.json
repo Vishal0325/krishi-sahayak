@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:26.584859",
+  "query_original": "फफूंदनाशकों के घोल की सांद्रता (Concentration)?",
+  "query_normalized": "फफूंदनाशकों के घोल की सांद्रता concentration",
+  "query_expanded": "फफूंदनाशकों के घोल की सांद्रता concentration",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फफूंदनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशकों के घोल की सांद्रता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने की खेती में 'नमक के घोल' का छिड़काव क्या कीड़ों को रोकता है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "पपीते में 'जिंक' की कमी दूर करने के लिए स्प्रे?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फफूंदनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General",
+      "FinalScore": 999.8977416934607,
+      "CrossScore": 0.9998977416934607
+    },
+    {
+      "Question": "कीटनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General",
+      "FinalScore": 0.9999087422257216,
+      "CrossScore": 0.9999087422257216
+    },
+    {
+      "Question": "फफूंदनाशकों के साथ 'चिपकने वाला पदार्थ' (Sticker) क्यों मिलाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9989245607118274,
+      "CrossScore": 0.9989245607118274
+    },
+    {
+      "Question": "फफूंदनाशकों के अधिक प्रयोग से 'प्रतिरोध' (Resistance)?",
+      "Crop": "General",
+      "FinalScore": 0.9986865495251386,
+      "CrossScore": 0.9986865495251386
+    },
+    {
+      "Question": "क्या कीटनाशकों को फफूंदनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9986558215320769,
+      "CrossScore": 0.9986558215320769
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.998633303699229,
+      "CrossScore": 0.998633303699229
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'खेत' की तैयारी पेड़ी के लिए?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9985517943285074,
+      "CrossScore": 0.9985517943285074
+    },
+    {
+      "Question": "खरपतवारनाशकों के घोल की सांद्रता?",
+      "Crop": "General",
+      "FinalScore": 0.9984620593972442,
+      "CrossScore": 0.9984620593972442
+    },
+    {
+      "Question": "फफूंदनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9984596939786835,
+      "CrossScore": 0.9984596939786835
+    },
+    {
+      "Question": "फफूंदनाशकों के भंडारण का सही तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9983091195514481,
+      "CrossScore": 0.9983091195514481
+    }
+  ],
+  "latency_ms": 199.67,
+  "final_returned": [
+    {
+      "Question": "फफूंदनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General",
+      "Score": 999.8977416934607
+    },
+    {
+      "Question": "कीटनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General",
+      "Score": 0.9999087422257216
+    },
+    {
+      "Question": "फफूंदनाशकों के साथ 'चिपकने वाला पदार्थ' (Sticker) क्यों मिलाएं?",
+      "Crop": "General",
+      "Score": 0.9989245607118274
+    },
+    {
+      "Question": "फफूंदनाशकों के अधिक प्रयोग से 'प्रतिरोध' (Resistance)?",
+      "Crop": "General",
+      "Score": 0.9986865495251386
+    },
+    {
+      "Question": "क्या कीटनाशकों को फफूंदनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9986558215320769
+    }
+  ]
+}

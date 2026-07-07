@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:09.618957",
+  "query_original": "'डिजिटल फार्म मैप'?",
+  "query_normalized": "डिजिटल फार्म मैप",
+  "query_expanded": "डिजिटल फार्म मैप",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'डिजिटल फार्म मैप'?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'डिजिटल भुगतान' (Digital Payment) के लाभ?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'फार्म रिकॉर्ड बुक' (Farm Diary) कैसे रखें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'डिजिटल फार्म मैप'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998933747772113,
+      "CrossScore": 0.9998933747772113
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "FinalScore": 0.9998790903039788,
+      "CrossScore": 0.9998790903039788
+    },
+    {
+      "Question": "'फार्म मैनेजमेंट' सॉफ्टवेयर स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998751647594364,
+      "CrossScore": 0.9998751647594364
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998417766501755,
+      "CrossScore": 0.9998417766501755
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "FinalScore": 0.9998379781408453,
+      "CrossScore": 0.9998379781408453
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998168060838732,
+      "CrossScore": 0.9998168060838732
+    },
+    {
+      "Question": "मक्का की 'नमी' मापने के लिए डिजिटल मीटर?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997954597395812,
+      "CrossScore": 0.9997954597395812
+    },
+    {
+      "Question": "'डिजिटल भुगतान' (Digital Payment) के लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997833146800923,
+      "CrossScore": 0.9997833146800923
+    },
+    {
+      "Question": "फसल सुरक्षा और 'डिजिटल ऐप'?",
+      "Crop": "General",
+      "FinalScore": 0.9997603432988308,
+      "CrossScore": 0.9997603432988308
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General",
+      "FinalScore": 0.9997556411813828,
+      "CrossScore": 0.9997556411813828
+    }
+  ],
+  "latency_ms": 180.29,
+  "final_returned": [
+    {
+      "Question": "'डिजिटल फार्म मैप'?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998933747772113
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "Score": 0.9998790903039788
+    },
+    {
+      "Question": "'फार्म मैनेजमेंट' सॉफ्टवेयर स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998751647594364
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998417766501755
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "Score": 0.9998379781408453
+    }
+  ]
+}

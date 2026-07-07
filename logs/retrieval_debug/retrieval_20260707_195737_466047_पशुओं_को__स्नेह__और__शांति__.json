@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:37.295255",
+  "query_original": "पशुओं को 'स्नेह' और 'शांति'?",
+  "query_normalized": "पशुओं को स्नेह और शांति",
+  "query_expanded": "पशुओं को स्नेह और शांति",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं को 'स्नेह' और 'शांति'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मुर्गियों को 'पुचकारना' और शांति?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "पशुओं को संतुलित आहार (Balanced Diet) में क्या दें?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को दिन में कितनी बार पानी पिलाना चाहिए?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं को 'स्नेह' और 'शांति'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998985801487531,
+      "CrossScore": 0.9998985801487531
+    },
+    {
+      "Question": "क्या पशुओं को 'संगीत' सुनाना अच्छा है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999891069544205,
+      "CrossScore": 0.999891069544205
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998908589984675,
+      "CrossScore": 0.9998908589984675
+    },
+    {
+      "Question": "मुर्गियों को 'पुचकारना' और शांति?",
+      "Crop": "Poultry",
+      "FinalScore": 0.999889798784325,
+      "CrossScore": 0.999889798784325
+    },
+    {
+      "Question": "पशुओं के 'व्यवहार' को समझना?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998837047774177,
+      "CrossScore": 0.9998837047774177
+    },
+    {
+      "Question": "पशुओं को 'अनाज' खिलाने की सीमा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998810985888208,
+      "CrossScore": 0.9998810985888208
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998700286727175,
+      "CrossScore": 0.9998700286727175
+    },
+    {
+      "Question": "पशुओं को 'नहलाने' का लाभ?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998677886907553,
+      "CrossScore": 0.9998677886907553
+    },
+    {
+      "Question": "पशुओं को 'नहलाना' क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998677150454562,
+      "CrossScore": 0.9998677150454562
+    },
+    {
+      "Question": "पशुओं को 'प्यार' देना?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998675217839851,
+      "CrossScore": 0.9998675217839851
+    }
+  ],
+  "latency_ms": 170.93,
+  "final_returned": [
+    {
+      "Question": "पशुओं को 'स्नेह' और 'शांति'?",
+      "Crop": "Livestock",
+      "Score": 0.9998985801487531
+    },
+    {
+      "Question": "क्या पशुओं को 'संगीत' सुनाना अच्छा है?",
+      "Crop": "Dairy",
+      "Score": 0.999891069544205
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' रखने का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.9998908589984675
+    },
+    {
+      "Question": "मुर्गियों को 'पुचकारना' और शांति?",
+      "Crop": "Poultry",
+      "Score": 0.999889798784325
+    },
+    {
+      "Question": "पशुओं के 'व्यवहार' को समझना?",
+      "Crop": "Dairy",
+      "Score": 0.9998837047774177
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:39.635671",
+  "query_original": "क्या फूलों की खेती 'पॉलीहाउस' (Polyhouse) में करना बेहतर है?",
+  "query_normalized": "क्या फूलों की खेती पॉलीहाउस polyhouse में करना बेहतर है",
+  "query_expanded": "क्या फूलों की खेती पॉलीहाउस polyhouse में करना बेहतर है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या फूलों की खेती 'पॉलीहाउस' (Polyhouse) में करना बेहतर है?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "पॉलीहाउस (Polyhouse) खेती में निवेश करना क्या सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फूलों की खेती' में 'Vase Life' क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फूलों की खेती (Floriculture) में जोखिम अधिक है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पपीते की खेती में 'नर्सरी' को पॉलीबैग में तैयार करना क्यों बेहतर है?",
+      "Crop": "Papaya"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या फूलों की खेती 'पॉलीहाउस' (Polyhouse) में करना बेहतर है?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.999924718991494,
+      "CrossScore": 0.999924718991494
+    },
+    {
+      "Question": "पॉलीहाउस (Polyhouse) खेती में निवेश करना क्या सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9999056847250217,
+      "CrossScore": 0.9999056847250217
+    },
+    {
+      "Question": "क्या फूलों की खेती (Floriculture) में जोखिम अधिक है?",
+      "Crop": "General",
+      "FinalScore": 0.9996234552707322,
+      "CrossScore": 0.9996234552707322
+    },
+    {
+      "Question": "फ्लोरीकल्चर (Floriculture/फूलों की खेती) में क्या संभावनाएं हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996054318918817,
+      "CrossScore": 0.9996054318918817
+    },
+    {
+      "Question": "क्या बिहार में पपीते की खेती सफल है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9995096448769304,
+      "CrossScore": 0.9995096448769304
+    },
+    {
+      "Question": "पपीते की खेती में 'नर्सरी' को पॉलीबैग में तैयार करना क्यों बेहतर है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9994876556717858,
+      "CrossScore": 0.9994876556717858
+    },
+    {
+      "Question": "क्या सब्जियों के साथ फूलों की खेती की जा सकती है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994753641490215,
+      "CrossScore": 0.9994753641490215
+    },
+    {
+      "Question": "सरसों की खेती में सबसे बड़ी चुनौती क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9994588249303383,
+      "CrossScore": 0.9994588249303383
+    },
+    {
+      "Question": "आलू की खेती में 'पोटाश' के लिए 'SOP' (पोटेशियम सल्फेट) क्यों बेहतर है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9994545726191834,
+      "CrossScore": 0.9994545726191834
+    },
+    {
+      "Question": "गन्ने की खेती में 'STP' (Space Transplanting) क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9994474262811848,
+      "CrossScore": 0.9994474262811848
+    }
+  ],
+  "latency_ms": 223.95,
+  "final_returned": [
+    {
+      "Question": "क्या फूलों की खेती 'पॉलीहाउस' (Polyhouse) में करना बेहतर है?",
+      "Crop": "Floriculture",
+      "Score": 0.999924718991494
+    },
+    {
+      "Question": "पॉलीहाउस (Polyhouse) खेती में निवेश करना क्या सही है?",
+      "Crop": "General",
+      "Score": 0.9999056847250217
+    },
+    {
+      "Question": "क्या फूलों की खेती (Floriculture) में जोखिम अधिक है?",
+      "Crop": "General",
+      "Score": 0.9996234552707322
+    },
+    {
+      "Question": "फ्लोरीकल्चर (Floriculture/फूलों की खेती) में क्या संभावनाएं हैं?",
+      "Crop": "General",
+      "Score": 0.9996054318918817
+    },
+    {
+      "Question": "क्या बिहार में पपीते की खेती सफल है?",
+      "Crop": "Papaya",
+      "Score": 0.9995096448769304
+    }
+  ]
+}

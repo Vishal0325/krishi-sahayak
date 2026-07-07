@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:56.855118",
+  "query_original": "पत्तागोभी में 'जिंक सल्फेट' का लाभ?",
+  "query_normalized": "पत्तागोभी में जिंक सल्फेट का लाभ",
+  "query_expanded": "पत्तागोभी में जिंक सल्फेट का लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पत्तागोभी में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Cabbage"
+    },
+    {
+      "Question": "गन्ने में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "बैंगन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "भिंडी में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पत्तागोभी में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Cabbage",
+      "FinalScore": 999.8983490350274,
+      "CrossScore": 0.9998983490350274
+    },
+    {
+      "Question": "लीची में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998868173303719,
+      "CrossScore": 0.9998868173303719
+    },
+    {
+      "Question": "मखाना में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998860700691221,
+      "CrossScore": 0.9998860700691221
+    },
+    {
+      "Question": "मिर्च में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998838518418537,
+      "CrossScore": 0.9998838518418537
+    },
+    {
+      "Question": "भिंडी में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998777100197498,
+      "CrossScore": 0.9998777100197498
+    },
+    {
+      "Question": "लहसुन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998764714500352,
+      "CrossScore": 0.9998764714500352
+    },
+    {
+      "Question": "धनिया में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998691829328101,
+      "CrossScore": 0.9998691829328101
+    },
+    {
+      "Question": "अदरक में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998676633179159,
+      "CrossScore": 0.9998676633179159
+    },
+    {
+      "Question": "हल्दी में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9998650296268105,
+      "CrossScore": 0.9998650296268105
+    },
+    {
+      "Question": "पपीते में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998640196877718,
+      "CrossScore": 0.9998640196877718
+    }
+  ],
+  "latency_ms": 182.38,
+  "final_returned": [
+    {
+      "Question": "पत्तागोभी में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Cabbage",
+      "Score": 999.8983490350274
+    },
+    {
+      "Question": "लीची में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Litchi",
+      "Score": 0.9998868173303719
+    },
+    {
+      "Question": "मखाना में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Makhana",
+      "Score": 0.9998860700691221
+    },
+    {
+      "Question": "लहसुन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Garlic",
+      "Score": 0.9998764714500352
+    },
+    {
+      "Question": "धनिया में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Coriander",
+      "Score": 0.9998691829328101
+    }
+  ]
+}

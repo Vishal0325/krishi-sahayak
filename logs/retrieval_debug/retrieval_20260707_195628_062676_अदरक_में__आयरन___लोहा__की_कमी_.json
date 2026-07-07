@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:27.899452",
+  "query_original": "अदरक में 'आयरन' (लोहा) की कमी?",
+  "query_normalized": "अदरक में आयरन लोहा की कमी",
+  "query_expanded": "अदरक में आयरन लोहा की कमी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अदरक में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Ginger"
+    },
+    {
+      "Question": "भिंडी में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गन्ने में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का में 'आयरन' (लोहा) की कमी कैसे पहचानें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अदरक में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998733890700569,
+      "CrossScore": 0.9998733890700569
+    },
+    {
+      "Question": "टमाटर में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998540973633209,
+      "CrossScore": 0.9998540973633209
+    },
+    {
+      "Question": "मक्का में 'आयरन' (लोहा) की कमी कैसे पहचानें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998540660572216,
+      "CrossScore": 0.9998540660572216
+    },
+    {
+      "Question": "मखाना में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998475682219939,
+      "CrossScore": 0.9998475682219939
+    },
+    {
+      "Question": "अमरूद में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998214161677882,
+      "CrossScore": 0.9998214161677882
+    },
+    {
+      "Question": "गन्ने में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998122348090189,
+      "CrossScore": 0.9998122348090189
+    },
+    {
+      "Question": "हल्दी में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9997949856707156,
+      "CrossScore": 0.9997949856707156
+    },
+    {
+      "Question": "पत्तागोभी में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.999793604098637,
+      "CrossScore": 0.999793604098637
+    },
+    {
+      "Question": "भिंडी में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Okra",
+      "FinalScore": 0.999792507020043,
+      "CrossScore": 0.999792507020043
+    },
+    {
+      "Question": "बैंगन में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997785065476336,
+      "CrossScore": 0.9997785065476336
+    }
+  ],
+  "latency_ms": 163.35,
+  "final_returned": [
+    {
+      "Question": "अदरक में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Ginger",
+      "Score": 0.9998733890700569
+    },
+    {
+      "Question": "टमाटर में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Tomato",
+      "Score": 0.9998540973633209
+    },
+    {
+      "Question": "मक्का में 'आयरन' (लोहा) की कमी कैसे पहचानें?",
+      "Crop": "Maize",
+      "Score": 0.9998540660572216
+    },
+    {
+      "Question": "मखाना में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Makhana",
+      "Score": 0.9998475682219939
+    },
+    {
+      "Question": "अमरूद में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Guava",
+      "Score": 0.9998214161677882
+    }
+  ]
+}

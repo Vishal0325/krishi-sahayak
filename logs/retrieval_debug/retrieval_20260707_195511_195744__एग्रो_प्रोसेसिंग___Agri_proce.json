@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:10.964104",
+  "query_original": "'एग्रो-प्रोसेसिंग' (Agri-processing) से लाभ?",
+  "query_normalized": "एग्रो प्रोसेसिंग agri processing से लाभ",
+  "query_expanded": "एग्रो प्रोसेसिंग agri processing से लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एग्रो-प्रोसेसिंग' (Agri-processing) से लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्रो-प्रोसेसिंग' (Agri-processing) से रोजगार?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' (दाल बनाना) के लाभ?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "फलों की 'प्रोसेसिंग' से किसान की आय?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एग्रो-प्रोसेसिंग' (Agri-processing) से लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998953775365346,
+      "CrossScore": 0.9998953775365346
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998889870796669,
+      "CrossScore": 0.9998889870796669
+    },
+    {
+      "Question": "'एग्रो-प्रोसेसिंग' (Agri-processing) से रोजगार?",
+      "Crop": "General",
+      "FinalScore": 0.9998831196709131,
+      "CrossScore": 0.9998831196709131
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agri-forestry) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9997408620137948,
+      "CrossScore": 0.9997408620137948
+    },
+    {
+      "Question": "टमाटर की 'प्रोसेसिंग' (Processing) के क्या अवसर हैं?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9996647195585413,
+      "CrossScore": 0.9996647195585413
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9995743918131303,
+      "CrossScore": 0.9995743918131303
+    },
+    {
+      "Question": "'दूध की प्रोसेसिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9983420682724262,
+      "CrossScore": 0.9983420682724262
+    },
+    {
+      "Question": "'एग्रो-केमिकल' डिलीवरी स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9978620145538962,
+      "CrossScore": 0.9978620145538962
+    },
+    {
+      "Question": "'मशरूम प्रोसेसिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.997844999273873,
+      "CrossScore": 0.997844999273873
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' (दाल बनाना) के लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9976865407245463,
+      "CrossScore": 0.9976865407245463
+    }
+  ],
+  "latency_ms": 231.81,
+  "final_returned": [
+    {
+      "Question": "'एग्रो-प्रोसेसिंग' (Agri-processing) से लाभ?",
+      "Crop": "General",
+      "Score": 0.9998953775365346
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General",
+      "Score": 0.9998889870796669
+    },
+    {
+      "Question": "'एग्रो-प्रोसेसिंग' (Agri-processing) से रोजगार?",
+      "Crop": "General",
+      "Score": 0.9998831196709131
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agri-forestry) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9997408620137948
+    },
+    {
+      "Question": "टमाटर की 'प्रोसेसिंग' (Processing) के क्या अवसर हैं?",
+      "Crop": "Tomato",
+      "Score": 0.9996647195585413
+    }
+  ]
+}

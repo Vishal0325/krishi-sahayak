@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:10.205212",
+  "query_original": "सांस्कृतिक नियंत्रण (Cultural Control) क्या है?",
+  "query_normalized": "सांस्कृतिक नियंत्रण cultural control क्या है",
+  "query_expanded": "सांस्कृतिक नियंत्रण cultural control क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सांस्कृतिक नियंत्रण (Cultural Control) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भौतिक नियंत्रण (Physical Control) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सांस्कृतिक नियंत्रण (Cultural Control) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9222449453845,
+      "CrossScore": 0.9999222449453845
+    },
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998451477672908,
+      "CrossScore": 0.9998451477672908
+    },
+    {
+      "Question": "भौतिक नियंत्रण (Physical Control) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998101984450243,
+      "CrossScore": 0.9998101984450243
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9996972587389694,
+      "CrossScore": 0.9996972587389694
+    },
+    {
+      "Question": "'एपिकल्चर' (Apiculture) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991414074916186,
+      "CrossScore": 0.9991414074916186
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9991237490826684,
+      "CrossScore": 0.9991237490826684
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999033745262279,
+      "CrossScore": 0.999033745262279
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.99897993173545,
+      "CrossScore": 0.99897993173545
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989692552798272,
+      "CrossScore": 0.9989692552798272
+    },
+    {
+      "Question": "'चूहा' नियंत्रण का सबसे अच्छा तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9989273253976914,
+      "CrossScore": 0.9989273253976914
+    }
+  ],
+  "latency_ms": 221.44,
+  "final_returned": [
+    {
+      "Question": "सांस्कृतिक नियंत्रण (Cultural Control) क्या है?",
+      "Crop": "General",
+      "Score": 999.9222449453845
+    },
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998451477672908
+    },
+    {
+      "Question": "भौतिक नियंत्रण (Physical Control) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998101984450243
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits",
+      "Score": 0.9996972587389694
+    },
+    {
+      "Question": "'एपिकल्चर' (Apiculture) क्या है?",
+      "Crop": "General",
+      "Score": 0.9991414074916186
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:43.009457",
+  "query_original": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+  "query_normalized": "जीरो टिलेज zero tillage से पर्यावरण को क्या लाभ है",
+  "query_expanded": "जीरो टिलेज zero tillage से पर्यावरण को क्या लाभ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM अपनाने से किसान को अधिक लाभ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती पर्यावरण को बचाती है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "गेहूं की 'जीरो टिलेज' से कितनी बचत होती है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.999881443894705,
+      "CrossScore": 0.999881443894705
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998787303963926,
+      "CrossScore": 0.9998787303963926
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9994954231545515,
+      "CrossScore": 0.9994954231545515
+    },
+    {
+      "Question": "गेहूं की 'जीरो टिलेज' से कितनी बचत होती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992935112735091,
+      "CrossScore": 0.9992935112735091
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9992754166551354,
+      "CrossScore": 0.9992754166551354
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9992410106816624,
+      "CrossScore": 0.9992410106816624
+    },
+    {
+      "Question": "एफपीओ (FPO) से जुड़ने के व्यापारिक लाभ क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991665358494451,
+      "CrossScore": 0.9991665358494451
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9991340462438246,
+      "CrossScore": 0.9991340462438246
+    },
+    {
+      "Question": "क्या मशरूम से 'मूल्य संवर्धन' (Value Addition) संभव है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9990118805295266,
+      "CrossScore": 0.9990118805295266
+    },
+    {
+      "Question": "क्या 'ड्रोन' से छिड़काव का बिजनेस सफल है?",
+      "Crop": "General",
+      "FinalScore": 0.9989995294371437,
+      "CrossScore": 0.9989995294371437
+    }
+  ],
+  "latency_ms": 241.06,
+  "final_returned": [
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.999881443894705
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 0.9998787303963926
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9994954231545515
+    },
+    {
+      "Question": "गेहूं की 'जीरो टिलेज' से कितनी बचत होती है?",
+      "Crop": "Wheat",
+      "Score": 0.9992935112735091
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9992754166551354
+    }
+  ]
+}

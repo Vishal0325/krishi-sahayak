@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:58:31.784755",
+  "query_original": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+  "query_normalized": "धान का ब्लास्ट blast रोग क्या है",
+  "query_expanded": "फंगस बीमारी fungus धान का ब्लास्ट blast रोग क्या है disease झुलसा रोग",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान का 'खैरा' रोग क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "FinalScore": 499.9454690328801,
+      "CrossScore": 0.9998909380657602
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.9453786876735,
+      "CrossScore": 0.9998907573753469
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 499.91911125786476,
+      "CrossScore": 0.9998382225157295
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "FinalScore": 499.91719880219506,
+      "CrossScore": 0.9998343976043901
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "FinalScore": 499.9069541257449,
+      "CrossScore": 0.9998139082514899
+    },
+    {
+      "Question": "'धान का जीवाणु झुलसा' (BLB) और 'तेज हवा'?",
+      "Crop": "Rice",
+      "FinalScore": 499.90193093147565,
+      "CrossScore": 0.9998038618629513
+    },
+    {
+      "Question": "'धान' के 'जीवाणु झुलसा' (BLB) का घरेलू उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 499.89965867902225,
+      "CrossScore": 0.9997993173580445
+    },
+    {
+      "Question": "धान का 'झूठा कंड' (False Smut) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.89950414275586,
+      "CrossScore": 0.9997990082855117
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 499.8991904151458,
+      "CrossScore": 0.9997983808302916
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.892866195699,
+      "CrossScore": 0.999785732391398
+    }
+  ],
+  "latency_ms": 177.79,
+  "final_returned": [
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "Score": 499.9454690328801
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 499.9453786876735
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "Score": 499.91911125786476
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "Score": 499.91719880219506
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "Score": 499.9069541257449
+    }
+  ]
+}

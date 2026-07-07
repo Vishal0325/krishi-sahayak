@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:53.919249",
+  "query_original": "'गन्ने का ग्रासी शूट' (Grassy Shoot) रोग?",
+  "query_normalized": "गन्ने का ग्रासी शूट grassy shoot रोग",
+  "query_expanded": "फंगस बीमारी fungus disease गन्ने का ग्रासी शूट grassy shoot रोग झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने का ग्रासी शूट' (Grassy Shoot) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' (Grassy Shoot) बीमारी क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का 'पहचान'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गन्ने का ग्रासी शूट' (Grassy Shoot) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998984773889116,
+      "CrossScore": 0.9998984773889116
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' (Grassy Shoot) बीमारी क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998454584182863,
+      "CrossScore": 0.9998454584182862
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.982240413547878,
+      "CrossScore": 0.9982240413547878
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.981837450464363,
+      "CrossScore": 0.9981837450464363
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.981029860313601,
+      "CrossScore": 0.9981029860313602
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.979288677395076,
+      "CrossScore": 0.9979288677395076
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.978696063416713,
+      "CrossScore": 0.9978696063416713
+    },
+    {
+      "Question": "'गन्ने का उकठा' (Wilt) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.978609970210636,
+      "CrossScore": 0.9978609970210636
+    },
+    {
+      "Question": "गन्ने in 'उकठा' (Wilt) रोग का लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.978212284787297,
+      "CrossScore": 0.9978212284787298
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का वाहक?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.977527537428744,
+      "CrossScore": 0.9977527537428743
+    }
+  ],
+  "latency_ms": 190.92,
+  "final_returned": [
+    {
+      "Question": "'गन्ने का ग्रासी शूट' (Grassy Shoot) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.998984773889116
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' (Grassy Shoot) बीमारी क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 9.998454584182863
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "Score": 9.982240413547878
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "Score": 9.981837450464363
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 9.981029860313601
+    }
+  ]
+}

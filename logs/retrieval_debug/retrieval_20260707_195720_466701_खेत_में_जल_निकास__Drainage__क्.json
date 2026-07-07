@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:20.275762",
+  "query_original": "खेत में जल निकास (Drainage) क्यों जरूरी है?",
+  "query_normalized": "खेत में जल निकास drainage क्यों जरूरी है",
+  "query_expanded": "खेत में जल निकास drainage क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खेत में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की फसल में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "गेहूं की 'मृदा' में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "दलहनी फसलों की 'मृदा' में जल निकास क्यों जरूरी है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "गन्ने की खेती में 'जल निकास' क्यों जरूरी है?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का की फसल में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998948548618597,
+      "CrossScore": 0.9998948548618597
+    },
+    {
+      "Question": "खेत में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998876439337803,
+      "CrossScore": 0.9998876439337803
+    },
+    {
+      "Question": "गेहूं की 'मृदा' में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998641058865356,
+      "CrossScore": 0.9998641058865356
+    },
+    {
+      "Question": "मखाना की खेती में 'जल निकास' कब जरूरी है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9997341783255992,
+      "CrossScore": 0.9997341783255992
+    },
+    {
+      "Question": "लीची की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9997305354888306,
+      "CrossScore": 0.9997305354888306
+    },
+    {
+      "Question": "पपीते की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9997183593152024,
+      "CrossScore": 0.9997183593152024
+    },
+    {
+      "Question": "बैंगन की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997106576730603,
+      "CrossScore": 0.9997106576730603
+    },
+    {
+      "Question": "अदरक की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9997094371916482,
+      "CrossScore": 0.9997094371916482
+    },
+    {
+      "Question": "मिर्च की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9997083692546821,
+      "CrossScore": 0.9997083692546821
+    },
+    {
+      "Question": "गन्ने की खेती में 'जल निकास' क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997010986420751,
+      "CrossScore": 0.9997010986420751
+    }
+  ],
+  "latency_ms": 191.03,
+  "final_returned": [
+    {
+      "Question": "मक्का की फसल में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "Maize",
+      "Score": 0.9998948548618597
+    },
+    {
+      "Question": "खेत में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998876439337803
+    },
+    {
+      "Question": "गेहूं की 'मृदा' में जल निकास (Drainage) क्यों जरूरी है?",
+      "Crop": "Wheat",
+      "Score": 0.9998641058865356
+    },
+    {
+      "Question": "मखाना की खेती में 'जल निकास' कब जरूरी है?",
+      "Crop": "Makhana",
+      "Score": 0.9997341783255992
+    },
+    {
+      "Question": "लीची की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Litchi",
+      "Score": 0.9997305354888306
+    }
+  ]
+}

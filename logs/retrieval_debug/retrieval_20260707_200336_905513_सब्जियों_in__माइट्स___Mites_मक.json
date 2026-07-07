@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:36.662532",
+  "query_original": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+  "query_normalized": "सब्जियों in माइट्स mites मकड़ी का प्रकोप कब होता है",
+  "query_expanded": "सब्जियों in माइट्स mites मकड़ी का प्रकोप कब होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों में 'मकड़ी' (Mites) का प्रकोप कब होता है?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "मिर्च में 'माइट्स' (Mites/मकड़ी) का प्रकोप?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "गेहूं में 'चूहों' का सबसे ज्यादा नुकसान कब होता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं में 'एफिड' (Aphid/चेपा) का हमला कब होता है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "FinalScore": 999.8790204153053,
+      "CrossScore": 0.9998790204153053
+    },
+    {
+      "Question": "सब्जियों में 'मकड़ी' (Mites) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998438298271941,
+      "CrossScore": 0.9998438298271941
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998204937692576,
+      "CrossScore": 0.9998204937692576
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997888801552209,
+      "CrossScore": 0.9997888801552209
+    },
+    {
+      "Question": "बैंगन में 'लाल मकड़ी' (Red Spider Mite) का प्रकोप?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997696220317568,
+      "CrossScore": 0.9997696220317568
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9997656513336614,
+      "CrossScore": 0.9997656513336614
+    },
+    {
+      "Question": "मिर्च में 'माइट्स' (Mites/मकड़ी) का प्रकोप?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9997630488883248,
+      "CrossScore": 0.9997630488883248
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997627495805578,
+      "CrossScore": 0.9997627495805578
+    },
+    {
+      "Question": "पपीते में 'माइट' (Mites/मकड़ी) का प्रकोप?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9997588552796077,
+      "CrossScore": 0.9997588552796077
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997478849131718,
+      "CrossScore": 0.9997478849131718
+    }
+  ],
+  "latency_ms": 243.02,
+  "final_returned": [
+    {
+      "Question": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "Score": 999.8790204153053
+    },
+    {
+      "Question": "सब्जियों में 'मकड़ी' (Mites) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "Score": 0.9998438298271941
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "Score": 0.9998204937692576
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "Score": 0.9997888801552209
+    },
+    {
+      "Question": "बैंगन में 'लाल मकड़ी' (Red Spider Mite) का प्रकोप?",
+      "Crop": "Brinjal",
+      "Score": 0.9997696220317568
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:33.591841",
+  "query_original": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+  "query_normalized": "टमाटर in मोजेक वायरस का प्रसार",
+  "query_expanded": "टमाटर in मोजेक वायरस का प्रसार",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "पौधों in 'वायरस' रोगों का 'प्रसार'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato",
+      "FinalScore": 49991.14658340555,
+      "CrossScore": 0.999822931668111
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99184848714957,
+      "CrossScore": 0.9998369697429914
+    },
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99106242666302,
+      "CrossScore": 0.9998212485332604
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99105144357178,
+      "CrossScore": 0.9998210288714355
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99105134118141,
+      "CrossScore": 0.9998210268236283
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99099503752254,
+      "CrossScore": 0.9998199007504508
+    },
+    {
+      "Question": "टमाटर में 'रूट नॉट नीमेटोड' (Root Knot Nematode) का प्रबंधन?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99011724726797,
+      "CrossScore": 0.9998023449453594
+    },
+    {
+      "Question": "टमाटर के बीजों का उपचार कैसे करें?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98930476625541,
+      "CrossScore": 0.9997860953251082
+    },
+    {
+      "Question": "टमाटर की नर्सरी में 'प्रो-ट्रे' (Pro-tray) का महत्व?",
+      "Crop": "Tomato",
+      "FinalScore": 49.987781837734445,
+      "CrossScore": 0.9997556367546889
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 49.98752237118214,
+      "CrossScore": 0.9997504474236427
+    }
+  ],
+  "latency_ms": 205.29,
+  "final_returned": [
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस का 'प्रसार'?",
+      "Crop": "Tomato",
+      "Score": 49991.14658340555
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.99184848714957
+    },
+    {
+      "Question": "टमाटर in 'अर्ली ब्लाइट' का कवक?",
+      "Crop": "Tomato",
+      "Score": 49.99106242666302
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "Score": 49.99105144357178
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "Score": 49.99105134118141
+    }
+  ]
+}

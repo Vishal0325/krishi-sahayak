@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:57:24.674589",
+  "query_original": "'धान' के हिस्पा कीट का हमला कब होता है?",
+  "query_normalized": "धान के हिस्पा कीट का हमला कब होता है",
+  "query_expanded": "बग pest कीड़ा कीट insect धान के हिस्पा कीट का हमला कब होता है",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.94693980718927,
+      "CrossScore": 0.9998938796143786
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.93755398286515,
+      "CrossScore": 0.9998751079657303
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) और 'पत्तियां'?",
+      "Crop": "Rice",
+      "FinalScore": 499.93664755351745,
+      "CrossScore": 0.9998732951070349
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 499.93577195746747,
+      "CrossScore": 0.9998715439149349
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "FinalScore": 499.9340574044372,
+      "CrossScore": 0.9998681148088745
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 499.8908732498381,
+      "CrossScore": 0.9997817464996761
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.995861296668224,
+      "CrossScore": 0.9999172259333644
+    },
+    {
+      "Question": "धान की फसल में गंधी बग का हमला?",
+      "Crop": "Rice",
+      "FinalScore": 49.99420691712514,
+      "CrossScore": 0.9998841383425028
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99399731024134,
+      "CrossScore": 0.9998799462048268
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट के बाद 'बीमारी'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99391963638658,
+      "CrossScore": 0.9998783927277316
+    }
+  ],
+  "latency_ms": 240.94,
+  "final_returned": [
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "Score": 499.94693980718927
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 499.93755398286515
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) और 'पत्तियां'?",
+      "Crop": "Rice",
+      "Score": 499.93664755351745
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 499.93577195746747
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "Score": 499.9340574044372
+    }
+  ]
+}

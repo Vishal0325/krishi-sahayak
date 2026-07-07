@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:13.974672",
+  "query_original": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+  "query_normalized": "सिल्वर आयोडाइड और कृत्रिम वर्षा",
+  "query_expanded": "सिल्वर आयोडाइड और कृत्रिम वर्षा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वायुमंडलीय नाइट्रोजन और वर्षा?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+      "Crop": "General",
+      "FinalScore": 999.8982197424438,
+      "CrossScore": 0.9998982197424438
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.999904363822118,
+      "CrossScore": 0.999904363822118
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'सावधानी'?",
+      "Crop": "General",
+      "FinalScore": 0.999903710820984,
+      "CrossScore": 0.999903710820984
+    },
+    {
+      "Question": "'हथिया नक्षत्र' की वर्षा का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999002672163386,
+      "CrossScore": 0.9999002672163386
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998951072230169,
+      "CrossScore": 0.9998951072230169
+    },
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998941214944862,
+      "CrossScore": 0.9998941214944862
+    },
+    {
+      "Question": "'कंपोस्ट' और 'कम्पोस्टिंग' में अंतर?",
+      "Crop": "General",
+      "FinalScore": 0.9998939281761673,
+      "CrossScore": 0.9998939281761673
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "FinalScore": 0.9998882269666609,
+      "CrossScore": 0.9998882269666609
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998819657147268,
+      "CrossScore": 0.9998819657147268
+    },
+    {
+      "Question": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998810358732927,
+      "CrossScore": 0.9998810358732927
+    }
+  ],
+  "latency_ms": 234.04,
+  "final_returned": [
+    {
+      "Question": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+      "Crop": "General",
+      "Score": 999.8982197424438
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General",
+      "Score": 0.999904363822118
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'सावधानी'?",
+      "Crop": "General",
+      "Score": 0.999903710820984
+    },
+    {
+      "Question": "'हथिया नक्षत्र' की वर्षा का महत्व?",
+      "Crop": "General",
+      "Score": 0.9999002672163386
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango",
+      "Score": 0.9998951072230169
+    }
+  ]
+}

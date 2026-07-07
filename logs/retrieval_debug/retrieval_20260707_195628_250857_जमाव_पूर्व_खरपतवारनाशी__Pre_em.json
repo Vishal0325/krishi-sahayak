@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:28.064540",
+  "query_original": "जमाव पूर्व खरपतवारनाशी (Pre-emergence) क्या हैं?",
+  "query_normalized": "जमाव पूर्व खरपतवारनाशी pre emergence क्या हैं",
+  "query_expanded": "जमाव पूर्व खरपतवारनाशी pre emergence क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जमाव पूर्व खरपतवारनाशी (Pre-emergence) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जमाव पश्चात खरपतवारनाशी (Post-emergence) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जमाव पूर्व खरपतवारनाशी (Pre-emergence) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999897962415193,
+      "CrossScore": 0.999897962415193
+    },
+    {
+      "Question": "जमाव पश्चात खरपतवारनाशी (Post-emergence) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998796573722203,
+      "CrossScore": 0.9998796573722203
+    },
+    {
+      "Question": "फलों की 'प्री-कूलिंग' (Pre-cooling) क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9993117557396471,
+      "CrossScore": 0.9993117557396471
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9987484871553307,
+      "CrossScore": 0.9987484871553307
+    },
+    {
+      "Question": "क्या खरपतवारनाशी को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.998741450517266,
+      "CrossScore": 0.998741450517266
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9986793053605619,
+      "CrossScore": 0.9986793053605619
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9986696705278956,
+      "CrossScore": 0.9986696705278956
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी में लंबे समय तक बने रहते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9985339144078358,
+      "CrossScore": 0.9985339144078358
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984692359499376,
+      "CrossScore": 0.9984692359499376
+    },
+    {
+      "Question": "जमाव पूर्व दवाओं का छिड़काव कब तक कर देना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9984467729171607,
+      "CrossScore": 0.9984467729171607
+    }
+  ],
+  "latency_ms": 186.43,
+  "final_returned": [
+    {
+      "Question": "जमाव पूर्व खरपतवारनाशी (Pre-emergence) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.999897962415193
+    },
+    {
+      "Question": "जमाव पश्चात खरपतवारनाशी (Post-emergence) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998796573722203
+    },
+    {
+      "Question": "फलों की 'प्री-कूलिंग' (Pre-cooling) क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.9993117557396471
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "Score": 0.9987484871553307
+    },
+    {
+      "Question": "क्या खरपतवारनाशी को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "Score": 0.998741450517266
+    }
+  ]
+}

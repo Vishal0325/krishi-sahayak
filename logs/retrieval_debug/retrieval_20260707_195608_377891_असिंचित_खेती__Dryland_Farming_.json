@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:08.169163",
+  "query_original": "असिंचित खेती (Dryland Farming) में पानी की बचत?",
+  "query_normalized": "असिंचित खेती dryland farming में पानी की बचत",
+  "query_expanded": "असिंचित खेती dryland farming में पानी की बचत",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "असिंचित खेती (Dryland Farming) में पानी की बचत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक खेती से पानी की बचत होती है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "गेहूं की 'सिंचित' और 'असिंचित' खेती में अंतर?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का छिड़काव'?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "असिंचित खेती (Dryland Farming) में पानी की बचत?",
+      "Crop": "General",
+      "FinalScore": 0.9999050187355296,
+      "CrossScore": 0.9999050187355296
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General",
+      "FinalScore": 0.9998975334905348,
+      "CrossScore": 0.9998975334905348
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "FinalScore": 0.9996972189055259,
+      "CrossScore": 0.9996972189055259
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General",
+      "FinalScore": 0.9996360414537473,
+      "CrossScore": 0.9996360414537473
+    },
+    {
+      "Question": "मशरूम की खेती में 'सामूहिक खेती' (Cluster Farming)?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9996135972812902,
+      "CrossScore": 0.9996135972812902
+    },
+    {
+      "Question": "गेहूं की 'बरानी' (Dryland) खेती में सफलता?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995463226248972,
+      "CrossScore": 0.9995463226248972
+    },
+    {
+      "Question": "गेहूं की 'सिंचित' और 'असिंचित' खेती में अंतर?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9973169723496202,
+      "CrossScore": 0.9973169723496202
+    },
+    {
+      "Question": "जैविक खेती में 'केंचुओं' की संख्या कैसे बढ़ाएं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9967689700556226,
+      "CrossScore": 0.9967689700556226
+    },
+    {
+      "Question": "आलू की खेती में 'मजदूरी' की बचत?",
+      "Crop": "Potato",
+      "FinalScore": 0.9964948980548005,
+      "CrossScore": 0.9964948980548005
+    },
+    {
+      "Question": "जैविक खेती में 'नाइट्रोजन' की पूर्ति कैसे करें?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9960656636515274,
+      "CrossScore": 0.9960656636515274
+    }
+  ],
+  "latency_ms": 208.85,
+  "final_returned": [
+    {
+      "Question": "असिंचित खेती (Dryland Farming) में पानी की बचत?",
+      "Crop": "General",
+      "Score": 0.9999050187355296
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General",
+      "Score": 0.9998975334905348
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "Score": 0.9996972189055259
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General",
+      "Score": 0.9996360414537473
+    },
+    {
+      "Question": "मशरूम की खेती में 'सामूहिक खेती' (Cluster Farming)?",
+      "Crop": "Mushroom",
+      "Score": 0.9996135972812902
+    }
+  ]
+}

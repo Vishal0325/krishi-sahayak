@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:12.557232",
+  "query_original": "पाइप लाइन सिंचाई (Pipe Irrigation) का महत्व?",
+  "query_normalized": "पाइप लाइन सिंचाई pipe irrigation का महत्व",
+  "query_expanded": "पाइप लाइन सिंचाई pipe irrigation का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पाइप लाइन सिंचाई (Pipe Irrigation) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'सिंचाई' के लिए पाइप लाइन का लाभ?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का in 'सिंचाई' के लिए 'पाइप लाइन' का खर्च?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' का पाइप जाम होना?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पाइप लाइन सिंचाई (Pipe Irrigation) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 999.908164491539,
+      "CrossScore": 0.999908164491539
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9997013128622438,
+      "CrossScore": 0.9997013128622438
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996939583042538,
+      "CrossScore": 0.9996939583042538
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9980806849054695,
+      "CrossScore": 0.9980806849054695
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9955770613908493,
+      "CrossScore": 0.9955770613908493
+    },
+    {
+      "Question": "गन्ने में 'फास्फोरस' का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9943241181678638,
+      "CrossScore": 0.9943241181678638
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9942487257076933,
+      "CrossScore": 0.9942487257076933
+    },
+    {
+      "Question": "भिंडी में 'फास्फोरस' का महत्व?",
+      "Crop": "Okra",
+      "FinalScore": 0.9935050692134695,
+      "CrossScore": 0.9935050692134695
+    },
+    {
+      "Question": "मक्का की फसल में 'सिंचाई' के लिए पाइप का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9932618689243627,
+      "CrossScore": 0.9932618689243627
+    },
+    {
+      "Question": "धनिया में 'फास्फोरस' का महत्व?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9931943123701754,
+      "CrossScore": 0.9931943123701754
+    }
+  ],
+  "latency_ms": 199.43,
+  "final_returned": [
+    {
+      "Question": "पाइप लाइन सिंचाई (Pipe Irrigation) का महत्व?",
+      "Crop": "General",
+      "Score": 999.908164491539
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9997013128622438
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9996939583042538
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General",
+      "Score": 0.9980806849054695
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General",
+      "Score": 0.9955770613908493
+    }
+  ]
+}

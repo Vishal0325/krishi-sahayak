@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:36.545641",
+  "query_original": "सरसों in 'डाउन मिल्ड्यू' (Downy Mildew) की पहचान?",
+  "query_normalized": "सरसों in डाउन मिल्ड्यू downy mildew की पहचान",
+  "query_expanded": "सरसों in डाउन मिल्ड्यू downy mildew की पहचान",
+  "detected_crops": [
+    "Mustard"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सरसों in 'डाउन मिल्ड्यू' (Downy Mildew) की पहचान?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों in 'आरा मक्खी' (Saw Fly) की पहचान क्या है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों में 'आरा मक्खी' (Sawfly) की पहचान क्या है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों में 'मैंगनीज' की कमी का पहचान?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Mustard"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सरसों in 'डाउन मिल्ड्यू' (Downy Mildew) की पहचान?",
+      "Crop": "Mustard",
+      "FinalScore": 49993.78701418049,
+      "CrossScore": 0.9998757402836098
+    },
+    {
+      "Question": "सरसों in 'पोटाश' की कमी से 'फलियों' की संख्या?",
+      "Crop": "Mustard",
+      "FinalScore": 49.98064217176213,
+      "CrossScore": 0.9996128434352425
+    },
+    {
+      "Question": "सरसों in 'यूरिया' की टॉप ड्रेसिंग के बाद 'सिंचाई'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.980582075798665,
+      "CrossScore": 0.9996116415159733
+    },
+    {
+      "Question": "सरसों in 'यूरिया' की टॉप ड्रेसिंग के बाद 'हल्की सिंचाई'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.9798395336174,
+      "CrossScore": 0.999596790672348
+    },
+    {
+      "Question": "सरसों की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Mustard",
+      "FinalScore": 49.978759729079805,
+      "CrossScore": 0.999575194581596
+    },
+    {
+      "Question": "सरसों in 'आरा मक्खी' (Saw Fly) की पहचान क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.978128974988756,
+      "CrossScore": 0.9995625794997751
+    },
+    {
+      "Question": "सरसों in 'यूरिया' की बचत के लिए 'नैनो यूरिया'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.977515835072715,
+      "CrossScore": 0.9995503167014543
+    },
+    {
+      "Question": "सरसों में 'आरा मक्खी' (Sawfly) की पहचान क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.97093270334736,
+      "CrossScore": 0.9994186540669472
+    },
+    {
+      "Question": "सरसों in 'पोटाश' की कमी से 'फलियों' की चमक?",
+      "Crop": "Mustard",
+      "FinalScore": 49.96952651908871,
+      "CrossScore": 0.9993905303817742
+    },
+    {
+      "Question": "सरसों की 'हाइब्रिड' खेती in 'मुनाफा'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.967383103202096,
+      "CrossScore": 0.9993476620640419
+    }
+  ],
+  "latency_ms": 203.11,
+  "final_returned": [
+    {
+      "Question": "सरसों in 'डाउन मिल्ड्यू' (Downy Mildew) की पहचान?",
+      "Crop": "Mustard",
+      "Score": 49993.78701418049
+    },
+    {
+      "Question": "सरसों in 'पोटाश' की कमी से 'फलियों' की संख्या?",
+      "Crop": "Mustard",
+      "Score": 49.98064217176213
+    },
+    {
+      "Question": "सरसों in 'यूरिया' की टॉप ड्रेसिंग के बाद 'सिंचाई'?",
+      "Crop": "Mustard",
+      "Score": 49.980582075798665
+    },
+    {
+      "Question": "सरसों in 'यूरिया' की टॉप ड्रेसिंग के बाद 'हल्की सिंचाई'?",
+      "Crop": "Mustard",
+      "Score": 49.9798395336174
+    },
+    {
+      "Question": "सरसों की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Mustard",
+      "Score": 49.978759729079805
+    }
+  ]
+}

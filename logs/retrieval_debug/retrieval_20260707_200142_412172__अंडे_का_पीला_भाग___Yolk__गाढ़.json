@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:42.215512",
+  "query_original": "'अंडे का पीला भाग' (Yolk) गाढ़ा कैसे करें?",
+  "query_normalized": "अंडे का पीला भाग yolk गाढ़ा कैसे करें",
+  "query_expanded": "अंडे का पीला भाग yolk गाढ़ा कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अंडे का पीला भाग' (Yolk) गाढ़ा कैसे करें?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गेहूं में दीमक का नियंत्रण कैसे करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अंडे का पीला भाग' (Yolk) गाढ़ा कैसे करें?",
+      "Crop": "Poultry",
+      "FinalScore": 999.89352941417,
+      "CrossScore": 0.99989352941417
+    },
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998319253395768,
+      "CrossScore": 0.9998319253395768
+    },
+    {
+      "Question": "लहसुन के बीजों का चयन कैसे करें?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9997822343581634,
+      "CrossScore": 0.9997822343581634
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997661840784504,
+      "CrossScore": 0.9997661840784504
+    },
+    {
+      "Question": "प्याज के कंदों का 'छिलका' कड़ा कैसे करें?",
+      "Crop": "Onion",
+      "FinalScore": 0.9997622341769222,
+      "CrossScore": 0.9997622341769222
+    },
+    {
+      "Question": "गंधी बग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997520308176003,
+      "CrossScore": 0.9997520308176003
+    },
+    {
+      "Question": "पिछेती झुलसा का नियंत्रण कैसे करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997450278570171,
+      "CrossScore": 0.9997450278570171
+    },
+    {
+      "Question": "अदरक के बीजों (प्रकंदों) का चयन कैसे करें?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9997450006285448,
+      "CrossScore": 0.9997450006285448
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997209615123442,
+      "CrossScore": 0.9997209615123442
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997162792531056,
+      "CrossScore": 0.9997162792531056
+    }
+  ],
+  "latency_ms": 196.71,
+  "final_returned": [
+    {
+      "Question": "'अंडे का पीला भाग' (Yolk) गाढ़ा कैसे करें?",
+      "Crop": "Poultry",
+      "Score": 999.89352941417
+    },
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra",
+      "Score": 0.9998319253395768
+    },
+    {
+      "Question": "लहसुन के बीजों का चयन कैसे करें?",
+      "Crop": "Garlic",
+      "Score": 0.9997822343581634
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "Score": 0.9997661840784504
+    },
+    {
+      "Question": "प्याज के कंदों का 'छिलका' कड़ा कैसे करें?",
+      "Crop": "Onion",
+      "Score": 0.9997622341769222
+    }
+  ]
+}

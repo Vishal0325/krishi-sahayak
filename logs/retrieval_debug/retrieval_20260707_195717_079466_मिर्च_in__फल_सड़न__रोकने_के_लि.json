@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:16.870054",
+  "query_original": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+  "query_normalized": "मिर्च in फल सड़न रोकने के लिए सिंचाई",
+  "query_expanded": "मिर्च in फल सड़न रोकने के लिए सिंचाई",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च में 'सिंचाई' के लिए 'सोलर पंप'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' (Fruit Rot) का कारण?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.994923462828645,
+      "CrossScore": 0.9998984692565729
+    },
+    {
+      "Question": "मिर्च के लिए उपयुक्त जलवायु?",
+      "Crop": "Chilli",
+      "FinalScore": 49.994590887803895,
+      "CrossScore": 0.9998918177560778
+    },
+    {
+      "Question": "मिर्च in 'चूर्णी फफूंद' (Powdery Mildew) के क्या लक्षण हैं?",
+      "Crop": "Chilli",
+      "FinalScore": 49.9944331976955,
+      "CrossScore": 0.99988866395391
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli",
+      "FinalScore": 49.9943281654477,
+      "CrossScore": 0.999886563308954
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99408110206967,
+      "CrossScore": 0.9998816220413934
+    },
+    {
+      "Question": "मिर्च की खेती के लिए सरकारी सब्सिडी?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99384149786031,
+      "CrossScore": 0.9998768299572062
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.993732383243014,
+      "CrossScore": 0.9998746476648603
+    },
+    {
+      "Question": "मिर्च में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.9936222722298,
+      "CrossScore": 0.999872445444596
+    },
+    {
+      "Question": "मिर्च के फलों को 'चमकदार' बनाने के लिए पोटाश?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99357742847264,
+      "CrossScore": 0.9998715485694528
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99346567978122,
+      "CrossScore": 0.9998693135956244
+    }
+  ],
+  "latency_ms": 209.5,
+  "final_returned": [
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "Score": 49.994923462828645
+    },
+    {
+      "Question": "मिर्च के लिए उपयुक्त जलवायु?",
+      "Crop": "Chilli",
+      "Score": 49.994590887803895
+    },
+    {
+      "Question": "मिर्च in 'चूर्णी फफूंद' (Powdery Mildew) के क्या लक्षण हैं?",
+      "Crop": "Chilli",
+      "Score": 49.9944331976955
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' रोकने के लिए सिंचाई?",
+      "Crop": "Chilli",
+      "Score": 49.9943281654477
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "Score": 49.99408110206967
+    }
+  ]
+}

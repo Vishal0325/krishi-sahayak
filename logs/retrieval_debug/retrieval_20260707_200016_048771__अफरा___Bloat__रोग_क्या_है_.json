@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:15.813490",
+  "query_original": "'अफरा' (Bloat) रोग क्या है?",
+  "query_normalized": "अफरा bloat रोग क्या है",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease अफरा bloat रोग क्या है रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अफरा' (Bloat) रोग क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) रोग क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "केले में 'सिगाटोका' (Sigatoka) पत्ती धब्बा रोग क्या है?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "धान का 'खैरा' रोग क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अफरा' (Bloat) रोग क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9052176056134,
+      "CrossScore": 0.9999052176056135
+    },
+    {
+      "Question": "दलहनी फसलों का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 9.994607298678723,
+      "CrossScore": 0.9994607298678723
+    },
+    {
+      "Question": "आम का 'गुच्छा रोग' (Malformed Flowers) क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 9.993390686405405,
+      "CrossScore": 0.9993390686405405
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 9.993006928288473,
+      "CrossScore": 0.9993006928288473
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.992838051684824,
+      "CrossScore": 0.9992838051684824
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.992500620428197,
+      "CrossScore": 0.9992500620428197
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 9.992323181320788,
+      "CrossScore": 0.9992323181320788
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.9921680791019,
+      "CrossScore": 0.99921680791019
+    },
+    {
+      "Question": "सरसों का 'सफेद रतुआ' (White Rust) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995736161845398,
+      "CrossScore": 0.9995736161845398
+    },
+    {
+      "Question": "मटर का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9994661204326025,
+      "CrossScore": 0.9994661204326025
+    }
+  ],
+  "latency_ms": 235.34,
+  "final_returned": [
+    {
+      "Question": "'अफरा' (Bloat) रोग क्या है?",
+      "Crop": "General",
+      "Score": 999.9052176056134
+    },
+    {
+      "Question": "दलहनी फसलों का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pulses",
+      "Score": 9.994607298678723
+    },
+    {
+      "Question": "आम का 'गुच्छा रोग' (Malformed Flowers) क्या है?",
+      "Crop": "Mango",
+      "Score": 9.993390686405405
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "Score": 9.993006928288473
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 9.992838051684824
+    }
+  ]
+}

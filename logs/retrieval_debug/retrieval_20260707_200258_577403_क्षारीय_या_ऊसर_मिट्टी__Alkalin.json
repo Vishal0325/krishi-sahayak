@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:58.342608",
+  "query_original": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+  "query_normalized": "क्षारीय या ऊसर मिट्टी alkaline soil को कैसे सुधारें",
+  "query_expanded": "क्षारीय या ऊसर मिट्टी alkaline soil को कैसे सुधारें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+      "Crop": "General",
+      "FinalScore": 999.915229709611,
+      "CrossScore": 0.999915229709611
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998479371045499,
+      "CrossScore": 0.9998479371045499
+    },
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998335112914752,
+      "CrossScore": 0.9998335112914752
+    },
+    {
+      "Question": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998106117022961,
+      "CrossScore": 0.9998106117022961
+    },
+    {
+      "Question": "'लवणीय मिट्टी' (Saline Soil) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9998042161235486,
+      "CrossScore": 0.9998042161235486
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "FinalScore": 0.9997995197016143,
+      "CrossScore": 0.9997995197016143
+    },
+    {
+      "Question": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9997775159900458,
+      "CrossScore": 0.9997775159900458
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997447194219087,
+      "CrossScore": 0.9997447194219087
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997277597451169,
+      "CrossScore": 0.9997277597451169
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.999709242657291,
+      "CrossScore": 0.999709242657291
+    }
+  ],
+  "latency_ms": 234.83,
+  "final_returned": [
+    {
+      "Question": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+      "Crop": "General",
+      "Score": 999.915229709611
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "Score": 0.9998479371045499
+    },
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General",
+      "Score": 0.9998335112914752
+    },
+    {
+      "Question": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9998106117022961
+    },
+    {
+      "Question": "'लवणीय मिट्टी' (Saline Soil) की पहचान?",
+      "Crop": "General",
+      "Score": 0.9998042161235486
+    }
+  ]
+}

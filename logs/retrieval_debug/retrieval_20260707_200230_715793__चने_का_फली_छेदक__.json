@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:30.554887",
+  "query_original": "'चने का फली छेदक'?",
+  "query_normalized": "चने का फली छेदक",
+  "query_expanded": "चने का फली छेदक",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'चने का फली छेदक'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'चने का फली छेदक'?",
+      "Crop": "Pulses",
+      "FinalScore": 9998.983759785691,
+      "CrossScore": 0.9998983759785691
+    },
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.999181027016448,
+      "CrossScore": 0.9999181027016448
+    },
+    {
+      "Question": "'बैंगन का तना छेदक'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999172417184527,
+      "CrossScore": 0.9999172417184526
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "FinalScore": 9.999024048158313,
+      "CrossScore": 0.9999024048158313
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.99886590564365,
+      "CrossScore": 0.9998865905643649
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 9.998685935824165,
+      "CrossScore": 0.9998685935824165
+    },
+    {
+      "Question": "'केले का तना छेदक'?",
+      "Crop": "Banana",
+      "FinalScore": 9.99850942228017,
+      "CrossScore": 0.9998509422280171
+    },
+    {
+      "Question": "'गन्ने का जड़ छेदक'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99822098706458,
+      "CrossScore": 0.999822098706458
+    },
+    {
+      "Question": "'भिंडी का फल छेदक'?",
+      "Crop": "Okra",
+      "FinalScore": 9.99820685365875,
+      "CrossScore": 0.999820685365875
+    },
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea",
+      "FinalScore": 9.997143336674869,
+      "CrossScore": 0.9997143336674869
+    }
+  ],
+  "latency_ms": 160.93,
+  "final_returned": [
+    {
+      "Question": "'चने का फली छेदक'?",
+      "Crop": "Pulses",
+      "Score": 9998.983759785691
+    },
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses",
+      "Score": 9.999181027016448
+    },
+    {
+      "Question": "'बैंगन का तना छेदक'?",
+      "Crop": "Brinjal",
+      "Score": 9.999172417184527
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "Score": 9.999024048158313
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "Score": 9.99886590564365
+    }
+  ]
+}

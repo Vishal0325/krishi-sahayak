@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-07-07T19:56:46.260657",
+  "query_original": "यूरिया",
+  "query_normalized": "यूरिया",
+  "query_expanded": "nitrogen नाइट्रोजन यूरिया urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997900576684813,
+      "CrossScore": 0.9997900576684813
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997819276772251,
+      "CrossScore": 0.9997819276772251
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997328546195976,
+      "CrossScore": 0.9997328546195976
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997150297742021,
+      "CrossScore": 0.9997150297742021
+    },
+    {
+      "Question": "धनिया में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999708280546551,
+      "CrossScore": 0.999708280546551
+    },
+    {
+      "Question": "मिर्च में 'यूरिया' की बचत के लिए 'नैनो यूरिया'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9997078494139975,
+      "CrossScore": 0.9997078494139975
+    },
+    {
+      "Question": "भिंडी में 'यूरिया' की बचत के लिए 'नैनो यूरिया'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997025904272104,
+      "CrossScore": 0.9997025904272104
+    },
+    {
+      "Question": "दलहनी फसलों में 'यूरिया' की मात्रा?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999701022260536,
+      "CrossScore": 0.999701022260536
+    },
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996978083667669,
+      "CrossScore": 0.9996978083667669
+    },
+    {
+      "Question": "अमरूद में 'यूरिया' की बचत के लिए 'नैनो यूरिया'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9996801725531563,
+      "CrossScore": 0.9996801725531563
+    }
+  ],
+  "latency_ms": 413.66,
+  "final_returned": [
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9997900576684813
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997819276772251
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 0.9997328546195976
+    }
+  ]
+}

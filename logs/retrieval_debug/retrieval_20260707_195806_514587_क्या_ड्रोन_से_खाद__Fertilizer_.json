@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:06.331694",
+  "query_original": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+  "query_normalized": "क्या ड्रोन से खाद fertilizer का छिड़काव संभव है",
+  "query_expanded": "क्या ड्रोन से खाद fertilizer का छिड़काव संभव है खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या 'ड्रोन' से छिड़काव का बिजनेस सफल है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ड्रोन' से छिड़काव का समय?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9999219926588612,
+      "CrossScore": 0.9999219926588612
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998893928327472,
+      "CrossScore": 0.9998893928327472
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998861981918453,
+      "CrossScore": 0.9998861981918453
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993817298710703,
+      "CrossScore": 0.9993817298710703
+    },
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9993800845249068,
+      "CrossScore": 0.9993800845249068
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993523956306998,
+      "CrossScore": 0.9993523956306998
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General",
+      "FinalScore": 0.999239520351181,
+      "CrossScore": 0.999239520351181
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992370254825176,
+      "CrossScore": 0.9992370254825176
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9992358700155601,
+      "CrossScore": 0.9992358700155601
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9992223976366539,
+      "CrossScore": 0.9992223976366539
+    }
+  ],
+  "latency_ms": 183.02,
+  "final_returned": [
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9999219926588612
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.9998893928327472
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9998861981918453
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "Score": 0.9993817298710703
+    },
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "Score": 0.9993800845249068
+    }
+  ]
+}

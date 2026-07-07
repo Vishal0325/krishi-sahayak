@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:40.279967",
+  "query_original": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+  "query_normalized": "ipm में प्रकाश प्रपंच light trap का समय",
+  "query_expanded": "ipm में प्रकाश प्रपंच light trap का समय",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General",
+      "FinalScore": 0.9999195329084256,
+      "CrossScore": 0.9999195329084256
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9997785867837159,
+      "CrossScore": 0.9997785867837159
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997637177973201,
+      "CrossScore": 0.9997637177973201
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.99976303262148,
+      "CrossScore": 0.99976303262148
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9997506614710583,
+      "CrossScore": 0.9997506614710583
+    },
+    {
+      "Question": "IPM में 'बाउमा' (Baiting) का प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997478654420399,
+      "CrossScore": 0.9997478654420399
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997385445834318,
+      "CrossScore": 0.9997385445834318
+    },
+    {
+      "Question": "IPM में 'अंतर-फसल' (Intercropping) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9994714385009307,
+      "CrossScore": 0.9994714385009307
+    },
+    {
+      "Question": "IPM में 'प्रतिरोधी किस्मों' (Resistant Varieties) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9994226499682317,
+      "CrossScore": 0.9994226499682317
+    },
+    {
+      "Question": "IPM में 'फसल चक्र' (Crop Rotation) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9993817837863578,
+      "CrossScore": 0.9993817837863578
+    }
+  ],
+  "latency_ms": 202.82,
+  "final_returned": [
+    {
+      "Question": "IPM में 'प्रकाश प्रपंच' (Light Trap) का समय?",
+      "Crop": "General",
+      "Score": 0.9999195329084256
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "Score": 0.9997785867837159
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General",
+      "Score": 0.9997637177973201
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.99976303262148
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "Score": 0.9997506614710583
+    }
+  ]
+}

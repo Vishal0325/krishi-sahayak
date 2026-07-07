@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:28.343301",
+  "query_original": "पत्तागोभी की 'चीनी पत्तागोभी' (Chinese Cabbage) क्या है?",
+  "query_normalized": "पत्तागोभी की चीनी पत्तागोभी chinese cabbage क्या है",
+  "query_expanded": "पत्तागोभी की चीनी पत्तागोभी chinese cabbage क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पत्तागोभी की 'चीनी पत्तागोभी' (Chinese Cabbage) क्या है?",
+      "Crop": "Cabbage"
+    },
+    {
+      "Question": "पत्तागोभी की 'लाल पत्तागोभी' (Red Cabbage) क्या है?",
+      "Crop": "Cabbage"
+    },
+    {
+      "Question": "पत्तागोभी की खेती का परिचय क्या है?",
+      "Crop": "Cabbage"
+    },
+    {
+      "Question": "क्या बिहार में पत्तागोभी की खेती सफल है?",
+      "Crop": "Cabbage"
+    },
+    {
+      "Question": "पत्तागोभी की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Cabbage"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पत्तागोभी की 'चीनी पत्तागोभी' (Chinese Cabbage) क्या है?",
+      "Crop": "Cabbage",
+      "FinalScore": 999.8656933707096,
+      "CrossScore": 0.9998656933707095
+    },
+    {
+      "Question": "पत्तागोभी की 'लाल पत्तागोभी' (Red Cabbage) क्या है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998474325518742,
+      "CrossScore": 0.9998474325518742
+    },
+    {
+      "Question": "पत्तागोभी की खेती का परिचय क्या है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9986746159804053,
+      "CrossScore": 0.9986746159804053
+    },
+    {
+      "Question": "पत्तागोभी की औसत उपज कितनी होती है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9966919965801463,
+      "CrossScore": 0.9966919965801463
+    },
+    {
+      "Question": "क्या बिहार में पत्तागोभी की खेती सफल है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9966698736191324,
+      "CrossScore": 0.9966698736191324
+    },
+    {
+      "Question": "पत्तागोभी की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9965449401613807,
+      "CrossScore": 0.9965449401613807
+    },
+    {
+      "Question": "पत्तागोभी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9963985844181938,
+      "CrossScore": 0.9963985844181938
+    },
+    {
+      "Question": "पत्तागोभी की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9963943983465163,
+      "CrossScore": 0.9963943983465163
+    },
+    {
+      "Question": "पत्तागोभी में खाद और उर्वरक की मात्रा?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9963566952782991,
+      "CrossScore": 0.9963566952782991
+    },
+    {
+      "Question": "पत्तागोभी की बुआई का समय?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9963223630192778,
+      "CrossScore": 0.9963223630192778
+    }
+  ],
+  "latency_ms": 245.53,
+  "final_returned": [
+    {
+      "Question": "पत्तागोभी की 'चीनी पत्तागोभी' (Chinese Cabbage) क्या है?",
+      "Crop": "Cabbage",
+      "Score": 999.8656933707096
+    },
+    {
+      "Question": "पत्तागोभी की 'लाल पत्तागोभी' (Red Cabbage) क्या है?",
+      "Crop": "Cabbage",
+      "Score": 0.9998474325518742
+    },
+    {
+      "Question": "पत्तागोभी की खेती का परिचय क्या है?",
+      "Crop": "Cabbage",
+      "Score": 0.9986746159804053
+    },
+    {
+      "Question": "पत्तागोभी की औसत उपज कितनी होती है?",
+      "Crop": "Cabbage",
+      "Score": 0.9966919965801463
+    },
+    {
+      "Question": "क्या बिहार में पत्तागोभी की खेती सफल है?",
+      "Crop": "Cabbage",
+      "Score": 0.9966698736191324
+    }
+  ]
+}

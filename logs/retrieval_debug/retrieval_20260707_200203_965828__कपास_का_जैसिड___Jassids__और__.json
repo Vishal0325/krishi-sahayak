@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:03.659920",
+  "query_original": "'कपास का जैसिड' (Jassids) और 'पत्तियां'?",
+  "query_normalized": "कपास का जैसिड jassids और पत्तियां",
+  "query_expanded": "कपास का जैसिड jassids और पत्तियां",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कपास का जैसिड' (Jassids) और 'पत्तियां'?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'सरसों का सफेद रतुआ' (White Rust) और 'पत्तियां'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' (Thrips) और 'नाव' जैसी पत्तियां?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कपास का जैसिड' (Jassids) और 'पत्तियां'?",
+      "Crop": "Cotton",
+      "FinalScore": 999.8658809866351,
+      "CrossScore": 0.9998658809866352
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'स्पिनोसाड'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9996149614838132,
+      "CrossScore": 0.9996149614838132
+    },
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9995270986866238,
+      "CrossScore": 0.9995270986866238
+    },
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9995262256216884,
+      "CrossScore": 0.9995262256216884
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' (Thrips) और 'नाव' जैसी पत्तियां?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9995169571477066,
+      "CrossScore": 0.9995169571477066
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9994617725578804,
+      "CrossScore": 0.9994617725578804
+    },
+    {
+      "Question": "'कपास' में 'गुलाबी सुंडी' (Pink Bollworm) का हमला कब होता है?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9994075176570875,
+      "CrossScore": 0.9994075176570875
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) और 'पत्तियां'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9993713975357793,
+      "CrossScore": 0.9993713975357793
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 0.9992875394106272,
+      "CrossScore": 0.9992875394106272
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' का 'जैविक' इलाज?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9992859178834863,
+      "CrossScore": 0.9992859178834863
+    }
+  ],
+  "latency_ms": 305.96,
+  "final_returned": [
+    {
+      "Question": "'कपास का जैसिड' (Jassids) और 'पत्तियां'?",
+      "Crop": "Cotton",
+      "Score": 999.8658809866351
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'स्पिनोसाड'?",
+      "Crop": "Brinjal",
+      "Score": 0.9996149614838132
+    },
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "Score": 0.9995270986866238
+    },
+    {
+      "Question": "कपास का 'गुलाबी सुंडी' (Pink Bollworm) क्या है?",
+      "Crop": "Cotton",
+      "Score": 0.9995262256216884
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' (Thrips) और 'नाव' जैसी पत्तियां?",
+      "Crop": "Chilli",
+      "Score": 0.9995169571477066
+    }
+  ]
+}

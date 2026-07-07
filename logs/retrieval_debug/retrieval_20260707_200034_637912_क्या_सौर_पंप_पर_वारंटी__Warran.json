@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:34.422977",
+  "query_original": "क्या सौर पंप पर वारंटी (Warranty) मिलती है?",
+  "query_normalized": "क्या सौर पंप पर वारंटी warranty मिलती है",
+  "query_expanded": "क्या सौर पंप पर वारंटी warranty मिलती है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या सौर पंप पर वारंटी (Warranty) मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या बिजली के कनेक्शन पर किसानों को सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या सौर पंप पर वारंटी (Warranty) मिलती है?",
+      "Crop": "General",
+      "FinalScore": 999.926678135739,
+      "CrossScore": 0.9999266781357391
+    },
+    {
+      "Question": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+      "Crop": "General",
+      "FinalScore": 0.9998652230535058,
+      "CrossScore": 0.9998652230535058
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9998312850000242,
+      "CrossScore": 0.9998312850000242
+    },
+    {
+      "Question": "मशीनों पर सब्सिडी (Subsidy) लेने की प्रक्रिया क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998266905126773,
+      "CrossScore": 0.9998266905126773
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998186265294279,
+      "CrossScore": 0.9998186265294279
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9997892865849614,
+      "CrossScore": 0.9997892865849614
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997823954212297,
+      "CrossScore": 0.9997823954212297
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997788214129302,
+      "CrossScore": 0.9997788214129302
+    },
+    {
+      "Question": "क्या फूलों की खेती के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9997765293134101,
+      "CrossScore": 0.9997765293134101
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997684116403915,
+      "CrossScore": 0.9997684116403915
+    }
+  ],
+  "latency_ms": 214.96,
+  "final_returned": [
+    {
+      "Question": "क्या सौर पंप पर वारंटी (Warranty) मिलती है?",
+      "Crop": "General",
+      "Score": 999.926678135739
+    },
+    {
+      "Question": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+      "Crop": "General",
+      "Score": 0.9998652230535058
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "Score": 0.9998312850000242
+    },
+    {
+      "Question": "मशीनों पर सब्सिडी (Subsidy) लेने की प्रक्रिया क्या है?",
+      "Crop": "General",
+      "Score": 0.9998266905126773
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998186265294279
+    }
+  ]
+}

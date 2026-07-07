@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:41.732631",
+  "query_original": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+  "query_normalized": "धान के लिए कोनो वीडर cono weeder कैसे काम करता है",
+  "query_expanded": "धान के लिए कोनो वीडर cono weeder कैसे काम करता है",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के लिए सबसे अच्छी मिट्टी कौन सी है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "FinalScore": 49993.2084100381,
+      "CrossScore": 0.9998641682007621
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99267972012736,
+      "CrossScore": 0.9998535944025473
+    },
+    {
+      "Question": "धान की खेती के लिए औसत तापमान कितना होना चाहिए?",
+      "Crop": "Rice",
+      "FinalScore": 49.97985729354315,
+      "CrossScore": 0.999597145870863
+    },
+    {
+      "Question": "धान के लिए उपयुक्त जलवायु कैसी होनी चाहिए?",
+      "Crop": "Rice",
+      "FinalScore": 49.97767383834294,
+      "CrossScore": 0.9995534767668588
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' के लिए 'एंटीबायोटिक'?",
+      "Crop": "Rice",
+      "FinalScore": 49.97693379414425,
+      "CrossScore": 0.999538675882885
+    },
+    {
+      "Question": "धान के लिए सबसे अच्छी मिट्टी कौन सी है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97416531547375,
+      "CrossScore": 0.999483306309475
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 49.972616915399946,
+      "CrossScore": 0.999452338307999
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.97176354573749,
+      "CrossScore": 0.9994352709147497
+    },
+    {
+      "Question": "धान की 'श्री' (SRI) विधि के लिए मार्कर?",
+      "Crop": "Rice",
+      "FinalScore": 49.97174445785196,
+      "CrossScore": 0.9994348891570393
+    },
+    {
+      "Question": "धान की मड़ाई के बाद उसे कैसे सुखाएं?",
+      "Crop": "Rice",
+      "FinalScore": 49.96843680438455,
+      "CrossScore": 0.9993687360876911
+    }
+  ],
+  "latency_ms": 226.23,
+  "final_returned": [
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "Score": 49993.2084100381
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 49.99267972012736
+    },
+    {
+      "Question": "धान की खेती के लिए औसत तापमान कितना होना चाहिए?",
+      "Crop": "Rice",
+      "Score": 49.97985729354315
+    },
+    {
+      "Question": "धान के लिए उपयुक्त जलवायु कैसी होनी चाहिए?",
+      "Crop": "Rice",
+      "Score": 49.97767383834294
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' के लिए 'एंटीबायोटिक'?",
+      "Crop": "Rice",
+      "Score": 49.97693379414425
+    }
+  ]
+}

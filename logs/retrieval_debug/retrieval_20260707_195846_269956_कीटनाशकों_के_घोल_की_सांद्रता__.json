@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:46.086201",
+  "query_original": "कीटनाशकों के घोल की सांद्रता (Concentration)?",
+  "query_normalized": "कीटनाशकों के घोल की सांद्रता concentration",
+  "query_expanded": "कीटनाशकों के घोल की सांद्रता concentration बग pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशकों के घोल की सांद्रता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने की खेती में 'नमक के घोल' का छिड़काव क्या कीड़ों को रोकता है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 9.991720976072111,
+      "CrossScore": 0.9991720976072112
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "FinalScore": 9.989915925723201,
+      "CrossScore": 0.9989915925723201
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.989609107174623,
+      "CrossScore": 0.9989609107174622
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 9.989574620606735,
+      "CrossScore": 0.9989574620606735
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.988543540767289,
+      "CrossScore": 0.998854354076729
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.98800620115311,
+      "CrossScore": 0.998800620115311
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.98315565861425,
+      "CrossScore": 0.998315565861425
+    },
+    {
+      "Question": "कीटनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General",
+      "FinalScore": 0.9998840722557363,
+      "CrossScore": 0.9998840722557363
+    },
+    {
+      "Question": "फफूंदनाशकों के घोल की सांद्रता (Concentration)?",
+      "Crop": "General",
+      "FinalScore": 0.999790788232919,
+      "CrossScore": 0.999790788232919
+    },
+    {
+      "Question": "क्या कीटनाशकों को फफूंदनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991732781365624,
+      "CrossScore": 0.9991732781365624
+    }
+  ],
+  "latency_ms": 183.84,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 9.991720976072111
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "Score": 9.989915925723201
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "Score": 9.989609107174623
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 9.989574620606735
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "Score": 9.988543540767289
+    }
+  ]
+}

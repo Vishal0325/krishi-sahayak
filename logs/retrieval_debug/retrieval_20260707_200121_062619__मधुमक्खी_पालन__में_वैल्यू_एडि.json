@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:20.839026",
+  "query_original": "'मधुमक्खी पालन' में वैल्यू एडिशन?",
+  "query_normalized": "मधुमक्खी पालन में वैल्यू एडिशन",
+  "query_expanded": "मधुमक्खी पालन में वैल्यू एडिशन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मधुमक्खी पालन' में वैल्यू एडिशन?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'डिवाइडिंग' (Dividing)?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "क्या फलों के बाग में मधुमक्खी पालन करना चाहिए?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मधुमक्खी पालन' में वैल्यू एडिशन?",
+      "Crop": "Agri Startup",
+      "FinalScore": 999.8654793274949,
+      "CrossScore": 0.9998654793274949
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998690802310438,
+      "CrossScore": 0.9998690802310438
+    },
+    {
+      "Question": "पपीते के बाग में 'मधुमक्खी पालन'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998660375588461,
+      "CrossScore": 0.9998660375588461
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रोपोलिस' (Propolis) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999861114456455,
+      "CrossScore": 0.999861114456455
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998601424551186,
+      "CrossScore": 0.9998601424551186
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'बी-वेनम' (Bee Venom) का उपयोग?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998556252296212,
+      "CrossScore": 0.9998556252296212
+    },
+    {
+      "Question": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998516142693021,
+      "CrossScore": 0.9998516142693021
+    },
+    {
+      "Question": "सरसों की खेती में 'मधुमक्खी पालन' के लाभ?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998512971333445,
+      "CrossScore": 0.9998512971333445
+    },
+    {
+      "Question": "लीची के बाग में 'मधुमक्खी पालन' से कितना लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998512856476667,
+      "CrossScore": 0.9998512856476667
+    },
+    {
+      "Question": "'मधुमक्खी पालन' में 'इटालियन' नस्ल क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.9998511359692188,
+      "CrossScore": 0.9998511359692188
+    }
+  ],
+  "latency_ms": 223.62,
+  "final_returned": [
+    {
+      "Question": "'मधुमक्खी पालन' में वैल्यू एडिशन?",
+      "Crop": "Agri Startup",
+      "Score": 999.8654793274949
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998690802310438
+    },
+    {
+      "Question": "पपीते के बाग में 'मधुमक्खी पालन'?",
+      "Crop": "Papaya",
+      "Score": 0.9998660375588461
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रोपोलिस' (Propolis) क्या है?",
+      "Crop": "Beekeeping",
+      "Score": 0.999861114456455
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998601424551186
+    }
+  ]
+}

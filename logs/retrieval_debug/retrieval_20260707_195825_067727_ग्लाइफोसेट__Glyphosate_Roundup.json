@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:24.887274",
+  "query_original": "ग्लाइफोसेट (Glyphosate/Roundup) का उपयोग?",
+  "query_normalized": "ग्लाइफोसेट glyphosate roundup का उपयोग",
+  "query_expanded": "ग्लाइफोसेट glyphosate roundup का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ग्लाइफोसेट (Glyphosate/Roundup) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ग्लाइफोसेट (Glyphosate/Roundup) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999158749031818,
+      "CrossScore": 0.9999158749031818
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9979818247015345,
+      "CrossScore": 0.9979818247015345
+    },
+    {
+      "Question": "क्लोडिनाफॉप (Clodinafop) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9974396163077683,
+      "CrossScore": 0.9974396163077683
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9967692157578573,
+      "CrossScore": 0.9967692157578573
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9962457974036402,
+      "CrossScore": 0.9962457974036402
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9961641070271205,
+      "CrossScore": 0.9961641070271205
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9959433085179933,
+      "CrossScore": 0.9959433085179933
+    },
+    {
+      "Question": "'ऑक्सीफ्लोरफेन' (Oxyfluorfen) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9957712526373602,
+      "CrossScore": 0.9957712526373602
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9943809947762872,
+      "CrossScore": 0.9943809947762872
+    },
+    {
+      "Question": "बैंगन के 'अवशेषों' का उपयोग?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9920409045932091,
+      "CrossScore": 0.9920409045932091
+    }
+  ],
+  "latency_ms": 180.54,
+  "final_returned": [
+    {
+      "Question": "ग्लाइफोसेट (Glyphosate/Roundup) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999158749031818
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "Score": 0.9979818247015345
+    },
+    {
+      "Question": "क्लोडिनाफॉप (Clodinafop) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9974396163077683
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "Score": 0.9967692157578573
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9962457974036402
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:32.288844",
+  "query_original": "पशुओं में 'जहरबाद' (HS) बीमारी?",
+  "query_normalized": "पशुओं में जहरबाद hs बीमारी",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा रोग पशुओं में जहरबाद hs बीमारी",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'जहरबाद' (HS) बीमारी?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं में 'जहरबाद' (HS) का टीका कब लगवाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "धान में झुलसा रोग के लक्षण?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.997366125562257,
+      "CrossScore": 0.9997366125562257
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997139652064169,
+      "CrossScore": 0.9997139652064169
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.996999457186943,
+      "CrossScore": 0.9996999457186944
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "FinalScore": 9.996909974440863,
+      "CrossScore": 0.9996909974440863
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "FinalScore": 9.996752878156377,
+      "CrossScore": 0.9996752878156377
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.995736596733195,
+      "CrossScore": 0.9995736596733195
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.995704276548574,
+      "CrossScore": 0.9995704276548575
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.990966737028375,
+      "CrossScore": 0.9990966737028375
+    },
+    {
+      "Question": "पशुओं में 'जहरबाद' (HS) का टीका कब लगवाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999145968351736,
+      "CrossScore": 0.9999145968351736
+    },
+    {
+      "Question": "पशुओं में 'जहरबाद' (HS) बीमारी?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999060557951323,
+      "CrossScore": 0.9999060557951323
+    }
+  ],
+  "latency_ms": 194.07,
+  "final_returned": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.997366125562257
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.997139652064169
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "Score": 9.996999457186943
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "Score": 9.996909974440863
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "Score": 9.996752878156377
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:52.439675",
+  "query_original": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+  "query_normalized": "क्या ipm से कीटों में प्रतिरोध resistance कम होता है",
+  "query_expanded": "बग क्या ipm से कीटों में प्रतिरोध resistance कम होता है pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक दवाओं से कीटों में प्रतिरोध आता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM से खेती का खर्च कम होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खरपतवारों में भी 'प्रतिरोध' (Resistance) आता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या अधिक कीटनाशक डालने से कीटों in प्रतिरोधक क्षमता (Resistance) आती है?",
+      "Crop": "General",
+      "FinalScore": 9.99858589995677,
+      "CrossScore": 0.9998585899956771
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.9985592214619,
+      "CrossScore": 0.99985592214619
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) और अंधाधुंध छिड़काव?",
+      "Crop": "General",
+      "FinalScore": 9.998453860478044,
+      "CrossScore": 0.9998453860478045
+    },
+    {
+      "Question": "'कीटों का प्रतिरोध' (Resistance) कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 9.998299908341643,
+      "CrossScore": 0.9998299908341644
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998874286998263,
+      "CrossScore": 0.9998874286998263
+    },
+    {
+      "Question": "क्या खरपतवारों में भी 'प्रतिरोध' (Resistance) आता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998598055831033,
+      "CrossScore": 0.9998598055831033
+    },
+    {
+      "Question": "फफूंदनाशकों के अधिक प्रयोग से 'प्रतिरोध' (Resistance)?",
+      "Crop": "General",
+      "FinalScore": 0.9998462682405544,
+      "CrossScore": 0.9998462682405544
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) कैसे कम करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998168022409756,
+      "CrossScore": 0.9998168022409756
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995723757038426,
+      "CrossScore": 0.9995723757038426
+    },
+    {
+      "Question": "क्या मौसम के कारण कीटों का 'प्रवास' (Migration) होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995504084250356,
+      "CrossScore": 0.9995504084250356
+    }
+  ],
+  "latency_ms": 276.19,
+  "final_returned": [
+    {
+      "Question": "क्या अधिक कीटनाशक डालने से कीटों in प्रतिरोधक क्षमता (Resistance) आती है?",
+      "Crop": "General",
+      "Score": 9.99858589995677
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "Score": 9.9985592214619
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) और अंधाधुंध छिड़काव?",
+      "Crop": "General",
+      "Score": 9.998453860478044
+    },
+    {
+      "Question": "'कीटों का प्रतिरोध' (Resistance) कैसे रोकें?",
+      "Crop": "General",
+      "Score": 9.998299908341643
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General",
+      "Score": 0.9998874286998263
+    }
+  ]
+}

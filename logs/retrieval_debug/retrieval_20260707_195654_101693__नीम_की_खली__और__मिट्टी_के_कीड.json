@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:53.890526",
+  "query_original": "'नीम की खली' और 'मिट्टी के कीड़े'?",
+  "query_normalized": "नीम की खली और मिट्टी के कीड़े",
+  "query_expanded": "नीम की खली और मिट्टी के कीड़े",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम की खली' और 'मिट्टी के कीड़े'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998844968515817,
+      "CrossScore": 0.9998844968515817
+    },
+    {
+      "Question": "'नीम की खली' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.9998830766422379,
+      "CrossScore": 0.9998830766422379
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 0.9998805223619301,
+      "CrossScore": 0.9998805223619301
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.9998734204560458,
+      "CrossScore": 0.9998734204560458
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998698101171168,
+      "CrossScore": 0.9998698101171168
+    },
+    {
+      "Question": "बैंगन में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998685732818507,
+      "CrossScore": 0.9998685732818507
+    },
+    {
+      "Question": "'दीमक' से बचाव के लिए 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 0.9998657568772121,
+      "CrossScore": 0.9998657568772121
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998652754778323,
+      "CrossScore": 0.9998652754778323
+    },
+    {
+      "Question": "हल्दी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.999865011864986,
+      "CrossScore": 0.999865011864986
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम की खली'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998595569835504,
+      "CrossScore": 0.9998595569835504
+    }
+  ],
+  "latency_ms": 211.31,
+  "final_returned": [
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "Score": 0.9998844968515817
+    },
+    {
+      "Question": "'नीम की खली' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "Score": 0.9998830766422379
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 0.9998805223619301
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "Score": 0.9998734204560458
+    },
+    {
+      "Question": "'दीमक' से बचाव के लिए 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 0.9998657568772121
+    }
+  ]
+}

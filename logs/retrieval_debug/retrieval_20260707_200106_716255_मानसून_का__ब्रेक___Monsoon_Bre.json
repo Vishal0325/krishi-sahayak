@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:06.505196",
+  "query_original": "मानसून का 'ब्रेक' (Monsoon Break) क्या है?",
+  "query_normalized": "मानसून का ब्रेक monsoon break क्या है",
+  "query_expanded": "मानसून का ब्रेक monsoon break क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मानसून का 'ब्रेक' (Monsoon Break) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ब्रेक-ईवन पॉइंट' (Break-even Point) क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "पीला रतुआ का उपचार क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मानसून का 'ब्रेक' (Monsoon Break) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9370836268191,
+      "CrossScore": 0.9999370836268191
+    },
+    {
+      "Question": "'ब्रेक-ईवन पॉइंट' (Break-even Point) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996413158789196,
+      "CrossScore": 0.9996413158789196
+    },
+    {
+      "Question": "कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991583254681249,
+      "CrossScore": 0.9991583254681249
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9988775566615549,
+      "CrossScore": 0.9988775566615549
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9985657994614306,
+      "CrossScore": 0.9985657994614306
+    },
+    {
+      "Question": "प्याज की खेती का परिचय क्या है?",
+      "Crop": "Onion",
+      "FinalScore": 0.9985300630593941,
+      "CrossScore": 0.9985300630593941
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9984786174947857,
+      "CrossScore": 0.9984786174947857
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Maize",
+      "FinalScore": 0.998403255612925,
+      "CrossScore": 0.998403255612925
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9983003815093408,
+      "CrossScore": 0.9983003815093408
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9982554566682385,
+      "CrossScore": 0.9982554566682385
+    }
+  ],
+  "latency_ms": 211.1,
+  "final_returned": [
+    {
+      "Question": "मानसून का 'ब्रेक' (Monsoon Break) क्या है?",
+      "Crop": "General",
+      "Score": 999.9370836268191
+    },
+    {
+      "Question": "'ब्रेक-ईवन पॉइंट' (Break-even Point) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9996413158789196
+    },
+    {
+      "Question": "कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General",
+      "Score": 0.9991583254681249
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "Score": 0.9988775566615549
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9985657994614306
+    }
+  ]
+}

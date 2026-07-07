@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:11.849327",
+  "query_original": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+  "query_normalized": "नैनो डीएपी nano dap के क्या फायदे हैं",
+  "query_expanded": "डीएपी phosphorus dap नैनो डीएपी nano dap के क्या फायदे हैं फॉस्फोरस",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लोबिया (Cowpea) के क्या फायदे हैं?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का में 'ह्यूमिक एसिड' के क्या फायदे हैं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9242001215479,
+      "CrossScore": 0.9999242001215479
+    },
+    {
+      "Question": "दलहनी फसलों में 'फास्फोरस' के लिए डीएपी (DAP) या एसएसपी (SSP)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998782169219516,
+      "CrossScore": 0.9998782169219516
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999845579794882,
+      "CrossScore": 0.999845579794882
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998367739108895,
+      "CrossScore": 0.9998367739108895
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999774876838283,
+      "CrossScore": 0.999774876838283
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997122068712815,
+      "CrossScore": 0.9997122068712815
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999692211737186,
+      "CrossScore": 0.999692211737186
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996887011179748,
+      "CrossScore": 0.9996887011179748
+    },
+    {
+      "Question": "पोटाश की कमी के लक्षण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996873185997994,
+      "CrossScore": 0.9996873185997994
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996695720651075,
+      "CrossScore": 0.9996695720651075
+    }
+  ],
+  "latency_ms": 214.34,
+  "final_returned": [
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 999.9242001215479
+    },
+    {
+      "Question": "दलहनी फसलों में 'फास्फोरस' के लिए डीएपी (DAP) या एसएसपी (SSP)?",
+      "Crop": "Pulses",
+      "Score": 0.9998782169219516
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "Score": 0.999845579794882
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998367739108895
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.999774876838283
+    }
+  ]
+}

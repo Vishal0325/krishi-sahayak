@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:34.805504",
+  "query_original": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+  "query_normalized": "गन्ने का लाल सड़न red rot रोग क्या है",
+  "query_expanded": "फंगस बीमारी fungus disease गन्ने का लाल सड़न red rot रोग क्या है झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998882730011033,
+      "CrossScore": 0.9998882730011034
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998734017461043,
+      "CrossScore": 0.9998734017461044
+    },
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 9.997812663079712,
+      "CrossScore": 0.9997812663079712
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 9.997537896871963,
+      "CrossScore": 0.9997537896871963
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.997313878572703,
+      "CrossScore": 0.9997313878572703
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99641138023382,
+      "CrossScore": 0.999641138023382
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996388731230603,
+      "CrossScore": 0.9996388731230602
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.99595714718652,
+      "CrossScore": 0.999595714718652
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 9.99468797004304,
+      "CrossScore": 0.999468797004304
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 9.994560320367459,
+      "CrossScore": 0.9994560320367458
+    }
+  ],
+  "latency_ms": 432.8,
+  "final_returned": [
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 9.998882730011033
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "Score": 9.998734017461043
+    },
+    {
+      "Question": "मक्का का 'चारकोल रोट' (Charcoal Rot) क्या है?",
+      "Crop": "Maize",
+      "Score": 9.997812663079712
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "Score": 9.997537896871963
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "Score": 9.997313878572703
+    }
+  ]
+}

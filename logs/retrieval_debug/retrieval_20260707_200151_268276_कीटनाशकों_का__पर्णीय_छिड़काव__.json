@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:51.064382",
+  "query_original": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+  "query_normalized": "कीटनाशकों का पर्णीय छिड़काव foliar spray",
+  "query_expanded": "pest कीटनाशकों का पर्णीय छिड़काव foliar spray कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'पर्णीय छिड़काव' (Foliar Spray) का नियम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पर्णीय छिड़काव' (Foliar Spray) के लिए सबसे अच्छा समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आलू की फसल में 'पर्णीय छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "कीटनाशकों के छिड़काव के लिए 'नोजल' (Nozzle) का चुनाव?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+      "Crop": "General",
+      "FinalScore": 999.8930742101272,
+      "CrossScore": 0.9998930742101272
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.984540059704253,
+      "CrossScore": 0.9984540059704253
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "FinalScore": 9.970480804770459,
+      "CrossScore": 0.9970480804770459
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.969234867004278,
+      "CrossScore": 0.9969234867004279
+    },
+    {
+      "Question": "पर्ण छिड़काव (Foliar Spray) कब सबसे प्रभावी होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998846674419748,
+      "CrossScore": 0.9998846674419748
+    },
+    {
+      "Question": "IPM में 'पर्णीय छिड़काव' (Foliar Spray) का नियम?",
+      "Crop": "General",
+      "FinalScore": 0.9998537307309964,
+      "CrossScore": 0.9998537307309964
+    },
+    {
+      "Question": "'पर्णीय छिड़काव' (Foliar Spray) के लिए सबसे अच्छा समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998466874944879,
+      "CrossScore": 0.9998466874944879
+    },
+    {
+      "Question": "आलू की फसल में 'पर्णीय छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998400171541169,
+      "CrossScore": 0.9998400171541169
+    },
+    {
+      "Question": "सरसों में 'पर्ण छिड़काव' (Foliar Spray) कब करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9997958953508178,
+      "CrossScore": 0.9997958953508178
+    },
+    {
+      "Question": "कीटनाशकों के छिड़काव के लिए 'नोजल' (Nozzle) का चुनाव?",
+      "Crop": "General",
+      "FinalScore": 0.9992169116425289,
+      "CrossScore": 0.9992169116425289
+    }
+  ],
+  "latency_ms": 203.92,
+  "final_returned": [
+    {
+      "Question": "कीटनाशकों का 'पर्णीय छिड़काव' (Foliar Spray)?",
+      "Crop": "General",
+      "Score": 999.8930742101272
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.984540059704253
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "Score": 9.970480804770459
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "Score": 9.969234867004278
+    },
+    {
+      "Question": "पर्ण छिड़काव (Foliar Spray) कब सबसे प्रभावी होता है?",
+      "Crop": "General",
+      "Score": 0.9998846674419748
+    }
+  ]
+}

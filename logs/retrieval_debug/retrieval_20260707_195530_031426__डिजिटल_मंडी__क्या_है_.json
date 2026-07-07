@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:29.848523",
+  "query_original": "'डिजिटल मंडी' क्या है?",
+  "query_normalized": "डिजिटल मंडी क्या है",
+  "query_expanded": "डिजिटल मंडी क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'डिजिटल मंडी' क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "क्या डिजिटल भुगतान (Digital Payment) किसानों के लिए अच्छा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9999020530494619,
+      "CrossScore": 0.9999020530494619
+    },
+    {
+      "Question": "'डिजिटल मंडी' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.999900028126333,
+      "CrossScore": 0.999900028126333
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998843835725018,
+      "CrossScore": 0.9998843835725018
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998777389357476,
+      "CrossScore": 0.9998777389357476
+    },
+    {
+      "Question": "क्या डिजिटल भुगतान (Digital Payment) किसानों के लिए अच्छा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998602850774454,
+      "CrossScore": 0.9998602850774454
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998550317715621,
+      "CrossScore": 0.9998550317715621
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998548991460368,
+      "CrossScore": 0.9998548991460368
+    },
+    {
+      "Question": "मक्का में पोटाश की क्या भूमिका है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998384782275969,
+      "CrossScore": 0.9998384782275969
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998252686671407,
+      "CrossScore": 0.9998252686671407
+    },
+    {
+      "Question": "'कवच' (Kavach) फफूंदनाशक क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998119328956246,
+      "CrossScore": 0.9998119328956246
+    }
+  ],
+  "latency_ms": 182.98,
+  "final_returned": [
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9999020530494619
+    },
+    {
+      "Question": "'डिजिटल मंडी' क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.999900028126333
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998843835725018
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998777389357476
+    },
+    {
+      "Question": "क्या डिजिटल भुगतान (Digital Payment) किसानों के लिए अच्छा है?",
+      "Crop": "General",
+      "Score": 0.9998602850774454
+    }
+  ]
+}

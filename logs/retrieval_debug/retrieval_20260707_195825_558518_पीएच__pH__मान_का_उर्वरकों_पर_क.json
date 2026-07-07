@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:25.298176",
+  "query_original": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+  "query_normalized": "पीएच ph मान का उर्वरकों पर क्या प्रभाव पड़ता है",
+  "query_expanded": "खाद poshak fertilizer पीएच ph मान का उर्वरकों पर क्या प्रभाव पड़ता है उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998951569226984,
+      "CrossScore": 0.9998951569226984
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998925453580416,
+      "CrossScore": 0.9998925453580416
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998710259678338,
+      "CrossScore": 0.9998710259678338
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997138061746318,
+      "CrossScore": 0.9997138061746318
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996619577373664,
+      "CrossScore": 0.9996619577373664
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996615520744961,
+      "CrossScore": 0.9996615520744961
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996243396202017,
+      "CrossScore": 0.9996243396202017
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.999621235010821,
+      "CrossScore": 0.999621235010821
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995984441241204,
+      "CrossScore": 0.9995984441241204
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995938690761305,
+      "CrossScore": 0.9995938690761305
+    }
+  ],
+  "latency_ms": 260.44,
+  "final_returned": [
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "Score": 0.9998951569226984
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9998925453580416
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General",
+      "Score": 0.9998710259678338
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9997138061746318
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "Score": 0.9996619577373664
+    }
+  ]
+}

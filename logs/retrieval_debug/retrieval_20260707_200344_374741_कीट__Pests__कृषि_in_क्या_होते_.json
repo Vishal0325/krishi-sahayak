@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:44.156532",
+  "query_original": "कीट (Pests) कृषि in क्या होते हैं?",
+  "query_normalized": "कीट pests कृषि in क्या होते हैं",
+  "query_expanded": "pest कीट pests कृषि in क्या होते हैं कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि ऋण (Agri Loan) माफ होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 9999.128762567836,
+      "CrossScore": 0.9999128762567836
+    },
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "FinalScore": 9.99604434612811,
+      "CrossScore": 0.999604434612811
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.995250096790082,
+      "CrossScore": 0.9995250096790081
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.99449953836853,
+      "CrossScore": 0.9994499538368529
+    },
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 9.994089730770462,
+      "CrossScore": 0.9994089730770461
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.99325534755119,
+      "CrossScore": 0.999325534755119
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.99313305219128,
+      "CrossScore": 0.999313305219128
+    },
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "FinalScore": 9.992966555671162,
+      "CrossScore": 0.9992966555671161
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.991288647233539,
+      "CrossScore": 0.9991288647233538
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997184068388513,
+      "CrossScore": 0.9997184068388513
+    }
+  ],
+  "latency_ms": 218.24,
+  "final_returned": [
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General",
+      "Score": 9999.128762567836
+    },
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "Score": 9.99604434612811
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.995250096790082
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.99449953836853
+    },
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 9.994089730770462
+    }
+  ]
+}

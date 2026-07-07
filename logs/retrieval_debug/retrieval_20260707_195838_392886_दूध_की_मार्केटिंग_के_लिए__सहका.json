@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:38.150540",
+  "query_original": "दूध की मार्केटिंग के लिए 'सहकारी समितियां' (Dairy Cooperatives)?",
+  "query_normalized": "दूध की मार्केटिंग के लिए सहकारी समितियां dairy cooperatives",
+  "query_expanded": "दूध की मार्केटिंग के लिए सहकारी समितियां dairy cooperatives",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "दूध की मार्केटिंग के लिए 'सहकारी समितियां' (Dairy Cooperatives)?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "'दूध की टेस्टिंग' के लिए मशीन?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "डेरी फार्मिंग के लिए सबसे अच्छी 'गाय' की नस्लें?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "डेरी फार्मिंग के लिए सबसे अच्छी 'भैंस' की नस्लें?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "दूध बढ़ाने के लिए 'हरा चारा' क्यों जरूरी है?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "दूध की मार्केटिंग के लिए 'सहकारी समितियां' (Dairy Cooperatives)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998425529257029,
+      "CrossScore": 0.9998425529257029
+    },
+    {
+      "Question": "क्या खेती के साथ 'दूध' की प्रोसेसिंग (दूध",
+      "Crop": "General",
+      "FinalScore": 0.9978777761898252,
+      "CrossScore": 0.9978777761898252
+    },
+    {
+      "Question": "किसानों के लिए डेरी फार्मिंग का भविष्य?",
+      "Crop": "Dairy",
+      "FinalScore": 0.997732801923524,
+      "CrossScore": 0.997732801923524
+    },
+    {
+      "Question": "पपीते की कटाई के समय 'दूध' (Latex) का महत्व?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9974361652933591,
+      "CrossScore": 0.9974361652933591
+    },
+    {
+      "Question": "दूध की 'फैट' (Fat) और 'एसएनएफ' (SNF) कैसे बढ़ाएं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9972245627236852,
+      "CrossScore": 0.9972245627236852
+    },
+    {
+      "Question": "'दूध की टेस्टिंग' के लिए मशीन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9972130173513784,
+      "CrossScore": 0.9972130173513784
+    },
+    {
+      "Question": "डेरी फार्मिंग के लिए सबसे अच्छी 'गाय' की नस्लें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9970129905156775,
+      "CrossScore": 0.9970129905156775
+    },
+    {
+      "Question": "दूध की 'गुणवत्ता' कैसे जांचें?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9969072191930425,
+      "CrossScore": 0.9969072191930425
+    },
+    {
+      "Question": "क्या डेरी फार्मिंग के लिए सरकारी 'लोन' मिलता है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9967923294337867,
+      "CrossScore": 0.9967923294337867
+    },
+    {
+      "Question": "दूध बढ़ाने के लिए 'हरा चारा' क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9966485972065167,
+      "CrossScore": 0.9966485972065167
+    }
+  ],
+  "latency_ms": 242.48,
+  "final_returned": [
+    {
+      "Question": "दूध की मार्केटिंग के लिए 'सहकारी समितियां' (Dairy Cooperatives)?",
+      "Crop": "Dairy",
+      "Score": 0.9998425529257029
+    },
+    {
+      "Question": "क्या खेती के साथ 'दूध' की प्रोसेसिंग (दूध",
+      "Crop": "General",
+      "Score": 0.9978777761898252
+    },
+    {
+      "Question": "किसानों के लिए डेरी फार्मिंग का भविष्य?",
+      "Crop": "Dairy",
+      "Score": 0.997732801923524
+    },
+    {
+      "Question": "पपीते की कटाई के समय 'दूध' (Latex) का महत्व?",
+      "Crop": "Papaya",
+      "Score": 0.9974361652933591
+    },
+    {
+      "Question": "दूध की 'फैट' (Fat) और 'एसएनएफ' (SNF) कैसे बढ़ाएं?",
+      "Crop": "Dairy",
+      "Score": 0.9972245627236852
+    }
+  ]
+}

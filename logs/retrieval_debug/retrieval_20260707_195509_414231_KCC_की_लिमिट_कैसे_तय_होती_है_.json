@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:09.191968",
+  "query_original": "KCC की लिमिट कैसे तय होती है?",
+  "query_normalized": "kcc की लिमिट कैसे तय होती है",
+  "query_expanded": "kcc की लिमिट कैसे तय होती है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "KCC की लिमिट कैसे तय होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "KCC बनवाने के लिए किन दस्तावेजों की जरूरत होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अनानास (Pineapple) की खेती बिहार में कहाँ होती है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को 'नमक' की जरूरत होती है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "'लेजर लेवलर' से पानी की कितनी बचत होती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "KCC बनवाने के लिए किन दस्तावेजों की जरूरत होती है?",
+      "Crop": "General",
+      "FinalScore": 9.999301462187582,
+      "CrossScore": 0.9999301462187582
+    },
+    {
+      "Question": "KCC की लिमिट कैसे तय होती है?",
+      "Crop": "General",
+      "FinalScore": 9.99927396033497,
+      "CrossScore": 0.999927396033497
+    },
+    {
+      "Question": "लहसुन की औसत उपज कितनी होती है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9996760206664729,
+      "CrossScore": 0.9996760206664729
+    },
+    {
+      "Question": "टमाटर की औसत उपज कितनी होती है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999673696148602,
+      "CrossScore": 0.999673696148602
+    },
+    {
+      "Question": "'लेजर लेवलर' से पानी की कितनी बचत होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9996571281481335,
+      "CrossScore": 0.9996571281481335
+    },
+    {
+      "Question": "धान को कितनी वर्षा की आवश्यकता होती है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9996406846064498,
+      "CrossScore": 0.9996406846064498
+    },
+    {
+      "Question": "प्याज की औसत उपज कितनी होती है?",
+      "Crop": "Onion",
+      "FinalScore": 0.9996348962114769,
+      "CrossScore": 0.9996348962114769
+    },
+    {
+      "Question": "अदरक की औसत उपज कितनी होती है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9996288946900855,
+      "CrossScore": 0.9996288946900855
+    },
+    {
+      "Question": "बैंगन की औसत उपज कितनी होती है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9996204137446253,
+      "CrossScore": 0.9996204137446253
+    },
+    {
+      "Question": "हल्दी की औसत उपज कितनी होती है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9995998959419671,
+      "CrossScore": 0.9995998959419671
+    }
+  ],
+  "latency_ms": 222.35,
+  "final_returned": [
+    {
+      "Question": "KCC बनवाने के लिए किन दस्तावेजों की जरूरत होती है?",
+      "Crop": "General",
+      "Score": 9.999301462187582
+    },
+    {
+      "Question": "KCC की लिमिट कैसे तय होती है?",
+      "Crop": "General",
+      "Score": 9.99927396033497
+    },
+    {
+      "Question": "लहसुन की औसत उपज कितनी होती है?",
+      "Crop": "Garlic",
+      "Score": 0.9996760206664729
+    },
+    {
+      "Question": "टमाटर की औसत उपज कितनी होती है?",
+      "Crop": "Tomato",
+      "Score": 0.999673696148602
+    },
+    {
+      "Question": "'लेजर लेवलर' से पानी की कितनी बचत होती है?",
+      "Crop": "General",
+      "Score": 0.9996571281481335
+    }
+  ]
+}

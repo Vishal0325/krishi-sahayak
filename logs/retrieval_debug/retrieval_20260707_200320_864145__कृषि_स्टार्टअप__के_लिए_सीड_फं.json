@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:20.647966",
+  "query_original": "'कृषि स्टार्टअप' के लिए सीड फंड?",
+  "query_normalized": "कृषि स्टार्टअप के लिए सीड फंड",
+  "query_expanded": "कृषि स्टार्टअप के लिए सीड फंड",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए सीड फंड?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए सीड फंड?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.9005751593709,
+      "CrossScore": 0.9999005751593709
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999111698227112,
+      "CrossScore": 0.9999111698227112
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'इंक्यूबेशन सेंटर'?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999086607365342,
+      "CrossScore": 0.9999086607365342
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999082334732414,
+      "CrossScore": 0.9999082334732414
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998959979263171,
+      "CrossScore": 0.9998959979263171
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999895377436769,
+      "CrossScore": 0.999895377436769
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998929302456651,
+      "CrossScore": 0.9998929302456651
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'मार्केट रिसर्च'?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998917000903493,
+      "CrossScore": 0.9998917000903493
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 0.9998885634750873,
+      "CrossScore": 0.9998885634750873
+    },
+    {
+      "Question": "एग्री-स्टार्टअप शुरू करने वाले युवाओं के लिए सलाह?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998805981007958,
+      "CrossScore": 0.9998805981007958
+    }
+  ],
+  "latency_ms": 216.19,
+  "final_returned": [
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए सीड फंड?",
+      "Crop": "Agri Tech",
+      "Score": 999.9005751593709
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "Score": 0.9999111698227112
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'इंक्यूबेशन सेंटर'?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999086607365342
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999082334732414
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "Score": 0.9998959979263171
+    }
+  ]
+}

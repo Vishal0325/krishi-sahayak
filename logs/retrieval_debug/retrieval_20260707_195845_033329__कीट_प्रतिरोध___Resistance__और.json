@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:44.836013",
+  "query_original": "'कीट प्रतिरोध' (Resistance) और अंधाधुंध छिड़काव?",
+  "query_normalized": "कीट प्रतिरोध resistance और अंधाधुंध छिड़काव",
+  "query_expanded": "बग कीट प्रतिरोध resistance और अंधाधुंध छिड़काव pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) और अंधाधुंध छिड़काव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) कैसे कम करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रतिरोध' और 'प्रौद्योगिकी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) और अंधाधुंध छिड़काव?",
+      "Crop": "General",
+      "FinalScore": 9.999083815910359,
+      "CrossScore": 0.9999083815910358
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998543632636315,
+      "CrossScore": 0.9998543632636314
+    },
+    {
+      "Question": "'कीटों का प्रतिरोध' (Resistance) कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 9.99837109124208,
+      "CrossScore": 0.999837109124208
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General",
+      "FinalScore": 9.990092693749034,
+      "CrossScore": 0.9990092693749034
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "FinalScore": 9.986888442810987,
+      "CrossScore": 0.9986888442810987
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.985818737431147,
+      "CrossScore": 0.9985818737431147
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'कीट निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 9.97993924915045,
+      "CrossScore": 0.997993924915045
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 9.97437572092717,
+      "CrossScore": 0.9974375720927171
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.96719153994504,
+      "CrossScore": 0.996719153994504
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton",
+      "FinalScore": 9.959870680165784,
+      "CrossScore": 0.9959870680165784
+    }
+  ],
+  "latency_ms": 197.43,
+  "final_returned": [
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) और अंधाधुंध छिड़काव?",
+      "Crop": "General",
+      "Score": 9.999083815910359
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "Score": 9.998543632636315
+    },
+    {
+      "Question": "'कीटों का प्रतिरोध' (Resistance) कैसे रोकें?",
+      "Crop": "General",
+      "Score": 9.99837109124208
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General",
+      "Score": 9.990092693749034
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "Score": 9.986888442810987
+    }
+  ]
+}

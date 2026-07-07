@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:15.328643",
+  "query_original": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+  "query_normalized": "एकीकृत कृषि प्रणाली ifs क्या है",
+  "query_expanded": "एकीकृत कृषि प्रणाली ifs क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9261629815653,
+      "CrossScore": 0.9999261629815653
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998886903862323,
+      "CrossScore": 0.9998886903862323
+    },
+    {
+      "Question": "'कृषि वानिकी' (Agroforestry) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998785902782846,
+      "CrossScore": 0.9998785902782846
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998723356871589,
+      "CrossScore": 0.9998723356871589
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998657813243292,
+      "CrossScore": 0.9998657813243292
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998629002607841,
+      "CrossScore": 0.9998629002607841
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998610582934356,
+      "CrossScore": 0.9998610582934356
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998559356091491,
+      "CrossScore": 0.9998559356091491
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998558528882414,
+      "CrossScore": 0.9998558528882414
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998515640316161,
+      "CrossScore": 0.9998515640316161
+    }
+  ],
+  "latency_ms": 215.18,
+  "final_returned": [
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "Score": 999.9261629815653
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998886903862323
+    },
+    {
+      "Question": "'कृषि वानिकी' (Agroforestry) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998785902782846
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998723356871589
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998657813243292
+    }
+  ]
+}

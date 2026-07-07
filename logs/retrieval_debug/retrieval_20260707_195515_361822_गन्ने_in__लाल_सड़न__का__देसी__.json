@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:14.975953",
+  "query_original": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+  "query_normalized": "गन्ने in लाल सड़न का देसी पहचान",
+  "query_expanded": "गन्ने in लाल सड़न का देसी पहचान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का 'पहचान'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998689885675329,
+      "CrossScore": 0.9998689885675329
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998577281799236,
+      "CrossScore": 0.9998577281799236
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998555835106062,
+      "CrossScore": 0.9998555835106062
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998252156778707,
+      "CrossScore": 0.9998252156778707
+    },
+    {
+      "Question": "'गन्ने' में 'लाल सड़न' प्रतिरोधी किस्में?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999823748966835,
+      "CrossScore": 0.999823748966835
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998234889599907,
+      "CrossScore": 0.9998234889599907
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998098800250823,
+      "CrossScore": 0.9998098800250823
+    },
+    {
+      "Question": "गन्ने in 'उकठा' (Wilt) रोग का लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998097481902491,
+      "CrossScore": 0.9998097481902491
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998034796059434,
+      "CrossScore": 0.9998034796059434
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का 'पहचान'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997855112272144,
+      "CrossScore": 0.9997855112272144
+    }
+  ],
+  "latency_ms": 386.02,
+  "final_returned": [
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998689885675329
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998577281799236
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998555835106062
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998252156778707
+    },
+    {
+      "Question": "'गन्ने' में 'लाल सड़न' प्रतिरोधी किस्में?",
+      "Crop": "Sugarcane",
+      "Score": 0.999823748966835
+    }
+  ]
+}

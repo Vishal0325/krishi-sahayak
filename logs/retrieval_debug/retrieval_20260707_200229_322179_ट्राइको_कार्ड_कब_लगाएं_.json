@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:29.136196",
+  "query_original": "ट्राइको-कार्ड कब लगाएं?",
+  "query_normalized": "ट्राइको कार्ड कब लगाएं",
+  "query_expanded": "ट्राइको कार्ड कब लगाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्राइको-कार्ड कब लगाएं?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'ट्राइको-कार्ड' को खेत in कहाँ लगाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्राइको-कार्ड (Tricho-card) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'फली छेदक' के लिए 'ट्राइको-कार्ड'?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्राइको-कार्ड कब लगाएं?",
+      "Crop": "Rice",
+      "FinalScore": 999.8981981938781,
+      "CrossScore": 0.9998981981938782
+    },
+    {
+      "Question": "ट्राइको-कार्ड का उपयोग?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998797171441354,
+      "CrossScore": 0.9998797171441354
+    },
+    {
+      "Question": "'ट्राइको-कार्ड' को खेत in कहाँ लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998741440309681,
+      "CrossScore": 0.9998741440309681
+    },
+    {
+      "Question": "'बैंगन' में फल छेदक के लिए 'ट्राइको-कार्ड'?",
+      "Crop": "General",
+      "FinalScore": 0.9998726323744278,
+      "CrossScore": 0.9998726323744278
+    },
+    {
+      "Question": "फलों के बाग में 'वायु अवरोधक' (Windbreaks) पेड़ क्यों लगाएं?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998666918977276,
+      "CrossScore": 0.9998666918977276
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'मृदा स्वास्थ्य कार्ड' जरूरी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998473592136168,
+      "CrossScore": 0.9998473592136168
+    },
+    {
+      "Question": "चने में 'फली छेदक' के लिए 'ट्राइको-कार्ड'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998357343698796,
+      "CrossScore": 0.9998357343698796
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998027369326381,
+      "CrossScore": 0.9998027369326381
+    },
+    {
+      "Question": "बैंगन की कटाई कब करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997954039548572,
+      "CrossScore": 0.9997954039548572
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' में सूक्ष्म तत्वों की जांच क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.99977719714246,
+      "CrossScore": 0.99977719714246
+    }
+  ],
+  "latency_ms": 186.02,
+  "final_returned": [
+    {
+      "Question": "ट्राइको-कार्ड कब लगाएं?",
+      "Crop": "Rice",
+      "Score": 999.8981981938781
+    },
+    {
+      "Question": "ट्राइको-कार्ड का उपयोग?",
+      "Crop": "Rice",
+      "Score": 0.9998797171441354
+    },
+    {
+      "Question": "'ट्राइको-कार्ड' को खेत in कहाँ लगाएं?",
+      "Crop": "General",
+      "Score": 0.9998741440309681
+    },
+    {
+      "Question": "'बैंगन' में फल छेदक के लिए 'ट्राइको-कार्ड'?",
+      "Crop": "General",
+      "Score": 0.9998726323744278
+    },
+    {
+      "Question": "फलों के बाग में 'वायु अवरोधक' (Windbreaks) पेड़ क्यों लगाएं?",
+      "Crop": "Fruits",
+      "Score": 0.9998666918977276
+    }
+  ]
+}

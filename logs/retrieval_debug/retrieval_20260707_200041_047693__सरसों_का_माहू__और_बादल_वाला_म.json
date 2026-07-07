@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:40.838337",
+  "query_original": "'सरसों का माहू' और बादल वाला मौसम?",
+  "query_normalized": "सरसों का माहू और बादल वाला मौसम",
+  "query_expanded": "सरसों का माहू और बादल वाला मौसम",
+  "detected_crops": [
+    "Mustard"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'सरसों का माहू' (Aphids) और 'बादल'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'सरसों का माहू' और 'अगेती बुआई'?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard",
+      "FinalScore": 49995.72468350348,
+      "CrossScore": 0.9999144936700697
+    },
+    {
+      "Question": "'सरसों का माहू' (Aphids) और 'बादल'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.9956158040064,
+      "CrossScore": 0.999912316080128
+    },
+    {
+      "Question": "सरसों की 'पछेती' बुआई में 'माहू' का खतरा?",
+      "Crop": "Mustard",
+      "FinalScore": 49.9956154110003,
+      "CrossScore": 0.9999123082200061
+    },
+    {
+      "Question": "सरसों की खेती में 'पीली' और 'काली' सरसों में क्या अंतर है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.9955966060012,
+      "CrossScore": 0.9999119321200239
+    },
+    {
+      "Question": "सरसों की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99553070522685,
+      "CrossScore": 0.999910614104537
+    },
+    {
+      "Question": "सरसों का 'माहू' या 'एफिड' (Aphid) कीट क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99521114550914,
+      "CrossScore": 0.9999042229101828
+    },
+    {
+      "Question": "सरसों की खेती का परिचय क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99508671585357,
+      "CrossScore": 0.9999017343170713
+    },
+    {
+      "Question": "सरसों में सल्फर (गंधक) का क्या महत्व है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99483882436556,
+      "CrossScore": 0.9998967764873111
+    },
+    {
+      "Question": "सरसों में 'माहू' का हमला कब सबसे तेज होता है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99404717488344,
+      "CrossScore": 0.9998809434976688
+    },
+    {
+      "Question": "'सरसों' में 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99398644786666,
+      "CrossScore": 0.9998797289573332
+    }
+  ],
+  "latency_ms": 209.39,
+  "final_returned": [
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard",
+      "Score": 49995.72468350348
+    },
+    {
+      "Question": "'सरसों का माहू' (Aphids) और 'बादल'?",
+      "Crop": "Mustard",
+      "Score": 49.9956158040064
+    },
+    {
+      "Question": "सरसों की 'पछेती' बुआई में 'माहू' का खतरा?",
+      "Crop": "Mustard",
+      "Score": 49.9956154110003
+    },
+    {
+      "Question": "सरसों की खेती में 'पीली' और 'काली' सरसों में क्या अंतर है?",
+      "Crop": "Mustard",
+      "Score": 49.9955966060012
+    },
+    {
+      "Question": "सरसों की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Mustard",
+      "Score": 49.99553070522685
+    }
+  ]
+}

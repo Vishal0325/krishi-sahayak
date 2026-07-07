@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:38.445076",
+  "query_original": "'मुर्गी का मांस' और 'अंडे' बेचने का सही तरीका?",
+  "query_normalized": "मुर्गी का मांस और अंडे बेचने का सही तरीका",
+  "query_expanded": "मुर्गी का मांस और अंडे बेचने का सही तरीका",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मुर्गी का मांस' और 'अंडे' बेचने का सही तरीका?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "औषधीय पौधों को सुखाने का सही तरीका?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "धनिया में सिंचाई का सही तरीका?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "खरपतवारनाशकों के भंडारण का सही तरीका?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मुर्गी का मांस' और 'अंडे' बेचने का सही तरीका?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998963992008251,
+      "CrossScore": 0.9998963992008251
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998875599053585,
+      "CrossScore": 0.9998875599053585
+    },
+    {
+      "Question": "अदरक में सिंचाई का सही तरीका?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998688744605576,
+      "CrossScore": 0.9998688744605576
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998614403888207,
+      "CrossScore": 0.9998614403888207
+    },
+    {
+      "Question": "औषधीय पौधों को सुखाने का सही तरीका?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998531940337215,
+      "CrossScore": 0.9998531940337215
+    },
+    {
+      "Question": "ऑयस्टर मशरूम को सुखाने का सही तरीका?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998524600863491,
+      "CrossScore": 0.9998524600863491
+    },
+    {
+      "Question": "'खड़ी फसल' में यूरिया देने का सही तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9998516769364307,
+      "CrossScore": 0.9998516769364307
+    },
+    {
+      "Question": "खरपतवारनाशकों के भंडारण का सही तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9998452150836695,
+      "CrossScore": 0.9998452150836695
+    },
+    {
+      "Question": "हल्दी को उबालने (Boiling) का सही तरीका?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.999843274890246,
+      "CrossScore": 0.999843274890246
+    },
+    {
+      "Question": "फफूंदनाशकों के भंडारण का सही तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9998342653854959,
+      "CrossScore": 0.9998342653854959
+    }
+  ],
+  "latency_ms": 203.5,
+  "final_returned": [
+    {
+      "Question": "'मुर्गी का मांस' और 'अंडे' बेचने का सही तरीका?",
+      "Crop": "Poultry",
+      "Score": 0.9998963992008251
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9998875599053585
+    },
+    {
+      "Question": "अदरक में सिंचाई का सही तरीका?",
+      "Crop": "Ginger",
+      "Score": 0.9998688744605576
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9998614403888207
+    },
+    {
+      "Question": "औषधीय पौधों को सुखाने का सही तरीका?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998531940337215
+    }
+  ]
+}

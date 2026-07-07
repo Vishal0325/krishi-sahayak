@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:55:59.714106",
+  "query_original": "ब्लास्ट रोग",
+  "query_normalized": "ब्लास्ट रोग",
+  "query_expanded": "बीमारी झुलसा फंगस fungus रोग ब्लास्ट रोग disease",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के 'ब्लास्ट' रोग के लिए सबसे अच्छी दवा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान में झुलसा रोग के लक्षण?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.99744518057053,
+      "CrossScore": 0.999744518057053
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 9.996953442970268,
+      "CrossScore": 0.9996953442970268
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "FinalScore": 9.99468817003787,
+      "CrossScore": 0.999468817003787
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 9.994052874234738,
+      "CrossScore": 0.9994052874234738
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 9.993711551510405,
+      "CrossScore": 0.9993711551510405
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.993637008525893,
+      "CrossScore": 0.9993637008525892
+    },
+    {
+      "Question": "सरसों in 'झुलसा' (Blight) का कवक?",
+      "Crop": "Mustard",
+      "FinalScore": 9.992049237939508,
+      "CrossScore": 0.9992049237939509
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.991593686348208,
+      "CrossScore": 0.9991593686348208
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.964593038829982,
+      "CrossScore": 0.9964593038829982
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.900927588811964,
+      "CrossScore": 0.9900927588811963
+    }
+  ],
+  "latency_ms": 474.71,
+  "final_returned": [
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 9.99744518057053
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "Score": 9.996953442970268
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "Score": 9.99468817003787
+    }
+  ]
+}

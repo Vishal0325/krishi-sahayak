@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:32.966125",
+  "query_original": "'ट्राइकोडर्मा' और 'उकठा' रोग?",
+  "query_normalized": "ट्राइकोडर्मा और उकठा रोग",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease ट्राइकोडर्मा और उकठा रोग रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ट्राइकोडर्मा' और 'उकठा' रोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'दलहनी फसलों' में 'उकठा' (Wilt) और 'जड़ें'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'आम का गुच्छा रोग' (Malformation) और 'बौर'?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'मिर्च का मरोड़िया रोग' (Leaf Curl) और 'मिर्च'?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ट्राइकोडर्मा' और 'उकठा' रोग?",
+      "Crop": "General",
+      "FinalScore": 999.7258604564589,
+      "CrossScore": 0.999725860456459
+    },
+    {
+      "Question": "'आम का गुच्छा रोग' (Malformation) और 'बौर'?",
+      "Crop": "Mango",
+      "FinalScore": 9.996601546626248,
+      "CrossScore": 0.9996601546626248
+    },
+    {
+      "Question": "'दलहनी फसलों' में 'उकठा' (Wilt) और 'जड़ें'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.995229166775827,
+      "CrossScore": 0.9995229166775826
+    },
+    {
+      "Question": "'मटर का उकठा' रोग?",
+      "Crop": "Pea",
+      "FinalScore": 9.994976647235278,
+      "CrossScore": 0.9994976647235279
+    },
+    {
+      "Question": "'गन्ने का उकठा' (Wilt) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.993899768412922,
+      "CrossScore": 0.9993899768412922
+    },
+    {
+      "Question": "दलहनी फसलों का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 9.9933057776252,
+      "CrossScore": 0.99933057776252
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "FinalScore": 9.991866376386,
+      "CrossScore": 0.9991866376386
+    },
+    {
+      "Question": "'संतुलित उर्वरक' और 'रोग प्रतिरोधक क्षमता'?",
+      "Crop": "General",
+      "FinalScore": 9.990122814901769,
+      "CrossScore": 0.9990122814901768
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "FinalScore": 9.987538766737625,
+      "CrossScore": 0.9987538766737625
+    },
+    {
+      "Question": "गन्ने in 'उकठा' (Wilt) रोग का लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.986627938629852,
+      "CrossScore": 0.9986627938629852
+    }
+  ],
+  "latency_ms": 171.76,
+  "final_returned": [
+    {
+      "Question": "'ट्राइकोडर्मा' और 'उकठा' रोग?",
+      "Crop": "General",
+      "Score": 999.7258604564589
+    },
+    {
+      "Question": "'आम का गुच्छा रोग' (Malformation) और 'बौर'?",
+      "Crop": "Mango",
+      "Score": 9.996601546626248
+    },
+    {
+      "Question": "'दलहनी फसलों' में 'उकठा' (Wilt) और 'जड़ें'?",
+      "Crop": "Pulses",
+      "Score": 9.995229166775827
+    },
+    {
+      "Question": "'मटर का उकठा' रोग?",
+      "Crop": "Pea",
+      "Score": 9.994976647235278
+    },
+    {
+      "Question": "'गन्ने का उकठा' (Wilt) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.993899768412922
+    }
+  ]
+}

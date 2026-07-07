@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:03:37.780009",
+  "query_original": "गेहूं में 'दाना झुलसा' (Alternaria Blight) के लक्षण?",
+  "query_normalized": "गेहूं में दाना झुलसा alternaria blight के लक्षण",
+  "query_expanded": "fungus गेहूं में दाना झुलसा alternaria blight के लक्षण फंगस झुलसा बीमारी disease रोग",
+  "detected_crops": [
+    "Wheat"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गेहूं में 'दाना झुलसा' (Alternaria Blight) के लक्षण?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं में जस्ते (Zinc) की कमी के क्या लक्षण हैं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं में 'भूरा रतुआ' (Brown Rust) के लक्षण?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी के लक्षण?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद खेत में मूंग बोने के लाभ?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गेहूं में 'दाना झुलसा' (Alternaria Blight) के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 49994.29053887849,
+      "CrossScore": 0.9998858107775699
+    },
+    {
+      "Question": "गेहूं में 'भूरा रतुआ' (Brown Rust) के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 49.97566840427898,
+      "CrossScore": 0.9995133680855796
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Wheat",
+      "FinalScore": 49.96095367291357,
+      "CrossScore": 0.9992190734582713
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Wheat",
+      "FinalScore": 49.960717769411026,
+      "CrossScore": 0.9992143553882206
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'निराई' का खर्च?",
+      "Crop": "Wheat",
+      "FinalScore": 49.95880096817621,
+      "CrossScore": 0.9991760193635243
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'हो' (Hoe)?",
+      "Crop": "Wheat",
+      "FinalScore": 49.95466825773714,
+      "CrossScore": 0.9990933651547428
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'मेटाल्डीहाइड'?",
+      "Crop": "Wheat",
+      "FinalScore": 49.94498095848031,
+      "CrossScore": 0.9988996191696061
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद खेत में मूंग बोने के लाभ?",
+      "Crop": "Wheat",
+      "FinalScore": 49.94240901424739,
+      "CrossScore": 0.9988481802849478
+    },
+    {
+      "Question": "गेहूं में 'फास्फोरस' को डीएपी के रूप में देने के लाभ?",
+      "Crop": "Wheat",
+      "FinalScore": 49.94231809483801,
+      "CrossScore": 0.9988463618967601
+    },
+    {
+      "Question": "गेहूं की खेती में सबसे बड़ी चुनौती क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.940445702921416,
+      "CrossScore": 0.9988089140584283
+    }
+  ],
+  "latency_ms": 166.44,
+  "final_returned": [
+    {
+      "Question": "गेहूं में 'दाना झुलसा' (Alternaria Blight) के लक्षण?",
+      "Crop": "Wheat",
+      "Score": 49994.29053887849
+    },
+    {
+      "Question": "गेहूं में 'भूरा रतुआ' (Brown Rust) के लक्षण?",
+      "Crop": "Wheat",
+      "Score": 49.97566840427898
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Wheat",
+      "Score": 49.96095367291357
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'मल्चिंग'?",
+      "Crop": "Wheat",
+      "Score": 49.960717769411026
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'निराई' का खर्च?",
+      "Crop": "Wheat",
+      "Score": 49.95880096817621
+    }
+  ]
+}

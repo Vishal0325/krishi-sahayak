@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:24.806806",
+  "query_original": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+  "query_normalized": "fmd रोग का सबसे प्रभावी बचाव क्या है",
+  "query_expanded": "fungus फंगस झुलसा बीमारी disease रोग fmd रोग का सबसे प्रभावी बचाव क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मटर का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) रोग क्या है?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.901915093504,
+      "CrossScore": 0.999901915093504
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.997697704706622,
+      "CrossScore": 0.9997697704706622
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.997424394256587,
+      "CrossScore": 0.9997424394256588
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 9.996551655480332,
+      "CrossScore": 0.9996551655480332
+    },
+    {
+      "Question": "अमरूद का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9997709331420037,
+      "CrossScore": 0.9997709331420037
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997669692618834,
+      "CrossScore": 0.9997669692618834
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997522491764628,
+      "CrossScore": 0.9997522491764628
+    },
+    {
+      "Question": "थनैला रोग (Mastitis) का कारण क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997329480787472,
+      "CrossScore": 0.9997329480787472
+    },
+    {
+      "Question": "अमरूद में 'उकठा' (Wilt) रोग का क्या उपचार है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9997267057225151,
+      "CrossScore": 0.9997267057225151
+    },
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) रोग क्या है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9997173220053669,
+      "CrossScore": 0.9997173220053669
+    }
+  ],
+  "latency_ms": 208.45,
+  "final_returned": [
+    {
+      "Question": "FMD रोग का सबसे प्रभावी बचाव क्या है?",
+      "Crop": "General",
+      "Score": 999.901915093504
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 9.997697704706622
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 9.997424394256587
+    },
+    {
+      "Question": "टमाटर का 'लीफ कर्ल' (Leaf Curl) रोग क्या है?",
+      "Crop": "Tomato",
+      "Score": 9.996551655480332
+    },
+    {
+      "Question": "अमरूद का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Guava",
+      "Score": 0.9997709331420037
+    }
+  ]
+}

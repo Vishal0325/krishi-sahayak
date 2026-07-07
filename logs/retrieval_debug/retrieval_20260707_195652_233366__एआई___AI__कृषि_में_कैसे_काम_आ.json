@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:52.029200",
+  "query_original": "'एआई' (AI) कृषि में कैसे काम आता है?",
+  "query_normalized": "एआई ai कृषि में कैसे काम आता है",
+  "query_expanded": "एआई ai कृषि में कैसे काम आता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एआई' (AI) कृषि में कैसे काम आता है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "क्या नमक का पानी फसल सुरक्षा में काम आता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एआई' (AI) कृषि में कैसे काम आता है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9999315817641299,
+      "CrossScore": 0.9999315817641299
+    },
+    {
+      "Question": "टमाटर की फसल में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998173154265692,
+      "CrossScore": 0.9998173154265692
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998091669938968,
+      "CrossScore": 0.9998091669938968
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.999792184092568,
+      "CrossScore": 0.999792184092568
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9997877332820801,
+      "CrossScore": 0.9997877332820801
+    },
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999786258628113,
+      "CrossScore": 0.999786258628113
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997748008408321,
+      "CrossScore": 0.9997748008408321
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' से लागत कैसे कम होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9997727153492746,
+      "CrossScore": 0.9997727153492746
+    },
+    {
+      "Question": "बिहार में 'कृषि समन्वयक' का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9997724542851439,
+      "CrossScore": 0.9997724542851439
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9997661843013824,
+      "CrossScore": 0.9997661843013824
+    }
+  ],
+  "latency_ms": 204.33,
+  "final_returned": [
+    {
+      "Question": "'एआई' (AI) कृषि में कैसे काम आता है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9999315817641299
+    },
+    {
+      "Question": "टमाटर की फसल में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Tomato",
+      "Score": 0.9998173154265692
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9998091669938968
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.999792184092568
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "Score": 0.9997877332820801
+    }
+  ]
+}

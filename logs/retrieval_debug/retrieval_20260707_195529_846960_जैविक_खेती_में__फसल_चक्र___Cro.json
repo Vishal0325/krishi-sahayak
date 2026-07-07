@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:29.642103",
+  "query_original": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+  "query_normalized": "जैविक खेती में फसल चक्र crop rotation",
+  "query_expanded": "जैविक खेती में फसल चक्र crop rotation",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "IPM में 'फसल चक्र' (Crop Rotation) का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'दाल' आधारित फसल चक्र के लाभ?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "चने की खेती में 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999916673779414,
+      "CrossScore": 0.999916673779414
+    },
+    {
+      "Question": "फसल सुरक्षा में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "General",
+      "FinalScore": 0.9998948701008339,
+      "CrossScore": 0.9998948701008339
+    },
+    {
+      "Question": "फसल चक्र (Crop Rotation) से मुनाफा कैसे बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998741921459797,
+      "CrossScore": 0.9998741921459797
+    },
+    {
+      "Question": "IPM में 'फसल चक्र' (Crop Rotation) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998604882293245,
+      "CrossScore": 0.9998604882293245
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998587682765605,
+      "CrossScore": 0.9998587682765605
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996488514267774,
+      "CrossScore": 0.9996488514267774
+    },
+    {
+      "Question": "'जैविक खेती' में खरपतवार नियंत्रण का देसी तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9944911701234977,
+      "CrossScore": 0.9944911701234977
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9940879111442159,
+      "CrossScore": 0.9940879111442159
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9937178748904925,
+      "CrossScore": 0.9937178748904925
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9935388063268403,
+      "CrossScore": 0.9935388063268403
+    }
+  ],
+  "latency_ms": 204.96,
+  "final_returned": [
+    {
+      "Question": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "Organic Farming",
+      "Score": 0.999916673779414
+    },
+    {
+      "Question": "फसल सुरक्षा में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "General",
+      "Score": 0.9998948701008339
+    },
+    {
+      "Question": "फसल चक्र (Crop Rotation) से मुनाफा कैसे बढ़ता है?",
+      "Crop": "General",
+      "Score": 0.9998741921459797
+    },
+    {
+      "Question": "IPM में 'फसल चक्र' (Crop Rotation) का लाभ?",
+      "Crop": "General",
+      "Score": 0.9998604882293245
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998587682765605
+    }
+  ]
+}

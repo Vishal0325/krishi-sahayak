@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:27.185025",
+  "query_original": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+  "query_normalized": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है",
+  "query_expanded": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8654697067772,
+      "CrossScore": 0.9998654697067771
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998928526225003,
+      "CrossScore": 0.9998928526225003
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998660077922541,
+      "CrossScore": 0.9998660077922541
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998644536253756,
+      "CrossScore": 0.9998644536253756
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998603463470109,
+      "CrossScore": 0.9998603463470109
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998335112914752,
+      "CrossScore": 0.9998335112914752
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998299446277312,
+      "CrossScore": 0.9998299446277312
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998279067780143,
+      "CrossScore": 0.9998279067780143
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9998273510857029,
+      "CrossScore": 0.9998273510857029
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998175159830217,
+      "CrossScore": 0.9998175159830217
+    }
+  ],
+  "latency_ms": 220.6,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 999.8654697067772
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.9998928526225003
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998660077922541
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998644536253756
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998603463470109
+    }
+  ]
+}

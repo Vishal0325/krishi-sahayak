@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:31.371191",
+  "query_original": "'अंकुरण प्रतिशत' और लागत?",
+  "query_normalized": "अंकुरण प्रतिशत और लागत",
+  "query_expanded": "अंकुरण प्रतिशत और लागत",
+  "detected_crops": [],
+  "detected_intents": [
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अंकुरण प्रतिशत' और लागत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' और फसल की सफलता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' की जांच क्यों?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' (Germination Percentage) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अंकुरण प्रतिशत' और लागत?",
+      "Crop": "General",
+      "FinalScore": 999.898405336958,
+      "CrossScore": 0.9998984053369581
+    },
+    {
+      "Question": "मशरूम की खेती में 'लागत' और 'मुनाफा'?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.99799497908808,
+      "CrossScore": 0.999799497908808
+    },
+    {
+      "Question": "खेती की 'परिवर्तनशील लागत' (Variable Cost) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 9.997644800496102,
+      "CrossScore": 0.9997644800496103
+    },
+    {
+      "Question": "'अवसर लागत' (Opportunity Cost) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 9.9970714331142,
+      "CrossScore": 0.99970714331142
+    },
+    {
+      "Question": "खेती की 'निश्चित लागत' (Fixed Cost) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 9.996164808604743,
+      "CrossScore": 0.9996164808604743
+    },
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998520844039887,
+      "CrossScore": 0.9998520844039887
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 0.9998439810487624,
+      "CrossScore": 0.9998439810487624
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' की जांच क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.9998382202018419,
+      "CrossScore": 0.9998382202018419
+    },
+    {
+      "Question": "'अंकुरण प्रतिशत' और फसल की सफलता?",
+      "Crop": "General",
+      "FinalScore": 0.9998312967432726,
+      "CrossScore": 0.9998312967432726
+    },
+    {
+      "Question": "'कीटों का एकीकृत प्रबंधन' (IPM) और लागत?",
+      "Crop": "General",
+      "FinalScore": 0.9998297132447842,
+      "CrossScore": 0.9998297132447842
+    }
+  ],
+  "latency_ms": 178.14,
+  "final_returned": [
+    {
+      "Question": "'अंकुरण प्रतिशत' और लागत?",
+      "Crop": "General",
+      "Score": 999.898405336958
+    },
+    {
+      "Question": "मशरूम की खेती में 'लागत' और 'मुनाफा'?",
+      "Crop": "Mushroom",
+      "Score": 9.99799497908808
+    },
+    {
+      "Question": "खेती की 'परिवर्तनशील लागत' (Variable Cost) क्या है?",
+      "Crop": "Economics",
+      "Score": 9.997644800496102
+    },
+    {
+      "Question": "'अवसर लागत' (Opportunity Cost) क्या है?",
+      "Crop": "Economics",
+      "Score": 9.9970714331142
+    },
+    {
+      "Question": "खेती की 'निश्चित लागत' (Fixed Cost) क्या है?",
+      "Crop": "Economics",
+      "Score": 9.996164808604743
+    }
+  ]
+}

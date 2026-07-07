@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:41.263803",
+  "query_original": "मिट्टी का रंग महत्व?",
+  "query_normalized": "मिट्टी का रंग महत्व",
+  "query_expanded": "मिट्टी का रंग महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "दलहनी फसलों की खेती में 'मिट्टी का रंग' महत्व?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मिट्टी का रंग महत्व?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मिट्टी में 'तांबा' (Copper) का महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी का रंग महत्व?",
+      "Crop": "Rice",
+      "FinalScore": 0.999901622651919,
+      "CrossScore": 0.999901622651919
+    },
+    {
+      "Question": "क्या मिट्टी का रंग उसकी उर्वरता बताता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998991777040116,
+      "CrossScore": 0.9998991777040116
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998884354618037,
+      "CrossScore": 0.9998884354618037
+    },
+    {
+      "Question": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998871693799029,
+      "CrossScore": 0.9998871693799029
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'मिट्टी का रंग' महत्व?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998777142176576,
+      "CrossScore": 0.9998777142176576
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) का रोग नियंत्रण में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998758334991414,
+      "CrossScore": 0.9998758334991414
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998725580242597,
+      "CrossScore": 0.9998725580242597
+    },
+    {
+      "Question": "मिट्टी में 'कैल्शियम' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998676163671361,
+      "CrossScore": 0.9998676163671361
+    },
+    {
+      "Question": "क्या मिट्टी का रंग सूर्य की गर्मी सोखने को प्रभावित करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998630482985542,
+      "CrossScore": 0.9998630482985542
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998622161462423,
+      "CrossScore": 0.9998622161462423
+    }
+  ],
+  "latency_ms": 182.18,
+  "final_returned": [
+    {
+      "Question": "मिट्टी का रंग महत्व?",
+      "Crop": "Rice",
+      "Score": 0.999901622651919
+    },
+    {
+      "Question": "क्या मिट्टी का रंग उसकी उर्वरता बताता है?",
+      "Crop": "General",
+      "Score": 0.9998991777040116
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998884354618037
+    },
+    {
+      "Question": "मिट्टी में 'ह्यूमस' (Humus) का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998871693799029
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'मिट्टी का रंग' महत्व?",
+      "Crop": "Pulses",
+      "Score": 0.9998777142176576
+    }
+  ]
+}

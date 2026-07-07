@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:15.546229",
+  "query_original": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+  "query_normalized": "क्या केंचुए वाली खाद vermicompost मिट्टी के लिए श्रेष्ठ है",
+  "query_expanded": "क्या केंचुए वाली खाद vermicompost मिट्टी के लिए श्रेष्ठ है खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "केले की 'जी-9' किस्म के लिए कौन सी खाद अच्छी है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "केंचुए की खाद (Vermicompost) के फायदे?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998830092806091,
+      "CrossScore": 0.9998830092806091
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "FinalScore": 0.999882946791453,
+      "CrossScore": 0.999882946791453
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998217489259026,
+      "CrossScore": 0.9998217489259026
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998133805141873,
+      "CrossScore": 0.9998133805141873
+    },
+    {
+      "Question": "हल्दी के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.999811774309015,
+      "CrossScore": 0.999811774309015
+    },
+    {
+      "Question": "लहसुन के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9997988754336516,
+      "CrossScore": 0.9997988754336516
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.999798013124331,
+      "CrossScore": 0.999798013124331
+    },
+    {
+      "Question": "अदरक के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9997950020901107,
+      "CrossScore": 0.9997950020901107
+    },
+    {
+      "Question": "खारी मिट्टी के लिए सबसे अच्छा उर्वरक?",
+      "Crop": "General",
+      "FinalScore": 0.9997934083928488,
+      "CrossScore": 0.9997934083928488
+    },
+    {
+      "Question": "मटर के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9997774094752623,
+      "CrossScore": 0.9997774094752623
+    }
+  ],
+  "latency_ms": 206.54,
+  "final_returned": [
+    {
+      "Question": "केंचुए की खाद (Vermicompost) के फायदे?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998830092806091
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "Score": 0.999882946791453
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9998217489259026
+    },
+    {
+      "Question": "धनिया के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Coriander",
+      "Score": 0.9998133805141873
+    },
+    {
+      "Question": "हल्दी के लिए कैसी मिट्टी सबसे अच्छी है?",
+      "Crop": "Turmeric",
+      "Score": 0.999811774309015
+    }
+  ]
+}

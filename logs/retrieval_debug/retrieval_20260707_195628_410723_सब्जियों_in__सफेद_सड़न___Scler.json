@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:28.252538",
+  "query_original": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+  "query_normalized": "सब्जियों in सफेद सड़न sclerotinia का लक्षण",
+  "query_expanded": "सब्जियों in सफेद सड़न sclerotinia का लक्षण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों में 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "आलू के 'कंदों का सड़न' खेत in?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998634454969376,
+      "CrossScore": 0.9998634454969376
+    },
+    {
+      "Question": "सब्जियों में 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999858278171985,
+      "CrossScore": 0.999858278171985
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997457694423146,
+      "CrossScore": 0.9997457694423146
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9996302838638954,
+      "CrossScore": 0.9996302838638954
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9996060557923512,
+      "CrossScore": 0.9996060557923512
+    },
+    {
+      "Question": "सब्जियों in 'नीमेटोड' (Nematodes) का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9996048473124614,
+      "CrossScore": 0.9996048473124614
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'नीम तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.999602604517794,
+      "CrossScore": 0.999602604517794
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995842140206251,
+      "CrossScore": 0.9995842140206251
+    },
+    {
+      "Question": "सरसों in 'सफेद रतुआ' का जैविक बचाव?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995475700802537,
+      "CrossScore": 0.9995475700802537
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9994980830411693,
+      "CrossScore": 0.9994980830411693
+    }
+  ],
+  "latency_ms": 158.29,
+  "final_returned": [
+    {
+      "Question": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables",
+      "Score": 0.9998634454969376
+    },
+    {
+      "Question": "सब्जियों में 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables",
+      "Score": 0.999858278171985
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "Score": 0.9997457694423146
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "Score": 0.9996302838638954
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "Score": 0.9996060557923512
+    }
+  ]
+}

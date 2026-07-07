@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:54.492152",
+  "query_original": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+  "query_normalized": "प्लास्टिक मल्चिंग के क्या लाभ हैं",
+  "query_expanded": "प्लास्टिक मल्चिंग के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9170386506977,
+      "CrossScore": 0.9999170386506977
+    },
+    {
+      "Question": "मखाना के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999040978873036,
+      "CrossScore": 0.9999040978873036
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999023380654571,
+      "CrossScore": 0.9999023380654571
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998968045364636,
+      "CrossScore": 0.9998968045364636
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998931616572995,
+      "CrossScore": 0.9998931616572995
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998881565996394,
+      "CrossScore": 0.9998881565996394
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999882495883242,
+      "CrossScore": 0.999882495883242
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998820160151891,
+      "CrossScore": 0.9998820160151891
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998806362367759,
+      "CrossScore": 0.9998806362367759
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998752057015534,
+      "CrossScore": 0.9998752057015534
+    }
+  ],
+  "latency_ms": 291.56,
+  "final_returned": [
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 999.9170386506977
+    },
+    {
+      "Question": "मखाना के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Makhana",
+      "Score": 0.9999040978873036
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999023380654571
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998968045364636
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998931616572995
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:56.740066",
+  "query_original": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+  "query_normalized": "जिप्सम gypsum का उपयोग मिट्टी में क्यों किया जाता है",
+  "query_expanded": "जिप्सम gypsum का उपयोग मिट्टी में क्यों किया जाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में 'मिट्टी चढ़ाना' क्यों नहीं किया जाता?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 999.8771740729072,
+      "CrossScore": 0.9998771740729072
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998411190043692,
+      "CrossScore": 0.9998411190043692
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.999810140524346,
+      "CrossScore": 0.999810140524346
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997810607847473,
+      "CrossScore": 0.9997810607847473
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997773211694027,
+      "CrossScore": 0.9997773211694027
+    },
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997697072421131,
+      "CrossScore": 0.9997697072421131
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997692289538485,
+      "CrossScore": 0.9997692289538485
+    },
+    {
+      "Question": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9997652203692267,
+      "CrossScore": 0.9997652203692267
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997639956331349,
+      "CrossScore": 0.9997639956331349
+    },
+    {
+      "Question": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997607063381164,
+      "CrossScore": 0.9997607063381164
+    }
+  ],
+  "latency_ms": 260.45,
+  "final_returned": [
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 999.8771740729072
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General",
+      "Score": 0.9998411190043692
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "Score": 0.999810140524346
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997810607847473
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "Score": 0.9997773211694027
+    }
+  ]
+}

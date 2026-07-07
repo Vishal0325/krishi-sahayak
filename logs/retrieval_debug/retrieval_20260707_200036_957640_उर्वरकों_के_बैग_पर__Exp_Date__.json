@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:36.750356",
+  "query_original": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+  "query_normalized": "उर्वरकों के बैग पर exp date का क्या महत्व है",
+  "query_expanded": "poshak खाद पोषण उर्वरक उर्वरकों के बैग पर exp date का क्या महत्व है fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशकों के पैकेट पर 'Exp Date' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'उर्वरक' बैग पर 10:26:26 का क्या मतलब है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधे लगाने के लिए 'खंभों' (Poles) का क्या महत्व है?",
+      "Crop": "Dragon Fruit"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 999.9085217064146,
+      "CrossScore": 0.9999085217064146
+    },
+    {
+      "Question": "खरपतवारनाशकों के पैकेट पर 'Exp Date'?",
+      "Crop": "General",
+      "FinalScore": 0.9998847259349095,
+      "CrossScore": 0.9998847259349095
+    },
+    {
+      "Question": "जैविक दवाओं की 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998629318939337,
+      "CrossScore": 0.9998629318939337
+    },
+    {
+      "Question": "फफूंदनाशकों के पैकेट पर 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998620381390355,
+      "CrossScore": 0.9998620381390355
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996891590175303,
+      "CrossScore": 0.9996891590175303
+    },
+    {
+      "Question": "कीटनाशकों के लेबल पर 'लाल' रंग के निशान का क्या मतलब है?",
+      "Crop": "General",
+      "FinalScore": 0.9996088241285399,
+      "CrossScore": 0.9996088241285399
+    },
+    {
+      "Question": "हल्दी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9995558002725519,
+      "CrossScore": 0.9995558002725519
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9995389440524475,
+      "CrossScore": 0.9995389440524475
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9994895384932205,
+      "CrossScore": 0.9994895384932205
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.999475927674388,
+      "CrossScore": 0.999475927674388
+    }
+  ],
+  "latency_ms": 207.33,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 999.9085217064146
+    },
+    {
+      "Question": "खरपतवारनाशकों के पैकेट पर 'Exp Date'?",
+      "Crop": "General",
+      "Score": 0.9998847259349095
+    },
+    {
+      "Question": "जैविक दवाओं की 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998629318939337
+    },
+    {
+      "Question": "फफूंदनाशकों के पैकेट पर 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998620381390355
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9996891590175303
+    }
+  ]
+}

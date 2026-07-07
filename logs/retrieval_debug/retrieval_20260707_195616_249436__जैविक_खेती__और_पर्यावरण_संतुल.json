@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:16.064131",
+  "query_original": "'जैविक खेती' और पर्यावरण संतुलन?",
+  "query_normalized": "जैविक खेती और पर्यावरण संतुलन",
+  "query_expanded": "जैविक खेती और पर्यावरण संतुलन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998977421810153,
+      "CrossScore": 0.9998977421810153
+    },
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998939768168371,
+      "CrossScore": 0.9998939768168371
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998930860370043,
+      "CrossScore": 0.9998930860370043
+    },
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General",
+      "FinalScore": 0.9998918917992272,
+      "CrossScore": 0.9998918917992272
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "FinalScore": 0.9998899417115565,
+      "CrossScore": 0.9998899417115565
+    },
+    {
+      "Question": "जैविक खेती और 'मृदा स्वास्थ्य'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998857669966488,
+      "CrossScore": 0.9998857669966488
+    },
+    {
+      "Question": "जैविक खेती और 'मधुमक्खी पालन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998815662652157,
+      "CrossScore": 0.9998815662652157
+    },
+    {
+      "Question": "'ब्लॉकचेन' और जैविक खेती?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.999874814656927,
+      "CrossScore": 0.999874814656927
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998692623684206,
+      "CrossScore": 0.9998692623684206
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998656828687573,
+      "CrossScore": 0.9998656828687573
+    }
+  ],
+  "latency_ms": 185.4,
+  "final_returned": [
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998977421810153
+    },
+    {
+      "Question": "जैविक खेती और 'जलवायु परिवर्तन'?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998939768168371
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 0.9998930860370043
+    },
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General",
+      "Score": 0.9998918917992272
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "Score": 0.9998899417115565
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:34.896786",
+  "query_original": "'FCR' (Feed Conversion Ratio) क्या है?",
+  "query_normalized": "fcr feed conversion ratio क्या है",
+  "query_expanded": "fcr feed conversion ratio क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'FCR' (Feed Conversion Ratio) क्या है?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "खेती में 'कॉस्ट-बेनिफिट रेश्यो' (C:B Ratio) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'FCR' (Feed Conversion Ratio) क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.99987263371039,
+      "CrossScore": 0.99987263371039
+    },
+    {
+      "Question": "खेती में 'कॉस्ट-बेनिफिट रेश्यो' (C:B Ratio) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9088288242523074,
+      "CrossScore": 0.9088288242523074
+    },
+    {
+      "Question": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.44530282878961297,
+      "CrossScore": 0.44530282878961297
+    },
+    {
+      "Question": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.308107667918766,
+      "CrossScore": 0.308107667918766
+    },
+    {
+      "Question": "क्या मशीनों से बीज की बर्बादी रुकती है?",
+      "Crop": "General",
+      "FinalScore": 0.21250869760847874,
+      "CrossScore": 0.21250869760847874
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.19156191754405605,
+      "CrossScore": 0.19156191754405605
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.12106885469906681,
+      "CrossScore": 0.12106885469906681
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.11274454854819574,
+      "CrossScore": 0.11274454854819574
+    },
+    {
+      "Question": "गेहूं की 'DBW 187' (करन वंदना) की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.07769788547930702,
+      "CrossScore": 0.07769788547930702
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.07732607249428085,
+      "CrossScore": 0.07732607249428085
+    }
+  ],
+  "latency_ms": 218.82,
+  "final_returned": [
+    {
+      "Question": "'FCR' (Feed Conversion Ratio) क्या है?",
+      "Crop": "Poultry",
+      "Score": 0.99987263371039
+    },
+    {
+      "Question": "खेती में 'कॉस्ट-बेनिफिट रेश्यो' (C:B Ratio) क्या है?",
+      "Crop": "General",
+      "Score": 0.9088288242523074
+    },
+    {
+      "Question": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.44530282878961297
+    },
+    {
+      "Question": "'रिटर्न ऑन इन्वेस्टमेंट' (ROI) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.308107667918766
+    },
+    {
+      "Question": "क्या मशीनों से बीज की बर्बादी रुकती है?",
+      "Crop": "General",
+      "Score": 0.21250869760847874
+    }
+  ]
+}

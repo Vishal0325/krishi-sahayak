@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:16.301508",
+  "query_original": "'गन्ने का काला झुलसा' (Black Bug)?",
+  "query_normalized": "गन्ने का काला झुलसा black bug",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease गन्ने का काला झुलसा black bug रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने का काला झुलसा' (Black Bug)?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गन्ने का काला झुलसा' (Black Bug)?",
+      "Crop": "Sugarcane",
+      "FinalScore": 999.9258180079695,
+      "CrossScore": 0.9999258180079695
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.958647242919659,
+      "CrossScore": 0.9958647242919659
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.942176624193884,
+      "CrossScore": 0.9942176624193885
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 9.929060776656526,
+      "CrossScore": 0.9929060776656525
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.914724489532006,
+      "CrossScore": 0.9914724489532006
+    },
+    {
+      "Question": "सरसों के दानों का 'काला रंग'?",
+      "Crop": "Mustard",
+      "FinalScore": 9.892356296813706,
+      "CrossScore": 0.9892356296813705
+    },
+    {
+      "Question": "सरसों in 'झुलसा' (Blight) का कवक?",
+      "Crop": "Mustard",
+      "FinalScore": 9.862771576773815,
+      "CrossScore": 0.9862771576773816
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का आर्थिक असर?",
+      "Crop": "Potato",
+      "FinalScore": 9.859419521812487,
+      "CrossScore": 0.9859419521812487
+    },
+    {
+      "Question": "'गन्ने का पायरिला'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9965457445543167,
+      "CrossScore": 0.9965457445543167
+    },
+    {
+      "Question": "गन्ने में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9956859839082371,
+      "CrossScore": 0.9956859839082371
+    }
+  ],
+  "latency_ms": 177.68,
+  "final_returned": [
+    {
+      "Question": "'गन्ने का काला झुलसा' (Black Bug)?",
+      "Crop": "Sugarcane",
+      "Score": 999.9258180079695
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "Score": 9.958647242919659
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 9.942176624193884
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "Score": 9.929060776656526
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane",
+      "Score": 9.914724489532006
+    }
+  ]
+}

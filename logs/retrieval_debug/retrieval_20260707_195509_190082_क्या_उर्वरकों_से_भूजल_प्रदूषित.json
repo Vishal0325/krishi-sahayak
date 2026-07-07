@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:08.945469",
+  "query_original": "क्या उर्वरकों से भूजल प्रदूषित होता है?",
+  "query_normalized": "क्या उर्वरकों से भूजल प्रदूषित होता है",
+  "query_expanded": "खाद poshak क्या उर्वरकों से भूजल प्रदूषित होता है fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या उर्वरकों से भूजल प्रदूषित होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999116963231248,
+      "CrossScore": 0.9999116963231248
+    },
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999113351025843,
+      "CrossScore": 0.9999113351025843
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999103633259168,
+      "CrossScore": 0.9999103633259168
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999023366685184,
+      "CrossScore": 0.9999023366685184
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999003210301758,
+      "CrossScore": 0.9999003210301758
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998972482706752,
+      "CrossScore": 0.9998972482706752
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998969643202961,
+      "CrossScore": 0.9998969643202961
+    },
+    {
+      "Question": "क्या उर्वरकों से भूजल प्रदूषित होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998958031652239,
+      "CrossScore": 0.9998958031652239
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.999892871727102,
+      "CrossScore": 0.999892871727102
+    },
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998924163788278,
+      "CrossScore": 0.9998924163788278
+    }
+  ],
+  "latency_ms": 244.71,
+  "final_returned": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9999116963231248
+    },
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "Score": 0.9999113351025843
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9999103633259168
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General",
+      "Score": 0.9999023366685184
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9999003210301758
+    }
+  ]
+}

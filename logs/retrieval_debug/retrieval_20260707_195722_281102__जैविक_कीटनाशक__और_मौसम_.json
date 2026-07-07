@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:22.105727",
+  "query_original": "'जैविक कीटनाशक' और मौसम?",
+  "query_normalized": "जैविक कीटनाशक और मौसम",
+  "query_expanded": "जैविक कीटनाशक और मौसम बग pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जैविक कीटनाशक' और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "FinalScore": 9.999125792376008,
+      "CrossScore": 0.9999125792376008
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 9.999024117954521,
+      "CrossScore": 0.9999024117954521
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "FinalScore": 9.998973500231651,
+      "CrossScore": 0.9998973500231652
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998868256404602,
+      "CrossScore": 0.9998868256404603
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'प्रीमियम भाव'?",
+      "Crop": "General",
+      "FinalScore": 9.99886515271579,
+      "CrossScore": 0.999886515271579
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General",
+      "FinalScore": 9.998822890859309,
+      "CrossScore": 0.9998822890859309
+    },
+    {
+      "Question": "'कीटनाशक' और 'जल प्रदूषण'?",
+      "Crop": "General",
+      "FinalScore": 9.998793540404279,
+      "CrossScore": 0.9998793540404279
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General",
+      "FinalScore": 9.998668918275744,
+      "CrossScore": 0.9998668918275744
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.99866106392708,
+      "CrossScore": 0.999866106392708
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "FinalScore": 9.99860451242019,
+      "CrossScore": 0.9998604512420189
+    }
+  ],
+  "latency_ms": 175.45,
+  "final_returned": [
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "Score": 9.999125792376008
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 9.999024117954521
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "Score": 9.998973500231651
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "Score": 9.998868256404602
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'प्रीमियम भाव'?",
+      "Crop": "General",
+      "Score": 9.99886515271579
+    }
+  ]
+}

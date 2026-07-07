@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:42.139759",
+  "query_original": "'हरा फुदका' (Jassids) फसलों को कैसे नुकसान पहुँचाता है?",
+  "query_normalized": "हरा फुदका jassids फसलों को कैसे नुकसान पहुँचाता है",
+  "query_expanded": "हरा फुदका jassids फसलों को कैसे नुकसान पहुँचाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'हरा फुदका' (Jassids) फसलों को कैसे नुकसान पहुँचाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सफेद मक्खी' (Whitefly) फसलों को कैसे नुकसान पहुँचाती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक से फसल को नुकसान हो सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भंडारण के दौरान नुकसान (Post-Harvest Loss) को कैसे रोकें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'हरा फुदका' (Jassids) फसलों को कैसे नुकसान पहुँचाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998953785341829,
+      "CrossScore": 0.9998953785341829
+    },
+    {
+      "Question": "'आर्थिक नुकसान स्तर' (ETL) क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9997038901968521,
+      "CrossScore": 0.9997038901968521
+    },
+    {
+      "Question": "'सफेद मक्खी' (Whitefly) फसलों को कैसे नुकसान पहुँचाती है?",
+      "Crop": "General",
+      "FinalScore": 0.9996899291620653,
+      "CrossScore": 0.9996899291620653
+    },
+    {
+      "Question": "आर्थिक नुकसान स्तर (ETL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999686654019425,
+      "CrossScore": 0.999686654019425
+    },
+    {
+      "Question": "दूध बढ़ाने के लिए 'हरा चारा' क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9996843654502876,
+      "CrossScore": 0.9996843654502876
+    },
+    {
+      "Question": "पपीते की खेती में 'नर्सरी' को पॉलीबैग में तैयार करना क्यों बेहतर है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9996697824291668,
+      "CrossScore": 0.9996697824291668
+    },
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9996629087151029,
+      "CrossScore": 0.9996629087151029
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9996547546993603,
+      "CrossScore": 0.9996547546993603
+    },
+    {
+      "Question": "क्या औषधीय पौधों को 'कीट' नुकसान पहुँचाते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996206467137096,
+      "CrossScore": 0.9996206467137096
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक से फसल को नुकसान हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996066100843223,
+      "CrossScore": 0.9996066100843223
+    }
+  ],
+  "latency_ms": 231.25,
+  "final_returned": [
+    {
+      "Question": "'हरा फुदका' (Jassids) फसलों को कैसे नुकसान पहुँचाता है?",
+      "Crop": "General",
+      "Score": 0.9998953785341829
+    },
+    {
+      "Question": "'आर्थिक नुकसान स्तर' (ETL) क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9997038901968521
+    },
+    {
+      "Question": "'सफेद मक्खी' (Whitefly) फसलों को कैसे नुकसान पहुँचाती है?",
+      "Crop": "General",
+      "Score": 0.9996899291620653
+    },
+    {
+      "Question": "आर्थिक नुकसान स्तर (ETL) क्या है?",
+      "Crop": "General",
+      "Score": 0.999686654019425
+    },
+    {
+      "Question": "दूध बढ़ाने के लिए 'हरा चारा' क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "Score": 0.9996843654502876
+    }
+  ]
+}

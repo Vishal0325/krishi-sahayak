@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:57.847756",
+  "query_original": "'एग्री-क्लीनिक' में टेली-कंसल्टेशन?",
+  "query_normalized": "एग्री क्लीनिक में टेली कंसल्टेशन",
+  "query_expanded": "एग्री क्लीनिक में टेली कंसल्टेशन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एग्री-क्लीनिक' में टेली-कंसल्टेशन?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'एग्री-लॉजिस्टिक्स' में सुधार के अवसर?",
+      "Crop": "Agri Startup"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998682412617069,
+      "CrossScore": 0.9998682412617069
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' में टेली-कंसल्टेशन?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998597641358467,
+      "CrossScore": 0.9998597641358467
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998594861230146,
+      "CrossScore": 0.9998594861230146
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998378843376383,
+      "CrossScore": 0.9998378843376383
+    },
+    {
+      "Question": "'एग्री-लॉजिस्टिक्स' में सुधार के अवसर?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998294743928945,
+      "CrossScore": 0.9998294743928945
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998253233059128,
+      "CrossScore": 0.9998253233059128
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' में 'पावर टिलर' के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9997844352771929,
+      "CrossScore": 0.9997844352771929
+    },
+    {
+      "Question": "'सोलर लाइट ट्रैप' का रात में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997731801418471,
+      "CrossScore": 0.9997731801418471
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997437877239675,
+      "CrossScore": 0.9997437877239675
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997294509418718,
+      "CrossScore": 0.9997294509418718
+    }
+  ],
+  "latency_ms": 188.23,
+  "final_returned": [
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998682412617069
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' में टेली-कंसल्टेशन?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998597641358467
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "Score": 0.9998594861230146
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998378843376383
+    },
+    {
+      "Question": "'एग्री-लॉजिस्टिक्स' में सुधार के अवसर?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998294743928945
+    }
+  ]
+}

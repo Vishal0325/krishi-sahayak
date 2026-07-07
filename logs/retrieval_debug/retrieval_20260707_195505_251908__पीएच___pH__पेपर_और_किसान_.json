@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:04.949622",
+  "query_original": "'पीएच' (pH) पेपर और किसान?",
+  "query_normalized": "पीएच ph पेपर और किसान",
+  "query_expanded": "पीएच ph पेपर और किसान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General",
+      "FinalScore": 0.9999105370166969,
+      "CrossScore": 0.9999105370166969
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999096843059195,
+      "CrossScore": 0.9999096843059195
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999047368184047,
+      "CrossScore": 0.9999047368184047
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999032465670459,
+      "CrossScore": 0.9999032465670459
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998940215950635,
+      "CrossScore": 0.9998940215950635
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999887122890791,
+      "CrossScore": 0.999887122890791
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998782072830086,
+      "CrossScore": 0.9998782072830086
+    },
+    {
+      "Question": "'पीएच' मीटर और सटीक जांच?",
+      "Crop": "General",
+      "FinalScore": 0.999772255467461,
+      "CrossScore": 0.999772255467461
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.999755183876831,
+      "CrossScore": 0.999755183876831
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.999692613193784,
+      "CrossScore": 0.999692613193784
+    }
+  ],
+  "latency_ms": 302.38,
+  "final_returned": [
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General",
+      "Score": 0.9999105370166969
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General",
+      "Score": 0.9999096843059195
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "Score": 0.9999047368184047
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999032465670459
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9998940215950635
+    }
+  ]
+}

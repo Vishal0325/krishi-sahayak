@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:11.252733",
+  "query_original": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+  "query_normalized": "गन्ने का लाल सड़न red rot और शराब जैसी गंध",
+  "query_expanded": "गन्ने का लाल सड़न red rot और शराब जैसी गंध",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998676204065674,
+      "CrossScore": 0.9998676204065674
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998447262281785,
+      "CrossScore": 0.9998447262281785
+    },
+    {
+      "Question": "बैंगन में 'लाल मकड़ी' (Red Spider Mite) का प्रकोप?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997405426037503,
+      "CrossScore": 0.9997405426037503
+    },
+    {
+      "Question": "हल्दी का 'प्रकंद सड़न' (Rhizome Rot) रोग?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9997380927508855,
+      "CrossScore": 0.9997380927508855
+    },
+    {
+      "Question": "अदरक का 'नरम सड़न' (Soft Rot) रोग?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9997237209570846,
+      "CrossScore": 0.9997237209570846
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "FinalScore": 0.999700837781394,
+      "CrossScore": 0.999700837781394
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996412379069571,
+      "CrossScore": 0.9996412379069571
+    },
+    {
+      "Question": "आलू के भंडारण में 'सड़न' (Soft Rot) का कारण?",
+      "Crop": "Potato",
+      "FinalScore": 0.9996256271896631,
+      "CrossScore": 0.9996256271896631
+    },
+    {
+      "Question": "कद्दू वर्गीय फसलों में 'लाल कद्दू भृंग' (Red Pumpkin Beetle) का प्रबंधन?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995883705452431,
+      "CrossScore": 0.9995883705452431
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9995842433501971,
+      "CrossScore": 0.9995842433501971
+    }
+  ],
+  "latency_ms": 253.88,
+  "final_returned": [
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998676204065674
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998447262281785
+    },
+    {
+      "Question": "बैंगन में 'लाल मकड़ी' (Red Spider Mite) का प्रकोप?",
+      "Crop": "Brinjal",
+      "Score": 0.9997405426037503
+    },
+    {
+      "Question": "हल्दी का 'प्रकंद सड़न' (Rhizome Rot) रोग?",
+      "Crop": "Turmeric",
+      "Score": 0.9997380927508855
+    },
+    {
+      "Question": "अदरक का 'नरम सड़न' (Soft Rot) रोग?",
+      "Crop": "Ginger",
+      "Score": 0.9997237209570846
+    }
+  ]
+}

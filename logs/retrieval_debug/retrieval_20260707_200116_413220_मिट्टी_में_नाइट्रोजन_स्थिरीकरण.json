@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:16.171590",
+  "query_original": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+  "query_normalized": "मिट्टी में नाइट्रोजन स्थिरीकरण nitrogen fixation क्या है",
+  "query_expanded": "nitrogen मिट्टी में नाइट्रोजन स्थिरीकरण nitrogen fixation क्या है नाइट्रोजन यूरिया urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'मिट्टी परीक्षण रिपोर्ट' में 'EC' क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8995749470853,
+      "CrossScore": 0.9998995749470853
+    },
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998891770386945,
+      "CrossScore": 0.9998891770386945
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996925366964469,
+      "CrossScore": 0.9996925366964469
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996856873145258,
+      "CrossScore": 0.9996856873145258
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9996793800172433,
+      "CrossScore": 0.9996793800172433
+    },
+    {
+      "Question": "मिट्टी की उर्वरता और उत्पादकता में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9996283538941672,
+      "CrossScore": 0.9996283538941672
+    },
+    {
+      "Question": "मिट्टी में 'माइकोराइजा' (Mycorrhiza) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996081517569991,
+      "CrossScore": 0.9996081517569991
+    },
+    {
+      "Question": "मिट्टी में लवणता जांचने का घरेलू तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995739296515854,
+      "CrossScore": 0.9995739296515854
+    },
+    {
+      "Question": "'मिट्टी परीक्षण रिपोर्ट' में 'EC' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999533117884413,
+      "CrossScore": 0.999533117884413
+    },
+    {
+      "Question": "क्या मिट्टी का स्वास्थ्य मानव स्वास्थ्य से जुड़ा है?",
+      "Crop": "General",
+      "FinalScore": 0.9995209220147473,
+      "CrossScore": 0.9995209220147473
+    }
+  ],
+  "latency_ms": 241.66,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "Score": 999.8995749470853
+    },
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998891770386945
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9996925366964469
+    },
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9996856873145258
+    },
+    {
+      "Question": "लवणीय और क्षारीय मिट्टी में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9996793800172433
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:33.210977",
+  "query_original": "'आम का भुनगा' और बारिश का संबंध?",
+  "query_normalized": "आम का भुनगा और बारिश का संबंध",
+  "query_expanded": "आम का भुनगा और बारिश का संबंध",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'आम का गुच्छा रोग' (Malformation) और 'बौर'?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango",
+      "FinalScore": 999.8833165533678,
+      "CrossScore": 0.9998833165533677
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango",
+      "FinalScore": 0.9999117397624819,
+      "CrossScore": 0.9999117397624819
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999034596426224,
+      "CrossScore": 0.9999034596426224
+    },
+    {
+      "Question": "आम के फल पकने के लिए 'कैल्शियम कार्बाइड' का प्रयोग क्यों नहीं करना चाहिए?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998983253808533,
+      "CrossScore": 0.9998983253808533
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998930073024765,
+      "CrossScore": 0.9998930073024765
+    },
+    {
+      "Question": "आम के 'पुराने' बागों का सुधार (Rejuvenation)?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998847763777213,
+      "CrossScore": 0.9998847763777213
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998819803457074,
+      "CrossScore": 0.9998819803457074
+    },
+    {
+      "Question": "'सफेद मक्खी' और 'पीला मोजेक' का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998819207975447,
+      "CrossScore": 0.9998819207975447
+    },
+    {
+      "Question": "आम के बाग में 'गुच्छा रोग' (Bunchy Top/Malformation) का इलाज?",
+      "Crop": "Mango",
+      "FinalScore": 0.99988116104465,
+      "CrossScore": 0.99988116104465
+    },
+    {
+      "Question": "'नींबू का कैंकर' (Citrus Canker) और 'बारिश'?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998773685747683,
+      "CrossScore": 0.9998773685747683
+    }
+  ],
+  "latency_ms": 231.35,
+  "final_returned": [
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango",
+      "Score": 999.8833165533678
+    },
+    {
+      "Question": "'आम का मधुआ' और 'तापमान'?",
+      "Crop": "Mango",
+      "Score": 0.9999117397624819
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "Score": 0.9999034596426224
+    },
+    {
+      "Question": "आम के फल पकने के लिए 'कैल्शियम कार्बाइड' का प्रयोग क्यों नहीं करना चाहिए?",
+      "Crop": "Mango",
+      "Score": 0.9998983253808533
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "Score": 0.9998930073024765
+    }
+  ]
+}

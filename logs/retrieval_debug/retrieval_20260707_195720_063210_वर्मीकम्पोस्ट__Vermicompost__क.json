@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:19.840908",
+  "query_original": "वर्मीकम्पोस्ट (Vermicompost) कैसे बनाया जाता है?",
+  "query_normalized": "वर्मीकम्पोस्ट vermicompost कैसे बनाया जाता है",
+  "query_expanded": "वर्मीकम्पोस्ट vermicompost कैसे बनाया जाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वर्मीकम्पोस्ट (Vermicompost) कैसे बनाया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वर्मीकम्पोस्ट (Vermicompost) कैसे बनाया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999005020343793,
+      "CrossScore": 0.9999005020343793
+    },
+    {
+      "Question": "वर्मीकम्पोस्ट यूनिट से कितनी आय हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998560041408334,
+      "CrossScore": 0.9998560041408334
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.999848922628198,
+      "CrossScore": 0.999848922628198
+    },
+    {
+      "Question": "सब्जियों के लिए 'वर्मीकम्पोस्ट' क्यों श्रेष्ठ है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998463881023786,
+      "CrossScore": 0.9998463881023786
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998065866501858,
+      "CrossScore": 0.9998065866501858
+    },
+    {
+      "Question": "जीवामृत (Jeevamrut) क्या है और इसे कैसे बनाएं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997849361979125,
+      "CrossScore": 0.9997849361979125
+    },
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9997808124391034,
+      "CrossScore": 0.9997808124391034
+    },
+    {
+      "Question": "टमाटर की फसल में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997653604579863,
+      "CrossScore": 0.9997653604579863
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997614876270775,
+      "CrossScore": 0.9997614876270775
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'मोम' (Beeswax) कैसे प्राप्त होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997519433255886,
+      "CrossScore": 0.9997519433255886
+    }
+  ],
+  "latency_ms": 222.4,
+  "final_returned": [
+    {
+      "Question": "वर्मीकम्पोस्ट (Vermicompost) कैसे बनाया जाता है?",
+      "Crop": "General",
+      "Score": 0.9999005020343793
+    },
+    {
+      "Question": "वर्मीकम्पोस्ट यूनिट से कितनी आय हो सकती है?",
+      "Crop": "General",
+      "Score": 0.9998560041408334
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' बेड को धूप से बचाना क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.999848922628198
+    },
+    {
+      "Question": "सब्जियों के लिए 'वर्मीकम्पोस्ट' क्यों श्रेष्ठ है?",
+      "Crop": "Vegetables",
+      "Score": 0.9998463881023786
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9998065866501858
+    }
+  ]
+}

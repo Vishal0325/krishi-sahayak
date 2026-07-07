@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:57.704115",
+  "query_original": "रजनीगंधा (Tuberose) की खेती कैसे करें?",
+  "query_normalized": "रजनीगंधा tuberose की खेती कैसे करें",
+  "query_expanded": "रजनीगंधा tuberose की खेती कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "रजनीगंधा (Tuberose) की खेती कैसे करें?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "मक्का की खेती में नाइट्रोजन की कमी कैसे दूर करें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "खेती में शुद्ध लाभ (Net Profit) की गणना कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती में 'नाइट्रोजन' की पूर्ति कैसे करें?",
+      "Crop": "Organic Farming"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "रजनीगंधा (Tuberose) की खेती कैसे करें?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9999055302658199,
+      "CrossScore": 0.9999055302658199
+    },
+    {
+      "Question": "आलू की खेती के लिए सरकारी सब्सिडी कैसे प्राप्त करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998047537620465,
+      "CrossScore": 0.9998047537620465
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997804819897006,
+      "CrossScore": 0.9997804819897006
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997795334798801,
+      "CrossScore": 0.9997795334798801
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999759581644481,
+      "CrossScore": 0.999759581644481
+    },
+    {
+      "Question": "बैंगन की नर्सरी कैसे तैयार करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997326607213447,
+      "CrossScore": 0.9997326607213447
+    },
+    {
+      "Question": "जैविक खेती में 'नाइट्रोजन' की पूर्ति कैसे करें?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997052902341292,
+      "CrossScore": 0.9997052902341292
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996871304402458,
+      "CrossScore": 0.9996871304402458
+    },
+    {
+      "Question": "औषधीय पौधों की मार्केटिंग कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996695122065513,
+      "CrossScore": 0.9996695122065513
+    },
+    {
+      "Question": "गेहूं की फसल में 'नमी' की जांच कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996515756608592,
+      "CrossScore": 0.9996515756608592
+    }
+  ],
+  "latency_ms": 188.0,
+  "final_returned": [
+    {
+      "Question": "रजनीगंधा (Tuberose) की खेती कैसे करें?",
+      "Crop": "Floriculture",
+      "Score": 0.9999055302658199
+    },
+    {
+      "Question": "आलू की खेती के लिए सरकारी सब्सिडी कैसे प्राप्त करें?",
+      "Crop": "Potato",
+      "Score": 0.9998047537620465
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "Score": 0.9997804819897006
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9997795334798801
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.999759581644481
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:47.592410",
+  "query_original": "क्या पशुओं को 'खुली जगह' चाहिए?",
+  "query_normalized": "क्या पशुओं को खुली जगह चाहिए",
+  "query_expanded": "क्या पशुओं को खुली जगह चाहिए",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या पशुओं को 'खुली जगह' चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "मक्का की खेती शुरू करने से पहले किसान को क्या करना चाहिए?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "क्या IPM को अपनाने के लिए विशेष प्रशिक्षण चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के बाद क्या अनाज को तुरंत बेच देना चाहिए?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या खरपतवारनाशी को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999117969755151,
+      "CrossScore": 0.9999117969755151
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999093820228048,
+      "CrossScore": 0.9999093820228048
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999082257722717,
+      "CrossScore": 0.9999082257722717
+    },
+    {
+      "Question": "क्या पशुओं को 'खुली जगह' चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998983589216167,
+      "CrossScore": 0.9998983589216167
+    },
+    {
+      "Question": "क्या खाद को सीधे तने के पास डालना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998968357260418,
+      "CrossScore": 0.9998968357260418
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998948818293296,
+      "CrossScore": 0.9998948818293296
+    },
+    {
+      "Question": "क्या पशुओं को 'हल्दी' खिलाना सही है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998906385564087,
+      "CrossScore": 0.9998906385564087
+    },
+    {
+      "Question": "क्या पशुओं को 'मानव दवाएं' दी जा सकती हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998896153645224,
+      "CrossScore": 0.9998896153645224
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए 'विशेष लाइसेंस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998865378863,
+      "CrossScore": 0.9998865378863
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998863592263187,
+      "CrossScore": 0.9998863592263187
+    }
+  ],
+  "latency_ms": 217.93,
+  "final_returned": [
+    {
+      "Question": "क्या खरपतवारनाशी को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9999117969755151
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9999093820228048
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999082257722717
+    },
+    {
+      "Question": "क्या पशुओं को 'खुली जगह' चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998983589216167
+    },
+    {
+      "Question": "क्या खाद को सीधे तने के पास डालना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998968357260418
+    }
+  ]
+}

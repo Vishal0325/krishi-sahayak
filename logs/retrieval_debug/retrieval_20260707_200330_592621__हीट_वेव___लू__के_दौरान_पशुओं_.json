@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:30.247819",
+  "query_original": "'हीट वेव' (लू) के दौरान पशुओं का बचाव?",
+  "query_normalized": "हीट वेव लू के दौरान पशुओं का बचाव",
+  "query_expanded": "हीट वेव लू के दौरान पशुओं का बचाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'हीट वेव' (लू) के दौरान पशुओं का बचाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ठंड की लहर (Cold Wave) से बचाव के लिए पशुओं का शेड?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हीट वेव' (Heat Wave) के समय सिंचाई?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के लिए 'मक्का का साइलेज'?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'हीट वेव' (लू) के दौरान पशुओं का बचाव?",
+      "Crop": "General",
+      "FinalScore": 999.9098883611535,
+      "CrossScore": 0.9999098883611536
+    },
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999130944017193,
+      "CrossScore": 0.9999130944017193
+    },
+    {
+      "Question": "थनैला रोग से बचाव के लिए 'स्वच्छता' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998849247207818,
+      "CrossScore": 0.9998849247207818
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998774166260895,
+      "CrossScore": 0.9998774166260895
+    },
+    {
+      "Question": "'हीट वेव' (Heat Wave) के समय सिंचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998510598663611,
+      "CrossScore": 0.9998510598663611
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998436721985773,
+      "CrossScore": 0.9998436721985773
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998358214331826,
+      "CrossScore": 0.9998358214331826
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998245785520258,
+      "CrossScore": 0.9998245785520258
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998219116762883,
+      "CrossScore": 0.9998219116762883
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "FinalScore": 0.9997674227413568,
+      "CrossScore": 0.9997674227413568
+    }
+  ],
+  "latency_ms": 344.85,
+  "final_returned": [
+    {
+      "Question": "'हीट वेव' (लू) के दौरान पशुओं का बचाव?",
+      "Crop": "General",
+      "Score": 999.9098883611535
+    },
+    {
+      "Question": "हीट वेव (Heat Wave/लू) से फसलों को कैसे बचाएं?",
+      "Crop": "General",
+      "Score": 0.9999130944017193
+    },
+    {
+      "Question": "थनैला रोग से बचाव के लिए 'स्वच्छता' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998849247207818
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.9998774166260895
+    },
+    {
+      "Question": "'हीट वेव' (Heat Wave) के समय सिंचाई?",
+      "Crop": "General",
+      "Score": 0.9998510598663611
+    }
+  ]
+}

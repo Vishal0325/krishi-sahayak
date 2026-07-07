@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:07.349215",
+  "query_original": "'एफिड्स' (Aphids/चेपा) क्या हैं?",
+  "query_normalized": "एफिड्स aphids चेपा क्या हैं",
+  "query_expanded": "एफिड्स aphids चेपा क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एफिड्स' (Aphids/चेपा) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एफिड्स' (Aphids/चेपा) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9221831562035,
+      "CrossScore": 0.9999221831562035
+    },
+    {
+      "Question": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998535914708586,
+      "CrossScore": 0.9998535914708586
+    },
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994087403825687,
+      "CrossScore": 0.9994087403825687
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994047716729336,
+      "CrossScore": 0.9994047716729336
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992880202995296,
+      "CrossScore": 0.9992880202995296
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992316459035584,
+      "CrossScore": 0.9992316459035584
+    },
+    {
+      "Question": "लोबिया (Cowpea) के क्या फायदे हैं?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9990637095995939,
+      "CrossScore": 0.9990637095995939
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989623579671613,
+      "CrossScore": 0.9989623579671613
+    },
+    {
+      "Question": "मेंथा की खेती में 'सकर्स' (Stolons) क्या हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9989341284148212,
+      "CrossScore": 0.9989341284148212
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9988306378912293,
+      "CrossScore": 0.9988306378912293
+    }
+  ],
+  "latency_ms": 192.45,
+  "final_returned": [
+    {
+      "Question": "'एफिड्स' (Aphids/चेपा) क्या हैं?",
+      "Crop": "General",
+      "Score": 999.9221831562035
+    },
+    {
+      "Question": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+      "Crop": "General",
+      "Score": 0.9998535914708586
+    },
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9994087403825687
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "Score": 0.9994047716729336
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9992880202995296
+    }
+  ]
+}

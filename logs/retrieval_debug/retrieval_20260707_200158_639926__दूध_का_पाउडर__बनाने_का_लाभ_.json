@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:58.457021",
+  "query_original": "'दूध का पाउडर' बनाने का लाभ?",
+  "query_normalized": "दूध का पाउडर बनाने का लाभ",
+  "query_expanded": "दूध का पाउडर बनाने का लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'दूध का पाउडर' बनाने का लाभ?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "'दूध का पनीर' बनाने का व्यापार?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "'दूध का खोया' (Mawa) बनाने का व्यापार?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "'ऑफ-सीजन' बिक्री का लाभ?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'दूध का पाउडर' बनाने का लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 999.9021915575536,
+      "CrossScore": 0.9999021915575536
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998746481429805,
+      "CrossScore": 0.9998746481429805
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998740704430295,
+      "CrossScore": 0.9998740704430295
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' के लिए 'बर्ड पर्च' का लाभ?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998660318104486,
+      "CrossScore": 0.9998660318104486
+    },
+    {
+      "Question": "कोनो वीडर का लाभ?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998647703041245,
+      "CrossScore": 0.9998647703041245
+    },
+    {
+      "Question": "'दूध की फैट' जांचने का घरेलू तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9998589408180909,
+      "CrossScore": 0.9998589408180909
+    },
+    {
+      "Question": "'भिंडी का पाउडर मिल्ड्यू' और 'गंधक'?",
+      "Crop": "Okra",
+      "FinalScore": 0.999852008644807,
+      "CrossScore": 0.999852008644807
+    },
+    {
+      "Question": "'दूध का खोया' (Mawa) बनाने का व्यापार?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998507823867174,
+      "CrossScore": 0.9998507823867174
+    },
+    {
+      "Question": "टमाटर की खुदाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998487095621041,
+      "CrossScore": 0.9998487095621041
+    },
+    {
+      "Question": "'दूध का पनीर' बनाने का व्यापार?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998397738091488,
+      "CrossScore": 0.9998397738091488
+    }
+  ],
+  "latency_ms": 182.91,
+  "final_returned": [
+    {
+      "Question": "'दूध का पाउडर' बनाने का लाभ?",
+      "Crop": "Dairy",
+      "Score": 999.9021915575536
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "Score": 0.9998746481429805
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "Score": 0.9998740704430295
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' के लिए 'बर्ड पर्च' का लाभ?",
+      "Crop": "Maize",
+      "Score": 0.9998660318104486
+    },
+    {
+      "Question": "कोनो वीडर का लाभ?",
+      "Crop": "Rice",
+      "Score": 0.9998647703041245
+    }
+  ]
+}

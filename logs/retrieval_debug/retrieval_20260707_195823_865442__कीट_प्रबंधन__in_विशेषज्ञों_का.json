@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:23.672032",
+  "query_original": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+  "query_normalized": "कीट प्रबंधन in विशेषज्ञों का अंतिम सुझाव",
+  "query_expanded": "बग pest कीड़ा कीट कीट प्रबंधन in विशेषज्ञों का अंतिम सुझाव insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.999224140393997,
+      "CrossScore": 0.9999224140393997
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.99916091221834,
+      "CrossScore": 0.999916091221834
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.999127516301643,
+      "CrossScore": 0.9999127516301642
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.999119480749076,
+      "CrossScore": 0.9999119480749077
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक कार्य'?",
+      "Crop": "General",
+      "FinalScore": 9.999074352804433,
+      "CrossScore": 0.9999074352804432
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव का सहयोग'?",
+      "Crop": "General",
+      "FinalScore": 9.999069605070268,
+      "CrossScore": 0.9999069605070269
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक निर्णय'?",
+      "Crop": "General",
+      "FinalScore": 9.999052510414131,
+      "CrossScore": 0.9999052510414131
+    },
+    {
+      "Question": "'कीट प्रबंधन' में सफलता का राज?",
+      "Crop": "General",
+      "FinalScore": 9.99901874772979,
+      "CrossScore": 0.999901874772979
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'मिट्टी की जांच'?",
+      "Crop": "General",
+      "FinalScore": 9.99893581992405,
+      "CrossScore": 0.999893581992405
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General",
+      "FinalScore": 9.998928810227616,
+      "CrossScore": 0.9998928810227615
+    }
+  ],
+  "latency_ms": 193.65,
+  "final_returned": [
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.999224140393997
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "Score": 9.99916091221834
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "Score": 9.999127516301643
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "Score": 9.999119480749076
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक कार्य'?",
+      "Crop": "General",
+      "Score": 9.999074352804433
+    }
+  ]
+}

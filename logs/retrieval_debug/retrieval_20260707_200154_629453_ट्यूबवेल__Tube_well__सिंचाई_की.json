@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:54.451619",
+  "query_original": "ट्यूबवेल (Tube well) सिंचाई की समस्या?",
+  "query_normalized": "ट्यूबवेल tube well सिंचाई की समस्या",
+  "query_expanded": "ट्यूबवेल tube well सिंचाई की समस्या",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्यूबवेल (Tube well) सिंचाई की समस्या?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की 'सिंचाई' के लिए 'बोरिंग' (Tube well) का लाभ?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "भिंडी में 'नीमेटोड' की समस्या?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "लीची के बाग में 'जल निकास' की समस्या?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या गन्ने की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्यूबवेल (Tube well) सिंचाई की समस्या?",
+      "Crop": "General",
+      "FinalScore": 999.9021073000324,
+      "CrossScore": 0.9999021073000324
+    },
+    {
+      "Question": "मक्का की 'सिंचाई' के लिए 'बोरिंग' (Tube well) का लाभ?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996970993737555,
+      "CrossScore": 0.9996970993737555
+    },
+    {
+      "Question": "धनिया की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9983910710167812,
+      "CrossScore": 0.9983910710167812
+    },
+    {
+      "Question": "गेहूं की सिंचाई की 'दुधिया अवस्था' (Milking stage)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9983317531954323,
+      "CrossScore": 0.9983317531954323
+    },
+    {
+      "Question": "प्याज की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Onion",
+      "FinalScore": 0.9979900452880371,
+      "CrossScore": 0.9979900452880371
+    },
+    {
+      "Question": "गेहूं में 'यूरिया' की टॉप ड्रेसिंग के बाद सिंचाई?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9976785764073317,
+      "CrossScore": 0.9976785764073317
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' की कमी से गिरने (Lodging) की समस्या?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9972971854721687,
+      "CrossScore": 0.9972971854721687
+    },
+    {
+      "Question": "धनिया में 'नीमेटोड' की समस्या?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9971188930138372,
+      "CrossScore": 0.9971188930138372
+    },
+    {
+      "Question": "बैंगन में 'नीमेटोड' (Nematodes) की समस्या?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9970662313053248,
+      "CrossScore": 0.9970662313053248
+    },
+    {
+      "Question": "भिंडी में 'नीमेटोड' की समस्या?",
+      "Crop": "Okra",
+      "FinalScore": 0.9970350688395334,
+      "CrossScore": 0.9970350688395334
+    }
+  ],
+  "latency_ms": 177.89,
+  "final_returned": [
+    {
+      "Question": "ट्यूबवेल (Tube well) सिंचाई की समस्या?",
+      "Crop": "General",
+      "Score": 999.9021073000324
+    },
+    {
+      "Question": "मक्का की 'सिंचाई' के लिए 'बोरिंग' (Tube well) का लाभ?",
+      "Crop": "Maize",
+      "Score": 0.9996970993737555
+    },
+    {
+      "Question": "धनिया की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Coriander",
+      "Score": 0.9983910710167812
+    },
+    {
+      "Question": "गेहूं की सिंचाई की 'दुधिया अवस्था' (Milking stage)?",
+      "Crop": "Wheat",
+      "Score": 0.9983317531954323
+    },
+    {
+      "Question": "प्याज की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Onion",
+      "Score": 0.9979900452880371
+    }
+  ]
+}

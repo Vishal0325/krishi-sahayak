@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:05.422078",
+  "query_original": "प्रकाश काल (Photoperiod) क्या है?",
+  "query_normalized": "प्रकाश काल photoperiod क्या है",
+  "query_expanded": "प्रकाश काल photoperiod क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "प्रकाश काल (Photoperiod) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्रकाश काल (Photoperiod) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9350034504007,
+      "CrossScore": 0.9999350034504007
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998715475895683,
+      "CrossScore": 0.9998715475895683
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998702478512721,
+      "CrossScore": 0.9998702478512721
+    },
+    {
+      "Question": "क्या धूल की परत प्रकाश संश्लेषण रोकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998575767009196,
+      "CrossScore": 0.9998575767009196
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998507223308859,
+      "CrossScore": 0.9998507223308859
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998430945604048,
+      "CrossScore": 0.9998430945604048
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998381776204034,
+      "CrossScore": 0.9998381776204034
+    },
+    {
+      "Question": "'दुग्ध काल' (Lactation Period) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998135002300704,
+      "CrossScore": 0.9998135002300704
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.999810020644842,
+      "CrossScore": 0.999810020644842
+    },
+    {
+      "Question": "कीटनाशकों का 'प्रतीक्षा काल' (Waiting Period) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997948507473431,
+      "CrossScore": 0.9997948507473431
+    }
+  ],
+  "latency_ms": 171.15,
+  "final_returned": [
+    {
+      "Question": "प्रकाश काल (Photoperiod) क्या है?",
+      "Crop": "General",
+      "Score": 999.9350034504007
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998715475895683
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "Score": 0.9998702478512721
+    },
+    {
+      "Question": "क्या धूल की परत प्रकाश संश्लेषण रोकती है?",
+      "Crop": "General",
+      "Score": 0.9998575767009196
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General",
+      "Score": 0.9998507223308859
+    }
+  ]
+}

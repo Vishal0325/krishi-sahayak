@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:07.805925",
+  "query_original": "'मटर का उकठा' रोग?",
+  "query_normalized": "मटर का उकठा रोग",
+  "query_expanded": "फंगस बीमारी fungus मटर का उकठा रोग disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मटर का उकठा' रोग?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "मटर का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'गन्ने का उकठा' (Wilt) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मटर का उकठा' रोग?",
+      "Crop": "Pea",
+      "FinalScore": 9.999003148516174,
+      "CrossScore": 0.9999003148516175
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "FinalScore": 9.998960634595399,
+      "CrossScore": 0.9998960634595399
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 9.998761905519423,
+      "CrossScore": 0.9998761905519423
+    },
+    {
+      "Question": "'गन्ने का उकठा' (Wilt) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99862686480547,
+      "CrossScore": 0.999862686480547
+    },
+    {
+      "Question": "अमरूद के 'उकठा' रोग का प्रसार?",
+      "Crop": "Guava",
+      "FinalScore": 9.998454625442989,
+      "CrossScore": 0.999845462544299
+    },
+    {
+      "Question": "दलहनी फसलों का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 9.998441061125504,
+      "CrossScore": 0.9998441061125504
+    },
+    {
+      "Question": "मटर in 'जड़ सड़न' का समय?",
+      "Crop": "Pea",
+      "FinalScore": 9.998118805265936,
+      "CrossScore": 0.9998118805265936
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.997946726691666,
+      "CrossScore": 0.9997946726691666
+    },
+    {
+      "Question": "सरसों in 'झुलसा' (Blight) का कवक?",
+      "Crop": "Mustard",
+      "FinalScore": 9.997855435371335,
+      "CrossScore": 0.9997855435371334
+    },
+    {
+      "Question": "उकठा (Wilt) रोग का प्रबंधन कैसे करें?",
+      "Crop": "Pulses",
+      "FinalScore": 9.997775622295986,
+      "CrossScore": 0.9997775622295986
+    }
+  ],
+  "latency_ms": 210.5,
+  "final_returned": [
+    {
+      "Question": "'मटर का उकठा' रोग?",
+      "Crop": "Pea",
+      "Score": 9.999003148516174
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "Score": 9.998960634595399
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "Score": 9.998761905519423
+    },
+    {
+      "Question": "'गन्ने का उकठा' (Wilt) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.99862686480547
+    },
+    {
+      "Question": "अमरूद के 'उकठा' रोग का प्रसार?",
+      "Crop": "Guava",
+      "Score": 9.998454625442989
+    }
+  ]
+}

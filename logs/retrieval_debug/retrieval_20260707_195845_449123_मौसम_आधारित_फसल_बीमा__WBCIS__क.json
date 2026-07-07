@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:45.231394",
+  "query_original": "मौसम आधारित फसल बीमा (WBCIS) क्या है?",
+  "query_normalized": "मौसम आधारित फसल बीमा wbcis क्या है",
+  "query_expanded": "मौसम आधारित फसल बीमा wbcis क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम आधारित फसल बीमा (WBCIS) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फसल बीमा के लिए बैंक जाना जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम आधारित फसल बीमा (WBCIS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999291965805681,
+      "CrossScore": 0.9999291965805681
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998511958586648,
+      "CrossScore": 0.9998511958586648
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998386490930294,
+      "CrossScore": 0.9998386490930294
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "FinalScore": 0.9998225864008163,
+      "CrossScore": 0.9998225864008163
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999822470823651,
+      "CrossScore": 0.999822470823651
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999820053864125,
+      "CrossScore": 0.999820053864125
+    },
+    {
+      "Question": "क्या मौसम के कारण फसल की गुणवत्ता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.999809468623315,
+      "CrossScore": 0.999809468623315
+    },
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9998087691840655,
+      "CrossScore": 0.9998087691840655
+    },
+    {
+      "Question": "वर्षा आधारित खेती (Rainfed Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998085770867587,
+      "CrossScore": 0.9998085770867587
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9998056801486405,
+      "CrossScore": 0.9998056801486405
+    }
+  ],
+  "latency_ms": 217.82,
+  "final_returned": [
+    {
+      "Question": "मौसम आधारित फसल बीमा (WBCIS) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999291965805681
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998511958586648
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9998386490930294
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General",
+      "Score": 0.9998225864008163
+    },
+    {
+      "Question": "क्या खेती में 'बीमा' (Insurance) केवल फसल के लिए होता है?",
+      "Crop": "General",
+      "Score": 0.999822470823651
+    }
+  ]
+}

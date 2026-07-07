@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:19.672812",
+  "query_original": "पावर टिलर (Power Tiller) छोटे किसानों के लिए कैसे उपयोगी है?",
+  "query_normalized": "पावर टिलर power tiller छोटे किसानों के लिए कैसे उपयोगी है",
+  "query_expanded": "पावर टिलर power tiller छोटे किसानों के लिए कैसे उपयोगी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पावर टिलर (Power Tiller) छोटे किसानों के लिए कैसे उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM केवल बड़े किसानों के लिए है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ब्रांडिंग' (Branding) का छोटे किसानों के लिए महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या डिजिटल भुगतान (Digital Payment) किसानों के लिए अच्छा है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पावर टिलर (Power Tiller) छोटे किसानों के लिए कैसे उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 999.8790962991457,
+      "CrossScore": 0.9998790962991456
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' में 'पावर टिलर' के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9994454841536184,
+      "CrossScore": 0.9994454841536184
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9994144823779676,
+      "CrossScore": 0.9994144823779676
+    },
+    {
+      "Question": "मिट्टी प्रबंधन में किसानों के लिए अंतिम संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.9994022958797701,
+      "CrossScore": 0.9994022958797701
+    },
+    {
+      "Question": "खरपतवारनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9993704238360771,
+      "CrossScore": 0.9993704238360771
+    },
+    {
+      "Question": "यंत्रीकरण में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9992696334315802,
+      "CrossScore": 0.9992696334315802
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9992603037084722,
+      "CrossScore": 0.9992603037084722
+    },
+    {
+      "Question": "'ब्रांडिंग' (Branding) का छोटे किसानों के लिए महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9992107024497019,
+      "CrossScore": 0.9992107024497019
+    },
+    {
+      "Question": "गन्ने में 'खरपतवार' नियंत्रण के लिए 'पावर वीडर'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9991962201108515,
+      "CrossScore": 0.9991962201108515
+    },
+    {
+      "Question": "किसानों के लिए औषधीय खेती का भविष्य?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9991390768006417,
+      "CrossScore": 0.9991390768006417
+    }
+  ],
+  "latency_ms": 213.05,
+  "final_returned": [
+    {
+      "Question": "पावर टिलर (Power Tiller) छोटे किसानों के लिए कैसे उपयोगी है?",
+      "Crop": "General",
+      "Score": 999.8790962991457
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' में 'पावर टिलर' के लाभ?",
+      "Crop": "General",
+      "Score": 0.9994454841536184
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "Score": 0.9994144823779676
+    },
+    {
+      "Question": "मिट्टी प्रबंधन में किसानों के लिए अंतिम संदेश?",
+      "Crop": "General",
+      "Score": 0.9994022958797701
+    },
+    {
+      "Question": "खरपतवारनाशकों के प्रयोग में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "Score": 0.9993704238360771
+    }
+  ]
+}

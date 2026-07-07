@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:32.699141",
+  "query_original": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है?",
+  "query_normalized": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है",
+  "query_expanded": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या सिंचाई से कीटों को नियंत्रित किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 999.9038482686732,
+      "CrossScore": 0.9999038482686732
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9999166353916582,
+      "CrossScore": 0.9999166353916582
+    },
+    {
+      "Question": "क्या मशरूम को 'कच्चा' खाया जा सकता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999142890909716,
+      "CrossScore": 0.9999142890909716
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999102615511148,
+      "CrossScore": 0.9999102615511148
+    },
+    {
+      "Question": "क्या मशरूम को 'खुले' खेत में उगाया जा सकता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999098180434758,
+      "CrossScore": 0.9999098180434758
+    },
+    {
+      "Question": "क्या बीमार पशु का दूध पिया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999091357596791,
+      "CrossScore": 0.9999091357596791
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से पूरी तरह कीट खत्म हो जाते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999081804284644,
+      "CrossScore": 0.9999081804284644
+    },
+    {
+      "Question": "क्या शहरी कचरे से खाद बनाई जा सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999062684945983,
+      "CrossScore": 0.9999062684945983
+    },
+    {
+      "Question": "मिट्टी की 'बनावट' (Texture) को बदला जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999013674377524,
+      "CrossScore": 0.9999013674377524
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999008007393095,
+      "CrossScore": 0.9999008007393095
+    }
+  ],
+  "latency_ms": 225.33,
+  "final_returned": [
+    {
+      "Question": "क्या ऊसर भूमि को पूरी तरह ठीक किया जा सकता है?",
+      "Crop": "General",
+      "Score": 999.9038482686732
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9999166353916582
+    },
+    {
+      "Question": "क्या मशरूम को 'कच्चा' खाया जा सकता है?",
+      "Crop": "Mushroom",
+      "Score": 0.9999142890909716
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999102615511148
+    },
+    {
+      "Question": "क्या मशरूम को 'खुले' खेत में उगाया जा सकता है?",
+      "Crop": "Mushroom",
+      "Score": 0.9999098180434758
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:52.555075",
+  "query_original": "'दशपर्णी अर्क' से फसल सुरक्षा?",
+  "query_normalized": "दशपर्णी अर्क से फसल सुरक्षा",
+  "query_expanded": "दशपर्णी अर्क से फसल सुरक्षा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'दशपर्णी अर्क' से फसल सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पक्षियों से फसल की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दशपर्णी अर्क (Dashparni Arka) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की शेल्फ लाइफ?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'दशपर्णी अर्क' से फसल सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 999.8975763761018,
+      "CrossScore": 0.9998975763761018
+    },
+    {
+      "Question": "'दशपर्णी अर्क' और 'खर्च'?",
+      "Crop": "General",
+      "FinalScore": 0.9998906758836359,
+      "CrossScore": 0.9998906758836359
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने के लिए कौन सी पत्तियां नहीं लेनी चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998773088058631,
+      "CrossScore": 0.9998773088058631
+    },
+    {
+      "Question": "दशपर्णी अर्क (Dashparni Arka) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998707902395702,
+      "CrossScore": 0.9998707902395702
+    },
+    {
+      "Question": "फसल सुरक्षा में 'हवा की दिशा'?",
+      "Crop": "General",
+      "FinalScore": 0.9998611699348756,
+      "CrossScore": 0.9998611699348756
+    },
+    {
+      "Question": "IPM में 'दशपर्णी अर्क' का प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998437428382412,
+      "CrossScore": 0.9998437428382412
+    },
+    {
+      "Question": "'दशपर्णी अर्क' की शेल्फ लाइफ?",
+      "Crop": "General",
+      "FinalScore": 0.9998412035170189,
+      "CrossScore": 0.9998412035170189
+    },
+    {
+      "Question": "फसल सुरक्षा में 'निराई-गुड़ाई'?",
+      "Crop": "General",
+      "FinalScore": 0.9998359544443821,
+      "CrossScore": 0.9998359544443821
+    },
+    {
+      "Question": "फसल सुरक्षा में 'समग्र प्रबंधन' (IPM)?",
+      "Crop": "General",
+      "FinalScore": 0.9998307095470682,
+      "CrossScore": 0.9998307095470682
+    },
+    {
+      "Question": "फसल सुरक्षा में 'जल प्रबंधन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998026654463986,
+      "CrossScore": 0.9998026654463986
+    }
+  ],
+  "latency_ms": 200.13,
+  "final_returned": [
+    {
+      "Question": "'दशपर्णी अर्क' से फसल सुरक्षा?",
+      "Crop": "General",
+      "Score": 999.8975763761018
+    },
+    {
+      "Question": "'दशपर्णी अर्क' और 'खर्च'?",
+      "Crop": "General",
+      "Score": 0.9998906758836359
+    },
+    {
+      "Question": "'दशपर्णी अर्क' बनाने के लिए कौन सी पत्तियां नहीं लेनी चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998773088058631
+    },
+    {
+      "Question": "दशपर्णी अर्क (Dashparni Arka) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998707902395702
+    },
+    {
+      "Question": "फसल सुरक्षा में 'हवा की दिशा'?",
+      "Crop": "General",
+      "Score": 0.9998611699348756
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:12.075686",
+  "query_original": "पौधों in 'विषाणु' (Virus) रोगों का क्या कोई रासायनिक इलाज है?",
+  "query_normalized": "पौधों in विषाणु virus रोगों का क्या कोई रासायनिक इलाज है",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease पौधों in विषाणु virus रोगों का क्या कोई रासायनिक इलाज है रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों in 'विषाणु' (Virus) रोगों का क्या कोई रासायनिक इलाज है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से रोगों का खतरा क्यों बढ़ता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों in 'विषाणु' (Virus) रोगों का क्या कोई रासायनिक इलाज है?",
+      "Crop": "General",
+      "FinalScore": 9998.346475365115,
+      "CrossScore": 0.9998346475365115
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "FinalScore": 9.99434624629255,
+      "CrossScore": 0.9994346246292549
+    },
+    {
+      "Question": "पौधों in 'धुआं' (Sooty Mold) रोग क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.992584121435641,
+      "CrossScore": 0.999258412143564
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.989574670266874,
+      "CrossScore": 0.9989574670266874
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General",
+      "FinalScore": 9.989337734696868,
+      "CrossScore": 0.9989337734696868
+    },
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 9.989034417797905,
+      "CrossScore": 0.9989034417797905
+    },
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का इलाज?",
+      "Crop": "General",
+      "FinalScore": 9.987040468380021,
+      "CrossScore": 0.9987040468380022
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.986523464713272,
+      "CrossScore": 0.9986523464713272
+    },
+    {
+      "Question": "पौधों in 'वायरस' रोगों का 'प्रसार'?",
+      "Crop": "General",
+      "FinalScore": 9.986298944695367,
+      "CrossScore": 0.9986298944695368
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से रोगों का खतरा क्यों बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 9.984044547135138,
+      "CrossScore": 0.9984044547135138
+    }
+  ],
+  "latency_ms": 223.03,
+  "final_returned": [
+    {
+      "Question": "पौधों in 'विषाणु' (Virus) रोगों का क्या कोई रासायनिक इलाज है?",
+      "Crop": "General",
+      "Score": 9998.346475365115
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "Score": 9.99434624629255
+    },
+    {
+      "Question": "पौधों in 'धुआं' (Sooty Mold) रोग क्या है?",
+      "Crop": "General",
+      "Score": 9.992584121435641
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 9.989574670266874
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General",
+      "Score": 9.989337734696868
+    }
+  ]
+}

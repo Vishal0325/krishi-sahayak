@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:52.571199",
+  "query_original": "'फार्मिंग रोबोट' (Agri Bots)?",
+  "query_normalized": "फार्मिंग रोबोट agri bots",
+  "query_expanded": "फार्मिंग रोबोट agri bots",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फार्मिंग रोबोट' (Agri Bots)?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'प्रिसिजन फार्मिंग' (Precision Farming) स्टार्टअप?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'वर्टिकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'वर्टिकल फार्मिंग' में ऑटोमेशन के लाभ?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'डेटा ड्रिवन फार्मिंग' क्या है?",
+      "Crop": "Agri Tech"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फार्मिंग रोबोट' (Agri Bots)?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998893194001878,
+      "CrossScore": 0.9998893194001878
+    },
+    {
+      "Question": "'एग्रो-वोट्स' (Agro-Bots) का किराया?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9996767567945973,
+      "CrossScore": 0.9996767567945973
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9986928915569065,
+      "CrossScore": 0.9986928915569065
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9954500153856249,
+      "CrossScore": 0.9954500153856249
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9948746324766125,
+      "CrossScore": 0.9948746324766125
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "FinalScore": 0.9915399334870924,
+      "CrossScore": 0.9915399334870924
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' और 'वेयरहाउसिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.960179049994255,
+      "CrossScore": 0.960179049994255
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9457613649376926,
+      "CrossScore": 0.9457613649376926
+    },
+    {
+      "Question": "'वर्टीकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9450418849138488,
+      "CrossScore": 0.9450418849138488
+    },
+    {
+      "Question": "'वर्टिकल फार्मिंग' में ऑटोमेशन के लाभ?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.8988241202308854,
+      "CrossScore": 0.8988241202308854
+    }
+  ],
+  "latency_ms": 191.17,
+  "final_returned": [
+    {
+      "Question": "'फार्मिंग रोबोट' (Agri Bots)?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998893194001878
+    },
+    {
+      "Question": "'एग्रो-वोट्स' (Agro-Bots) का किराया?",
+      "Crop": "Agri Tech",
+      "Score": 0.9996767567945973
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "Score": 0.9986928915569065
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9954500153856249
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "Score": 0.9948746324766125
+    }
+  ]
+}

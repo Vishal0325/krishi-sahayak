@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:39.519528",
+  "query_original": "'कृषि स्टार्टअप' और समस्या समाधान?",
+  "query_normalized": "कृषि स्टार्टअप और समस्या समाधान",
+  "query_expanded": "कृषि स्टार्टअप और समस्या समाधान",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General",
+      "FinalScore": 999.8732819369824,
+      "CrossScore": 0.9998732819369823
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.9998935604770385,
+      "CrossScore": 0.9998935604770385
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998891992287058,
+      "CrossScore": 0.9998891992287058
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "FinalScore": 0.9998802474770047,
+      "CrossScore": 0.9998802474770047
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998678633030539,
+      "CrossScore": 0.9998678633030539
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998414465051733,
+      "CrossScore": 0.9998414465051733
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998350693856493,
+      "CrossScore": 0.9998350693856493
+    },
+    {
+      "Question": "कृषि को एक व्यवसाय (Business) के रूप में कैसे देखें?",
+      "Crop": "General",
+      "FinalScore": 0.9998146212473182,
+      "CrossScore": 0.9998146212473182
+    },
+    {
+      "Question": "किसानों के लिए कृषि विज्ञान का संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.9997724777150916,
+      "CrossScore": 0.9997724777150916
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' में 'पावर टिलर' के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9997639375713038,
+      "CrossScore": 0.9997639375713038
+    }
+  ],
+  "latency_ms": 344.7,
+  "final_returned": [
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General",
+      "Score": 999.8732819369824
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.9998935604770385
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "Score": 0.9998891992287058
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "Score": 0.9998802474770047
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "Score": 0.9998678633030539
+    }
+  ]
+}

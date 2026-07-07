@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:33.095142",
+  "query_original": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+  "query_normalized": "मक्का in तना सड़न stalk rot की पहचान",
+  "query_expanded": "मक्का in तना सड़न stalk rot की पहचान",
+  "detected_crops": [
+    "Maize"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का में 'तना सड़न' (Stalk Rot) रोकने के लिए क्या करें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' रोकने के लिए 'पोटाश'?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' का 'कवक'?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.99481985136981,
+      "CrossScore": 0.9998963970273962
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 49.9933321093138,
+      "CrossScore": 0.999866642186276
+    },
+    {
+      "Question": "मक्का में 'तना सड़न' (Stalk Rot) रोकने के लिए क्या करें?",
+      "Crop": "Maize",
+      "FinalScore": 49.9921544138262,
+      "CrossScore": 0.999843088276524
+    },
+    {
+      "Question": "मक्का की फसल में 'स्टॉक रोट' (Stalk Rot) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.99176727337342,
+      "CrossScore": 0.9998353454674684
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' रोकने के लिए 'पोटाश'?",
+      "Crop": "Maize",
+      "FinalScore": 49.953511776589984,
+      "CrossScore": 0.9990702355317996
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'खाद' का संतुलन?",
+      "Crop": "Maize",
+      "FinalScore": 49.94521036069505,
+      "CrossScore": 0.9989042072139009
+    },
+    {
+      "Question": "मक्का की 'पछेती' बुआई in 'कीट' प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.94399228582612,
+      "CrossScore": 0.9988798457165224
+    },
+    {
+      "Question": "मक्का in 'यूरिया' की टॉप ड्रेसिंग के बाद 'मिट्टी चढ़ाना'?",
+      "Crop": "Maize",
+      "FinalScore": 49.941854862813024,
+      "CrossScore": 0.9988370972562605
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.93823163740513,
+      "CrossScore": 0.9987646327481026
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' का 'कवक'?",
+      "Crop": "Maize",
+      "FinalScore": 49.93666188518145,
+      "CrossScore": 0.998733237703629
+    }
+  ],
+  "latency_ms": 184.53,
+  "final_returned": [
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "Score": 49.99481985136981
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize",
+      "Score": 49.9933321093138
+    },
+    {
+      "Question": "मक्का में 'तना सड़न' (Stalk Rot) रोकने के लिए क्या करें?",
+      "Crop": "Maize",
+      "Score": 49.9921544138262
+    },
+    {
+      "Question": "मक्का की फसल में 'स्टॉक रोट' (Stalk Rot) क्या है?",
+      "Crop": "Maize",
+      "Score": 49.99176727337342
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' रोकने के लिए 'पोटाश'?",
+      "Crop": "Maize",
+      "Score": 49.953511776589984
+    }
+  ]
+}

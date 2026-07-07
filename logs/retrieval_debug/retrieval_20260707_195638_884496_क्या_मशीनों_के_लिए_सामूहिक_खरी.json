@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:38.657172",
+  "query_original": "क्या मशीनों के लिए सामूहिक खरीद (Group Purchase) सही है?",
+  "query_normalized": "क्या मशीनों के लिए सामूहिक खरीद group purchase सही है",
+  "query_expanded": "क्या मशीनों के लिए सामूहिक खरीद group purchase सही है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या मशीनों के लिए सामूहिक खरीद (Group Purchase) सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई के लिए भी मशीनों की जरूरत है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ई-केवाईसी जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या मशीनों के लिए सामूहिक खरीद (Group Purchase) सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9998977147768424,
+      "CrossScore": 0.9998977147768424
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9989279046501358,
+      "CrossScore": 0.9989279046501358
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9986677667483874,
+      "CrossScore": 0.9986677667483874
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9985826655979497,
+      "CrossScore": 0.9985826655979497
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9985009947081023,
+      "CrossScore": 0.9985009947081023
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9984495612355043,
+      "CrossScore": 0.9984495612355043
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984293476727208,
+      "CrossScore": 0.9984293476727208
+    },
+    {
+      "Question": "क्या मशीनों के लिए सोलर चार्जिंग स्टेशन हो सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984162003499162,
+      "CrossScore": 0.9984162003499162
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9983570348976523,
+      "CrossScore": 0.9983570348976523
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'मृदा स्वास्थ्य कार्ड' जरूरी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9983463956222056,
+      "CrossScore": 0.9983463956222056
+    }
+  ],
+  "latency_ms": 227.46,
+  "final_returned": [
+    {
+      "Question": "क्या मशीनों के लिए सामूहिक खरीद (Group Purchase) सही है?",
+      "Crop": "General",
+      "Score": 0.9998977147768424
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "Score": 0.9989279046501358
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "Score": 0.9986677667483874
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat",
+      "Score": 0.9985826655979497
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "Score": 0.9985009947081023
+    }
+  ]
+}

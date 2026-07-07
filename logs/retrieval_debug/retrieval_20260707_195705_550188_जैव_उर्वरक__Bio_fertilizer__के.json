@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:05.314887",
+  "query_original": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+  "query_normalized": "जैव उर्वरक bio fertilizer के प्रयोग का सही समय",
+  "query_expanded": "खाद poshak fertilizer जैव उर्वरक bio fertilizer के प्रयोग का सही समय पोषण उर्वरक",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998962449719023,
+      "CrossScore": 0.9998962449719023
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999869786031228,
+      "CrossScore": 0.999869786031228
+    },
+    {
+      "Question": "जैविक खेती में 'जैव-उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998485022629074,
+      "CrossScore": 0.9998485022629074
+    },
+    {
+      "Question": "सब्जियों की खेती में 'जैव उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998471088125439,
+      "CrossScore": 0.9998471088125439
+    },
+    {
+      "Question": "सब्जियों के लिए 'तरल जैविक खाद' (Liquid Organic Fertilizer)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997547151929937,
+      "CrossScore": 0.9997547151929937
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9995397778978948,
+      "CrossScore": 0.9995397778978948
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9992649971957922,
+      "CrossScore": 0.9992649971957922
+    },
+    {
+      "Question": "'फर्टिगेशन' (Fertigation) के लिए कौन से उर्वरक चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9985110924220092,
+      "CrossScore": 0.9985110924220092
+    },
+    {
+      "Question": "जिंक का प्रयोग यूरिया के साथ करना चाहिए या डीएपी के साथ?",
+      "Crop": "General",
+      "FinalScore": 0.9952189206793238,
+      "CrossScore": 0.9952189206793238
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9949030188457808,
+      "CrossScore": 0.9949030188457808
+    }
+  ],
+  "latency_ms": 235.48,
+  "final_returned": [
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "Score": 0.9998962449719023
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi",
+      "Score": 0.999869786031228
+    },
+    {
+      "Question": "जैविक खेती में 'जैव-उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998485022629074
+    },
+    {
+      "Question": "सब्जियों की खेती में 'जैव उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Vegetables",
+      "Score": 0.9998471088125439
+    },
+    {
+      "Question": "सब्जियों के लिए 'तरल जैविक खाद' (Liquid Organic Fertilizer)?",
+      "Crop": "Vegetables",
+      "Score": 0.9997547151929937
+    }
+  ]
+}

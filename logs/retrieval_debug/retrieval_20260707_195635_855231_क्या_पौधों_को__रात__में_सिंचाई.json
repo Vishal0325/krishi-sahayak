@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:35.636642",
+  "query_original": "क्या पौधों को 'रात' में सिंचाई करनी चाहिए?",
+  "query_normalized": "क्या पौधों को रात में सिंचाई करनी चाहिए",
+  "query_expanded": "क्या पौधों को रात में सिंचाई करनी चाहिए",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या पौधों को 'रात' में सिंचाई करनी चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999294031557087,
+      "CrossScore": 0.9999294031557087
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999180741131717,
+      "CrossScore": 0.9999180741131717
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999128919575715,
+      "CrossScore": 0.9999128919575715
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999116867231747,
+      "CrossScore": 0.9999116867231747
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999083958306065,
+      "CrossScore": 0.9999083958306065
+    },
+    {
+      "Question": "क्या बदलती जलवायु के कारण बुआई समय से पहले करनी चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999076019575347,
+      "CrossScore": 0.9999076019575347
+    },
+    {
+      "Question": "क्या पशुओं को 'खुली जगह' चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.999906801738365,
+      "CrossScore": 0.999906801738365
+    },
+    {
+      "Question": "गेहूं में 'यूरिया' को शाम के समय ही क्यों डालना चाहिए?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999904968091957,
+      "CrossScore": 0.999904968091957
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999037699347032,
+      "CrossScore": 0.9999037699347032
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999010935489999,
+      "CrossScore": 0.9999010935489999
+    }
+  ],
+  "latency_ms": 218.71,
+  "final_returned": [
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999294031557087
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9999180741131717
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999128919575715
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits",
+      "Score": 0.9999116867231747
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9999083958306065
+    }
+  ]
+}

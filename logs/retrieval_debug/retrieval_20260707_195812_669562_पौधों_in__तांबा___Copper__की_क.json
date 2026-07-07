@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:12.495233",
+  "query_original": "पौधों in 'तांबा' (Copper) की कमी?",
+  "query_normalized": "पौधों in तांबा copper की कमी",
+  "query_expanded": "पौधों in तांबा copper की कमी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों in 'तांबा' (Copper) की कमी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी की जांच?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'जिप्सम'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी को दूर करने का समय?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों in 'तांबा' (Copper) की कमी?",
+      "Crop": "General",
+      "FinalScore": 0.9998848705005492,
+      "CrossScore": 0.9998848705005492
+    },
+    {
+      "Question": "दलहनी फसलों में 'तांबा' (Copper) की कमी?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998309147496578,
+      "CrossScore": 0.9998309147496578
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9996997431140582,
+      "CrossScore": 0.9996997431140582
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General",
+      "FinalScore": 0.9996919774834607,
+      "CrossScore": 0.9996919774834607
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "FinalScore": 0.9996650400054241,
+      "CrossScore": 0.9996650400054241
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "FinalScore": 0.999644603233467,
+      "CrossScore": 0.999644603233467
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी दूर करने के लिए 'बोरेक्स'?",
+      "Crop": "General",
+      "FinalScore": 0.9996023384864728,
+      "CrossScore": 0.9996023384864728
+    },
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9995797416065424,
+      "CrossScore": 0.9995797416065424
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'एसएसपी'?",
+      "Crop": "General",
+      "FinalScore": 0.9995610525928571,
+      "CrossScore": 0.9995610525928571
+    },
+    {
+      "Question": "पौधों in 'जिंक' की कमी दूर करने के लिए 'मिट्टी परीक्षण'?",
+      "Crop": "General",
+      "FinalScore": 0.9995328207219889,
+      "CrossScore": 0.9995328207219889
+    }
+  ],
+  "latency_ms": 174.52,
+  "final_returned": [
+    {
+      "Question": "पौधों in 'तांबा' (Copper) की कमी?",
+      "Crop": "General",
+      "Score": 0.9998848705005492
+    },
+    {
+      "Question": "दलहनी फसलों में 'तांबा' (Copper) की कमी?",
+      "Crop": "Pulses",
+      "Score": 0.9998309147496578
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "Score": 0.9996997431140582
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General",
+      "Score": 0.9996919774834607
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "Score": 0.9996650400054241
+    }
+  ]
+}

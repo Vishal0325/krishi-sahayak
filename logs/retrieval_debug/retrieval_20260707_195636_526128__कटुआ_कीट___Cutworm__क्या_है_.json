@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:36.320645",
+  "query_original": "'कटुआ कीट' (Cutworm) क्या है?",
+  "query_normalized": "कटुआ कीट cutworm क्या है",
+  "query_expanded": "बग pest कीड़ा कीट कटुआ कीट cutworm क्या है insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "बरौटी (Encarsia formosa) मित्र कीट क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रेशम कीट पालन' (Sericulture) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.999236523435739,
+      "CrossScore": 0.9999236523435738
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "FinalScore": 9.999047755089807,
+      "CrossScore": 0.9999047755089807
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "FinalScore": 9.999036889654215,
+      "CrossScore": 0.9999036889654215
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.995676536175434,
+      "CrossScore": 0.9995676536175435
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99547162341289,
+      "CrossScore": 0.9995471623412889
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.99420607280465,
+      "CrossScore": 0.9994206072804649
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.994081303225945,
+      "CrossScore": 0.9994081303225946
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.993322993776076,
+      "CrossScore": 0.9993322993776075
+    },
+    {
+      "Question": "'लीफ फोल्डर' (Leaf Folder) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.989447808685343,
+      "CrossScore": 0.9989447808685343
+    },
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 9.987330512782146,
+      "CrossScore": 0.9987330512782145
+    }
+  ],
+  "latency_ms": 205.58,
+  "final_returned": [
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "Score": 9.999236523435739
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "Score": 9.999047755089807
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "Score": 9.999036889654215
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "Score": 9.995676536175434
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General",
+      "Score": 9.99547162341289
+    }
+  ]
+}

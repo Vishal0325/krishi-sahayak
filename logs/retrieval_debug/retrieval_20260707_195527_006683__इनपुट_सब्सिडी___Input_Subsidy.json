@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:26.792488",
+  "query_original": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+  "query_normalized": "इनपुट सब्सिडी input subsidy क्या है",
+  "query_expanded": "इनपुट सब्सिडी input subsidy क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "मशीनों पर सब्सिडी (Subsidy) लेने की प्रक्रिया क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या मशरूम की खेती के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या शहद उत्पादन पर भी सब्सिडी है?",
+      "Crop": "General",
+      "FinalScore": 9.94117269634039,
+      "CrossScore": 0.994117269634039
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.939684933548817,
+      "CrossScore": 0.9939684933548817
+    },
+    {
+      "Question": "क्या बिजली के कनेक्शन पर किसानों को सब्सिडी मिलती है?",
+      "Crop": "General",
+      "FinalScore": 9.921274507701941,
+      "CrossScore": 0.992127450770194
+    },
+    {
+      "Question": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999183787766243,
+      "CrossScore": 0.9999183787766243
+    },
+    {
+      "Question": "मशीनों पर सब्सिडी (Subsidy) लेने की प्रक्रिया क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997409432868175,
+      "CrossScore": 0.9997409432868175
+    },
+    {
+      "Question": "क्या औषधीय पौधों के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9967141604614785,
+      "CrossScore": 0.9967141604614785
+    },
+    {
+      "Question": "खेती की 'निश्चित लागत' (Fixed Cost) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9964784879851574,
+      "CrossScore": 0.9964784879851574
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "FinalScore": 0.996056251242484,
+      "CrossScore": 0.996056251242484
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9954115734225945,
+      "CrossScore": 0.9954115734225945
+    },
+    {
+      "Question": "क्या फूलों की खेती के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9953400621397556,
+      "CrossScore": 0.9953400621397556
+    }
+  ],
+  "latency_ms": 214.29,
+  "final_returned": [
+    {
+      "Question": "क्या शहद उत्पादन पर भी सब्सिडी है?",
+      "Crop": "General",
+      "Score": 9.94117269634039
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General",
+      "Score": 9.939684933548817
+    },
+    {
+      "Question": "क्या बिजली के कनेक्शन पर किसानों को सब्सिडी मिलती है?",
+      "Crop": "General",
+      "Score": 9.921274507701941
+    },
+    {
+      "Question": "'इनपुट सब्सिडी' (Input Subsidy) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9999183787766243
+    },
+    {
+      "Question": "मशीनों पर सब्सिडी (Subsidy) लेने की प्रक्रिया क्या है?",
+      "Crop": "General",
+      "Score": 0.9997409432868175
+    }
+  ]
+}

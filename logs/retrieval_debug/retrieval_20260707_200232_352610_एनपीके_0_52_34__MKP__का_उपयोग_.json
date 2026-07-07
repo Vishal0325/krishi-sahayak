@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:32.166133",
+  "query_original": "एनपीके 0:52:34 (MKP) का उपयोग?",
+  "query_normalized": "एनपीके 0 52 34 mkp का उपयोग",
+  "query_expanded": "एनपीके 0 52 34 mkp का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एनपीके 0:52:34 (MKP) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'एनपीके 0:52:34' का उपयोग?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का में 'एनपीके 0:52:34' का छिड़काव?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "सरसों में 'एनपीके 0:52:34' का छिड़काव?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "गेहूं में 'एनपीके 13:0:45' का उपयोग?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एनपीके 0:52:34 (MKP) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.9178835813932,
+      "CrossScore": 0.9999178835813932
+    },
+    {
+      "Question": "गेहूं में 'एनपीके 0:52:34' का उपयोग?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998091639005892,
+      "CrossScore": 0.9998091639005892
+    },
+    {
+      "Question": "मक्का में 'एनपीके 0:52:34' का छिड़काव?",
+      "Crop": "Maize",
+      "FinalScore": 0.999771826855494,
+      "CrossScore": 0.999771826855494
+    },
+    {
+      "Question": "सरसों में 'एनपीके 0:52:34' का छिड़काव?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9997506562409774,
+      "CrossScore": 0.9997506562409774
+    },
+    {
+      "Question": "एनपीके 13:0:45 का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.99807626882057,
+      "CrossScore": 0.99807626882057
+    },
+    {
+      "Question": "गेहूं में 'एनपीके 13:0:45' का उपयोग?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9980515773153026,
+      "CrossScore": 0.9980515773153026
+    },
+    {
+      "Question": "मक्का में 'एनपीके 12:32:16' का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9980128197622287,
+      "CrossScore": 0.9980128197622287
+    },
+    {
+      "Question": "सरसों में 'एनपीके 13:0:45' का उपयोग?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9978060073267387,
+      "CrossScore": 0.9978060073267387
+    },
+    {
+      "Question": "सरसों में 'एनपीके 19:19:19' का उपयोग?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9958361547913979,
+      "CrossScore": 0.9958361547913979
+    },
+    {
+      "Question": "गन्ने में 'एनपीके 19:19:19' का उपयोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9919998784290125,
+      "CrossScore": 0.9919998784290125
+    }
+  ],
+  "latency_ms": 186.51,
+  "final_returned": [
+    {
+      "Question": "एनपीके 0:52:34 (MKP) का उपयोग?",
+      "Crop": "General",
+      "Score": 999.9178835813932
+    },
+    {
+      "Question": "गेहूं में 'एनपीके 0:52:34' का उपयोग?",
+      "Crop": "Wheat",
+      "Score": 0.9998091639005892
+    },
+    {
+      "Question": "मक्का में 'एनपीके 0:52:34' का छिड़काव?",
+      "Crop": "Maize",
+      "Score": 0.999771826855494
+    },
+    {
+      "Question": "सरसों में 'एनपीके 0:52:34' का छिड़काव?",
+      "Crop": "Mustard",
+      "Score": 0.9997506562409774
+    },
+    {
+      "Question": "एनपीके 13:0:45 का उपयोग?",
+      "Crop": "General",
+      "Score": 0.99807626882057
+    }
+  ]
+}

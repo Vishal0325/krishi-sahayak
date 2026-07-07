@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:53.294446",
+  "query_original": "मालाबार नीम (Melia dubia) के फायदे?",
+  "query_normalized": "मालाबार नीम melia dubia के फायदे",
+  "query_expanded": "मालाबार नीम melia dubia के फायदे",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मालाबार नीम (Melia dubia) के फायदे?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पोर्टेबल पावर स्प्रेयर के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मालाबार नीम (Melia dubia) के फायदे?",
+      "Crop": "General",
+      "FinalScore": 0.9999349839852921,
+      "CrossScore": 0.9999349839852921
+    },
+    {
+      "Question": "'नीम के फल' (Nimboli) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9994737183467506,
+      "CrossScore": 0.9994737183467506
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9994571050216088,
+      "CrossScore": 0.9994571050216088
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.99944445626053,
+      "CrossScore": 0.99944445626053
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम की खली'?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9994031659934671,
+      "CrossScore": 0.9994031659934671
+    },
+    {
+      "Question": "गन्ने की 'भंडारण' सुरक्षा के लिए 'नीम तेल'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9993987932742825,
+      "CrossScore": 0.9993987932742825
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'नीम तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.9993633259647977,
+      "CrossScore": 0.9993633259647977
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9993087955092393,
+      "CrossScore": 0.9993087955092393
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9993012490891497,
+      "CrossScore": 0.9993012490891497
+    },
+    {
+      "Question": "धनिया में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9992741577890583,
+      "CrossScore": 0.9992741577890583
+    }
+  ],
+  "latency_ms": 192.74,
+  "final_returned": [
+    {
+      "Question": "मालाबार नीम (Melia dubia) के फायदे?",
+      "Crop": "General",
+      "Score": 0.9999349839852921
+    },
+    {
+      "Question": "'नीम के फल' (Nimboli) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9994737183467506
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9994571050216088
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "Score": 0.99944445626053
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम की खली'?",
+      "Crop": "Pulses",
+      "Score": 0.9994031659934671
+    }
+  ]
+}

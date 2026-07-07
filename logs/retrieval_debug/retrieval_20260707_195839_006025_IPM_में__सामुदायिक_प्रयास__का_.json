@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:38.816480",
+  "query_original": "IPM में 'सामुदायिक प्रयास' का महत्व?",
+  "query_normalized": "ipm में सामुदायिक प्रयास का महत्व",
+  "query_expanded": "ipm में सामुदायिक प्रयास का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "IPM में 'सामुदायिक प्रयास' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'प्रतिरोधी किस्मों' (Resistant Varieties) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'नीम की खली' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "भिंडी में 'फास्फोरस' का महत्व?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "IPM में 'सामुदायिक प्रयास' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999009115420275,
+      "CrossScore": 0.9999009115420275
+    },
+    {
+      "Question": "IPM में 'नीम की खली' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998820200653004,
+      "CrossScore": 0.9998820200653004
+    },
+    {
+      "Question": "IPM में 'प्रतिरोधी किस्मों' (Resistant Varieties) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998608730861662,
+      "CrossScore": 0.9998608730861662
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997415829455646,
+      "CrossScore": 0.9997415829455646
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997197436032292,
+      "CrossScore": 0.9997197436032292
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.999704513160729,
+      "CrossScore": 0.999704513160729
+    },
+    {
+      "Question": "खेती में 'दालों' की आत्मनिर्भरता का महत्व?",
+      "Crop": "Pulses",
+      "FinalScore": 0.99967503294031,
+      "CrossScore": 0.99967503294031
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9996478564413687,
+      "CrossScore": 0.9996478564413687
+    },
+    {
+      "Question": "धनिया में पोटाश का क्या महत्व है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9996371882931907,
+      "CrossScore": 0.9996371882931907
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996363121643823,
+      "CrossScore": 0.9996363121643823
+    }
+  ],
+  "latency_ms": 189.64,
+  "final_returned": [
+    {
+      "Question": "IPM में 'सामुदायिक प्रयास' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9999009115420275
+    },
+    {
+      "Question": "IPM में 'नीम की खली' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998820200653004
+    },
+    {
+      "Question": "IPM में 'प्रतिरोधी किस्मों' (Resistant Varieties) का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998608730861662
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "Score": 0.9997415829455646
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9997197436032292
+    }
+  ]
+}

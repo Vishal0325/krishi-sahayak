@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:31.637023",
+  "query_original": "बिहार में 'कृषि समन्वयक' का क्या कार्य है?",
+  "query_normalized": "बिहार में कृषि समन्वयक का क्या कार्य है",
+  "query_expanded": "बिहार में कृषि समन्वयक का क्या कार्य है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बिहार में 'कृषि समन्वयक' का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'सल्फर' (गंधक) का क्या कार्य है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "आलू में 'सल्फर' का क्या कार्य है?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बिहार में 'कृषि समन्वयक' का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 999.8937360248835,
+      "CrossScore": 0.9998937360248835
+    },
+    {
+      "Question": "बिहार में 'हथिया' नक्षत्र की वर्षा का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9999167549474215,
+      "CrossScore": 0.9999167549474215
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9999065209234388,
+      "CrossScore": 0.9999065209234388
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998988048508981,
+      "CrossScore": 0.9998988048508981
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998986651227216,
+      "CrossScore": 0.9998986651227216
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.999898364446057,
+      "CrossScore": 0.999898364446057
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998884804533166,
+      "CrossScore": 0.9998884804533166
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998818374472477,
+      "CrossScore": 0.9998818374472477
+    },
+    {
+      "Question": "बिहार में फलों के प्रसंस्करण (Processing) की क्या स्थिति है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998802688288609,
+      "CrossScore": 0.9998802688288609
+    },
+    {
+      "Question": "क्या बिहार में धनिया की खेती सफल है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998789943408729,
+      "CrossScore": 0.9998789943408729
+    }
+  ],
+  "latency_ms": 220.33,
+  "final_returned": [
+    {
+      "Question": "बिहार में 'कृषि समन्वयक' का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 999.8937360248835
+    },
+    {
+      "Question": "बिहार में 'हथिया' नक्षत्र की वर्षा का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9999167549474215
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9999065209234388
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9998988048508981
+    },
+    {
+      "Question": "बिहार में कृषि इनपुट अनुदान क्या है?",
+      "Crop": "General",
+      "Score": 0.9998986651227216
+    }
+  ]
+}

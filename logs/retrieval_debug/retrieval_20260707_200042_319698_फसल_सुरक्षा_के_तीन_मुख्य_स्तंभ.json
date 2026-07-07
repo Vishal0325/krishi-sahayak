@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:42.082997",
+  "query_original": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+  "query_normalized": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं",
+  "query_expanded": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसानों के लिए फसल सुरक्षा का मुख्य संदेश?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8741803888973,
+      "CrossScore": 0.9998741803888973
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999188690517373,
+      "CrossScore": 0.9999188690517373
+    },
+    {
+      "Question": "मक्का में इंटर-क्रॉपिंग (Inter-cropping) के लिए कौन सी फसलें अच्छी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999124840679184,
+      "CrossScore": 0.9999124840679184
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999909606588675,
+      "CrossScore": 0.999909606588675
+    },
+    {
+      "Question": "मक्का की सिंचाई के लिए महत्वपूर्ण अवस्थाएं कौन सी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999063909558212,
+      "CrossScore": 0.9999063909558212
+    },
+    {
+      "Question": "सूखा (Drought) प्रबंधन के लिए कौन सी तकनीकें श्रेष्ठ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999016081101826,
+      "CrossScore": 0.9999016081101826
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998986967160275,
+      "CrossScore": 0.9998986967160275
+    },
+    {
+      "Question": "किसानों के लिए फसल सुरक्षा का मुख्य संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.9998984557012279,
+      "CrossScore": 0.9998984557012279
+    },
+    {
+      "Question": "भविष्य के 'एग्री-प्रेन्योर' (Agripreneur) कौन हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998954482462417,
+      "CrossScore": 0.9998954482462417
+    },
+    {
+      "Question": "क्या अधिक उर्वरक फसल सुरक्षा को बिगाड़ सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998908812679479,
+      "CrossScore": 0.9998908812679479
+    }
+  ],
+  "latency_ms": 236.73,
+  "final_returned": [
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General",
+      "Score": 999.8741803888973
+    },
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "Score": 0.9999188690517373
+    },
+    {
+      "Question": "मक्का में इंटर-क्रॉपिंग (Inter-cropping) के लिए कौन सी फसलें अच्छी हैं?",
+      "Crop": "Maize",
+      "Score": 0.9999124840679184
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.999909606588675
+    },
+    {
+      "Question": "मक्का की सिंचाई के लिए महत्वपूर्ण अवस्थाएं कौन सी हैं?",
+      "Crop": "Maize",
+      "Score": 0.9999063909558212
+    }
+  ]
+}

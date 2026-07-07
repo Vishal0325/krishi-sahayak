@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:27.275502",
+  "query_original": "चक्रवात (Cyclone) के समय फसलों की सुरक्षा?",
+  "query_normalized": "चक्रवात cyclone के समय फसलों की सुरक्षा",
+  "query_expanded": "चक्रवात cyclone के समय फसलों की सुरक्षा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "चक्रवात (Cyclone) के समय फसलों की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के समय सुरक्षा?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के समय सुरक्षा के लिए ग्लव्स?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के समय सुरक्षा के लिए चश्मा?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों में 'यूरिया' की टॉप ड्रेसिंग के समय सुरक्षा?",
+      "Crop": "Mustard"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "चक्रवात (Cyclone) के समय फसलों की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 999.8732622397627,
+      "CrossScore": 0.9998732622397627
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.9992301544390108,
+      "CrossScore": 0.9992301544390108
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के समय सुरक्षा के लिए चश्मा?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9991997940109717,
+      "CrossScore": 0.9991997940109717
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय सुरक्षा के उपाय?",
+      "Crop": "General",
+      "FinalScore": 0.9991659384040591,
+      "CrossScore": 0.9991659384040591
+    },
+    {
+      "Question": "छिड़काव के समय हवा की गति?",
+      "Crop": "General",
+      "FinalScore": 0.999132399386477,
+      "CrossScore": 0.999132399386477
+    },
+    {
+      "Question": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9990726265135432,
+      "CrossScore": 0.9990726265135432
+    },
+    {
+      "Question": "गेहूं की 'भंडारण' सुरक्षा के लिए 'पारे' (Mercury) की गोलियां?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9990715249046273,
+      "CrossScore": 0.9990715249046273
+    },
+    {
+      "Question": "मक्का की 'मड़ाई' के समय सुरक्षा के लिए ग्लव्स?",
+      "Crop": "Maize",
+      "FinalScore": 0.9990321531531817,
+      "CrossScore": 0.9990321531531817
+    },
+    {
+      "Question": "'छिड़काव' के समय सुरक्षा गियर?",
+      "Crop": "General",
+      "FinalScore": 0.9990087552890924,
+      "CrossScore": 0.9990087552890924
+    },
+    {
+      "Question": "मक्का की 'भंडारण' सुरक्षा के लिए 'नेप्थलीन' की गोलियां?",
+      "Crop": "Maize",
+      "FinalScore": 0.9989231192784702,
+      "CrossScore": 0.9989231192784702
+    }
+  ],
+  "latency_ms": 204.73,
+  "final_returned": [
+    {
+      "Question": "चक्रवात (Cyclone) के समय फसलों की सुरक्षा?",
+      "Crop": "General",
+      "Score": 999.8732622397627
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "Score": 0.9992301544390108
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के समय सुरक्षा के लिए चश्मा?",
+      "Crop": "Mustard",
+      "Score": 0.9991997940109717
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय सुरक्षा के उपाय?",
+      "Crop": "General",
+      "Score": 0.9991659384040591
+    },
+    {
+      "Question": "छिड़काव के समय हवा की गति?",
+      "Crop": "General",
+      "Score": 0.999132399386477
+    }
+  ]
+}

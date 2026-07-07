@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:26.604669",
+  "query_original": "पशुओं में 'बांझपन' का मुख्य कारण?",
+  "query_normalized": "पशुओं में बांझपन का मुख्य कारण",
+  "query_expanded": "पशुओं में बांझपन का मुख्य कारण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'बांझपन' का मुख्य कारण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) में दाने कम होने का मुख्य कारण?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी का मुख्य कारण?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999039156361997,
+      "CrossScore": 0.9999039156361997
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998993969573385,
+      "CrossScore": 0.9998993969573385
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998982533180519,
+      "CrossScore": 0.9998982533180519
+    },
+    {
+      "Question": "पशुओं में 'निमोनिया' का कारण?",
+      "Crop": "General",
+      "FinalScore": 0.9998980655018262,
+      "CrossScore": 0.9998980655018262
+    },
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General",
+      "FinalScore": 0.999896992416639,
+      "CrossScore": 0.999896992416639
+    },
+    {
+      "Question": "पशुओं में 'लंगड़ापन' का कारण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998921655653461,
+      "CrossScore": 0.9998921655653461
+    },
+    {
+      "Question": "पशुओं में 'बांझपन' का मुख्य कारण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998899336302476,
+      "CrossScore": 0.9998899336302476
+    },
+    {
+      "Question": "मिर्च में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998806279275853,
+      "CrossScore": 0.9998806279275853
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998786317173287,
+      "CrossScore": 0.9998786317173287
+    },
+    {
+      "Question": "अमरूद में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998777212138503,
+      "CrossScore": 0.9998777212138503
+    }
+  ],
+  "latency_ms": 176.19,
+  "final_returned": [
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "Score": 0.9999039156361997
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits",
+      "Score": 0.9998993969573385
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "Score": 0.9998982533180519
+    },
+    {
+      "Question": "पशुओं में 'निमोनिया' का कारण?",
+      "Crop": "General",
+      "Score": 0.9998980655018262
+    },
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General",
+      "Score": 0.999896992416639
+    }
+  ]
+}

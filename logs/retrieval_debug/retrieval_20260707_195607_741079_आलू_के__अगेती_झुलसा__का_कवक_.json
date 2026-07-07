@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:56:07.577402",
+  "query_original": "आलू के 'अगेती झुलसा' का कवक?",
+  "query_normalized": "आलू के अगेती झुलसा का कवक",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा रोग आलू के अगेती झुलसा का कवक",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आलू' के अगेती झुलसा का कवक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आलू के 'अगेती झुलसा' का कवक?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू' के अगेती झुलसा के लिए 'दवा का समय'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का आर्थिक असर?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "FinalScore": 499.95166395410934,
+      "CrossScore": 0.9999033279082187
+    },
+    {
+      "Question": "'आलू' के पिछेती झुलसा का 'आर्थिक नुकसान'?",
+      "Crop": "Potato",
+      "FinalScore": 499.94911647055693,
+      "CrossScore": 0.9998982329411139
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' (Late Blight) और 'बादल'?",
+      "Crop": "Potato",
+      "FinalScore": 499.9476784415378,
+      "CrossScore": 0.9998953568830756
+    },
+    {
+      "Question": "'आलू' के पिछेती झुलसा का 'सुरक्षात्मक' स्प्रे?",
+      "Crop": "Potato",
+      "FinalScore": 499.9459678530838,
+      "CrossScore": 0.9998919357061676
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का आर्थिक असर?",
+      "Crop": "Potato",
+      "FinalScore": 499.94465146723974,
+      "CrossScore": 0.9998893029344794
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "FinalScore": 499.94390440342625,
+      "CrossScore": 0.9998878088068525
+    },
+    {
+      "Question": "आलू के 'अगेती झुलसा' का कवक?",
+      "Crop": "Potato",
+      "FinalScore": 499.9424516056785,
+      "CrossScore": 0.999884903211357
+    },
+    {
+      "Question": "आलू के 'कंदों का सड़न' खेत in?",
+      "Crop": "Potato",
+      "FinalScore": 499.9392475384973,
+      "CrossScore": 0.9998784950769946
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' और 'कोहरा'?",
+      "Crop": "Potato",
+      "FinalScore": 499.93817497366933,
+      "CrossScore": 0.9998763499473386
+    },
+    {
+      "Question": "'आलू' के अगेती झुलसा के लिए 'दवा का समय'?",
+      "Crop": "Potato",
+      "FinalScore": 499.9360168360541,
+      "CrossScore": 0.9998720336721082
+    }
+  ],
+  "latency_ms": 163.79,
+  "final_returned": [
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "Score": 499.95166395410934
+    },
+    {
+      "Question": "'आलू' के पिछेती झुलसा का 'आर्थिक नुकसान'?",
+      "Crop": "Potato",
+      "Score": 499.94911647055693
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' (Late Blight) और 'बादल'?",
+      "Crop": "Potato",
+      "Score": 499.9476784415378
+    },
+    {
+      "Question": "'आलू' के पिछेती झुलसा का 'सुरक्षात्मक' स्प्रे?",
+      "Crop": "Potato",
+      "Score": 499.9459678530838
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का आर्थिक असर?",
+      "Crop": "Potato",
+      "Score": 499.94465146723974
+    }
+  ]
+}

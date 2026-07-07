@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:07.886345",
+  "query_original": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+  "query_normalized": "मिर्च का आर्द्र पतन damping off और नर्सरी",
+  "query_expanded": "मिर्च का आर्द्र पतन damping off और नर्सरी",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च के 'आर्द्र पतन' (Damping off) का कवक?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च की नर्सरी में 'आर्द्र पतन' से कैसे बचें?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "आर्द्र पतन (Damping Off) को कैसे रोकें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli",
+      "FinalScore": 49994.781715808065,
+      "CrossScore": 0.9998956343161614
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.994671188662544,
+      "CrossScore": 0.9998934237732509
+    },
+    {
+      "Question": "मिर्च के 'आर्द्र पतन' (Damping off) का कवक?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99438515294893,
+      "CrossScore": 0.9998877030589786
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "FinalScore": 49.965833462673785,
+      "CrossScore": 0.9993166692534757
+    },
+    {
+      "Question": "मिर्च में 'एनपीके 19:19:19' का छिड़काव कब करें?",
+      "Crop": "Chilli",
+      "FinalScore": 49.952628684529415,
+      "CrossScore": 0.9990525736905883
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "FinalScore": 49.94670121650637,
+      "CrossScore": 0.9989340243301273
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' (Thrips) और 'नाव' जैसी पत्तियां?",
+      "Crop": "Chilli",
+      "FinalScore": 49.94542711142252,
+      "CrossScore": 0.9989085422284504
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'ग्रेडिंग' का लाभ?",
+      "Crop": "Chilli",
+      "FinalScore": 49.94184284258466,
+      "CrossScore": 0.9988368568516933
+    },
+    {
+      "Question": "मिर्च की नर्सरी में 'आर्द्र पतन' से कैसे बचें?",
+      "Crop": "Chilli",
+      "FinalScore": 49.9370253079593,
+      "CrossScore": 0.9987405061591861
+    },
+    {
+      "Question": "'मिर्च का मरोड़िया रोग' (Leaf Curl) और 'मिर्च'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.93174716926475,
+      "CrossScore": 0.9986349433852951
+    }
+  ],
+  "latency_ms": 177.46,
+  "final_returned": [
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli",
+      "Score": 49994.781715808065
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli",
+      "Score": 49.994671188662544
+    },
+    {
+      "Question": "मिर्च के 'आर्द्र पतन' (Damping off) का कवक?",
+      "Crop": "Chilli",
+      "Score": 49.99438515294893
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "Score": 49.965833462673785
+    },
+    {
+      "Question": "मिर्च में 'एनपीके 19:19:19' का छिड़काव कब करें?",
+      "Crop": "Chilli",
+      "Score": 49.952628684529415
+    }
+  ]
+}

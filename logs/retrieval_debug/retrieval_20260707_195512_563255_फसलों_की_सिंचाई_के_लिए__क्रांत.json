@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:12.338372",
+  "query_original": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+  "query_normalized": "फसलों की सिंचाई के लिए क्रांतिक अवस्था critical stage क्या है",
+  "query_expanded": "फसलों की सिंचाई के लिए क्रांतिक अवस्था critical stage क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई के लिए भी मशीनों की जरूरत है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999073064955829,
+      "CrossScore": 0.9999073064955829
+    },
+    {
+      "Question": "गेहूं की सिंचाई की 'दुधिया अवस्था' (Milking stage)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9996248061438135,
+      "CrossScore": 0.9996248061438135
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "FinalScore": 0.9984446735800986,
+      "CrossScore": 0.9984446735800986
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9983420603798798,
+      "CrossScore": 0.9983420603798798
+    },
+    {
+      "Question": "आलू की सिंचाई के लिए 'ड्रिप' और 'स्प्रिंकलर' में कौन बेहतर है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9983312821951487,
+      "CrossScore": 0.9983312821951487
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9982691263120405,
+      "CrossScore": 0.9982691263120405
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9981777278136268,
+      "CrossScore": 0.9981777278136268
+    },
+    {
+      "Question": "धनिया की सिंचाई के लिए 'स्प्रिंकलर' विधि?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9981637380056212,
+      "CrossScore": 0.9981637380056212
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'बीमा' उपलब्ध है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9980920945516912,
+      "CrossScore": 0.9980920945516912
+    },
+    {
+      "Question": "क्या सब्जियों की खेती के लिए सरकारी अनुदान मिलता है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.998070170841279,
+      "CrossScore": 0.998070170841279
+    }
+  ],
+  "latency_ms": 225.08,
+  "final_returned": [
+    {
+      "Question": "फसलों की सिंचाई के लिए 'क्रांतिक अवस्था' (Critical Stage) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999073064955829
+    },
+    {
+      "Question": "गेहूं की सिंचाई की 'दुधिया अवस्था' (Milking stage)?",
+      "Crop": "Wheat",
+      "Score": 0.9996248061438135
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "Score": 0.9984446735800986
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "Score": 0.9983420603798798
+    },
+    {
+      "Question": "आलू की सिंचाई के लिए 'ड्रिप' और 'स्प्रिंकलर' में कौन बेहतर है?",
+      "Crop": "Potato",
+      "Score": 0.9983312821951487
+    }
+  ]
+}

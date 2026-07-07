@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:11.437025",
+  "query_original": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+  "query_normalized": "थायोमिथोक्सम thiamethoxam कब उपयोग करें",
+  "query_expanded": "थायोमिथोक्सम thiamethoxam कब उपयोग करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "घृतकुमारी (Aloe Vera) की कटाई कब करें?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 999.8781644211228,
+      "CrossScore": 0.9998781644211229
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998414850525148,
+      "CrossScore": 0.9998414850525148
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.99981536742891,
+      "CrossScore": 0.99981536742891
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998022940542616,
+      "CrossScore": 0.9998022940542616
+    },
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997838363422633,
+      "CrossScore": 0.9997838363422633
+    },
+    {
+      "Question": "फलों को 'एक समान पकाने' के लिए क्या उपयोग करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997750817317884,
+      "CrossScore": 0.9997750817317884
+    },
+    {
+      "Question": "जैविक दवाओं का छिड़काव कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997128925569543,
+      "CrossScore": 0.9997128925569543
+    },
+    {
+      "Question": "अंगूर के बाग में 'छंटाई' (Pruning) कब करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9996681340458607,
+      "CrossScore": 0.9996681340458607
+    },
+    {
+      "Question": "अमरूद में 'एनपीके 19:19:19' का छिड़काव कब करें?",
+      "Crop": "Guava",
+      "FinalScore": 0.9996665906135144,
+      "CrossScore": 0.9996665906135144
+    },
+    {
+      "Question": "बैंगन के पौधों की रोपाई कब करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9996366626962223,
+      "CrossScore": 0.9996366626962223
+    }
+  ],
+  "latency_ms": 183.82,
+  "final_returned": [
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "Score": 999.8781644211228
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 0.9998414850525148
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat",
+      "Score": 0.99981536742891
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 0.9998022940542616
+    },
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9997838363422633
+    }
+  ]
+}

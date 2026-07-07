@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:02.002089",
+  "query_original": "आलू में पोटाश का क्या महत्व है?",
+  "query_normalized": "आलू में पोटाश का क्या महत्व है",
+  "query_expanded": "आलू में पोटाश का क्या महत्व है",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आलू में पोटाश का क्या महत्व है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "खेती में 'नवाचार' (Innovation) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'सल्फर' का क्या कार्य है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आलू की खेती में 'मिट्टी का पीएच' मान?",
+      "Crop": "Potato",
+      "FinalScore": 49.996208520372335,
+      "CrossScore": 0.9999241704074466
+    },
+    {
+      "Question": "आलू की खेती में सबसे बड़ी गलती क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99598722833762,
+      "CrossScore": 0.9999197445667524
+    },
+    {
+      "Question": "आलू में पोटाश का क्या महत्व है?",
+      "Crop": "Potato",
+      "FinalScore": 49.995916743330255,
+      "CrossScore": 0.9999183348666051
+    },
+    {
+      "Question": "आलू की खेती में 'जैविक खाद' का महत्व?",
+      "Crop": "Potato",
+      "FinalScore": 49.99566303251815,
+      "CrossScore": 0.999913260650363
+    },
+    {
+      "Question": "आलू का 'पिछेती झुलसा' (Late Blight) क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99564989423271,
+      "CrossScore": 0.9999129978846543
+    },
+    {
+      "Question": "आलू की खेती का परिचय क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99559951916678,
+      "CrossScore": 0.9999119903833356
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99533448903475,
+      "CrossScore": 0.999906689780695
+    },
+    {
+      "Question": "आलू की खेती में 'पोटाश' के लिए 'SOP' (पोटेशियम सल्फेट) क्यों बेहतर है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99531378224009,
+      "CrossScore": 0.9999062756448017
+    },
+    {
+      "Question": "आलू में 'सल्फर' के लिए एसएसपी (SSP) का महत्व?",
+      "Crop": "Potato",
+      "FinalScore": 49.99519722009752,
+      "CrossScore": 0.9999039444019504
+    },
+    {
+      "Question": "क्या आलू की खेती में ड्रिप सिंचाई संभव है?",
+      "Crop": "Potato",
+      "FinalScore": 49.99497710474721,
+      "CrossScore": 0.9998995420949441
+    }
+  ],
+  "latency_ms": 187.25,
+  "final_returned": [
+    {
+      "Question": "आलू की खेती में 'मिट्टी का पीएच' मान?",
+      "Crop": "Potato",
+      "Score": 49.996208520372335
+    },
+    {
+      "Question": "आलू की खेती में सबसे बड़ी गलती क्या है?",
+      "Crop": "Potato",
+      "Score": 49.99598722833762
+    },
+    {
+      "Question": "आलू में पोटाश का क्या महत्व है?",
+      "Crop": "Potato",
+      "Score": 49.995916743330255
+    },
+    {
+      "Question": "आलू की खेती में 'जैविक खाद' का महत्व?",
+      "Crop": "Potato",
+      "Score": 49.99566303251815
+    },
+    {
+      "Question": "आलू का 'पिछेती झुलसा' (Late Blight) क्या है?",
+      "Crop": "Potato",
+      "Score": 49.99564989423271
+    }
+  ]
+}

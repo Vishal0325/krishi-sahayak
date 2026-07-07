@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:09.628161",
+  "query_original": "मुर्गियों में 'पैर का लकवा' (Leg paralysis)?",
+  "query_normalized": "मुर्गियों में पैर का लकवा leg paralysis",
+  "query_expanded": "मुर्गियों में पैर का लकवा leg paralysis",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गियों में 'पैर का लकवा' (Leg paralysis)?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "मुर्गियों में 'खूनी दस्त' (Coccidiosis) का उपचार?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गियों में 'पैर का लकवा' (Leg paralysis)?",
+      "Crop": "Poultry",
+      "FinalScore": 999.9151904140184,
+      "CrossScore": 0.9999151904140184
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9957724250872915,
+      "CrossScore": 0.9957724250872915
+    },
+    {
+      "Question": "मुर्गियों में 'खूनी दस्त' (Coccidiosis) का उपचार?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9956196581098603,
+      "CrossScore": 0.9956196581098603
+    },
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.99510205560076,
+      "CrossScore": 0.99510205560076
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9938698440037286,
+      "CrossScore": 0.9938698440037286
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9934920840851464,
+      "CrossScore": 0.9934920840851464
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9933685376814401,
+      "CrossScore": 0.9933685376814401
+    },
+    {
+      "Question": "प्याज में 'चूहों' के लिए 'जिंक फास्फाइड' का उपयोग?",
+      "Crop": "Onion",
+      "FinalScore": 0.9929825848746157,
+      "CrossScore": 0.9929825848746157
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9929015689359881,
+      "CrossScore": 0.9929015689359881
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.992631914828686,
+      "CrossScore": 0.992631914828686
+    }
+  ],
+  "latency_ms": 201.46,
+  "final_returned": [
+    {
+      "Question": "मुर्गियों में 'पैर का लकवा' (Leg paralysis)?",
+      "Crop": "Poultry",
+      "Score": 999.9151904140184
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry",
+      "Score": 0.9957724250872915
+    },
+    {
+      "Question": "मुर्गियों में 'खूनी दस्त' (Coccidiosis) का उपचार?",
+      "Crop": "Poultry",
+      "Score": 0.9956196581098603
+    },
+    {
+      "Question": "मुर्गियों में 'चिंचड़ी' (Mites/Lice) का प्रबंधन?",
+      "Crop": "Poultry",
+      "Score": 0.99510205560076
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9938698440037286
+    }
+  ]
+}

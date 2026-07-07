@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:52.303658",
+  "query_original": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+  "query_normalized": "कृषि यंत्रों की शेयरिंग sharing का क्या लाभ है",
+  "query_expanded": "कृषि यंत्रों की शेयरिंग sharing का क्या लाभ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "कृषि उत्पादों की 'ब्रांडिंग' (Branding) का क्या फायदा है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 999.9205485316429,
+      "CrossScore": 0.9999205485316429
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998017609853519,
+      "CrossScore": 0.9998017609853519
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997623452326345,
+      "CrossScore": 0.9997623452326345
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9997374689860163,
+      "CrossScore": 0.9997374689860163
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997318594346758,
+      "CrossScore": 0.9997318594346758
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997288583081162,
+      "CrossScore": 0.9997288583081162
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997224468246264,
+      "CrossScore": 0.9997224468246264
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997218202880093,
+      "CrossScore": 0.9997218202880093
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997048679085013,
+      "CrossScore": 0.9997048679085013
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996957309360184,
+      "CrossScore": 0.9996957309360184
+    }
+  ],
+  "latency_ms": 216.42,
+  "final_returned": [
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 999.9205485316429
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9998017609853519
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "Score": 0.9997623452326345
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9997374689860163
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "Score": 0.9997318594346758
+    }
+  ]
+}

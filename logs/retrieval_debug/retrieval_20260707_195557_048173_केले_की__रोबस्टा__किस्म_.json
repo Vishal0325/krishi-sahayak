@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:56.877404",
+  "query_original": "केले की 'रोबस्टा' किस्म?",
+  "query_normalized": "केले की रोबस्टा किस्म",
+  "query_expanded": "केले की रोबस्टा किस्म",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "केले की 'रोबस्टा' किस्म?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "केले की 'जी-9' किस्म के लिए कौन सी खाद अच्छी है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "केले की 'ग्रैंड नैन' (G-9) किस्म क्यों लोकप्रिय है?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "केले की 'चिनिया' किस्म की क्या खासियत है?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "केले की 'जी-9' किस्म का औसत वजन?",
+      "Crop": "Banana"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "केले की 'मालभोग' किस्म के बचाव के उपाय?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998960957648049,
+      "CrossScore": 0.9998960957648049
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998932728502858,
+      "CrossScore": 0.9998932728502858
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998851906222643,
+      "CrossScore": 0.9998851906222643
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998841740225279,
+      "CrossScore": 0.9998841740225279
+    },
+    {
+      "Question": "केले की 'रोबस्टा' किस्म?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998828768979967,
+      "CrossScore": 0.9998828768979967
+    },
+    {
+      "Question": "केले की 'ग्रैंड नैन' (G-9) किस्म क्यों लोकप्रिय है?",
+      "Crop": "Banana",
+      "FinalScore": 0.99987968318907,
+      "CrossScore": 0.99987968318907
+    },
+    {
+      "Question": "केले की 'अल्पना' (Alpana) किस्म?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998731380647665,
+      "CrossScore": 0.9998731380647665
+    },
+    {
+      "Question": "केले की 'चिनिया' किस्म की क्या खासियत है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998722952648637,
+      "CrossScore": 0.9998722952648637
+    },
+    {
+      "Question": "भिंडी की 'स्वर्ण औषधि' किस्म?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998717522230589,
+      "CrossScore": 0.9998717522230589
+    },
+    {
+      "Question": "केले की 'जी-9' किस्म के लिए कौन सी खाद अच्छी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998702535425084,
+      "CrossScore": 0.9998702535425084
+    }
+  ],
+  "latency_ms": 170.86,
+  "final_returned": [
+    {
+      "Question": "केले की 'मालभोग' किस्म के बचाव के उपाय?",
+      "Crop": "Banana",
+      "Score": 0.9998960957648049
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "Score": 0.9998932728502858
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "Score": 0.9998851906222643
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli",
+      "Score": 0.9998841740225279
+    },
+    {
+      "Question": "केले की 'रोबस्टा' किस्म?",
+      "Crop": "Banana",
+      "Score": 0.9998828768979967
+    }
+  ]
+}

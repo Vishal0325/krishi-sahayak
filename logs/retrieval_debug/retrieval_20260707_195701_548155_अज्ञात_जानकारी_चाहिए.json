@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-07-07T19:57:00.952233",
+  "query_original": "अज्ञात जानकारी चाहिए",
+  "query_normalized": "अज्ञात जानकारी चाहिए",
+  "query_expanded": "अज्ञात जानकारी चाहिए",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या मधुमक्खी पालन के लिए 'लाइसेंस' चाहिए?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मिर्च की तुड़ाई के समय 'मिट्टी' सूखी क्यों होनी चाहिए?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "दलहनी फसलों की 'मृदा' का पीएच कितना होना चाहिए?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अमरूद की 'बरसात' की फसल क्यों नहीं लेनी चाहिए?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998901249034677,
+      "CrossScore": 0.9998901249034677
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998865146222858,
+      "CrossScore": 0.9998865146222858
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन के लिए 'लाइसेंस' चाहिए?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998792994976881,
+      "CrossScore": 0.9998792994976881
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998553034199643,
+      "CrossScore": 0.9998553034199643
+    },
+    {
+      "Question": "धनिया की तुड़ाई के समय 'मिट्टी' सूखी होनी चाहिए?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998501633100985,
+      "CrossScore": 0.9998501633100985
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए 'विशेष लाइसेंस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998443016117302,
+      "CrossScore": 0.9998443016117302
+    },
+    {
+      "Question": "रबी मक्का की बुआई कब करनी चाहिए?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998407036646875,
+      "CrossScore": 0.9998407036646875
+    },
+    {
+      "Question": "फेरोमोन लूअर (Lure) को कितने समय बाद बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998400395769727,
+      "CrossScore": 0.9998400395769727
+    },
+    {
+      "Question": "गेहूं में 'यूरिया' को शाम के समय ही क्यों डालना चाहिए?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998396685097547,
+      "CrossScore": 0.9998396685097547
+    },
+    {
+      "Question": "अमरूद की 'बरसात' की फसल क्यों नहीं लेनी चाहिए?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998361251665425,
+      "CrossScore": 0.9998361251665425
+    }
+  ],
+  "latency_ms": 596.02,
+  "final_returned": [
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998901249034677
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए 'ग्रीनहाउस' चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998865146222858
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन के लिए 'लाइसेंस' चाहिए?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998792994976881
+    }
+  ]
+}

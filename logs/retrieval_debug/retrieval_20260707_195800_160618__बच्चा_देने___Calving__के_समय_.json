@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:59.964647",
+  "query_original": "'बच्चा देने' (Calving) के समय सावधानी?",
+  "query_normalized": "बच्चा देने calving के समय सावधानी",
+  "query_expanded": "बच्चा देने calving के समय सावधानी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बच्चा देने' (Calving) के समय सावधानी?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "भिंडी की कटाई के समय 'सावधानी'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गेहूं में फूल आने के समय क्या सावधानी रखें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गन्ने की कटाई के समय सावधानी?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बच्चा देने' (Calving) के समय सावधानी?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998937473732884,
+      "CrossScore": 0.9998937473732884
+    },
+    {
+      "Question": "धनिया की कटाई के समय 'सावधानी'?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9993657055995496,
+      "CrossScore": 0.9993657055995496
+    },
+    {
+      "Question": "अदरक की खुदाई के समय 'सावधानी'?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9992533067126033,
+      "CrossScore": 0.9992533067126033
+    },
+    {
+      "Question": "फूलगोभी की कटाई के समय 'सावधानी'?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9992306524037756,
+      "CrossScore": 0.9992306524037756
+    },
+    {
+      "Question": "पत्तागोभी की कटाई के समय 'सावधानी'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9991966071943472,
+      "CrossScore": 0.9991966071943472
+    },
+    {
+      "Question": "प्याज की खुदाई के समय सावधानी?",
+      "Crop": "Onion",
+      "FinalScore": 0.9991633159575821,
+      "CrossScore": 0.9991633159575821
+    },
+    {
+      "Question": "भिंडी की कटाई के समय 'सावधानी'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9991276731951427,
+      "CrossScore": 0.9991276731951427
+    },
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9990729118699192,
+      "CrossScore": 0.9990729118699192
+    },
+    {
+      "Question": "हल्दी की खुदाई के समय 'सावधानी'?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9990183989517051,
+      "CrossScore": 0.9990183989517051
+    },
+    {
+      "Question": "टमाटर की खुदाई (Harvesting) के समय सावधानी?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9990026252992759,
+      "CrossScore": 0.9990026252992759
+    }
+  ],
+  "latency_ms": 196.1,
+  "final_returned": [
+    {
+      "Question": "'बच्चा देने' (Calving) के समय सावधानी?",
+      "Crop": "Dairy",
+      "Score": 0.9998937473732884
+    },
+    {
+      "Question": "धनिया की कटाई के समय 'सावधानी'?",
+      "Crop": "Coriander",
+      "Score": 0.9993657055995496
+    },
+    {
+      "Question": "अदरक की खुदाई के समय 'सावधानी'?",
+      "Crop": "Ginger",
+      "Score": 0.9992533067126033
+    },
+    {
+      "Question": "फूलगोभी की कटाई के समय 'सावधानी'?",
+      "Crop": "Cauliflower",
+      "Score": 0.9992306524037756
+    },
+    {
+      "Question": "पत्तागोभी की कटाई के समय 'सावधानी'?",
+      "Crop": "Cabbage",
+      "Score": 0.9991966071943472
+    }
+  ]
+}

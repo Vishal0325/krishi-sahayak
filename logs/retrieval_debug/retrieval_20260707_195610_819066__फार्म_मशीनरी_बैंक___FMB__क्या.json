@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:10.603990",
+  "query_original": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+  "query_normalized": "फार्म मशीनरी बैंक fmb क्या है",
+  "query_expanded": "फार्म मशीनरी बैंक fmb क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म मशीनरी बैंक क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म पॉन्ड (Farm Pond) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म गेट (Farm Gate) बिक्री क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999198982475545,
+      "CrossScore": 0.9999198982475545
+    },
+    {
+      "Question": "मार्केट इंटेलिजेंस (Market Intelligence) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997987881599415,
+      "CrossScore": 0.9997987881599415
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997882002894063,
+      "CrossScore": 0.9997882002894063
+    },
+    {
+      "Question": "क्या फसल बीमा के लिए बैंक जाना जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9997834245647286,
+      "CrossScore": 0.9997834245647286
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.99978322334257,
+      "CrossScore": 0.99978322334257
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997831584323481,
+      "CrossScore": 0.9997831584323481
+    },
+    {
+      "Question": "फार्म मशीनरी बैंक क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997773007861539,
+      "CrossScore": 0.9997773007861539
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997748154412027,
+      "CrossScore": 0.9997748154412027
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997625350403955,
+      "CrossScore": 0.9997625350403955
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9997502460515724,
+      "CrossScore": 0.9997502460515724
+    }
+  ],
+  "latency_ms": 215.23,
+  "final_returned": [
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999198982475545
+    },
+    {
+      "Question": "मार्केट इंटेलिजेंस (Market Intelligence) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997987881599415
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997882002894063
+    },
+    {
+      "Question": "क्या फसल बीमा के लिए बैंक जाना जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9997834245647286
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "Score": 0.99978322334257
+    }
+  ]
+}

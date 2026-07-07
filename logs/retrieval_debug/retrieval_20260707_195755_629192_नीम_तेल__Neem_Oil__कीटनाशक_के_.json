@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:55.427590",
+  "query_original": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+  "query_normalized": "नीम तेल neem oil कीटनाशक के रूप में",
+  "query_expanded": "बग नीम तेल neem oil कीटनाशक के रूप में pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'कीट' प्रबंधन के लिए नीम तेल?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 9.991667077740495,
+      "CrossScore": 0.9991667077740494
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "FinalScore": 9.970473941203098,
+      "CrossScore": 0.9970473941203098
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9999097910365449,
+      "CrossScore": 0.9999097910365449
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9999066591668103,
+      "CrossScore": 0.9999066591668103
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997044906226744,
+      "CrossScore": 0.9997044906226744
+    },
+    {
+      "Question": "नीम की खली (Neem Cake) का मिट्टी में लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.999658861914265,
+      "CrossScore": 0.999658861914265
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए 'मिट्टी का तेल' (Kerosene)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992647120622363,
+      "CrossScore": 0.9992647120622363
+    },
+    {
+      "Question": "सब्जियों में 'जैविक कीटनाशक' के रूप में क्या उपयोग करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9991558958976664,
+      "CrossScore": 0.9991558958976664
+    },
+    {
+      "Question": "जैविक खेती में 'कीट नियंत्रण' के तरीके?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9991341040004905,
+      "CrossScore": 0.9991341040004905
+    },
+    {
+      "Question": "'सब्जियों' में 'सफेद मक्खी' के लिए 'नीम तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.9991087195840181,
+      "CrossScore": 0.9991087195840181
+    }
+  ],
+  "latency_ms": 201.78,
+  "final_returned": [
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "Score": 9.991667077740495
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "Score": 9.970473941203098
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "Score": 0.9999097910365449
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "Score": 0.9999066591668103
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9997044906226744
+    }
+  ]
+}

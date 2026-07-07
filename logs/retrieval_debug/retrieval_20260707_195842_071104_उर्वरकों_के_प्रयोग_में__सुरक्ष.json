@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:41.878309",
+  "query_original": "उर्वरकों के प्रयोग में 'सुरक्षा'?",
+  "query_normalized": "उर्वरकों के प्रयोग में सुरक्षा",
+  "query_expanded": "खाद poshak fertilizer उर्वरकों के प्रयोग में सुरक्षा उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों के प्रयोग में 'सुरक्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा' (Personal Safety)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों के प्रयोग में 'सुरक्षा'?",
+      "Crop": "General",
+      "FinalScore": 0.9999029637395,
+      "CrossScore": 0.9999029637395
+    },
+    {
+      "Question": "पत्तागोभी में खाद और उर्वरक की मात्रा?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998922490292395,
+      "CrossScore": 0.9998922490292395
+    },
+    {
+      "Question": "उर्वरक प्रबंधन में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9998882914308761,
+      "CrossScore": 0.9998882914308761
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998818116417926,
+      "CrossScore": 0.9998818116417926
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998815445799346,
+      "CrossScore": 0.9998815445799346
+    },
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998758424971925,
+      "CrossScore": 0.9998758424971925
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998750220712753,
+      "CrossScore": 0.9998750220712753
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998743252362753,
+      "CrossScore": 0.9998743252362753
+    },
+    {
+      "Question": "उर्वरक प्रयोग के बाद सिंचाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998735811269064,
+      "CrossScore": 0.9998735811269064
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998730890626097,
+      "CrossScore": 0.9998730890626097
+    }
+  ],
+  "latency_ms": 192.89,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों के प्रयोग में 'सुरक्षा'?",
+      "Crop": "General",
+      "Score": 0.9999029637395
+    },
+    {
+      "Question": "पत्तागोभी में खाद और उर्वरक की मात्रा?",
+      "Crop": "Cabbage",
+      "Score": 0.9998922490292395
+    },
+    {
+      "Question": "उर्वरक प्रबंधन में किसानों के लिए मुख्य सलाह?",
+      "Crop": "General",
+      "Score": 0.9998882914308761
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "Score": 0.9998818116417926
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "Score": 0.9998815445799346
+    }
+  ]
+}

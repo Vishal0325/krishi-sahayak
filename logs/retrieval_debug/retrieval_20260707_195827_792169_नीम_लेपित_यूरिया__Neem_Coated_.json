@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:27.571029",
+  "query_original": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+  "query_normalized": "नीम लेपित यूरिया neem coated urea के क्या लाभ हैं",
+  "query_expanded": "नाइट्रोजन urea nitrogen नीम लेपित यूरिया neem coated urea के क्या लाभ हैं यूरिया",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "नाइट्रोजन की कमी के क्या लक्षण हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम की खली (Neem Cake) का मिट्टी में लाभ?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999030757310942,
+      "CrossScore": 0.9999030757310942
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996914431419118,
+      "CrossScore": 0.9996914431419118
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996206289928259,
+      "CrossScore": 0.9996206289928259
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9996060261230632,
+      "CrossScore": 0.9996060261230632
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9995880400128312,
+      "CrossScore": 0.9995880400128312
+    },
+    {
+      "Question": "नीम (Neem) की व्यावसायिक खेती?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9995354782081762,
+      "CrossScore": 0.9995354782081762
+    },
+    {
+      "Question": "नीम का तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.9994991094086788,
+      "CrossScore": 0.9994991094086788
+    },
+    {
+      "Question": "नीम की खली (Neem Cake) का मिट्टी में लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9994769320202166,
+      "CrossScore": 0.9994769320202166
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9992071957398863,
+      "CrossScore": 0.9992071957398863
+    },
+    {
+      "Question": "अमरूद में 'यूरिया' की बचत के लिए 'नैनो यूरिया'?",
+      "Crop": "Guava",
+      "FinalScore": 0.998862734126976,
+      "CrossScore": 0.998862734126976
+    }
+  ],
+  "latency_ms": 221.27,
+  "final_returned": [
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9999030757310942
+    },
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "Score": 0.9996914431419118
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9996206289928259
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "Score": 0.9996060261230632
+    },
+    {
+      "Question": "नीम तेल (Neem Oil) कीटनाशक के रूप में?",
+      "Crop": "General",
+      "Score": 0.9995880400128312
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:04.155262",
+  "query_original": "मिर्च in 'मोजेक' वायरस की पहचान?",
+  "query_normalized": "मिर्च in मोजेक वायरस की पहचान",
+  "query_expanded": "मिर्च in मोजेक वायरस की पहचान",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिर्च in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिर्च in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Chilli",
+      "FinalScore": 49993.02846770863,
+      "CrossScore": 0.9998605693541727
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99281915081747,
+      "CrossScore": 0.9998563830163494
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99267858925722,
+      "CrossScore": 0.9998535717851443
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "FinalScore": 49.992623813207636,
+      "CrossScore": 0.9998524762641527
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99209489514568,
+      "CrossScore": 0.9998418979029136
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पाउडर' बनाना?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99206964128102,
+      "CrossScore": 0.9998413928256205
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 49.991981460745365,
+      "CrossScore": 0.9998396292149073
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99174097305218,
+      "CrossScore": 0.9998348194610436
+    },
+    {
+      "Question": "मिर्च की 'शुष्क' खेती में सफलता?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99163975324904,
+      "CrossScore": 0.9998327950649808
+    },
+    {
+      "Question": "मिर्च में 'पोटाश' की कमी से 'शर्करा' संचय?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99151038776809,
+      "CrossScore": 0.9998302077553617
+    }
+  ],
+  "latency_ms": 197.98,
+  "final_returned": [
+    {
+      "Question": "मिर्च in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Chilli",
+      "Score": 49993.02846770863
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli",
+      "Score": 49.99281915081747
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "Score": 49.99267858925722
+    },
+    {
+      "Question": "मिर्च की कटाई के बाद 'पैकेजिंग'?",
+      "Crop": "Chilli",
+      "Score": 49.992623813207636
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "Score": 49.99209489514568
+    }
+  ]
+}

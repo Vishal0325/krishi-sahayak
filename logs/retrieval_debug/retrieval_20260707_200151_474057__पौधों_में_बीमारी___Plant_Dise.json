@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:51.269871",
+  "query_original": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+  "query_normalized": "पौधों में बीमारी plant disease क्या है",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease पौधों में बीमारी plant disease क्या है रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को छाया में उगाया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'शहरी' क्षेत्रों में संभव है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9999.399279526606,
+      "CrossScore": 0.9999399279526606
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.997535430798342,
+      "CrossScore": 0.9997535430798342
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9989569772640075,
+      "CrossScore": 0.9989569772640075
+    },
+    {
+      "Question": "पपीता (Papaya) की खेती में नर और मादा पौधों का क्या महत्व है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9965556446132322,
+      "CrossScore": 0.9965556446132322
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9965109998265167,
+      "CrossScore": 0.9965109998265167
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9961490912176633,
+      "CrossScore": 0.9961490912176633
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9960166101801448,
+      "CrossScore": 0.9960166101801448
+    },
+    {
+      "Question": "IPM में 'मृदा स्वास्थ्य' का क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 0.9956345557566205,
+      "CrossScore": 0.9956345557566205
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'शहरी' क्षेत्रों में संभव है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9955329900418187,
+      "CrossScore": 0.9955329900418187
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9954623415930097,
+      "CrossScore": 0.9954623415930097
+    }
+  ],
+  "latency_ms": 204.27,
+  "final_returned": [
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9999.399279526606
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "Score": 9.997535430798342
+    },
+    {
+      "Question": "मक्का में 'जीवाणु तना सड़न' (Bacterial Stalk Rot) का उपचार क्या है?",
+      "Crop": "Maize",
+      "Score": 0.9989569772640075
+    },
+    {
+      "Question": "पपीता (Papaya) की खेती में नर और मादा पौधों का क्या महत्व है?",
+      "Crop": "Papaya",
+      "Score": 0.9965556446132322
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "Score": 0.9965109998265167
+    }
+  ]
+}

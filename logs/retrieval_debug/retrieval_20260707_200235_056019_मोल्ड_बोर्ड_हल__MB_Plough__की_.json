@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:34.791535",
+  "query_original": "मोल्ड बोर्ड हल (MB Plough) की क्या खासियत है?",
+  "query_normalized": "मोल्ड बोर्ड हल mb plough की क्या खासियत है",
+  "query_expanded": "मोल्ड बोर्ड हल mb plough की क्या खासियत है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मोल्ड बोर्ड हल (MB Plough) की क्या खासियत है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'अजवायन शहद' (Ajwain Honey) की क्या खासियत है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "गेहूं की 'HD 2967' किस्म की क्या खासियत है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का की 'गंगा-11' किस्म की क्या खासियत है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "लीची की 'बेदाना' किस्म की क्या खासियत है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मोल्ड बोर्ड हल (MB Plough) की क्या खासियत है?",
+      "Crop": "General",
+      "FinalScore": 999.8878758644298,
+      "CrossScore": 0.9998878758644298
+    },
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9997767037501536,
+      "CrossScore": 0.9997767037501536
+    },
+    {
+      "Question": "अमरूद (Guava) की 'इलाहाबादी सफेदा' किस्म की क्या खासियत है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9996092231234939,
+      "CrossScore": 0.9996092231234939
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9995988630712345,
+      "CrossScore": 0.9995988630712345
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995151144036772,
+      "CrossScore": 0.9995151144036772
+    },
+    {
+      "Question": "गेहूं की 'HD 2967' किस्म की क्या खासियत है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9993461240042678,
+      "CrossScore": 0.9993461240042678
+    },
+    {
+      "Question": "लीची की 'बेदाना' किस्म की क्या खासियत है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999311243612252,
+      "CrossScore": 0.999311243612252
+    },
+    {
+      "Question": "'साहिवाल' गाय की क्या खासियत है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9992709261939283,
+      "CrossScore": 0.9992709261939283
+    },
+    {
+      "Question": "बेर (Ber) की खेती की क्या खासियत है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9992420865201911,
+      "CrossScore": 0.9992420865201911
+    },
+    {
+      "Question": "क्या गेहूं की खेती के साथ सरसों उगाई जा सकती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992294197385746,
+      "CrossScore": 0.9992294197385746
+    }
+  ],
+  "latency_ms": 264.54,
+  "final_returned": [
+    {
+      "Question": "मोल्ड बोर्ड हल (MB Plough) की क्या खासियत है?",
+      "Crop": "General",
+      "Score": 999.8878758644298
+    },
+    {
+      "Question": "कल्टीवेटर (Cultivator) और हल (Plough) में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9997767037501536
+    },
+    {
+      "Question": "अमरूद (Guava) की 'इलाहाबादी सफेदा' किस्म की क्या खासियत है?",
+      "Crop": "Guava",
+      "Score": 0.9996092231234939
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9995988630712345
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat",
+      "Score": 0.9995151144036772
+    }
+  ]
+}

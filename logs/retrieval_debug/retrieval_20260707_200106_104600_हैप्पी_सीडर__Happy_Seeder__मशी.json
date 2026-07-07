@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:05.920658",
+  "query_original": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+  "query_normalized": "हैप्पी सीडर happy seeder मशीन क्या है",
+  "query_expanded": "हैप्पी सीडर happy seeder मशीन क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9319445357216,
+      "CrossScore": 0.9999319445357217
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998683004240936,
+      "CrossScore": 0.9998683004240936
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998669727810675,
+      "CrossScore": 0.9998669727810675
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9992424706624349,
+      "CrossScore": 0.9992424706624349
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991666752182993,
+      "CrossScore": 0.9991666752182993
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9990963065393765,
+      "CrossScore": 0.9990963065393765
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9990213311235306,
+      "CrossScore": 0.9990213311235306
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9987874179383295,
+      "CrossScore": 0.9987874179383295
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9987287105166734,
+      "CrossScore": 0.9987287105166734
+    },
+    {
+      "Question": "धान रोपाई मशीन (Rice Transplanter) का क्या महत्व है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9986542434192942,
+      "CrossScore": 0.9986542434192942
+    }
+  ],
+  "latency_ms": 183.98,
+  "final_returned": [
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 999.9319445357216
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "Score": 0.9998683004240936
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9998669727810675
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General",
+      "Score": 0.9992424706624349
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9991666752182993
+    }
+  ]
+}

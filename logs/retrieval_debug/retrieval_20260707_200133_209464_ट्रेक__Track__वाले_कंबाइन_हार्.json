@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:32.974283",
+  "query_original": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+  "query_normalized": "ट्रेक track वाले कंबाइन हार्वेस्टर का क्या लाभ है",
+  "query_expanded": "ट्रेक track वाले कंबाइन हार्वेस्टर का क्या लाभ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 999.8905173114871,
+      "CrossScore": 0.999890517311487
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.999339508791783,
+      "CrossScore": 0.999339508791783
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9992912011727098,
+      "CrossScore": 0.9992912011727098
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9990642175015193,
+      "CrossScore": 0.9990642175015193
+    },
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9989932086535778,
+      "CrossScore": 0.9989932086535778
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9989277698256251,
+      "CrossScore": 0.9989277698256251
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9989167085000572,
+      "CrossScore": 0.9989167085000572
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9989007732122748,
+      "CrossScore": 0.9989007732122748
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9988981453931154,
+      "CrossScore": 0.9988981453931154
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9988689840768366,
+      "CrossScore": 0.9988689840768366
+    }
+  ],
+  "latency_ms": 235.21,
+  "final_returned": [
+    {
+      "Question": "ट्रेक (Track) वाले कंबाइन हार्वेस्टर का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 999.8905173114871
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.999339508791783
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9992912011727098
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9990642175015193
+    },
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9989932086535778
+    }
+  ]
+}

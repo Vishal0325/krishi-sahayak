@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:02.975059",
+  "query_original": "जलवायु स्मार्ट गांव (Climate Smart Village) क्या है?",
+  "query_normalized": "जलवायु स्मार्ट गांव climate smart village क्या है",
+  "query_expanded": "जलवायु स्मार्ट गांव climate smart village क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जलवायु स्मार्ट गांव (Climate Smart Village) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जलवायु स्मार्ट गांव (Climate Smart Village) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999024114232181,
+      "CrossScore": 0.9999024114232181
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9989304478170263,
+      "CrossScore": 0.9989304478170263
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "FinalScore": 0.9986628709107772,
+      "CrossScore": 0.9986628709107772
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9975725594420237,
+      "CrossScore": 0.9975725594420237
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9971353051026879,
+      "CrossScore": 0.9971353051026879
+    },
+    {
+      "Question": "'स्मार्ट वेयरहाउस' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9922486966143682,
+      "CrossScore": 0.9922486966143682
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9891168661734326,
+      "CrossScore": 0.9891168661734326
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9890459520577166,
+      "CrossScore": 0.9890459520577166
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9886767266980825,
+      "CrossScore": 0.9886767266980825
+    },
+    {
+      "Question": "'स्मार्ट ट्रैप' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.988215734269367,
+      "CrossScore": 0.988215734269367
+    }
+  ],
+  "latency_ms": 255.58,
+  "final_returned": [
+    {
+      "Question": "जलवायु स्मार्ट गांव (Climate Smart Village) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999024114232181
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9989304478170263
+    },
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "Score": 0.9986628709107772
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "Score": 0.9975725594420237
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9971353051026879
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:34.306482",
+  "query_original": "'जैविक दवाओं' का असर और मौसम?",
+  "query_normalized": "जैविक दवाओं का असर और मौसम",
+  "query_expanded": "जैविक दवाओं का असर और मौसम",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और 'ओस'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक दवाओं का असर तुरंत होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'नमी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'बारिश'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General",
+      "FinalScore": 0.9999153394143941,
+      "CrossScore": 0.9999153394143941
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'बारिश'?",
+      "Crop": "General",
+      "FinalScore": 0.9999142570455348,
+      "CrossScore": 0.9999142570455348
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और 'ओस'?",
+      "Crop": "General",
+      "FinalScore": 0.9999092256547907,
+      "CrossScore": 0.9999092256547907
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 0.9999022236365793,
+      "CrossScore": 0.9999022236365793
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.9999009663303536,
+      "CrossScore": 0.9999009663303536
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'नमी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998993146132448,
+      "CrossScore": 0.9998993146132448
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 0.9998972517979529,
+      "CrossScore": 0.9998972517979529
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998955388323688,
+      "CrossScore": 0.9998955388323688
+    },
+    {
+      "Question": "क्या जैविक और रासायनिक दवाओं को मिलाकर डाल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998942077826064,
+      "CrossScore": 0.9998942077826064
+    },
+    {
+      "Question": "जैविक दवाओं के पैकेट पर 'CFU' का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998937058241176,
+      "CrossScore": 0.9998937058241176
+    }
+  ],
+  "latency_ms": 172.82,
+  "final_returned": [
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General",
+      "Score": 0.9999153394143941
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'बारिश'?",
+      "Crop": "General",
+      "Score": 0.9999142570455348
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और 'ओस'?",
+      "Crop": "General",
+      "Score": 0.9999092256547907
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "Score": 0.9999022236365793
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "Score": 0.9999009663303536
+    }
+  ]
+}

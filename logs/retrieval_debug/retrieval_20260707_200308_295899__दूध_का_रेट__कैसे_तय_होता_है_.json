@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:08.087914",
+  "query_original": "'दूध का रेट' कैसे तय होता है?",
+  "query_normalized": "दूध का रेट कैसे तय होता है",
+  "query_expanded": "दूध का रेट कैसे तय होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'दूध का रेट' कैसे तय होता है?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पौधों in वायरस रोगों का प्रसार कैसे होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'दूध का रेट' कैसे तय होता है?",
+      "Crop": "Dairy",
+      "FinalScore": 999.9098020467159,
+      "CrossScore": 0.9999098020467159
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999117429606595,
+      "CrossScore": 0.9999117429606595
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998983074426676,
+      "CrossScore": 0.9998983074426676
+    },
+    {
+      "Question": "सरसों के दानों का रंग काला क्यों होता है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.99989774481377,
+      "CrossScore": 0.99989774481377
+    },
+    {
+      "Question": "'शहद का छत्ता' (Comb) कैसे बनता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998952899059108,
+      "CrossScore": 0.9998952899059108
+    },
+    {
+      "Question": "क्या बीमार पशु का दूध पिया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.999895171118282,
+      "CrossScore": 0.999895171118282
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998936671992278,
+      "CrossScore": 0.9998936671992278
+    },
+    {
+      "Question": "खेती में 'पशुपालन' एक आर्थिक सुरक्षा कवच कैसे है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998867139969162,
+      "CrossScore": 0.9998867139969162
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999885752399279,
+      "CrossScore": 0.999885752399279
+    },
+    {
+      "Question": "टमाटर की फसल में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999880908980273,
+      "CrossScore": 0.999880908980273
+    }
+  ],
+  "latency_ms": 208.02,
+  "final_returned": [
+    {
+      "Question": "'दूध का रेट' कैसे तय होता है?",
+      "Crop": "Dairy",
+      "Score": 999.9098020467159
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General",
+      "Score": 0.9999117429606595
+    },
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General",
+      "Score": 0.9998983074426676
+    },
+    {
+      "Question": "सरसों के दानों का रंग काला क्यों होता है?",
+      "Crop": "Mustard",
+      "Score": 0.99989774481377
+    },
+    {
+      "Question": "'शहद का छत्ता' (Comb) कैसे बनता है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998952899059108
+    }
+  ]
+}

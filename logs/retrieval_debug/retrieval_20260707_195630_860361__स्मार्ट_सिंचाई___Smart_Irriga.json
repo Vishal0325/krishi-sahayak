@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:30.637967",
+  "query_original": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+  "query_normalized": "स्मार्ट सिंचाई smart irrigation क्या है",
+  "query_expanded": "स्मार्ट सिंचाई smart irrigation क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) स्टार्टअप?",
+      "Crop": "Agri Startup"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9999290396286376,
+      "CrossScore": 0.9999290396286376
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999181926979519,
+      "CrossScore": 0.9999181926979519
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998433394355893,
+      "CrossScore": 0.9998433394355893
+    },
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998262838465748,
+      "CrossScore": 0.9998262838465748
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998095129457035,
+      "CrossScore": 0.9998095129457035
+    },
+    {
+      "Question": "मेड़-नाली सिंचाई (Furrow Irrigation) कब उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9997610786231371,
+      "CrossScore": 0.9997610786231371
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995993583564269,
+      "CrossScore": 0.9995993583564269
+    },
+    {
+      "Question": "जलवायु स्मार्ट गांव (Climate Smart Village) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995839602731541,
+      "CrossScore": 0.9995839602731541
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9995363625164104,
+      "CrossScore": 0.9995363625164104
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "FinalScore": 0.9979258734597687,
+      "CrossScore": 0.9979258734597687
+    }
+  ],
+  "latency_ms": 222.57,
+  "final_returned": [
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9999290396286376
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999181926979519
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998433394355893
+    },
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998262838465748
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998095129457035
+    }
+  ]
+}

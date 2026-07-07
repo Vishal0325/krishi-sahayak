@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:44.975233",
+  "query_original": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+  "query_normalized": "मिली बग mealy bug का मोमी आवरण waxy coating",
+  "query_expanded": "बग pest कीड़ा कीट मिली बग mealy bug का मोमी आवरण waxy coating insect",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "FinalScore": 0.999900224125325,
+      "CrossScore": 0.999900224125325
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993620805197544,
+      "CrossScore": 0.9993620805197544
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango",
+      "FinalScore": 0.9993451895068349,
+      "CrossScore": 0.9993451895068349
+    },
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9989814306392882,
+      "CrossScore": 0.9989814306392882
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9988356917933088,
+      "CrossScore": 0.9988356917933088
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 0.9968523424223906,
+      "CrossScore": 0.9968523424223906
+    },
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General",
+      "FinalScore": 0.996460067591262,
+      "CrossScore": 0.996460067591262
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 0.9955357755420496,
+      "CrossScore": 0.9955357755420496
+    },
+    {
+      "Question": "बैंगन का 'तना व फल छेदक' (Shoot and Fruit Borer) कीट?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9951260234219713,
+      "CrossScore": 0.9951260234219713
+    },
+    {
+      "Question": "मिली बग का उपचार क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9951096123589193,
+      "CrossScore": 0.9951096123589193
+    }
+  ],
+  "latency_ms": 226.44,
+  "final_returned": [
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "Score": 0.999900224125325
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General",
+      "Score": 0.9993620805197544
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango",
+      "Score": 0.9993451895068349
+    },
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "Score": 0.9989814306392882
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "Score": 0.9988356917933088
+    }
+  ]
+}

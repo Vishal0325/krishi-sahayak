@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:40.338161",
+  "query_original": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+  "query_normalized": "पशुओं में गर्भपात abortion का मुख्य कारण",
+  "query_expanded": "पशुओं में गर्भपात abortion का मुख्य कारण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'बांझपन' का मुख्य कारण?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मक्का के भुट्टे (Cob) में दाने कम होने का मुख्य कारण?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी का मुख्य कारण?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General",
+      "FinalScore": 999.8892281747072,
+      "CrossScore": 0.9998892281747073
+    },
+    {
+      "Question": "पशुओं में 'लंगड़ापन' का कारण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9993721968329242,
+      "CrossScore": 0.9993721968329242
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी का मुख्य कारण?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992774528839679,
+      "CrossScore": 0.9992774528839679
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9992130388908953,
+      "CrossScore": 0.9992130388908953
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "FinalScore": 0.9991686484969899,
+      "CrossScore": 0.9991686484969899
+    },
+    {
+      "Question": "पशुओं में 'बांझपन' का मुख्य कारण?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999117761521946,
+      "CrossScore": 0.999117761521946
+    },
+    {
+      "Question": "'लीची' में 'फल झड़ने' का मुख्य कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999077945021991,
+      "CrossScore": 0.999077945021991
+    },
+    {
+      "Question": "गन्ने के टुकड़ों में 'अंकुरण' न होने का कारण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.998981855098296,
+      "CrossScore": 0.998981855098296
+    },
+    {
+      "Question": "टमाटर में 'फल फटने' का मुख्य कारण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9989684536716611,
+      "CrossScore": 0.9989684536716611
+    },
+    {
+      "Question": "मिर्च में 'मैंगनीज' की कमी का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9989485559456416,
+      "CrossScore": 0.9989485559456416
+    }
+  ],
+  "latency_ms": 290.14,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'गर्भपात' (Abortion) का मुख्य कारण?",
+      "Crop": "General",
+      "Score": 999.8892281747072
+    },
+    {
+      "Question": "पशुओं में 'लंगड़ापन' का कारण?",
+      "Crop": "Livestock",
+      "Score": 0.9993721968329242
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी का मुख्य कारण?",
+      "Crop": "Wheat",
+      "Score": 0.9992774528839679
+    },
+    {
+      "Question": "लहसुन में 'पीलापन' आने का मुख्य कारण क्या है?",
+      "Crop": "Vegetables",
+      "Score": 0.9992130388908953
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "Score": 0.9991686484969899
+    }
+  ]
+}

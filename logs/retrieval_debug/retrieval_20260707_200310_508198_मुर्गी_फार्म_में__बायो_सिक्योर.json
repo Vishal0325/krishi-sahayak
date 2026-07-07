@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:10.307455",
+  "query_original": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+  "query_normalized": "मुर्गी फार्म में बायो सिक्योरिटी bio security क्या है",
+  "query_expanded": "मुर्गी फार्म में बायो सिक्योरिटी bio security क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'सप्लाई चेन' (Supply Chain) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डेरी फार्म में 'बायो-सिक्योरिटी'?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "मुर्गी फार्म में 'वेंटिलेशन' क्यों जरूरी है?",
+      "Crop": "Poultry"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 999.894617671696,
+      "CrossScore": 0.999894617671696
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994108869312374,
+      "CrossScore": 0.9994108869312374
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9980932392276918,
+      "CrossScore": 0.9980932392276918
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9977880716655702,
+      "CrossScore": 0.9977880716655702
+    },
+    {
+      "Question": "फसल सुरक्षा में 'बायो-सिक्योरिटी'?",
+      "Crop": "General",
+      "FinalScore": 0.9977084843793721,
+      "CrossScore": 0.9977084843793721
+    },
+    {
+      "Question": "मुर्गी फार्म में 'वेंटिलेशन' क्यों जरूरी है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9976637706833569,
+      "CrossScore": 0.9976637706833569
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मजदूरी' अधिक लगती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9975188305459771,
+      "CrossScore": 0.9975188305459771
+    },
+    {
+      "Question": "कीटनाशकों के प्रयोग में 'सुरक्षा चक्र' क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9973673345895185,
+      "CrossScore": 0.9973673345895185
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.997302723387233,
+      "CrossScore": 0.997302723387233
+    },
+    {
+      "Question": "डेरी फार्म में 'बायो-सिक्योरिटी'?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9971756822043432,
+      "CrossScore": 0.9971756822043432
+    }
+  ],
+  "latency_ms": 200.79,
+  "final_returned": [
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "Score": 999.894617671696
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9994108869312374
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9980932392276918
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9977880716655702
+    },
+    {
+      "Question": "फसल सुरक्षा में 'बायो-सिक्योरिटी'?",
+      "Crop": "General",
+      "Score": 0.9977084843793721
+    }
+  ]
+}

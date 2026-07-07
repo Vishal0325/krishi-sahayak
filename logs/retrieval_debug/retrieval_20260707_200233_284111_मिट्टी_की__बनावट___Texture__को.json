@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:33.000693",
+  "query_original": "मिट्टी की 'बनावट' (Texture) को बदला जा सकता है?",
+  "query_normalized": "मिट्टी की बनावट texture को बदला जा सकता है",
+  "query_expanded": "मिट्टी की बनावट texture को बदला जा सकता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की 'बनावट' (Texture) को बदला जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को छाया में उगाया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद क्या मक्का बोया जा सकता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "क्या सिंचाई से कीटों को नियंत्रित किया जा सकता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की 'बनावट' (Texture) को बदला जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 999.9079705753653,
+      "CrossScore": 0.9999079705753653
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "FinalScore": 0.9994465444360406,
+      "CrossScore": 0.9994465444360406
+    },
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "FinalScore": 0.9993944361553259,
+      "CrossScore": 0.9993944361553259
+    },
+    {
+      "Question": "मिट्टी की कढोर परत (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "FinalScore": 0.999371705999291,
+      "CrossScore": 0.999371705999291
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' और मिट्टी की बनावट?",
+      "Crop": "General",
+      "FinalScore": 0.999246748014521,
+      "CrossScore": 0.999246748014521
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992253238984383,
+      "CrossScore": 0.9992253238984383
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9988884562551007,
+      "CrossScore": 0.9988884562551007
+    },
+    {
+      "Question": "क्या सिंचाई से कीटों को नियंत्रित किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9987923702937951,
+      "CrossScore": 0.9987923702937951
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.998769480568763,
+      "CrossScore": 0.998769480568763
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.998729775018134,
+      "CrossScore": 0.998729775018134
+    }
+  ],
+  "latency_ms": 283.46,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की 'बनावट' (Texture) को बदला जा सकता है?",
+      "Crop": "General",
+      "Score": 999.9079705753653
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "Score": 0.9994465444360406
+    },
+    {
+      "Question": "मिट्टी की 'कठोर परत' (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "Score": 0.9993944361553259
+    },
+    {
+      "Question": "मिट्टी की कढोर परत (Hard Pan) को कैसे तोड़ें?",
+      "Crop": "General",
+      "Score": 0.999371705999291
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' और मिट्टी की बनावट?",
+      "Crop": "General",
+      "Score": 0.999246748014521
+    }
+  ]
+}

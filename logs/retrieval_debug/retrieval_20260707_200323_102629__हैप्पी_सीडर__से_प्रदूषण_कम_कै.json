@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:22.889921",
+  "query_original": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+  "query_normalized": "हैप्पी सीडर से प्रदूषण कम कैसे होता है",
+  "query_expanded": "हैप्पी सीडर से प्रदूषण कम कैसे होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से रोजगार कम होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' से लागत कैसे कम होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM से खेती का खर्च कम होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General",
+      "FinalScore": 999.8971694632528,
+      "CrossScore": 0.9998971694632528
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998882719357057,
+      "CrossScore": 0.9998882719357057
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998881406009581,
+      "CrossScore": 0.9998881406009581
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998708869217502,
+      "CrossScore": 0.9998708869217502
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998696779623876,
+      "CrossScore": 0.9998696779623876
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से उपज में स्थिरता आती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998505283364811,
+      "CrossScore": 0.9998505283364811
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998251036476886,
+      "CrossScore": 0.9998251036476886
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से रोजगार कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998239357465953,
+      "CrossScore": 0.9998239357465953
+    },
+    {
+      "Question": "टमाटर की फसल में 'परागण' (Pollination) कैसे होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999822383117568,
+      "CrossScore": 0.999822383117568
+    },
+    {
+      "Question": "सॉयल सोलरिजेशन से पैसा कैसे बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998190402478789,
+      "CrossScore": 0.9998190402478789
+    }
+  ],
+  "latency_ms": 212.73,
+  "final_returned": [
+    {
+      "Question": "'हैप्पी सीडर' से प्रदूषण कम कैसे होता है?",
+      "Crop": "General",
+      "Score": 999.8971694632528
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) और हैप्पी सीडर में क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9998882719357057
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9998881406009581
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "Score": 0.9998708869217502
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "Score": 0.9998696779623876
+    }
+  ]
+}

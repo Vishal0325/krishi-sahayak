@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:31.575761",
+  "query_original": "कीटनाशकों के छिड़काव के लिए 'नोजल' (Nozzle) का चुनाव?",
+  "query_normalized": "कीटनाशकों के छिड़काव के लिए नोजल nozzle का चुनाव",
+  "query_expanded": "बग pest कीड़ा कीट कीटनाशकों के छिड़काव के लिए नोजल nozzle का चुनाव insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटनाशकों के छिड़काव के लिए 'नोजल' (Nozzle) का चुनाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "खरपतवारनाशकों के छिड़काव के लिए 'नोजल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डेरी फार्म के लिए 'स्थान' का चुनाव?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "FinalScore": 9.99653953637533,
+      "CrossScore": 0.999653953637533
+    },
+    {
+      "Question": "'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "General",
+      "FinalScore": 9.995742997049913,
+      "CrossScore": 0.9995742997049912
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' (Cone) नोजल?",
+      "Crop": "General",
+      "FinalScore": 9.994590546818245,
+      "CrossScore": 0.9994590546818244
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेटों का निस्तारण?",
+      "Crop": "General",
+      "FinalScore": 9.993726490180734,
+      "CrossScore": 0.9993726490180734
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' नोजल?",
+      "Crop": "General",
+      "FinalScore": 9.993513816984422,
+      "CrossScore": 0.9993513816984421
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.99232358732389,
+      "CrossScore": 0.9992323587323889
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.991517927767429,
+      "CrossScore": 0.9991517927767429
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.990115293201342,
+      "CrossScore": 0.9990115293201342
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.989855039583505,
+      "CrossScore": 0.9989855039583505
+    },
+    {
+      "Question": "कीटनाशकों के छिड़काव के लिए 'नोजल' (Nozzle) का चुनाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998723544329163,
+      "CrossScore": 0.9998723544329163
+    }
+  ],
+  "latency_ms": 207.49,
+  "final_returned": [
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "Score": 9.99653953637533
+    },
+    {
+      "Question": "'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "General",
+      "Score": 9.995742997049913
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' (Cone) नोजल?",
+      "Crop": "General",
+      "Score": 9.994590546818245
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेटों का निस्तारण?",
+      "Crop": "General",
+      "Score": 9.993726490180734
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' नोजल?",
+      "Crop": "General",
+      "Score": 9.993513816984422
+    }
+  ]
+}

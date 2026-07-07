@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:24.142873",
+  "query_original": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+  "query_normalized": "सब्जियों में फल मक्खी fruit fly का सबसे प्रभावी नियंत्रण",
+  "query_expanded": "सब्जियों में फल मक्खी fruit fly का सबसे प्रभावी नियंत्रण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "खीरा वर्गीय फसलों (Cucurbits) में 'फल मक्खी' का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "अमरूद का 'फल मक्खी' (Fruit Fly) कीट?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998838719974511,
+      "CrossScore": 0.9998838719974511
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998627207810743,
+      "CrossScore": 0.9998627207810743
+    },
+    {
+      "Question": "अमरूद का 'फल मक्खी' (Fruit Fly) कीट?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998223685521336,
+      "CrossScore": 0.9998223685521336
+    },
+    {
+      "Question": "खीरा वर्गीय फसलों (Cucurbits) में 'फल मक्खी' का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997866035800906,
+      "CrossScore": 0.9997866035800906
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999577927295904,
+      "CrossScore": 0.999577927295904
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9994798802377154,
+      "CrossScore": 0.9994798802377154
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9984001076902148,
+      "CrossScore": 0.9984001076902148
+    },
+    {
+      "Question": "भिंडी में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Okra",
+      "FinalScore": 0.9975993839130187,
+      "CrossScore": 0.9975993839130187
+    },
+    {
+      "Question": "फलों के पेड़ों में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9971229517976146,
+      "CrossScore": 0.9971229517976146
+    },
+    {
+      "Question": "लीची में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9968496645934383,
+      "CrossScore": 0.9968496645934383
+    }
+  ],
+  "latency_ms": 188.52,
+  "final_returned": [
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "Score": 0.9998838719974511
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "Score": 0.9998627207810743
+    },
+    {
+      "Question": "अमरूद का 'फल मक्खी' (Fruit Fly) कीट?",
+      "Crop": "Guava",
+      "Score": 0.9998223685521336
+    },
+    {
+      "Question": "खीरा वर्गीय फसलों (Cucurbits) में 'फल मक्खी' का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "Score": 0.9997866035800906
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "Score": 0.999577927295904
+    }
+  ]
+}

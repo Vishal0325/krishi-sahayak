@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:20.128477",
+  "query_original": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+  "query_normalized": "मिट्टी में जैविक कार्बन organic carbon का क्या महत्व है",
+  "query_expanded": "मिट्टी में जैविक कार्बन organic carbon का क्या महत्व है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 999.8953071783409,
+      "CrossScore": 0.9998953071783409
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998894676922049,
+      "CrossScore": 0.9998894676922049
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9987174955024504,
+      "CrossScore": 0.9987174955024504
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9986531727861345,
+      "CrossScore": 0.9986531727861345
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9985880093348352,
+      "CrossScore": 0.9985880093348352
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9985701729052939,
+      "CrossScore": 0.9985701729052939
+    },
+    {
+      "Question": "पत्तागोभी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9985481205441051,
+      "CrossScore": 0.9985481205441051
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9985468133905814,
+      "CrossScore": 0.9985468133905814
+    },
+    {
+      "Question": "हल्दी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9985294638314183,
+      "CrossScore": 0.9985294638314183
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9984772406118169,
+      "CrossScore": 0.9984772406118169
+    }
+  ],
+  "latency_ms": 231.97,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 999.8953071783409
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9998894676922049
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "Score": 0.9987174955024504
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9986531727861345
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "Score": 0.9985880093348352
+    }
+  ]
+}

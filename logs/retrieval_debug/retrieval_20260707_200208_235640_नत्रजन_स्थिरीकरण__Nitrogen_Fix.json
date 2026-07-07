@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:08.065261",
+  "query_original": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+  "query_normalized": "नत्रजन स्थिरीकरण nitrogen fixation क्या है",
+  "query_expanded": "nitrogen नत्रजन स्थिरीकरण nitrogen fixation क्या है नाइट्रोजन यूरिया urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मटर में 'नत्रजन' (Nitrogen) की कम जरूरत क्यों होती है?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8927443669098,
+      "CrossScore": 0.9998927443669098
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998637355584247,
+      "CrossScore": 0.9998637355584247
+    },
+    {
+      "Question": "मटर में 'नत्रजन' (Nitrogen) की कम जरूरत क्यों होती है?",
+      "Crop": "Pea",
+      "FinalScore": 0.999770833964612,
+      "CrossScore": 0.999770833964612
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra",
+      "FinalScore": 0.9997419793164023,
+      "CrossScore": 0.9997419793164023
+    },
+    {
+      "Question": "धनिया में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997298468568561,
+      "CrossScore": 0.9997298468568561
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9994209341095356,
+      "CrossScore": 0.9994209341095356
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9990475151678276,
+      "CrossScore": 0.9990475151678276
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9990302868365307,
+      "CrossScore": 0.9990302868365307
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.998972820083468,
+      "CrossScore": 0.998972820083468
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9989083300969942,
+      "CrossScore": 0.9989083300969942
+    }
+  ],
+  "latency_ms": 170.39,
+  "final_returned": [
+    {
+      "Question": "नत्रजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "Score": 999.8927443669098
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998637355584247
+    },
+    {
+      "Question": "मटर में 'नत्रजन' (Nitrogen) की कम जरूरत क्यों होती है?",
+      "Crop": "Pea",
+      "Score": 0.999770833964612
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra",
+      "Score": 0.9997419793164023
+    },
+    {
+      "Question": "धनिया में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Coriander",
+      "Score": 0.9997298468568561
+    }
+  ]
+}

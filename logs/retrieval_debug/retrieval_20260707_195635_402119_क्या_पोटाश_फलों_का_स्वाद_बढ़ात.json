@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:35.239735",
+  "query_original": "क्या पोटाश फलों का स्वाद बढ़ाता है?",
+  "query_normalized": "क्या पोटाश फलों का स्वाद बढ़ाता है",
+  "query_expanded": "क्या पोटाश फलों का स्वाद बढ़ाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या पोटाश फलों का स्वाद बढ़ाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में पोटाश का क्या महत्व है?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पत्तागोभी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999261274857572,
+      "CrossScore": 0.9999261274857572
+    },
+    {
+      "Question": "फूलों में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.99992405186907,
+      "CrossScore": 0.99992405186907
+    },
+    {
+      "Question": "मिर्च में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999221854565602,
+      "CrossScore": 0.9999221854565602
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999207637904061,
+      "CrossScore": 0.9999207637904061
+    },
+    {
+      "Question": "क्या पोटाश फलों का स्वाद बढ़ाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999198589761111,
+      "CrossScore": 0.9999198589761111
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999189857906747,
+      "CrossScore": 0.9999189857906747
+    },
+    {
+      "Question": "भिंडी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Okra",
+      "FinalScore": 0.999917507166321,
+      "CrossScore": 0.999917507166321
+    },
+    {
+      "Question": "केले में पोटाश का क्या महत्व है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9999166434203735,
+      "CrossScore": 0.9999166434203735
+    },
+    {
+      "Question": "अदरक में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999155366542544,
+      "CrossScore": 0.9999155366542544
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999151395290999,
+      "CrossScore": 0.9999151395290999
+    }
+  ],
+  "latency_ms": 162.48,
+  "final_returned": [
+    {
+      "Question": "पत्तागोभी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Cabbage",
+      "Score": 0.9999261274857572
+    },
+    {
+      "Question": "फूलों में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Floriculture",
+      "Score": 0.99992405186907
+    },
+    {
+      "Question": "मिर्च में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Chilli",
+      "Score": 0.9999221854565602
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "Score": 0.9999207637904061
+    },
+    {
+      "Question": "क्या पोटाश फलों का स्वाद बढ़ाता है?",
+      "Crop": "General",
+      "Score": 0.9999198589761111
+    }
+  ]
+}

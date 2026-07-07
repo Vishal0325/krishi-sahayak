@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:22.445118",
+  "query_original": "मौसम पूर्वानुमान (Weather Forecast) का किसान कैसे लाभ उठाएं?",
+  "query_normalized": "मौसम पूर्वानुमान weather forecast का किसान कैसे लाभ उठाएं",
+  "query_expanded": "मौसम पूर्वानुमान weather forecast का किसान कैसे लाभ उठाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम पूर्वानुमान (Weather Forecast) का किसान कैसे लाभ उठाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या किसान 'सहकारी समितियों' (Cooperatives) का लाभ ले सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पट्टेदार (Leased) किसान भी सरकारी योजनाओं का लाभ ले सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम पूर्वानुमान (Weather Forecast) का किसान कैसे लाभ उठाएं?",
+      "Crop": "General",
+      "FinalScore": 999.8990579362231,
+      "CrossScore": 0.9998990579362231
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995679053614143,
+      "CrossScore": 0.9995679053614143
+    },
+    {
+      "Question": "क्या पट्टेदार (Leased) किसान भी सरकारी योजनाओं का लाभ ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9959492802448247,
+      "CrossScore": 0.9959492802448247
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9955355445427472,
+      "CrossScore": 0.9955355445427472
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General",
+      "FinalScore": 0.9954799715942305,
+      "CrossScore": 0.9954799715942305
+    },
+    {
+      "Question": "क्या किसान अपनी फसल का खुद 'रिटेल' (Retail) आउटलेट खोल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9953999091396409,
+      "CrossScore": 0.9953999091396409
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9952573352379506,
+      "CrossScore": 0.9952573352379506
+    },
+    {
+      "Question": "क्या किसान अपना खुद का यूट्यूब चैनल (YouTube Channel) बना सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9951326427057294,
+      "CrossScore": 0.9951326427057294
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.994541012715856,
+      "CrossScore": 0.994541012715856
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9945407848933864,
+      "CrossScore": 0.9945407848933864
+    }
+  ],
+  "latency_ms": 243.42,
+  "final_returned": [
+    {
+      "Question": "मौसम पूर्वानुमान (Weather Forecast) का किसान कैसे लाभ उठाएं?",
+      "Crop": "General",
+      "Score": 999.8990579362231
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9995679053614143
+    },
+    {
+      "Question": "क्या पट्टेदार (Leased) किसान भी सरकारी योजनाओं का लाभ ले सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9959492802448247
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' का किराया बनाम लाभ?",
+      "Crop": "Economics",
+      "Score": 0.9955355445427472
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General",
+      "Score": 0.9954799715942305
+    }
+  ]
+}

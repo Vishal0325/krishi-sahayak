@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:29.086560",
+  "query_original": "कृषि उन्नति मेला?",
+  "query_normalized": "कृषि उन्नति मेला",
+  "query_expanded": "कृषि उन्नति मेला",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि उन्नति मेला?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बिहार में 'कृषि यंत्र मेला' का आयोजन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों के पार्ट्स (Spare Parts) कहाँ से खरीदें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि उन्नति मेला?",
+      "Crop": "General",
+      "FinalScore": 999.9297449926505,
+      "CrossScore": 0.9999297449926505
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999239706380446,
+      "CrossScore": 0.9999239706380446
+    },
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9999191747672208,
+      "CrossScore": 0.9999191747672208
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.999917423424494,
+      "CrossScore": 0.999917423424494
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "FinalScore": 0.999907873463797,
+      "CrossScore": 0.999907873463797
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics",
+      "FinalScore": 0.9999026888083205,
+      "CrossScore": 0.9999026888083205
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 0.9998999501150937,
+      "CrossScore": 0.9998999501150937
+    },
+    {
+      "Question": "'संवर्धित कृषि' (Conservation Agriculture) के तीन मुख्य सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9998972596359142,
+      "CrossScore": 0.9998972596359142
+    },
+    {
+      "Question": "कृषि यंत्रों के पार्ट्स (Spare Parts) कहाँ से खरीदें?",
+      "Crop": "General",
+      "FinalScore": 0.9998951861115297,
+      "CrossScore": 0.9998951861115297
+    },
+    {
+      "Question": "'कृषि में तकनीक' का अंतिम लक्ष्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998909133113748,
+      "CrossScore": 0.9998909133113748
+    }
+  ],
+  "latency_ms": 197.65,
+  "final_returned": [
+    {
+      "Question": "कृषि उन्नति मेला?",
+      "Crop": "General",
+      "Score": 999.9297449926505
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999239706380446
+    },
+    {
+      "Question": "'कृषि निर्यात' की बाधाएं?",
+      "Crop": "General",
+      "Score": 0.9999191747672208
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.999917423424494
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "Score": 0.999907873463797
+    }
+  ]
+}

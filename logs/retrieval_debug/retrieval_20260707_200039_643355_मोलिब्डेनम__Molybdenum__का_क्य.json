@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:39.395299",
+  "query_original": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+  "query_normalized": "मोलिब्डेनम molybdenum का क्या कार्य है",
+  "query_expanded": "मोलिब्डेनम molybdenum का क्या कार्य है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'सल्फर' (गंधक) का क्या कार्य है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 999.8984893926018,
+      "CrossScore": 0.9998984893926018
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998457084323993,
+      "CrossScore": 0.9998457084323993
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998423857427858,
+      "CrossScore": 0.9998423857427858
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998242874359302,
+      "CrossScore": 0.9998242874359302
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998151542893378,
+      "CrossScore": 0.9998151542893378
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998073074834505,
+      "CrossScore": 0.9998073074834505
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9997984999840348,
+      "CrossScore": 0.9997984999840348
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9997958437727507,
+      "CrossScore": 0.9997958437727507
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997730044681415,
+      "CrossScore": 0.9997730044681415
+    },
+    {
+      "Question": "रानी मधुमक्खी (Queen Bee) का क्या कार्य है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997551885451403,
+      "CrossScore": 0.9997551885451403
+    }
+  ],
+  "latency_ms": 248.1,
+  "final_returned": [
+    {
+      "Question": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 999.8984893926018
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998457084323993
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9998423857427858
+    },
+    {
+      "Question": "इमिडाक्लोप्रिड (Imidacloprid) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998242874359302
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9998151542893378
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:56.002677",
+  "query_original": "'माइकोराइजा' (Mycorrhiza) क्या है?",
+  "query_normalized": "माइकोराइजा mycorrhiza क्या है",
+  "query_expanded": "माइकोराइजा mycorrhiza क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'माइकोराइजा' (Mycorrhiza) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में 'माइकोराइजा' (Mycorrhiza) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'माइकोराइजा' (Mycorrhiza) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9034830228204,
+      "CrossScore": 0.9999034830228204
+    },
+    {
+      "Question": "मिट्टी में 'माइकोराइजा' (Mycorrhiza) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998980877587466,
+      "CrossScore": 0.9998980877587466
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9934620670615978,
+      "CrossScore": 0.9934620670615978
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9930979467259967,
+      "CrossScore": 0.9930979467259967
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9919993675408735,
+      "CrossScore": 0.9919993675408735
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9909521821458406,
+      "CrossScore": 0.9909521821458406
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9908794231949692,
+      "CrossScore": 0.9908794231949692
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9907625763654915,
+      "CrossScore": 0.9907625763654915
+    },
+    {
+      "Question": "'पंत हरितमा' किस्म की क्या विशेषता है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9904909208273153,
+      "CrossScore": 0.9904909208273153
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9876615812752716,
+      "CrossScore": 0.9876615812752716
+    }
+  ],
+  "latency_ms": 195.42,
+  "final_returned": [
+    {
+      "Question": "'माइकोराइजा' (Mycorrhiza) क्या है?",
+      "Crop": "General",
+      "Score": 999.9034830228204
+    },
+    {
+      "Question": "मिट्टी में 'माइकोराइजा' (Mycorrhiza) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998980877587466
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9934620670615978
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9930979467259967
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "Score": 0.9919993675408735
+    }
+  ]
+}

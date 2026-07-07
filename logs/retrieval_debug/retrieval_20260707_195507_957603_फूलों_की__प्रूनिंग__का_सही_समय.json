@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:07.743225",
+  "query_original": "फूलों की 'प्रूनिंग' का सही समय?",
+  "query_normalized": "फूलों की प्रूनिंग का सही समय",
+  "query_expanded": "फूलों की प्रूनिंग का सही समय",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलों की 'प्रूनिंग' का सही समय?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "अमरूद की 'प्रूनिंग' का सही समय?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च की 'प्रूनिंग' का सही समय?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "बैंगन की 'प्रूनिंग' का सही समय?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की 'प्रूनिंग' का सही समय?",
+      "Crop": "Dragon Fruit"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मटर की बुआई का सही समय?",
+      "Crop": "Pea",
+      "FinalScore": 0.999917904877833,
+      "CrossScore": 0.999917904877833
+    },
+    {
+      "Question": "सब्जियों की तुड़ाई (Harvesting) का सही समय क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9999157455675249,
+      "CrossScore": 0.9999157455675249
+    },
+    {
+      "Question": "अश्वगंधा की बुआई का सही समय?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999140064828166,
+      "CrossScore": 0.9999140064828166
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.999911142119029,
+      "CrossScore": 0.999911142119029
+    },
+    {
+      "Question": "फूलों की खेती में 'नर्सरी' का सही प्रबंधन?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9999090615595543,
+      "CrossScore": 0.9999090615595543
+    },
+    {
+      "Question": "गेहूं की कटाई का सही समय क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9999071874446211,
+      "CrossScore": 0.9999071874446211
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की 'प्रूनिंग' का सही समय?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9999071659354787,
+      "CrossScore": 0.9999071659354787
+    },
+    {
+      "Question": "मखाना की बुआई का सही समय?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999019179929496,
+      "CrossScore": 0.9999019179929496
+    },
+    {
+      "Question": "लीची की 'प्रूनिंग' का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998988312877457,
+      "CrossScore": 0.9998988312877457
+    },
+    {
+      "Question": "मिर्च की 'प्रूनिंग' का सही समय?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998964888644024,
+      "CrossScore": 0.9998964888644024
+    }
+  ],
+  "latency_ms": 214.5,
+  "final_returned": [
+    {
+      "Question": "मटर की बुआई का सही समय?",
+      "Crop": "Pea",
+      "Score": 0.999917904877833
+    },
+    {
+      "Question": "सब्जियों की तुड़ाई (Harvesting) का सही समय क्या है?",
+      "Crop": "Vegetables",
+      "Score": 0.9999157455675249
+    },
+    {
+      "Question": "अश्वगंधा की बुआई का सही समय?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999140064828166
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "Score": 0.999911142119029
+    },
+    {
+      "Question": "फूलों की खेती में 'नर्सरी' का सही प्रबंधन?",
+      "Crop": "Floriculture",
+      "Score": 0.9999090615595543
+    }
+  ]
+}

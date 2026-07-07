@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:31.551680",
+  "query_original": "गन्ने की पेड़ी फसल में 'छंटाई' (Stubble shaving)?",
+  "query_normalized": "गन्ने की पेड़ी फसल में छंटाई stubble shaving",
+  "query_expanded": "गन्ने की पेड़ी फसल में छंटाई stubble shaving",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने की पेड़ी फसल में 'छंटाई' (Stubble shaving)?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की 'पेड़ी' (Ratoon) फसल क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की पेड़ी फसल के लाभ?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "भिंडी की 'पेड़ी' (Ratoon) फसल?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने की पेड़ी फसल में 'छंटाई' (Stubble shaving)?",
+      "Crop": "Sugarcane",
+      "FinalScore": 999.9179666219287,
+      "CrossScore": 0.9999179666219287
+    },
+    {
+      "Question": "गन्ने की पेड़ी फसल के लाभ?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9953602376936684,
+      "CrossScore": 0.9953602376936684
+    },
+    {
+      "Question": "गन्ने में 'चोटी छेदक' (Top Borer) कीट की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9951639416899684,
+      "CrossScore": 0.9951639416899684
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9949740427681888,
+      "CrossScore": 0.9949740427681888
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9943669605209868,
+      "CrossScore": 0.9943669605209868
+    },
+    {
+      "Question": "गन्ने की 'पेड़ी' (Ratoon) फसल क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9940591054241397,
+      "CrossScore": 0.9940591054241397
+    },
+    {
+      "Question": "गन्ने में 'जिंक' की कमी से वानस्पतिक वृद्धि?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.994037541036441,
+      "CrossScore": 0.994037541036441
+    },
+    {
+      "Question": "गन्ने की खेती में 'यूरिया' की टॉप ड्रेसिंग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9939248045646389,
+      "CrossScore": 0.9939248045646389
+    },
+    {
+      "Question": "गन्ने की 'सघन' बुआई में उपज?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9927306148185064,
+      "CrossScore": 0.9927306148185064
+    },
+    {
+      "Question": "गन्ने में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.992181858942554,
+      "CrossScore": 0.992181858942554
+    }
+  ],
+  "latency_ms": 185.65,
+  "final_returned": [
+    {
+      "Question": "गन्ने की पेड़ी फसल में 'छंटाई' (Stubble shaving)?",
+      "Crop": "Sugarcane",
+      "Score": 999.9179666219287
+    },
+    {
+      "Question": "गन्ने की पेड़ी फसल के लाभ?",
+      "Crop": "Sugarcane",
+      "Score": 0.9953602376936684
+    },
+    {
+      "Question": "गन्ने में 'चोटी छेदक' (Top Borer) कीट की पहचान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9951639416899684
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9949740427681888
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.9943669605209868
+    }
+  ]
+}

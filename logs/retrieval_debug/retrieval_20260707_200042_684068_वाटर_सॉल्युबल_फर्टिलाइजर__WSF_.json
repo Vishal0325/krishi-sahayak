@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:42.496486",
+  "query_original": "वाटर सॉल्युबल फर्टिलाइजर (WSF) क्या हैं?",
+  "query_normalized": "वाटर सॉल्युबल फर्टिलाइजर wsf क्या हैं",
+  "query_expanded": "वाटर सॉल्युबल फर्टिलाइजर wsf क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वाटर सॉल्युबल फर्टिलाइजर (WSF) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वाटर सॉल्युबल फर्टिलाइजर (WSF) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9429445022464,
+      "CrossScore": 0.9999429445022464
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996816054779847,
+      "CrossScore": 0.9996816054779847
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996370980076295,
+      "CrossScore": 0.9996370980076295
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995987295912554,
+      "CrossScore": 0.9995987295912554
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999587228260427,
+      "CrossScore": 0.999587228260427
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995788087282044,
+      "CrossScore": 0.9995788087282044
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995756197728457,
+      "CrossScore": 0.9995756197728457
+    },
+    {
+      "Question": "क्या खरपतवारनाशी इंसानों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995499959505608,
+      "CrossScore": 0.9995499959505608
+    },
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995396107228507,
+      "CrossScore": 0.9995396107228507
+    },
+    {
+      "Question": "क्या एलोवेरा के कांटे खतरनाक हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999499281021565,
+      "CrossScore": 0.999499281021565
+    }
+  ],
+  "latency_ms": 187.63,
+  "final_returned": [
+    {
+      "Question": "वाटर सॉल्युबल फर्टिलाइजर (WSF) क्या हैं?",
+      "Crop": "General",
+      "Score": 999.9429445022464
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9996816054779847
+    },
+    {
+      "Question": "ब्रह्मास्त्र और अग्निस्त्र क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9996370980076295
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट ट्रैक्टर' क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9995987295912554
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.999587228260427
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:49.501711",
+  "query_original": "मिट्टी में 'मैग्नीशियम' का कार्य?",
+  "query_normalized": "मिट्टी में मैग्नीशियम का कार्य",
+  "query_expanded": "मिट्टी में मैग्नीशियम का कार्य",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में 'मैग्नीशियम' का कार्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में केंचुओं (Earthworms) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'मैग्नीशियम सल्फेट' का लाभ?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गन्ने में 'सिंचाई' का अंतराल मिट्टी के अनुसार?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में 'मैग्नीशियम' का कार्य?",
+      "Crop": "General",
+      "FinalScore": 999.8770992094372,
+      "CrossScore": 0.9998770992094372
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998850639957125,
+      "CrossScore": 0.9998850639957125
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998632888939125,
+      "CrossScore": 0.9998632888939125
+    },
+    {
+      "Question": "प्याज में 'सिंचाई' का अंतराल मिट्टी के अनुसार?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998622387422342,
+      "CrossScore": 0.9998622387422342
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998585135207178,
+      "CrossScore": 0.9998585135207178
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998582277568037,
+      "CrossScore": 0.9998582277568037
+    },
+    {
+      "Question": "मिट्टी में केंचुओं (Earthworms) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998558009229361,
+      "CrossScore": 0.9998558009229361
+    },
+    {
+      "Question": "मक्का में 'फाल आर्मीवर्म' के लिए 'नीम केक' का मिट्टी में प्रयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998540151182844,
+      "CrossScore": 0.9998540151182844
+    },
+    {
+      "Question": "गेहूं में 'काली मिट्टी' का प्रबंधन?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998521361575093,
+      "CrossScore": 0.9998521361575093
+    },
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998459815416314,
+      "CrossScore": 0.9998459815416314
+    }
+  ],
+  "latency_ms": 186.08,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में 'मैग्नीशियम' का कार्य?",
+      "Crop": "General",
+      "Score": 999.8770992094372
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998850639957125
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi",
+      "Score": 0.9998632888939125
+    },
+    {
+      "Question": "प्याज में 'सिंचाई' का अंतराल मिट्टी के अनुसार?",
+      "Crop": "Onion",
+      "Score": 0.9998622387422342
+    },
+    {
+      "Question": "मिट्टी में तांबा (Copper) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9998585135207178
+    }
+  ]
+}

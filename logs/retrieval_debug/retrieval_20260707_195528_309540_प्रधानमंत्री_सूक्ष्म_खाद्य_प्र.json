@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:28.065373",
+  "query_original": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना (PMFME)?",
+  "query_normalized": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना pmfme",
+  "query_expanded": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना pmfme खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना (PMFME)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना (PMFME)?",
+      "Crop": "General",
+      "FinalScore": 9.998565465714307,
+      "CrossScore": 0.9998565465714306
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9997701113420128,
+      "CrossScore": 0.9997701113420128
+    },
+    {
+      "Question": "प्रधानमंत्री कृषि सिंचाई योजना (PMKSY) के तहत 'पर ड्रॉप मोर क्रॉप'?",
+      "Crop": "General",
+      "FinalScore": 0.9997696286213105,
+      "CrossScore": 0.9997696286213105
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997639801063696,
+      "CrossScore": 0.9997639801063696
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.999751201717327,
+      "CrossScore": 0.999751201717327
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997420845847292,
+      "CrossScore": 0.9997420845847292
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9997264891092995,
+      "CrossScore": 0.9997264891092995
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.999724624019493,
+      "CrossScore": 0.999724624019493
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997114513312435,
+      "CrossScore": 0.9997114513312435
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997086185496598,
+      "CrossScore": 0.9997086185496598
+    }
+  ],
+  "latency_ms": 244.29,
+  "final_returned": [
+    {
+      "Question": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग योजना (PMFME)?",
+      "Crop": "General",
+      "Score": 9.998565465714307
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9997701113420128
+    },
+    {
+      "Question": "प्रधानमंत्री कृषि सिंचाई योजना (PMKSY) के तहत 'पर ड्रॉप मोर क्रॉप'?",
+      "Crop": "General",
+      "Score": 0.9997696286213105
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics",
+      "Score": 0.9997639801063696
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.999751201717327
+    }
+  ]
+}

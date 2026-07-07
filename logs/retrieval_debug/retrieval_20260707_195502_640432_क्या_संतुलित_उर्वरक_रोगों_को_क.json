@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:02.399861",
+  "query_original": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+  "query_normalized": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं",
+  "query_expanded": "फंगस बीमारी क्या संतुलित उर्वरक रोगों को कम कर सकते हैं fungus खाद poshak disease fertilizer झुलसा रोग उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक उर्वरक फसल सुरक्षा को बिगाड़ सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या रासायनिक और जैविक खाद को मिलाकर डाल सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या उर्वरकों को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998862973336447,
+      "CrossScore": 0.9998862973336448
+    },
+    {
+      "Question": "'संतुलित उर्वरक' और 'रोग प्रतिरोधक क्षमता'?",
+      "Crop": "General",
+      "FinalScore": 9.998655634473904,
+      "CrossScore": 0.9998655634473904
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997904722206354,
+      "CrossScore": 0.9997904722206353
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.997735606618877,
+      "CrossScore": 0.9997735606618876
+    },
+    {
+      "Question": "क्या रासायनिक और जैविक खाद को मिलाकर डाल सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998908737759198,
+      "CrossScore": 0.9998908737759198
+    },
+    {
+      "Question": "क्या उर्वरकों को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998891396226164,
+      "CrossScore": 0.9998891396226164
+    },
+    {
+      "Question": "क्या रासायनिक उर्वरक मिट्टी को खराब करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998888076106099,
+      "CrossScore": 0.9998888076106099
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998843313032961,
+      "CrossScore": 0.9998843313032961
+    },
+    {
+      "Question": "क्या जैव-उर्वरक रसायनों का विकल्प हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998825969066315,
+      "CrossScore": 0.9998825969066315
+    },
+    {
+      "Question": "क्या मिट्टी का नमूना खाद डालने के तुरंत बाद ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998773750060851,
+      "CrossScore": 0.9998773750060851
+    }
+  ],
+  "latency_ms": 240.69,
+  "final_returned": [
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "Score": 9.998862973336447
+    },
+    {
+      "Question": "'संतुलित उर्वरक' और 'रोग प्रतिरोधक क्षमता'?",
+      "Crop": "General",
+      "Score": 9.998655634473904
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.997904722206354
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "Score": 9.997735606618877
+    },
+    {
+      "Question": "क्या रासायनिक और जैविक खाद को मिलाकर डाल सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9998908737759198
+    }
+  ]
+}

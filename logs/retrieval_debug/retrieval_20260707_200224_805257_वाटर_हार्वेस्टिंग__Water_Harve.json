@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:24.608787",
+  "query_original": "वाटर हार्वेस्टिंग (Water Harvesting) क्या है?",
+  "query_normalized": "वाटर हार्वेस्टिंग water harvesting क्या है",
+  "query_expanded": "वाटर हार्वेस्टिंग water harvesting क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वाटर हार्वेस्टिंग (Water Harvesting) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों की तुड़ाई (Harvesting) का सही समय क्या है?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वाटर हार्वेस्टिंग (Water Harvesting) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9242132036272,
+      "CrossScore": 0.9999242132036272
+    },
+    {
+      "Question": "सब्जियों की तुड़ाई (Harvesting) का सही समय क्या है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997923391841769,
+      "CrossScore": 0.9997923391841769
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997504498029564,
+      "CrossScore": 0.9997504498029564
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9996240417228578,
+      "CrossScore": 0.9996240417228578
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995162885828343,
+      "CrossScore": 0.9995162885828343
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.99935182045035,
+      "CrossScore": 0.99935182045035
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9992232559851197,
+      "CrossScore": 0.9992232559851197
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991364390909505,
+      "CrossScore": 0.9991364390909505
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9989601590944212,
+      "CrossScore": 0.9989601590944212
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9985661005884451,
+      "CrossScore": 0.9985661005884451
+    }
+  ],
+  "latency_ms": 196.5,
+  "final_returned": [
+    {
+      "Question": "वाटर हार्वेस्टिंग (Water Harvesting) क्या है?",
+      "Crop": "General",
+      "Score": 999.9242132036272
+    },
+    {
+      "Question": "सब्जियों की तुड़ाई (Harvesting) का सही समय क्या है?",
+      "Crop": "Vegetables",
+      "Score": 0.9997923391841769
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits",
+      "Score": 0.9997504498029564
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General",
+      "Score": 0.9996240417228578
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "Score": 0.9995162885828343
+    }
+  ]
+}

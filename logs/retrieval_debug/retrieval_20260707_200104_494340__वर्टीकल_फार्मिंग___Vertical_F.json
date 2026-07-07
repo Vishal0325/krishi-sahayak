@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:04.275647",
+  "query_original": "'वर्टीकल फार्मिंग' (Vertical Farming) क्या है?",
+  "query_normalized": "वर्टीकल फार्मिंग vertical farming क्या है",
+  "query_expanded": "वर्टीकल फार्मिंग vertical farming क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'वर्टीकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'वर्टिकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अनुबंध खेती (Contract Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'वर्टीकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.919850263494,
+      "CrossScore": 0.9999198502634941
+    },
+    {
+      "Question": "'वर्टिकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998982125600954,
+      "CrossScore": 0.9998982125600954
+    },
+    {
+      "Question": "अनुबंध खेती (Contract Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995101412485418,
+      "CrossScore": 0.9995101412485418
+    },
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9994829390181498,
+      "CrossScore": 0.9994829390181498
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9994684049638093,
+      "CrossScore": 0.9994684049638093
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994582579994803,
+      "CrossScore": 0.9994582579994803
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.99945179254132,
+      "CrossScore": 0.99945179254132
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "FinalScore": 0.9993546368245746,
+      "CrossScore": 0.9993546368245746
+    },
+    {
+      "Question": "मुर्गी पालन (Poultry Farming) का परिचय क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9992904212355518,
+      "CrossScore": 0.9992904212355518
+    },
+    {
+      "Question": "खेती के साथ पशुपालन (Integrated Farming) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.999278653796289,
+      "CrossScore": 0.999278653796289
+    }
+  ],
+  "latency_ms": 218.72,
+  "final_returned": [
+    {
+      "Question": "'वर्टीकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "General",
+      "Score": 999.919850263494
+    },
+    {
+      "Question": "'वर्टिकल फार्मिंग' (Vertical Farming) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998982125600954
+    },
+    {
+      "Question": "अनुबंध खेती (Contract Farming) क्या है?",
+      "Crop": "General",
+      "Score": 0.9995101412485418
+    },
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9994829390181498
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9994684049638093
+    }
+  ]
+}

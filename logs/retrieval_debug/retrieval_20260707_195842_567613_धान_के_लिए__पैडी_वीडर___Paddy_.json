@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:42.327387",
+  "query_original": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+  "query_normalized": "धान के लिए पैडी वीडर paddy weeder का क्या लाभ है",
+  "query_expanded": "धान के लिए पैडी वीडर paddy weeder का क्या लाभ है",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "सरकारी योजनाओं का लाभ लेने के लिए आधार कार्ड जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99440516309011,
+      "CrossScore": 0.9998881032618021
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "FinalScore": 49.99168021463715,
+      "CrossScore": 0.9998336042927429
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 49.965389313028005,
+      "CrossScore": 0.9993077862605602
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.96343675050232,
+      "CrossScore": 0.9992687350100463
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.957730964056786,
+      "CrossScore": 0.9991546192811357
+    },
+    {
+      "Question": "धान के लिए सबसे अच्छी मिट्टी कौन सी है?",
+      "Crop": "Rice",
+      "FinalScore": 49.95719312063422,
+      "CrossScore": 0.9991438624126845
+    },
+    {
+      "Question": "धान की खेती का परिचय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.949919797770534,
+      "CrossScore": 0.9989983959554106
+    },
+    {
+      "Question": "श्री (SRI) विधि से धान की खेती के क्या लाभ हैं?",
+      "Crop": "Rice",
+      "FinalScore": 49.947869279053855,
+      "CrossScore": 0.998957385581077
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.93499582150381,
+      "CrossScore": 0.9986999164300762
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 49.928811580111606,
+      "CrossScore": 0.9985762316022322
+    }
+  ],
+  "latency_ms": 240.47,
+  "final_returned": [
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 49.99440516309011
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "Score": 49.99168021463715
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "Score": 49.965389313028005
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice",
+      "Score": 49.96343675050232
+    },
+    {
+      "Question": "धान का तना छेदक कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 49.957730964056786
+    }
+  ]
+}

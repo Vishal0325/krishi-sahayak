@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:37.192730",
+  "query_original": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+  "query_normalized": "इमैजेथापायर imazethapyr pursuit कब उपयोग करें",
+  "query_expanded": "इमैजेथापायर imazethapyr pursuit कब उपयोग करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "घृतकुमारी (Aloe Vera) की कटाई कब करें?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 999.9191202570231,
+      "CrossScore": 0.9999191202570231
+    },
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9991145735918273,
+      "CrossScore": 0.9991145735918273
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9986076392383939,
+      "CrossScore": 0.9986076392383939
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9984345010630603,
+      "CrossScore": 0.9984345010630603
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9981937644021466,
+      "CrossScore": 0.9981937644021466
+    },
+    {
+      "Question": "अंगूर के बाग में 'छंटाई' (Pruning) कब करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9980580232318295,
+      "CrossScore": 0.9980580232318295
+    },
+    {
+      "Question": "बैंगन की कटाई कब करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9978389082057679,
+      "CrossScore": 0.9978389082057679
+    },
+    {
+      "Question": "बैंगन के पौधों की रोपाई कब करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9976658680636776,
+      "CrossScore": 0.9976658680636776
+    },
+    {
+      "Question": "फलों को 'एक समान पकाने' के लिए क्या उपयोग करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9973822654409263,
+      "CrossScore": 0.9973822654409263
+    },
+    {
+      "Question": "मक्का की कटाई कब करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.997248170173117,
+      "CrossScore": 0.997248170173117
+    }
+  ],
+  "latency_ms": 179.1,
+  "final_returned": [
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General",
+      "Score": 999.9191202570231
+    },
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9991145735918273
+    },
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 0.9986076392383939
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "Score": 0.9984345010630603
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 0.9981937644021466
+    }
+  ]
+}

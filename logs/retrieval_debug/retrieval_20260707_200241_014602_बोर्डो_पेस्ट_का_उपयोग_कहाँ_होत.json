@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:40.787375",
+  "query_original": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+  "query_normalized": "बोर्डो पेस्ट का उपयोग कहाँ होता है",
+  "query_expanded": "बोर्डो पेस्ट का उपयोग कहाँ होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आयरन सल्फेट (Iron Sulphate) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ना कटाई मशीन (Sugarcane Harvester) का उपयोग कहाँ होता है?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 999.898712460694,
+      "CrossScore": 0.9998987124606941
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998858788116052,
+      "CrossScore": 0.9998858788116052
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998846859166333,
+      "CrossScore": 0.9998846859166333
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998802297760564,
+      "CrossScore": 0.9998802297760564
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998769351471446,
+      "CrossScore": 0.9998769351471446
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999875987205148,
+      "CrossScore": 0.999875987205148
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998696541006357,
+      "CrossScore": 0.9998696541006357
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9998669344675267,
+      "CrossScore": 0.9998669344675267
+    },
+    {
+      "Question": "सरसों के दानों का रंग काला क्यों होता है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998612486788091,
+      "CrossScore": 0.9998612486788091
+    },
+    {
+      "Question": "अमोनियम सल्फेट का उपयोग कहाँ करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998575985640232,
+      "CrossScore": 0.9998575985640232
+    }
+  ],
+  "latency_ms": 227.26,
+  "final_returned": [
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 999.898712460694
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9998858788116052
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "Score": 0.9998846859166333
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9998802297760564
+    },
+    {
+      "Question": "'धान' के हिस्पा कीट का हमला कब होता है?",
+      "Crop": "General",
+      "Score": 0.9998769351471446
+    }
+  ]
+}

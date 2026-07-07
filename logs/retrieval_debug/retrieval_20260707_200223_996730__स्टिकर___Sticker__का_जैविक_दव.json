@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:23.810830",
+  "query_original": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+  "query_normalized": "स्टिकर sticker का जैविक दवाओं में उपयोग",
+  "query_expanded": "स्टिकर sticker का जैविक दवाओं में उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का स्प्रे में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम की खली' का जैविक खेती में उपयोग?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.904087918669,
+      "CrossScore": 0.999904087918669
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का स्प्रे में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999150068746686,
+      "CrossScore": 0.9999150068746686
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9999133018321141,
+      "CrossScore": 0.9999133018321141
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996940510745754,
+      "CrossScore": 0.9996940510745754
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996526939321244,
+      "CrossScore": 0.9996526939321244
+    },
+    {
+      "Question": "'नीम की खली' का जैविक खेती में उपयोग?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9996509514579818,
+      "CrossScore": 0.9996509514579818
+    },
+    {
+      "Question": "'जैविक खेती' में 'धैर्य' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9996407327310443,
+      "CrossScore": 0.9996407327310443
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996333401973777,
+      "CrossScore": 0.9996333401973777
+    },
+    {
+      "Question": "'सरसों' में 'छाछिया' (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995884662794327,
+      "CrossScore": 0.9995884662794327
+    },
+    {
+      "Question": "जैविक दवाओं के पैकेट पर 'CFU' का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9995549258697144,
+      "CrossScore": 0.9995549258697144
+    }
+  ],
+  "latency_ms": 185.95,
+  "final_returned": [
+    {
+      "Question": "'स्टिकर' (Sticker) का जैविक दवाओं में उपयोग?",
+      "Crop": "General",
+      "Score": 999.904087918669
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का स्प्रे में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999150068746686
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9999133018321141
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9996940510745754
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9996526939321244
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:47.660103",
+  "query_original": "मशरूम की खेती में 'पानी का छिड़काव'?",
+  "query_normalized": "मशरूम की खेती में पानी का छिड़काव",
+  "query_expanded": "मशरूम की खेती में पानी का छिड़काव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'पानी का छिड़काव'?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का टीडीएस' (TDS)?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "चने की खेती में 'नमक के घोल' का छिड़काव क्या कीड़ों को रोकता है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मूंग की खेती में 'सल्फर' का छिड़काव?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'पानी का छिड़काव'?",
+      "Crop": "Mushroom",
+      "FinalScore": 999.9040947779325,
+      "CrossScore": 0.9999040947779325
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999356251082558,
+      "CrossScore": 0.9999356251082558
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का टीडीएस' (TDS)?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999253301426186,
+      "CrossScore": 0.9999253301426186
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999239234247616,
+      "CrossScore": 0.9999239234247616
+    },
+    {
+      "Question": "मशरूम की खेती में 'डार्क रूम' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999227433899603,
+      "CrossScore": 0.9999227433899603
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच पेपर' का उपयोग?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999919532754959,
+      "CrossScore": 0.999919532754959
+    },
+    {
+      "Question": "मशरूम की खेती में 'मजदूरी' की बचत?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999194510692235,
+      "CrossScore": 0.9999194510692235
+    },
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999141816261252,
+      "CrossScore": 0.9999141816261252
+    },
+    {
+      "Question": "मशरूम की खेती में सबसे बड़ी चुनौती?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999115797057654,
+      "CrossScore": 0.9999115797057654
+    },
+    {
+      "Question": "मशरूम की खेती में 'सफलता' का राज?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999075400839617,
+      "CrossScore": 0.9999075400839617
+    }
+  ],
+  "latency_ms": 185.87,
+  "final_returned": [
+    {
+      "Question": "मशरूम की खेती में 'पानी का छिड़काव'?",
+      "Crop": "Mushroom",
+      "Score": 999.9040947779325
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9999356251082558
+    },
+    {
+      "Question": "मशरूम की खेती में 'पानी का टीडीएस' (TDS)?",
+      "Crop": "Mushroom",
+      "Score": 0.9999253301426186
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9999239234247616
+    },
+    {
+      "Question": "मशरूम की खेती में 'डार्क रूम' का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9999227433899603
+    }
+  ]
+}

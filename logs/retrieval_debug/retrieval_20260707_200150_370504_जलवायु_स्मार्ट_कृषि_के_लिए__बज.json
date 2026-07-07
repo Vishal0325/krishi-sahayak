@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:50.158837",
+  "query_original": "जलवायु स्मार्ट कृषि के लिए 'बजट'?",
+  "query_normalized": "जलवायु स्मार्ट कृषि के लिए बजट",
+  "query_expanded": "जलवायु स्मार्ट कृषि के लिए बजट",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जलवायु स्मार्ट कृषि के लिए 'बजट'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "धनिया के लिए उपयुक्त जलवायु?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जलवायु स्मार्ट कृषि के लिए 'बजट'?",
+      "Crop": "General",
+      "FinalScore": 999.87632648156,
+      "CrossScore": 0.99987632648156
+    },
+    {
+      "Question": "टमाटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998839919726494,
+      "CrossScore": 0.9998839919726494
+    },
+    {
+      "Question": "बैंगन के लिए उपयुक्त जलवायु?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998248082244804,
+      "CrossScore": 0.9998248082244804
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998015332770525,
+      "CrossScore": 0.9998015332770525
+    },
+    {
+      "Question": "प्याज के लिए उपयुक्त जलवायु?",
+      "Crop": "Onion",
+      "FinalScore": 0.9997884852441566,
+      "CrossScore": 0.9997884852441566
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के लिए उपयुक्त जलवायु?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9997831919234875,
+      "CrossScore": 0.9997831919234875
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 0.9997811774454669,
+      "CrossScore": 0.9997811774454669
+    },
+    {
+      "Question": "लहसुन के लिए उपयुक्त जलवायु?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9997773470704232,
+      "CrossScore": 0.9997773470704232
+    },
+    {
+      "Question": "लीची के लिए उपयुक्त जलवायु?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9997759039301538,
+      "CrossScore": 0.9997759039301538
+    },
+    {
+      "Question": "पत्तागोभी के लिए उपयुक्त जलवायु?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.99976675408886,
+      "CrossScore": 0.99976675408886
+    }
+  ],
+  "latency_ms": 211.67,
+  "final_returned": [
+    {
+      "Question": "जलवायु स्मार्ट कृषि के लिए 'बजट'?",
+      "Crop": "General",
+      "Score": 999.87632648156
+    },
+    {
+      "Question": "टमाटर के लिए उपयुक्त जलवायु?",
+      "Crop": "Tomato",
+      "Score": 0.9998839919726494
+    },
+    {
+      "Question": "बैंगन के लिए उपयुक्त जलवायु?",
+      "Crop": "Brinjal",
+      "Score": 0.9998248082244804
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998015332770525
+    },
+    {
+      "Question": "प्याज के लिए उपयुक्त जलवायु?",
+      "Crop": "Onion",
+      "Score": 0.9997884852441566
+    }
+  ]
+}

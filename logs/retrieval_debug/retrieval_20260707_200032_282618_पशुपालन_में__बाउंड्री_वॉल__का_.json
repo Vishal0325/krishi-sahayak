@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:32.073099",
+  "query_original": "पशुपालन में 'बाउंड्री वॉल' का महत्व?",
+  "query_normalized": "पशुपालन में बाउंड्री वॉल का महत्व",
+  "query_expanded": "पशुपालन में बाउंड्री वॉल का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुपालन में 'बाउंड्री वॉल' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुपालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "चाफ कटर (Chaff Cutter) का पशुपालन में क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "भिंडी में 'फास्फोरस' का महत्व?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुपालन में 'बाउंड्री वॉल' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 999.8808727489571,
+      "CrossScore": 0.9998808727489571
+    },
+    {
+      "Question": "पशुपालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998833184448578,
+      "CrossScore": 0.9998833184448578
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998646193511984,
+      "CrossScore": 0.9998646193511984
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998599438747687,
+      "CrossScore": 0.9998599438747687
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998581460813203,
+      "CrossScore": 0.9998581460813203
+    },
+    {
+      "Question": "धनिया में पोटाश का क्या महत्व है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998530445942351,
+      "CrossScore": 0.9998530445942351
+    },
+    {
+      "Question": "खेती में 'दालों' की आत्मनिर्भरता का महत्व?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998411900404162,
+      "CrossScore": 0.9998411900404162
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998406498856239,
+      "CrossScore": 0.9998406498856239
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998267455329134,
+      "CrossScore": 0.9998267455329134
+    },
+    {
+      "Question": "ट्रैक्टर में 'एयर क्लीनर' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998245521220731,
+      "CrossScore": 0.9998245521220731
+    }
+  ],
+  "latency_ms": 209.55,
+  "final_returned": [
+    {
+      "Question": "पशुपालन में 'बाउंड्री वॉल' का महत्व?",
+      "Crop": "General",
+      "Score": 999.8808727489571
+    },
+    {
+      "Question": "पशुपालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.9998833184448578
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998646193511984
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "Score": 0.9998599438747687
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998581460813203
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:12.300419",
+  "query_original": "'एक्यूरेट' (Acetamiprid) का उपयोग?",
+  "query_normalized": "एक्यूरेट acetamiprid का उपयोग",
+  "query_expanded": "एक्यूरेट acetamiprid का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एक्यूरेट' (Acetamiprid) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी के 'अवशेषों' का उपयोग?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एक्यूरेट' (Acetamiprid) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999098604297674,
+      "CrossScore": 0.9999098604297674
+    },
+    {
+      "Question": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997568895605504,
+      "CrossScore": 0.9997568895605504
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997282192934449,
+      "CrossScore": 0.9997282192934449
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997240692254871,
+      "CrossScore": 0.9997240692254871
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996943825423387,
+      "CrossScore": 0.9996943825423387
+    },
+    {
+      "Question": "भिंडी के 'अवशेषों' का उपयोग?",
+      "Crop": "Okra",
+      "FinalScore": 0.9996938532473099,
+      "CrossScore": 0.9996938532473099
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996606403028591,
+      "CrossScore": 0.9996606403028591
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996546768494733,
+      "CrossScore": 0.9996546768494733
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996247850401891,
+      "CrossScore": 0.9996247850401891
+    },
+    {
+      "Question": "बैंगन के 'अवशेषों' का उपयोग?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9996030013389671,
+      "CrossScore": 0.9996030013389671
+    }
+  ],
+  "latency_ms": 192.98,
+  "final_returned": [
+    {
+      "Question": "'एक्यूरेट' (Acetamiprid) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999098604297674
+    },
+    {
+      "Question": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997568895605504
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "Score": 0.9997282192934449
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9997240692254871
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "Score": 0.9996943825423387
+    }
+  ]
+}

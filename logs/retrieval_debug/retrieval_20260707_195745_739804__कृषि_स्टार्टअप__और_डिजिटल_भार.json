@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:45.539236",
+  "query_original": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+  "query_normalized": "कृषि स्टार्टअप और डिजिटल भारत",
+  "query_expanded": "कृषि स्टार्टअप और डिजिटल भारत",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.9998885956679163,
+      "CrossScore": 0.9998885956679163
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "FinalScore": 0.9998875997838185,
+      "CrossScore": 0.9998875997838185
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998698436313003,
+      "CrossScore": 0.9998698436313003
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' और 'वेयरहाउसिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998656660895449,
+      "CrossScore": 0.9998656660895449
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General",
+      "FinalScore": 0.9998654231327784,
+      "CrossScore": 0.9998654231327784
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए सीड फंड?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998644386315959,
+      "CrossScore": 0.9998644386315959
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998576109199453,
+      "CrossScore": 0.9998576109199453
+    },
+    {
+      "Question": "'सीड ग्रैडिंग' और 'क्लीनिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998567839759452,
+      "CrossScore": 0.9998567839759452
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998545436825251,
+      "CrossScore": 0.9998545436825251
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998474395346324,
+      "CrossScore": 0.9998474395346324
+    }
+  ],
+  "latency_ms": 200.66,
+  "final_returned": [
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.9998885956679163
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "Score": 0.9998875997838185
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए 'आइडिया' कहाँ से लाएं?",
+      "Crop": "General",
+      "Score": 0.9998698436313003
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' और 'वेयरहाउसिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998656660895449
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और समस्या समाधान?",
+      "Crop": "General",
+      "Score": 0.9998654231327784
+    }
+  ]
+}

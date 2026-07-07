@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:05.550113",
+  "query_original": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+  "query_normalized": "लेजर लैंड लेवलर laser land leveler का सिंचाई में महत्व",
+  "query_expanded": "लेजर लैंड लेवलर laser land leveler का सिंचाई में महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'सिंचाई' के लिए 'लेजर लेवलिंग' का असर?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998928314706531,
+      "CrossScore": 0.9998928314706531
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998837967837487,
+      "CrossScore": 0.9998837967837487
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998790303359587,
+      "CrossScore": 0.9998790303359587
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9972457666037337,
+      "CrossScore": 0.9972457666037337
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का तकनीकी लाभ?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9969182582884681,
+      "CrossScore": 0.9969182582884681
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9965452471660147,
+      "CrossScore": 0.9965452471660147
+    },
+    {
+      "Question": "आलू में 'सिंचाई' के लिए 'लेजर लेवलिंग' का प्रभाव?",
+      "Crop": "Potato",
+      "FinalScore": 0.9952981992530646,
+      "CrossScore": 0.9952981992530646
+    },
+    {
+      "Question": "लहसुन में 'सिंचाई' के लिए 'लेजर लेवलिंग' का लाभ?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9952687463774782,
+      "CrossScore": 0.9952687463774782
+    },
+    {
+      "Question": "प्याज में 'सिंचाई' के लिए 'लेजर लेवलिंग' का असर?",
+      "Crop": "Onion",
+      "FinalScore": 0.9937873158998259,
+      "CrossScore": 0.9937873158998259
+    },
+    {
+      "Question": "गेहूं में 'सिंचाई' के लिए 'लेजर लेवलिंग' का असर?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9936238652442331,
+      "CrossScore": 0.9936238652442331
+    }
+  ],
+  "latency_ms": 226.76,
+  "final_returned": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998928314706531
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9998837967837487
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "Score": 0.9998790303359587
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "Score": 0.9972457666037337
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का तकनीकी लाभ?",
+      "Crop": "Agri Tech",
+      "Score": 0.9969182582884681
+    }
+  ]
+}

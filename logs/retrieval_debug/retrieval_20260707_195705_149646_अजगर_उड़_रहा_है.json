@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-07-07T19:57:04.429657",
+  "query_original": "अजगर उड़ रहा है",
+  "query_normalized": "अजगर उड़ रहा है",
+  "query_expanded": "अजगर उड़ रहा है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998923602481734,
+      "CrossScore": 0.9998923602481734
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998680594633368,
+      "CrossScore": 0.9998680594633368
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998459718485119,
+      "CrossScore": 0.9998459718485119
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998401463093758,
+      "CrossScore": 0.9998401463093758
+    },
+    {
+      "Question": "स्पिनोसाड (Spinosad) की क्या विशेषता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998352330164172,
+      "CrossScore": 0.9998352330164172
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998023709513071,
+      "CrossScore": 0.9998023709513071
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997960404779943,
+      "CrossScore": 0.9997960404779943
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999775992584328,
+      "CrossScore": 0.999775992584328
+    },
+    {
+      "Question": "स्वीट कॉर्न (Sweet Corn) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997642832560273,
+      "CrossScore": 0.9997642832560273
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997603414708265,
+      "CrossScore": 0.9997603414708265
+    }
+  ],
+  "latency_ms": 720.16,
+  "final_returned": [
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9998923602481734
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998680594633368
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "Score": 0.9998459718485119
+    }
+  ]
+}

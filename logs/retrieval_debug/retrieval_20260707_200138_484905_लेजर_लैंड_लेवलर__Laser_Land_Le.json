@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:38.274598",
+  "query_original": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+  "query_normalized": "लेजर लैंड लेवलर laser land leveler के क्या लाभ हैं",
+  "query_expanded": "लेजर लैंड लेवलर laser land leveler के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9056938082792,
+      "CrossScore": 0.9999056938082792
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998882531830429,
+      "CrossScore": 0.9998882531830429
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998743200831472,
+      "CrossScore": 0.9998743200831472
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9977440221185132,
+      "CrossScore": 0.9977440221185132
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का तकनीकी लाभ?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9976828023074915,
+      "CrossScore": 0.9976828023074915
+    },
+    {
+      "Question": "लेजर लेवलर के लाभ?",
+      "Crop": "Rice",
+      "FinalScore": 0.997006469601994,
+      "CrossScore": 0.997006469601994
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9965644423299395,
+      "CrossScore": 0.9965644423299395
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9962148013618098,
+      "CrossScore": 0.9962148013618098
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9956781136951636,
+      "CrossScore": 0.9956781136951636
+    },
+    {
+      "Question": "एफपीओ (FPO) से जुड़ने के व्यापारिक लाभ क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.995673360878762,
+      "CrossScore": 0.995673360878762
+    }
+  ],
+  "latency_ms": 210.34,
+  "final_returned": [
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 999.9056938082792
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9998882531830429
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "Score": 0.9998743200831472
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का मुख्य लाभ?",
+      "Crop": "General",
+      "Score": 0.9977440221185132
+    },
+    {
+      "Question": "'लेजर लैंड लेवलर' का तकनीकी लाभ?",
+      "Crop": "Agri Tech",
+      "Score": 0.9976828023074915
+    }
+  ]
+}

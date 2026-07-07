@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:26.183141",
+  "query_original": "मिट्टी परीक्षण (Soil Testing) कब करवाना चाहिए?",
+  "query_normalized": "मिट्टी परीक्षण soil testing कब करवाना चाहिए",
+  "query_expanded": "मिट्टी परीक्षण soil testing कब करवाना चाहिए",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) कब करवाना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) कब करवाना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999050386594093,
+      "CrossScore": 0.9999050386594093
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998659815972941,
+      "CrossScore": 0.9998659815972941
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9998101517478577,
+      "CrossScore": 0.9998101517478577
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998015359263254,
+      "CrossScore": 0.9998015359263254
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997831656685261,
+      "CrossScore": 0.9997831656685261
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "FinalScore": 0.9997105439970381,
+      "CrossScore": 0.9997105439970381
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9995821785064549,
+      "CrossScore": 0.9995821785064549
+    },
+    {
+      "Question": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.998467723657099,
+      "CrossScore": 0.998467723657099
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9978980037784886,
+      "CrossScore": 0.9978980037784886
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9976888299242608,
+      "CrossScore": 0.9976888299242608
+    }
+  ],
+  "latency_ms": 217.29,
+  "final_returned": [
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) कब करवाना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9999050386594093
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998659815972941
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9998101517478577
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9998015359263254
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "Score": 0.9997831656685261
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:18.156142",
+  "query_original": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+  "query_normalized": "आलू का कटुआ कीट cutworm सक्रियता",
+  "query_expanded": "बग pest कीड़ा कीट आलू का कटुआ कीट cutworm सक्रियता insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "FinalScore": 9.998885914185708,
+      "CrossScore": 0.9998885914185708
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "FinalScore": 9.998852766398818,
+      "CrossScore": 0.9998852766398817
+    },
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998560880099891,
+      "CrossScore": 0.999856088009989
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 9.996641859731213,
+      "CrossScore": 0.9996641859731212
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "FinalScore": 9.993810488968775,
+      "CrossScore": 0.9993810488968775
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.992512203269506,
+      "CrossScore": 0.9992512203269506
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.99057049415491,
+      "CrossScore": 0.9990570494154911
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 9.98912145278776,
+      "CrossScore": 0.998912145278776
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.987503525032295,
+      "CrossScore": 0.9987503525032295
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' (Potato Tuber Moth)?",
+      "Crop": "Potato",
+      "FinalScore": 9.987105771604627,
+      "CrossScore": 0.9987105771604626
+    }
+  ],
+  "latency_ms": 204.69,
+  "final_returned": [
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "Score": 9.998885914185708
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "Score": 9.998852766398818
+    },
+    {
+      "Question": "'कटुआ कीट' (Cutworm) क्या है?",
+      "Crop": "General",
+      "Score": 9.998560880099891
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "Score": 9.996641859731213
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "Score": 9.993810488968775
+    }
+  ]
+}

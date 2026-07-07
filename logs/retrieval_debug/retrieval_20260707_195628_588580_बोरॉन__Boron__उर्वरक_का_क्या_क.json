@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:28.412572",
+  "query_original": "बोरॉन (Boron) उर्वरक का क्या कार्य है?",
+  "query_normalized": "बोरॉन boron उर्वरक का क्या कार्य है",
+  "query_expanded": "खाद poshak fertilizer बोरॉन boron उर्वरक का क्या कार्य है उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बोरॉन (Boron) उर्वरक का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'सल्फर' (गंधक) का क्या कार्य है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'उर्वरक' बैग पर 10:26:26 का क्या मतलब है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बोरॉन (Boron) उर्वरक का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9999110303694804,
+      "CrossScore": 0.9999110303694804
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9995747215348217,
+      "CrossScore": 0.9995747215348217
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994881581911991,
+      "CrossScore": 0.9994881581911991
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9994799094871386,
+      "CrossScore": 0.9994799094871386
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9994692562961732,
+      "CrossScore": 0.9994692562961732
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9994542494203489,
+      "CrossScore": 0.9994542494203489
+    },
+    {
+      "Question": "मोलिब्डेनम (Molybdenum) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9994219156955847,
+      "CrossScore": 0.9994219156955847
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999421468673734,
+      "CrossScore": 0.999421468673734
+    },
+    {
+      "Question": "'बोरॉन' का पौधों में मुख्य कार्य?",
+      "Crop": "General",
+      "FinalScore": 0.9993856808834395,
+      "CrossScore": 0.9993856808834395
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9993719394923615,
+      "CrossScore": 0.9993719394923615
+    }
+  ],
+  "latency_ms": 176.12,
+  "final_returned": [
+    {
+      "Question": "बोरॉन (Boron) उर्वरक का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9999110303694804
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9995747215348217
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9994881581911991
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.9994799094871386
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9994692562961732
+    }
+  ]
+}

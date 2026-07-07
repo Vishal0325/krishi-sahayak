@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:04.354639",
+  "query_original": "फर्टिगेशन (Fertigation) क्या है?",
+  "query_normalized": "फर्टिगेशन fertigation क्या है",
+  "query_expanded": "फर्टिगेशन fertigation क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फर्टिगेशन (Fertigation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फर्टिगेशन से पानी बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फर्टिगेशन (Fertigation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9384591218296,
+      "CrossScore": 0.9999384591218297
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996553297177609,
+      "CrossScore": 0.9996553297177609
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9931084631378051,
+      "CrossScore": 0.9931084631378051
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'महिलाओं' के लिए अच्छी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9898093161587028,
+      "CrossScore": 0.9898093161587028
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9892795433208673,
+      "CrossScore": 0.9892795433208673
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9889795816863143,
+      "CrossScore": 0.9889795816863143
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9874195534196041,
+      "CrossScore": 0.9874195534196041
+    },
+    {
+      "Question": "क्या फर्टिगेशन से पानी बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9829659519852237,
+      "CrossScore": 0.9829659519852237
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9796929246841061,
+      "CrossScore": 0.9796929246841061
+    },
+    {
+      "Question": "'पंत हरितमा' किस्म की क्या विशेषता है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9777900743066946,
+      "CrossScore": 0.9777900743066946
+    }
+  ],
+  "latency_ms": 180.88,
+  "final_returned": [
+    {
+      "Question": "फर्टिगेशन (Fertigation) क्या है?",
+      "Crop": "General",
+      "Score": 999.9384591218296
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9996553297177609
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9931084631378051
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'महिलाओं' के लिए अच्छी है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9898093161587028
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9892795433208673
+    }
+  ]
+}

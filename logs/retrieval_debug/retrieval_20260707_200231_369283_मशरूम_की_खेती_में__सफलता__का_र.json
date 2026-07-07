@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:31.189434",
+  "query_original": "मशरूम की खेती में 'सफलता' का राज?",
+  "query_normalized": "मशरूम की खेती में सफलता का राज",
+  "query_expanded": "मशरूम की खेती में सफलता का राज",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'सफलता' का राज?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "औषधीय पौधों की खेती में 'सफलता' का गुप्त राज?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "गेहूं की 'शुष्क' खेती में सफलता का राज?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "अमरूद की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "औषधीय पौधों की खेती में सफलता का सूत्र?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'सफलता' का राज?",
+      "Crop": "Mushroom",
+      "FinalScore": 999.9102639471429,
+      "CrossScore": 0.9999102639471429
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999224839246761,
+      "CrossScore": 0.9999224839246761
+    },
+    {
+      "Question": "मशरूम की खेती में 'डार्क रूम' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999162941340249,
+      "CrossScore": 0.9999162941340249
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999144093995949,
+      "CrossScore": 0.9999144093995949
+    },
+    {
+      "Question": "मशरूम की खेती की सफलता का मुख्य मंत्र?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999038299292005,
+      "CrossScore": 0.9999038299292005
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच पेपर' का उपयोग?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9999008754407493,
+      "CrossScore": 0.9999008754407493
+    },
+    {
+      "Question": "गेहूं की 'शुष्क' खेती में सफलता का राज?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998906285447061,
+      "CrossScore": 0.9998906285447061
+    },
+    {
+      "Question": "धनिया की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998867862430736,
+      "CrossScore": 0.9998867862430736
+    },
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998844763637877,
+      "CrossScore": 0.9998844763637877
+    },
+    {
+      "Question": "औषधीय पौधों की खेती में 'सफलता' का गुप्त राज?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998823736879919,
+      "CrossScore": 0.9998823736879919
+    }
+  ],
+  "latency_ms": 179.9,
+  "final_returned": [
+    {
+      "Question": "मशरूम की खेती में 'सफलता' का राज?",
+      "Crop": "Mushroom",
+      "Score": 999.9102639471429
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9999224839246761
+    },
+    {
+      "Question": "मशरूम की खेती में 'डार्क रूम' का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9999162941340249
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9999144093995949
+    },
+    {
+      "Question": "मशरूम की खेती की सफलता का मुख्य मंत्र?",
+      "Crop": "Mushroom",
+      "Score": 0.9999038299292005
+    }
+  ]
+}

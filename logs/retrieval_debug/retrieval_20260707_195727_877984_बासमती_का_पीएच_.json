@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:27.703146",
+  "query_original": "बासमती का पीएच?",
+  "query_normalized": "बासमती का पीएच",
+  "query_expanded": "बासमती का पीएच",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बासमती का पीएच?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी की 'मृदा' का पीएच मान?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "दलहनी फसलों की 'मृदा' का पीएच कितना होना चाहिए?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अमरूद की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने की 'मृदा' का पीएच मान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999000852133444,
+      "CrossScore": 0.9999000852133444
+    },
+    {
+      "Question": "टमाटर की 'मृदा' का पीएच मान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998938647378848,
+      "CrossScore": 0.9998938647378848
+    },
+    {
+      "Question": "दलहनी फसलों की 'मृदा' का पीएच कितना होना चाहिए?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998890953200315,
+      "CrossScore": 0.9998890953200315
+    },
+    {
+      "Question": "बैंगन की 'मृदा' का पीएच मान?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998799068177723,
+      "CrossScore": 0.9998799068177723
+    },
+    {
+      "Question": "अमरूद की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998772657448539,
+      "CrossScore": 0.9998772657448539
+    },
+    {
+      "Question": "भिंडी की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998761296183701,
+      "CrossScore": 0.9998761296183701
+    },
+    {
+      "Question": "धनिया की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998743271536644,
+      "CrossScore": 0.9998743271536644
+    },
+    {
+      "Question": "मिर्च की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998729862781415,
+      "CrossScore": 0.9998729862781415
+    },
+    {
+      "Question": "बासमती का पीएच?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998723770702265,
+      "CrossScore": 0.9998723770702265
+    },
+    {
+      "Question": "धनिया की 'मृदा' का पीएच मान?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998714734641442,
+      "CrossScore": 0.9998714734641442
+    }
+  ],
+  "latency_ms": 174.91,
+  "final_returned": [
+    {
+      "Question": "गन्ने की 'मृदा' का पीएच मान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999000852133444
+    },
+    {
+      "Question": "टमाटर की 'मृदा' का पीएच मान?",
+      "Crop": "Tomato",
+      "Score": 0.9998938647378848
+    },
+    {
+      "Question": "दलहनी फसलों की 'मृदा' का पीएच कितना होना चाहिए?",
+      "Crop": "Pulses",
+      "Score": 0.9998890953200315
+    },
+    {
+      "Question": "बैंगन की 'मृदा' का पीएच मान?",
+      "Crop": "Brinjal",
+      "Score": 0.9998799068177723
+    },
+    {
+      "Question": "अमरूद की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Guava",
+      "Score": 0.9998772657448539
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:45.645539",
+  "query_original": "'लम्पी स्किन डिजीज' (LSD) के लक्षण?",
+  "query_normalized": "लम्पी स्किन डिजीज lsd के लक्षण",
+  "query_expanded": "लम्पी स्किन डिजीज lsd के लक्षण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'लम्पी स्किन डिजीज' (LSD) के लक्षण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों में 'जिंक' की कमी के लक्षण?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "भिंडी में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "मसूर में 'रतुआ' (Rust) रोग के लक्षण?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "गेहूं में जस्ते (Zinc) की कमी के क्या लक्षण हैं?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'लम्पी स्किन डिजीज' (LSD) के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9998684584369285,
+      "CrossScore": 0.9998684584369285
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "FinalScore": 0.9995762808970697,
+      "CrossScore": 0.9995762808970697
+    },
+    {
+      "Question": "लहसुन में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9995761483909962,
+      "CrossScore": 0.9995761483909962
+    },
+    {
+      "Question": "प्याज में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Onion",
+      "FinalScore": 0.9995058267829628,
+      "CrossScore": 0.9995058267829628
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी के लक्षण?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9993977044292313,
+      "CrossScore": 0.9993977044292313
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9993734240326593,
+      "CrossScore": 0.9993734240326593
+    },
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9992670309028533,
+      "CrossScore": 0.9992670309028533
+    },
+    {
+      "Question": "'पौधों' में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9992597459165494,
+      "CrossScore": 0.9992597459165494
+    },
+    {
+      "Question": "धनिया में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9992557607942264,
+      "CrossScore": 0.9992557607942264
+    },
+    {
+      "Question": "मक्का में जिंक की कमी के लक्षण क्या हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9992433393187528,
+      "CrossScore": 0.9992433393187528
+    }
+  ],
+  "latency_ms": 186.68,
+  "final_returned": [
+    {
+      "Question": "'लम्पी स्किन डिजीज' (LSD) के लक्षण?",
+      "Crop": "General",
+      "Score": 0.9998684584369285
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion",
+      "Score": 0.9995762808970697
+    },
+    {
+      "Question": "लहसुन में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Garlic",
+      "Score": 0.9995761483909962
+    },
+    {
+      "Question": "प्याज में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Onion",
+      "Score": 0.9995058267829628
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज' की कमी के लक्षण?",
+      "Crop": "Wheat",
+      "Score": 0.9993977044292313
+    }
+  ]
+}

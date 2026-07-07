@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:01.885704",
+  "query_original": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+  "query_normalized": "प्रेटिलाक्लोर pretilachlor का उपयोग",
+  "query_expanded": "प्रेटिलाक्लोर pretilachlor का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.9011297594122,
+      "CrossScore": 0.9999011297594123
+    },
+    {
+      "Question": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998402503810739,
+      "CrossScore": 0.9998402503810739
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999796356831701,
+      "CrossScore": 0.999796356831701
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997881178797547,
+      "CrossScore": 0.9997881178797547
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997801619420953,
+      "CrossScore": 0.9997801619420953
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997771705866253,
+      "CrossScore": 0.9997771705866253
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997751025325282,
+      "CrossScore": 0.9997751025325282
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997726819740596,
+      "CrossScore": 0.9997726819740596
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997643120215066,
+      "CrossScore": 0.9997643120215066
+    },
+    {
+      "Question": "तुलसी के तेल का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997391700210121,
+      "CrossScore": 0.9997391700210121
+    }
+  ],
+  "latency_ms": 217.75,
+  "final_returned": [
+    {
+      "Question": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+      "Crop": "General",
+      "Score": 999.9011297594122
+    },
+    {
+      "Question": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998402503810739
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.999796356831701
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997881178797547
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997801619420953
+    }
+  ]
+}

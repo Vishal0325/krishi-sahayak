@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:42.814344",
+  "query_original": "'एग्रीकल्चर इंश्योरेंस' स्टार्टअप?",
+  "query_normalized": "एग्रीकल्चर इंश्योरेंस स्टार्टअप",
+  "query_expanded": "एग्रीकल्चर इंश्योरेंस स्टार्टअप",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एग्रीकल्चर इंश्योरेंस' स्टार्टअप?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' में निवेश के अवसर?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'वैल्यू एडेड' खाद्य उत्पाद स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998956315295506,
+      "CrossScore": 0.9998956315295506
+    },
+    {
+      "Question": "'एग्रीकल्चर इंश्योरेंस' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998922818009505,
+      "CrossScore": 0.9998922818009505
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998818164877881,
+      "CrossScore": 0.9998818164877881
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' और 'वेयरहाउसिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999872320347674,
+      "CrossScore": 0.999872320347674
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "FinalScore": 0.9998685682688826,
+      "CrossScore": 0.9998685682688826
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' (CHC) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.999866573882282,
+      "CrossScore": 0.999866573882282
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और डिजिटल भारत?",
+      "Crop": "General",
+      "FinalScore": 0.9998657212865408,
+      "CrossScore": 0.9998657212865408
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998541114140971,
+      "CrossScore": 0.9998541114140971
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' उत्पादन एक स्टार्टअप के रूप में?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998512832369797,
+      "CrossScore": 0.9998512832369797
+    },
+    {
+      "Question": "एग्रीकल्चर एक्सपोर्ट जोन (AEZ) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998511121202686,
+      "CrossScore": 0.9998511121202686
+    }
+  ],
+  "latency_ms": 193.73,
+  "final_returned": [
+    {
+      "Question": "'वैल्यू एडेड' खाद्य उत्पाद स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998956315295506
+    },
+    {
+      "Question": "'एग्रीकल्चर इंश्योरेंस' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998922818009505
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998818164877881
+    },
+    {
+      "Question": "'कोल्ड स्टोरेज' और 'वेयरहाउसिंग' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.999872320347674
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' और ग्रामीण युवा?",
+      "Crop": "General",
+      "Score": 0.9998685682688826
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:38.310774",
+  "query_original": "'वीड कंट्रोल' में लेजर तकनीक?",
+  "query_normalized": "वीड कंट्रोल में लेजर तकनीक",
+  "query_expanded": "वीड कंट्रोल में लेजर तकनीक",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'वीड कंट्रोल' में लेजर तकनीक?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'सिंचाई' के लिए 'लेजर लेवलिंग' का असर?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "दलहनी फसलों में 'सिंचाई' की तकनीक?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'कृषि में तकनीक' का अंतिम लक्ष्य?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'वीड कंट्रोल' में लेजर तकनीक?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.8841957786354,
+      "CrossScore": 0.9998841957786354
+    },
+    {
+      "Question": "डेरी फार्म में 'फ्लाई कंट्रोल' (मक्खी नियंत्रण)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998364423746519,
+      "CrossScore": 0.9998364423746519
+    },
+    {
+      "Question": "'हाइड्रोपोनिक्स' में न्यूट्रिएंट फिल्म तकनीक (NFT)?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998244086952929,
+      "CrossScore": 0.9998244086952929
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998222589343502,
+      "CrossScore": 0.9998222589343502
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998150816600664,
+      "CrossScore": 0.9998150816600664
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997876478561722,
+      "CrossScore": 0.9997876478561722
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General",
+      "FinalScore": 0.9997533300944528,
+      "CrossScore": 0.9997533300944528
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General",
+      "FinalScore": 0.999749187256015,
+      "CrossScore": 0.999749187256015
+    },
+    {
+      "Question": "'कृषि में तकनीक' का अंतिम लक्ष्य?",
+      "Crop": "General",
+      "FinalScore": 0.9997490760342072,
+      "CrossScore": 0.9997490760342072
+    },
+    {
+      "Question": "'एग्रो-लॉजिस्टिक्स' में तकनीक?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9997425194676209,
+      "CrossScore": 0.9997425194676209
+    }
+  ],
+  "latency_ms": 172.92,
+  "final_returned": [
+    {
+      "Question": "'वीड कंट्रोल' में लेजर तकनीक?",
+      "Crop": "Agri Tech",
+      "Score": 999.8841957786354
+    },
+    {
+      "Question": "डेरी फार्म में 'फ्लाई कंट्रोल' (मक्खी नियंत्रण)?",
+      "Crop": "Dairy",
+      "Score": 0.9998364423746519
+    },
+    {
+      "Question": "'हाइड्रोपोनिक्स' में न्यूट्रिएंट फिल्म तकनीक (NFT)?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998244086952929
+    },
+    {
+      "Question": "लेजर लेवलर चलाने के लिए कितने एचपी का ट्रैक्टर चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998222589343502
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General",
+      "Score": 0.9998150816600664
+    }
+  ]
+}

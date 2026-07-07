@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:20.148021",
+  "query_original": "'कीटनाशक' और 'बच्चों की सुरक्षा'?",
+  "query_normalized": "कीटनाशक और बच्चों की सुरक्षा",
+  "query_expanded": "कीटनाशक और बच्चों की सुरक्षा बग pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशक' और 'बच्चों की सुरक्षा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का काढ़ा' और 'फलों' की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशक' और 'जल प्रदूषण'?",
+      "Crop": "General",
+      "FinalScore": 9.998856942091424,
+      "CrossScore": 0.9998856942091423
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "FinalScore": 9.998806923371298,
+      "CrossScore": 0.9998806923371298
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General",
+      "FinalScore": 9.998769472335338,
+      "CrossScore": 0.9998769472335338
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.998755646780785,
+      "CrossScore": 0.9998755646780785
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998559272292917,
+      "CrossScore": 0.9998559272292917
+    },
+    {
+      "Question": "'कीटनाशक' और 'बच्चों की सुरक्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.998551682809037,
+      "CrossScore": 0.9998551682809037
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.99835735936174,
+      "CrossScore": 0.999835735936174
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General",
+      "FinalScore": 9.997993137224096,
+      "CrossScore": 0.9997993137224096
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "FinalScore": 9.997907002445624,
+      "CrossScore": 0.9997907002445624
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997893177236532,
+      "CrossScore": 0.9997893177236533
+    }
+  ],
+  "latency_ms": 198.48,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशक' और 'जल प्रदूषण'?",
+      "Crop": "General",
+      "Score": 9.998856942091424
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "Score": 9.998806923371298
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General",
+      "Score": 9.998769472335338
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 9.998755646780785
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.998559272292917
+    }
+  ]
+}

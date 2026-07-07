@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:00.393097",
+  "query_original": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+  "query_normalized": "मुर्गी फार्म में रात का प्रबंधन",
+  "query_expanded": "मुर्गी फार्म में रात का प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "डेरी फार्म में 'गोबर' का सही प्रबंधन?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "मुर्गी फार्म में 'साउंड सिस्टम' का उपयोग?",
+      "Crop": "Poultry"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुर्गी फार्म में 'साउंड सिस्टम' का उपयोग?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999272159366559,
+      "CrossScore": 0.9999272159366559
+    },
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999262081013982,
+      "CrossScore": 0.9999262081013982
+    },
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999232509360974,
+      "CrossScore": 0.9999232509360974
+    },
+    {
+      "Question": "डेरी फार्म में 'गोबर' का सही प्रबंधन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999216490510258,
+      "CrossScore": 0.9999216490510258
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999214122944331,
+      "CrossScore": 0.9999214122944331
+    },
+    {
+      "Question": "मुर्गी फार्म में 'अजनबियों' का प्रवेश?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999187025437373,
+      "CrossScore": 0.9999187025437373
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999186325861135,
+      "CrossScore": 0.9999186325861135
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999145116881173,
+      "CrossScore": 0.9999145116881173
+    },
+    {
+      "Question": "'सोलर लाइट ट्रैप' का रात में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.999914455093794,
+      "CrossScore": 0.999914455093794
+    },
+    {
+      "Question": "टमाटर में 'रूट नॉट नीमेटोड' (Root Knot Nematode) का प्रबंधन?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999910012186219,
+      "CrossScore": 0.999910012186219
+    }
+  ],
+  "latency_ms": 174.35,
+  "final_returned": [
+    {
+      "Question": "मुर्गी फार्म में 'साउंड सिस्टम' का उपयोग?",
+      "Crop": "Poultry",
+      "Score": 0.9999272159366559
+    },
+    {
+      "Question": "मुर्गी फार्म में 'तापमान' का नियंत्रण?",
+      "Crop": "Poultry",
+      "Score": 0.9999262081013982
+    },
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry",
+      "Score": 0.9999232509360974
+    },
+    {
+      "Question": "डेरी फार्म में 'गोबर' का सही प्रबंधन?",
+      "Crop": "Dairy",
+      "Score": 0.9999216490510258
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry",
+      "Score": 0.9999214122944331
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:11.867289",
+  "query_original": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+  "query_normalized": "जीपीएस gps का ट्रैक्टर में क्या लाभ है",
+  "query_expanded": "जीपीएस gps का ट्रैक्टर में क्या लाभ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998945482103444,
+      "CrossScore": 0.9998945482103444
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997213706440371,
+      "CrossScore": 0.9997213706440371
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9995821950355426,
+      "CrossScore": 0.9995821950355426
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995616812506259,
+      "CrossScore": 0.9995616812506259
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9995568014107371,
+      "CrossScore": 0.9995568014107371
+    },
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9995296822428041,
+      "CrossScore": 0.9995296822428041
+    },
+    {
+      "Question": "सरसों की खेती में 'जिप्सम' का क्या लाभ है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9995165269025036,
+      "CrossScore": 0.9995165269025036
+    },
+    {
+      "Question": "क्या खेती में 'डेटा' (Data) का कोई उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9995158838159418,
+      "CrossScore": 0.9995158838159418
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994963572738917,
+      "CrossScore": 0.9994963572738917
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994815201240452,
+      "CrossScore": 0.9994815201240452
+    }
+  ],
+  "latency_ms": 212.56,
+  "final_returned": [
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998945482103444
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9997213706440371
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "Score": 0.9995821950355426
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables",
+      "Score": 0.9995616812506259
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9995568014107371
+    }
+  ]
+}

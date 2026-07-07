@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:57.505984",
+  "query_original": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+  "query_normalized": "रीपर बाइंडर reaper binder मशीन क्या है",
+  "query_expanded": "रीपर बाइंडर reaper binder मशीन क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान रोपाई मशीन (Rice Transplanter) का क्या महत्व है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9080646039005,
+      "CrossScore": 0.9999080646039005
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9997969741307507,
+      "CrossScore": 0.9997969741307507
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9995857569541007,
+      "CrossScore": 0.9995857569541007
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994981146162308,
+      "CrossScore": 0.9994981146162308
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994186950683381,
+      "CrossScore": 0.9994186950683381
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9991141782486039,
+      "CrossScore": 0.9991141782486039
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9990875684231628,
+      "CrossScore": 0.9990875684231628
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9990332323510509,
+      "CrossScore": 0.9990332323510509
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.998984984805909,
+      "CrossScore": 0.998984984805909
+    },
+    {
+      "Question": "मल्चिंग मशीन (Mulching Machine) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9989280940908081,
+      "CrossScore": 0.9989280940908081
+    }
+  ],
+  "latency_ms": 210.84,
+  "final_returned": [
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 999.9080646039005
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General",
+      "Score": 0.9997969741307507
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9995857569541007
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "Score": 0.9994981146162308
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9994186950683381
+    }
+  ]
+}

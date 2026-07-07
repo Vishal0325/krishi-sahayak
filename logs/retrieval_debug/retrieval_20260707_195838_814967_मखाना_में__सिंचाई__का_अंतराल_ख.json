@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:38.619247",
+  "query_original": "मखाना में 'सिंचाई' का अंतराल खेत विधि में?",
+  "query_normalized": "मखाना में सिंचाई का अंतराल खेत विधि में",
+  "query_expanded": "मखाना में सिंचाई का अंतराल खेत विधि में",
+  "detected_crops": [
+    "Makhana"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मखाना में 'सिंचाई' का अंतराल खेत विधि में?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "मखाना के खेत में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "मखाना में 'सिंचाई' के लिए 'नहर' का पानी?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "'मखाना' की 'खेत विधि' (Field System)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का सिंचाई में महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99557667440679,
+      "CrossScore": 0.9999115334881359
+    },
+    {
+      "Question": "मखाना में 'सिंचाई' का अंतराल खेत विधि में?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99509601188113,
+      "CrossScore": 0.9999019202376226
+    },
+    {
+      "Question": "मखाना की 'खेत विधि' (Field System) क्या है?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99456287478202,
+      "CrossScore": 0.9998912574956405
+    },
+    {
+      "Question": "मखाना के खेत में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99449582080657,
+      "CrossScore": 0.9998899164161315
+    },
+    {
+      "Question": "मखाना में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99440855515664,
+      "CrossScore": 0.9998881711031328
+    },
+    {
+      "Question": "मखाना में 'सिंचाई' के लिए 'नहर' का पानी?",
+      "Crop": "Makhana",
+      "FinalScore": 49.994295229975585,
+      "CrossScore": 0.9998859045995117
+    },
+    {
+      "Question": "मखाना में 'फास्फोरस' का महत्व?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99406345514802,
+      "CrossScore": 0.9998812691029605
+    },
+    {
+      "Question": "मखाना की खेती में 'सफलता' का सबसे बड़ा सूत्र?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99398968113143,
+      "CrossScore": 0.9998797936226286
+    },
+    {
+      "Question": "मखाना में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99325357883115,
+      "CrossScore": 0.999865071576623
+    },
+    {
+      "Question": "मखाना में 'जिंक' की कमी से पत्तों का आकार?",
+      "Crop": "Makhana",
+      "FinalScore": 49.99314071719453,
+      "CrossScore": 0.9998628143438906
+    }
+  ],
+  "latency_ms": 195.84,
+  "final_returned": [
+    {
+      "Question": "मखाना में खाद और उर्वरक की मात्रा?",
+      "Crop": "Makhana",
+      "Score": 49.99557667440679
+    },
+    {
+      "Question": "मखाना में 'सिंचाई' का अंतराल खेत विधि में?",
+      "Crop": "Makhana",
+      "Score": 49.99509601188113
+    },
+    {
+      "Question": "मखाना की 'खेत विधि' (Field System) क्या है?",
+      "Crop": "Makhana",
+      "Score": 49.99456287478202
+    },
+    {
+      "Question": "मखाना के खेत में 'चूहों' और 'नेवलों' का प्रबंधन?",
+      "Crop": "Makhana",
+      "Score": 49.99449582080657
+    },
+    {
+      "Question": "मखाना में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Makhana",
+      "Score": 49.99440855515664
+    }
+  ]
+}

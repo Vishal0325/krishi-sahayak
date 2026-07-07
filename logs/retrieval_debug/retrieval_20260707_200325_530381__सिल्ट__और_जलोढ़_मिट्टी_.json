@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:25.341857",
+  "query_original": "'सिल्ट' और जलोढ़ मिट्टी?",
+  "query_normalized": "सिल्ट और जलोढ़ मिट्टी",
+  "query_expanded": "सिल्ट और जलोढ़ मिट्टी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सिल्ट' और जलोढ़ मिट्टी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सिल्ट' और मिट्टी की उर्वरता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम की खाद' और 'मिट्टी के कीड़े'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सिल्ट' और जलोढ़ मिट्टी?",
+      "Crop": "General",
+      "FinalScore": 999.8996614796974,
+      "CrossScore": 0.9998996614796974
+    },
+    {
+      "Question": "'लवणीय मिट्टी' और सफेद परत?",
+      "Crop": "General",
+      "FinalScore": 0.9998906756751391,
+      "CrossScore": 0.9998906756751391
+    },
+    {
+      "Question": "फफूंदनाशक और 'मिट्टी का स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9998894038012445,
+      "CrossScore": 0.9998894038012445
+    },
+    {
+      "Question": "'मल्चिंग' (Mulching) और मिट्टी का तापमान?",
+      "Crop": "General",
+      "FinalScore": 0.9998883788509654,
+      "CrossScore": 0.9998883788509654
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.9998867373280673,
+      "CrossScore": 0.9998867373280673
+    },
+    {
+      "Question": "कीटनाशक और 'मिट्टी के सूक्ष्मजीव'?",
+      "Crop": "General",
+      "FinalScore": 0.99988592418137,
+      "CrossScore": 0.99988592418137
+    },
+    {
+      "Question": "'सिल्ट' (Silt) मिट्टी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998847896716052,
+      "CrossScore": 0.9998847896716052
+    },
+    {
+      "Question": "'सिल्ट' और मिट्टी की उर्वरता?",
+      "Crop": "General",
+      "FinalScore": 0.9998846086992967,
+      "CrossScore": 0.9998846086992967
+    },
+    {
+      "Question": "'वर्मीकम्पोस्ट' और मिट्टी की बनावट?",
+      "Crop": "General",
+      "FinalScore": 0.9998836647374797,
+      "CrossScore": 0.9998836647374797
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की संरचना'?",
+      "Crop": "General",
+      "FinalScore": 0.999883407755029,
+      "CrossScore": 0.999883407755029
+    }
+  ],
+  "latency_ms": 188.55,
+  "final_returned": [
+    {
+      "Question": "'सिल्ट' और जलोढ़ मिट्टी?",
+      "Crop": "General",
+      "Score": 999.8996614796974
+    },
+    {
+      "Question": "'लवणीय मिट्टी' और सफेद परत?",
+      "Crop": "General",
+      "Score": 0.9998906756751391
+    },
+    {
+      "Question": "फफूंदनाशक और 'मिट्टी का स्वास्थ्य'?",
+      "Crop": "General",
+      "Score": 0.9998894038012445
+    },
+    {
+      "Question": "'मल्चिंग' (Mulching) और मिट्टी का तापमान?",
+      "Crop": "General",
+      "Score": 0.9998883788509654
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "Score": 0.9998867373280673
+    }
+  ]
+}

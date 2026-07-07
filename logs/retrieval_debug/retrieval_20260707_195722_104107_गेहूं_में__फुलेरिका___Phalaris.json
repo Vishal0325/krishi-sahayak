@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:21.916039",
+  "query_original": "गेहूं में 'फुलेरिका' (Phalaris minor) क्या है?",
+  "query_normalized": "गेहूं में फुलेरिका phalaris minor क्या है",
+  "query_expanded": "गेहूं में फुलेरिका phalaris minor क्या है",
+  "detected_crops": [
+    "Wheat"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गेहूं में 'फुलेरिका' (Phalaris minor) क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की खेती में सबसे बड़ी चुनौती क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गेहूं में 'फुलेरिका' (Phalaris minor) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.996513982521975,
+      "CrossScore": 0.9999302796504395
+    },
+    {
+      "Question": "गेहूं में 'गुल्ली डंडा' (Phalaris minor) के लिए दवा?",
+      "Crop": "Wheat",
+      "FinalScore": 49.99522398772201,
+      "CrossScore": 0.9999044797544401
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.984126800417556,
+      "CrossScore": 0.9996825360083511
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) रोग क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.9829929932249,
+      "CrossScore": 0.9996598598644979
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.98289265228338,
+      "CrossScore": 0.9996578530456677
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.9823479558618,
+      "CrossScore": 0.999646959117236
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.981742843912116,
+      "CrossScore": 0.9996348568782424
+    },
+    {
+      "Question": "गेहूं का 'कंगियारी' या 'लूज स्मट' (Loose Smut) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.98122611987837,
+      "CrossScore": 0.9996245223975675
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.980021202277634,
+      "CrossScore": 0.9996004240455526
+    },
+    {
+      "Question": "गेहूं की 'HD 2967' बिहार में क्या अभी भी अच्छी है?",
+      "Crop": "Wheat",
+      "FinalScore": 49.97932991987909,
+      "CrossScore": 0.9995865983975819
+    }
+  ],
+  "latency_ms": 188.18,
+  "final_returned": [
+    {
+      "Question": "गेहूं में 'फुलेरिका' (Phalaris minor) क्या है?",
+      "Crop": "Wheat",
+      "Score": 49.996513982521975
+    },
+    {
+      "Question": "गेहूं में 'गुल्ली डंडा' (Phalaris minor) के लिए दवा?",
+      "Crop": "Wheat",
+      "Score": 49.99522398772201
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "Score": 49.984126800417556
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) रोग क्या है?",
+      "Crop": "Wheat",
+      "Score": 49.9829929932249
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat",
+      "Score": 49.98289265228338
+    }
+  ]
+}

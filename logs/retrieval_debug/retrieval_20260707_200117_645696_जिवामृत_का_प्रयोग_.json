@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:17.292017",
+  "query_original": "जिवामृत का प्रयोग?",
+  "query_normalized": "जिवामृत का प्रयोग",
+  "query_expanded": "जिवामृत का प्रयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जिवामृत का प्रयोग?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "आम के फल पकने के लिए 'कैल्शियम कार्बाइड' का प्रयोग क्यों नहीं करना चाहिए?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जिवामृत का प्रयोग?",
+      "Crop": "Rice",
+      "FinalScore": 999.897709802344,
+      "CrossScore": 0.999897709802344
+    },
+    {
+      "Question": "'जीवामृत' का नियमित प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998994905442825,
+      "CrossScore": 0.9998994905442825
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998847015298108,
+      "CrossScore": 0.9998847015298108
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998754375325934,
+      "CrossScore": 0.9998754375325934
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'नमी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998670118444435,
+      "CrossScore": 0.9998670118444435
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998649755618161,
+      "CrossScore": 0.9998649755618161
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998644699098437,
+      "CrossScore": 0.9998644699098437
+    },
+    {
+      "Question": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998609090332776,
+      "CrossScore": 0.9998609090332776
+    },
+    {
+      "Question": "क्या यूरिया का अधिक प्रयोग फसल को गिरा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998577125779754,
+      "CrossScore": 0.9998577125779754
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998529791403555,
+      "CrossScore": 0.9998529791403555
+    }
+  ],
+  "latency_ms": 353.73,
+  "final_returned": [
+    {
+      "Question": "जिवामृत का प्रयोग?",
+      "Crop": "Rice",
+      "Score": 999.897709802344
+    },
+    {
+      "Question": "'जीवामृत' का नियमित प्रयोग?",
+      "Crop": "General",
+      "Score": 0.9998994905442825
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998847015298108
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables",
+      "Score": 0.9998754375325934
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'नमी'?",
+      "Crop": "General",
+      "Score": 0.9998670118444435
+    }
+  ]
+}

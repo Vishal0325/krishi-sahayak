@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:56:46.720359",
+  "query_original": "'धान' के 'जीवाणु झुलसा' (BLB) का घरेलू उपचार?",
+  "query_normalized": "धान के जीवाणु झुलसा blb का घरेलू उपचार",
+  "query_expanded": "धान के जीवाणु झुलसा blb का घरेलू उपचार फंगस बीमारी fungus disease झुलसा रोग",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'धान' के 'जीवाणु झुलसा' (BLB) का घरेलू उपचार?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (BLB) का फैलना?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का जीवाणु झुलसा' (BLB) और 'तेज हवा'?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'धान' के 'जीवाणु झुलसा' (BLB) का घरेलू उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 499.939412995531,
+      "CrossScore": 0.9998788259910619
+    },
+    {
+      "Question": "'धान का जीवाणु झुलसा' (BLB) और 'तेज हवा'?",
+      "Crop": "Rice",
+      "FinalScore": 499.93627889060707,
+      "CrossScore": 0.9998725577812141
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (BLB) का फैलना?",
+      "Crop": "Rice",
+      "FinalScore": 499.90303951057524,
+      "CrossScore": 0.9998060790211505
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "FinalScore": 499.88580067951756,
+      "CrossScore": 0.9997716013590351
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 499.8834488538849,
+      "CrossScore": 0.9997668977077697
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "FinalScore": 499.8655668431156,
+      "CrossScore": 0.9997311336862311
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' के लिए 'एंटीबायोटिक'?",
+      "Crop": "Rice",
+      "FinalScore": 499.85384906514344,
+      "CrossScore": 0.9997076981302869
+    },
+    {
+      "Question": "'धान' में 'अंगमारी' (Blight) का रासायनिक उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 499.8517698222422,
+      "CrossScore": 0.9997035396444844
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "FinalScore": 499.835819507036,
+      "CrossScore": 0.999671639014072
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 499.83321868539247,
+      "CrossScore": 0.999666437370785
+    }
+  ],
+  "latency_ms": 237.31,
+  "final_returned": [
+    {
+      "Question": "'धान' के 'जीवाणु झुलसा' (BLB) का घरेलू उपचार?",
+      "Crop": "Rice",
+      "Score": 499.939412995531
+    },
+    {
+      "Question": "'धान का जीवाणु झुलसा' (BLB) और 'तेज हवा'?",
+      "Crop": "Rice",
+      "Score": 499.93627889060707
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (BLB) का फैलना?",
+      "Crop": "Rice",
+      "Score": 499.90303951057524
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "Score": 499.88580067951756
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "Score": 499.8834488538849
+    }
+  ]
+}

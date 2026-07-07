@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:18.832988",
+  "query_original": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+  "query_normalized": "कीटों के प्रबंधन in फसल चक्र का क्या लाभ है",
+  "query_expanded": "बग कीटों के प्रबंधन in फसल चक्र का क्या लाभ है pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "फसल चक्र और मौसम का क्या संबंध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.999043747651372,
+      "CrossScore": 0.9999043747651373
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998921832502846,
+      "CrossScore": 0.9998921832502846
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.998894169830951,
+      "CrossScore": 0.9998894169830951
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.998830669418782,
+      "CrossScore": 0.9998830669418781
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99881665943826,
+      "CrossScore": 0.999881665943826
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.998790313741196,
+      "CrossScore": 0.9998790313741197
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.998784788552257,
+      "CrossScore": 0.9998784788552257
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.998506863142623,
+      "CrossScore": 0.9998506863142623
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General",
+      "FinalScore": 9.99821517966447,
+      "CrossScore": 0.9998215179664469
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General",
+      "FinalScore": 9.997394595747112,
+      "CrossScore": 0.9997394595747112
+    }
+  ],
+  "latency_ms": 391.44,
+  "final_returned": [
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.999043747651372
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.998921832502846
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.998894169830951
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "Score": 9.998830669418782
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 9.99881665943826
+    }
+  ]
+}

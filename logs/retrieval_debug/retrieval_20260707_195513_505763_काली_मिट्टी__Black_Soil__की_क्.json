@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:13.241658",
+  "query_original": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+  "query_normalized": "काली मिट्टी black soil की क्या विशेषताएं हैं",
+  "query_expanded": "काली मिट्टी black soil की क्या विशेषताएं हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बलुई मिट्टी (Sandy Soil) के क्या दोष हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999187818905865,
+      "CrossScore": 0.9999187818905865
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998262366328025,
+      "CrossScore": 0.9998262366328025
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9997975737328014,
+      "CrossScore": 0.9997975737328014
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9997889324859731,
+      "CrossScore": 0.9997889324859731
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999781077692925,
+      "CrossScore": 0.999781077692925
+    },
+    {
+      "Question": "'लवणीय मिट्टी' (Saline Soil) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9997710586905477,
+      "CrossScore": 0.9997710586905477
+    },
+    {
+      "Question": "ब्लैक बंगाल (Black Bengal) बकरी की क्या विशेषता है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9997696284016617,
+      "CrossScore": 0.9997696284016617
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997641521938516,
+      "CrossScore": 0.9997641521938516
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997406885131751,
+      "CrossScore": 0.9997406885131751
+    },
+    {
+      "Question": "आलू में 'काली रूसी' (Black Scurf) रोग क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997231210549921,
+      "CrossScore": 0.9997231210549921
+    }
+  ],
+  "latency_ms": 264.22,
+  "final_returned": [
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General",
+      "Score": 0.9999187818905865
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998262366328025
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9997975737328014
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "Score": 0.9997889324859731
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "Score": 0.999781077692925
+    }
+  ]
+}

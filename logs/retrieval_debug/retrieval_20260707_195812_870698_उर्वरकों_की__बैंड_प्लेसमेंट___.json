@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:12.671274",
+  "query_original": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+  "query_normalized": "उर्वरकों की बैंड प्लेसमेंट band placement विधि क्या है",
+  "query_expanded": "उर्वरकों की बैंड प्लेसमेंट band placement विधि क्या है खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धनिया की बुआई की विधि क्या है?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का की बुआई की विधि क्या है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998839173901056,
+      "CrossScore": 0.9998839173901056
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9982541034036287,
+      "CrossScore": 0.9982541034036287
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.998237658950441,
+      "CrossScore": 0.998237658950441
+    },
+    {
+      "Question": "मखाना की 'खेत विधि' (Field System) क्या है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9982276540425798,
+      "CrossScore": 0.9982276540425798
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9981772680636013,
+      "CrossScore": 0.9981772680636013
+    },
+    {
+      "Question": "अदरक की बुआई की विधि क्या है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9981709029712154,
+      "CrossScore": 0.9981709029712154
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9979738482664389,
+      "CrossScore": 0.9979738482664389
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9979232504156622,
+      "CrossScore": 0.9979232504156622
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.9979119184501167,
+      "CrossScore": 0.9979119184501167
+    },
+    {
+      "Question": "मटर की बुआई की विधि क्या है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9978407849983237,
+      "CrossScore": 0.9978407849983237
+    }
+  ],
+  "latency_ms": 199.55,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों की 'बैंड प्लेसमेंट' (Band Placement) विधि क्या है?",
+      "Crop": "General",
+      "Score": 0.9998839173901056
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "Score": 0.9982541034036287
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.998237658950441
+    },
+    {
+      "Question": "मखाना की 'खेत विधि' (Field System) क्या है?",
+      "Crop": "Makhana",
+      "Score": 0.9982276540425798
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "Score": 0.9981772680636013
+    }
+  ]
+}

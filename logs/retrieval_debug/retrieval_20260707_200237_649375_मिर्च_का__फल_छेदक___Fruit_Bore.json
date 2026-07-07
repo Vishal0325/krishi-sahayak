@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:02:37.425529",
+  "query_original": "मिर्च का 'फल छेदक' (Fruit Borer) क्या है?",
+  "query_normalized": "मिर्च का फल छेदक fruit borer क्या है",
+  "query_expanded": "मिर्च का फल छेदक fruit borer क्या है",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिर्च का 'फल छेदक' (Fruit Borer) क्या है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च में 'थ्रिप्स' कीट का क्या लक्षण है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च की खेती का परिचय क्या है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिर्च का 'फल छेदक' (Fruit Borer) क्या है?",
+      "Crop": "Chilli",
+      "FinalScore": 499965.9283682974,
+      "CrossScore": 0.9999318567365948
+    },
+    {
+      "Question": "'मिर्च का मरोड़िया रोग' (Leaf Curl) और 'मिर्च'?",
+      "Crop": "Chilli",
+      "FinalScore": 499.45729362025816,
+      "CrossScore": 0.9989145872405163
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "FinalScore": 499.3535066027609,
+      "CrossScore": 0.9987070132055218
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' (Fruit Rot) का कारण?",
+      "Crop": "Chilli",
+      "FinalScore": 49.99261323436643,
+      "CrossScore": 0.9998522646873287
+    },
+    {
+      "Question": "मिर्च की खेती का परिचय क्या है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.96749701919615,
+      "CrossScore": 0.9993499403839231
+    },
+    {
+      "Question": "मिर्च में 'थ्रिप्स' कीट का क्या लक्षण है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.96353329739533,
+      "CrossScore": 0.9992706659479066
+    },
+    {
+      "Question": "मिर्च में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.9615159009087,
+      "CrossScore": 0.9992303180181741
+    },
+    {
+      "Question": "मिर्च का 'आर्द्र पतन' (Damping Off) क्या है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.9506859170521,
+      "CrossScore": 0.9990137183410419
+    },
+    {
+      "Question": "मिर्च की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.948617170011104,
+      "CrossScore": 0.9989723434002221
+    },
+    {
+      "Question": "क्या बिहार में मिर्च की खेती सफल है?",
+      "Crop": "Chilli",
+      "FinalScore": 49.94364586423767,
+      "CrossScore": 0.9988729172847535
+    }
+  ],
+  "latency_ms": 223.88,
+  "final_returned": [
+    {
+      "Question": "मिर्च का 'फल छेदक' (Fruit Borer) क्या है?",
+      "Crop": "Chilli",
+      "Score": 499965.9283682974
+    },
+    {
+      "Question": "'मिर्च का मरोड़िया रोग' (Leaf Curl) और 'मिर्च'?",
+      "Crop": "Chilli",
+      "Score": 499.45729362025816
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "Score": 499.3535066027609
+    },
+    {
+      "Question": "मिर्च in 'फल सड़न' (Fruit Rot) का कारण?",
+      "Crop": "Chilli",
+      "Score": 49.99261323436643
+    },
+    {
+      "Question": "मिर्च की खेती का परिचय क्या है?",
+      "Crop": "Chilli",
+      "Score": 49.96749701919615
+    }
+  ]
+}

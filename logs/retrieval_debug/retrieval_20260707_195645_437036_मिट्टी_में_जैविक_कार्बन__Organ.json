@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:45.203125",
+  "query_original": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+  "query_normalized": "मिट्टी में जैविक कार्बन organic carbon का क्या महत्व है",
+  "query_expanded": "मिट्टी में जैविक कार्बन organic carbon का क्या महत्व है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998953071783409,
+      "CrossScore": 0.9998953071783409
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998894676922049,
+      "CrossScore": 0.9998894676922049
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9986641221571685,
+      "CrossScore": 0.9986641221571685
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9986531727861345,
+      "CrossScore": 0.9986531727861345
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9985701729052939,
+      "CrossScore": 0.9985701729052939
+    },
+    {
+      "Question": "पत्तागोभी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9985481205441051,
+      "CrossScore": 0.9985481205441051
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9985468133905814,
+      "CrossScore": 0.9985468133905814
+    },
+    {
+      "Question": "हल्दी में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9985294638314183,
+      "CrossScore": 0.9985294638314183
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मजदूरी' अधिक लगती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.998445829786719,
+      "CrossScore": 0.998445829786719
+    },
+    {
+      "Question": "अदरक में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9983286395931362,
+      "CrossScore": 0.9983286395931362
+    }
+  ],
+  "latency_ms": 234.03,
+  "final_returned": [
+    {
+      "Question": "मिट्टी में जैविक कार्बन (Organic Carbon) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998953071783409
+    },
+    {
+      "Question": "मिट्टी में कार्बनिक कार्बन (Organic Carbon) बढ़ाने का तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9998894676922049
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "Score": 0.9986641221571685
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9986531727861345
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9985701729052939
+    }
+  ]
+}

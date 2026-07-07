@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:24.516644",
+  "query_original": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+  "query_normalized": "बॉर्डर क्रॉप के रूप में ज्वार या बाजरा",
+  "query_expanded": "बॉर्डर क्रॉप के रूप में ज्वार या बाजरा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'मक्का'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "FinalScore": 999.8876751069207,
+      "CrossScore": 0.9998876751069207
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998880427459195,
+      "CrossScore": 0.9998880427459195
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998703700342492,
+      "CrossScore": 0.9998703700342492
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998528964053399,
+      "CrossScore": 0.9998528964053399
+    },
+    {
+      "Question": "जैविक खेती में 'बॉर्डर क्रॉप'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998506673771382,
+      "CrossScore": 0.9998506673771382
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'मक्का'?",
+      "Crop": "General",
+      "FinalScore": 0.9998484790034469,
+      "CrossScore": 0.9998484790034469
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998474255687965,
+      "CrossScore": 0.9998474255687965
+    },
+    {
+      "Question": "'गौमूत्र' कीटनाशक के रूप में?",
+      "Crop": "General",
+      "FinalScore": 0.999846116154157,
+      "CrossScore": 0.999846116154157
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद खेत में 'हरी खाद' के रूप में क्या लगाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998398547616285,
+      "CrossScore": 0.9998398547616285
+    },
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998365875045213,
+      "CrossScore": 0.9998365875045213
+    }
+  ],
+  "latency_ms": 237.74,
+  "final_returned": [
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' या 'बाजरा'?",
+      "Crop": "General",
+      "Score": 999.8876751069207
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' का लाभ?",
+      "Crop": "General",
+      "Score": 0.9998880427459195
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'सूरजमुखी'?",
+      "Crop": "General",
+      "Score": 0.9998703700342492
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998528964053399
+    },
+    {
+      "Question": "जैविक खेती में 'बॉर्डर क्रॉप'?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998506673771382
+    }
+  ]
+}

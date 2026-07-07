@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:22.298297",
+  "query_original": "कृषि अवसंरचना कोष (AIF) क्या है?",
+  "query_normalized": "कृषि अवसंरचना कोष aif क्या है",
+  "query_expanded": "कृषि अवसंरचना कोष aif क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि अवसंरचना कोष (AIF) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि अवसंरचना कोष (AIF) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999296157061569,
+      "CrossScore": 0.9999296157061569
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999009376174924,
+      "CrossScore": 0.9999009376174924
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998930132197784,
+      "CrossScore": 0.9998930132197784
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "FinalScore": 0.9998886125574628,
+      "CrossScore": 0.9998886125574628
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998829730186439,
+      "CrossScore": 0.9998829730186439
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.99987791298673,
+      "CrossScore": 0.99987791298673
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998715475895683,
+      "CrossScore": 0.9998715475895683
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998711939765749,
+      "CrossScore": 0.9998711939765749
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999869851325932,
+      "CrossScore": 0.999869851325932
+    },
+    {
+      "Question": "'कृषि वानिकी' (Agroforestry) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998688281895719,
+      "CrossScore": 0.9998688281895719
+    }
+  ],
+  "latency_ms": 382.5,
+  "final_returned": [
+    {
+      "Question": "कृषि अवसंरचना कोष (AIF) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999296157061569
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9999009376174924
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9998930132197784
+    },
+    {
+      "Question": "'कृषि अवसंरचना कोष' (AIF) और ग्रामीण विकास?",
+      "Crop": "General",
+      "Score": 0.9998886125574628
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998829730186439
+    }
+  ]
+}

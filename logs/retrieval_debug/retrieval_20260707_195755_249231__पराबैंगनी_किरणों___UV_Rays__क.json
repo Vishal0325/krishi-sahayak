@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:55.024303",
+  "query_original": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+  "query_normalized": "पराबैंगनी किरणों uv rays का फसलों पर असर",
+  "query_expanded": "पराबैंगनी किरणों uv rays का फसलों पर असर",
+  "detected_crops": [
+    "Brinjal"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बैंगन in 'फोमोप्सिस' का असर बीजों पर?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.87360691346554,
+      "CrossScore": 0.9974721382693107
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998766229546623,
+      "CrossScore": 0.9998766229546623
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998736345180357,
+      "CrossScore": 0.9998736345180357
+    },
+    {
+      "Question": "कीटनाशकों का 'ट्रांसलैमिरार' (Translaminar) असर?",
+      "Crop": "General",
+      "FinalScore": 0.9982175746211617,
+      "CrossScore": 0.9982175746211617
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9980369208505109,
+      "CrossScore": 0.9980369208505109
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9979843345855671,
+      "CrossScore": 0.9979843345855671
+    },
+    {
+      "Question": "धुंध (Smog/Fog) का फसलों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9979268167882372,
+      "CrossScore": 0.9979268167882372
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' का पर्यावरण पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9979192126106543,
+      "CrossScore": 0.9979192126106543
+    },
+    {
+      "Question": "'नीम की खली' का कीटों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9976827086045227,
+      "CrossScore": 0.9976827086045227
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9970880515499257,
+      "CrossScore": 0.9970880515499257
+    }
+  ],
+  "latency_ms": 225.01,
+  "final_returned": [
+    {
+      "Question": "बैंगन in 'फोमोप्सिस' का असर बीजों पर?",
+      "Crop": "Brinjal",
+      "Score": 49.87360691346554
+    },
+    {
+      "Question": "'पराबैंगनी किरणों' (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 0.9998766229546623
+    },
+    {
+      "Question": "पराबैंगनी किरणों (UV Rays) का फसलों पर असर?",
+      "Crop": "General",
+      "Score": 0.9998736345180357
+    },
+    {
+      "Question": "कीटनाशकों का 'ट्रांसलैमिरार' (Translaminar) असर?",
+      "Crop": "General",
+      "Score": 0.9982175746211617
+    },
+    {
+      "Question": "कोल्ड वेव (Cold Wave/पाला) का फसलों पर क्या असर होता है?",
+      "Crop": "General",
+      "Score": 0.9980369208505109
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:57.373122",
+  "query_original": "मिट्टी के तापमान (Soil Temperature) का अंकुरण पर असर?",
+  "query_normalized": "मिट्टी के तापमान soil temperature का अंकुरण पर असर",
+  "query_expanded": "मिट्टी के तापमान soil temperature का अंकुरण पर असर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी के तापमान (Soil Temperature) का अंकुरण पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "तापमान का दानों के भराव पर क्या असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या रात के तापमान का फसल पर असर होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में 'मैंगनीज' का पौधों पर असर?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी के तापमान (Soil Temperature) का अंकुरण पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998740185574995,
+      "CrossScore": 0.9998740185574995
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996366881542281,
+      "CrossScore": 0.9996366881542281
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994647559244257,
+      "CrossScore": 0.9994647559244257
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9994388759576942,
+      "CrossScore": 0.9994388759576942
+    },
+    {
+      "Question": "प्याज के लिए 'शीत भंडार' (Cold Storage) का तापमान?",
+      "Crop": "Onion",
+      "FinalScore": 0.9979946894460201,
+      "CrossScore": 0.9979946894460201
+    },
+    {
+      "Question": "तापमान का दानों के भराव पर क्या असर होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9977640658460508,
+      "CrossScore": 0.9977640658460508
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9971967280070064,
+      "CrossScore": 0.9971967280070064
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9963545863931779,
+      "CrossScore": 0.9963545863931779
+    },
+    {
+      "Question": "गेहूं के बीज का अंकुरण परीक्षण कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.996118782323395,
+      "CrossScore": 0.996118782323395
+    },
+    {
+      "Question": "मक्का की 'मिट्टी' का पीएच 5.0 होने पर असर?",
+      "Crop": "Maize",
+      "FinalScore": 0.9957331414299845,
+      "CrossScore": 0.9957331414299845
+    }
+  ],
+  "latency_ms": 231.65,
+  "final_returned": [
+    {
+      "Question": "मिट्टी के तापमान (Soil Temperature) का अंकुरण पर असर?",
+      "Crop": "General",
+      "Score": 0.9998740185574995
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9996366881542281
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables",
+      "Score": 0.9994647559244257
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "Score": 0.9994388759576942
+    },
+    {
+      "Question": "प्याज के लिए 'शीत भंडार' (Cold Storage) का तापमान?",
+      "Crop": "Onion",
+      "Score": 0.9979946894460201
+    }
+  ]
+}

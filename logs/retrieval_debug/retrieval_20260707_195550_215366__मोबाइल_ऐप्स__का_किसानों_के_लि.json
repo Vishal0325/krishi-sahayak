@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:49.998348",
+  "query_original": "'मोबाइल ऐप्स' का किसानों के लिए महत्व?",
+  "query_normalized": "मोबाइल ऐप्स का किसानों के लिए महत्व",
+  "query_expanded": "मोबाइल ऐप्स का किसानों के लिए महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मोबाइल ऐप्स' का किसानों के लिए महत्व?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'ब्रांडिंग' (Branding) का छोटे किसानों के लिए महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसानों के लिए आर्थिक समृद्धि का अंतिम सूत्र?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "किसानों के लिए औषधीय खेती का भविष्य?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "'औषधीय पौधों' के लिए 'छाया' का महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "किसानों के लिए औषधीय खेती का भविष्य?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999197962088283,
+      "CrossScore": 0.9999197962088283
+    },
+    {
+      "Question": "किसानों के लिए डेरी फार्मिंग का भविष्य?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999194416977046,
+      "CrossScore": 0.9999194416977046
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9999175603265958,
+      "CrossScore": 0.9999175603265958
+    },
+    {
+      "Question": "'मोबाइल ऐप्स' का किसानों के लिए महत्व?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9999128550686962,
+      "CrossScore": 0.9999128550686962
+    },
+    {
+      "Question": "किसानों के लिए मुर्गी पालन का भविष्य?",
+      "Crop": "Poultry",
+      "FinalScore": 0.999911119153162,
+      "CrossScore": 0.999911119153162
+    },
+    {
+      "Question": "लीची में 'फास्फोरस' के लिए 'एसएसपी' का महत्व?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999095608921458,
+      "CrossScore": 0.9999095608921458
+    },
+    {
+      "Question": "किसानों के लिए जैविक खेती का भविष्य?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999909445427174,
+      "CrossScore": 0.999909445427174
+    },
+    {
+      "Question": "अंडे देने वाली मुर्गियों के लिए 'कैल्शियम' का महत्व?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9999084654241351,
+      "CrossScore": 0.9999084654241351
+    },
+    {
+      "Question": "थनैला रोग से बचाव के लिए 'स्वच्छता' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999064838337347,
+      "CrossScore": 0.9999064838337347
+    },
+    {
+      "Question": "'ब्रांडिंग' (Branding) का छोटे किसानों के लिए महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999061241226823,
+      "CrossScore": 0.9999061241226823
+    }
+  ],
+  "latency_ms": 217.12,
+  "final_returned": [
+    {
+      "Question": "किसानों के लिए औषधीय खेती का भविष्य?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999197962088283
+    },
+    {
+      "Question": "किसानों के लिए डेरी फार्मिंग का भविष्य?",
+      "Crop": "Dairy",
+      "Score": 0.9999194416977046
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9999175603265958
+    },
+    {
+      "Question": "'मोबाइल ऐप्स' का किसानों के लिए महत्व?",
+      "Crop": "Agri Tech",
+      "Score": 0.9999128550686962
+    },
+    {
+      "Question": "किसानों के लिए मुर्गी पालन का भविष्य?",
+      "Crop": "Poultry",
+      "Score": 0.999911119153162
+    }
+  ]
+}

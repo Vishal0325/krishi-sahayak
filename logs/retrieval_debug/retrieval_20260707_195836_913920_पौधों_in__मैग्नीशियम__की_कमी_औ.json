@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:36.736831",
+  "query_original": "पौधों in 'मैग्नीशियम' की कमी और 'प्रकाश'?",
+  "query_normalized": "पौधों in मैग्नीशियम की कमी और प्रकाश",
+  "query_expanded": "पौधों in मैग्नीशियम की कमी और प्रकाश",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी और 'प्रकाश'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'फास्फोरस' की कमी और 'जड़ों' का विकास?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी और 'प्रकाश'?",
+      "Crop": "General",
+      "FinalScore": 0.999855334322716,
+      "CrossScore": 0.999855334322716
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998452307275834,
+      "CrossScore": 0.9998452307275834
+    },
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9998366976299047,
+      "CrossScore": 0.9998366976299047
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998342805557441,
+      "CrossScore": 0.9998342805557441
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की पूर्ति?",
+      "Crop": "General",
+      "FinalScore": 0.9998313343805063,
+      "CrossScore": 0.9998313343805063
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी दूर करने के लिए 'गोबर खाद'?",
+      "Crop": "General",
+      "FinalScore": 0.9998245798901452,
+      "CrossScore": 0.9998245798901452
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 0.9998230196096272,
+      "CrossScore": 0.9998230196096272
+    },
+    {
+      "Question": "पौधों in 'पोटाश' की कमी से 'पौधों' की मजबूती?",
+      "Crop": "General",
+      "FinalScore": 0.999816724317581,
+      "CrossScore": 0.999816724317581
+    },
+    {
+      "Question": "पौधों in 'बोरॉन' की कमी दूर करने के लिए 'बोरेक्स'?",
+      "Crop": "General",
+      "FinalScore": 0.9998147021848949,
+      "CrossScore": 0.9998147021848949
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'एसएसपी'?",
+      "Crop": "General",
+      "FinalScore": 0.9998133780229966,
+      "CrossScore": 0.9998133780229966
+    }
+  ],
+  "latency_ms": 177.29,
+  "final_returned": [
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की कमी और 'प्रकाश'?",
+      "Crop": "General",
+      "Score": 0.999855334322716
+    },
+    {
+      "Question": "पौधों in 'आयरन' की कमी और पीएच का संबंध?",
+      "Crop": "General",
+      "Score": 0.9998452307275834
+    },
+    {
+      "Question": "पौधों in 'पोषक तत्वों' की कमी के लक्षण?",
+      "Crop": "General",
+      "Score": 0.9998366976299047
+    },
+    {
+      "Question": "पौधों in 'मोलिब्डेनम' की कमी और 'अम्लीय मिट्टी'?",
+      "Crop": "General",
+      "Score": 0.9998342805557441
+    },
+    {
+      "Question": "पौधों in 'मैग्नीशियम' की पूर्ति?",
+      "Crop": "General",
+      "Score": 0.9998313343805063
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:44.811628",
+  "query_original": "पशुओं के 'दांत' और 'उम्र'?",
+  "query_normalized": "पशुओं के दांत और उम्र",
+  "query_expanded": "पशुओं के दांत और उम्र",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के 'दांत' और 'उम्र'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के 'दांतों' की सफाई और स्वास्थ्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के 'दांत' और 'उम्र'?",
+      "Crop": "Livestock",
+      "FinalScore": 999.9106846532623,
+      "CrossScore": 0.9999106846532623
+    },
+    {
+      "Question": "पशुओं के 'दांतों' की सफाई और स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.999897068120722,
+      "CrossScore": 0.999897068120722
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "FinalScore": 0.9998875165804688,
+      "CrossScore": 0.9998875165804688
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और फसल की उम्र?",
+      "Crop": "General",
+      "FinalScore": 0.9998729380654876,
+      "CrossScore": 0.9998729380654876
+    },
+    {
+      "Question": "पशुओं को 'गुड़' खिलाने के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998583585558841,
+      "CrossScore": 0.9998583585558841
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर' घास के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.99985679790458,
+      "CrossScore": 0.99985679790458
+    },
+    {
+      "Question": "पशुओं के शेड में 'पंखे' और 'फॉगर्स' (Foggers) क्यों लगाएं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998443180901886,
+      "CrossScore": 0.9998443180901886
+    },
+    {
+      "Question": "पशुओं के शेड में 'साफ-सफाई'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998411715650126,
+      "CrossScore": 0.9998411715650126
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998408705072608,
+      "CrossScore": 0.9998408705072608
+    },
+    {
+      "Question": "क्या पशुओं के लिए 'बीमा' जरूरी है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998335712880019,
+      "CrossScore": 0.9998335712880019
+    }
+  ],
+  "latency_ms": 174.0,
+  "final_returned": [
+    {
+      "Question": "पशुओं के 'दांत' और 'उम्र'?",
+      "Crop": "Livestock",
+      "Score": 999.9106846532623
+    },
+    {
+      "Question": "पशुओं के 'दांतों' की सफाई और स्वास्थ्य?",
+      "Crop": "General",
+      "Score": 0.999897068120722
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "Score": 0.9998875165804688
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और फसल की उम्र?",
+      "Crop": "General",
+      "Score": 0.9998729380654876
+    },
+    {
+      "Question": "पशुओं को 'गुड़' खिलाने के लाभ?",
+      "Crop": "Dairy",
+      "Score": 0.9998583585558841
+    }
+  ]
+}

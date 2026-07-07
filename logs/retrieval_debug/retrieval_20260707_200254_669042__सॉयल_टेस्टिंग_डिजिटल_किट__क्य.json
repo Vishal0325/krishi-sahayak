@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:54.459158",
+  "query_original": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+  "query_normalized": "सॉयल टेस्टिंग डिजिटल किट क्या है",
+  "query_expanded": "सॉयल टेस्टिंग डिजिटल किट क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "क्या डिजिटल भुगतान (Digital Payment) किसानों के लिए अच्छा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "'डिजिटल मंडी' क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.9000952168914,
+      "CrossScore": 0.9999000952168914
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998827696320697,
+      "CrossScore": 0.9998827696320697
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998758344463354,
+      "CrossScore": 0.9998758344463354
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "FinalScore": 0.9998646410368451,
+      "CrossScore": 0.9998646410368451
+    },
+    {
+      "Question": "'डिजिटल मंडी' क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998610926032616,
+      "CrossScore": 0.9998610926032616
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998605669610001,
+      "CrossScore": 0.9998605669610001
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9998432285566006,
+      "CrossScore": 0.9998432285566006
+    },
+    {
+      "Question": "क्या डिजिटल भुगतान (Digital Payment) किसानों के लिए अच्छा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998391860621332,
+      "CrossScore": 0.9998391860621332
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9998368686676034,
+      "CrossScore": 0.9998368686676034
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'बी-कीपिंग किट' में क्या होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998342892464065,
+      "CrossScore": 0.9998342892464065
+    }
+  ],
+  "latency_ms": 209.91,
+  "final_returned": [
+    {
+      "Question": "'सॉयल टेस्टिंग डिजिटल किट' क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 999.9000952168914
+    },
+    {
+      "Question": "'डिजिटल सॉयल टेस्टिंग' यूनिट?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998827696320697
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9998758344463354
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "Score": 0.9998646410368451
+    },
+    {
+      "Question": "'डिजिटल मंडी' क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998610926032616
+    }
+  ]
+}

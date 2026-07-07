@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:44.389350",
+  "query_original": "'जैविक खेती' में 'बफर जोन' (Buffer Zone)?",
+  "query_normalized": "जैविक खेती में बफर जोन buffer zone",
+  "query_expanded": "जैविक खेती में बफर जोन buffer zone",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जैविक खेती' में 'बफर जोन' (Buffer Zone)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "औषधीय खेती में 'जैविक मल्चिंग' का लाभ?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जैविक खेती' में 'बफर जोन' (Buffer Zone)?",
+      "Crop": "General",
+      "FinalScore": 999.9094605374695,
+      "CrossScore": 0.9999094605374695
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9955313484580173,
+      "CrossScore": 0.9955313484580173
+    },
+    {
+      "Question": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9951344831424658,
+      "CrossScore": 0.9951344831424658
+    },
+    {
+      "Question": "जैविक खेती में 'जैव-उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9946846620289328,
+      "CrossScore": 0.9946846620289328
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9945706033402256,
+      "CrossScore": 0.9945706033402256
+    },
+    {
+      "Question": "जैविक खेती में 'नॉन-जीएमओ' (Non-GMO) बीज?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9941464360203401,
+      "CrossScore": 0.9941464360203401
+    },
+    {
+      "Question": "जैविक खेती में 'प्रमाणन' (Certification) क्यों जरूरी है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.993588185177562,
+      "CrossScore": 0.993588185177562
+    },
+    {
+      "Question": "जैविक खेती में 'रिकॉर्ड' रखना क्यों जरूरी है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9933513901032519,
+      "CrossScore": 0.9933513901032519
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9933423835609032,
+      "CrossScore": 0.9933423835609032
+    },
+    {
+      "Question": "'जैविक खेती' में 'धैर्य' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9929887192060696,
+      "CrossScore": 0.9929887192060696
+    }
+  ],
+  "latency_ms": 191.54,
+  "final_returned": [
+    {
+      "Question": "'जैविक खेती' में 'बफर जोन' (Buffer Zone)?",
+      "Crop": "General",
+      "Score": 999.9094605374695
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "Score": 0.9955313484580173
+    },
+    {
+      "Question": "जैविक खेती में 'फसल चक्र' (Crop Rotation)?",
+      "Crop": "Organic Farming",
+      "Score": 0.9951344831424658
+    },
+    {
+      "Question": "जैविक खेती में 'जैव-उर्वरक' (Bio-fertilizers)?",
+      "Crop": "Organic Farming",
+      "Score": 0.9946846620289328
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "Score": 0.9945706033402256
+    }
+  ]
+}

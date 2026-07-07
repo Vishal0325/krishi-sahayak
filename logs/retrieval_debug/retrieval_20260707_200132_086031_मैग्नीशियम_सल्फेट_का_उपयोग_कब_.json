@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:31.895462",
+  "query_original": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+  "query_normalized": "मैग्नीशियम सल्फेट का उपयोग कब करें",
+  "query_expanded": "मैग्नीशियम सल्फेट का उपयोग कब करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'जिंक सल्फेट' का छिड़काव कब करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं में 'मैंगनीज सल्फेट' का छिड़काव कब करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "दलहनी फसलों में 'जिंक सल्फेट' का छिड़काव कब करें?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मक्का में 'जिंक सल्फेट' का छिड़काव कब करें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 999.9173864849911,
+      "CrossScore": 0.9999173864849911
+    },
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999073953745168,
+      "CrossScore": 0.9999073953745168
+    },
+    {
+      "Question": "मक्का में ' खरपतवार' नियंत्रण के लिए 'एट्राजीन' का छिड़काव कब न करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999053521806169,
+      "CrossScore": 0.9999053521806169
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999896269505685,
+      "CrossScore": 0.999896269505685
+    },
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998955909162096,
+      "CrossScore": 0.9998955909162096
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.999894813444808,
+      "CrossScore": 0.999894813444808
+    },
+    {
+      "Question": "अमोनियम सल्फेट का उपयोग कहाँ करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998926997653158,
+      "CrossScore": 0.9998926997653158
+    },
+    {
+      "Question": "जीरो टिलेज मशीन (Zero Tillage Machine) का उपयोग कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998893101121406,
+      "CrossScore": 0.9998893101121406
+    },
+    {
+      "Question": "जैविक दवाओं का छिड़काव कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998632067424136,
+      "CrossScore": 0.9998632067424136
+    },
+    {
+      "Question": "गेहूं में 'मैग्नीशियम सल्फेट' का लाभ?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998621541195972,
+      "CrossScore": 0.9998621541195972
+    }
+  ],
+  "latency_ms": 190.62,
+  "final_returned": [
+    {
+      "Question": "मैग्नीशियम सल्फेट का उपयोग कब करें?",
+      "Crop": "General",
+      "Score": 999.9173864849911
+    },
+    {
+      "Question": "थायोमिथोक्सम (Thiamethoxam) कब उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9999073953745168
+    },
+    {
+      "Question": "मक्का में ' खरपतवार' नियंत्रण के लिए 'एट्राजीन' का छिड़काव कब न करें?",
+      "Crop": "Maize",
+      "Score": 0.9999053521806169
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat",
+      "Score": 0.999896269505685
+    },
+    {
+      "Question": "इमैजेथापायर (Imazethapyr/Pursuit) कब उपयोग करें?",
+      "Crop": "General",
+      "Score": 0.9998955909162096
+    }
+  ]
+}

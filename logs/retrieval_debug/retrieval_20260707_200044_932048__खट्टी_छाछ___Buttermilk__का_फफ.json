@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:44.737887",
+  "query_original": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+  "query_normalized": "खट्टी छाछ buttermilk का फफूंदनाशक के रूप में उपयोग",
+  "query_expanded": "खट्टी छाछ buttermilk का फफूंदनाशक के रूप में उपयोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.8870451509531,
+      "CrossScore": 0.9998870451509531
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9996209586826672,
+      "CrossScore": 0.9996209586826672
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9995589142518548,
+      "CrossScore": 0.9995589142518548
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9995133230888362,
+      "CrossScore": 0.9995133230888362
+    },
+    {
+      "Question": "सरसों में 'खरपतवार' नियंत्रण के लिए 'एट्राजीन' का उपयोग?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9994821118433899,
+      "CrossScore": 0.9994821118433899
+    },
+    {
+      "Question": "सब्जियों में 'जैविक कीटनाशक' के रूप में क्या उपयोग करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9994786790978232,
+      "CrossScore": 0.9994786790978232
+    },
+    {
+      "Question": "तुलसी के तेल का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9993704682369258,
+      "CrossScore": 0.9993704682369258
+    },
+    {
+      "Question": "गौमूत्र का कीटनाशक के रूप में प्रयोग?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9993500348572414,
+      "CrossScore": 0.9993500348572414
+    },
+    {
+      "Question": "लहसुन में 'चूहों' के लिए 'जिंक फास्फाइड' का उपयोग?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9993421846196923,
+      "CrossScore": 0.9993421846196923
+    },
+    {
+      "Question": "प्याज में 'चूहों' के लिए 'जिंक फास्फाइड' का उपयोग?",
+      "Crop": "Onion",
+      "FinalScore": 0.9993084337728236,
+      "CrossScore": 0.9993084337728236
+    }
+  ],
+  "latency_ms": 194.22,
+  "final_returned": [
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 999.8870451509531
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry",
+      "Score": 0.9996209586826672
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9995589142518548
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9995133230888362
+    },
+    {
+      "Question": "सरसों में 'खरपतवार' नियंत्रण के लिए 'एट्राजीन' का उपयोग?",
+      "Crop": "Mustard",
+      "Score": 0.9994821118433899
+    }
+  ]
+}

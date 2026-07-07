@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:03.176111",
+  "query_original": "धान में सिंचाई का प्रबंधन कैसे करें?",
+  "query_normalized": "धान में सिंचाई का प्रबंधन कैसे करें",
+  "query_expanded": "धान में सिंचाई का प्रबंधन कैसे करें",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान में सिंचाई का प्रबंधन कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अत्यधिक गर्मी में पशुओं का प्रबंधन कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान का बीज उपचार कैसे करें?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "गन्ने में सिंचाई का प्रबंधन?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान का बीज उपचार कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 49.99692831535101,
+      "CrossScore": 0.9999385663070203
+    },
+    {
+      "Question": "धान में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 49.9962560395315,
+      "CrossScore": 0.99992512079063
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 49.9961561998226,
+      "CrossScore": 0.999923123996452
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 49.99572495257114,
+      "CrossScore": 0.9999144990514228
+    },
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice",
+      "FinalScore": 49.993637445738855,
+      "CrossScore": 0.9998727489147771
+    },
+    {
+      "Question": "जैविक खेती में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.999929218115733,
+      "CrossScore": 0.999929218115733
+    },
+    {
+      "Question": "क्या खेती में 'डिजिटल डायरी' (Digital Diary) का उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999283293703304,
+      "CrossScore": 0.9999283293703304
+    },
+    {
+      "Question": "धान में सिंचाई का प्रबंधन कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999212913212926,
+      "CrossScore": 0.9999212913212926
+    },
+    {
+      "Question": "'कीट प्रबंधन' में विशेषज्ञों का अंतिम संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.999919951088446,
+      "CrossScore": 0.999919951088446
+    },
+    {
+      "Question": "नैनो यूरिया का प्रयोग कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999169034180896,
+      "CrossScore": 0.9999169034180896
+    }
+  ],
+  "latency_ms": 201.79,
+  "final_returned": [
+    {
+      "Question": "धान का बीज उपचार कैसे करें?",
+      "Crop": "Rice",
+      "Score": 49.99692831535101
+    },
+    {
+      "Question": "धान में खरपतवार नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "Score": 49.9962560395315
+    },
+    {
+      "Question": "धान के खेत की तैयारी कैसे करें?",
+      "Crop": "Rice",
+      "Score": 49.9961561998226
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "Score": 49.99572495257114
+    },
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice",
+      "Score": 49.993637445738855
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:55:42.305720",
+  "query_original": "धान में नाइट्रोजन की कमी",
+  "query_normalized": "धान में नाइट्रोजन की कमी",
+  "query_expanded": "यूरिया नाइट्रोजन urea nitrogen धान में नाइट्रोजन की कमी",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान में नाइट्रोजन की कमी के लक्षण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'पौधों' में 'नाइट्रोजन' की कमी का सटीक समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बासमती धान की खेती में नाइट्रोजन?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'पौधों' में 'लोहे' (Iron) की कमी और 'पीलापन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सुगंधित धान में नाइट्रोजन?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बासमती धान की खेती में नाइट्रोजन?",
+      "Crop": "Rice",
+      "FinalScore": 49.99727527452806,
+      "CrossScore": 0.9999455054905612
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 49.996981941275244,
+      "CrossScore": 0.9999396388255049
+    },
+    {
+      "Question": "धान की 'श्री' (SRI) विधि के लिए मार्कर?",
+      "Crop": "Rice",
+      "FinalScore": 49.996919133237945,
+      "CrossScore": 0.9999383826647589
+    },
+    {
+      "Question": "सुगंधित धान में नाइट्रोजन?",
+      "Crop": "Rice",
+      "FinalScore": 49.99671079141403,
+      "CrossScore": 0.9999342158282806
+    },
+    {
+      "Question": "धान में नाइट्रोजन की कमी के लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 49.996403308399934,
+      "CrossScore": 0.9999280661679987
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 49.996220195091624,
+      "CrossScore": 0.9999244039018325
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 49.99572150233014,
+      "CrossScore": 0.9999144300466029
+    },
+    {
+      "Question": "मिट्टी में गंधक (Sulphur) की कमी कैसे पहचानें?",
+      "Crop": "General",
+      "FinalScore": 0.9999314293798589,
+      "CrossScore": 0.9999314293798589
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999282056950168,
+      "CrossScore": 0.9999282056950168
+    },
+    {
+      "Question": "मिट्टी में 'नाइट्रोजन' की बर्बादी कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9999239134126503,
+      "CrossScore": 0.9999239134126503
+    }
+  ],
+  "latency_ms": 486.22,
+  "final_returned": [
+    {
+      "Question": "बासमती धान की खेती में नाइट्रोजन?",
+      "Crop": "Rice",
+      "Score": 49.99727527452806
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 49.996981941275244
+    },
+    {
+      "Question": "धान की 'श्री' (SRI) विधि के लिए मार्कर?",
+      "Crop": "Rice",
+      "Score": 49.996919133237945
+    }
+  ]
+}

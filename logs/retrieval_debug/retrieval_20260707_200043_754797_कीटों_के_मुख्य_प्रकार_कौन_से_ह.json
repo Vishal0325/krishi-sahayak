@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:43.516917",
+  "query_original": "कीटों के मुख्य प्रकार कौन से हैं?",
+  "query_normalized": "कीटों के मुख्य प्रकार कौन से हैं",
+  "query_expanded": "pest कीटों के मुख्य प्रकार कौन से हैं कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा के तीन मुख्य स्तंभ कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) के 12 मानक कौन से हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 9999.343673408444,
+      "CrossScore": 0.9999343673408445
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999358948973389,
+      "CrossScore": 0.9999358948973389
+    },
+    {
+      "Question": "मधुमक्खी के बक्से (Hive) के मुख्य भाग क्या हैं?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999231117528686,
+      "CrossScore": 0.9999231117528686
+    },
+    {
+      "Question": "क्या रासायनिक कीटनाशक मिट्टी के मित्र कीटों को मारते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999188873081122,
+      "CrossScore": 0.9999188873081122
+    },
+    {
+      "Question": "भविष्य के 'एग्री-प्रेन्योर' (Agripreneur) कौन हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999179928236909,
+      "CrossScore": 0.9999179928236909
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999133942131214,
+      "CrossScore": 0.9999133942131214
+    },
+    {
+      "Question": "उच्च आर्द्रता (High Humidity) से कौन से रोग बढ़ते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999115733817864,
+      "CrossScore": 0.9999115733817864
+    },
+    {
+      "Question": "मधुमक्खियों के शत्रु कौन हैं?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999015534891197,
+      "CrossScore": 0.9999015534891197
+    },
+    {
+      "Question": "सूखा (Drought) प्रबंधन के लिए कौन सी तकनीकें श्रेष्ठ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998985712508867,
+      "CrossScore": 0.9998985712508867
+    },
+    {
+      "Question": "मक्का की सिंचाई के लिए महत्वपूर्ण अवस्थाएं कौन सी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998980194174737,
+      "CrossScore": 0.9998980194174737
+    }
+  ],
+  "latency_ms": 237.91,
+  "final_returned": [
+    {
+      "Question": "कीटों के मुख्य प्रकार कौन से हैं?",
+      "Crop": "General",
+      "Score": 9999.343673408444
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9999358948973389
+    },
+    {
+      "Question": "मधुमक्खी के बक्से (Hive) के मुख्य भाग क्या हैं?",
+      "Crop": "Beekeeping",
+      "Score": 0.9999231117528686
+    },
+    {
+      "Question": "क्या रासायनिक कीटनाशक मिट्टी के मित्र कीटों को मारते हैं?",
+      "Crop": "General",
+      "Score": 0.9999188873081122
+    },
+    {
+      "Question": "भविष्य के 'एग्री-प्रेन्योर' (Agripreneur) कौन हैं?",
+      "Crop": "General",
+      "Score": 0.9999179928236909
+    }
+  ]
+}

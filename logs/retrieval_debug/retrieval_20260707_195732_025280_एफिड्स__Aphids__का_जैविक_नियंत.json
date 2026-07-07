@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:31.798338",
+  "query_original": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+  "query_normalized": "एफिड्स aphids का जैविक नियंत्रण क्या है",
+  "query_expanded": "एफिड्स aphids का जैविक नियंत्रण क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक दवाओं का असर तुरंत होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998886418690868,
+      "CrossScore": 0.9998886418690868
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998626140547352,
+      "CrossScore": 0.9998626140547352
+    },
+    {
+      "Question": "चने में 'माहू' (Aphids) का नियंत्रण?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996312302355248,
+      "CrossScore": 0.9996312302355248
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9995621831949226,
+      "CrossScore": 0.9995621831949226
+    },
+    {
+      "Question": "'चूहा' नियंत्रण का सबसे अच्छा तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995189371296616,
+      "CrossScore": 0.9995189371296616
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9995095955627205,
+      "CrossScore": 0.9995095955627205
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9994872042291297,
+      "CrossScore": 0.9994872042291297
+    },
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994830082593358,
+      "CrossScore": 0.9994830082593358
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9994487180427578,
+      "CrossScore": 0.9994487180427578
+    },
+    {
+      "Question": "क्या गेहूं की जैविक खेती संभव है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9994419497339936,
+      "CrossScore": 0.9994419497339936
+    }
+  ],
+  "latency_ms": 227.14,
+  "final_returned": [
+    {
+      "Question": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+      "Crop": "General",
+      "Score": 0.9998886418690868
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato",
+      "Score": 0.9998626140547352
+    },
+    {
+      "Question": "चने में 'माहू' (Aphids) का नियंत्रण?",
+      "Crop": "Pulses",
+      "Score": 0.9996312302355248
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice",
+      "Score": 0.9995621831949226
+    },
+    {
+      "Question": "'चूहा' नियंत्रण का सबसे अच्छा तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9995189371296616
+    }
+  ]
+}

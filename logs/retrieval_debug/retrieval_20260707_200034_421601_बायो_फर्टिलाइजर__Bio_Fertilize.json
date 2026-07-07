@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:34.181779",
+  "query_original": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+  "query_normalized": "बायो फर्टिलाइजर bio fertilizer क्या होते हैं",
+  "query_expanded": "बायो फर्टिलाइजर bio fertilizer क्या होते हैं poshak खाद पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी शोरूम होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9422226425542,
+      "CrossScore": 0.9999422226425542
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998009421745897,
+      "CrossScore": 0.9998009421745897
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997357976708109,
+      "CrossScore": 0.9997357976708109
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9993161614314724,
+      "CrossScore": 0.9993161614314724
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9985235663825099,
+      "CrossScore": 0.9985235663825099
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9972025642912171,
+      "CrossScore": 0.9972025642912171
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9956633208109363,
+      "CrossScore": 0.9956633208109363
+    },
+    {
+      "Question": "क्या कृषि ऋण (Agri Loan) माफ होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9910880771706695,
+      "CrossScore": 0.9910880771706695
+    },
+    {
+      "Question": "क्या बायो-फर्टिलाइजर की एक्सपायरी डेट होती है?",
+      "Crop": "General",
+      "FinalScore": 0.988437186487008,
+      "CrossScore": 0.988437186487008
+    },
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9882581111654092,
+      "CrossScore": 0.9882581111654092
+    }
+  ],
+  "latency_ms": 239.88,
+  "final_returned": [
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 999.9422226425542
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9998009421745897
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997357976708109
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बायो-सिक्योरिटी' (Bio-security) क्या है?",
+      "Crop": "Poultry",
+      "Score": 0.9993161614314724
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9985235663825099
+    }
+  ]
+}

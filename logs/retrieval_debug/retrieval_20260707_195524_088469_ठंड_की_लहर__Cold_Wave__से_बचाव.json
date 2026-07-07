@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:23.888413",
+  "query_original": "ठंड की लहर (Cold Wave) से बचाव के लिए पशुओं का शेड?",
+  "query_normalized": "ठंड की लहर cold wave से बचाव के लिए पशुओं का शेड",
+  "query_expanded": "ठंड की लहर cold wave से बचाव के लिए पशुओं का शेड",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ठंड की लहर (Cold Wave) से बचाव के लिए पशुओं का शेड?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'दीमक' से बचाव के लिए 'नीम की खली'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' करने के लिए शेड की ऊँचाई?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "थनैला रोग से बचाव के लिए 'स्वच्छता' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के शेड में 'नीम की पत्तियों' का धुआं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ठंड की लहर (Cold Wave) से बचाव के लिए पशुओं का शेड?",
+      "Crop": "General",
+      "FinalScore": 0.9998607529740642,
+      "CrossScore": 0.9998607529740642
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998525974708832,
+      "CrossScore": 0.9998525974708832
+    },
+    {
+      "Question": "प्याज के लिए 'शीत भंडार' (Cold Storage) का तापमान?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998313076814539,
+      "CrossScore": 0.9998313076814539
+    },
+    {
+      "Question": "आलू के बीजों का 'शीत भंडार' (Cold Storage) से निकालने के बाद क्या करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997782430423193,
+      "CrossScore": 0.9997782430423193
+    },
+    {
+      "Question": "आम की फसल में 'लू' (Heat wave) से बचाव?",
+      "Crop": "Mango",
+      "FinalScore": 0.9996226765880664,
+      "CrossScore": 0.9996226765880664
+    },
+    {
+      "Question": "मशरूम के लिए 'शेड' की दिशा?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999538404477366,
+      "CrossScore": 0.999538404477366
+    },
+    {
+      "Question": "'हीट वेव' (लू) के दौरान पशुओं का बचाव?",
+      "Crop": "General",
+      "FinalScore": 0.9995328781658651,
+      "CrossScore": 0.9995328781658651
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9995326303051785,
+      "CrossScore": 0.9995326303051785
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9995292390950741,
+      "CrossScore": 0.9995292390950741
+    },
+    {
+      "Question": "थनैला रोग से बचाव के लिए 'स्वच्छता' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9994921746900254,
+      "CrossScore": 0.9994921746900254
+    }
+  ],
+  "latency_ms": 200.19,
+  "final_returned": [
+    {
+      "Question": "ठंड की लहर (Cold Wave) से बचाव के लिए पशुओं का शेड?",
+      "Crop": "General",
+      "Score": 0.9998607529740642
+    },
+    {
+      "Question": "कोल्ड स्टोरेज (Cold Storage) का किसान के लिए क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998525974708832
+    },
+    {
+      "Question": "प्याज के लिए 'शीत भंडार' (Cold Storage) का तापमान?",
+      "Crop": "Onion",
+      "Score": 0.9998313076814539
+    },
+    {
+      "Question": "आलू के बीजों का 'शीत भंडार' (Cold Storage) से निकालने के बाद क्या करें?",
+      "Crop": "Potato",
+      "Score": 0.9997782430423193
+    },
+    {
+      "Question": "आम की फसल में 'लू' (Heat wave) से बचाव?",
+      "Crop": "Mango",
+      "Score": 0.9996226765880664
+    }
+  ]
+}

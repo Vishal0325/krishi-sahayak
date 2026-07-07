@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:39.811371",
+  "query_original": "मशरूम की खेती में 'लागत' और 'मुनाफा'?",
+  "query_normalized": "मशरूम की खेती में लागत और मुनाफा",
+  "query_expanded": "मशरूम की खेती में लागत और मुनाफा",
+  "detected_crops": [],
+  "detected_intents": [
+    "Business"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'लागत' और 'मुनाफा'?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "दलहनी फसलों की खेती में 'मजदूरी' की लागत?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'लागत' और 'मुनाफा'?",
+      "Crop": "Mushroom",
+      "FinalScore": 9999.308856795215,
+      "CrossScore": 0.9999308856795214
+    },
+    {
+      "Question": "मशरूम की खेती में 'सोशल मीडिया' मार्केटिंग?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.999006461463276,
+      "CrossScore": 0.9999006461463276
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.99900622078995,
+      "CrossScore": 0.9999006220789949
+    },
+    {
+      "Question": "मशरूम की खेती में 'सामूहिक खेती' (Cluster Farming)?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.998986690845019,
+      "CrossScore": 0.999898669084502
+    },
+    {
+      "Question": "मशरूम की खेती में 'बिजली' की खपत?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.998935034199697,
+      "CrossScore": 0.9998935034199697
+    },
+    {
+      "Question": "मशरूम की खेती में 'बीमा'?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.998929059434072,
+      "CrossScore": 0.9998929059434072
+    },
+    {
+      "Question": "मशरूम की खेती में 'रिकॉर्ड' बुक?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.99890301200544,
+      "CrossScore": 0.999890301200544
+    },
+    {
+      "Question": "मशरूम की खेती में 'मजदूरी' की बचत?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.998866690493063,
+      "CrossScore": 0.9998866690493062
+    },
+    {
+      "Question": "मशरूम की खेती में सबसे बड़ी चुनौती?",
+      "Crop": "Mushroom",
+      "FinalScore": 9.998862324782134,
+      "CrossScore": 0.9998862324782134
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General",
+      "FinalScore": 9.998838112985784,
+      "CrossScore": 0.9998838112985783
+    }
+  ],
+  "latency_ms": 207.03,
+  "final_returned": [
+    {
+      "Question": "मशरूम की खेती में 'लागत' और 'मुनाफा'?",
+      "Crop": "Mushroom",
+      "Score": 9999.308856795215
+    },
+    {
+      "Question": "मशरूम की खेती में 'सोशल मीडिया' मार्केटिंग?",
+      "Crop": "Mushroom",
+      "Score": 9.999006461463276
+    },
+    {
+      "Question": "मशरूम की खेती में 'स्वच्छता' का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 9.99900622078995
+    },
+    {
+      "Question": "मशरूम की खेती में 'सामूहिक खेती' (Cluster Farming)?",
+      "Crop": "Mushroom",
+      "Score": 9.998986690845019
+    },
+    {
+      "Question": "मशरूम की खेती में 'बिजली' की खपत?",
+      "Crop": "Mushroom",
+      "Score": 9.998935034199697
+    }
+  ]
+}

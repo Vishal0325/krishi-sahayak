@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:12.497479",
+  "query_original": "गेंदे की 'पूसा नारंगी' किस्म?",
+  "query_normalized": "गेंदे की पूसा नारंगी किस्म",
+  "query_expanded": "गेंदे की पूसा नारंगी किस्म",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गेंदे की 'पूसा नारंगी' किस्म?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "भिंडी की 'पूसा ए-4' किस्म की विशेषता?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "चने की 'पूसा-256' किस्म?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मसूर की 'पूसा वैभव' किस्म?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गेंदे की 'पूसा नारंगी' किस्म?",
+      "Crop": "Floriculture",
+      "FinalScore": 999.8874983447089,
+      "CrossScore": 0.9998874983447089
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998792216683381,
+      "CrossScore": 0.9998792216683381
+    },
+    {
+      "Question": "गेहूं की 'पूसा यशस्वी' (HD 3226) किस्म?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998670544459549,
+      "CrossScore": 0.9998670544459549
+    },
+    {
+      "Question": "प्याज की 'पूसा रेड' किस्म की क्या विशेषता है?",
+      "Crop": "Crop",
+      "FinalScore": 0.999858258846032,
+      "CrossScore": 0.999858258846032
+    },
+    {
+      "Question": "पपीते की 'पूसा मैजेस्टी' किस्म?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998516791993082,
+      "CrossScore": 0.9998516791993082
+    },
+    {
+      "Question": "बैंगन की 'पूसा हाइब्रिड-6' किस्म की विशेषता?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998252200109297,
+      "CrossScore": 0.9998252200109297
+    },
+    {
+      "Question": "प्याज की 'पूसा माधवी' किस्म?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998229667824382,
+      "CrossScore": 0.9998229667824382
+    },
+    {
+      "Question": "बैंगन की 'पूसा पर्पल लॉन्ग' किस्म?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998174891852759,
+      "CrossScore": 0.9998174891852759
+    },
+    {
+      "Question": "पत्तागोभी की 'पूसा ड्रमहेड' किस्म?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998093177773287,
+      "CrossScore": 0.9998093177773287
+    },
+    {
+      "Question": "पपीते की 'पूसा ड्वार्फ' किस्म की विशेषता?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998050579046808,
+      "CrossScore": 0.9998050579046808
+    }
+  ],
+  "latency_ms": 188.62,
+  "final_returned": [
+    {
+      "Question": "गेंदे की 'पूसा नारंगी' किस्म?",
+      "Crop": "Floriculture",
+      "Score": 999.8874983447089
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "Score": 0.9998792216683381
+    },
+    {
+      "Question": "गेहूं की 'पूसा यशस्वी' (HD 3226) किस्म?",
+      "Crop": "Wheat",
+      "Score": 0.9998670544459549
+    },
+    {
+      "Question": "प्याज की 'पूसा रेड' किस्म की क्या विशेषता है?",
+      "Crop": "Crop",
+      "Score": 0.999858258846032
+    },
+    {
+      "Question": "पपीते की 'पूसा मैजेस्टी' किस्म?",
+      "Crop": "Papaya",
+      "Score": 0.9998516791993082
+    }
+  ]
+}

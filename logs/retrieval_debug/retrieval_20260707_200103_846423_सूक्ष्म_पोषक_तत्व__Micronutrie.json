@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:03.610847",
+  "query_original": "सूक्ष्म पोषक तत्व (Micronutrients) क्या हैं?",
+  "query_normalized": "सूक्ष्म पोषक तत्व micronutrients क्या हैं",
+  "query_expanded": "सूक्ष्म पोषक तत्व micronutrients क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सूक्ष्म पोषक तत्व (Micronutrients) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक वर्षा से मिट्टी के पोषक तत्व कम हो जाते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "फलों के बाग में 'हरियाली' बनाए रखने के लिए सूक्ष्म पोषक तत्व?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सूक्ष्म पोषक तत्व (Micronutrients) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8923556291746,
+      "CrossScore": 0.9998923556291747
+    },
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998741056217492,
+      "CrossScore": 0.9998741056217492
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9992482840093125,
+      "CrossScore": 0.9992482840093125
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9990633701016457,
+      "CrossScore": 0.9990633701016457
+    },
+    {
+      "Question": "क्या जैविक उत्पाद महंगे बिकते हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.998924418294707,
+      "CrossScore": 0.998924418294707
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9988873104951169,
+      "CrossScore": 0.9988873104951169
+    },
+    {
+      "Question": "'एकीकृत पोषक तत्व प्रबंधन' (INM)?",
+      "Crop": "General",
+      "FinalScore": 0.9988421409209791,
+      "CrossScore": 0.9988421409209791
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9987920608249431,
+      "CrossScore": 0.9987920608249431
+    },
+    {
+      "Question": "मक्का में 'ह्यूमिक एसिड' के क्या फायदे हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9987836989089769,
+      "CrossScore": 0.9987836989089769
+    },
+    {
+      "Question": "क्या जैविक खेती में 'खरपतवार' समस्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9987586082175381,
+      "CrossScore": 0.9987586082175381
+    }
+  ],
+  "latency_ms": 235.6,
+  "final_returned": [
+    {
+      "Question": "सूक्ष्म पोषक तत्व (Micronutrients) क्या हैं?",
+      "Crop": "General",
+      "Score": 999.8923556291746
+    },
+    {
+      "Question": "मिट्टी में मुख्य पोषक तत्व (Macronutrients) कौन से हैं?",
+      "Crop": "General",
+      "Score": 0.9998741056217492
+    },
+    {
+      "Question": "'पीएच' (pH) मान और पोषक तत्व?",
+      "Crop": "General",
+      "Score": 0.9992482840093125
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9990633701016457
+    },
+    {
+      "Question": "क्या जैविक उत्पाद महंगे बिकते हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.998924418294707
+    }
+  ]
+}

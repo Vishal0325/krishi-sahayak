@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:18.951929",
+  "query_original": "गन्ने in 'स्मत' (Smut) रोग?",
+  "query_normalized": "गन्ने in स्मत smut रोग",
+  "query_expanded": "फंगस बीमारी fungus गन्ने in स्मत smut रोग disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' (Grassy Shoot) बीमारी क्या है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'उकठा' (Wilt) रोग का लक्षण?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998947373875282,
+      "CrossScore": 0.9998947373875282
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998833216714464,
+      "CrossScore": 0.9998833216714464
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996695988404264,
+      "CrossScore": 0.9996695988404264
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996651182335478,
+      "CrossScore": 0.9996651182335479
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996556624187095,
+      "CrossScore": 0.9996556624187095
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'स्वस्थ बीज'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99640596389842,
+      "CrossScore": 0.9996405963898419
+    },
+    {
+      "Question": "गन्ने in 'उकठा' (Wilt) रोग का लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996205562923782,
+      "CrossScore": 0.9996205562923782
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996126575597172,
+      "CrossScore": 0.9996126575597172
+    },
+    {
+      "Question": "गन्ने in 'मोजेक' रोग की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.996119423912578,
+      "CrossScore": 0.9996119423912578
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.994866645664265,
+      "CrossScore": 0.9994866645664265
+    }
+  ],
+  "latency_ms": 168.77,
+  "final_returned": [
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.998947373875282
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.998833216714464
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "Score": 9.996695988404264
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "Score": 9.996651182335478
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 9.996556624187095
+    }
+  ]
+}

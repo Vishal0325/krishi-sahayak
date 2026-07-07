@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:34.853722",
+  "query_original": "क्या मशीनों से फसल की मड़ाई (Threshing) सुरक्षित है?",
+  "query_normalized": "क्या मशीनों से फसल की मड़ाई threshing सुरक्षित है",
+  "query_expanded": "क्या मशीनों से फसल की मड़ाई threshing सुरक्षित है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या मशीनों से फसल की मड़ाई (Threshing) सुरक्षित है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों से फसल की गुणवत्ता सुधरती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों से बीज की बर्बादी रुकती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से समय की बचत होती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या मशीनों से फसल की मड़ाई (Threshing) सुरक्षित है?",
+      "Crop": "General",
+      "FinalScore": 0.9999093853064089,
+      "CrossScore": 0.9999093853064089
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998720093873102,
+      "CrossScore": 0.9998720093873102
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998665260359466,
+      "CrossScore": 0.9998665260359466
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "FinalScore": 0.999865775564938,
+      "CrossScore": 0.999865775564938
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998597419364725,
+      "CrossScore": 0.9998597419364725
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से उपज में स्थिरता आती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998496589754088,
+      "CrossScore": 0.9998496589754088
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998495623232109,
+      "CrossScore": 0.9998495623232109
+    },
+    {
+      "Question": "क्या कीटनाशकों से फसल की पैदावार बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998480885503609,
+      "CrossScore": 0.9998480885503609
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से रोजगार कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998472591898155,
+      "CrossScore": 0.9998472591898155
+    },
+    {
+      "Question": "क्या मशीनों से मिट्टी की सघनता (Compaction) बढ़ती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998461490187251,
+      "CrossScore": 0.9998461490187251
+    }
+  ],
+  "latency_ms": 325.18,
+  "final_returned": [
+    {
+      "Question": "क्या मशीनों से फसल की मड़ाई (Threshing) सुरक्षित है?",
+      "Crop": "General",
+      "Score": 0.9999093853064089
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "Score": 0.9998720093873102
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9998665260359466
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से मिट्टी की उर्वरता बदलती है?",
+      "Crop": "General",
+      "Score": 0.999865775564938
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "Score": 0.9998597419364725
+    }
+  ]
+}

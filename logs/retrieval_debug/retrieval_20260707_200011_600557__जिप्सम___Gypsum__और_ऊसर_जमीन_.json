@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:11.362181",
+  "query_original": "'जिप्सम' (Gypsum) और ऊसर जमीन?",
+  "query_normalized": "जिप्सम gypsum और ऊसर जमीन",
+  "query_expanded": "जिप्सम gypsum और ऊसर जमीन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जिप्सम' (Gypsum) और ऊसर जमीन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मृदा कटाव' और ढलान वाली जमीन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जिप्सम' और कैल्शियम की पूर्ति?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जिप्सम' (Gypsum) और ऊसर जमीन?",
+      "Crop": "General",
+      "FinalScore": 999.8948583710298,
+      "CrossScore": 0.9998948583710299
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998817751213906,
+      "CrossScore": 0.9998817751213906
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.999857321972802,
+      "CrossScore": 0.999857321972802
+    },
+    {
+      "Question": "'जिप्सम' और कैल्शियम की पूर्ति?",
+      "Crop": "General",
+      "FinalScore": 0.9995418107199986,
+      "CrossScore": 0.9995418107199986
+    },
+    {
+      "Question": "'मल्चिंग' और खरपतवार?",
+      "Crop": "General",
+      "FinalScore": 0.9992726399669678,
+      "CrossScore": 0.9992726399669678
+    },
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9991256414845696,
+      "CrossScore": 0.9991256414845696
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 0.9990915475231573,
+      "CrossScore": 0.9990915475231573
+    },
+    {
+      "Question": "'मृदा कटाव' और ढलान वाली जमीन?",
+      "Crop": "General",
+      "FinalScore": 0.9990539709117544,
+      "CrossScore": 0.9990539709117544
+    },
+    {
+      "Question": "पौधों in 'सल्फर' की कमी दूर करने के लिए 'जिप्सम'?",
+      "Crop": "General",
+      "FinalScore": 0.9989914104989902,
+      "CrossScore": 0.9989914104989902
+    },
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9989237346352994,
+      "CrossScore": 0.9989237346352994
+    }
+  ],
+  "latency_ms": 238.41,
+  "final_returned": [
+    {
+      "Question": "'जिप्सम' (Gypsum) और ऊसर जमीन?",
+      "Crop": "General",
+      "Score": 999.8948583710298
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General",
+      "Score": 0.9998817751213906
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.999857321972802
+    },
+    {
+      "Question": "'जिप्सम' और कैल्शियम की पूर्ति?",
+      "Crop": "General",
+      "Score": 0.9995418107199986
+    },
+    {
+      "Question": "'मल्चिंग' और खरपतवार?",
+      "Crop": "General",
+      "Score": 0.9992726399669678
+    }
+  ]
+}

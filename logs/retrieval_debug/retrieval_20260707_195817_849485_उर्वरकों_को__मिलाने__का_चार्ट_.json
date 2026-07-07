@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:17.633737",
+  "query_original": "उर्वरकों को 'मिलाने' का चार्ट?",
+  "query_normalized": "उर्वरकों को मिलाने का चार्ट",
+  "query_expanded": "खाद poshak उर्वरकों को मिलाने का चार्ट fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों को 'मिलाने' का चार्ट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशकों को मिलाने का नियम क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची में 'जैव-उर्वरक' (Bio-fertilizer) का उपयोग?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों को 'मिलाने' का चार्ट?",
+      "Crop": "General",
+      "FinalScore": 0.99991717871799,
+      "CrossScore": 0.99991717871799
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999016715151663,
+      "CrossScore": 0.9999016715151663
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998925051839719,
+      "CrossScore": 0.9998925051839719
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998907674794186,
+      "CrossScore": 0.9998907674794186
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998864843178148,
+      "CrossScore": 0.9998864843178148
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998709066187963,
+      "CrossScore": 0.9998709066187963
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9998689888173844,
+      "CrossScore": 0.9998689888173844
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998682962798238,
+      "CrossScore": 0.9998682962798238
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998627563817184,
+      "CrossScore": 0.9998627563817184
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9998614304792841,
+      "CrossScore": 0.9998614304792841
+    }
+  ],
+  "latency_ms": 215.85,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों को 'मिलाने' का चार्ट?",
+      "Crop": "General",
+      "Score": 0.99991717871799
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9999016715151663
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9998925051839719
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9998907674794186
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9998864843178148
+    }
+  ]
+}

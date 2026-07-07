@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:05.253614",
+  "query_original": "सरसों की 'मिट्टी' का पीएच 6.5?",
+  "query_normalized": "सरसों की मिट्टी का पीएच 6 5",
+  "query_expanded": "सरसों की मिट्टी का पीएच 6 5",
+  "detected_crops": [
+    "Mustard"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 5.5 होने पर?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 5.0 होने पर असर?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 7.0?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों की खेती में 'मिट्टी की जांच' का लाभ?",
+      "Crop": "Mustard"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Mustard",
+      "FinalScore": 49.99538183330785,
+      "CrossScore": 0.999907636666157
+    },
+    {
+      "Question": "सरसों की 'मृदा' का पीएच कितना होना चाहिए?",
+      "Crop": "Mustard",
+      "FinalScore": 49.992531389326054,
+      "CrossScore": 0.999850627786521
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 5.5 होने पर?",
+      "Crop": "Mustard",
+      "FinalScore": 49.990463261291296,
+      "CrossScore": 0.9998092652258259
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 5.0 होने पर असर?",
+      "Crop": "Mustard",
+      "FinalScore": 49.98721853230195,
+      "CrossScore": 0.999744370646039
+    },
+    {
+      "Question": "सरसों में 'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "Mustard",
+      "FinalScore": 49.97570567027209,
+      "CrossScore": 0.9995141134054418
+    },
+    {
+      "Question": "सरसों का बीज उपचार कैसे करें?",
+      "Crop": "Mustard",
+      "FinalScore": 49.97022514940901,
+      "CrossScore": 0.9994045029881802
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 7.0?",
+      "Crop": "Mustard",
+      "FinalScore": 49.96868499334069,
+      "CrossScore": 0.9993736998668137
+    },
+    {
+      "Question": "सरसों में 'मैग्नीशियम' की कमी का उपचार?",
+      "Crop": "Mustard",
+      "FinalScore": 49.9389368023537,
+      "CrossScore": 0.998778736047074
+    },
+    {
+      "Question": "सरसों की खेती में 'मिट्टी की जांच' का लाभ?",
+      "Crop": "Mustard",
+      "FinalScore": 49.89535001708411,
+      "CrossScore": 0.9979070003416822
+    },
+    {
+      "Question": "सरसों की खेती में 'जिप्सम' का क्या लाभ है?",
+      "Crop": "Mustard",
+      "FinalScore": 49.88074833020792,
+      "CrossScore": 0.9976149666041584
+    }
+  ],
+  "latency_ms": 237.42,
+  "final_returned": [
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 6.5?",
+      "Crop": "Mustard",
+      "Score": 49.99538183330785
+    },
+    {
+      "Question": "सरसों की 'मृदा' का पीएच कितना होना चाहिए?",
+      "Crop": "Mustard",
+      "Score": 49.992531389326054
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 5.5 होने पर?",
+      "Crop": "Mustard",
+      "Score": 49.990463261291296
+    },
+    {
+      "Question": "सरसों की 'मिट्टी' का पीएच 5.0 होने पर असर?",
+      "Crop": "Mustard",
+      "Score": 49.98721853230195
+    },
+    {
+      "Question": "सरसों में 'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "Mustard",
+      "Score": 49.97570567027209
+    }
+  ]
+}

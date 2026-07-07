@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:47.046063",
+  "query_original": "मक्का थ्रेशर (Maize Sheller) की क्या विशेषता है?",
+  "query_normalized": "मक्का थ्रेशर maize sheller की क्या विशेषता है",
+  "query_expanded": "मक्का थ्रेशर maize sheller की क्या विशेषता है",
+  "detected_crops": [
+    "Maize"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मक्का थ्रेशर (Maize Sheller) की क्या विशेषता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की खेती में 'पॉपकॉर्न' किस्म की क्या विशेषता है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की खेती का परिचय क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "खरीफ मक्का की बुआई का समय क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 49.971094682787346,
+      "CrossScore": 0.9994218936557469
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.970859026717434,
+      "CrossScore": 0.9994171805343487
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 49.9704662099544,
+      "CrossScore": 0.999409324199088
+    },
+    {
+      "Question": "मक्का की फसल के लिए 'साइलेज' (Silage) क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.96870116548847,
+      "CrossScore": 0.9993740233097694
+    },
+    {
+      "Question": "मक्का की औसत उपज कितनी होती है?",
+      "Crop": "Maize",
+      "FinalScore": 49.968655223130995,
+      "CrossScore": 0.99937310446262
+    },
+    {
+      "Question": "मक्का की खेती का परिचय क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.96831823977496,
+      "CrossScore": 0.9993663647954991
+    },
+    {
+      "Question": "मक्का की बुआई की विधि क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.96558744262833,
+      "CrossScore": 0.9993117488525667
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 49.961858943986456,
+      "CrossScore": 0.9992371788797291
+    },
+    {
+      "Question": "मक्का की सफल खेती का मूल मंत्र क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 49.955484338054745,
+      "CrossScore": 0.9991096867610949
+    },
+    {
+      "Question": "मक्का की 'गंगा-11' किस्म की क्या खासियत है?",
+      "Crop": "Maize",
+      "FinalScore": 49.95495996691325,
+      "CrossScore": 0.999099199338265
+    }
+  ],
+  "latency_ms": 242.51,
+  "final_returned": [
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "Score": 49.971094682787346
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "Score": 49.970859026717434
+    },
+    {
+      "Question": "मक्का की फसल में प्रकाश व्यवस्था (Light) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 49.9704662099544
+    },
+    {
+      "Question": "मक्का की फसल के लिए 'साइलेज' (Silage) क्या है?",
+      "Crop": "Maize",
+      "Score": 49.96870116548847
+    },
+    {
+      "Question": "मक्का की औसत उपज कितनी होती है?",
+      "Crop": "Maize",
+      "Score": 49.968655223130995
+    }
+  ]
+}

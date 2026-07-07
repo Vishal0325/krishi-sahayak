@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:27.220819",
+  "query_original": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+  "query_normalized": "प्रकाश प्रपंच और कीटों का भ्रम",
+  "query_expanded": "pest प्रकाश प्रपंच और कीटों का भ्रम कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General",
+      "FinalScore": 9998.682384976337,
+      "CrossScore": 0.9998682384976337
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.998798298383424,
+      "CrossScore": 0.9998798298383424
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General",
+      "FinalScore": 9.998768654218907,
+      "CrossScore": 0.9998768654218907
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'सावधानी'?",
+      "Crop": "General",
+      "FinalScore": 9.998763838999787,
+      "CrossScore": 0.9998763838999788
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "FinalScore": 9.998762257286076,
+      "CrossScore": 0.9998762257286077
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 9.998636092038533,
+      "CrossScore": 0.9998636092038532
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 9.998430062637805,
+      "CrossScore": 0.9998430062637805
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 9.99839356485259,
+      "CrossScore": 0.999839356485259
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 9.998380550591277,
+      "CrossScore": 0.9998380550591276
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान' और 'दवा'?",
+      "Crop": "General",
+      "FinalScore": 9.998368174840271,
+      "CrossScore": 0.9998368174840272
+    }
+  ],
+  "latency_ms": 206.94,
+  "final_returned": [
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General",
+      "Score": 9998.682384976337
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.998798298383424
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'वर्षा'?",
+      "Crop": "General",
+      "Score": 9.998768654218907
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'सावधानी'?",
+      "Crop": "General",
+      "Score": 9.998763838999787
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "Score": 9.998762257286076
+    }
+  ]
+}

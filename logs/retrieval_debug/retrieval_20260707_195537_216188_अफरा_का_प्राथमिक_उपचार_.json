@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:37.014337",
+  "query_original": "अफरा का प्राथमिक उपचार?",
+  "query_normalized": "अफरा का प्राथमिक उपचार",
+  "query_expanded": "अफरा का प्राथमिक उपचार",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अफरा का प्राथमिक उपचार?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'अफरा' (Bloating) का उपचार?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पीला रतुआ का उपचार क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अफरा का प्राथमिक उपचार?",
+      "Crop": "General",
+      "FinalScore": 0.9999269713519816,
+      "CrossScore": 0.9999269713519816
+    },
+    {
+      "Question": "नींबू वर्गीय फलों में 'सिट्रस कैंकर' का उपचार?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999161990126737,
+      "CrossScore": 0.9999161990126737
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार' के रसायनों का क्रम?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9999105910022134,
+      "CrossScore": 0.9999105910022134
+    },
+    {
+      "Question": "पशुओं में 'अफरा' (Bloating) का उपचार?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999076637897062,
+      "CrossScore": 0.9999076637897062
+    },
+    {
+      "Question": "मक्का का बीज उपचार कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999045322058611,
+      "CrossScore": 0.9999045322058611
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999038284618916,
+      "CrossScore": 0.9999038284618916
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9999026082296554,
+      "CrossScore": 0.9999026082296554
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 0.9999020130659576,
+      "CrossScore": 0.9999020130659576
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) का जैविक उपचार?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998961029974298,
+      "CrossScore": 0.9998961029974298
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998933006304476,
+      "CrossScore": 0.9998933006304476
+    }
+  ],
+  "latency_ms": 202.0,
+  "final_returned": [
+    {
+      "Question": "अफरा का प्राथमिक उपचार?",
+      "Crop": "General",
+      "Score": 0.9999269713519816
+    },
+    {
+      "Question": "नींबू वर्गीय फलों में 'सिट्रस कैंकर' का उपचार?",
+      "Crop": "Fruits",
+      "Score": 0.9999161990126737
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार' के रसायनों का क्रम?",
+      "Crop": "Pulses",
+      "Score": 0.9999105910022134
+    },
+    {
+      "Question": "पशुओं में 'अफरा' (Bloating) का उपचार?",
+      "Crop": "Dairy",
+      "Score": 0.9999076637897062
+    },
+    {
+      "Question": "मक्का का बीज उपचार कैसे करें?",
+      "Crop": "Maize",
+      "Score": 0.9999045322058611
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:39.645447",
+  "query_original": "क्या कृषि ऋण (Agri Loan) माफ होते हैं?",
+  "query_normalized": "क्या कृषि ऋण agri loan माफ होते हैं",
+  "query_expanded": "क्या कृषि ऋण agri loan माफ होते हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या कृषि ऋण (Agri Loan) माफ होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या कृषि ऋण (Agri Loan) माफ होते हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9371410786136,
+      "CrossScore": 0.9999371410786136
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997524614428402,
+      "CrossScore": 0.9997524614428402
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997469302639973,
+      "CrossScore": 0.9997469302639973
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997415812208846,
+      "CrossScore": 0.9997415812208846
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9997241068427173,
+      "CrossScore": 0.9997241068427173
+    },
+    {
+      "Question": "कृषि पर्यटन (Agri-Tourism) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997154652341552,
+      "CrossScore": 0.9997154652341552
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.999162735353682,
+      "CrossScore": 0.999162735353682
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9988283226194583,
+      "CrossScore": 0.9988283226194583
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9985752591060982,
+      "CrossScore": 0.9985752591060982
+    },
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984886225171942,
+      "CrossScore": 0.9984886225171942
+    }
+  ],
+  "latency_ms": 367.8,
+  "final_returned": [
+    {
+      "Question": "क्या कृषि ऋण (Agri Loan) माफ होते हैं?",
+      "Crop": "General",
+      "Score": 999.9371410786136
+    },
+    {
+      "Question": "कृषि स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997524614428402
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' (Agri Startup) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997469302639973
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9997415812208846
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9997241068427173
+    }
+  ]
+}

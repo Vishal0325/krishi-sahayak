@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:51.124965",
+  "query_original": "क्या 'राख' (Ash) खाद का काम करती है?",
+  "query_normalized": "क्या राख ash खाद का काम करती है",
+  "query_expanded": "खाद poshak क्या राख ash खाद का काम करती है fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या 'राख' (Ash) खाद का काम करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बोरॉन (Boron) उर्वरक का क्या कार्य है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या राख (Ash) मिट्टी के लिए अच्छी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998931522841035,
+      "CrossScore": 0.9998931522841035
+    },
+    {
+      "Question": "क्या 'राख' (Ash) खाद का काम करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998848631448262,
+      "CrossScore": 0.9998848631448262
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998204114225383,
+      "CrossScore": 0.9998204114225383
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9997997298614453,
+      "CrossScore": 0.9997997298614453
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997895943544853,
+      "CrossScore": 0.9997895943544853
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997891203671876,
+      "CrossScore": 0.9997891203671876
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997801596363972,
+      "CrossScore": 0.9997801596363972
+    },
+    {
+      "Question": "क्या औषधीय खेती में 'पशुओं का गोबर' श्रेष्ठ है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997797490467304,
+      "CrossScore": 0.9997797490467304
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9997762997185067,
+      "CrossScore": 0.9997762997185067
+    },
+    {
+      "Question": "जैविक खाद (Organic Manure) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997706623781745,
+      "CrossScore": 0.9997706623781745
+    }
+  ],
+  "latency_ms": 223.22,
+  "final_returned": [
+    {
+      "Question": "क्या राख (Ash) मिट्टी के लिए अच्छी है?",
+      "Crop": "General",
+      "Score": 0.9998931522841035
+    },
+    {
+      "Question": "क्या 'राख' (Ash) खाद का काम करती है?",
+      "Crop": "General",
+      "Score": 0.9998848631448262
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9998204114225383
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "Score": 0.9997997298614453
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9997895943544853
+    }
+  ]
+}

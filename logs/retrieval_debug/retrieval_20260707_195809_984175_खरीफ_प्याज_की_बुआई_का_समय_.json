@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:09.800669",
+  "query_original": "खरीफ प्याज की बुआई का समय?",
+  "query_normalized": "खरीफ प्याज की बुआई का समय",
+  "query_expanded": "खरीफ प्याज की बुआई का समय",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खरीफ प्याज की बुआई का समय?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "खरीफ मक्का की बुआई का समय क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "रबी प्याज की बुआई का समय?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "सफ़ेद मूसली की बुआई का समय?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पत्तागोभी की बुआई का समय?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999275795522312,
+      "CrossScore": 0.9999275795522312
+    },
+    {
+      "Question": "रबी प्याज की बुआई का समय?",
+      "Crop": "Onion",
+      "FinalScore": 0.9999221054978489,
+      "CrossScore": 0.9999221054978489
+    },
+    {
+      "Question": "प्याज की 'पछेती' बुआई में 'तापमान' का प्रभाव?",
+      "Crop": "Onion",
+      "FinalScore": 0.9999215434069659,
+      "CrossScore": 0.9999215434069659
+    },
+    {
+      "Question": "टमाटर की बुआई का समय?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9999119799760049,
+      "CrossScore": 0.9999119799760049
+    },
+    {
+      "Question": "सरसों की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999066157205815,
+      "CrossScore": 0.9999066157205815
+    },
+    {
+      "Question": "मखाना की बुआई का सही समय?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9999040256141044,
+      "CrossScore": 0.9999040256141044
+    },
+    {
+      "Question": "धनिया की बुआई का सबसे अच्छा समय?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9999021647858953,
+      "CrossScore": 0.9999021647858953
+    },
+    {
+      "Question": "खरीफ प्याज की बुआई का समय?",
+      "Crop": "Onion",
+      "FinalScore": 0.999901174815312,
+      "CrossScore": 0.999901174815312
+    },
+    {
+      "Question": "पपीते के बीज की बुआई का समय?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9999008550216408,
+      "CrossScore": 0.9999008550216408
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999000204995561,
+      "CrossScore": 0.9999000204995561
+    }
+  ],
+  "latency_ms": 183.59,
+  "final_returned": [
+    {
+      "Question": "पत्तागोभी की बुआई का समय?",
+      "Crop": "Cabbage",
+      "Score": 0.9999275795522312
+    },
+    {
+      "Question": "रबी प्याज की बुआई का समय?",
+      "Crop": "Onion",
+      "Score": 0.9999221054978489
+    },
+    {
+      "Question": "प्याज की 'पछेती' बुआई में 'तापमान' का प्रभाव?",
+      "Crop": "Onion",
+      "Score": 0.9999215434069659
+    },
+    {
+      "Question": "टमाटर की बुआई का समय?",
+      "Crop": "Tomato",
+      "Score": 0.9999119799760049
+    },
+    {
+      "Question": "सरसों की बुआई का सबसे अच्छा समय क्या है?",
+      "Crop": "Mustard",
+      "Score": 0.9999066157205815
+    }
+  ]
+}

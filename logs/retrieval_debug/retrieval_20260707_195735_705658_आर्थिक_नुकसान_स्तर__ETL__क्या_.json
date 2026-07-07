@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:35.480745",
+  "query_original": "आर्थिक नुकसान स्तर (ETL) क्या है?",
+  "query_normalized": "आर्थिक नुकसान स्तर etl क्या है",
+  "query_expanded": "आर्थिक नुकसान स्तर etl क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आर्थिक नुकसान स्तर (ETL) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान स्तर' (ETL) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आर्थिक नुकसान स्तर' (ETL) क्यों महत्वपूर्ण है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटों का 'आर्थिक देहरी स्तर' (EIL) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फसल सुरक्षा' में 'आर्थिक देहरी स्तर' (EIL) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आर्थिक नुकसान स्तर (ETL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999132091042854,
+      "CrossScore": 0.9999132091042854
+    },
+    {
+      "Question": "'आर्थिक नुकसान स्तर' (ETL) क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.999910218754127,
+      "CrossScore": 0.999910218754127
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान स्तर' (ETL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998962192447715,
+      "CrossScore": 0.9998962192447715
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "FinalScore": 0.9998733602122265,
+      "CrossScore": 0.9998733602122265
+    },
+    {
+      "Question": "'फसल सुरक्षा' में 'आर्थिक देहरी स्तर' (EIL) और 'आर्थिक नुकसान स्तर' (ETL) में अंतर?",
+      "Crop": "General",
+      "FinalScore": 0.9998711787456008,
+      "CrossScore": 0.9998711787456008
+    },
+    {
+      "Question": "कीटों का 'आर्थिक देहरी स्तर' (EIL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998589771299137,
+      "CrossScore": 0.9998589771299137
+    },
+    {
+      "Question": "क्या मशीनों के उपयोग से पर्यावरण को नुकसान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998504741667968,
+      "CrossScore": 0.9998504741667968
+    },
+    {
+      "Question": "'फसल सुरक्षा' में 'आर्थिक देहरी स्तर' (EIL) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998483198476841,
+      "CrossScore": 0.9998483198476841
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998440551176679,
+      "CrossScore": 0.9998440551176679
+    },
+    {
+      "Question": "खेती में 'पशुपालन' एक आर्थिक सुरक्षा कवच कैसे है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998431654610445,
+      "CrossScore": 0.9998431654610445
+    }
+  ],
+  "latency_ms": 225.06,
+  "final_returned": [
+    {
+      "Question": "आर्थिक नुकसान स्तर (ETL) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999132091042854
+    },
+    {
+      "Question": "'आर्थिक नुकसान स्तर' (ETL) क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.999910218754127
+    },
+    {
+      "Question": "'कीटों का आर्थिक नुकसान स्तर' (ETL) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998962192447715
+    },
+    {
+      "Question": "'कीटों का आर्थिक देहरी स्तर' (EIL) और लागत?",
+      "Crop": "General",
+      "Score": 0.9998733602122265
+    },
+    {
+      "Question": "'फसल सुरक्षा' में 'आर्थिक देहरी स्तर' (EIL) और 'आर्थिक नुकसान स्तर' (ETL) में अंतर?",
+      "Crop": "General",
+      "Score": 0.9998711787456008
+    }
+  ]
+}

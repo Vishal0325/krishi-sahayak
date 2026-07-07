@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:09.090010",
+  "query_original": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+  "query_normalized": "पीएच ph मान का उर्वरकों पर क्या प्रभाव पड़ता है",
+  "query_expanded": "पीएच ph मान का उर्वरकों पर क्या प्रभाव पड़ता है poshak खाद पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम (Weather) का कृषि पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ओस (Dew) का फसलों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 999.8925453580416,
+      "CrossScore": 0.9998925453580416
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998951569226984,
+      "CrossScore": 0.9998951569226984
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998710259678338,
+      "CrossScore": 0.9998710259678338
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996974889774705,
+      "CrossScore": 0.9996974889774705
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.999690759907888,
+      "CrossScore": 0.999690759907888
+    },
+    {
+      "Question": "उर्वरकों पर मिलने वाली सब्सिडी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996706250595464,
+      "CrossScore": 0.9996706250595464
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996654877340742,
+      "CrossScore": 0.9996654877340742
+    },
+    {
+      "Question": "क्या फफूंदनाशकों का असर मिट्टी पर पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996615520744961,
+      "CrossScore": 0.9996615520744961
+    },
+    {
+      "Question": "जलवायु परिवर्तन (Climate Change) का कृषि पर क्या दीर्घकालिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996313991197836,
+      "CrossScore": 0.9996313991197836
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996243396202017,
+      "CrossScore": 0.9996243396202017
+    }
+  ],
+  "latency_ms": 247.51,
+  "final_returned": [
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 999.8925453580416
+    },
+    {
+      "Question": "मिट्टी का पीएच (pH) मान क्या दर्शाता है?",
+      "Crop": "General",
+      "Score": 0.9998951569226984
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General",
+      "Score": 0.9998710259678338
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.9996974889774705
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.999690759907888
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:14.087414",
+  "query_original": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+  "query_normalized": "आम in स्टेम एंड रॉट stem end rot",
+  "query_expanded": "आम in स्टेम एंड रॉट stem end rot",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'आम' में 'स्टेम एंड रॉट' का प्रबंधन?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर in 'ब्लासम एंड रॉट' (Blossom End R) क्या है?",
+      "Crop": "Tomato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998926811417334,
+      "CrossScore": 0.9998926811417334
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997841514533188,
+      "CrossScore": 0.9997841514533188
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9997562831336197,
+      "CrossScore": 0.9997562831336197
+    },
+    {
+      "Question": "आलू में 'तना सड़न' (Stem Rot) का कारण?",
+      "Crop": "Potato",
+      "FinalScore": 0.9996858694536424,
+      "CrossScore": 0.9996858694536424
+    },
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice",
+      "FinalScore": 0.999542966246676,
+      "CrossScore": 0.999542966246676
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 0.99940110122036,
+      "CrossScore": 0.99940110122036
+    },
+    {
+      "Question": "पपीते in 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9993348120171232,
+      "CrossScore": 0.9993348120171232
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999325310706896,
+      "CrossScore": 0.999325310706896
+    },
+    {
+      "Question": "केले in 'हार्ट रॉट' (Heart Rot) की पहचान?",
+      "Crop": "Banana",
+      "FinalScore": 0.999071415645076,
+      "CrossScore": 0.999071415645076
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9989725249965851,
+      "CrossScore": 0.9989725249965851
+    }
+  ],
+  "latency_ms": 201.63,
+  "final_returned": [
+    {
+      "Question": "आम in 'स्टेम एंड रॉट' (Stem end rot)?",
+      "Crop": "Mango",
+      "Score": 0.9998926811417334
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato",
+      "Score": 0.9997841514533188
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "Score": 0.9997562831336197
+    },
+    {
+      "Question": "आलू में 'तना सड़न' (Stem Rot) का कारण?",
+      "Crop": "Potato",
+      "Score": 0.9996858694536424
+    },
+    {
+      "Question": "धान in 'शीथ रॉट' (Sheath Rot) का लक्षण?",
+      "Crop": "Rice",
+      "Score": 0.999542966246676
+    }
+  ]
+}

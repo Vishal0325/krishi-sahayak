@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:50.217201",
+  "query_original": "लीची का 'फल फटना' (Fruit Cracking) क्यों होता है?",
+  "query_normalized": "लीची का फल फटना fruit cracking क्यों होता है",
+  "query_expanded": "लीची का फल फटना fruit cracking क्यों होता है",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची का 'फल फटना' (Fruit Cracking) क्यों होता है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची में 'फल फटना' (Fruit Cracking) कैसे रोकें?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची का 'फल छेदक' (Fruit Borer) कीट?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची का 'फल फटना' (Fruit Cracking) क्यों होता है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.996130640335274,
+      "CrossScore": 0.9999226128067055
+    },
+    {
+      "Question": "लीची में 'फल फटना' (Fruit Cracking) कैसे रोकें?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99351502119227,
+      "CrossScore": 0.9998703004238455
+    },
+    {
+      "Question": "लीची का 'फल छेदक' (Fruit Borer) कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 49.990892018786056,
+      "CrossScore": 0.9998178403757212
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.9516800358488,
+      "CrossScore": 0.9990336007169761
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.946527688939334,
+      "CrossScore": 0.9989305537787867
+    },
+    {
+      "Question": "लीची (Litchi) की खेती के लिए बिहार का कौन सा जिला प्रसिद्ध है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.94232323208762,
+      "CrossScore": 0.9988464646417523
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.94215977025175,
+      "CrossScore": 0.998843195405035
+    },
+    {
+      "Question": "लीची की खेती में 'जल निकास' अनिवार्य क्यों है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.93353023112596,
+      "CrossScore": 0.9986706046225191
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 49.93149185275947,
+      "CrossScore": 0.9986298370551894
+    },
+    {
+      "Question": "लीची में 'सिंचाई' का अंतराल फल पकते समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.92668427132871,
+      "CrossScore": 0.9985336854265742
+    }
+  ],
+  "latency_ms": 242.11,
+  "final_returned": [
+    {
+      "Question": "लीची का 'फल फटना' (Fruit Cracking) क्यों होता है?",
+      "Crop": "Litchi",
+      "Score": 49.996130640335274
+    },
+    {
+      "Question": "लीची में 'फल फटना' (Fruit Cracking) कैसे रोकें?",
+      "Crop": "Litchi",
+      "Score": 49.99351502119227
+    },
+    {
+      "Question": "लीची का 'फल छेदक' (Fruit Borer) कीट?",
+      "Crop": "Litchi",
+      "Score": 49.990892018786056
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "Score": 49.9516800358488
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "Score": 49.946527688939334
+    }
+  ]
+}

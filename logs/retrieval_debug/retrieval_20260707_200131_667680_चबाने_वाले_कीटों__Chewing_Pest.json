@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:31.426553",
+  "query_original": "चबाने वाले कीटों (Chewing Pests) के लिए कीटनाशक?",
+  "query_normalized": "चबाने वाले कीटों chewing pests के लिए कीटनाशक",
+  "query_expanded": "pest चबाने वाले कीटों chewing pests के लिए कीटनाशक कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "चबाने वाले कीटों (Chewing Pests) के लिए कीटनाशक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रस चूसने वाले कीटों (Sucking Pests) के लिए कौन से कीटनाशक अच्छे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'भंडारण कीट' (Storage Pests) से बचाव के लिए 'हर्मेटिक बैग्स'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "चबाने वाले कीटों (Chewing Pests) के लिए कीटनाशक?",
+      "Crop": "General",
+      "FinalScore": 999.8973487506574,
+      "CrossScore": 0.9998973487506574
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.988660810759939,
+      "CrossScore": 0.9988660810759938
+    },
+    {
+      "Question": "'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "General",
+      "FinalScore": 9.96310904706182,
+      "CrossScore": 0.9963109047061821
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "FinalScore": 9.962615210482202,
+      "CrossScore": 0.9962615210482202
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "FinalScore": 9.959924179556882,
+      "CrossScore": 0.9959924179556882
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 9.955669545862737,
+      "CrossScore": 0.9955669545862738
+    },
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 9.953853710511853,
+      "CrossScore": 0.9953853710511852
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.928615076575838,
+      "CrossScore": 0.9928615076575839
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses",
+      "FinalScore": 9.915068499679318,
+      "CrossScore": 0.9915068499679318
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "FinalScore": 9.914466081163853,
+      "CrossScore": 0.9914466081163853
+    }
+  ],
+  "latency_ms": 241.16,
+  "final_returned": [
+    {
+      "Question": "चबाने वाले कीटों (Chewing Pests) के लिए कीटनाशक?",
+      "Crop": "General",
+      "Score": 999.8973487506574
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 9.988660810759939
+    },
+    {
+      "Question": "'दीमक' के लिए 'मिट्टी का उपचार'?",
+      "Crop": "General",
+      "Score": 9.96310904706182
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General",
+      "Score": 9.962615210482202
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "Score": 9.959924179556882
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:25.683628",
+  "query_original": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+  "query_normalized": "सिल्वर आयोडाइड का कृत्रिम वर्षा cloud seeding में क्या उपयोग है",
+  "query_expanded": "सिल्वर आयोडाइड का कृत्रिम वर्षा cloud seeding में क्या उपयोग है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खेती में 'डेटा' (Data) का कोई उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ड्रोन' (Drone) का कृषि में क्या उपयोग है?",
+      "Crop": "Agri Tech"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 999.8879170202741,
+      "CrossScore": 0.9998879170202741
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998387100066798,
+      "CrossScore": 0.9998387100066798
+    },
+    {
+      "Question": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+      "Crop": "General",
+      "FinalScore": 0.999781385360516,
+      "CrossScore": 0.999781385360516
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996128502631314,
+      "CrossScore": 0.9996128502631314
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995436782172413,
+      "CrossScore": 0.9995436782172413
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9995412382030653,
+      "CrossScore": 0.9995412382030653
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9995289906512963,
+      "CrossScore": 0.9995289906512963
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9994855808406471,
+      "CrossScore": 0.9994855808406471
+    },
+    {
+      "Question": "क्या खेती में 'डिजिटल डायरी' (Digital Diary) का उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9994847890751731,
+      "CrossScore": 0.9994847890751731
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994550013486964,
+      "CrossScore": 0.9994550013486964
+    }
+  ],
+  "latency_ms": 239.45,
+  "final_returned": [
+    {
+      "Question": "सिल्वर आयोडाइड का कृत्रिम वर्षा (Cloud Seeding) में क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 999.8879170202741
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "Score": 0.9998387100066798
+    },
+    {
+      "Question": "'सिल्वर आयोडाइड' और कृत्रिम वर्षा?",
+      "Crop": "General",
+      "Score": 0.999781385360516
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9996128502631314
+    },
+    {
+      "Question": "क्या यंत्रों के उपयोग से डीजल का खर्च बढ़ता है?",
+      "Crop": "General",
+      "Score": 0.9995436782172413
+    }
+  ]
+}

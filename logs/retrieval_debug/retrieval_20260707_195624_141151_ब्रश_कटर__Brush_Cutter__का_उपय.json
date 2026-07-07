@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:23.902063",
+  "query_original": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+  "query_normalized": "ब्रश कटर brush cutter का उपयोग कहाँ किया जाता है",
+  "query_expanded": "ब्रश कटर brush cutter का उपयोग कहाँ किया जाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.999904424995763,
+      "CrossScore": 0.999904424995763
+    },
+    {
+      "Question": "चाफ कटर (Chaff Cutter) का पशुपालन में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998618079934873,
+      "CrossScore": 0.9998618079934873
+    },
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9996282493616756,
+      "CrossScore": 0.9996282493616756
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994225258654089,
+      "CrossScore": 0.9994225258654089
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9994053069786083,
+      "CrossScore": 0.9994053069786083
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993839030801513,
+      "CrossScore": 0.9993839030801513
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9993551203952673,
+      "CrossScore": 0.9993551203952673
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9993400297936641,
+      "CrossScore": 0.9993400297936641
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9992537413557163,
+      "CrossScore": 0.9992537413557163
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9992445637723147,
+      "CrossScore": 0.9992445637723147
+    }
+  ],
+  "latency_ms": 239.21,
+  "final_returned": [
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "Score": 0.999904424995763
+    },
+    {
+      "Question": "चाफ कटर (Chaff Cutter) का पशुपालन में क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998618079934873
+    },
+    {
+      "Question": "पावर वीडर (Power Weeder) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9996282493616756
+    },
+    {
+      "Question": "रिजेंट (Fipronil) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9994225258654089
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9994053069786083
+    }
+  ]
+}

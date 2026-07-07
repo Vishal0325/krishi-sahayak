@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:59.407034",
+  "query_original": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+  "query_normalized": "बीज उपचार seed treatment के लिए फफूंदनाशक की मात्रा",
+  "query_expanded": "बीज उपचार seed treatment के लिए फफूंदनाशक की मात्रा",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों में 'बीज उपचार' के लिए 'ट्राइकोडर्मा' की मात्रा?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 999.8618850585877,
+      "CrossScore": 0.9998618850585878
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General",
+      "FinalScore": 9.998925722007076,
+      "CrossScore": 0.9998925722007077
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 9.981335900739452,
+      "CrossScore": 0.9981335900739452
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.977231601172292,
+      "CrossScore": 0.9977231601172292
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General",
+      "FinalScore": 0.9998818261791831,
+      "CrossScore": 0.9998818261791831
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए कीटनाशक की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9998728762587055,
+      "CrossScore": 0.9998728762587055
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) फसल सुरक्षा की पहली सीढ़ी कैसे है?",
+      "Crop": "General",
+      "FinalScore": 0.9998724595528944,
+      "CrossScore": 0.9998724595528944
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998722274191928,
+      "CrossScore": 0.9998722274191928
+    },
+    {
+      "Question": "धनिया के बीजों का उपचार (Seed Treatment) कैसे करें?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998482912079392,
+      "CrossScore": 0.9998482912079392
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997678653789501,
+      "CrossScore": 0.9997678653789501
+    }
+  ],
+  "latency_ms": 218.33,
+  "final_returned": [
+    {
+      "Question": "बीज उपचार (Seed Treatment) के लिए फफूंदनाशक की मात्रा?",
+      "Crop": "General",
+      "Score": 999.8618850585877
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General",
+      "Score": 9.998925722007076
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "Score": 9.981335900739452
+    },
+    {
+      "Question": "गन्ने in 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "Score": 9.977231601172292
+    },
+    {
+      "Question": "IPM में 'बीज उपचार' (Seed Treatment) की भूमिका?",
+      "Crop": "General",
+      "Score": 0.9998818261791831
+    }
+  ]
+}

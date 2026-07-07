@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:47.448992",
+  "query_original": "'मटर' में चूर्णी फफूंद से बचाव?",
+  "query_normalized": "मटर में चूर्णी फफूंद से बचाव",
+  "query_expanded": "मटर में चूर्णी फफूंद से बचाव",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मटर' में चूर्णी फफूंद से बचाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मटर में 'चूर्णी फफूंद' (Powdery Mildew)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मटर' में चूर्णी फफूंद (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मटर में 'चूर्णी फफूंद' (Powdery Mildew) रोग?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "मटर की फसल में 'पाले' से बचाव?",
+      "Crop": "Pea"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मटर' में चूर्णी फफूंद से बचाव?",
+      "Crop": "General",
+      "FinalScore": 999.8694628003406,
+      "CrossScore": 0.9998694628003405
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' का 'रासायनिक' इलाज?",
+      "Crop": "Pea",
+      "FinalScore": 9.998260430050971,
+      "CrossScore": 0.999826043005097
+    },
+    {
+      "Question": "'मटर' में चूर्णी फफूंद (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "General",
+      "FinalScore": 0.9999097497364332,
+      "CrossScore": 0.9999097497364332
+    },
+    {
+      "Question": "टमाटर की फसल में 'पाले' से बचाव?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998858832732209,
+      "CrossScore": 0.9998858832732209
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998855089805774,
+      "CrossScore": 0.9998855089805774
+    },
+    {
+      "Question": "अमरूद के बाग में 'उकठा' (Wilt) से बचाव का जैविक तरीका?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998801694589952,
+      "CrossScore": 0.9998801694589952
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998651475935064,
+      "CrossScore": 0.9998651475935064
+    },
+    {
+      "Question": "मटर में 'चूर्णी फफूंद' (Powdery Mildew) रोग?",
+      "Crop": "Pea",
+      "FinalScore": 0.999860068554222,
+      "CrossScore": 0.999860068554222
+    },
+    {
+      "Question": "मटर की फसल में 'पाले' से बचाव?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998537515109736,
+      "CrossScore": 0.9998537515109736
+    },
+    {
+      "Question": "लीची की फसल में 'लू' (Loo) से बचाव?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998509274456207,
+      "CrossScore": 0.9998509274456207
+    }
+  ],
+  "latency_ms": 150.82,
+  "final_returned": [
+    {
+      "Question": "'मटर' में चूर्णी फफूंद से बचाव?",
+      "Crop": "General",
+      "Score": 999.8694628003406
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' का 'रासायनिक' इलाज?",
+      "Crop": "Pea",
+      "Score": 9.998260430050971
+    },
+    {
+      "Question": "'मटर' में चूर्णी फफूंद (Powdery Mildew) का जैविक उपचार?",
+      "Crop": "General",
+      "Score": 0.9999097497364332
+    },
+    {
+      "Question": "टमाटर की फसल में 'पाले' से बचाव?",
+      "Crop": "Tomato",
+      "Score": 0.9998858832732209
+    },
+    {
+      "Question": "'मुर्गी पालन' में 'रानीखेत' रोग से बचाव?",
+      "Crop": "General",
+      "Score": 0.9998855089805774
+    }
+  ]
+}

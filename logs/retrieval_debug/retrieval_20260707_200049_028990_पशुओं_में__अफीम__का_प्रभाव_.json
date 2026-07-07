@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:48.828201",
+  "query_original": "पशुओं में 'अफीम' का प्रभाव?",
+  "query_normalized": "पशुओं में अफीम का प्रभाव",
+  "query_expanded": "पशुओं में अफीम का प्रभाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'अफीम' का प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "भिंडी में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "क्या औषधीय खेती में 'पशुओं का गोबर' श्रेष्ठ है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'अफीम' का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 999.9280409200521,
+      "CrossScore": 0.9999280409200522
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999909855186296,
+      "CrossScore": 0.999909855186296
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999074530206964,
+      "CrossScore": 0.9999074530206964
+    },
+    {
+      "Question": "बैंगन में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.999901877486481,
+      "CrossScore": 0.999901877486481
+    },
+    {
+      "Question": "मक्का की 'मृदा' में 'केंचुओं' का प्रभाव?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998988775838265,
+      "CrossScore": 0.9998988775838265
+    },
+    {
+      "Question": "पत्तागोभी में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998979034339338,
+      "CrossScore": 0.9998979034339338
+    },
+    {
+      "Question": "अदरक में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998974284966047,
+      "CrossScore": 0.9998974284966047
+    },
+    {
+      "Question": "धनिया में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999894364938703,
+      "CrossScore": 0.999894364938703
+    },
+    {
+      "Question": "भिंडी में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998942847265485,
+      "CrossScore": 0.9998942847265485
+    },
+    {
+      "Question": "प्याज की 'पछेती' बुआई में 'तापमान' का प्रभाव?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998941683309199,
+      "CrossScore": 0.9998941683309199
+    }
+  ],
+  "latency_ms": 200.84,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'अफीम' का प्रभाव?",
+      "Crop": "General",
+      "Score": 999.9280409200521
+    },
+    {
+      "Question": "पशुओं में 'गर्भधान' (Artificial Insemination) का महत्व?",
+      "Crop": "Dairy",
+      "Score": 0.999909855186296
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "Score": 0.9999074530206964
+    },
+    {
+      "Question": "मक्का की 'मृदा' में 'केंचुओं' का प्रभाव?",
+      "Crop": "Maize",
+      "Score": 0.9998988775838265
+    },
+    {
+      "Question": "भिंडी में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Okra",
+      "Score": 0.9998942847265485
+    }
+  ]
+}

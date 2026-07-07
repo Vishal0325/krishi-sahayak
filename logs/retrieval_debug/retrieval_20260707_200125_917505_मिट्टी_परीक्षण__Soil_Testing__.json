@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:25.551270",
+  "query_original": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+  "query_normalized": "मिट्टी परीक्षण soil testing क्यों जरूरी है",
+  "query_expanded": "मिट्टी परीक्षण soil testing क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "मक्का की खेती में 'मिट्टी की जांच' क्यों जरूरी है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 999.9135726637687,
+      "CrossScore": 0.9999135726637687
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) कब करवाना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999135928534301,
+      "CrossScore": 0.9999135928534301
+    },
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.999884040082825,
+      "CrossScore": 0.999884040082825
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9998203691217088,
+      "CrossScore": 0.9998203691217088
+    },
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998162954965024,
+      "CrossScore": 0.9998162954965024
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997445516694785,
+      "CrossScore": 0.9997445516694785
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) क्यों जरूरी है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9989503259283765,
+      "CrossScore": 0.9989503259283765
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9989153051209428,
+      "CrossScore": 0.9989153051209428
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मिट्टी परीक्षण' जरूरी है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.998870625921709,
+      "CrossScore": 0.998870625921709
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण के लिए लैब जाना जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9987468004739007,
+      "CrossScore": 0.9987468004739007
+    }
+  ],
+  "latency_ms": 366.26,
+  "final_returned": [
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 999.9135726637687
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) कब करवाना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9999135928534301
+    },
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.999884040082825
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9998203691217088
+    },
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General",
+      "Score": 0.9998162954965024
+    }
+  ]
+}

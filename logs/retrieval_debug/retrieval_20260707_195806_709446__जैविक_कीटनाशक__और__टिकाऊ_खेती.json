@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:06.516123",
+  "query_original": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+  "query_normalized": "जैविक कीटनाशक और टिकाऊ खेती",
+  "query_expanded": "बग जैविक कीटनाशक और टिकाऊ खेती pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "FinalScore": 9.999088587610771,
+      "CrossScore": 0.999908858761077
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "FinalScore": 9.998978691585421,
+      "CrossScore": 0.9998978691585422
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "FinalScore": 9.998929037988255,
+      "CrossScore": 0.9998929037988256
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'प्रीमियम भाव'?",
+      "Crop": "General",
+      "FinalScore": 9.998806088028672,
+      "CrossScore": 0.9998806088028673
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998639491326426,
+      "CrossScore": 0.9998639491326425
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General",
+      "FinalScore": 9.998615378608811,
+      "CrossScore": 0.9998615378608811
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998227333441305,
+      "CrossScore": 0.9998227333441304
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997946055072948,
+      "CrossScore": 0.9997946055072948
+    },
+    {
+      "Question": "'जैविक खेती' और पर्यावरण संतुलन?",
+      "Crop": "General",
+      "FinalScore": 0.9998902847762587,
+      "CrossScore": 0.9998902847762587
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'प्रमाणन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998886257274076,
+      "CrossScore": 0.9998886257274076
+    }
+  ],
+  "latency_ms": 193.42,
+  "final_returned": [
+    {
+      "Question": "'जैविक कीटनाशक' और 'टिकाऊ खेती'?",
+      "Crop": "General",
+      "Score": 9.999088587610771
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'पर्यावरण'?",
+      "Crop": "General",
+      "Score": 9.998978691585421
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भविष्य'?",
+      "Crop": "General",
+      "Score": 9.998929037988255
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'प्रीमियम भाव'?",
+      "Crop": "General",
+      "Score": 9.998806088028672
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "Score": 9.998639491326426
+    }
+  ]
+}

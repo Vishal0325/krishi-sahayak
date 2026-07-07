@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:51.573837",
+  "query_original": "ट्रैक्टर चालित पोस्ट होल डिगर (Post Hole Digger) क्या है?",
+  "query_normalized": "ट्रैक्टर चालित पोस्ट होल डिगर post hole digger क्या है",
+  "query_expanded": "ट्रैक्टर चालित पोस्ट होल डिगर post hole digger क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्रैक्टर चालित पोस्ट होल डिगर (Post Hole Digger) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्रैक्टर चालित पोस्ट होल डिगर (Post Hole Digger) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999873497801352,
+      "CrossScore": 0.999873497801352
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9987965845137262,
+      "CrossScore": 0.9987965845137262
+    },
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9985450548358548,
+      "CrossScore": 0.9985450548358548
+    },
+    {
+      "Question": "जमाव पश्चात खरपतवारनाशी (Post-emergence) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9985288713641087,
+      "CrossScore": 0.9985288713641087
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9984708020863049,
+      "CrossScore": 0.9984708020863049
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9984450696886374,
+      "CrossScore": 0.9984450696886374
+    },
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9984090285519337,
+      "CrossScore": 0.9984090285519337
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9983647933660749,
+      "CrossScore": 0.9983647933660749
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9983358071961067,
+      "CrossScore": 0.9983358071961067
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9981036377778477,
+      "CrossScore": 0.9981036377778477
+    }
+  ],
+  "latency_ms": 208.63,
+  "final_returned": [
+    {
+      "Question": "ट्रैक्टर चालित पोस्ट होल डिगर (Post Hole Digger) क्या है?",
+      "Crop": "General",
+      "Score": 0.999873497801352
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9987965845137262
+    },
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9985450548358548
+    },
+    {
+      "Question": "जमाव पश्चात खरपतवारनाशी (Post-emergence) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9985288713641087
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.9984708020863049
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:32.801871",
+  "query_original": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+  "query_normalized": "दीमक के लिए मिट्टी in नीम की खली",
+  "query_expanded": "दीमक के लिए मिट्टी in नीम की खली",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "FinalScore": 999.8920147143268,
+      "CrossScore": 0.9998920147143269
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998799338405149,
+      "CrossScore": 0.9998799338405149
+    },
+    {
+      "Question": "अदरक में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998725826909705,
+      "CrossScore": 0.9998725826909705
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998722376531631,
+      "CrossScore": 0.9998722376531631
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998716401556419,
+      "CrossScore": 0.9998716401556419
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998714757927003,
+      "CrossScore": 0.9998714757927003
+    },
+    {
+      "Question": "पत्तागोभी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998681842095409,
+      "CrossScore": 0.9998681842095409
+    },
+    {
+      "Question": "पपीते में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998679816887958,
+      "CrossScore": 0.9998679816887958
+    },
+    {
+      "Question": "हल्दी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9998671676033016,
+      "CrossScore": 0.9998671676033016
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998671211102073,
+      "CrossScore": 0.9998671211102073
+    }
+  ],
+  "latency_ms": 197.38,
+  "final_returned": [
+    {
+      "Question": "'दीमक' के लिए मिट्टी in 'नीम की खली'?",
+      "Crop": "General",
+      "Score": 999.8920147143268
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998799338405149
+    },
+    {
+      "Question": "अदरक में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Ginger",
+      "Score": 0.9998725826909705
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Potato",
+      "Score": 0.9998671211102073
+    },
+    {
+      "Question": "लीची में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Litchi",
+      "Score": 0.9998586063103784
+    }
+  ]
+}

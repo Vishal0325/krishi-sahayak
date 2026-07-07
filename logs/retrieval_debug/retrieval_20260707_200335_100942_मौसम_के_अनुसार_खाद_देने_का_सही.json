@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:34.914934",
+  "query_original": "मौसम के अनुसार खाद देने का सही समय?",
+  "query_normalized": "मौसम के अनुसार खाद देने का सही समय",
+  "query_expanded": "मौसम के अनुसार खाद देने का सही समय poshak खाद पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'चूहा' नियंत्रण के लिए 'बाउमा' (Baiting) का सही समय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैव-उर्वरक (Bio-fertilizer) के प्रयोग का सही समय?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General",
+      "FinalScore": 999.9120898622738,
+      "CrossScore": 0.9999120898622738
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999210823120648,
+      "CrossScore": 0.9999210823120648
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999136628626383,
+      "CrossScore": 0.9999136628626383
+    },
+    {
+      "Question": "अमरूद के पौधे लगाने का सही समय?",
+      "Crop": "Guava",
+      "FinalScore": 0.9999122825442746,
+      "CrossScore": 0.9999122825442746
+    },
+    {
+      "Question": "क्या मौसम के अनुसार कीटनाशकों का असर बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.999909018710886,
+      "CrossScore": 0.999909018710886
+    },
+    {
+      "Question": "मौसम के अनुसार सिंचाई का निर्धारण?",
+      "Crop": "General",
+      "FinalScore": 0.9999064111273533,
+      "CrossScore": 0.9999064111273533
+    },
+    {
+      "Question": "क्या मौसम के अनुसार सिंचाई का स्रोत बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9999023744719461,
+      "CrossScore": 0.9999023744719461
+    },
+    {
+      "Question": "आम के पौधे लगाने का सही समय?",
+      "Crop": "Mango",
+      "FinalScore": 0.9999014565607194,
+      "CrossScore": 0.9999014565607194
+    },
+    {
+      "Question": "'चूहा' नियंत्रण के लिए 'बाउमा' (Baiting) का सही समय?",
+      "Crop": "General",
+      "FinalScore": 0.999892081007729,
+      "CrossScore": 0.999892081007729
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9998895330209998,
+      "CrossScore": 0.9998895330209998
+    }
+  ],
+  "latency_ms": 186.04,
+  "final_returned": [
+    {
+      "Question": "मौसम के अनुसार खाद देने का सही समय?",
+      "Crop": "General",
+      "Score": 999.9120898622738
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "Score": 0.9999210823120648
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9999136628626383
+    },
+    {
+      "Question": "अमरूद के पौधे लगाने का सही समय?",
+      "Crop": "Guava",
+      "Score": 0.9999122825442746
+    },
+    {
+      "Question": "क्या मौसम के अनुसार कीटनाशकों का असर बदलता है?",
+      "Crop": "General",
+      "Score": 0.999909018710886
+    }
+  ]
+}

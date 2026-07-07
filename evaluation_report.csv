@@ -1,0 +1,12 @@
+Metric,Value
+Top-1 Accuracy,99.70%
+Top-3 Accuracy,99.90%
+Recall@5,99.90%
+Precision,99.70%
+MRR,0.9980
+Avg Latency (ms),216.95
+Crop Detection Accuracy,37.02%
+Government Query Accuracy,39.02%
+Disease Accuracy,24.39%
+Pest Accuracy,57.32%
+Hallucination Rate,0.30%

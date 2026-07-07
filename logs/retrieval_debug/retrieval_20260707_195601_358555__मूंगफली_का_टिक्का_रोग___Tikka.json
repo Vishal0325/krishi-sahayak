@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:01.161817",
+  "query_original": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+  "query_normalized": "मूंगफली का टिक्का रोग tikka disease",
+  "query_expanded": "फंगस बीमारी fungus मूंगफली का टिक्का रोग tikka disease disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पालक में 'झुलसा' रोग का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.999104388553341,
+      "CrossScore": 0.9999104388553341
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 9.996117040787366,
+      "CrossScore": 0.9996117040787367
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99428647822876,
+      "CrossScore": 0.9994286478228761
+    },
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "FinalScore": 9.989536317055776,
+      "CrossScore": 0.9989536317055776
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 9.98303633263708,
+      "CrossScore": 0.9983036332637081
+    },
+    {
+      "Question": "'धान का झूठा कंड' (False Smut) और 'दिवाली रोग'?",
+      "Crop": "Rice",
+      "FinalScore": 9.980503019024843,
+      "CrossScore": 0.9980503019024843
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 9.978877468097917,
+      "CrossScore": 0.9978877468097918
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "FinalScore": 9.978872040005989,
+      "CrossScore": 0.9978872040005988
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' (Late Blight) और 'बादल'?",
+      "Crop": "Potato",
+      "FinalScore": 9.978248806688162,
+      "CrossScore": 0.9978248806688162
+    },
+    {
+      "Question": "'आम का गुच्छा रोग' (Malformation) और 'बौर'?",
+      "Crop": "Mango",
+      "FinalScore": 9.976379269180097,
+      "CrossScore": 0.9976379269180097
+    }
+  ],
+  "latency_ms": 196.82,
+  "final_returned": [
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.999104388553341
+    },
+    {
+      "Question": "मूंगफली का 'टिक्का' (Tikka) रोग क्या है?",
+      "Crop": "Mustard",
+      "Score": 9.996117040787366
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.99428647822876
+    },
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "Score": 9.989536317055776
+    },
+    {
+      "Question": "मूंगफली के 'टिक्का' रोग का प्रबंधन?",
+      "Crop": "General",
+      "Score": 9.98303633263708
+    }
+  ]
+}

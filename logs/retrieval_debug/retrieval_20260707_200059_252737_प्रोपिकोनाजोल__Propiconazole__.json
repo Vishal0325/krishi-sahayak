@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:59.051239",
+  "query_original": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+  "query_normalized": "प्रोपिकोनाजोल propiconazole का मुख्य उपयोग",
+  "query_expanded": "प्रोपिकोनाजोल propiconazole का मुख्य उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पेंडीमेथलीन (Pendimethalin) का मुख्य उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "तुलसी के तेल का उपयोग?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.8733713214585,
+      "CrossScore": 0.9998733713214585
+    },
+    {
+      "Question": "पेंडीमेथलीन (Pendimethalin) का मुख्य उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997225277871103,
+      "CrossScore": 0.9997225277871103
+    },
+    {
+      "Question": "'एज़ोटोबैक्टर' (Azotobacter) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997151196898513,
+      "CrossScore": 0.9997151196898513
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996780420720333,
+      "CrossScore": 0.9996780420720333
+    },
+    {
+      "Question": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996726823032897,
+      "CrossScore": 0.9996726823032897
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996138541269923,
+      "CrossScore": 0.9996138541269923
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996062675436524,
+      "CrossScore": 0.9996062675436524
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9995941616631824,
+      "CrossScore": 0.9995941616631824
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9995281132059564,
+      "CrossScore": 0.9995281132059564
+    },
+    {
+      "Question": "तुलसी के तेल का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9994623581051998,
+      "CrossScore": 0.9994623581051998
+    }
+  ],
+  "latency_ms": 201.55,
+  "final_returned": [
+    {
+      "Question": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+      "Crop": "General",
+      "Score": 999.8733713214585
+    },
+    {
+      "Question": "पेंडीमेथलीन (Pendimethalin) का मुख्य उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997225277871103
+    },
+    {
+      "Question": "'एज़ोटोबैक्टर' (Azotobacter) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9997151196898513
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9996780420720333
+    },
+    {
+      "Question": "'प्रेटिलाक्लोर' (Pretilachlor) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9996726823032897
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:50.257049",
+  "query_original": "'हरा' निशान वाला कीटनाशक?",
+  "query_normalized": "हरा निशान वाला कीटनाशक",
+  "query_expanded": "pest हरा निशान वाला कीटनाशक कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'हरा' निशान वाला कीटनाशक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीला' और 'हरा' निशान कीटनाशक पर क्या दर्शाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीला' निशान कीटनाशक पर क्या बताता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'लाल त्रिकोण' वाला कीटनाशक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'हरा' निशान वाला कीटनाशक?",
+      "Crop": "General",
+      "FinalScore": 999.9136747174023,
+      "CrossScore": 0.9999136747174022
+    },
+    {
+      "Question": "'नीला' और 'हरा' निशान कीटनाशक पर क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 9.999059040073488,
+      "CrossScore": 0.9999059040073488
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "FinalScore": 9.998936027932228,
+      "CrossScore": 0.9998936027932227
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.998880202175458,
+      "CrossScore": 0.9998880202175459
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "FinalScore": 9.998780302787285,
+      "CrossScore": 0.9998780302787285
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998736321080871,
+      "CrossScore": 0.9998736321080871
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय जूते?",
+      "Crop": "General",
+      "FinalScore": 9.998595689017547,
+      "CrossScore": 0.9998595689017546
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'भंडारण'?",
+      "Crop": "General",
+      "FinalScore": 9.998480672556187,
+      "CrossScore": 0.9998480672556187
+    },
+    {
+      "Question": "कीटनाशकों के पैकेट पर 'लाल' निशान क्या दर्शाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999202264864696,
+      "CrossScore": 0.9999202264864696
+    },
+    {
+      "Question": "'लाल त्रिकोण' वाला कीटनाशक?",
+      "Crop": "General",
+      "FinalScore": 0.9999175743973221,
+      "CrossScore": 0.9999175743973221
+    }
+  ],
+  "latency_ms": 205.95,
+  "final_returned": [
+    {
+      "Question": "'हरा' निशान वाला कीटनाशक?",
+      "Crop": "General",
+      "Score": 999.9136747174023
+    },
+    {
+      "Question": "'नीला' और 'हरा' निशान कीटनाशक पर क्या दर्शाता है?",
+      "Crop": "General",
+      "Score": 9.999059040073488
+    },
+    {
+      "Question": "'कीटनाशक' और 'गर्भवती महिलाएं'?",
+      "Crop": "General",
+      "Score": 9.998936027932228
+    },
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 9.998880202175458
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कने के बाद बारिश हो जाए तो?",
+      "Crop": "General",
+      "Score": 9.998780302787285
+    }
+  ]
+}

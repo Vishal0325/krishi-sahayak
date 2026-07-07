@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:56:40.570130",
+  "query_original": "थ्रिप्स",
+  "query_normalized": "थ्रिप्स",
+  "query_expanded": "थ्रिप्स",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "प्याज में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "लहसुन में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Garlic"
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' (Thrips) और 'नाव' जैसी पत्तियां?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "'मिर्च' में थ्रिप्स के लिए 'फिप्रोनिल'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "FinalScore": 9.997402512815723,
+      "CrossScore": 0.9997402512815724
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' (Thrips) और 'नाव' जैसी पत्तियां?",
+      "Crop": "Chilli",
+      "FinalScore": 9.996979941375848,
+      "CrossScore": 0.9996979941375849
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "FinalScore": 9.996537863371453,
+      "CrossScore": 0.9996537863371452
+    },
+    {
+      "Question": "'थ्रिप्स' के लिए नीला ट्रैप क्यों?",
+      "Crop": "General",
+      "FinalScore": 9.99621161523585,
+      "CrossScore": 0.999621161523585
+    },
+    {
+      "Question": "'थ्रिप्स' के लिए 'नीला ट्रैप' और 'सब्जियां'?",
+      "Crop": "General",
+      "FinalScore": 0.9997705996132392,
+      "CrossScore": 0.9997705996132392
+    },
+    {
+      "Question": "मिर्च में 'थ्रिप्स' (Thrips) कीट के लक्षण?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9997237557246786,
+      "CrossScore": 0.9997237557246786
+    },
+    {
+      "Question": "ड्रैगन फ्रूट की 'थ्रिप्स' कीट समस्या?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9996976815738462,
+      "CrossScore": 0.9996976815738462
+    },
+    {
+      "Question": "'थ्रिप्स' के लिए 'नीला ट्रैप' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9996950699852525,
+      "CrossScore": 0.9996950699852525
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9996928542849571,
+      "CrossScore": 0.9996928542849571
+    },
+    {
+      "Question": "मिर्च में 'थ्रिप्स' कीट का क्या लक्षण है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9996811926889855,
+      "CrossScore": 0.9996811926889855
+    }
+  ],
+  "latency_ms": 409.5,
+  "final_returned": [
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "Score": 9.997402512815723
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' (Thrips) और 'नाव' जैसी पत्तियां?",
+      "Crop": "Chilli",
+      "Score": 9.996979941375848
+    },
+    {
+      "Question": "'मिर्च का थ्रिप्स' और 'मकड़ी' in अंतर?",
+      "Crop": "Chilli",
+      "Score": 9.996537863371453
+    }
+  ]
+}

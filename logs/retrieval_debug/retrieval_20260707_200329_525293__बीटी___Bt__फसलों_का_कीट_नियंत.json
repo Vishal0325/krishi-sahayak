@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:29.293194",
+  "query_original": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+  "query_normalized": "बीटी bt फसलों का कीट नियंत्रण in क्या महत्व है",
+  "query_expanded": "pest कीड़ा बग कीट बीटी bt फसलों का कीट नियंत्रण in क्या महत्व है insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9999.072985400317,
+      "CrossScore": 0.9999072985400316
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.997726681023993,
+      "CrossScore": 0.9997726681023993
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.997107365578406,
+      "CrossScore": 0.9997107365578406
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.996010121232267,
+      "CrossScore": 0.9996010121232266
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.994615865569514,
+      "CrossScore": 0.9994615865569514
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997106543627392,
+      "CrossScore": 0.9997106543627392
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996938430315176,
+      "CrossScore": 0.9996938430315176
+    },
+    {
+      "Question": "दलहनी फसलों (Pulses) का कृषि में क्या महत्व है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996696977328001,
+      "CrossScore": 0.9996696977328001
+    },
+    {
+      "Question": "बिहार में 'हथिया' नक्षत्र की वर्षा का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9996447963040418,
+      "CrossScore": 0.9996447963040418
+    },
+    {
+      "Question": "केले में पोटाश का क्या महत्व है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9996226348596471,
+      "CrossScore": 0.9996226348596471
+    }
+  ],
+  "latency_ms": 232.14,
+  "final_returned": [
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "Score": 9999.072985400317
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.997726681023993
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.997107365578406
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9.996010121232267
+    },
+    {
+      "Question": "तना छेदक का रासायनिक नियंत्रण क्या है?",
+      "Crop": "Rice",
+      "Score": 9.994615865569514
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:55.631181",
+  "query_original": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+  "query_normalized": "पौधों में धुआं रोग sooty mold",
+  "query_expanded": "पौधों में धुआं रोग sooty mold फंगस बीमारी fungus disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों in 'धुआं' (Sooty Mold) रोग क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "FinalScore": 9.9988257641778,
+      "CrossScore": 0.99988257641778
+    },
+    {
+      "Question": "पौधों in 'धुआं' (Sooty Mold) रोग क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998140590126102,
+      "CrossScore": 0.9998140590126101
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.937076176895314,
+      "CrossScore": 0.9937076176895313
+    },
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का इलाज?",
+      "Crop": "General",
+      "FinalScore": 9.925246356480189,
+      "CrossScore": 0.9925246356480188
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.920268149535424,
+      "CrossScore": 0.9920268149535425
+    },
+    {
+      "Question": "'पौधों' में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.849911464020408,
+      "CrossScore": 0.9849911464020409
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.688226710883857,
+      "CrossScore": 0.9688226710883856
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.252144845543297,
+      "CrossScore": 0.9252144845543296
+    },
+    {
+      "Question": "मशरूम में 'पिंक मोल्ड' (Pink Mold) बीमारी?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9994052293210942,
+      "CrossScore": 0.9994052293210942
+    },
+    {
+      "Question": "धनिया में 'चूर्णी फफूंद' (Powdery Mildew) रोग?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9977179113542626,
+      "CrossScore": 0.9977179113542626
+    }
+  ],
+  "latency_ms": 249.06,
+  "final_returned": [
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "Score": 9.9988257641778
+    },
+    {
+      "Question": "पौधों in 'धुआं' (Sooty Mold) रोग क्या है?",
+      "Crop": "General",
+      "Score": 9.998140590126102
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "Score": 9.937076176895314
+    },
+    {
+      "Question": "'पौधों' में 'वायरस' रोगों का इलाज?",
+      "Crop": "General",
+      "Score": 9.925246356480189
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "Score": 9.920268149535424
+    }
+  ]
+}

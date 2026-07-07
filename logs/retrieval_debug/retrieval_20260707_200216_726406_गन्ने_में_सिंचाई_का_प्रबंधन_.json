@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:16.559475",
+  "query_original": "गन्ने में सिंचाई का प्रबंधन?",
+  "query_normalized": "गन्ने में सिंचाई का प्रबंधन",
+  "query_expanded": "गन्ने में सिंचाई का प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने में सिंचाई का प्रबंधन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने में 'सिंचाई' का अंतराल मिट्टी के अनुसार?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धान में सिंचाई का प्रबंधन कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने में सिंचाई का प्रबंधन?",
+      "Crop": "General",
+      "FinalScore": 999.9156604397075,
+      "CrossScore": 0.9999156604397075
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999192823689204,
+      "CrossScore": 0.9999192823689204
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999130484782622,
+      "CrossScore": 0.9999130484782622
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999108677514957,
+      "CrossScore": 0.9999108677514957
+    },
+    {
+      "Question": "गन्ने में 'एनपीके 19:19:19' का उपयोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999047344564992,
+      "CrossScore": 0.9999047344564992
+    },
+    {
+      "Question": "गन्ने में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999023742857581,
+      "CrossScore": 0.9999023742857581
+    },
+    {
+      "Question": "गन्ने में 'सिंचाई' का अंतराल मिट्टी के अनुसार?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999010827964813,
+      "CrossScore": 0.9999010827964813
+    },
+    {
+      "Question": "धान में सिंचाई का प्रबंधन कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998980964075049,
+      "CrossScore": 0.9998980964075049
+    },
+    {
+      "Question": "गन्ने के भंडारण में 'चूहों' का नुकसान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998915151796942,
+      "CrossScore": 0.9998915151796942
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'जड़ों' का प्रबंधन?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998871054524366,
+      "CrossScore": 0.9998871054524366
+    }
+  ],
+  "latency_ms": 166.96,
+  "final_returned": [
+    {
+      "Question": "गन्ने में सिंचाई का प्रबंधन?",
+      "Crop": "General",
+      "Score": 999.9156604397075
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999192823689204
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999130484782622
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999108677514957
+    },
+    {
+      "Question": "गन्ने में 'एनपीके 19:19:19' का उपयोग?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999047344564992
+    }
+  ]
+}

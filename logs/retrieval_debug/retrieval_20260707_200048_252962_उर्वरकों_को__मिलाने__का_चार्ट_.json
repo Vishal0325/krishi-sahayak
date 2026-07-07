@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:47.910004",
+  "query_original": "उर्वरकों को 'मिलाने' का चार्ट?",
+  "query_normalized": "उर्वरकों को मिलाने का चार्ट",
+  "query_expanded": "poshak खाद उर्वरकों को मिलाने का चार्ट पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "उर्वरकों को 'मिलाने' का चार्ट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशकों को मिलाने का नियम क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में 'जिंक सल्फेट' को डीएपी के साथ मिलाने से क्या होता है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "उर्वरकों को 'मिलाने' का चार्ट?",
+      "Crop": "General",
+      "FinalScore": 999.91717871799,
+      "CrossScore": 0.99991717871799
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999019202376226,
+      "CrossScore": 0.9999019202376226
+    },
+    {
+      "Question": "नींबू वर्गीय फलों में 'सिट्रस कैंकर' का उपचार?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999003695898137,
+      "CrossScore": 0.9999003695898137
+    },
+    {
+      "Question": "क्या उर्वरकों को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999892531216842,
+      "CrossScore": 0.999892531216842
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998889718350082,
+      "CrossScore": 0.9998889718350082
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998864843178148,
+      "CrossScore": 0.9998864843178148
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998690985810137,
+      "CrossScore": 0.9998690985810137
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998688897138991,
+      "CrossScore": 0.9998688897138991
+    },
+    {
+      "Question": "उर्वरकों को भंडारित करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9998614304792841,
+      "CrossScore": 0.9998614304792841
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998461060292823,
+      "CrossScore": 0.9998461060292823
+    }
+  ],
+  "latency_ms": 343.01,
+  "final_returned": [
+    {
+      "Question": "उर्वरकों को 'मिलाने' का चार्ट?",
+      "Crop": "General",
+      "Score": 999.91717871799
+    },
+    {
+      "Question": "पीएच (pH) मान का उर्वरकों पर क्या प्रभाव पड़ता है?",
+      "Crop": "General",
+      "Score": 0.9999019202376226
+    },
+    {
+      "Question": "नींबू वर्गीय फलों में 'सिट्रस कैंकर' का उपचार?",
+      "Crop": "Fruits",
+      "Score": 0.9999003695898137
+    },
+    {
+      "Question": "क्या उर्वरकों को कीटनाशकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "Score": 0.999892531216842
+    },
+    {
+      "Question": "उर्वरकों का संतुलित प्रयोग (Balanced Fertilization) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998889718350082
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:28.484652",
+  "query_original": "एन.पी.वी. (NPV Virus) का उपयोग?",
+  "query_normalized": "एन पी वी npv virus का उपयोग",
+  "query_expanded": "एन पी वी npv virus का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एन.पी.वी. (NPV Virus) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दालों के भंडारण में 'नीम तेल' का उपयोग?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "दालों की 'मड़ाई' के बाद भूसे का क्या उपयोग है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एन.पी.वी. (NPV Virus) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.9053996426603,
+      "CrossScore": 0.9999053996426603
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.961597260784746,
+      "CrossScore": 0.9961597260784747
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997355411158182,
+      "CrossScore": 0.9997355411158182
+    },
+    {
+      "Question": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9988158599194285,
+      "CrossScore": 0.9988158599194285
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9979088240941905,
+      "CrossScore": 0.9979088240941905
+    },
+    {
+      "Question": "क्लोरपायरीफॉस (Chlorpyrifos) का विशेष उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9978529823685954,
+      "CrossScore": 0.9978529823685954
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9974703112697164,
+      "CrossScore": 0.9974703112697164
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9971196257964031,
+      "CrossScore": 0.9971196257964031
+    },
+    {
+      "Question": "तुलसी के तेल का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9970704768787938,
+      "CrossScore": 0.9970704768787938
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9969128889459216,
+      "CrossScore": 0.9969128889459216
+    }
+  ],
+  "latency_ms": 186.24,
+  "final_returned": [
+    {
+      "Question": "एन.पी.वी. (NPV Virus) का उपयोग?",
+      "Crop": "General",
+      "Score": 999.9053996426603
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.961597260784746
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "Score": 0.9997355411158182
+    },
+    {
+      "Question": "प्रोपिकोनाजोल (Propiconazole) का मुख्य उपयोग?",
+      "Crop": "General",
+      "Score": 0.9988158599194285
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9979088240941905
+    }
+  ]
+}

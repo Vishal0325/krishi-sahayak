@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:43.308886",
+  "query_original": "'फेरोमोन ट्रैप' के लूअर को कब बदलें?",
+  "query_normalized": "फेरोमोन ट्रैप के लूअर को कब बदलें",
+  "query_expanded": "फेरोमोन ट्रैप के लूअर को कब बदलें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर को कब बदलें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर (Lure) को कब बदलें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के 'लूअर' (Lure) की गंध?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फेरोमोन लूअर' को हाथों से क्यों न छुएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "FinalScore": 0.9999043100919729,
+      "CrossScore": 0.9999043100919729
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर को कब बदलें?",
+      "Crop": "General",
+      "FinalScore": 0.9998999045008904,
+      "CrossScore": 0.9998999045008904
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General",
+      "FinalScore": 0.9998996815706263,
+      "CrossScore": 0.9998996815706263
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर (Lure) को कब बदलें?",
+      "Crop": "General",
+      "FinalScore": 0.9998969240289547,
+      "CrossScore": 0.9998969240289547
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998952893068158,
+      "CrossScore": 0.9998952893068158
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998933070402272,
+      "CrossScore": 0.9998933070402272
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9998853723216126,
+      "CrossScore": 0.9998853723216126
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के 'लूअर' (Lure) की गंध?",
+      "Crop": "General",
+      "FinalScore": 0.9998822510288407,
+      "CrossScore": 0.9998822510288407
+    },
+    {
+      "Question": "फलों के बाग में 'कीट निगरानी' के लिए लाइट ट्रैप?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998800025150285,
+      "CrossScore": 0.9998800025150285
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9998683783874095,
+      "CrossScore": 0.9998683783874095
+    }
+  ],
+  "latency_ms": 192.88,
+  "final_returned": [
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' की सफाई?",
+      "Crop": "General",
+      "Score": 0.9999043100919729
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर को कब बदलें?",
+      "Crop": "General",
+      "Score": 0.9998999045008904
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर की शुद्धता?",
+      "Crop": "General",
+      "Score": 0.9998996815706263
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' के लूअर (Lure) को कब बदलें?",
+      "Crop": "General",
+      "Score": 0.9998969240289547
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998952893068158
+    }
+  ]
+}

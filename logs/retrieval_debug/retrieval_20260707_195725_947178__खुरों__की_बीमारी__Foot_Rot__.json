@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:25.713640",
+  "query_original": "'खुरों' की बीमारी (Foot Rot)?",
+  "query_normalized": "खुरों की बीमारी foot rot",
+  "query_expanded": "खुरों की बीमारी foot rot फंगस बीमारी fungus disease झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'खुरों' की बीमारी (Foot Rot)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "पपीते में 'तने की सड़न' (Foot Rot) कैसे रोकें?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.99688725453421,
+      "CrossScore": 0.9996887254534209
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 9.99271063055122,
+      "CrossScore": 0.9992710630551221
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "FinalScore": 9.955324280684488,
+      "CrossScore": 0.9955324280684488
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice",
+      "FinalScore": 9.9435435584048,
+      "CrossScore": 0.9943543558404799
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.918224652947782,
+      "CrossScore": 0.9918224652947782
+    },
+    {
+      "Question": "'मूंगफली का टिक्का रोग' (Tikka Disease)?",
+      "Crop": "General",
+      "FinalScore": 9.901139248048354,
+      "CrossScore": 0.9901139248048354
+    },
+    {
+      "Question": "'खुरों' की बीमारी (Foot Rot)?",
+      "Crop": "General",
+      "FinalScore": 0.9999166295882441,
+      "CrossScore": 0.9999166295882441
+    },
+    {
+      "Question": "पपीते में 'तने की सड़न' (Foot Rot) कैसे रोकें?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998361960921466,
+      "CrossScore": 0.9998361960921466
+    },
+    {
+      "Question": "पपीते में 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998213976062604,
+      "CrossScore": 0.9998213976062604
+    },
+    {
+      "Question": "पत्तागोभी में 'काली सड़न' (Black Rot) रोग?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9997111606772304,
+      "CrossScore": 0.9997111606772304
+    }
+  ],
+  "latency_ms": 233.63,
+  "final_returned": [
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 9.99688725453421
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize",
+      "Score": 9.99271063055122
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "Score": 9.955324280684488
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice",
+      "Score": 9.9435435584048
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.918224652947782
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:09.286399",
+  "query_original": "मौसम और 'मत्स्य पालन'?",
+  "query_normalized": "मौसम और मत्स्य पालन",
+  "query_expanded": "मौसम और मत्स्य पालन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम और 'मत्स्य पालन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम और 'रेशम कीट' पालन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "'सरसों का माहू' और बादल वाला मौसम?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'मत्स्य पालन' (Pisciculture) के साथ बत्तख पालन?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9999003139960946,
+      "CrossScore": 0.9999003139960946
+    },
+    {
+      "Question": "मौसम और 'मत्स्य पालन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998988825015401,
+      "CrossScore": 0.9998988825015401
+    },
+    {
+      "Question": "'मत्स्य पालन' (Pisciculture) के साथ बत्तख पालन?",
+      "Crop": "General",
+      "FinalScore": 0.9998955109374184,
+      "CrossScore": 0.9998955109374184
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998929798541588,
+      "CrossScore": 0.9998929798541588
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General",
+      "FinalScore": 0.9998894763346811,
+      "CrossScore": 0.9998894763346811
+    },
+    {
+      "Question": "मौसम और 'रेशम कीट' पालन?",
+      "Crop": "General",
+      "FinalScore": 0.9998797940811235,
+      "CrossScore": 0.9998797940811235
+    },
+    {
+      "Question": "मुर्गी पालन में 'शिक्षा' और 'प्रशिक्षण'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998761251298288,
+      "CrossScore": 0.9998761251298288
+    },
+    {
+      "Question": "'मधुमक्खी पालन' और कीटनाशक का तालमेल?",
+      "Crop": "General",
+      "FinalScore": 0.9998738964461531,
+      "CrossScore": 0.9998738964461531
+    },
+    {
+      "Question": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998679173454532,
+      "CrossScore": 0.9998679173454532
+    },
+    {
+      "Question": "जैविक खेती और 'मधुमक्खी पालन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998678325557893,
+      "CrossScore": 0.9998678325557893
+    }
+  ],
+  "latency_ms": 158.04,
+  "final_returned": [
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "Score": 0.9999003139960946
+    },
+    {
+      "Question": "मौसम और 'मत्स्य पालन'?",
+      "Crop": "General",
+      "Score": 0.9998988825015401
+    },
+    {
+      "Question": "'मत्स्य पालन' (Pisciculture) के साथ बत्तख पालन?",
+      "Crop": "General",
+      "Score": 0.9998955109374184
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998929798541588
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General",
+      "Score": 0.9998894763346811
+    }
+  ]
+}

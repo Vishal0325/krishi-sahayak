@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:26.735657",
+  "query_original": "मल्चिंग मशीन (Mulching Machine) क्या है?",
+  "query_normalized": "मल्चिंग मशीन mulching machine क्या है",
+  "query_expanded": "मल्चिंग मशीन mulching machine क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मल्चिंग मशीन (Mulching Machine) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मल्चिंग मशीन (Mulching Machine) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999193696850172,
+      "CrossScore": 0.9999193696850172
+    },
+    {
+      "Question": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999039684889302,
+      "CrossScore": 0.9999039684889302
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9999015517993254,
+      "CrossScore": 0.9999015517993254
+    },
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.999893290150137,
+      "CrossScore": 0.999893290150137
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998747325026672,
+      "CrossScore": 0.9998747325026672
+    },
+    {
+      "Question": "स्ट्रॉ मल्चर (Straw Mulcher) का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9998731588698354,
+      "CrossScore": 0.9998731588698354
+    },
+    {
+      "Question": "मशीनों को साझा करना (Machine Sharing) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997885586405848,
+      "CrossScore": 0.9997885586405848
+    },
+    {
+      "Question": "सुपर सीडर (Super Seeder) का क्या उपयोग है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997525631434335,
+      "CrossScore": 0.9997525631434335
+    },
+    {
+      "Question": "हैप्पी सीडर (Happy Seeder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999734757817169,
+      "CrossScore": 0.999734757817169
+    },
+    {
+      "Question": "रीपर (Reaper) मशीन का क्या कार्य है?",
+      "Crop": "General",
+      "FinalScore": 0.9996934738670002,
+      "CrossScore": 0.9996934738670002
+    }
+  ],
+  "latency_ms": 220.99,
+  "final_returned": [
+    {
+      "Question": "मल्चिंग मशीन (Mulching Machine) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999193696850172
+    },
+    {
+      "Question": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+      "Crop": "Dairy",
+      "Score": 0.9999039684889302
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9999015517993254
+    },
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General",
+      "Score": 0.999893290150137
+    },
+    {
+      "Question": "ग्रेडिंग मशीन (Grading Machine) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998747325026672
+    }
+  ]
+}

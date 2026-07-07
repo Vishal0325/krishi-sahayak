@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:30.706227",
+  "query_original": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+  "query_normalized": "जिप्सम का मिट्टी सुधारक के रूप में उपयोग",
+  "query_expanded": "जिप्सम का मिट्टी सुधारक के रूप में उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.8288439757816,
+      "CrossScore": 0.9998288439757816
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998591658007859,
+      "CrossScore": 0.9998591658007859
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998334407917459,
+      "CrossScore": 0.9998334407917459
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998254103927676,
+      "CrossScore": 0.9998254103927676
+    },
+    {
+      "Question": "मक्का में 'दीमक' के लिए 'नीम केक' का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998140366722027,
+      "CrossScore": 0.9998140366722027
+    },
+    {
+      "Question": "'एजोला' (Azolla) का चारा के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998089133583007,
+      "CrossScore": 0.9998089133583007
+    },
+    {
+      "Question": "मक्का में 'चूहों' के लिए 'गैस' का उपयोग?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998063834997393,
+      "CrossScore": 0.9998063834997393
+    },
+    {
+      "Question": "'खट्टी छाछ' (Buttermilk) का फफूंदनाशक के रूप में उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998062629110093,
+      "CrossScore": 0.9998062629110093
+    },
+    {
+      "Question": "दालों के भंडारण में 'लहसुन' का उपयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998044985494207,
+      "CrossScore": 0.9998044985494207
+    },
+    {
+      "Question": "गेहूं में 'दीमक' के लिए 'मिट्टी का तेल' (Kerosene)?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997912899165446,
+      "CrossScore": 0.9997912899165446
+    }
+  ],
+  "latency_ms": 208.82,
+  "final_returned": [
+    {
+      "Question": "'जिप्सम' का मिट्टी सुधारक के रूप में उपयोग?",
+      "Crop": "General",
+      "Score": 999.8288439757816
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9998591658007859
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर का मिट्टी परीक्षण में उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998334407917459
+    },
+    {
+      "Question": "मुर्गियों के 'बीट' (Droppings) का खाद के रूप में उपयोग?",
+      "Crop": "Poultry",
+      "Score": 0.9998254103927676
+    },
+    {
+      "Question": "मक्का में 'दीमक' के लिए 'नीम केक' का उपयोग?",
+      "Crop": "Maize",
+      "Score": 0.9998140366722027
+    }
+  ]
+}

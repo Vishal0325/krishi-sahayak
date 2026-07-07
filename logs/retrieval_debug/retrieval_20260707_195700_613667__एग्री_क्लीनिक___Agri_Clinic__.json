@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:00.403628",
+  "query_original": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+  "query_normalized": "एग्री क्लीनिक agri clinic का उद्देश्य",
+  "query_expanded": "एग्री क्लीनिक agri clinic का उद्देश्य",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप की सफलता का मुख्य मंत्र?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "FinalScore": 0.9999046603901525,
+      "CrossScore": 0.9999046603901525
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998859026411407,
+      "CrossScore": 0.9998859026411407
+    },
+    {
+      "Question": "एग्रीकल्चर क्लीनिक (Agri Clinic) योजना?",
+      "Crop": "General",
+      "FinalScore": 0.9998760298871897,
+      "CrossScore": 0.9998760298871897
+    },
+    {
+      "Question": "'एग्री-फिनटेक' (Agri Fintech) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9996187128030797,
+      "CrossScore": 0.9996187128030797
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9995650808406432,
+      "CrossScore": 0.9995650808406432
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9993514509297222,
+      "CrossScore": 0.9993514509297222
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9976055209337259,
+      "CrossScore": 0.9976055209337259
+    },
+    {
+      "Question": "'एग्री-डेटा' का मालिकाना हक?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9975011752652564,
+      "CrossScore": 0.9975011752652564
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9974482102362359,
+      "CrossScore": 0.9974482102362359
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9973599497171476,
+      "CrossScore": 0.9973599497171476
+    }
+  ],
+  "latency_ms": 210.14,
+  "final_returned": [
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "Score": 0.9999046603901525
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) शुरू करने के फायदे?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998859026411407
+    },
+    {
+      "Question": "एग्रीकल्चर क्लीनिक (Agri Clinic) योजना?",
+      "Crop": "General",
+      "Score": 0.9998760298871897
+    },
+    {
+      "Question": "'एग्री-फिनटेक' (Agri Fintech) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9996187128030797
+    },
+    {
+      "Question": "एग्री-स्टार्टअप (Agri Startup) क्या है?",
+      "Crop": "Agri Startup",
+      "Score": 0.9995650808406432
+    }
+  ]
+}

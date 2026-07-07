@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:23.914068",
+  "query_original": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+  "query_normalized": "किसान क्रेडिट कार्ड kcc योजना क्या है",
+  "query_expanded": "किसान क्रेडिट कार्ड kcc योजना क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9999.062826157247,
+      "CrossScore": 0.9999062826157248
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998667474356589,
+      "CrossScore": 0.999866747435659
+    },
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99859301101133,
+      "CrossScore": 0.999859301101133
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.997872839053874,
+      "CrossScore": 0.9997872839053874
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99753622490858,
+      "CrossScore": 0.9997536224908581
+    },
+    {
+      "Question": "कुसुम योजना (PM-KUSUM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.996962164412558,
+      "CrossScore": 0.9996962164412558
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.996859245538902,
+      "CrossScore": 0.9996859245538902
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.996765616647053,
+      "CrossScore": 0.9996765616647053
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.996179061046274,
+      "CrossScore": 0.9996179061046274
+    },
+    {
+      "Question": "किसान उत्पादक संगठन (FPO) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.996008610946493,
+      "CrossScore": 0.9996008610946493
+    }
+  ],
+  "latency_ms": 390.37,
+  "final_returned": [
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "Score": 9999.062826157247
+    },
+    {
+      "Question": "किसान कॉल सेंटर (KCC) का नंबर क्या है?",
+      "Crop": "General",
+      "Score": 9.998667474356589
+    },
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General",
+      "Score": 9.99859301101133
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.997872839053874
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 9.99753622490858
+    }
+  ]
+}

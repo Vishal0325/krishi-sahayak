@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:21.064193",
+  "query_original": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+  "query_normalized": "एग्रो फॉरेस्ट्री agro forestry के लाभ",
+  "query_expanded": "एग्रो फॉरेस्ट्री agro forestry के लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agri-forestry) स्टार्टअप?",
+      "Crop": "Agri Startup"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 999.920441176221,
+      "CrossScore": 0.9999204411762209
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agri-forestry) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999071877986393,
+      "CrossScore": 0.9999071877986393
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9993941720466418,
+      "CrossScore": 0.9993941720466418
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.997646343894239,
+      "CrossScore": 0.997646343894239
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9976175010017215,
+      "CrossScore": 0.9976175010017215
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' के लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9974621259673225,
+      "CrossScore": 0.9974621259673225
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' में 'पावर टिलर' के लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9972426674170873,
+      "CrossScore": 0.9972426674170873
+    },
+    {
+      "Question": "दालों की 'प्रोसेसिंग' (दाल बनाना) के लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.997223863163765,
+      "CrossScore": 0.997223863163765
+    },
+    {
+      "Question": "धतूरा (Dhatura) की खेती के औषधीय लाभ?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9969484463177578,
+      "CrossScore": 0.9969484463177578
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार ड्रम' का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9965889446607009,
+      "CrossScore": 0.9965889446607009
+    }
+  ],
+  "latency_ms": 201.88,
+  "final_returned": [
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agro-forestry) के लाभ?",
+      "Crop": "General",
+      "Score": 999.920441176221
+    },
+    {
+      "Question": "'एग्रो-फॉरेस्ट्री' (Agri-forestry) स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999071877986393
+    },
+    {
+      "Question": "एग्रो-प्रोसेसिंग सेंटर (Agri Processing Center) के लाभ?",
+      "Crop": "General",
+      "Score": 0.9993941720466418
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.997646343894239
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9976175010017215
+    }
+  ]
+}

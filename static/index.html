@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="hi" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi Sahayak Pro | AI Powered Farming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: { extend: { colors: { primary: '#1D4D35', brand: { 50: '#E8F5E9', 600: '#1D4D35' }, accent: '#F5A623' }, fontFamily: { heading: ['Poppins', 'sans-serif'], body: ['Inter', 'sans-serif'] } } }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F7F8F7; scroll-behavior: smooth; }
+        .chat-content table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 10px; }
+        .chat-content th, .chat-content td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        .chat-content th { background-color: #f2f2f2; }
+        .chat-content h1, .chat-content h2, .chat-content h3 { font-weight: bold; margin-top: 10px; color: #1D4D35; }
+        .chat-content ul { list-style-type: disc; margin-left: 20px; }
+        .card { background: white; border-radius: 24px; border: 1px solid #E5E7EB; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .card:hover { transform: translateY(-8px); border-color: #10b981; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); }
+        .dark .card { background: #1e293b; border-color: #334155; }
+        .header-gradient { background: linear-gradient(135deg, #1D4D35 0%, #2D6A4F 100%); }
+        .hero-glow { background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.1) 0%, transparent 70%); }
+        .hidden-view { display: none; }
+        .animate-pop { animation: pop 0.5s ease-out; }
+        @keyframes pop { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+        .badge-verified { background: linear-gradient(45deg, #10b981, #059669); color: white; }
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+    </style>
+</head>
+<body class="h-full dark:bg-slate-950 transition-colors">
+
+    <!-- STICKY NAV -->
+    <header class="header-gradient text-white px-6 py-4 sticky top-0 z-50 shadow-2xl">
+        <div class="max-w-[1200px] mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <button onclick="toggleSidebar()" class="p-2 hover:bg-white/10 rounded-full"><i class="fas fa-bars text-xl"></i></button>
+                <div onclick="showView('dashboard')" class="cursor-pointer group flex items-center gap-3">
+                    <div class="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-primary shadow-lg group-hover:rotate-12 transition-all"><i class="fas fa-leaf text-xl"></i></div>
+                    <div>
+                        <h1 class="text-xl font-extrabold font-heading tracking-tight leading-none">Krishi Sahayak Pro</h1>
+                        <p id="userGreeting" class="text-[9px] opacity-70 font-black uppercase tracking-widest mt-1">Namaste Farmer!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <div id="krishiScoreBadge" class="hidden md:flex badge-verified text-[9px] px-3 py-1 rounded-full font-black uppercase shadow-lg"><i class="fas fa-star mr-1"></i> New Farmer</div>
+                <button onclick="toggleDarkMode()" class="p-2 bg-white/10 rounded-full hover:bg-slate-700 transition-all"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-[1100px] mx-auto px-4 py-8 pb-48 space-y-12">
+
+        <!-- VIEW: DASHBOARD -->
+        <div id="view-dashboard" class="space-y-12 animate-pop">
+            <section class="text-center space-y-6 hero-glow py-10 rounded-[40px]">
+                <div class="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 px-4 py-1.5 rounded-full text-[10px] font-black text-primary dark:text-emerald-100 uppercase tracking-widest">
+                    <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> Production Ready RAG System
+                </div>
+                <h2 class="text-4xl md:text-6xl font-extrabold font-heading leading-tight dark:text-white">
+                    आधुनिक खेती का <span class="text-emerald-600">AI सारथी</span>
+                </h2>
+                <p class="text-slate-600 dark:text-slate-400 text-sm md:text-lg max-w-2xl mx-auto font-medium">
+                    अपने कृषि ज्ञान भंडार (6,000+ Q&A) के साथ, कृषि सहायक प्रो हर समस्या का सटीक और वैज्ञानिक समाधान प्रदान करता है।
+                </p>
+                <button onclick="openChat()" class="px-10 py-5 bg-primary text-white rounded-2xl font-black text-sm uppercase tracking-widest shadow-2xl hover:scale-105 transition-all">Chat with AI Expert</button>
+            </section>
+
+            <!-- STATS PREVIEW -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card p-6 border-l-4 border-l-emerald-500">
+                    <h3 class="text-[10px] font-black text-slate-400 uppercase">Weather Advisory</h3>
+                    <p id="weatherText" class="text-sm font-bold dark:text-white mt-2">Loading...</p>
+                </div>
+                <div class="card p-6 border-l-4 border-l-blue-500">
+                    <h3 class="text-[10px] font-black text-slate-400 uppercase">Knowledge Base</h3>
+                    <p class="text-sm font-bold dark:text-white mt-2">6,366+ Verified Pairs</p>
+                </div>
+                <div class="card p-6 border-l-4 border-l-amber-500">
+                    <h3 class="text-[10px] font-black text-slate-400 uppercase">Market Trends</h3>
+                    <p class="text-sm font-bold dark:text-white mt-2">Wheat: ₹2,450 (↑ 2%)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIEW: PROFILE -->
+        <div id="view-profile" class="hidden-view animate-pop">
+            <section class="card p-10 max-w-2xl mx-auto space-y-6">
+                <h2 class="text-2xl font-black text-primary flex items-center gap-3"><i class="fas fa-user-circle"></i> Farmer Profile</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <input type="text" id="pName" placeholder="Full Name" class="bg-slate-50 dark:bg-slate-800 p-4 rounded-xl text-sm font-bold border-none shadow-inner w-full">
+                    <input type="text" id="pMobile" placeholder="Mobile Number" class="bg-slate-50 dark:bg-slate-800 p-4 rounded-xl text-sm font-bold border-none shadow-inner w-full">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <input type="text" id="pState" placeholder="State" class="bg-slate-50 dark:bg-slate-800 p-4 rounded-xl text-sm font-bold border-none shadow-inner">
+                    <input type="text" id="pDist" placeholder="District" class="bg-slate-50 dark:bg-slate-800 p-4 rounded-xl text-sm font-bold border-none shadow-inner">
+                    <input type="text" id="pVill" placeholder="Village" class="bg-slate-50 dark:bg-slate-800 p-4 rounded-xl text-sm font-bold border-none shadow-inner">
+                </div>
+                <button onclick="saveFarmer()" class="w-full py-4 bg-primary text-white rounded-xl font-black text-xs uppercase shadow-xl">Save Digital ID</button>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar" class="fixed inset-0 z-[100] hidden bg-black/60 backdrop-blur-md" onclick="toggleSidebar()">
+        <div class="absolute left-0 top-0 h-full w-80 bg-white dark:bg-slate-900 shadow-2xl flex flex-col" onclick="event.stopPropagation()">
+            <div class="header-gradient p-8 text-white flex justify-between items-center"><span class="font-black uppercase tracking-widest">Menu</span><i class="fas fa-times cursor-pointer text-xl" onclick="toggleSidebar()"></i></div>
+            <nav class="flex-1 p-6 space-y-2">
+                <button onclick="showView('dashboard'); toggleSidebar();" class="w-full text-left p-4 hover:bg-emerald-50 dark:hover:bg-slate-800 rounded-xl flex items-center gap-4 font-black text-xs uppercase text-slate-700 dark:text-slate-200 transition-all"><i class="fas fa-home"></i> Home</button>
+                <button onclick="showView('profile'); toggleSidebar();" class="w-full text-left p-4 hover:bg-emerald-50 dark:hover:bg-slate-800 rounded-xl flex items-center gap-4 font-black text-xs uppercase text-slate-700 dark:text-slate-200 transition-all"><i class="fas fa-user"></i> Profile</button>
+                <button onclick="openChat(); toggleSidebar();" class="w-full text-left p-4 hover:bg-emerald-50 dark:hover:bg-slate-800 rounded-xl flex items-center gap-4 font-black text-xs uppercase text-slate-700 dark:text-slate-200 transition-all"><i class="fas fa-comments"></i> AI Expert</button>
+            </nav>
+        </div>
+    </div>
+
+    <!-- AI CHAT DRAWER -->
+    <div id="chatDrawer" class="fixed inset-0 z-[150] hidden bg-black/50 backdrop-blur-sm">
+        <div class="absolute right-0 top-0 h-full w-full sm:w-[500px] bg-white dark:bg-slate-900 shadow-2xl flex flex-col">
+            <div class="header-gradient p-8 text-white flex justify-between items-center shadow-xl">
+                <div class="flex items-center gap-4"><i class="fas fa-robot text-3xl"></i><div><h3 class="font-black text-lg uppercase tracking-tight">Krishi AI Expert</h3><p class="text-[9px] font-bold opacity-60 uppercase">Hybrid FAISS + Mesh AI</p></div></div>
+                <i class="fas fa-times cursor-pointer text-2xl" onclick="closeChat()"></i>
+            </div>
+            <div id="chatBox" class="flex-1 overflow-y-auto p-8 space-y-8 bg-slate-50 dark:bg-slate-950 custom-scrollbar"></div>
+            <div class="p-6 bg-white dark:bg-slate-900 border-t flex gap-4">
+                <input id="chatInput" type="text" placeholder="अपना सवाल पूछें (Ask your query)..." class="flex-1 bg-slate-100 dark:bg-slate-800 border-none rounded-2xl px-6 py-4 text-sm font-bold dark:text-white focus:ring-2 focus:ring-primary transition-all" onkeypress="if(event.key==='Enter') sendChat()">
+                <button onclick="sendChat()" class="bg-primary text-white w-14 h-14 rounded-2xl shadow-xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center"><i class="fas fa-paper-plane text-xl"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = () => {
+            if (!localStorage.getItem('sessionId')) {
+                localStorage.setItem('sessionId', 'session_' + Math.random().toString(36).substr(2, 9));
+            }
+            fetch('/api/profile').then(r=>r.json()).then(d=>loadProfile(d));
+            fetch('/api/weather-advisory').then(r=>r.json()).then(d=>{
+                document.getElementById('weatherText').innerText = d.today;
+            });
+        };
+
+        function showView(v) {
+            document.querySelectorAll('[id^="view-"]').forEach(el => el.classList.add('hidden-view'));
+            document.getElementById(`view-${v}`).classList.remove('hidden-view');
+        }
+
+        function toggleSidebar() { document.getElementById('sidebar').classList.toggle('hidden'); }
+        function toggleDarkMode() { document.documentElement.classList.toggle('dark'); }
+        function openChat() { document.getElementById('chatDrawer').classList.remove('hidden'); }
+        function closeChat() { document.getElementById('chatDrawer').classList.add('hidden'); }
+
+        async function saveFarmer() {
+            const d = {
+                name: document.getElementById('pName').value,
+                mobile: document.getElementById('pMobile').value,
+                state: document.getElementById('pState').value,
+                district: document.getElementById('pDist').value,
+                village: document.getElementById('pVill').value,
+                crops: []
+            };
+            await fetch('/api/profile', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(d) });
+            alert("Profile Saved!");
+            location.reload();
+        }
+
+        function loadProfile(d) {
+            if (!d.name) return;
+            document.getElementById('userGreeting').innerText = `Namaste ${d.name} Ji!`;
+            document.getElementById('krishiScoreBadge').innerText = `📍 ${d.district}, ${d.state}`;
+            document.getElementById('pName').value = d.name || '';
+            document.getElementById('pMobile').value = d.mobile || '';
+            document.getElementById('pState').value = d.state || '';
+            document.getElementById('pDist').value = d.district || '';
+            document.getElementById('pVill').value = d.village || '';
+        }
+
+        async function sendChat() {
+            const input = document.getElementById('chatInput');
+            const msg = input.value.trim(); if(!msg) return;
+            addMsg(msg, true); input.value = "";
+
+            const box = document.getElementById('chatBox');
+            const typingDiv = document.createElement('div');
+            typingDiv.id = "typing-indicator";
+            typingDiv.className = "flex items-start gap-4 animate-pop";
+            typingDiv.innerHTML = `<div class="w-12 h-12 bg-primary text-white rounded-[20px] flex items-center justify-center shadow-xl shrink-0"><i class="fas fa-robot"></i></div>
+            <div class="bg-white dark:bg-slate-800 border p-6 rounded-[32px] text-[10px] font-bold italic text-slate-400">
+                <div class="flex items-center gap-3">
+                    <span class="w-2 h-2 bg-emerald-500 rounded-full animate-ping"></span>
+                    <span id="rag-status">🔎 ज्ञान कोश में खोज रहे हैं (Searching Knowledge)...</span>
+                </div>
+            </div>`;
+            box.appendChild(typingDiv); box.scrollTop = box.scrollHeight;
+
+            try {
+                const res = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        message: msg,
+                        session_id: localStorage.getItem('sessionId')
+                    })
+                });
+
+                const data = await res.json();
+                const statusEl = document.getElementById('rag-status');
+                if (statusEl) statusEl.innerText = "🧠 AI सोच रहा है (AI Thinking)...";
+
+                setTimeout(() => {
+                    typingDiv.remove();
+                    addMsg(data.response, false, data.model_used, data.citations, data.search_time_ms);
+                }, 400);
+
+            } catch (err) {
+                typingDiv.remove();
+                addMsg("Error contacting server.", false);
+            }
+        }
+
+        function addMsg(txt, isU, model="", citations=[], searchTime=0) {
+            const box = document.getElementById('chatBox');
+            const div = document.createElement('div');
+            div.className = `flex items-start gap-4 ${isU?'flex-row-reverse':''} animate-pop`;
+
+            let htmlContent;
+            if (isU) {
+                const temp = document.createElement('div');
+                temp.textContent = txt;
+                htmlContent = temp.innerHTML;
+            } else {
+                htmlContent = DOMPurify.sanitize(marked.parse(txt));
+                if (citations && citations.length > 0) {
+                    htmlContent += `<div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700">
+                        <p class="text-[8px] font-black text-slate-400 uppercase mb-2">Sources Found (${searchTime}ms):</p>
+                        <div class="flex flex-wrap gap-2">
+                            ${citations.map(c => `<span class="px-2 py-1 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-300 rounded text-[7px] font-bold border border-emerald-100/50">#${c.id} ${c.crop} - ${c.cat}</span>`).join("")}
+                        </div>
+                    </div>`;
+                }
+            }
+
+            div.innerHTML = `<div class="w-12 h-12 ${isU?'bg-slate-700 shadow-slate-300':'bg-primary shadow-emerald-200'} text-white rounded-[20px] flex items-center justify-center shadow-xl shrink-0"><i class="fas fa-${isU?'user':'robot'}"></i></div>
+            <div class="${isU?'bg-primary text-white':'bg-white dark:bg-slate-800 border dark:border-slate-700'} p-6 rounded-[32px] text-xs font-bold leading-relaxed max-w-[85%] shadow-sm chat-content">
+                ${htmlContent}
+                ${!isU ? `<div class="flex gap-4 mt-4 items-center">
+                    <button onclick="speak('${txt.replace(/'/g, "").replace(/\n/g, " ")}')" class="flex items-center gap-2 text-primary dark:text-brand-100 font-black uppercase text-[8px] tracking-widest"><i class="fas fa-volume-up text-xs"></i> Play</button>
+                    <button onclick="copyToClipboard(this)" class="flex items-center gap-2 text-slate-400 font-black uppercase text-[8px] tracking-widest"><i class="fas fa-copy text-xs"></i> Copy</button>
+                    <span class="text-[7px] text-slate-300 font-black uppercase ml-auto">${model || 'Krishi AI'}</span>
+                </div>` : ''}
+            </div>`;
+            box.appendChild(div); box.scrollTop = box.scrollHeight;
+        }
+
+        function copyToClipboard(btn) {
+            const text = btn.closest('.chat-content').innerText;
+            navigator.clipboard.writeText(text);
+            btn.innerHTML = '<i class="fas fa-check text-xs"></i> Copied';
+            setTimeout(() => { btn.innerHTML = '<i class="fas fa-copy text-xs"></i> Copy'; }, 2000);
+        }
+
+        function speak(text) { const u = new SpeechSynthesisUtterance(text.replace(/\*/g, '')); u.lang = /[\u0900-\u097F]/.test(text) ? 'hi-IN' : 'en-IN'; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u); }
+    </script>
+</body>
+</html>

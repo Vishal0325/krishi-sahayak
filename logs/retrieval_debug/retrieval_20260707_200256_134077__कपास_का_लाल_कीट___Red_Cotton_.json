@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:55.943041",
+  "query_original": "'कपास का लाल कीट' (Red Cotton Bug)?",
+  "query_normalized": "कपास का लाल कीट red cotton bug",
+  "query_expanded": "pest कपास का लाल कीट red cotton bug कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton"
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "बैंगन में 'लाल मकड़ी' (Red Spider Mite) का प्रकोप?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "कद्दू वर्गीय फसलों में 'लाल कद्दू भृंग' (Red Pumpkin Beetle) का प्रबंधन?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "FinalScore": 9999.131552088049,
+      "CrossScore": 0.9999131552088049
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "FinalScore": 9.969483346153702,
+      "CrossScore": 0.9969483346153702
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 9.967734021163592,
+      "CrossScore": 0.9967734021163592
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "FinalScore": 9.963953849494127,
+      "CrossScore": 0.9963953849494126
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.961824516232763,
+      "CrossScore": 0.9961824516232762
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 9.961008312461294,
+      "CrossScore": 0.9961008312461294
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' का 'जैविक' इलाज?",
+      "Crop": "Cotton",
+      "FinalScore": 9.960052258084987,
+      "CrossScore": 0.9960052258084987
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 9.954156377562427,
+      "CrossScore": 0.9954156377562428
+    },
+    {
+      "Question": "'कपास का जैसिड' कीट?",
+      "Crop": "Cotton",
+      "FinalScore": 9.947901897259296,
+      "CrossScore": 0.9947901897259296
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.943325996210039,
+      "CrossScore": 0.994332599621004
+    }
+  ],
+  "latency_ms": 191.1,
+  "final_returned": [
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "Score": 9999.131552088049
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "Score": 9.969483346153702
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "Score": 9.967734021163592
+    },
+    {
+      "Question": "'कपास का गुलाबी सुंडी' और 'धूप'?",
+      "Crop": "Cotton",
+      "Score": 9.963953849494127
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "Score": 9.961824516232763
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:48.605593",
+  "query_original": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+  "query_normalized": "ट्राइकोडर्मा trichoderma और मित्र फफूंद",
+  "query_expanded": "ट्राइकोडर्मा trichoderma और मित्र फफूंद",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मित्र फफूंद' और 'बायो-केमिकल्स' का मेल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्राइकोडर्मा (Trichoderma) क्या है और इसका उपयोग कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General",
+      "FinalScore": 0.9998135007635502,
+      "CrossScore": 0.9998135007635502
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) को स्टोर करने का तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9997527013514809,
+      "CrossScore": 0.9997527013514809
+    },
+    {
+      "Question": "ट्राइकोडर्मा (Trichoderma) क्या है और इसका उपयोग कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9995773898168616,
+      "CrossScore": 0.9995773898168616
+    },
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994430483575137,
+      "CrossScore": 0.9994430483575137
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की विशेषता?",
+      "Crop": "General",
+      "FinalScore": 0.9937826979499046,
+      "CrossScore": 0.9937826979499046
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' और 'उकठा' रोग?",
+      "Crop": "General",
+      "FinalScore": 0.9870664820322731,
+      "CrossScore": 0.9870664820322731
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9869858445245118,
+      "CrossScore": 0.9869858445245118
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "FinalScore": 0.9840109941428679,
+      "CrossScore": 0.9840109941428679
+    },
+    {
+      "Question": "'मित्र फफूंद' और 'बायो-केमिकल्स' का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9839590407341525,
+      "CrossScore": 0.9839590407341525
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General",
+      "FinalScore": 0.9834197957237253,
+      "CrossScore": 0.9834197957237253
+    }
+  ],
+  "latency_ms": 190.05,
+  "final_returned": [
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) और 'मित्र फफूंद'?",
+      "Crop": "General",
+      "Score": 0.9998135007635502
+    },
+    {
+      "Question": "'ट्राइकोडर्मा' (Trichoderma) को स्टोर करने का तरीका?",
+      "Crop": "General",
+      "Score": 0.9997527013514809
+    },
+    {
+      "Question": "ट्राइकोडर्मा (Trichoderma) क्या है और इसका उपयोग कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9995773898168616
+    },
+    {
+      "Question": "ट्राइकोडर्मा विरिडी (Trichoderma viride) क्या है?",
+      "Crop": "General",
+      "Score": 0.9994430483575137
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की विशेषता?",
+      "Crop": "General",
+      "Score": 0.9937826979499046
+    }
+  ]
+}

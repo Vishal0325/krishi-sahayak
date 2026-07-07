@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:48.843381",
+  "query_original": "'लाल त्रिकोण' वाला कीटनाशक?",
+  "query_normalized": "लाल त्रिकोण वाला कीटनाशक",
+  "query_expanded": "बग लाल त्रिकोण वाला कीटनाशक pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'लाल त्रिकोण' वाला कीटनाशक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'हरा' निशान वाला कीटनाशक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' के पैकेट पर लाल त्रिकोण का मतलब?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.998131747010088,
+      "CrossScore": 0.9998131747010088
+    },
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "FinalScore": 9.997810618285,
+      "CrossScore": 0.9997810618284999
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 9.997667073825475,
+      "CrossScore": 0.9997667073825476
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997191567565006,
+      "CrossScore": 0.9997191567565006
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.997001238862813,
+      "CrossScore": 0.9997001238862813
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.996938144254862,
+      "CrossScore": 0.9996938144254863
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General",
+      "FinalScore": 9.995561676610563,
+      "CrossScore": 0.9995561676610564
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango",
+      "FinalScore": 9.995076074252978,
+      "CrossScore": 0.9995076074252978
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General",
+      "FinalScore": 9.980933953080019,
+      "CrossScore": 0.9980933953080018
+    },
+    {
+      "Question": "'लाल त्रिकोण' वाला कीटनाशक?",
+      "Crop": "General",
+      "FinalScore": 0.9998854820112648,
+      "CrossScore": 0.9998854820112648
+    }
+  ],
+  "latency_ms": 188.43,
+  "final_returned": [
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "Score": 9.998131747010088
+    },
+    {
+      "Question": "'कपास का लाल कीट' (Red Cotton Bug)?",
+      "Crop": "Cotton",
+      "Score": 9.997810618285
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "Score": 9.997667073825475
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9.997191567565006
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.997001238862813
+    }
+  ]
+}

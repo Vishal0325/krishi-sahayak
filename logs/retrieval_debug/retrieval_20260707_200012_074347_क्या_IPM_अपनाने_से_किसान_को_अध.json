@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:11.811604",
+  "query_original": "क्या IPM अपनाने से किसान को अधिक लाभ होता है?",
+  "query_normalized": "क्या ipm अपनाने से किसान को अधिक लाभ होता है",
+  "query_expanded": "क्या ipm अपनाने से किसान को अधिक लाभ होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या IPM अपनाने से किसान को अधिक लाभ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'चूहों' के बिलों को गीला करने से क्या होता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या IPM से खेती का खर्च कम होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या IPM अपनाने से किसान को अधिक लाभ होता है?",
+      "Crop": "General",
+      "FinalScore": 999.884395037691,
+      "CrossScore": 0.999884395037691
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999006460515858,
+      "CrossScore": 0.9999006460515858
+    },
+    {
+      "Question": "क्या IPM को अपनाने के लिए विशेष प्रशिक्षण चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998972537574992,
+      "CrossScore": 0.9998972537574992
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998892649273425,
+      "CrossScore": 0.9998892649273425
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998819541212007,
+      "CrossScore": 0.9998819541212007
+    },
+    {
+      "Question": "क्या IPM से उपज की गुणवत्ता सुधरती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998756207897147,
+      "CrossScore": 0.9998756207897147
+    },
+    {
+      "Question": "क्या IPM से खेती का खर्च कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998700807146638,
+      "CrossScore": 0.9998700807146638
+    },
+    {
+      "Question": "क्या IPM केवल बड़े किसानों के लिए है?",
+      "Crop": "General",
+      "FinalScore": 0.9998542070903261,
+      "CrossScore": 0.9998542070903261
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999820037048585,
+      "CrossScore": 0.999820037048585
+    },
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998193624481745,
+      "CrossScore": 0.9998193624481745
+    }
+  ],
+  "latency_ms": 262.78,
+  "final_returned": [
+    {
+      "Question": "क्या IPM अपनाने से किसान को अधिक लाभ होता है?",
+      "Crop": "General",
+      "Score": 999.884395037691
+    },
+    {
+      "Question": "IPM का मुख्य उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9999006460515858
+    },
+    {
+      "Question": "क्या IPM को अपनाने के लिए विशेष प्रशिक्षण चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998972537574992
+    },
+    {
+      "Question": "एकीकृत कीट प्रबंधन (IPM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998892649273425
+    },
+    {
+      "Question": "IPM में रसायनों का स्थान क्या है?",
+      "Crop": "General",
+      "Score": 0.9998819541212007
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:40.191748",
+  "query_original": "'बी-ब्रूड' (Bee Brood) क्या है?",
+  "query_normalized": "बी ब्रूड bee brood क्या है",
+  "query_expanded": "बी ब्रूड bee brood क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बी-ब्रूड' (Bee Brood) क्या है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "'बी-पॉलेन' (Bee Pollen) क्या है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'बी-कीपिंग किट' में क्या होता है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "बी.टी. (Bacillus thuringiensis) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "रानी मधुमक्खी (Queen Bee) का क्या कार्य है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बी-ब्रूड' (Bee Brood) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 999.9271688633327,
+      "CrossScore": 0.9999271688633327
+    },
+    {
+      "Question": "'बी-पॉलेन' (Bee Pollen) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9994640391590468,
+      "CrossScore": 0.9994640391590468
+    },
+    {
+      "Question": "रानी मधुमक्खी (Queen Bee) का क्या कार्य है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9989957798190116,
+      "CrossScore": 0.9989957798190116
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9950757186099556,
+      "CrossScore": 0.9950757186099556
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9947653439515219,
+      "CrossScore": 0.9947653439515219
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9942296021723097,
+      "CrossScore": 0.9942296021723097
+    },
+    {
+      "Question": "बी.टी. (Bacillus thuringiensis) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9923169016086294,
+      "CrossScore": 0.9923169016086294
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'बी-कीपिंग किट' में क्या होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9922218782322124,
+      "CrossScore": 0.9922218782322124
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9919620421956314,
+      "CrossScore": 0.9919620421956314
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9916210998541947,
+      "CrossScore": 0.9916210998541947
+    }
+  ],
+  "latency_ms": 188.21,
+  "final_returned": [
+    {
+      "Question": "'बी-ब्रूड' (Bee Brood) क्या है?",
+      "Crop": "Beekeeping",
+      "Score": 999.9271688633327
+    },
+    {
+      "Question": "'बी-पॉलेन' (Bee Pollen) क्या है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9994640391590468
+    },
+    {
+      "Question": "रानी मधुमक्खी (Queen Bee) का क्या कार्य है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9989957798190116
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "Score": 0.9950757186099556
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "Score": 0.9947653439515219
+    }
+  ]
+}

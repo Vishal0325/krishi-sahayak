@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:20.740925",
+  "query_original": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+  "query_normalized": "बैंगन in छोटी पत्ती का जैविक उपचार",
+  "query_expanded": "बैंगन in छोटी पत्ती का जैविक उपचार",
+  "detected_crops": [
+    "Brinjal"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "बैंगन in 'फोमोप्सिस ब्लाइट' का उपचार?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "'बैंगन की छोटी पत्ती' (Little Leaf) और 'फुदका' (Leaf Hopper)?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.9960968535692,
+      "CrossScore": 0.999921937071384
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'स्यूडोमोनास'?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99400038320167,
+      "CrossScore": 0.9998800076640335
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.993833576665466,
+      "CrossScore": 0.9998766715333094
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.993732448984346,
+      "CrossScore": 0.9998746489796869
+    },
+    {
+      "Question": "बैंगन in 'फोमोप्सिस' का असर बीजों पर?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99363963556068,
+      "CrossScore": 0.9998727927112137
+    },
+    {
+      "Question": "'बैंगन की छोटी पत्ती' (Little Leaf) और 'फुदका' (Leaf Hopper)?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99343435124077,
+      "CrossScore": 0.9998686870248155
+    },
+    {
+      "Question": "बैंगन में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.9929007949192,
+      "CrossScore": 0.9998580158983841
+    },
+    {
+      "Question": "बैंगन का 'तना व फल छेदक' (Shoot and Fruit Borer) कीट?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.992864016787394,
+      "CrossScore": 0.9998572803357479
+    },
+    {
+      "Question": "'बैंगन का तना छेदक'?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.99268402560779,
+      "CrossScore": 0.9998536805121557
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 49.992426940313806,
+      "CrossScore": 0.9998485388062761
+    }
+  ],
+  "latency_ms": 201.9,
+  "final_returned": [
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "Score": 49.9960968535692
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'स्यूडोमोनास'?",
+      "Crop": "Brinjal",
+      "Score": 49.99400038320167
+    },
+    {
+      "Question": "बैंगन में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Brinjal",
+      "Score": 49.993833576665466
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "Score": 49.993732448984346
+    },
+    {
+      "Question": "बैंगन in 'फोमोप्सिस' का असर बीजों पर?",
+      "Crop": "Brinjal",
+      "Score": 49.99363963556068
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:14.477003",
+  "query_original": "सब्सिडी वाला बोरवेल (Boring) कैसे करवाएं?",
+  "query_normalized": "सब्सिडी वाला बोरवेल boring कैसे करवाएं",
+  "query_expanded": "सब्सिडी वाला बोरवेल boring कैसे करवाएं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सब्सिडी वाला बोरवेल (Boring) कैसे करवाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्सिडी वाला ट्रैक्टर कैसे लें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती के लिए सरकारी सब्सिडी कैसे लें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "आलू की खेती के लिए सरकारी सब्सिडी कैसे प्राप्त करें?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "सब्जियों की खेती में 'सरकारी सब्सिडी' कैसे लें?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सब्सिडी वाला बोरवेल (Boring) कैसे करवाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998793933787443,
+      "CrossScore": 0.9998793933787443
+    },
+    {
+      "Question": "आलू की खेती के लिए सरकारी सब्सिडी कैसे प्राप्त करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997825265083019,
+      "CrossScore": 0.9997825265083019
+    },
+    {
+      "Question": "सब्सिडी वाला ट्रैक्टर कैसे लें?",
+      "Crop": "General",
+      "FinalScore": 0.9997733234790556,
+      "CrossScore": 0.9997733234790556
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997479639841693,
+      "CrossScore": 0.9997479639841693
+    },
+    {
+      "Question": "गेहूं की खेती के लिए सरकारी सब्सिडी कैसे लें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997394801915918,
+      "CrossScore": 0.9997394801915918
+    },
+    {
+      "Question": "दलहनी फसलों के लिए सरकारी सब्सिडी?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9996991582860968,
+      "CrossScore": 0.9996991582860968
+    },
+    {
+      "Question": "हाथ से चलने वाला 'सीड फर्टिलाइजर ड्रिल'?",
+      "Crop": "General",
+      "FinalScore": 0.9996898570236411,
+      "CrossScore": 0.9996898570236411
+    },
+    {
+      "Question": "'कस्टम हायरिंग सेंटर' खोलने के लिए सब्सिडी?",
+      "Crop": "General",
+      "FinalScore": 0.99968904519872,
+      "CrossScore": 0.99968904519872
+    },
+    {
+      "Question": "सब्जियों की खेती में 'सरकारी सब्सिडी' कैसे लें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9996853053187251,
+      "CrossScore": 0.9996853053187251
+    },
+    {
+      "Question": "भिंडी की खेती के लिए सरकारी सब्सिडी?",
+      "Crop": "Okra",
+      "FinalScore": 0.9996677551145174,
+      "CrossScore": 0.9996677551145174
+    }
+  ],
+  "latency_ms": 178.03,
+  "final_returned": [
+    {
+      "Question": "सब्सिडी वाला बोरवेल (Boring) कैसे करवाएं?",
+      "Crop": "General",
+      "Score": 0.9998793933787443
+    },
+    {
+      "Question": "आलू की खेती के लिए सरकारी सब्सिडी कैसे प्राप्त करें?",
+      "Crop": "Potato",
+      "Score": 0.9997825265083019
+    },
+    {
+      "Question": "सब्सिडी वाला ट्रैक्टर कैसे लें?",
+      "Crop": "General",
+      "Score": 0.9997733234790556
+    },
+    {
+      "Question": "धान के लिए 'कोनो वीडर' (Cono Weeder) कैसे काम करता है?",
+      "Crop": "Rice",
+      "Score": 0.9997479639841693
+    },
+    {
+      "Question": "गेहूं की खेती के लिए सरकारी सब्सिडी कैसे लें?",
+      "Crop": "Wheat",
+      "Score": 0.9997394801915918
+    }
+  ]
+}

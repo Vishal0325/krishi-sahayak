@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:33.846436",
+  "query_original": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+  "query_normalized": "फार्म बिजनेस में बाजार की निगरानी",
+  "query_expanded": "फार्म बिजनेस में बाजार की निगरानी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'पैकेजिंग' की कला?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भविष्य की खेती में 'सोलर बिजनेस'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 999.876603070717,
+      "CrossScore": 0.999876603070717
+    },
+    {
+      "Question": "बैंगन की 'गोल' और 'लंबी' किस्मों में अंतर?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998784189317844,
+      "CrossScore": 0.9998784189317844
+    },
+    {
+      "Question": "सब्जियों की खेती में 'कीट निगरानी'?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998783262647107,
+      "CrossScore": 0.9998783262647107
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998738231947366,
+      "CrossScore": 0.9998738231947366
+    },
+    {
+      "Question": "भविष्य की खेती में 'सोलर बिजनेस'?",
+      "Crop": "General",
+      "FinalScore": 0.9998679393843739,
+      "CrossScore": 0.9998679393843739
+    },
+    {
+      "Question": "फलों की 'ग्रेडिंग' में किन बातों का ध्यान रखें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998628705817321,
+      "CrossScore": 0.9998628705817321
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General",
+      "FinalScore": 0.9998602566978696,
+      "CrossScore": 0.9998602566978696
+    },
+    {
+      "Question": "फार्म बिजनेस में 'पैकेजिंग' की कला?",
+      "Crop": "General",
+      "FinalScore": 0.9998549756383306,
+      "CrossScore": 0.9998549756383306
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' में प्लास्टिक का उपयोग?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998520346076287,
+      "CrossScore": 0.9998520346076287
+    },
+    {
+      "Question": "फलों के बाग में 'कीट निगरानी' के लिए लाइट ट्रैप?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998406164544612,
+      "CrossScore": 0.9998406164544612
+    }
+  ],
+  "latency_ms": 201.67,
+  "final_returned": [
+    {
+      "Question": "फार्म बिजनेस में 'बाजार की निगरानी'?",
+      "Crop": "General",
+      "Score": 999.876603070717
+    },
+    {
+      "Question": "बैंगन की 'गोल' और 'लंबी' किस्मों में अंतर?",
+      "Crop": "Brinjal",
+      "Score": 0.9998784189317844
+    },
+    {
+      "Question": "सब्जियों की खेती में 'कीट निगरानी'?",
+      "Crop": "Vegetables",
+      "Score": 0.9998783262647107
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998738231947366
+    },
+    {
+      "Question": "भविष्य की खेती में 'सोलर बिजनेस'?",
+      "Crop": "General",
+      "Score": 0.9998679393843739
+    }
+  ]
+}

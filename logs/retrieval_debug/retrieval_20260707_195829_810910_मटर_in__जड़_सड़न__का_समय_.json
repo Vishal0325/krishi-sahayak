@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:29.635267",
+  "query_original": "मटर in 'जड़ सड़न' का समय?",
+  "query_normalized": "मटर in जड़ सड़न का समय",
+  "query_expanded": "मटर in जड़ सड़न का समय",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मटर in 'जड़ सड़न' का समय?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' (Powdery Mildew) का समय?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "आलू के 'कंदों का सड़न' खेत in?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मटर in 'जड़ सड़न' का समय?",
+      "Crop": "Pea",
+      "FinalScore": 0.9999120775383604,
+      "CrossScore": 0.9999120775383604
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' (Powdery Mildew) का समय?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998853674027847,
+      "CrossScore": 0.9998853674027847
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998794474192508,
+      "CrossScore": 0.9998794474192508
+    },
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998656836372208,
+      "CrossScore": 0.9998656836372208
+    },
+    {
+      "Question": "'मटर' में 'जड़ सड़न' रोकने के लिए 'मिट्टी उपचार'?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998607149944297,
+      "CrossScore": 0.9998607149944297
+    },
+    {
+      "Question": "धान in 'खैरा' रोग का समय?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998168979400629,
+      "CrossScore": 0.9998168979400629
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998157228770308,
+      "CrossScore": 0.9998157228770308
+    },
+    {
+      "Question": "आम in 'पाउडर मिल्ड्यू' का समय?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998128562769635,
+      "CrossScore": 0.9998128562769635
+    },
+    {
+      "Question": "'कपास in गुलाबी सुंडी' के लिए फेरोमोन ट्रैप का समय?",
+      "Crop": "Cotton",
+      "FinalScore": 0.9998076566222264,
+      "CrossScore": 0.9998076566222264
+    },
+    {
+      "Question": "सरसों in 'झुलसा' रोकने के लिए 'बुआई का समय'?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9997968273431381,
+      "CrossScore": 0.9997968273431381
+    }
+  ],
+  "latency_ms": 175.73,
+  "final_returned": [
+    {
+      "Question": "मटर in 'जड़ सड़न' का समय?",
+      "Crop": "Pea",
+      "Score": 0.9999120775383604
+    },
+    {
+      "Question": "मटर in 'चूर्णी फफूंद' (Powdery Mildew) का समय?",
+      "Crop": "Pea",
+      "Score": 0.9998853674027847
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "Score": 0.9998794474192508
+    },
+    {
+      "Question": "लीची in 'जड़ सड़न' का मुख्य कारण?",
+      "Crop": "Litchi",
+      "Score": 0.9998656836372208
+    },
+    {
+      "Question": "'मटर' में 'जड़ सड़न' रोकने के लिए 'मिट्टी उपचार'?",
+      "Crop": "Pea",
+      "Score": 0.9998607149944297
+    }
+  ]
+}

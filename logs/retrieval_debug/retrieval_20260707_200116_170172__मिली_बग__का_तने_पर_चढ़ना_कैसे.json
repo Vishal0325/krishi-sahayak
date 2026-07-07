@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:15.916182",
+  "query_original": "'मिली बग' का तने पर चढ़ना कैसे रोकें?",
+  "query_normalized": "मिली बग का तने पर चढ़ना कैसे रोकें",
+  "query_expanded": "pest कीड़ा बग कीट मिली बग का तने पर चढ़ना कैसे रोकें insect",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिली बग' का तने पर चढ़ना कैसे रोकें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'कीटों का प्रतिरोध' (Resistance) कैसे रोकें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिली बग' का तने पर चढ़ना कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 999.8989457355192,
+      "CrossScore": 0.9998989457355192
+    },
+    {
+      "Question": "मिली बग का उपचार क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999121006757137,
+      "CrossScore": 0.9999121006757137
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango",
+      "FinalScore": 0.9999035178064917,
+      "CrossScore": 0.9999035178064917
+    },
+    {
+      "Question": "'भिंडी' में 'YVMV' का फैलाव कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9999014372011864,
+      "CrossScore": 0.9999014372011864
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "FinalScore": 0.9998958622673547,
+      "CrossScore": 0.9998958622673547
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 0.9998939027851709,
+      "CrossScore": 0.9998939027851709
+    },
+    {
+      "Question": "आम के बाग में 'मिली बग' का जैविक इलाज?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998902753599549,
+      "CrossScore": 0.9998902753599549
+    },
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General",
+      "FinalScore": 0.9998891961646351,
+      "CrossScore": 0.9998891961646351
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998879543147278,
+      "CrossScore": 0.9998879543147278
+    },
+    {
+      "Question": "पपीते में 'मोजेक' वायरस का फैलाव कैसे रोकें?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998855351794942,
+      "CrossScore": 0.9998855351794942
+    }
+  ],
+  "latency_ms": 254.02,
+  "final_returned": [
+    {
+      "Question": "'मिली बग' का तने पर चढ़ना कैसे रोकें?",
+      "Crop": "General",
+      "Score": 999.8989457355192
+    },
+    {
+      "Question": "मिली बग का उपचार क्या है?",
+      "Crop": "General",
+      "Score": 0.9999121006757137
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango",
+      "Score": 0.9999035178064917
+    },
+    {
+      "Question": "'भिंडी' में 'YVMV' का फैलाव कैसे रोकें?",
+      "Crop": "General",
+      "Score": 0.9999014372011864
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "Score": 0.9998958622673547
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:58.037716",
+  "query_original": "हल्दी की 'सुवर्णा' किस्म?",
+  "query_normalized": "हल्दी की सुवर्णा किस्म",
+  "query_expanded": "हल्दी की सुवर्णा किस्म",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "हल्दी की 'सुवर्णा' किस्म?",
+      "Crop": "Turmeric"
+    },
+    {
+      "Question": "हल्दी की 'रोमा' किस्म की विशेषता?",
+      "Crop": "Turmeric"
+    },
+    {
+      "Question": "हल्दी की 'राजेंद्र सुगना' किस्म?",
+      "Crop": "Turmeric"
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "अमरूद की 'अर्का मृदुला' किस्म?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "हल्दी की 'रोमा' किस्म की विशेषता?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999123543672404,
+      "CrossScore": 0.9999123543672404
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999123110631103,
+      "CrossScore": 0.9999123110631103
+    },
+    {
+      "Question": "भिंडी की 'अर्का अनामिका' किस्म?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999105520301584,
+      "CrossScore": 0.9999105520301584
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999100272019515,
+      "CrossScore": 0.9999100272019515
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999072201855974,
+      "CrossScore": 0.9999072201855974
+    },
+    {
+      "Question": "हल्दी की 'सुवर्णा' किस्म?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999045300209604,
+      "CrossScore": 0.9999045300209604
+    },
+    {
+      "Question": "मिर्च की 'अर्का हरिता' किस्म?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999041682784306,
+      "CrossScore": 0.9999041682784306
+    },
+    {
+      "Question": "हल्दी की 'राजेंद्र सुगना' किस्म?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9999023001547683,
+      "CrossScore": 0.9999023001547683
+    },
+    {
+      "Question": "धनिया की 'स्वाति' किस्म की विशेषता?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9999021341807425,
+      "CrossScore": 0.9999021341807425
+    },
+    {
+      "Question": "भिंडी की 'स्वर्ण औषधि' किस्म?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999018910528652,
+      "CrossScore": 0.9999018910528652
+    }
+  ],
+  "latency_ms": 171.24,
+  "final_returned": [
+    {
+      "Question": "हल्दी की 'रोमा' किस्म की विशेषता?",
+      "Crop": "Turmeric",
+      "Score": 0.9999123543672404
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "Score": 0.9999123110631103
+    },
+    {
+      "Question": "भिंडी की 'अर्का अनामिका' किस्म?",
+      "Crop": "Okra",
+      "Score": 0.9999105520301584
+    },
+    {
+      "Question": "मिर्च की 'काशी अनमोल' किस्म?",
+      "Crop": "Chilli",
+      "Score": 0.9999100272019515
+    },
+    {
+      "Question": "मिर्च की 'पूसा सदाबहार' किस्म?",
+      "Crop": "Chilli",
+      "Score": 0.9999072201855974
+    }
+  ]
+}

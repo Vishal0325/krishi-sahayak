@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:36.907012",
+  "query_original": "बहुफसली खेती (Multiple Cropping) का मिट्टी पर प्रभाव?",
+  "query_normalized": "बहुफसली खेती multiple cropping का मिट्टी पर प्रभाव",
+  "query_expanded": "बहुफसली खेती multiple cropping का मिट्टी पर प्रभाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बहुफसली खेती (Multiple Cropping) का मिट्टी पर प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी के पीएच (pH) पर सिंचाई का प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बहुफसली खेती (Multiple Cropping) का मिट्टी पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 999.9117897417981,
+      "CrossScore": 0.9999117897417981
+    },
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998351009927146,
+      "CrossScore": 0.9998351009927146
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9984889232766506,
+      "CrossScore": 0.9984889232766506
+    },
+    {
+      "Question": "औषधीय खेती शुरू करने से पहले 'मिट्टी का पीएच'?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9980711000775767,
+      "CrossScore": 0.9980711000775767
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.998004033047295,
+      "CrossScore": 0.998004033047295
+    },
+    {
+      "Question": "'मिट्टी की सघनता' (Soil Compaction) का पौधों पर असर?",
+      "Crop": "General",
+      "FinalScore": 0.9978711101228743,
+      "CrossScore": 0.9978711101228743
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9976663976659336,
+      "CrossScore": 0.9976663976659336
+    },
+    {
+      "Question": "आलू की खेती में 'मिट्टी का पीएच' मान?",
+      "Crop": "Potato",
+      "FinalScore": 0.9974017202628604,
+      "CrossScore": 0.9974017202628604
+    },
+    {
+      "Question": "'जैविक खेती' और मिट्टी का स्वास्थ्य?",
+      "Crop": "General",
+      "FinalScore": 0.9972216286747919,
+      "CrossScore": 0.9972216286747919
+    },
+    {
+      "Question": "लीची की खेती में 'मिट्टी का पीएच' 8.5 होने पर?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9970559614552292,
+      "CrossScore": 0.9970559614552292
+    }
+  ],
+  "latency_ms": 231.86,
+  "final_returned": [
+    {
+      "Question": "बहुफसली खेती (Multiple Cropping) का मिट्टी पर प्रभाव?",
+      "Crop": "General",
+      "Score": 999.9117897417981
+    },
+    {
+      "Question": "कृषि में 'बहुफसली' (Multi-cropping) खेती क्या है?",
+      "Crop": "General",
+      "Score": 0.9998351009927146
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "Score": 0.9984889232766506
+    },
+    {
+      "Question": "औषधीय खेती शुरू करने से पहले 'मिट्टी का पीएच'?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9980711000775767
+    },
+    {
+      "Question": "लेजर लैंड लेवलर (Laser Land Leveler) का मिट्टी के स्वास्थ्य पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.998004033047295
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:17.955906",
+  "query_original": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+  "query_normalized": "शुष्क खेती dryland farming में जल संचयन का क्या महत्व है",
+  "query_expanded": "शुष्क खेती dryland farming में जल संचयन का क्या महत्व है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में पोटाश का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998963337804159,
+      "CrossScore": 0.9998963337804159
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General",
+      "FinalScore": 0.9998770933496515,
+      "CrossScore": 0.9998770933496515
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "FinalScore": 0.9997293750951558,
+      "CrossScore": 0.9997293750951558
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9980744533621572,
+      "CrossScore": 0.9980744533621572
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9974595052518674,
+      "CrossScore": 0.9974595052518674
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9967579958574455,
+      "CrossScore": 0.9967579958574455
+    },
+    {
+      "Question": "गेहूं की खेती में सूक्ष्म पोषक तत्वों का क्या महत्व है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9966436226590446,
+      "CrossScore": 0.9966436226590446
+    },
+    {
+      "Question": "सब्जियों की खेती में 'फसल चक्र' का क्या महत्व है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9965850521214917,
+      "CrossScore": 0.9965850521214917
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9965076310519557,
+      "CrossScore": 0.9965076310519557
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मजदूरी' अधिक लगती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9964687360974382,
+      "CrossScore": 0.9964687360974382
+    }
+  ],
+  "latency_ms": 233.39,
+  "final_returned": [
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998963337804159
+    },
+    {
+      "Question": "'शुष्क भूमि खेती' (Dryland Farming) में जल संचयन तकनीक?",
+      "Crop": "General",
+      "Score": 0.9998770933496515
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "Score": 0.9997293750951558
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "Score": 0.9980744533621572
+    },
+    {
+      "Question": "गेहूं की खेती में जल भराव (Waterlogging) का क्या प्रभाव पड़ता है?",
+      "Crop": "Wheat",
+      "Score": 0.9974595052518674
+    }
+  ]
+}

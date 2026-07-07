@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:04.719236",
+  "query_original": "'एग्री-मशीनरी' रेंटल ऐप?",
+  "query_normalized": "एग्री मशीनरी रेंटल ऐप",
+  "query_expanded": "एग्री मशीनरी रेंटल ऐप",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एग्री-मशीनरी' रेंटल ऐप?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "क्या मशीनों के लिए मोबाइल ऐप उपलब्ध हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा और 'डिजिटल ऐप'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'एग्री-मशीनरी' रेंटल ऐप?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.896881460263,
+      "CrossScore": 0.999896881460263
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999067696498686,
+      "CrossScore": 0.9999067696498686
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'इंक्यूबेशन सेंटर'?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9999002697840895,
+      "CrossScore": 0.9999002697840895
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "FinalScore": 0.9999000323208124,
+      "CrossScore": 0.9999000323208124
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998938344724593,
+      "CrossScore": 0.9998938344724593
+    },
+    {
+      "Question": "'सोलर एग्री-इक्विपमेंट' स्टार्टअप?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998927887454988,
+      "CrossScore": 0.9998927887454988
+    },
+    {
+      "Question": "एग्री-स्टार्टअप शुरू करने वाले युवाओं के लिए सलाह?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998860987463857,
+      "CrossScore": 0.9998860987463857
+    },
+    {
+      "Question": "'एग्री-लॉजिस्टिक्स' में सुधार के अवसर?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998851885421599,
+      "CrossScore": 0.9998851885421599
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'सप्लाई चेन' का महत्व?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998833027556894,
+      "CrossScore": 0.9998833027556894
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'पिचिंग' क्या है?",
+      "Crop": "Agri Startup",
+      "FinalScore": 0.9998808292341022,
+      "CrossScore": 0.9998808292341022
+    }
+  ],
+  "latency_ms": 210.9,
+  "final_returned": [
+    {
+      "Question": "'एग्री-मशीनरी' रेंटल ऐप?",
+      "Crop": "Agri Tech",
+      "Score": 999.896881460263
+    },
+    {
+      "Question": "एग्री-स्टार्टअप में 'ब्रांडिंग' का महत्व?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999067696498686
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए 'इंक्यूबेशन सेंटर'?",
+      "Crop": "Agri Startup",
+      "Score": 0.9999002697840895
+    },
+    {
+      "Question": "'एग्री-क्लीनिक' (Agri Clinic) का उद्देश्य?",
+      "Crop": "General",
+      "Score": 0.9999000323208124
+    },
+    {
+      "Question": "एग्री-स्टार्टअप के लिए सरकारी 'फंडिंग' कहाँ से लें?",
+      "Crop": "Agri Startup",
+      "Score": 0.9998938344724593
+    }
+  ]
+}

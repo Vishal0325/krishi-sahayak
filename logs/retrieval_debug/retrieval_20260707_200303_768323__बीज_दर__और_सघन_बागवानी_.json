@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:03.574344",
+  "query_original": "'बीज दर' और सघन बागवानी?",
+  "query_normalized": "बीज दर और सघन बागवानी",
+  "query_expanded": "बीज दर और सघन बागवानी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीज दर' और सघन बागवानी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की प्रति एकड़ बीज दर?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "अमरूद की 'सघन' बागवानी में 'वायु संचार'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मटर (Field Pea) की खेती के लिए बीज दर?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीज दर' और सघन बागवानी?",
+      "Crop": "General",
+      "FinalScore": 999.9191287405147,
+      "CrossScore": 0.9999191287405147
+    },
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "FinalScore": 0.999883683594569,
+      "CrossScore": 0.999883683594569
+    },
+    {
+      "Question": "'बीज दर' कम होने से नुकसान?",
+      "Crop": "General",
+      "FinalScore": 0.9998667076591258,
+      "CrossScore": 0.9998667076591258
+    },
+    {
+      "Question": "बैंगन की प्रति एकड़ बीज दर?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.999857996942888,
+      "CrossScore": 0.999857996942888
+    },
+    {
+      "Question": "'बीज उत्पादन' और 'सामान्य खेती' में अंतर?",
+      "Crop": "General",
+      "FinalScore": 0.999851515334367,
+      "CrossScore": 0.999851515334367
+    },
+    {
+      "Question": "'प्रमाणित बीज' और उपज?",
+      "Crop": "General",
+      "FinalScore": 0.999839769072926,
+      "CrossScore": 0.999839769072926
+    },
+    {
+      "Question": "धनिया की प्रति एकड़ बीज दर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998325638878094,
+      "CrossScore": 0.9998325638878094
+    },
+    {
+      "Question": "गेहूं की 'बीज दर' पछेती बुआई में क्यों बढ़ाते हैं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998190888991527,
+      "CrossScore": 0.9998190888991527
+    },
+    {
+      "Question": "टमाटर की प्रति एकड़ बीज दर?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998140559985847,
+      "CrossScore": 0.9998140559985847
+    },
+    {
+      "Question": "धनिया की 'पत्तेदार' और 'बीज' वाली किस्मों में अंतर?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998026153906207,
+      "CrossScore": 0.9998026153906207
+    }
+  ],
+  "latency_ms": 194.01,
+  "final_returned": [
+    {
+      "Question": "'बीज दर' और सघन बागवानी?",
+      "Crop": "General",
+      "Score": 999.9191287405147
+    },
+    {
+      "Question": "'बीज दर' और पौधों की संख्या?",
+      "Crop": "General",
+      "Score": 0.999883683594569
+    },
+    {
+      "Question": "'बीज दर' कम होने से नुकसान?",
+      "Crop": "General",
+      "Score": 0.9998667076591258
+    },
+    {
+      "Question": "बैंगन की प्रति एकड़ बीज दर?",
+      "Crop": "Brinjal",
+      "Score": 0.999857996942888
+    },
+    {
+      "Question": "'बीज उत्पादन' और 'सामान्य खेती' में अंतर?",
+      "Crop": "General",
+      "Score": 0.999851515334367
+    }
+  ]
+}

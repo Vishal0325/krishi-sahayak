@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:02.336901",
+  "query_original": "राष्ट्रीय बांस मिशन के तहत अनुदान?",
+  "query_normalized": "राष्ट्रीय बांस मिशन के तहत अनुदान",
+  "query_expanded": "राष्ट्रीय बांस मिशन के तहत अनुदान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय बांस मिशन के तहत अनुदान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी (Fruit Belt)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट के लिए सरकारी अनुदान मिलता है?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "मशरूम के कमरों के लिए 'बांस की झोपड़ी'?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय बांस मिशन के तहत अनुदान?",
+      "Crop": "General",
+      "FinalScore": 999.871413274716,
+      "CrossScore": 0.9998714132747161
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999875935281149,
+      "CrossScore": 0.999875935281149
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998705844415408,
+      "CrossScore": 0.9998705844415408
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "FinalScore": 0.9998705493899681,
+      "CrossScore": 0.9998705493899681
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998661178828567,
+      "CrossScore": 0.9998661178828567
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998647891291709,
+      "CrossScore": 0.9998647891291709
+    },
+    {
+      "Question": "राष्ट्रीय तिलहन और पाम ऑयल मिशन?",
+      "Crop": "General",
+      "FinalScore": 0.9998594172375153,
+      "CrossScore": 0.9998594172375153
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998583050617593,
+      "CrossScore": 0.9998583050617593
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998565320711461,
+      "CrossScore": 0.9998565320711461
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन के तहत फल पट्टी (Fruit Belt)?",
+      "Crop": "General",
+      "FinalScore": 0.999842692784336,
+      "CrossScore": 0.999842692784336
+    }
+  ],
+  "latency_ms": 326.91,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय बांस मिशन के तहत अनुदान?",
+      "Crop": "General",
+      "Score": 999.871413274716
+    },
+    {
+      "Question": "राष्ट्रीय गोकुल मिशन क्या है?",
+      "Crop": "General",
+      "Score": 0.999875935281149
+    },
+    {
+      "Question": "राष्ट्रीय बांस मिशन का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998705844415408
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "Score": 0.9998705493899681
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998661178828567
+    }
+  ]
+}

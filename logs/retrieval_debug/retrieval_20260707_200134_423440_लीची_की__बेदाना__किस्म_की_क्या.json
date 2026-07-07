@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:34.192264",
+  "query_original": "लीची की 'बेदाना' किस्म की क्या खासियत है?",
+  "query_normalized": "लीची की बेदाना किस्म की क्या खासियत है",
+  "query_expanded": "लीची की बेदाना किस्म की क्या खासियत है",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची की 'बेदाना' किस्म की क्या खासियत है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "क्या मुजफ्फरपुर की लीची को 'जीआई टैग' (GI Tag) मिला है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची की 'शहद' (Honey) की क्या विशेषता है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची की 'बेदाना' किस्म की क्या खासियत है?",
+      "Crop": "Litchi",
+      "FinalScore": 49994.42825876356,
+      "CrossScore": 0.9998885651752712
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994997295858276,
+      "CrossScore": 0.9998999459171655
+    },
+    {
+      "Question": "लीची की 'शहद' (Honey) की क्या विशेषता है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99430614278854,
+      "CrossScore": 0.9998861228557708
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994130270730615,
+      "CrossScore": 0.9998826054146123
+    },
+    {
+      "Question": "लीची की 'अगेती' कटाई के लाभ?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99396317913414,
+      "CrossScore": 0.9998792635826828
+    },
+    {
+      "Question": "लीची की 'जायद' उत्पादन ही मुख्य है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.993912402003936,
+      "CrossScore": 0.9998782480400787
+    },
+    {
+      "Question": "लीची की 'मशीनी' खुदाई नहीं होती",
+      "Crop": "Litchi",
+      "FinalScore": 49.99355320435206,
+      "CrossScore": 0.9998710640870412
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99344526702414,
+      "CrossScore": 0.9998689053404828
+    },
+    {
+      "Question": "लीची में 'यूरिया' की मात्रा पेड़ की उम्र के अनुसार?",
+      "Crop": "Litchi",
+      "FinalScore": 49.993310271546676,
+      "CrossScore": 0.9998662054309335
+    },
+    {
+      "Question": "लीची की प्रमुख उन्नत किस्में?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99317912700212,
+      "CrossScore": 0.9998635825400424
+    }
+  ],
+  "latency_ms": 231.21,
+  "final_returned": [
+    {
+      "Question": "लीची की 'बेदाना' किस्म की क्या खासियत है?",
+      "Crop": "Litchi",
+      "Score": 49994.42825876356
+    },
+    {
+      "Question": "लीची की खेती का परिचय क्या है?",
+      "Crop": "Litchi",
+      "Score": 49.994997295858276
+    },
+    {
+      "Question": "लीची की 'शहद' (Honey) की क्या विशेषता है?",
+      "Crop": "Litchi",
+      "Score": 49.99430614278854
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "Score": 49.994130270730615
+    },
+    {
+      "Question": "लीची की 'अगेती' कटाई के लाभ?",
+      "Crop": "Litchi",
+      "Score": 49.99396317913414
+    }
+  ]
+}

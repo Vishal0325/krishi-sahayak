@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:34.917837",
+  "query_original": "पशुओं के लिए 'छायादार पेड़'?",
+  "query_normalized": "पशुओं के लिए छायादार पेड़",
+  "query_expanded": "पशुओं के लिए छायादार पेड़",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'छायादार पेड़'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मुर्गियों के लिए 'छायादार पेड़'?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'छायादार पेड़'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999133317551722,
+      "CrossScore": 0.9999133317551722
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "FinalScore": 0.999898528781839,
+      "CrossScore": 0.999898528781839
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998948629829038,
+      "CrossScore": 0.9998948629829038
+    },
+    {
+      "Question": "मुर्गियों के लिए 'छायादार पेड़'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998922657759047,
+      "CrossScore": 0.9998922657759047
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' करने के लिए शेड की ऊँचाई?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998702827370989,
+      "CrossScore": 0.9998702827370989
+    },
+    {
+      "Question": "पशुओं के लिए 'छाया' का महत्व?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998524854073444,
+      "CrossScore": 0.9998524854073444
+    },
+    {
+      "Question": "पशुओं के लिए 'सूखा चारा'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999852322432971,
+      "CrossScore": 0.999852322432971
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर घास'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998488819987069,
+      "CrossScore": 0.9998488819987069
+    },
+    {
+      "Question": "ठंड की लहर (Cold Wave) से बचाव के लिए पशुओं का शेड?",
+      "Crop": "General",
+      "FinalScore": 0.9998480937649449,
+      "CrossScore": 0.9998480937649449
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर' घास के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999847305205989,
+      "CrossScore": 0.999847305205989
+    }
+  ],
+  "latency_ms": 152.59,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'छायादार पेड़'?",
+      "Crop": "Livestock",
+      "Score": 0.9999133317551722
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "Score": 0.999898528781839
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.9998948629829038
+    },
+    {
+      "Question": "मुर्गियों के लिए 'छायादार पेड़'?",
+      "Crop": "Poultry",
+      "Score": 0.9998922657759047
+    },
+    {
+      "Question": "पशुओं को 'खड़ा' करने के लिए शेड की ऊँचाई?",
+      "Crop": "Dairy",
+      "Score": 0.9998702827370989
+    }
+  ]
+}

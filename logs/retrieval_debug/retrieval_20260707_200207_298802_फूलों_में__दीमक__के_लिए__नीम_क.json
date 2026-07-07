@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:07.135200",
+  "query_original": "फूलों में 'दीमक' के लिए 'नीम की खली'?",
+  "query_normalized": "फूलों में दीमक के लिए नीम की खली",
+  "query_expanded": "फूलों में दीमक के लिए नीम की खली",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलों में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "अमरूद में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फूलों में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Floriculture",
+      "FinalScore": 999.8893290040534,
+      "CrossScore": 0.9998893290040534
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999105478505271,
+      "CrossScore": 0.9999105478505271
+    },
+    {
+      "Question": "बैंगन में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998911745090693,
+      "CrossScore": 0.9998911745090693
+    },
+    {
+      "Question": "लीची में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998906345935528,
+      "CrossScore": 0.9998906345935528
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998898618169859,
+      "CrossScore": 0.9998898618169859
+    },
+    {
+      "Question": "पत्तागोभी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998894684300034,
+      "CrossScore": 0.9998894684300034
+    },
+    {
+      "Question": "फूलगोभी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9998893290040534,
+      "CrossScore": 0.9998893290040534
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998891499820038,
+      "CrossScore": 0.9998891499820038
+    },
+    {
+      "Question": "भिंडी में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998878323403924,
+      "CrossScore": 0.9998878323403924
+    },
+    {
+      "Question": "मिर्च में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998869159328515,
+      "CrossScore": 0.9998869159328515
+    }
+  ],
+  "latency_ms": 163.63,
+  "final_returned": [
+    {
+      "Question": "फूलों में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Floriculture",
+      "Score": 999.8893290040534
+    },
+    {
+      "Question": "गन्ने में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999105478505271
+    },
+    {
+      "Question": "लीची में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Litchi",
+      "Score": 0.9998906345935528
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9998898618169859
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Potato",
+      "Score": 0.9998891499820038
+    }
+  ]
+}

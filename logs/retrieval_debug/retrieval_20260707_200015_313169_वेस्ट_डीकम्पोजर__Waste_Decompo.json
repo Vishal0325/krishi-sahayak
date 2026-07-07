@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:15.109625",
+  "query_original": "वेस्ट डीकम्पोजर (Waste Decomposer) क्या है?",
+  "query_normalized": "वेस्ट डीकम्पोजर waste decomposer क्या है",
+  "query_expanded": "वेस्ट डीकम्पोजर waste decomposer क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वेस्ट डीकम्पोजर (Waste Decomposer) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'वेस्ट डीकम्पोजर' के उपयोग से खाद कितने दिन में तैयार होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि कचरे से कंचन (Waste to Wealth) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वेस्ट डीकम्पोजर (Waste Decomposer) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.905071253108,
+      "CrossScore": 0.999905071253108
+    },
+    {
+      "Question": "कृषि कचरे से कंचन (Waste to Wealth) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997386572328751,
+      "CrossScore": 0.9997386572328751
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994056597108705,
+      "CrossScore": 0.9994056597108705
+    },
+    {
+      "Question": "'वेस्ट डीकम्पोजर' के उपयोग से खाद कितने दिन में तैयार होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9993708605084077,
+      "CrossScore": 0.9993708605084077
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9991652017343438,
+      "CrossScore": 0.9991652017343438
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9991072334624616,
+      "CrossScore": 0.9991072334624616
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9991032059501028,
+      "CrossScore": 0.9991032059501028
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9990633268190895,
+      "CrossScore": 0.9990633268190895
+    },
+    {
+      "Question": "'वेस्ट डीकम्पोजर' का छिड़काव?",
+      "Crop": "General",
+      "FinalScore": 0.9989467759578705,
+      "CrossScore": 0.9989467759578705
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.998928071114611,
+      "CrossScore": 0.998928071114611
+    }
+  ],
+  "latency_ms": 203.58,
+  "final_returned": [
+    {
+      "Question": "वेस्ट डीकम्पोजर (Waste Decomposer) क्या है?",
+      "Crop": "General",
+      "Score": 999.905071253108
+    },
+    {
+      "Question": "कृषि कचरे से कंचन (Waste to Wealth) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997386572328751
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9994056597108705
+    },
+    {
+      "Question": "'वेस्ट डीकम्पोजर' के उपयोग से खाद कितने दिन में तैयार होती है?",
+      "Crop": "General",
+      "Score": 0.9993708605084077
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "Score": 0.9991652017343438
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:41.960515",
+  "query_original": "'पत्ती सुरंगक' (Leaf Miner) का सबसे अच्छा इलाज?",
+  "query_normalized": "पत्ती सुरंगक leaf miner का सबसे अच्छा इलाज",
+  "query_expanded": "पत्ती सुरंगक leaf miner का सबसे अच्छा इलाज",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'पत्ती सुरंगक' (Leaf Miner) का सबसे अच्छा इलाज?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पत्ती लपेटक' (Leaf Folder) का जैविक इलाज?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों में 'पत्ती मोड़क' (Leaf Miner) का नियंत्रण?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "फाल आर्मीवर्म का सबसे अच्छा इलाज क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'पत्ती सुरंगक' (Leaf Miner) का सबसे अच्छा इलाज?",
+      "Crop": "General",
+      "FinalScore": 999.883112091881,
+      "CrossScore": 0.999883112091881
+    },
+    {
+      "Question": "सब्जियों में 'पत्ती मोड़क' (Leaf Miner) का नियंत्रण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998969988993226,
+      "CrossScore": 0.9998969988993226
+    },
+    {
+      "Question": "'पत्ती लपेटक' (Leaf Folder) का जैविक इलाज?",
+      "Crop": "General",
+      "FinalScore": 0.9997241147337932,
+      "CrossScore": 0.9997241147337932
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9995678149400178,
+      "CrossScore": 0.9995678149400178
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9994775533748017,
+      "CrossScore": 0.9994775533748017
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग क्या है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9992568975365326,
+      "CrossScore": 0.9992568975365326
+    },
+    {
+      "Question": "'चूहा' नियंत्रण का सबसे अच्छा तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9987245237755787,
+      "CrossScore": 0.9987245237755787
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9983496631948726,
+      "CrossScore": 0.9983496631948726
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9980545006614971,
+      "CrossScore": 0.9980545006614971
+    },
+    {
+      "Question": "अमरूद in 'उकठा' (Wilt) का सबसे अच्छा बचाव?",
+      "Crop": "Guava",
+      "FinalScore": 0.9979061665816319,
+      "CrossScore": 0.9979061665816319
+    }
+  ],
+  "latency_ms": 176.08,
+  "final_returned": [
+    {
+      "Question": "'पत्ती सुरंगक' (Leaf Miner) का सबसे अच्छा इलाज?",
+      "Crop": "General",
+      "Score": 999.883112091881
+    },
+    {
+      "Question": "सब्जियों में 'पत्ती मोड़क' (Leaf Miner) का नियंत्रण?",
+      "Crop": "Vegetables",
+      "Score": 0.9998969988993226
+    },
+    {
+      "Question": "'पत्ती लपेटक' (Leaf Folder) का जैविक इलाज?",
+      "Crop": "General",
+      "Score": 0.9997241147337932
+    },
+    {
+      "Question": "बैंगन का 'छोटी पत्ती' (Little Leaf) रोग?",
+      "Crop": "Brinjal",
+      "Score": 0.9995678149400178
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "Score": 0.9994775533748017
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:53.106256",
+  "query_original": "'अमचूर' या 'नमक' चटाने से क्या लाभ है?",
+  "query_normalized": "अमचूर या नमक चटाने से क्या लाभ है",
+  "query_expanded": "अमचूर या नमक चटाने से क्या लाभ है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अमचूर' या 'नमक' चटाने से क्या लाभ है?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "गेहूं में 'नमक के पानी' का छिड़काव क्या पाले से बचाता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM अपनाने से किसान को अधिक लाभ होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अमचूर' या 'नमक' चटाने से क्या लाभ है?",
+      "Crop": "Dairy",
+      "FinalScore": 999.8469838227967,
+      "CrossScore": 0.9998469838227967
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998644639649473,
+      "CrossScore": 0.9998644639649473
+    },
+    {
+      "Question": "क्या मशरूम से 'मूल्य संवर्धन' (Value Addition) संभव है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998453717465734,
+      "CrossScore": 0.9998453717465734
+    },
+    {
+      "Question": "कृषि कचरे से कंचन (Waste to Wealth) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999840364279386,
+      "CrossScore": 0.999840364279386
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998381296257166,
+      "CrossScore": 0.9998381296257166
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998349565887069,
+      "CrossScore": 0.9998349565887069
+    },
+    {
+      "Question": "'जीपीएस' (GPS) का ट्रैक्टर में क्या लाभ है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998348451319428,
+      "CrossScore": 0.9998348451319428
+    },
+    {
+      "Question": "'जीरो टिलेज' (Zero Tillage) से पर्यावरण को क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998057109029926,
+      "CrossScore": 0.9998057109029926
+    },
+    {
+      "Question": "गेहूं में 'नमक के पानी' का छिड़काव क्या पाले से बचाता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997928833651244,
+      "CrossScore": 0.9997928833651244
+    },
+    {
+      "Question": "एफपीओ (FPO) से जुड़ने के व्यापारिक लाभ क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997889743412371,
+      "CrossScore": 0.9997889743412371
+    }
+  ],
+  "latency_ms": 184.19,
+  "final_returned": [
+    {
+      "Question": "'अमचूर' या 'नमक' चटाने से क्या लाभ है?",
+      "Crop": "Dairy",
+      "Score": 999.8469838227967
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "Score": 0.9998644639649473
+    },
+    {
+      "Question": "क्या मशरूम से 'मूल्य संवर्धन' (Value Addition) संभव है?",
+      "Crop": "Mushroom",
+      "Score": 0.9998453717465734
+    },
+    {
+      "Question": "कृषि कचरे से कंचन (Waste to Wealth) क्या है?",
+      "Crop": "General",
+      "Score": 0.999840364279386
+    },
+    {
+      "Question": "मक्का की खेती में मशीनीकरण का क्या लाभ है?",
+      "Crop": "Maize",
+      "Score": 0.9998381296257166
+    }
+  ]
+}

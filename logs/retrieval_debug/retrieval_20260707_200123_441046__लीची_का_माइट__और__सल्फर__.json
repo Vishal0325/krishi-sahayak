@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:23.224304",
+  "query_original": "'लीची का माइट' और 'सल्फर'?",
+  "query_normalized": "लीची का माइट और सल्फर",
+  "query_expanded": "लीची का माइट और सल्फर",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'लीची का माइट' और 'सल्फर'?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची' में माइट के लिए 'सल्फर' का स्प्रे?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'लीची का माइट' और 'सल्फर'?",
+      "Crop": "Litchi",
+      "FinalScore": 49993.118305188436,
+      "CrossScore": 0.9998623661037687
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99511584614905,
+      "CrossScore": 0.9999023169229809
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99428889444965,
+      "CrossScore": 0.9998857778889931
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994163039813785,
+      "CrossScore": 0.9998832607962758
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.993467860197036,
+      "CrossScore": 0.9998693572039407
+    },
+    {
+      "Question": "लीची का 'माइट' (Litchi Mite) कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99300990942241,
+      "CrossScore": 0.9998601981884482
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.992860246136,
+      "CrossScore": 0.9998572049227199
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.991961901790525,
+      "CrossScore": 0.9998392380358105
+    },
+    {
+      "Question": "लीची के भंडारण और पैकेजिंग?",
+      "Crop": "Litchi",
+      "FinalScore": 49.9919125679709,
+      "CrossScore": 0.9998382513594181
+    },
+    {
+      "Question": "लीची में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99180757078594,
+      "CrossScore": 0.9998361514157188
+    }
+  ],
+  "latency_ms": 216.77,
+  "final_returned": [
+    {
+      "Question": "'लीची का माइट' और 'सल्फर'?",
+      "Crop": "Litchi",
+      "Score": 49993.118305188436
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "Score": 49.99511584614905
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "Score": 49.99428889444965
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "Score": 49.994163039813785
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "Score": 49.993467860197036
+    }
+  ]
+}

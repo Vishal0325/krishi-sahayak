@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:14.830459",
+  "query_original": "क्या फर्टिगेशन से पानी बचता है?",
+  "query_normalized": "क्या फर्टिगेशन से पानी बचता है",
+  "query_expanded": "क्या फर्टिगेशन से पानी बचता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या फर्टिगेशन से पानी बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खारे पानी से फलों की सिंचाई की जा सकती है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गेहूं में 'नमक के पानी' का छिड़काव क्या पाले से बचाता है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या फर्टिगेशन से पानी बचता है?",
+      "Crop": "General",
+      "FinalScore": 999.9302203863566,
+      "CrossScore": 0.9999302203863566
+    },
+    {
+      "Question": "क्या अधिक पानी देने से पौधों in बीमारियां बढ़ सकती हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999938245603504,
+      "CrossScore": 0.999938245603504
+    },
+    {
+      "Question": "सॉयल सोलरिजेशन से पैसा कैसे बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999357424991251,
+      "CrossScore": 0.9999357424991251
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती पारंपरिक खेती से बेहतर है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999344087610742,
+      "CrossScore": 0.9999344087610742
+    },
+    {
+      "Question": "क्या 'खारा' पानी फसलों को जला सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999320851547355,
+      "CrossScore": 0.9999320851547355
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.999931141061406,
+      "CrossScore": 0.999931141061406
+    },
+    {
+      "Question": "क्या खारे पानी से फलों की सिंचाई की जा सकती है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999298601307914,
+      "CrossScore": 0.9999298601307914
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.99992889460286,
+      "CrossScore": 0.99992889460286
+    },
+    {
+      "Question": "क्या अधिक सिंचाई से मिट्टी 'खारी' हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999285300248293,
+      "CrossScore": 0.9999285300248293
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999281309625063,
+      "CrossScore": 0.9999281309625063
+    }
+  ],
+  "latency_ms": 201.0,
+  "final_returned": [
+    {
+      "Question": "क्या फर्टिगेशन से पानी बचता है?",
+      "Crop": "General",
+      "Score": 999.9302203863566
+    },
+    {
+      "Question": "क्या अधिक पानी देने से पौधों in बीमारियां बढ़ सकती हैं?",
+      "Crop": "General",
+      "Score": 0.999938245603504
+    },
+    {
+      "Question": "सॉयल सोलरिजेशन से पैसा कैसे बचता है?",
+      "Crop": "General",
+      "Score": 0.9999357424991251
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती पारंपरिक खेती से बेहतर है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999344087610742
+    },
+    {
+      "Question": "क्या 'खारा' पानी फसलों को जला सकता है?",
+      "Crop": "General",
+      "Score": 0.9999320851547355
+    }
+  ]
+}

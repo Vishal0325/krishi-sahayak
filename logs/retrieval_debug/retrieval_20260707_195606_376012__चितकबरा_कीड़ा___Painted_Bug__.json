@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:06.130375",
+  "query_original": "'चितकबरा कीड़ा' (Painted Bug) किन फसलों in लगता है?",
+  "query_normalized": "चितकबरा कीड़ा painted bug किन फसलों in लगता है",
+  "query_expanded": "बग pest कीड़ा चितकबरा कीड़ा painted bug किन फसलों in लगता है कीट insect",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'चितकबरा कीड़ा' (Painted Bug) किन फसलों in लगता है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "सरसों में 'चितकबरा कीड़ा' (Painted Bug) क्या है?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "IPM में 'कीट निगरानी' (Pest Monitoring) क्यों जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'चितकबरा कीड़ा' (Painted Bug) किन फसलों in लगता है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998977268706921,
+      "CrossScore": 0.9998977268706921
+    },
+    {
+      "Question": "सरसों में 'चितकबरा कीड़ा' (Painted Bug) क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998642146910965,
+      "CrossScore": 0.9998642146910965
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.999772957281353,
+      "CrossScore": 0.999772957281353
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997400352398345,
+      "CrossScore": 0.9997400352398345
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9981673440459525,
+      "CrossScore": 0.9981673440459525
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9978793236615757,
+      "CrossScore": 0.9978793236615757
+    },
+    {
+      "Question": "'बरौटी' (Ladybird Beetle) मित्र कीट कैसे है?",
+      "Crop": "General",
+      "FinalScore": 0.9978562183404789,
+      "CrossScore": 0.9978562183404789
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9978197559313939,
+      "CrossScore": 0.9978197559313939
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 0.9972157565902829,
+      "CrossScore": 0.9972157565902829
+    },
+    {
+      "Question": "'बीटी' (Bt) फसलों का कीट नियंत्रण in क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9968462695164239,
+      "CrossScore": 0.9968462695164239
+    }
+  ],
+  "latency_ms": 245.77,
+  "final_returned": [
+    {
+      "Question": "'चितकबरा कीड़ा' (Painted Bug) किन फसलों in लगता है?",
+      "Crop": "Mustard",
+      "Score": 0.9998977268706921
+    },
+    {
+      "Question": "सरसों में 'चितकबरा कीड़ा' (Painted Bug) क्या है?",
+      "Crop": "Mustard",
+      "Score": 0.9998642146910965
+    },
+    {
+      "Question": "धान का 'गंधी बग' (Gundhi Bug) क्या है?",
+      "Crop": "Rice",
+      "Score": 0.999772957281353
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) की पहचान क्या है?",
+      "Crop": "General",
+      "Score": 0.9997400352398345
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "Score": 0.9981673440459525
+    }
+  ]
+}

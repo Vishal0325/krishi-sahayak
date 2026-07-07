@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:58.673905",
+  "query_original": "लंगड़ा बुखार (Black Quarter) क्या है?",
+  "query_normalized": "लंगड़ा बुखार black quarter क्या है",
+  "query_expanded": "लंगड़ा बुखार black quarter क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लंगड़ा बुखार (Black Quarter) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आलू में 'काली रूसी' (Black Scurf) रोग क्या है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "ब्लैक बंगाल (Black Bengal) बकरी की क्या विशेषता है?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "आलू के 'काली रूसी' (Black Scurf) का क्या इलाज है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आम की 'लंगड़ा' किस्म की क्या विशेषता है?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लंगड़ा बुखार (Black Quarter) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999231066935733,
+      "CrossScore": 0.9999231066935733
+    },
+    {
+      "Question": "ब्लैक बंगाल (Black Bengal) बकरी की क्या विशेषता है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9997522368929752,
+      "CrossScore": 0.9997522368929752
+    },
+    {
+      "Question": "आलू में 'काली रूसी' (Black Scurf) रोग क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9994260185891491,
+      "CrossScore": 0.9994260185891491
+    },
+    {
+      "Question": "आम के 'कोयली' (Black Tip) रोग का क्या कारण है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9993954623433202,
+      "CrossScore": 0.9993954623433202
+    },
+    {
+      "Question": "आलू के 'काली रूसी' (Black Scurf) का क्या इलाज है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9989788412568166,
+      "CrossScore": 0.9989788412568166
+    },
+    {
+      "Question": "आम की 'लंगड़ा' किस्म की क्या विशेषता है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9988704446283628,
+      "CrossScore": 0.9988704446283628
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9987041653268854,
+      "CrossScore": 0.9987041653268854
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9986234268181435,
+      "CrossScore": 0.9986234268181435
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9984697547733091,
+      "CrossScore": 0.9984697547733091
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9982725989328599,
+      "CrossScore": 0.9982725989328599
+    }
+  ],
+  "latency_ms": 300.08,
+  "final_returned": [
+    {
+      "Question": "लंगड़ा बुखार (Black Quarter) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999231066935733
+    },
+    {
+      "Question": "ब्लैक बंगाल (Black Bengal) बकरी की क्या विशेषता है?",
+      "Crop": "Livestock",
+      "Score": 0.9997522368929752
+    },
+    {
+      "Question": "आलू में 'काली रूसी' (Black Scurf) रोग क्या है?",
+      "Crop": "Potato",
+      "Score": 0.9994260185891491
+    },
+    {
+      "Question": "आम के 'कोयली' (Black Tip) रोग का क्या कारण है?",
+      "Crop": "Mango",
+      "Score": 0.9993954623433202
+    },
+    {
+      "Question": "आलू के 'काली रूसी' (Black Scurf) का क्या इलाज है?",
+      "Crop": "Potato",
+      "Score": 0.9989788412568166
+    }
+  ]
+}

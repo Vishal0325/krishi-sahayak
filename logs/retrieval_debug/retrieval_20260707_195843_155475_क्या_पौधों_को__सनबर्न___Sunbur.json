@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:42.933702",
+  "query_original": "क्या पौधों को 'सनबर्न' (Sunburn) हो सकता है?",
+  "query_normalized": "क्या पौधों को सनबर्न sunburn हो सकता है",
+  "query_expanded": "क्या पौधों को सनबर्न sunburn हो सकता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या पौधों को 'सनबर्न' (Sunburn) हो सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को छाया में उगाया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक से फसल को नुकसान हो सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या पौधों को 'सनबर्न' (Sunburn) हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.999918919633475,
+      "CrossScore": 0.999918919633475
+    },
+    {
+      "Question": "क्या पशुओं को 'संगीत' सुनाना अच्छा है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9996924733739138,
+      "CrossScore": 0.9996924733739138
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996701216265683,
+      "CrossScore": 0.9996701216265683
+    },
+    {
+      "Question": "क्या रसायनों से मिट्टी 'बंजर' हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9996667765085935,
+      "CrossScore": 0.9996667765085935
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9996429187463671,
+      "CrossScore": 0.9996429187463671
+    },
+    {
+      "Question": "क्या ड्रैगन फ्रूट को गमलों में उगाया जा सकता है?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.999624122714108,
+      "CrossScore": 0.999624122714108
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'हर्बल' चाय के लिए की जा सकती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996178133907669,
+      "CrossScore": 0.9996178133907669
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक से फसल को नुकसान हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996012569952049,
+      "CrossScore": 0.9996012569952049
+    },
+    {
+      "Question": "क्या ड्रोन किराए पर देना (Drone Custom Hiring) एक बिजनेस हो सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995824253789902,
+      "CrossScore": 0.9995824253789902
+    },
+    {
+      "Question": "क्या मशरूम को 'कच्चा' खाया जा सकता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995821544086624,
+      "CrossScore": 0.9995821544086624
+    }
+  ],
+  "latency_ms": 221.88,
+  "final_returned": [
+    {
+      "Question": "क्या पौधों को 'सनबर्न' (Sunburn) हो सकता है?",
+      "Crop": "General",
+      "Score": 0.999918919633475
+    },
+    {
+      "Question": "क्या पशुओं को 'संगीत' सुनाना अच्छा है?",
+      "Crop": "Dairy",
+      "Score": 0.9996924733739138
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9996701216265683
+    },
+    {
+      "Question": "क्या रसायनों से मिट्टी 'बंजर' हो सकती है?",
+      "Crop": "General",
+      "Score": 0.9996667765085935
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9996429187463671
+    }
+  ]
+}

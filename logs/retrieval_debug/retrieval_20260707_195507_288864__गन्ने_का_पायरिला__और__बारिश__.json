@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:07.035376",
+  "query_original": "'गन्ने का पायरिला' और 'बारिश'?",
+  "query_normalized": "गन्ने का पायरिला और बारिश",
+  "query_expanded": "गन्ने का पायरिला और बारिश",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने का पायरिला' और 'बारिश'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'गन्ने का पायरिला'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'नींबू का कैंकर' (Citrus Canker) और 'बारिश'?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने की 'मृदा' का पीएच मान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998971487711955,
+      "CrossScore": 0.9998971487711955
+    },
+    {
+      "Question": "'गन्ने का पायरिला' और 'बारिश'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998915595497954,
+      "CrossScore": 0.9998915595497954
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998836118103825,
+      "CrossScore": 0.9998836118103825
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998756998724367,
+      "CrossScore": 0.9998756998724367
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998726902937468,
+      "CrossScore": 0.9998726902937468
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998702237226083,
+      "CrossScore": 0.9998702237226083
+    },
+    {
+      "Question": "'गन्ने का पायरिला'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998690523891041,
+      "CrossScore": 0.9998690523891041
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998628524050446,
+      "CrossScore": 0.9998628524050446
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998611933642094,
+      "CrossScore": 0.9998611933642094
+    },
+    {
+      "Question": "गन्ने में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998519674335881,
+      "CrossScore": 0.9998519674335881
+    }
+  ],
+  "latency_ms": 253.59,
+  "final_returned": [
+    {
+      "Question": "गन्ने की 'मृदा' का पीएच मान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998971487711955
+    },
+    {
+      "Question": "'गन्ने का पायरिला' और 'बारिश'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998915595497954
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998836118103825
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998756998724367
+    },
+    {
+      "Question": "'गन्ने का लाल सड़न' (Red Rot) और 'शराब जैसी गंध'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998726902937468
+    }
+  ]
+}

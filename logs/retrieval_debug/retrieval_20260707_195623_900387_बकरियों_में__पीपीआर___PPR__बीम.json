@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:23.678443",
+  "query_original": "बकरियों में 'पीपीआर' (PPR) बीमारी?",
+  "query_normalized": "बकरियों में पीपीआर ppr बीमारी",
+  "query_expanded": "फंगस बीमारी fungus disease झुलसा बकरियों में पीपीआर ppr बीमारी रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बकरियों में 'पीपीआर' (PPR) बीमारी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "धान में झुलसा रोग के लक्षण?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "अदरक में 'पत्ती झुलसा' (Leaf Spot) रोग?",
+      "Crop": "Ginger"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.995568128175448,
+      "CrossScore": 0.9995568128175447
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9.995037919216225,
+      "CrossScore": 0.9995037919216225
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "FinalScore": 9.992939827517752,
+      "CrossScore": 0.9992939827517753
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "FinalScore": 9.992644327764648,
+      "CrossScore": 0.9992644327764648
+    },
+    {
+      "Question": "'सरसों' में 'झुलसा' (Blight) का प्रबंधन?",
+      "Crop": "Mustard",
+      "FinalScore": 9.992510833114345,
+      "CrossScore": 0.9992510833114345
+    },
+    {
+      "Question": "'पौधों' में 'धुआं रोग' (Sooty Mold)?",
+      "Crop": "General",
+      "FinalScore": 9.992397460612475,
+      "CrossScore": 0.9992397460612474
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.99151788331481,
+      "CrossScore": 0.999151788331481
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.991409946536708,
+      "CrossScore": 0.9991409946536708
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.990886544876163,
+      "CrossScore": 0.9990886544876163
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.990118645253759,
+      "CrossScore": 0.9990118645253758
+    }
+  ],
+  "latency_ms": 222.1,
+  "final_returned": [
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.995568128175448
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "Score": 9.995037919216225
+    },
+    {
+      "Question": "'अमरूद' में 'उकठा' रोग का वाहक?",
+      "Crop": "Guava",
+      "Score": 9.992939827517752
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "Score": 9.992644327764648
+    },
+    {
+      "Question": "'सरसों' में 'झुलसा' (Blight) का प्रबंधन?",
+      "Crop": "Mustard",
+      "Score": 9.992510833114345
+    }
+  ]
+}

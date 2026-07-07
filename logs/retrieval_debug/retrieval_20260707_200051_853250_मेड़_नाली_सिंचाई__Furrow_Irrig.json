@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:51.628133",
+  "query_original": "मेड़-नाली सिंचाई (Furrow Irrigation) कब उपयोगी है?",
+  "query_normalized": "मेड़ नाली सिंचाई furrow irrigation कब उपयोगी है",
+  "query_expanded": "मेड़ नाली सिंचाई furrow irrigation कब उपयोगी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मेड़-नाली सिंचाई (Furrow Irrigation) कब उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कॉपर ऑक्सीक्लोराइड (Copper Oxychloride) कब उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दलहनी फसलों में 'सिंचाई' के लिए मेड़ नाली विधि?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "गेहूं में 'सिंचाई' के लिए मेड़ और नाली विधि?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मेड़-नाली सिंचाई (Furrow Irrigation) कब उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 999.9119528608092,
+      "CrossScore": 0.9999119528608091
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998419187056069,
+      "CrossScore": 0.9998419187056069
+    },
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999824773809496,
+      "CrossScore": 0.999824773809496
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9996434613000196,
+      "CrossScore": 0.9996434613000196
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9996287519114934,
+      "CrossScore": 0.9996287519114934
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9995780548215943,
+      "CrossScore": 0.9995780548215943
+    },
+    {
+      "Question": "मल्चिंग (Mulching) सिंचाई में कैसे मदद करती है?",
+      "Crop": "General",
+      "FinalScore": 0.9991492495245206,
+      "CrossScore": 0.9991492495245206
+    },
+    {
+      "Question": "आलू में 'सिंचाई' के लिए मेड़-नाली विधि का लाभ?",
+      "Crop": "Potato",
+      "FinalScore": 0.9991065135240396,
+      "CrossScore": 0.9991065135240396
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9989764759377868,
+      "CrossScore": 0.9989764759377868
+    },
+    {
+      "Question": "कॉपर ऑक्सीक्लोराइड (Copper Oxychloride) कब उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9989712374671348,
+      "CrossScore": 0.9989712374671348
+    }
+  ],
+  "latency_ms": 225.15,
+  "final_returned": [
+    {
+      "Question": "मेड़-नाली सिंचाई (Furrow Irrigation) कब उपयोगी है?",
+      "Crop": "General",
+      "Score": 999.9119528608092
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998419187056069
+    },
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "Score": 0.999824773809496
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9996434613000196
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9996287519114934
+    }
+  ]
+}

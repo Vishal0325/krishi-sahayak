@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:26.570770",
+  "query_original": "बकरियों में 'पीपीआर' (PPR) बीमारी?",
+  "query_normalized": "बकरियों में पीपीआर ppr बीमारी",
+  "query_expanded": "बकरियों में पीपीआर ppr बीमारी fungus फंगस बीमारी झुलसा disease रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बकरियों में 'पीपीआर' (PPR) बीमारी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'सघन' खेती में बीमारी का खतरा?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मशरूम में 'पिंक मोल्ड' (Pink Mold) बीमारी?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "आलू में 'मोजेक' बीमारी का फैलाव कैसे रोकें?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बकरियों में 'पीपीआर' (PPR) बीमारी?",
+      "Crop": "General",
+      "FinalScore": 999.8642303569555,
+      "CrossScore": 0.9998642303569556
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.990886544876163,
+      "CrossScore": 0.9990886544876163
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.990118640546616,
+      "CrossScore": 0.9990118640546616
+    },
+    {
+      "Question": "बकरियों में 'टीकाकरण' (Vaccination) क्यों जरूरी है?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998354799623264,
+      "CrossScore": 0.9998354799623264
+    },
+    {
+      "Question": "बकरियों में 'कीड़े' (Deworming) की दवा?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9996349926121982,
+      "CrossScore": 0.9996349926121982
+    },
+    {
+      "Question": "मशरूम में 'पिंक मोल्ड' (Pink Mold) बीमारी?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995140610664012,
+      "CrossScore": 0.9995140610664012
+    },
+    {
+      "Question": "बकरियों को संतुलित आहार में क्या दें?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9994835512716105,
+      "CrossScore": 0.9994835512716105
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994826590019975,
+      "CrossScore": 0.9994826590019975
+    },
+    {
+      "Question": "पशुओं में 'एन्थ्रेक्स' (Anthrax) बीमारी?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9994489336992958,
+      "CrossScore": 0.9994489336992958
+    },
+    {
+      "Question": "मूंग और उड़द में 'आर्द्र पतन' (Damping off)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9993974506466567,
+      "CrossScore": 0.9993974506466567
+    }
+  ],
+  "latency_ms": 364.38,
+  "final_returned": [
+    {
+      "Question": "बकरियों में 'पीपीआर' (PPR) बीमारी?",
+      "Crop": "General",
+      "Score": 999.8642303569555
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "Score": 9.990886544876163
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General",
+      "Score": 9.990118640546616
+    },
+    {
+      "Question": "बकरियों में 'टीकाकरण' (Vaccination) क्यों जरूरी है?",
+      "Crop": "Livestock",
+      "Score": 0.9998354799623264
+    },
+    {
+      "Question": "बकरियों में 'कीड़े' (Deworming) की दवा?",
+      "Crop": "Livestock",
+      "Score": 0.9996349926121982
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:03.971849",
+  "query_original": "'छिड़काव' के समय ' फ्लैट फैन' नोजल?",
+  "query_normalized": "छिड़काव के समय फ्लैट फैन नोजल",
+  "query_expanded": "छिड़काव के समय फ्लैट फैन नोजल",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'छिड़काव' के समय ' फ्लैट फैन' नोजल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' नोजल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' (Cone) नोजल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'छिड़काव' के समय सुरक्षा गियर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशकों के छिड़काव के लिए 'नोजल'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'छिड़काव' के समय ' फ्लैट फैन' नोजल?",
+      "Crop": "General",
+      "FinalScore": 999.8995168978317,
+      "CrossScore": 0.9998995168978317
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' (Cone) नोजल?",
+      "Crop": "General",
+      "FinalScore": 0.9998836085918162,
+      "CrossScore": 0.9998836085918162
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' नोजल?",
+      "Crop": "General",
+      "FinalScore": 0.9998715229675172,
+      "CrossScore": 0.9998715229675172
+    },
+    {
+      "Question": "खरपतवारनाशकों के छिड़काव के लिए 'नोजल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998616183754623,
+      "CrossScore": 0.9998616183754623
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "FinalScore": 0.9998614247974967,
+      "CrossScore": 0.9998614247974967
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998587707006006,
+      "CrossScore": 0.9998587707006006
+    },
+    {
+      "Question": "गन्ने में 'यूरिया' को शाम के समय क्यों डालें?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998569171983507,
+      "CrossScore": 0.9998569171983507
+    },
+    {
+      "Question": "'पर्णीय छिड़काव' (Foliar Spray) के लिए सबसे अच्छा समय?",
+      "Crop": "General",
+      "FinalScore": 0.9998536008241359,
+      "CrossScore": 0.9998536008241359
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा गियर' (PPE Kit)?",
+      "Crop": "General",
+      "FinalScore": 0.9998521993089297,
+      "CrossScore": 0.9998521993089297
+    },
+    {
+      "Question": "कीटनाशकों के छिड़काव के लिए 'नोजल' (Nozzle) का चुनाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998513809094131,
+      "CrossScore": 0.9998513809094131
+    }
+  ],
+  "latency_ms": 182.04,
+  "final_returned": [
+    {
+      "Question": "'छिड़काव' के समय ' फ्लैट फैन' नोजल?",
+      "Crop": "General",
+      "Score": 999.8995168978317
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' (Cone) नोजल?",
+      "Crop": "General",
+      "Score": 0.9998836085918162
+    },
+    {
+      "Question": "'छिड़काव' के समय 'कोन' नोजल?",
+      "Crop": "General",
+      "Score": 0.9998715229675172
+    },
+    {
+      "Question": "खरपतवारनाशकों के छिड़काव के लिए 'नोजल'?",
+      "Crop": "General",
+      "Score": 0.9998616183754623
+    },
+    {
+      "Question": "'छिड़काव' के समय 'सुरक्षा कपड़े'?",
+      "Crop": "General",
+      "Score": 0.9998614247974967
+    }
+  ]
+}

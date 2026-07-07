@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:07.677828",
+  "query_original": "'गन्ने' में चोटी छेदक (Top Borer) की पहचान?",
+  "query_normalized": "गन्ने में चोटी छेदक top borer की पहचान",
+  "query_expanded": "गन्ने में चोटी छेदक top borer की पहचान",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने' में चोटी छेदक (Top Borer) की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में 'चोटी छेदक' (Top Borer) कीट की पहचान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने में 'पायरीला' (Pyrilla) कीट की पहचान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने में 'सल्फर' की कमी का पहचान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "मक्का में 'तना छेदक' (Chilo partellus) की पहचान?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गन्ने' में चोटी छेदक (Top Borer) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 999.891927255983,
+      "CrossScore": 0.999891927255983
+    },
+    {
+      "Question": "गन्ने में 'चोटी छेदक' (Top Borer) कीट की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998604751917529,
+      "CrossScore": 0.9998604751917529
+    },
+    {
+      "Question": "गन्ने का 'तना छेदक' (Stem Borer) कीट?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997382377915328,
+      "CrossScore": 0.9997382377915328
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999359709567834,
+      "CrossScore": 0.999359709567834
+    },
+    {
+      "Question": "गन्ने की खेती में 'यूरिया' की टॉप ड्रेसिंग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9992646955953759,
+      "CrossScore": 0.9992646955953759
+    },
+    {
+      "Question": "गन्ने में 'पायरीला' (Pyrilla) कीट की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9992360847968093,
+      "CrossScore": 0.9992360847968093
+    },
+    {
+      "Question": "मक्का में 'तना छेदक' (Chilo partellus) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 0.9991956400942729,
+      "CrossScore": 0.9991956400942729
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9991836027047704,
+      "CrossScore": 0.9991836027047704
+    },
+    {
+      "Question": "गन्ने में 'आयरन' (लोहा) की कमी?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9990829084956717,
+      "CrossScore": 0.9990829084956717
+    },
+    {
+      "Question": "गन्ने की खेती में 'मजदूरी' कम करने के यंत्र?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9990708456947931,
+      "CrossScore": 0.9990708456947931
+    }
+  ],
+  "latency_ms": 1197.98,
+  "final_returned": [
+    {
+      "Question": "'गन्ने' में चोटी छेदक (Top Borer) की पहचान?",
+      "Crop": "General",
+      "Score": 999.891927255983
+    },
+    {
+      "Question": "गन्ने में 'चोटी छेदक' (Top Borer) कीट की पहचान?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998604751917529
+    },
+    {
+      "Question": "गन्ने का 'तना छेदक' (Stem Borer) कीट?",
+      "Crop": "Sugarcane",
+      "Score": 0.9997382377915328
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.999359709567834
+    },
+    {
+      "Question": "गन्ने की खेती में 'यूरिया' की टॉप ड्रेसिंग?",
+      "Crop": "Sugarcane",
+      "Score": 0.9992646955953759
+    }
+  ]
+}

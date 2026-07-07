@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:39.665982",
+  "query_original": "न्यूनतम समर्थन मूल्य (MSP) क्या है?",
+  "query_normalized": "न्यूनतम समर्थन मूल्य msp क्या है",
+  "query_expanded": "न्यूनतम समर्थन मूल्य msp क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "न्यूनतम समर्थन मूल्य (MSP) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मूल्य संवर्धन (Value Addition) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशरूम से 'मूल्य संवर्धन' (Value Addition) संभव है?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "न्यूनतम समर्थन मूल्य (MSP) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999005028882886,
+      "CrossScore": 0.9999005028882886
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.999891286940652,
+      "CrossScore": 0.999891286940652
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9998742565504946,
+      "CrossScore": 0.9998742565504946
+    },
+    {
+      "Question": "'बाजार मूल्य' (Market Price) और 'एमएसपी' (MSP) में अंतर?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997908508596837,
+      "CrossScore": 0.9997908508596837
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996561382494934,
+      "CrossScore": 0.9996561382494934
+    },
+    {
+      "Question": "क्या मशरूम से 'मूल्य संवर्धन' (Value Addition) संभव है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9996462767420727,
+      "CrossScore": 0.9996462767420727
+    },
+    {
+      "Question": "मूल्य संवर्धन (Value Addition) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996416706424788,
+      "CrossScore": 0.9996416706424788
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996051984273763,
+      "CrossScore": 0.9996051984273763
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9995637190634155,
+      "CrossScore": 0.9995637190634155
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9995556308667916,
+      "CrossScore": 0.9995556308667916
+    }
+  ],
+  "latency_ms": 213.87,
+  "final_returned": [
+    {
+      "Question": "न्यूनतम समर्थन मूल्य (MSP) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999005028882886
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.999891286940652
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General",
+      "Score": 0.9998742565504946
+    },
+    {
+      "Question": "'बाजार मूल्य' (Market Price) और 'एमएसपी' (MSP) में अंतर?",
+      "Crop": "Economics",
+      "Score": 0.9997908508596837
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9996561382494934
+    }
+  ]
+}

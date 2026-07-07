@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:54.527805",
+  "query_original": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+  "query_normalized": "स्प्रिंकलर सिंचाई sprinkler irrigation के क्या लाभ हैं",
+  "query_expanded": "स्प्रिंकलर सिंचाई sprinkler irrigation के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नहर (Canal) सिंचाई के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999148170898016,
+      "CrossScore": 0.9999148170898016
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997851964623644,
+      "CrossScore": 0.9997851964623644
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9996511823187617,
+      "CrossScore": 0.9996511823187617
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994327478401155,
+      "CrossScore": 0.9994327478401155
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9994193617661505,
+      "CrossScore": 0.9994193617661505
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994046746539821,
+      "CrossScore": 0.9994046746539821
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999283152375138,
+      "CrossScore": 0.999283152375138
+    },
+    {
+      "Question": "सिंगल सुपर फास्फेट (SSP) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999273915302613,
+      "CrossScore": 0.999273915302613
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9992711693306212,
+      "CrossScore": 0.9992711693306212
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9992509027266896,
+      "CrossScore": 0.9992509027266896
+    }
+  ],
+  "latency_ms": 325.28,
+  "final_returned": [
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9999148170898016
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997851964623644
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9996511823187617
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9994327478401155
+    },
+    {
+      "Question": "'इलेक्ट्रिक ट्रैक्टर' के क्या लाभ हैं?",
+      "Crop": "Agri Tech",
+      "Score": 0.9994193617661505
+    }
+  ]
+}

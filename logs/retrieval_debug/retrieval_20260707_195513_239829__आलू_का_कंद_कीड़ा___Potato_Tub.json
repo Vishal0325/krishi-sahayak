@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:13.028470",
+  "query_original": "'आलू का कंद कीड़ा' (Potato Tuber Moth)?",
+  "query_normalized": "आलू का कंद कीड़ा potato tuber moth",
+  "query_expanded": "आलू का कंद कीड़ा potato tuber moth बग pest कीड़ा कीट insect",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'आलू का कंद कीड़ा' (Potato Tuber Moth)?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'आलू का कंद कीड़ा' (Potato Tuber Moth)?",
+      "Crop": "Potato",
+      "FinalScore": 49.99572758120478,
+      "CrossScore": 0.9999145516240956
+    },
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato",
+      "FinalScore": 49.849788276550214,
+      "CrossScore": 0.9969957655310043
+    },
+    {
+      "Question": "आलू की खेती का परिचय क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.79807042142472,
+      "CrossScore": 0.9959614084284943
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "FinalScore": 49.71503962713694,
+      "CrossScore": 0.9943007925427387
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "FinalScore": 49.70227330148169,
+      "CrossScore": 0.9940454660296338
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "FinalScore": 49.525814912180465,
+      "CrossScore": 0.9905162982436093
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 49.2396704533206,
+      "CrossScore": 0.984793409066412
+    },
+    {
+      "Question": "आलू में 'माहू' (Aphids) कीट का क्या प्रभाव है?",
+      "Crop": "Potato",
+      "FinalScore": 49.167693770196394,
+      "CrossScore": 0.9833538754039279
+    },
+    {
+      "Question": "आलू में पोटाश का क्या महत्व है?",
+      "Crop": "Potato",
+      "FinalScore": 49.08007115292128,
+      "CrossScore": 0.9816014230584256
+    },
+    {
+      "Question": "'आलू' के अगेती झुलसा के लिए 'दवा का समय'?",
+      "Crop": "Potato",
+      "FinalScore": 48.95902750684849,
+      "CrossScore": 0.9791805501369698
+    }
+  ],
+  "latency_ms": 211.52,
+  "final_returned": [
+    {
+      "Question": "'आलू का कंद कीड़ा' (Potato Tuber Moth)?",
+      "Crop": "Potato",
+      "Score": 49.99572758120478
+    },
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato",
+      "Score": 49.849788276550214
+    },
+    {
+      "Question": "आलू की खेती का परिचय क्या है?",
+      "Crop": "Potato",
+      "Score": 49.79807042142472
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "Score": 49.71503962713694
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) सक्रियता?",
+      "Crop": "Potato",
+      "Score": 49.70227330148169
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:26.140551",
+  "query_original": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+  "query_normalized": "हरी खाद को मिट्टी में कब जोतना चाहिए",
+  "query_expanded": "poshak हरी खाद को मिट्टी में कब जोतना चाहिए खाद पोषण उर्वरक fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गेहूं में 'पोटाश' कब डालना चाहिए?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "प्याज की खेती में 'हरी खाद' के फायदे?",
+      "Crop": "Onion"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 999.9097290792878,
+      "CrossScore": 0.9999097290792878
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998887503399189,
+      "CrossScore": 0.9998887503399189
+    },
+    {
+      "Question": "मक्का की खेती में 'हरी खाद' के रूप में लोबिया?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998811024436695,
+      "CrossScore": 0.9998811024436695
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Potato",
+      "FinalScore": 0.9998799304057577,
+      "CrossScore": 0.9998799304057577
+    },
+    {
+      "Question": "धान में खाद की कितनी मात्रा डालनी चाहिए?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998795224608763,
+      "CrossScore": 0.9998795224608763
+    },
+    {
+      "Question": "गन्ने में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998746734807505,
+      "CrossScore": 0.9998746734807505
+    },
+    {
+      "Question": "गेहूं में 'यूरिया' को शाम के समय ही क्यों डालना चाहिए?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998705676574648,
+      "CrossScore": 0.9998705676574648
+    },
+    {
+      "Question": "क्या खाद को सीधे तने के पास डालना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9998701908014017,
+      "CrossScore": 0.9998701908014017
+    },
+    {
+      "Question": "'हरी खाद' और मिट्टी के सूक्ष्मजीव?",
+      "Crop": "General",
+      "FinalScore": 0.9998595841662916,
+      "CrossScore": 0.9998595841662916
+    },
+    {
+      "Question": "मक्का में 'यूरिया' की बचत के लिए 'हरी खाद'?",
+      "Crop": "Maize",
+      "FinalScore": 0.999858538747187,
+      "CrossScore": 0.999858538747187
+    }
+  ],
+  "latency_ms": 232.42,
+  "final_returned": [
+    {
+      "Question": "'हरी खाद' को मिट्टी में कब जोतना चाहिए?",
+      "Crop": "General",
+      "Score": 999.9097290792878
+    },
+    {
+      "Question": "क्या खाद को धूप में रखना चाहिए?",
+      "Crop": "General",
+      "Score": 0.9998887503399189
+    },
+    {
+      "Question": "मक्का की खेती में 'हरी खाद' के रूप में लोबिया?",
+      "Crop": "Maize",
+      "Score": 0.9998811024436695
+    },
+    {
+      "Question": "आलू में 'मिट्टी चढ़ाना' (Earthing up) कब करें?",
+      "Crop": "Potato",
+      "Score": 0.9998799304057577
+    },
+    {
+      "Question": "धान में खाद की कितनी मात्रा डालनी चाहिए?",
+      "Crop": "Rice",
+      "Score": 0.9998795224608763
+    }
+  ]
+}

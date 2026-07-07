@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:26.194853",
+  "query_original": "'कीटनाशक' छिड़कते समय जूते?",
+  "query_normalized": "कीटनाशक छिड़कते समय जूते",
+  "query_expanded": "बग pest कीड़ा कीट कीटनाशक छिड़कते समय जूते insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशक' छिड़कते समय जूते?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय सुरक्षा के उपाय?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय सावधानी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'चश्मा'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'नोजल' की ऊँचाई?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'चश्मा'?",
+      "Crop": "General",
+      "FinalScore": 9.999133637333186,
+      "CrossScore": 0.9999133637333185
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.999094237502907,
+      "CrossScore": 0.9999094237502908
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय जूते?",
+      "Crop": "General",
+      "FinalScore": 9.998999535496313,
+      "CrossScore": 0.9998999535496313
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.998999421961273,
+      "CrossScore": 0.9998999421961273
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 9.998923881632367,
+      "CrossScore": 0.9998923881632367
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998817310339053,
+      "CrossScore": 0.9998817310339053
+    },
+    {
+      "Question": "'छिड़काव' के समय 'प्लास्टिक जूते'?",
+      "Crop": "General",
+      "FinalScore": 9.998745436303425,
+      "CrossScore": 0.9998745436303426
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 9.998741551914495,
+      "CrossScore": 0.9998741551914496
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.998479273894791,
+      "CrossScore": 0.9998479273894791
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango",
+      "FinalScore": 9.997865789591327,
+      "CrossScore": 0.9997865789591327
+    }
+  ],
+  "latency_ms": 194.02,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशक' छिड़कते समय 'चश्मा'?",
+      "Crop": "General",
+      "Score": 9.999133637333186
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.999094237502907
+    },
+    {
+      "Question": "'कीटनाशक' छिड़कते समय जूते?",
+      "Crop": "General",
+      "Score": 9.998999535496313
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.998999421961273
+    },
+    {
+      "Question": "कीटनाशक छिड़कते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "Score": 9.998923881632367
+    }
+  ]
+}

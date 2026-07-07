@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:21.024761",
+  "query_original": "'मक्का का तना छेदक' और 'नमी'?",
+  "query_normalized": "मक्का का तना छेदक और नमी",
+  "query_expanded": "मक्का का तना छेदक और नमी",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मक्का का तना छेदक' और 'नमी'?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'मक्का का तना छेदक' और 'डेड हार्ट'?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'मक्का का तना छेदक' के लिए 'कार्बोफ्यूरान'?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'बैंगन का तना छेदक' और 'कटाई'?",
+      "Crop": "Brinjal"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मक्का का फाल आर्मीवर्म' और 'अंतर-क्रॉपिंग'?",
+      "Crop": "Maize",
+      "FinalScore": 9.999221499789844,
+      "CrossScore": 0.9999221499789843
+    },
+    {
+      "Question": "'मक्का का तना छेदक' और 'डेड हार्ट'?",
+      "Crop": "Maize",
+      "FinalScore": 9.999216834125885,
+      "CrossScore": 0.9999216834125886
+    },
+    {
+      "Question": "'मक्का का तना छेदक' के लिए 'कार्बोफ्यूरान'?",
+      "Crop": "Maize",
+      "FinalScore": 9.999209599265445,
+      "CrossScore": 0.9999209599265445
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 9.999115716109909,
+      "CrossScore": 0.999911571610991
+    },
+    {
+      "Question": "'मक्का का तना छेदक' और 'नमी'?",
+      "Crop": "Maize",
+      "FinalScore": 9.999110761715592,
+      "CrossScore": 0.9999110761715592
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999057067571535,
+      "CrossScore": 0.9999057067571534
+    },
+    {
+      "Question": "'बैंगन का तना छेदक' और 'कटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999039894570847,
+      "CrossScore": 0.9999039894570847
+    },
+    {
+      "Question": "'बैंगन का तना छेदक'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999024362667118,
+      "CrossScore": 0.9999024362667117
+    },
+    {
+      "Question": "'मक्का का फाल आर्मीवर्म' और 'चिड़िया'?",
+      "Crop": "Maize",
+      "FinalScore": 9.999019754964948,
+      "CrossScore": 0.9999019754964947
+    },
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice",
+      "FinalScore": 9.998912898432495,
+      "CrossScore": 0.9998912898432496
+    }
+  ],
+  "latency_ms": 192.25,
+  "final_returned": [
+    {
+      "Question": "'मक्का का फाल आर्मीवर्म' और 'अंतर-क्रॉपिंग'?",
+      "Crop": "Maize",
+      "Score": 9.999221499789844
+    },
+    {
+      "Question": "'मक्का का तना छेदक' और 'डेड हार्ट'?",
+      "Crop": "Maize",
+      "Score": 9.999216834125885
+    },
+    {
+      "Question": "'मक्का का तना छेदक' के लिए 'कार्बोफ्यूरान'?",
+      "Crop": "Maize",
+      "Score": 9.999209599265445
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "Score": 9.999115716109909
+    },
+    {
+      "Question": "'मक्का का तना छेदक' और 'नमी'?",
+      "Crop": "Maize",
+      "Score": 9.999110761715592
+    }
+  ]
+}

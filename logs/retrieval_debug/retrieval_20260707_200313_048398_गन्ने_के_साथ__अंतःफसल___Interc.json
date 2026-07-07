@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:12.887258",
+  "query_original": "गन्ने के साथ 'अंतःफसल' (Intercropping)?",
+  "query_normalized": "गन्ने के साथ अंतःफसल intercropping",
+  "query_expanded": "गन्ने के साथ अंतःफसल intercropping",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने के साथ 'अंतःफसल' (Intercropping)?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "मटर के साथ 'अंतःफसल' (Intercropping)?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "हल्दी के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Turmeric"
+    },
+    {
+      "Question": "लीची के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "आम के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने के साथ 'अंतःफसल' (Intercropping)?",
+      "Crop": "Sugarcane",
+      "FinalScore": 999.9164566521861,
+      "CrossScore": 0.9999164566521861
+    },
+    {
+      "Question": "लीची के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Litchi",
+      "FinalScore": 0.999893344168676,
+      "CrossScore": 0.999893344168676
+    },
+    {
+      "Question": "मटर के साथ 'अंतःफसल' (Intercropping)?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998733606952567,
+      "CrossScore": 0.9998733606952567
+    },
+    {
+      "Question": "अमरूद के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998585117668388,
+      "CrossScore": 0.9998585117668388
+    },
+    {
+      "Question": "आम के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998448469962101,
+      "CrossScore": 0.9998448469962101
+    },
+    {
+      "Question": "हल्दी के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9998386198586181,
+      "CrossScore": 0.9998386198586181
+    },
+    {
+      "Question": "फलों के बाग में 'अंतःफसल' (Intercropping) के क्या लाभ हैं?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9997958318982184,
+      "CrossScore": 0.9997958318982184
+    },
+    {
+      "Question": "क्या गेहूं की खेती के साथ सरसों उगाई जा सकती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997750755126369,
+      "CrossScore": 0.9997750755126369
+    },
+    {
+      "Question": "गन्ने के लिए उपयुक्त जलवायु?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9986643581462354,
+      "CrossScore": 0.9986643581462354
+    },
+    {
+      "Question": "गन्ने की बुआई के लिए 'दो आंख' वाले टुकड़े क्यों अच्छे हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9983494982015687,
+      "CrossScore": 0.9983494982015687
+    }
+  ],
+  "latency_ms": 161.17,
+  "final_returned": [
+    {
+      "Question": "गन्ने के साथ 'अंतःफसल' (Intercropping)?",
+      "Crop": "Sugarcane",
+      "Score": 999.9164566521861
+    },
+    {
+      "Question": "लीची के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Litchi",
+      "Score": 0.999893344168676
+    },
+    {
+      "Question": "मटर के साथ 'अंतःफसल' (Intercropping)?",
+      "Crop": "Pea",
+      "Score": 0.9998733606952567
+    },
+    {
+      "Question": "अमरूद के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Guava",
+      "Score": 0.9998585117668388
+    },
+    {
+      "Question": "आम के बाग में 'अंतःफसल' (Intercropping)?",
+      "Crop": "Mango",
+      "Score": 0.9998448469962101
+    }
+  ]
+}

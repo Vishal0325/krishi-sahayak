@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:53.603402",
+  "query_original": "'कीटनाशकों' का सुरक्षित परिवहन?",
+  "query_normalized": "कीटनाशकों का सुरक्षित परिवहन",
+  "query_expanded": "pest कीड़ा कीटनाशकों का सुरक्षित परिवहन कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित परिवहन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशकों के खाली डिब्बों का सुरक्षित निपटान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या सब्जियों में कीटनाशकों का प्रयोग सुरक्षित है?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित परिवहन?",
+      "Crop": "General",
+      "FinalScore": 9998.75636088497,
+      "CrossScore": 0.999875636088497
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेटों का निस्तारण?",
+      "Crop": "General",
+      "FinalScore": 9.998852786089959,
+      "CrossScore": 0.9998852786089958
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "FinalScore": 9.99884552899069,
+      "CrossScore": 0.9998845528990691
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.998829445590804,
+      "CrossScore": 0.9998829445590803
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 9.9985207297911,
+      "CrossScore": 0.9998520729791099
+    },
+    {
+      "Question": "कीटनाशकों के खाली डिब्बों का सुरक्षित निपटान?",
+      "Crop": "General",
+      "FinalScore": 0.9998949430568879,
+      "CrossScore": 0.9998949430568879
+    },
+    {
+      "Question": "कीटनाशकों के खाली डिब्बों का निस्तारण?",
+      "Crop": "General",
+      "FinalScore": 0.9998886512132004,
+      "CrossScore": 0.9998886512132004
+    },
+    {
+      "Question": "कीटनाशकों का 'ट्रांसलैमिरार' (Translaminar) असर?",
+      "Crop": "General",
+      "FinalScore": 0.9998799182688294,
+      "CrossScore": 0.9998799182688294
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेटों का क्या करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998792343362948,
+      "CrossScore": 0.9998792343362948
+    },
+    {
+      "Question": "'कीटनाशकों' के पैकेट पर लाल त्रिकोण का मतलब?",
+      "Crop": "General",
+      "FinalScore": 0.9998783148939259,
+      "CrossScore": 0.9998783148939259
+    }
+  ],
+  "latency_ms": 195.14,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित परिवहन?",
+      "Crop": "General",
+      "Score": 9998.75636088497
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेटों का निस्तारण?",
+      "Crop": "General",
+      "Score": 9.998852786089959
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "Score": 9.99884552899069
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.998829445590804
+    },
+    {
+      "Question": "'कीटनाशकों' के खाली पैकेट का क्या करें?",
+      "Crop": "General",
+      "Score": 9.9985207297911
+    }
+  ]
+}

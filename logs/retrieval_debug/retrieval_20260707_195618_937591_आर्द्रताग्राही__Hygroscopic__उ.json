@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:18.734722",
+  "query_original": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+  "query_normalized": "आर्द्रताग्राही hygroscopic उर्वरक क्या होते हैं",
+  "query_expanded": "आर्द्रताग्राही hygroscopic उर्वरक क्या होते हैं खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बायो-फर्टिलाइजर (Bio-Fertilizer) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999886360526679,
+      "CrossScore": 0.999886360526679
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995278189359579,
+      "CrossScore": 0.9995278189359579
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994441440246803,
+      "CrossScore": 0.9994441440246803
+    },
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9994351815559471,
+      "CrossScore": 0.9994351815559471
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9993985623066391,
+      "CrossScore": 0.9993985623066391
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9993967478812212,
+      "CrossScore": 0.9993967478812212
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9993841784125489,
+      "CrossScore": 0.9993841784125489
+    },
+    {
+      "Question": "भविष्य के 'स्मार्ट' उर्वरक क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9993840128756167,
+      "CrossScore": 0.9993840128756167
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9993360717515439,
+      "CrossScore": 0.9993360717515439
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9993276846579368,
+      "CrossScore": 0.9993276846579368
+    }
+  ],
+  "latency_ms": 202.98,
+  "final_returned": [
+    {
+      "Question": "आर्द्रताग्राही (Hygroscopic) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.999886360526679
+    },
+    {
+      "Question": "उर्वरकों का अधिक प्रयोग करने से क्या नुकसान होते हैं?",
+      "Crop": "General",
+      "Score": 0.9995278189359579
+    },
+    {
+      "Question": "उर्वरक (Fertilizer) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9994441440246803
+    },
+    {
+      "Question": "क्या संतुलित उर्वरक रोगों को कम कर सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9994351815559471
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "Score": 0.9993985623066391
+    }
+  ]
+}

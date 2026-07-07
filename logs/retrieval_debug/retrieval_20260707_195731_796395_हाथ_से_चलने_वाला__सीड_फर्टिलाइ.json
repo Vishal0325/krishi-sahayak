@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:31.618036",
+  "query_original": "हाथ से चलने वाला 'सीड फर्टिलाइजर ड्रिल'?",
+  "query_normalized": "हाथ से चलने वाला सीड फर्टिलाइजर ड्रिल",
+  "query_expanded": "हाथ से चलने वाला सीड फर्टिलाइजर ड्रिल",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "हाथ से चलने वाला 'सीड फर्टिलाइजर ड्रिल'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'सीड ड्रिल' से बुआई का खर्च?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "सीड ड्रिल (Seed Drill) से बुआई के क्या फायदे हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'लाल त्रिकोण' वाला कीटनाशक?",
+      "Crop": "General",
+      "FinalScore": 0.9998745945821647,
+      "CrossScore": 0.9998745945821647
+    },
+    {
+      "Question": "हाथ से चलने वाला 'सीड फर्टिलाइजर ड्रिल'?",
+      "Crop": "General",
+      "FinalScore": 0.9998744879902886,
+      "CrossScore": 0.9998744879902886
+    },
+    {
+      "Question": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+      "Crop": "General",
+      "FinalScore": 0.9998602544325847,
+      "CrossScore": 0.9998602544325847
+    },
+    {
+      "Question": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998579560445581,
+      "CrossScore": 0.9998579560445581
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998531489517846,
+      "CrossScore": 0.9998531489517846
+    },
+    {
+      "Question": "फफूंदनाशकों के साथ 'चिपकने वाला पदार्थ' (Sticker) क्यों मिलाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998521106355565,
+      "CrossScore": 0.9998521106355565
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और 'हाथ'?",
+      "Crop": "General",
+      "FinalScore": 0.9998382066263682,
+      "CrossScore": 0.9998382066263682
+    },
+    {
+      "Question": "कीटनाशकों के साथ 'चिपकने वाला' (Spreader/Sticker) क्यों उपयोग करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998362357596013,
+      "CrossScore": 0.9998362357596013
+    },
+    {
+      "Question": "'हरा' निशान वाला कीटनाशक?",
+      "Crop": "General",
+      "FinalScore": 0.9998342217632978,
+      "CrossScore": 0.9998342217632978
+    },
+    {
+      "Question": "गेहूं की 'सीड ड्रिल' से बुआई का खर्च?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998226608177088,
+      "CrossScore": 0.9998226608177088
+    }
+  ],
+  "latency_ms": 178.46,
+  "final_returned": [
+    {
+      "Question": "'लाल त्रिकोण' वाला कीटनाशक?",
+      "Crop": "General",
+      "Score": 0.9998745945821647
+    },
+    {
+      "Question": "हाथ से चलने वाला 'सीड फर्टिलाइजर ड्रिल'?",
+      "Crop": "General",
+      "Score": 0.9998744879902886
+    },
+    {
+      "Question": "खरपतवारनाशकों के साथ 'चिपकने वाला' पदार्थ (Sticker)?",
+      "Crop": "General",
+      "Score": 0.9998602544325847
+    },
+    {
+      "Question": "सीड ड्रिल का अंशांकन (Calibration) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9998579560445581
+    },
+    {
+      "Question": "हाथ से चलने वाले छोटे यंत्रों (Hand Tools) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998531489517846
+    }
+  ]
+}

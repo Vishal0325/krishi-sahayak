@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:31.262574",
+  "query_original": "गन्ने in 'ग्रासी शूट' का 'पहचान'?",
+  "query_normalized": "गन्ने in ग्रासी शूट का पहचान",
+  "query_expanded": "गन्ने in ग्रासी शूट का पहचान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का 'पहचान'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का वाहक?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का 'पहचान'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 999.8503249562142,
+      "CrossScore": 0.9998503249562142
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998857186220954,
+      "CrossScore": 0.9998857186220954
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999883942403837,
+      "CrossScore": 0.999883942403837
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998660297665145,
+      "CrossScore": 0.9998660297665145
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998642671193119,
+      "CrossScore": 0.9998642671193119
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998638891839194,
+      "CrossScore": 0.9998638891839194
+    },
+    {
+      "Question": "'गन्ने' में 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998636597857348,
+      "CrossScore": 0.9998636597857348
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का आर्थिक नुकसान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998624292156624,
+      "CrossScore": 0.9998624292156624
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का जैविक बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998576935819905,
+      "CrossScore": 0.9998576935819905
+    },
+    {
+      "Question": "गन्ने in 'मोजेक' रोग की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998495768106569,
+      "CrossScore": 0.9998495768106569
+    }
+  ],
+  "latency_ms": 188.72,
+  "final_returned": [
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का 'पहचान'?",
+      "Crop": "Sugarcane",
+      "Score": 999.8503249562142
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' रोकने के लिए 'हीट ट्रीटमेंट'?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998857186220954
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' का 'देसी' पहचान?",
+      "Crop": "Sugarcane",
+      "Score": 0.999883942403837
+    },
+    {
+      "Question": "गन्ने in 'लाल सड़न' के लिए 'लाल' किस्मों का चुनाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998660297665145
+    },
+    {
+      "Question": "गन्ने in 'ग्रासी शूट' का बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998642671193119
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:35.589757",
+  "query_original": "वाष्पोत्सर्जन (Evapotranspiration) क्या है?",
+  "query_normalized": "वाष्पोत्सर्जन evapotranspiration क्या है",
+  "query_expanded": "वाष्पोत्सर्जन evapotranspiration क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "वाष्पोत्सर्जन (Evapotranspiration) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "वाष्पोत्सर्जन (Evapotranspiration) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.8969564598077,
+      "CrossScore": 0.9998969564598077
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9993460610603636,
+      "CrossScore": 0.9993460610603636
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9992158184052237,
+      "CrossScore": 0.9992158184052237
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9990291349820108,
+      "CrossScore": 0.9990291349820108
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9989316423357352,
+      "CrossScore": 0.9989316423357352
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9987482111672354,
+      "CrossScore": 0.9987482111672354
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9986905496250373,
+      "CrossScore": 0.9986905496250373
+    },
+    {
+      "Question": "गन्ने की 'Co 0118' किस्म की क्या विशेषता है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9981943145422284,
+      "CrossScore": 0.9981943145422284
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9981249151845911,
+      "CrossScore": 0.9981249151845911
+    },
+    {
+      "Question": "'पंत हरितमा' किस्म की क्या विशेषता है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.997989467482364,
+      "CrossScore": 0.997989467482364
+    }
+  ],
+  "latency_ms": 181.2,
+  "final_returned": [
+    {
+      "Question": "वाष्पोत्सर्जन (Evapotranspiration) क्या है?",
+      "Crop": "General",
+      "Score": 999.8969564598077
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9993460610603636
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "Score": 0.9992158184052237
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "Score": 0.9990291349820108
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9989316423357352
+    }
+  ]
+}

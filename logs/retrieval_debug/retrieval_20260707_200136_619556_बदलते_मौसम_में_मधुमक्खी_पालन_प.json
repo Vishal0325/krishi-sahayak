@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:36.396368",
+  "query_original": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव?",
+  "query_normalized": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव",
+  "query_expanded": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'डिवाइडिंग' (Dividing)?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "क्या फलों के बाग में मधुमक्खी पालन करना चाहिए?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 999.8625751412023,
+      "CrossScore": 0.9998625751412024
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'रॉयल जेली' (Royal Jelly) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998407896127214,
+      "CrossScore": 0.9998407896127214
+    },
+    {
+      "Question": "सरसों की खेती में 'मधुमक्खी पालन' के लाभ?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998388142448549,
+      "CrossScore": 0.9998388142448549
+    },
+    {
+      "Question": "पपीते के बाग में 'मधुमक्खी पालन'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998328634474911,
+      "CrossScore": 0.9998328634474911
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998317301880864,
+      "CrossScore": 0.9998317301880864
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'फ्लोरल कैलेंडर' (Floral Calendar) क्या है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998273603043116,
+      "CrossScore": 0.9998273603043116
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998269319430476,
+      "CrossScore": 0.9998269319430476
+    },
+    {
+      "Question": "फूलों के बाग में 'मधुमक्खी पालन'?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.9998257162675886,
+      "CrossScore": 0.9998257162675886
+    },
+    {
+      "Question": "लीची के बाग में 'मधुमक्खी पालन' से कितना लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998250516092738,
+      "CrossScore": 0.9998250516092738
+    },
+    {
+      "Question": "अमरूद के बाग में 'मधुमक्खी पालन' के लाभ?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998208868346277,
+      "CrossScore": 0.9998208868346277
+    }
+  ],
+  "latency_ms": 223.24,
+  "final_returned": [
+    {
+      "Question": "बदलते मौसम में मधुमक्खी पालन पर प्रभाव?",
+      "Crop": "General",
+      "Score": 999.8625751412023
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'रॉयल जेली' (Royal Jelly) क्या है?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998407896127214
+    },
+    {
+      "Question": "सरसों की खेती में 'मधुमक्खी पालन' के लाभ?",
+      "Crop": "Mustard",
+      "Score": 0.9998388142448549
+    },
+    {
+      "Question": "पपीते के बाग में 'मधुमक्खी पालन'?",
+      "Crop": "Papaya",
+      "Score": 0.9998328634474911
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'पानी' की व्यवस्था?",
+      "Crop": "Beekeeping",
+      "Score": 0.9998317301880864
+    }
+  ]
+}

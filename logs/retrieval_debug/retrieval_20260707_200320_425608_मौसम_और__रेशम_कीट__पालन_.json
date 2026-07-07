@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:20.248032",
+  "query_original": "मौसम और 'रेशम कीट' पालन?",
+  "query_normalized": "मौसम और रेशम कीट पालन",
+  "query_expanded": "pest कीड़ा बग कीट insect मौसम और रेशम कीट पालन",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम और 'रेशम कीट' पालन?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रेशम कीट पालन' (Sericulture) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मौसम और 'मत्स्य पालन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम और 'रेशम कीट' पालन?",
+      "Crop": "General",
+      "FinalScore": 999.9137458940652,
+      "CrossScore": 0.9999137458940652
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General",
+      "FinalScore": 9.998776598669325,
+      "CrossScore": 0.9998776598669326
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "FinalScore": 9.99853521930757,
+      "CrossScore": 0.999853521930757
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'कीट निगरानी'?",
+      "Crop": "General",
+      "FinalScore": 9.998323610059783,
+      "CrossScore": 0.9998323610059783
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 9.998195628223312,
+      "CrossScore": 0.9998195628223313
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "FinalScore": 9.998133523973923,
+      "CrossScore": 0.9998133523973923
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.997332941274685,
+      "CrossScore": 0.9997332941274686
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General",
+      "FinalScore": 9.997172273927465,
+      "CrossScore": 0.9997172273927465
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 9.99702943800925,
+      "CrossScore": 0.999702943800925
+    },
+    {
+      "Question": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन (NBHM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999067290122979,
+      "CrossScore": 0.9999067290122979
+    }
+  ],
+  "latency_ms": 177.61,
+  "final_returned": [
+    {
+      "Question": "मौसम और 'रेशम कीट' पालन?",
+      "Crop": "General",
+      "Score": 999.9137458940652
+    },
+    {
+      "Question": "'मित्र कीट' और 'रसायन'?",
+      "Crop": "General",
+      "Score": 9.998776598669325
+    },
+    {
+      "Question": "'मित्र कीट' और 'खेत की मेड़'?",
+      "Crop": "General",
+      "Score": 9.99853521930757
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' और 'कीट निगरानी'?",
+      "Crop": "General",
+      "Score": 9.998323610059783
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "Score": 9.998195628223312
+    }
+  ]
+}

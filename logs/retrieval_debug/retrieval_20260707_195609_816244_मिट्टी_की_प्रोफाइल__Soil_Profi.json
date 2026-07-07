@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:09.336973",
+  "query_original": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+  "query_normalized": "मिट्टी की प्रोफाइल soil profile क्या है",
+  "query_expanded": "मिट्टी की प्रोफाइल soil profile क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999423427405278,
+      "CrossScore": 0.9999423427405278
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998456923953548,
+      "CrossScore": 0.9998456923953548
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997936629316114,
+      "CrossScore": 0.9997936629316114
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997838672558281,
+      "CrossScore": 0.9997838672558281
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997797801247472,
+      "CrossScore": 0.9997797801247472
+    },
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997712478658589,
+      "CrossScore": 0.9997712478658589
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9997627084075033,
+      "CrossScore": 0.9997627084075033
+    },
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997197476111769,
+      "CrossScore": 0.9997197476111769
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.999712913359558,
+      "CrossScore": 0.999712913359558
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9990255305650949,
+      "CrossScore": 0.9990255305650949
+    }
+  ],
+  "latency_ms": 479.46,
+  "final_returned": [
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999423427405278
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998456923953548
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "Score": 0.9997936629316114
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "Score": 0.9997838672558281
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9997797801247472
+    }
+  ]
+}

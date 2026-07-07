@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:31.056182",
+  "query_original": "खाद और उर्वरक में क्या अंतर है?",
+  "query_normalized": "खाद और उर्वरक में क्या अंतर है",
+  "query_expanded": "खाद और उर्वरक में क्या अंतर है खाद poshak fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलदार वृक्षों में 'उर्वरक रिंग' (Fertilizer Ring) विधि क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9999299149557928,
+      "CrossScore": 0.9999299149557928
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.99992570402876,
+      "CrossScore": 0.99992570402876
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9999254735548346,
+      "CrossScore": 0.9999254735548346
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999249661821623,
+      "CrossScore": 0.9999249661821623
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999237909843388,
+      "CrossScore": 0.9999237909843388
+    },
+    {
+      "Question": "अदरक में खाद और उर्वरक की मात्रा?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999233895021175,
+      "CrossScore": 0.9999233895021175
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9999228859608292,
+      "CrossScore": 0.9999228859608292
+    },
+    {
+      "Question": "पत्तागोभी में खाद और उर्वरक की मात्रा?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999216854289948,
+      "CrossScore": 0.9999216854289948
+    },
+    {
+      "Question": "खाद और उर्वरक में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9999216313414673,
+      "CrossScore": 0.9999216313414673
+    },
+    {
+      "Question": "खड़ी फसल में खाद देने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999204522520568,
+      "CrossScore": 0.9999204522520568
+    }
+  ],
+  "latency_ms": 186.97,
+  "final_returned": [
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "Score": 0.9999299149557928
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane",
+      "Score": 0.99992570402876
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "Score": 0.9999254735548346
+    },
+    {
+      "Question": "बैंगन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Brinjal",
+      "Score": 0.9999249661821623
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize",
+      "Score": 0.9999237909843388
+    }
+  ]
+}

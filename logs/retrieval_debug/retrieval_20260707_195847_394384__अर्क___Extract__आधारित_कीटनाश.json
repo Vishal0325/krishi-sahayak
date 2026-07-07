@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:47.167488",
+  "query_original": "'अर्क' (Extract) आधारित कीटनाशक क्या हैं?",
+  "query_normalized": "अर्क extract आधारित कीटनाशक क्या हैं",
+  "query_expanded": "बग pest कीड़ा कीट अर्क extract आधारित कीटनाशक क्या हैं insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अर्क' (Extract) आधारित कीटनाशक क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को 'कीट' नुकसान पहुँचाते हैं?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बिहार में मक्का आधारित उद्योग की क्या संभावनाएं हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मित्र कीट (Beneficial Insects) क्या हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अर्क' (Extract) आधारित कीटनाशक क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998967735343253,
+      "CrossScore": 0.9998967735343253
+    },
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 9.996014278222564,
+      "CrossScore": 0.9996014278222564
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.995912786943023,
+      "CrossScore": 0.9995912786943024
+    },
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "FinalScore": 9.995083601578818,
+      "CrossScore": 0.9995083601578818
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.993782549827625,
+      "CrossScore": 0.9993782549827624
+    },
+    {
+      "Question": "धान के 'गाल मिज' (Gall Midge) कीट के क्या लक्षण हैं?",
+      "Crop": "Rice",
+      "FinalScore": 9.992244778102279,
+      "CrossScore": 0.9992244778102278
+    },
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 9.991947420452208,
+      "CrossScore": 0.9991947420452209
+    },
+    {
+      "Question": "दशपर्णी अर्क (Dashparni Arka) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996643464898164,
+      "CrossScore": 0.9996643464898164
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999592893426543,
+      "CrossScore": 0.999592893426543
+    },
+    {
+      "Question": "क्या कीटनाशक इंसानों के स्वास्थ्य पर असर डालते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.99954628867519,
+      "CrossScore": 0.99954628867519
+    }
+  ],
+  "latency_ms": 227.04,
+  "final_returned": [
+    {
+      "Question": "'अर्क' (Extract) आधारित कीटनाशक क्या हैं?",
+      "Crop": "General",
+      "Score": 9.998967735343253
+    },
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 9.996014278222564
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.995912786943023
+    },
+    {
+      "Question": "'थ्रिप्स' (Thrips) कीट के लक्षण क्या हैं?",
+      "Crop": "Chilli",
+      "Score": 9.995083601578818
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9.993782549827625
+    }
+  ]
+}

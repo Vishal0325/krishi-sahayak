@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:30.594964",
+  "query_original": "फलों की तुड़ाई (Harvesting) कब करें?",
+  "query_normalized": "फलों की तुड़ाई harvesting कब करें",
+  "query_expanded": "फलों की तुड़ाई harvesting कब करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फलों की तुड़ाई (Harvesting) कब करें?",
+      "Crop": "Dragon Fruit"
+    },
+    {
+      "Question": "फूलों की तुड़ाई (Harvesting) कब करें?",
+      "Crop": "Floriculture"
+    },
+    {
+      "Question": "मशरूम की तुड़ाई कब करें?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मटर की कटाई (तुड़ाई) कब करें?",
+      "Crop": "Pea"
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फलों की तुड़ाई (Harvesting) कब करें?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 999.9369802254716,
+      "CrossScore": 0.9999369802254716
+    },
+    {
+      "Question": "फूलों की तुड़ाई (Harvesting) कब करें?",
+      "Crop": "Floriculture",
+      "FinalScore": 0.99994243009738,
+      "CrossScore": 0.99994243009738
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9999329095464162,
+      "CrossScore": 0.9999329095464162
+    },
+    {
+      "Question": "घृतकुमारी (Aloe Vera) की कटाई कब करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9993444970508568,
+      "CrossScore": 0.9993444970508568
+    },
+    {
+      "Question": "बैंगन के पौधों की रोपाई कब करें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9993300607965641,
+      "CrossScore": 0.9993300607965641
+    },
+    {
+      "Question": "मटर की कटाई (तुड़ाई) कब करें?",
+      "Crop": "Pea",
+      "FinalScore": 0.9993013582907085,
+      "CrossScore": 0.9993013582907085
+    },
+    {
+      "Question": "मक्का की कटाई कब करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9992701368308686,
+      "CrossScore": 0.9992701368308686
+    },
+    {
+      "Question": "धनिया की कटाई कब करें?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9992412261882982,
+      "CrossScore": 0.9992412261882982
+    },
+    {
+      "Question": "मशरूम की तुड़ाई कब करें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999230152971776,
+      "CrossScore": 0.999230152971776
+    },
+    {
+      "Question": "प्याज की कटाई (खुदाई) कब करें?",
+      "Crop": "Onion",
+      "FinalScore": 0.9992021117773193,
+      "CrossScore": 0.9992021117773193
+    }
+  ],
+  "latency_ms": 311.32,
+  "final_returned": [
+    {
+      "Question": "फलों की तुड़ाई (Harvesting) कब करें?",
+      "Crop": "Dragon Fruit",
+      "Score": 999.9369802254716
+    },
+    {
+      "Question": "फूलों की तुड़ाई (Harvesting) कब करें?",
+      "Crop": "Floriculture",
+      "Score": 0.99994243009738
+    },
+    {
+      "Question": "फलों की कटाई (Harvesting) के समय क्या सावधानी रखें?",
+      "Crop": "Fruits",
+      "Score": 0.9999329095464162
+    },
+    {
+      "Question": "घृतकुमारी (Aloe Vera) की कटाई कब करें?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9993444970508568
+    },
+    {
+      "Question": "बैंगन के पौधों की रोपाई कब करें?",
+      "Crop": "Brinjal",
+      "Score": 0.9993300607965641
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:13.040736",
+  "query_original": "मानसून का 'लौटना' (Retreating Monsoon)?",
+  "query_normalized": "मानसून का लौटना retreating monsoon",
+  "query_expanded": "मानसून का लौटना retreating monsoon",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मानसून का 'लौटना' (Retreating Monsoon)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मानसून का 'ब्रेक' (Monsoon Break) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अनिश्चित मानसून का 'जोखिम प्रबंधन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मानसून का 'लौटना' (Retreating Monsoon)?",
+      "Crop": "General",
+      "FinalScore": 0.9999363580598619,
+      "CrossScore": 0.9999363580598619
+    },
+    {
+      "Question": "मानसून का 'ब्रेक' (Monsoon Break) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999301499095589,
+      "CrossScore": 0.999301499095589
+    },
+    {
+      "Question": "अनिश्चित मानसून का 'जोखिम प्रबंधन'?",
+      "Crop": "General",
+      "FinalScore": 0.9784836031260726,
+      "CrossScore": 0.9784836031260726
+    },
+    {
+      "Question": "धनिया का 'माहू' (Aphids) कीट?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9778288942104086,
+      "CrossScore": 0.9778288942104086
+    },
+    {
+      "Question": "बैंगन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9713022007442479,
+      "CrossScore": 0.9713022007442479
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9664302937508584,
+      "CrossScore": 0.9664302937508584
+    },
+    {
+      "Question": "दलहनी फसलों की 'मिट्टी' का पीएच 8.5 से अधिक होने पर?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9621388779602993,
+      "CrossScore": 0.9621388779602993
+    },
+    {
+      "Question": "सफ़ेद मूसली की बुआई का समय?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9607824591095155,
+      "CrossScore": 0.9607824591095155
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 0.9589430294239819,
+      "CrossScore": 0.9589430294239819
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9587102351666443,
+      "CrossScore": 0.9587102351666443
+    }
+  ],
+  "latency_ms": 148.43,
+  "final_returned": [
+    {
+      "Question": "मानसून का 'लौटना' (Retreating Monsoon)?",
+      "Crop": "General",
+      "Score": 0.9999363580598619
+    },
+    {
+      "Question": "मानसून का 'ब्रेक' (Monsoon Break) क्या है?",
+      "Crop": "General",
+      "Score": 0.999301499095589
+    },
+    {
+      "Question": "अनिश्चित मानसून का 'जोखिम प्रबंधन'?",
+      "Crop": "General",
+      "Score": 0.9784836031260726
+    },
+    {
+      "Question": "धनिया का 'माहू' (Aphids) कीट?",
+      "Crop": "Coriander",
+      "Score": 0.9778288942104086
+    },
+    {
+      "Question": "बैंगन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Brinjal",
+      "Score": 0.9713022007442479
+    }
+  ]
+}

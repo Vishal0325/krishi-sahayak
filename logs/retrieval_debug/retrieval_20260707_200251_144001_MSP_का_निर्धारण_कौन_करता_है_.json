@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:50.955295",
+  "query_original": "MSP का निर्धारण कौन करता है?",
+  "query_normalized": "msp का निर्धारण कौन करता है",
+  "query_expanded": "msp का निर्धारण कौन करता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "MSP का निर्धारण कौन करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मखाना' की खेती के लिए बिहार का कौन सा क्षेत्र प्रसिद्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का पीएच फसल के चुनाव को प्रभावित करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "MSP का निर्धारण कौन करता है?",
+      "Crop": "General",
+      "FinalScore": 999.9271867797771,
+      "CrossScore": 0.9999271867797771
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9999141002428231,
+      "CrossScore": 0.9999141002428231
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998308533117773,
+      "CrossScore": 0.9998308533117773
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997882883192024,
+      "CrossScore": 0.9997882883192024
+    },
+    {
+      "Question": "मशरूम के 'कैप' का रंग फीका क्यों पड़ता है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9993275440010672,
+      "CrossScore": 0.9993275440010672
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9992209394608194,
+      "CrossScore": 0.9992209394608194
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.99919033551199,
+      "CrossScore": 0.99919033551199
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.999153802879224,
+      "CrossScore": 0.999153802879224
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9991375882517503,
+      "CrossScore": 0.9991375882517503
+    },
+    {
+      "Question": "'मखाना' की खेती के लिए बिहार का कौन सा क्षेत्र प्रसिद्ध है?",
+      "Crop": "General",
+      "FinalScore": 0.9991286343524909,
+      "CrossScore": 0.9991286343524909
+    }
+  ],
+  "latency_ms": 188.73,
+  "final_returned": [
+    {
+      "Question": "MSP का निर्धारण कौन करता है?",
+      "Crop": "General",
+      "Score": 999.9271867797771
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9999141002428231
+    },
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9998308533117773
+    },
+    {
+      "Question": "डीएपी (DAP) क्या है और इसमें कौन से तत्व होते हैं?",
+      "Crop": "General",
+      "Score": 0.9997882883192024
+    },
+    {
+      "Question": "मशरूम के 'कैप' का रंग फीका क्यों पड़ता है?",
+      "Crop": "Mushroom",
+      "Score": 0.9993275440010672
+    }
+  ]
+}

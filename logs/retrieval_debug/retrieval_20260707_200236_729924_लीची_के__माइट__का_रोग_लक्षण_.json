@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:02:36.538170",
+  "query_original": "लीची के 'माइट' का रोग लक्षण?",
+  "query_normalized": "लीची के माइट का रोग लक्षण",
+  "query_expanded": "fungus फंगस बीमारी झुलसा disease लीची के माइट का रोग लक्षण रोग",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची के 'माइट' का रोग लक्षण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "'लीची' में माइट के लिए 'सल्फर' का स्प्रे?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची के 'माइट' का रोग लक्षण?",
+      "Crop": "Litchi",
+      "FinalScore": 499924.78840532847,
+      "CrossScore": 0.9998495768106569
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "FinalScore": 499.9418955662234,
+      "CrossScore": 0.9998837911324469
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi",
+      "FinalScore": 499.90915835141095,
+      "CrossScore": 0.999818316702822
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi",
+      "FinalScore": 499.89625153160597,
+      "CrossScore": 0.999792503063212
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'ग्रेडिंग' का व्यापारिक लाभ?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99532828305709,
+      "CrossScore": 0.9999065656611419
+    },
+    {
+      "Question": "लीची के 'माइट' (Litchi Mite) कीट का क्या लक्षण है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994737722500574,
+      "CrossScore": 0.9998947544500115
+    },
+    {
+      "Question": "लीची के पौधे लगाने का सही समय?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994737361194275,
+      "CrossScore": 0.9998947472238855
+    },
+    {
+      "Question": "लीची का 'माइट' (Litchi Mite) कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 49.994399627901856,
+      "CrossScore": 0.9998879925580372
+    },
+    {
+      "Question": "लीची (Litchi) की खेती के लिए बिहार का कौन सा जिला प्रसिद्ध है?",
+      "Crop": "Litchi",
+      "FinalScore": 49.99422154295402,
+      "CrossScore": 0.9998844308590805
+    },
+    {
+      "Question": "लीची में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.9940198544091,
+      "CrossScore": 0.9998803970881821
+    }
+  ],
+  "latency_ms": 191.79,
+  "final_returned": [
+    {
+      "Question": "लीची के 'माइट' का रोग लक्षण?",
+      "Crop": "Litchi",
+      "Score": 499924.78840532847
+    },
+    {
+      "Question": "लीची के 'माइट' का 'छंटाई' से नियंत्रण?",
+      "Crop": "Litchi",
+      "Score": 499.9418955662234
+    },
+    {
+      "Question": "लीची in 'फल झड़ने' का कारण?",
+      "Crop": "Litchi",
+      "Score": 499.90915835141095
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi",
+      "Score": 499.89625153160597
+    },
+    {
+      "Question": "लीची की कटाई के बाद 'ग्रेडिंग' का व्यापारिक लाभ?",
+      "Crop": "Litchi",
+      "Score": 49.99532828305709
+    }
+  ]
+}

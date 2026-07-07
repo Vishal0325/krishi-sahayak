@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:57:53.001897",
+  "query_original": "'कीटनाशक' और 'हवा का रुख'?",
+  "query_normalized": "कीटनाशक और हवा का रुख",
+  "query_expanded": "कीटनाशक और हवा का रुख बग pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीटनाशक' और 'हवा का रुख'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'गेहूं का पीला रतुआ' (Yellow Rust) और 'हवा'?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "FinalScore": 9.998912687976615,
+      "CrossScore": 0.9998912687976615
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "FinalScore": 9.998756054890507,
+      "CrossScore": 0.9998756054890507
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998746518483516,
+      "CrossScore": 0.9998746518483517
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.998658230405399,
+      "CrossScore": 0.9998658230405398
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 9.998584291750092,
+      "CrossScore": 0.9998584291750091
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 9.998518900610087,
+      "CrossScore": 0.9998518900610087
+    },
+    {
+      "Question": "'लीची का माइट' कीट?",
+      "Crop": "Litchi",
+      "FinalScore": 9.998511898991833,
+      "CrossScore": 0.9998511898991833
+    },
+    {
+      "Question": "'कीटों का भौतिक नियंत्रण' और हाथ से उठाना?",
+      "Crop": "General",
+      "FinalScore": 9.998486960010586,
+      "CrossScore": 0.9998486960010586
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'बिजली' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.9981965088903,
+      "CrossScore": 0.99981965088903
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.998178450652723,
+      "CrossScore": 0.9998178450652724
+    }
+  ],
+  "latency_ms": 257.11,
+  "final_returned": [
+    {
+      "Question": "'कीटनाशक' और 'मिट्टी की उर्वरता'?",
+      "Crop": "General",
+      "Score": 9.998912687976615
+    },
+    {
+      "Question": "'कीटनाशकों' का सुरक्षित भंडारण और लेबल?",
+      "Crop": "General",
+      "Score": 9.998756054890507
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 9.998746518483516
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "Score": 9.998658230405399
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "Score": 9.998584291750092
+    }
+  ]
+}

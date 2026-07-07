@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:38.186494",
+  "query_original": "केले का 'पनामा विल्ट' (Panama Wilt) क्या है?",
+  "query_normalized": "केले का पनामा विल्ट panama wilt क्या है",
+  "query_expanded": "केले का पनामा विल्ट panama wilt क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) क्या है?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) रोग क्या है?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "केले की खेती का परिचय क्या है?",
+      "Crop": "Banana"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) क्या है?",
+      "Crop": "Banana",
+      "FinalScore": 999.9019925073392,
+      "CrossScore": 0.9999019925073391
+    },
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) रोग क्या है?",
+      "Crop": "Banana",
+      "FinalScore": 0.999902263440969,
+      "CrossScore": 0.999902263440969
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998846850369547,
+      "CrossScore": 0.9998846850369547
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998155303763419,
+      "CrossScore": 0.9998155303763419
+    },
+    {
+      "Question": "अमरूद में 'उकठा' (Wilt) रोग का क्या उपचार है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998152719868723,
+      "CrossScore": 0.9998152719868723
+    },
+    {
+      "Question": "अमरूद का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998152554291754,
+      "CrossScore": 0.9998152554291754
+    },
+    {
+      "Question": "दलहनी फसलों का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998045156982286,
+      "CrossScore": 0.9998045156982286
+    },
+    {
+      "Question": "मटर का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pea",
+      "FinalScore": 0.9998005709626007,
+      "CrossScore": 0.9998005709626007
+    },
+    {
+      "Question": "मालभोग केले की क्या विशेषता है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9997424536680724,
+      "CrossScore": 0.9997424536680724
+    },
+    {
+      "Question": "चने का 'उकठा' (Wilt) रोग क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999698975240117,
+      "CrossScore": 0.999698975240117
+    }
+  ],
+  "latency_ms": 224.95,
+  "final_returned": [
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) क्या है?",
+      "Crop": "Banana",
+      "Score": 999.9019925073392
+    },
+    {
+      "Question": "केले का 'पनामा विल्ट' (Panama Wilt) रोग क्या है?",
+      "Crop": "Banana",
+      "Score": 0.999902263440969
+    },
+    {
+      "Question": "'केले का पनामा विल्ट' (Panama Wilt) और 'मिट्टी'?",
+      "Crop": "Banana",
+      "Score": 0.9998846850369547
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "Score": 0.9998155303763419
+    },
+    {
+      "Question": "अमरूद में 'उकठा' (Wilt) रोग का क्या उपचार है?",
+      "Crop": "Guava",
+      "Score": 0.9998152719868723
+    }
+  ]
+}

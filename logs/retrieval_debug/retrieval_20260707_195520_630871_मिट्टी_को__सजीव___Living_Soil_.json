@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:20.348033",
+  "query_original": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+  "query_normalized": "मिट्टी को सजीव living soil क्यों कहा जाता है",
+  "query_expanded": "मिट्टी को सजीव living soil क्यों कहा जाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बकरी पालन (Goat Farming) को 'एटीएम' क्यों कहा जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999228133466255,
+      "CrossScore": 0.9999228133466255
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9998010524170132,
+      "CrossScore": 0.9998010524170132
+    },
+    {
+      "Question": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+      "Crop": "General",
+      "FinalScore": 0.9997961279713051,
+      "CrossScore": 0.9997961279713051
+    },
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9997882782258996,
+      "CrossScore": 0.9997882782258996
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997842292335126,
+      "CrossScore": 0.9997842292335126
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "FinalScore": 0.9997112675045593,
+      "CrossScore": 0.9997112675045593
+    },
+    {
+      "Question": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9996651654808717,
+      "CrossScore": 0.9996651654808717
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996541467408805,
+      "CrossScore": 0.9996541467408805
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996518792957676,
+      "CrossScore": 0.9996518792957676
+    },
+    {
+      "Question": "मिट्टी परीक्षण (Soil Testing) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9996092704317173,
+      "CrossScore": 0.9996092704317173
+    }
+  ],
+  "latency_ms": 282.97,
+  "final_returned": [
+    {
+      "Question": "मिट्टी को 'सजीव' (Living Soil) क्यों कहा जाता है?",
+      "Crop": "General",
+      "Score": 0.9999228133466255
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9998010524170132
+    },
+    {
+      "Question": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+      "Crop": "General",
+      "Score": 0.9997961279713051
+    },
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9997882782258996
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "Score": 0.9997842292335126
+    }
+  ]
+}

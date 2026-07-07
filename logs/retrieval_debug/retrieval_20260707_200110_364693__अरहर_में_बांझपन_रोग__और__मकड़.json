@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:01:10.171313",
+  "query_original": "'अरहर में बांझपन रोग' और 'मकड़ी'?",
+  "query_normalized": "अरहर में बांझपन रोग और मकड़ी",
+  "query_expanded": "fungus फंगस झुलसा बीमारी disease रोग अरहर में बांझपन रोग और मकड़ी",
+  "detected_crops": [
+    "Pulses"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'अरहर में बांझपन रोग' और 'मकड़ी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "अरहर में 'बांझपन रोग' (Sterility Mosaic)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'अरहर in बांझपन रोग' का वाहक?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मसूर में 'रतुआ' (Rust) रोग के लक्षण?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'अरहर में बांझपन रोग' और 'मकड़ी'?",
+      "Crop": "Pulses",
+      "FinalScore": 49996.20000702633,
+      "CrossScore": 0.9999240001405266
+    },
+    {
+      "Question": "'दलहनी फसलों' में 'उकठा' (Wilt) और 'जड़ें'?",
+      "Crop": "Pulses",
+      "FinalScore": 499.9078752305592,
+      "CrossScore": 0.9998157504611185
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99310547767865,
+      "CrossScore": 0.9998621095535729
+    },
+    {
+      "Question": "अरहर में 'बांझपन रोग' (Sterility Mosaic)?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99283358390397,
+      "CrossScore": 0.9998566716780795
+    },
+    {
+      "Question": "'अरहर in बांझपन रोग' का वाहक?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99214852410142,
+      "CrossScore": 0.9998429704820283
+    },
+    {
+      "Question": "मसूर में 'रतुआ' (Rust) रोग के लक्षण?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99135683071238,
+      "CrossScore": 0.9998271366142475
+    },
+    {
+      "Question": "'अरहर की फली मक्खी' और 'नमी'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99048109456734,
+      "CrossScore": 0.9998096218913469
+    },
+    {
+      "Question": "अरहर में 'तना सड़न' (Phytophthora Blight)?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99045960512113,
+      "CrossScore": 0.9998091921024226
+    },
+    {
+      "Question": "अरहर की 'सीधी बुआई' और 'रोपाई'?",
+      "Crop": "Pulses",
+      "FinalScore": 49.99011760533794,
+      "CrossScore": 0.9998023521067588
+    },
+    {
+      "Question": "चने में 'झुलसा' रोग की पहचान?",
+      "Crop": "Pulses",
+      "FinalScore": 49.98876706407715,
+      "CrossScore": 0.9997753412815431
+    }
+  ],
+  "latency_ms": 193.58,
+  "final_returned": [
+    {
+      "Question": "'अरहर में बांझपन रोग' और 'मकड़ी'?",
+      "Crop": "Pulses",
+      "Score": 49996.20000702633
+    },
+    {
+      "Question": "'दलहनी फसलों' में 'उकठा' (Wilt) और 'जड़ें'?",
+      "Crop": "Pulses",
+      "Score": 499.9078752305592
+    },
+    {
+      "Question": "अरहर में 'फली मक्खी' (Pod Fly) का नुकसान?",
+      "Crop": "Pulses",
+      "Score": 49.99310547767865
+    },
+    {
+      "Question": "अरहर में 'बांझपन रोग' (Sterility Mosaic)?",
+      "Crop": "Pulses",
+      "Score": 49.99283358390397
+    },
+    {
+      "Question": "'अरहर in बांझपन रोग' का वाहक?",
+      "Crop": "Pulses",
+      "Score": 49.99214852410142
+    }
+  ]
+}

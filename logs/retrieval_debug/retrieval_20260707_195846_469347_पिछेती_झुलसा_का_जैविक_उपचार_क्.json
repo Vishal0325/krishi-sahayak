@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:46.271683",
+  "query_original": "पिछेती झुलसा का जैविक उपचार क्या है?",
+  "query_normalized": "पिछेती झुलसा का जैविक उपचार क्या है",
+  "query_expanded": "फंगस बीमारी fungus disease पिछेती झुलसा का जैविक उपचार क्या है झुलसा रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पिछेती झुलसा का जैविक उपचार क्या है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "खैरा रोग का उपचार क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "आलू का 'पिछेती झुलसा' (Late Blight) क्या है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "अमरूद में 'उकठा' (Wilt) रोग का क्या उपचार है?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का 'जैविक' इलाज?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पिछेती झुलसा का जैविक उपचार क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 9.999264800648799,
+      "CrossScore": 0.9999264800648798
+    },
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 9.999201202955842,
+      "CrossScore": 0.9999201202955842
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.999131431170529,
+      "CrossScore": 0.9999131431170529
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "FinalScore": 9.99905479714701,
+      "CrossScore": 0.999905479714701
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "FinalScore": 9.99900116268704,
+      "CrossScore": 0.999900116268704
+    },
+    {
+      "Question": "आम in 'गुच्छा रोग' का यांत्रिक उपचार?",
+      "Crop": "Mango",
+      "FinalScore": 9.99894532220719,
+      "CrossScore": 0.999894532220719
+    },
+    {
+      "Question": "गन्ने का 'लाल सड़न' (Red Rot) रोग क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99892552427944,
+      "CrossScore": 0.9998925524279438
+    },
+    {
+      "Question": "'पौधों में बीमारी' (Plant Disease) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.9988768292563,
+      "CrossScore": 0.99988768292563
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का आर्थिक असर?",
+      "Crop": "Potato",
+      "FinalScore": 9.998675423732518,
+      "CrossScore": 0.9998675423732517
+    },
+    {
+      "Question": "बैंगन in 'छोटी पत्ती' का जैविक उपचार?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.998608986878285,
+      "CrossScore": 0.9998608986878285
+    }
+  ],
+  "latency_ms": 197.75,
+  "final_returned": [
+    {
+      "Question": "पिछेती झुलसा का जैविक उपचार क्या है?",
+      "Crop": "Potato",
+      "Score": 9.999264800648799
+    },
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses",
+      "Score": 9.999201202955842
+    },
+    {
+      "Question": "धान का 'ब्लास्ट' (Blast) रोग क्या है?",
+      "Crop": "Rice",
+      "Score": 9.999131431170529
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' का देसी उपचार?",
+      "Crop": "Rice",
+      "Score": 9.99905479714701
+    },
+    {
+      "Question": "धान के 'जीवाणु झुलसा' (Bacterial Leaf Blight) का क्या इलाज है?",
+      "Crop": "Rice",
+      "Score": 9.99900116268704
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:01.335070",
+  "query_original": "'नीम का तेल' और सुरक्षित खेती?",
+  "query_normalized": "नीम का तेल और सुरक्षित खेती",
+  "query_expanded": "नीम का तेल और सुरक्षित खेती",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और पर्यावरण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नीम का तेल' और 'फल'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General",
+      "FinalScore": 999.9190214745834,
+      "CrossScore": 0.9999190214745833
+    },
+    {
+      "Question": "'नीम की खली' का जैविक खेती में उपयोग?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999917798261991,
+      "CrossScore": 0.999917798261991
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "FinalScore": 0.9999174517677052,
+      "CrossScore": 0.9999174517677052
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "FinalScore": 0.9999155261829218,
+      "CrossScore": 0.9999155261829218
+    },
+    {
+      "Question": "नीम (Neem) की व्यावसायिक खेती?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999143995231782,
+      "CrossScore": 0.9999143995231782
+    },
+    {
+      "Question": "'नीम का तेल' और 'साबुन'?",
+      "Crop": "General",
+      "FinalScore": 0.999909226087596,
+      "CrossScore": 0.999909226087596
+    },
+    {
+      "Question": "'भिंडी' में फल छेदक के लिए 'नीम का तेल'?",
+      "Crop": "General",
+      "FinalScore": 0.9999058758283854,
+      "CrossScore": 0.9999058758283854
+    },
+    {
+      "Question": "'नीम का तेल' स्प्रे करते समय साबुन?",
+      "Crop": "General",
+      "FinalScore": 0.9999019174317734,
+      "CrossScore": 0.9999019174317734
+    },
+    {
+      "Question": "'नीम का तेल' और पर्यावरण?",
+      "Crop": "General",
+      "FinalScore": 0.9999018056001402,
+      "CrossScore": 0.9999018056001402
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999000428062411,
+      "CrossScore": 0.9999000428062411
+    }
+  ],
+  "latency_ms": 215.54,
+  "final_returned": [
+    {
+      "Question": "'नीम का तेल' और सुरक्षित खेती?",
+      "Crop": "General",
+      "Score": 999.9190214745834
+    },
+    {
+      "Question": "'नीम की खली' का जैविक खेती में उपयोग?",
+      "Crop": "Organic Farming",
+      "Score": 0.999917798261991
+    },
+    {
+      "Question": "'नीम का तेल' और 'मानव स्वास्थ्य'?",
+      "Crop": "General",
+      "Score": 0.9999174517677052
+    },
+    {
+      "Question": "'नीम का तेल' और 'स्टिकर'?",
+      "Crop": "General",
+      "Score": 0.9999155261829218
+    },
+    {
+      "Question": "नीम (Neem) की व्यावसायिक खेती?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999143995231782
+    }
+  ]
+}

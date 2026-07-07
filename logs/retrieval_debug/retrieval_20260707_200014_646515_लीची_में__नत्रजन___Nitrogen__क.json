@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:14.450899",
+  "query_original": "लीची में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+  "query_normalized": "लीची में नत्रजन nitrogen की अधिकता से नुकसान",
+  "query_expanded": "लीची में नत्रजन nitrogen की अधिकता से नुकसान nitrogen नाइट्रोजन यूरिया urea",
+  "detected_crops": [
+    "Litchi"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "लीची में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची की फसल में 'लू' (Loo) से बचाव?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची में 'जिंक' की कमी से फलों का विकास?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची में 'पोटाश' की कमी से छिलके की मजबूती?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "लीची में 'बोरॉन' की कमी से कंदों (फलों) का फटना?",
+      "Crop": "Litchi"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "लीची में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Litchi",
+      "FinalScore": 49992.67420373895,
+      "CrossScore": 0.9998534840747789
+    },
+    {
+      "Question": "लीची की खेती में 'पोटाश' की टॉप ड्रेसिंग कब करें?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98847222411008,
+      "CrossScore": 0.9997694444822016
+    },
+    {
+      "Question": "लीची की खेती में 'नर्सरी' में गुटी तैयार करना?",
+      "Crop": "Litchi",
+      "FinalScore": 49.9882982863027,
+      "CrossScore": 0.999765965726054
+    },
+    {
+      "Question": "लीची में 'यूरिया' की बचत के लिए 'नैनो यूरिया'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98789371495101,
+      "CrossScore": 0.9997578742990202
+    },
+    {
+      "Question": "लीची में 'यूरिया' की अंतिम डोज कब दें?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98681658273889,
+      "CrossScore": 0.9997363316547778
+    },
+    {
+      "Question": "लीची की खेती में 'मजदूरी' कम करने के तरीके?",
+      "Crop": "Litchi",
+      "FinalScore": 49.986578071838395,
+      "CrossScore": 0.9997315614367679
+    },
+    {
+      "Question": "लीची की 'पारे' की गोली से बीज उपचार?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98583091289994,
+      "CrossScore": 0.9997166182579988
+    },
+    {
+      "Question": "लीची में 'दीमक' के लिए 'नीम की खली'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.985798264954504,
+      "CrossScore": 0.99971596529909
+    },
+    {
+      "Question": "लीची में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98565133262729,
+      "CrossScore": 0.9997130266525458
+    },
+    {
+      "Question": "लीची की 'सघन' बागवानी में 'वायु संचार'?",
+      "Crop": "Litchi",
+      "FinalScore": 49.98449459561754,
+      "CrossScore": 0.9996898919123508
+    }
+  ],
+  "latency_ms": 195.64,
+  "final_returned": [
+    {
+      "Question": "लीची में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Litchi",
+      "Score": 49992.67420373895
+    },
+    {
+      "Question": "लीची की खेती में 'पोटाश' की टॉप ड्रेसिंग कब करें?",
+      "Crop": "Litchi",
+      "Score": 49.98847222411008
+    },
+    {
+      "Question": "लीची की खेती में 'नर्सरी' में गुटी तैयार करना?",
+      "Crop": "Litchi",
+      "Score": 49.9882982863027
+    },
+    {
+      "Question": "लीची में 'यूरिया' की बचत के लिए 'नैनो यूरिया'?",
+      "Crop": "Litchi",
+      "Score": 49.98789371495101
+    },
+    {
+      "Question": "लीची में 'यूरिया' की अंतिम डोज कब दें?",
+      "Crop": "Litchi",
+      "Score": 49.98681658273889
+    }
+  ]
+}

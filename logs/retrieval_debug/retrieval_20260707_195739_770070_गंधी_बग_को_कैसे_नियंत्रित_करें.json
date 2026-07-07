@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:39.466775",
+  "query_original": "गंधी बग को कैसे नियंत्रित करें?",
+  "query_normalized": "गंधी बग को कैसे नियंत्रित करें",
+  "query_expanded": "बग गंधी बग को कैसे नियंत्रित करें pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गंधी बग को कैसे नियंत्रित करें?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "खेती में 'मजदूरी' (Labor Cost) को कैसे नियंत्रित करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गंधी बग का नियंत्रण कैसे करें?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के बाद दानों को कैसे साफ करें?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के बाद दानों को कैसे भंडारित करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गंधी बग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999048107346118,
+      "CrossScore": 0.9999048107346118
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999040905709757,
+      "CrossScore": 0.9999040905709757
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के बाद दानों को कैसे साफ करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998955774744928,
+      "CrossScore": 0.9998955774744928
+    },
+    {
+      "Question": "'अंकुरण परीक्षण' (Germination Test) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998862471227217,
+      "CrossScore": 0.9998862471227217
+    },
+    {
+      "Question": "गंधी बग को कैसे नियंत्रित करें?",
+      "Crop": "Rice",
+      "FinalScore": 0.999885645258547,
+      "CrossScore": 0.999885645258547
+    },
+    {
+      "Question": "करनाल बंट का बचाव कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998816749705854,
+      "CrossScore": 0.9998816749705854
+    },
+    {
+      "Question": "मशरूम के बीजों को 'ट्रांसपोर्ट' कैसे करें?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998809360046108,
+      "CrossScore": 0.9998809360046108
+    },
+    {
+      "Question": "औषधीय पौधों की 'पैकेजिंग' कैसे करें?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998769004068363,
+      "CrossScore": 0.9998769004068363
+    },
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 0.9998761439097476,
+      "CrossScore": 0.9998761439097476
+    },
+    {
+      "Question": "गेहूं में दीमक का नियंत्रण कैसे करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998713146551947,
+      "CrossScore": 0.9998713146551947
+    }
+  ],
+  "latency_ms": 303.39,
+  "final_returned": [
+    {
+      "Question": "गंधी बग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "Score": 0.9999048107346118
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "Score": 0.9999040905709757
+    },
+    {
+      "Question": "गेहूं की 'मड़ाई' के बाद दानों को कैसे साफ करें?",
+      "Crop": "Wheat",
+      "Score": 0.9998955774744928
+    },
+    {
+      "Question": "'अंकुरण परीक्षण' (Germination Test) कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9998862471227217
+    },
+    {
+      "Question": "गंधी बग को कैसे नियंत्रित करें?",
+      "Crop": "Rice",
+      "Score": 0.999885645258547
+    }
+  ]
+}

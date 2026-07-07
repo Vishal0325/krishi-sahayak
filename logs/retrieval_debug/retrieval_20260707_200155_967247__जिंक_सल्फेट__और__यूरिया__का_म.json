@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:55.794899",
+  "query_original": "'जिंक सल्फेट' और 'यूरिया' का मेल?",
+  "query_normalized": "जिंक सल्फेट और यूरिया का मेल",
+  "query_expanded": "nitrogen जिंक सल्फेट और यूरिया का मेल नाइट्रोजन यूरिया urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जिंक सल्फेट' और 'यूरिया' का मेल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'जिंक सल्फेट' और धान का खैरा रोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद में 'जिंक सल्फेट' का छिड़काव?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "मिर्च में 'जिंक सल्फेट' का छिड़काव?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "गन्ने में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जिंक सल्फेट' और 'यूरिया' का मेल?",
+      "Crop": "General",
+      "FinalScore": 999.915936891318,
+      "CrossScore": 0.999915936891318
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "FinalScore": 0.9999177895605468,
+      "CrossScore": 0.9999177895605468
+    },
+    {
+      "Question": "'जिंक सल्फेट' और धान का खैरा रोग?",
+      "Crop": "General",
+      "FinalScore": 0.9999062688521214,
+      "CrossScore": 0.9999062688521214
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9999019930680859,
+      "CrossScore": 0.9999019930680859
+    },
+    {
+      "Question": "बैंगन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998976405243926,
+      "CrossScore": 0.9998976405243926
+    },
+    {
+      "Question": "धनिया में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999893729843546,
+      "CrossScore": 0.999893729843546
+    },
+    {
+      "Question": "भिंडी में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998903906017593,
+      "CrossScore": 0.9998903906017593
+    },
+    {
+      "Question": "टमाटर की खेती में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998823783987855,
+      "CrossScore": 0.9998823783987855
+    },
+    {
+      "Question": "लहसुन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Garlic",
+      "FinalScore": 0.999878571985045,
+      "CrossScore": 0.999878571985045
+    },
+    {
+      "Question": "गन्ने में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998720085329873,
+      "CrossScore": 0.9998720085329873
+    }
+  ],
+  "latency_ms": 172.4,
+  "final_returned": [
+    {
+      "Question": "'जिंक सल्फेट' और 'यूरिया' का मेल?",
+      "Crop": "General",
+      "Score": 999.915936891318
+    },
+    {
+      "Question": "'जैव-उर्वरक' और रसायनों का मेल?",
+      "Crop": "General",
+      "Score": 0.9999177895605468
+    },
+    {
+      "Question": "'जिंक सल्फेट' और धान का खैरा रोग?",
+      "Crop": "General",
+      "Score": 0.9999062688521214
+    },
+    {
+      "Question": "'धान का शीथ ब्लाइट' और 'यूरिया'?",
+      "Crop": "Rice",
+      "Score": 0.9999019930680859
+    },
+    {
+      "Question": "बैंगन में 'जिंक सल्फेट' का लाभ?",
+      "Crop": "Brinjal",
+      "Score": 0.9998976405243926
+    }
+  ]
+}

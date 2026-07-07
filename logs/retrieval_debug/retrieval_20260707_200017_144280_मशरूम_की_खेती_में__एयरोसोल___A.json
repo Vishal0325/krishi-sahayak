@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:16.943576",
+  "query_original": "मशरूम की खेती में 'एयरोसोल' (Aerosol)?",
+  "query_normalized": "मशरूम की खेती में एयरोसोल aerosol",
+  "query_expanded": "मशरूम की खेती में एयरोसोल aerosol",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'एयरोसोल' (Aerosol)?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशरूम की खेती (Mushroom Farming) एक व्यापार के रूप में कैसी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मशरूम की खेती में सबसे बड़ी चुनौती?",
+      "Crop": "Mushroom"
+    },
+    {
+      "Question": "मशरूम की खेती में 'मजदूरी' की बचत?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मशरूम की खेती में 'एयरोसोल' (Aerosol)?",
+      "Crop": "Mushroom",
+      "FinalScore": 999.899198084043,
+      "CrossScore": 0.9998991980840429
+    },
+    {
+      "Question": "मशरूम की खेती में 'धुआं' (Fumigation)?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995649798760614,
+      "CrossScore": 0.9995649798760614
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9994961070957398,
+      "CrossScore": 0.9994961070957398
+    },
+    {
+      "Question": "मशरूम की खेती में 'कीट' प्रबंधन के लिए पीला ट्रैप?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9992148587012072,
+      "CrossScore": 0.9992148587012072
+    },
+    {
+      "Question": "मशरूम की खेती में 'हाइग्रोमीटर' (Hygrometer)?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9991861821682423,
+      "CrossScore": 0.9991861821682423
+    },
+    {
+      "Question": "मशरूम की खेती में 'फार्मलिन' का विकल्प?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9991802491370031,
+      "CrossScore": 0.9991802491370031
+    },
+    {
+      "Question": "मशरूम की खेती में 'बजट' प्रबंधन?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.999172588943423,
+      "CrossScore": 0.999172588943423
+    },
+    {
+      "Question": "मशरूम की खेती में 'बिजली' की खपत?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9991258738953472,
+      "CrossScore": 0.9991258738953472
+    },
+    {
+      "Question": "मशरूम की खेती में 'सोशल मीडिया' मार्केटिंग?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9991239160519221,
+      "CrossScore": 0.9991239160519221
+    },
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9990740449194281,
+      "CrossScore": 0.9990740449194281
+    }
+  ],
+  "latency_ms": 200.74,
+  "final_returned": [
+    {
+      "Question": "मशरूम की खेती में 'एयरोसोल' (Aerosol)?",
+      "Crop": "Mushroom",
+      "Score": 999.899198084043
+    },
+    {
+      "Question": "मशरूम की खेती में 'धुआं' (Fumigation)?",
+      "Crop": "Mushroom",
+      "Score": 0.9995649798760614
+    },
+    {
+      "Question": "मशरूम की खेती में 'पीएच' (pH) का महत्व?",
+      "Crop": "Mushroom",
+      "Score": 0.9994961070957398
+    },
+    {
+      "Question": "मशरूम की खेती में 'कीट' प्रबंधन के लिए पीला ट्रैप?",
+      "Crop": "Mushroom",
+      "Score": 0.9992148587012072
+    },
+    {
+      "Question": "मशरूम की खेती में 'हाइग्रोमीटर' (Hygrometer)?",
+      "Crop": "Mushroom",
+      "Score": 0.9991861821682423
+    }
+  ]
+}

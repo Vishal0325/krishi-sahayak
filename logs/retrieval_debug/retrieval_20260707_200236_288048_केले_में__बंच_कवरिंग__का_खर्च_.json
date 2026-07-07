@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:36.119655",
+  "query_original": "केले में 'बंच कवरिंग' का खर्च?",
+  "query_normalized": "केले में बंच कवरिंग का खर्च",
+  "query_expanded": "केले में बंच कवरिंग का खर्च",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "केले में 'बंच कवरिंग' का खर्च?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "केले में 'बंच कवरिंग' (Bunch Covering) के लाभ?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'निराई' का खर्च?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana"
+    },
+    {
+      "Question": "केले में पोटाश का क्या महत्व है?",
+      "Crop": "Banana"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "केले में 'बंच कवरिंग' का खर्च?",
+      "Crop": "Fruits",
+      "FinalScore": 999.8869204617542,
+      "CrossScore": 0.9998869204617542
+    },
+    {
+      "Question": "केले में 'बंच कवरिंग' (Bunch Covering) के लाभ?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998893229885427,
+      "CrossScore": 0.9998893229885427
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'निराई' का खर्च?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998641661283989,
+      "CrossScore": 0.9998641661283989
+    },
+    {
+      "Question": "केले के भंडारण में 'चूहों' का प्रबंधन?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998597975620097,
+      "CrossScore": 0.9998597975620097
+    },
+    {
+      "Question": "केले में पोटाश का क्या महत्व है?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998492015525997,
+      "CrossScore": 0.9998492015525997
+    },
+    {
+      "Question": "केले में 'बीफ' (Aphids) कीट का प्रबंधन?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998376279953618,
+      "CrossScore": 0.9998376279953618
+    },
+    {
+      "Question": "'केले' में 'हार्ट रॉट' का मुख्य कारण?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998372798861476,
+      "CrossScore": 0.9998372798861476
+    },
+    {
+      "Question": "केले में सिंचाई का सही तरीका?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998136474126217,
+      "CrossScore": 0.9998136474126217
+    },
+    {
+      "Question": "केले में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Banana",
+      "FinalScore": 0.9998123021134455,
+      "CrossScore": 0.9998123021134455
+    },
+    {
+      "Question": "केले के पौधों में 'अंकुरण' (Sprouting) न होने का कारण?",
+      "Crop": "Banana",
+      "FinalScore": 0.9997993546673339,
+      "CrossScore": 0.9997993546673339
+    }
+  ],
+  "latency_ms": 168.43,
+  "final_returned": [
+    {
+      "Question": "केले में 'बंच कवरिंग' का खर्च?",
+      "Crop": "Fruits",
+      "Score": 999.8869204617542
+    },
+    {
+      "Question": "केले में 'बंच कवरिंग' (Bunch Covering) के लाभ?",
+      "Crop": "Banana",
+      "Score": 0.9998893229885427
+    },
+    {
+      "Question": "गेहूं में 'खरपतवार' नियंत्रण के लिए 'निराई' का खर्च?",
+      "Crop": "Wheat",
+      "Score": 0.9998641661283989
+    },
+    {
+      "Question": "केले के भंडारण में 'चूहों' का प्रबंधन?",
+      "Crop": "Banana",
+      "Score": 0.9998597975620097
+    },
+    {
+      "Question": "केले में पोटाश का क्या महत्व है?",
+      "Crop": "Banana",
+      "Score": 0.9998492015525997
+    }
+  ]
+}

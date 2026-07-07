@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:37.537699",
+  "query_original": "नैनो यूरिया (Nano Urea) क्या है?",
+  "query_normalized": "नैनो यूरिया nano urea क्या है",
+  "query_expanded": "nitrogen नैनो यूरिया nano urea क्या है नाइट्रोजन यूरिया urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नैनो यूरिया' की 500 मिली बोतल कितने यूरिया के बराबर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'नैनो यूरिया' एक आधुनिक तकनीक कैसे है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.929171053929,
+      "CrossScore": 0.9999291710539291
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999097325224737,
+      "CrossScore": 0.9999097325224737
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999059258985532,
+      "CrossScore": 0.9999059258985532
+    },
+    {
+      "Question": "'नैनो यूरिया' एक आधुनिक तकनीक कैसे है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998611492820152,
+      "CrossScore": 0.9998611492820152
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.99985721758509,
+      "CrossScore": 0.99985721758509
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9996836816279924,
+      "CrossScore": 0.9996836816279924
+    },
+    {
+      "Question": "'नैनो यूरिया' की 500 मिली बोतल कितने यूरिया के बराबर है?",
+      "Crop": "General",
+      "FinalScore": 0.9996715691972585,
+      "CrossScore": 0.9996715691972585
+    },
+    {
+      "Question": "नैनो यूरिया का स्प्रे करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9995730876653324,
+      "CrossScore": 0.9995730876653324
+    },
+    {
+      "Question": "क्या औषधीय पौधों को 'नमक' की जरूरत होती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9995640742954186,
+      "CrossScore": 0.9995640742954186
+    },
+    {
+      "Question": "नैनो यूरिया के साथ क्या यूरिया कम करना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.9995572675831893,
+      "CrossScore": 0.9995572675831893
+    }
+  ],
+  "latency_ms": 194.17,
+  "final_returned": [
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "Score": 999.929171053929
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9999097325224737
+    },
+    {
+      "Question": "नैनो डीएपी (Nano DAP) के क्या फायदे हैं?",
+      "Crop": "General",
+      "Score": 0.9999059258985532
+    },
+    {
+      "Question": "'नैनो यूरिया' एक आधुनिक तकनीक कैसे है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998611492820152
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.99985721758509
+    }
+  ]
+}

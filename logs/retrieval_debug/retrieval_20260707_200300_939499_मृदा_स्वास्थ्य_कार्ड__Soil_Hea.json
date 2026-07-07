@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:00.712913",
+  "query_original": "मृदा स्वास्थ्य कार्ड (Soil Health Card) के 12 मानक कौन से हैं?",
+  "query_normalized": "मृदा स्वास्थ्य कार्ड soil health card के 12 मानक कौन से हैं",
+  "query_expanded": "मृदा स्वास्थ्य कार्ड soil health card के 12 मानक कौन से हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) के 12 मानक कौन से हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की वैधता?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की रिपोर्ट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) के 12 मानक कौन से हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9215148968278,
+      "CrossScore": 0.9999215148968278
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की रिपोर्ट?",
+      "Crop": "General",
+      "FinalScore": 0.9999078405139251,
+      "CrossScore": 0.9999078405139251
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की वैधता?",
+      "Crop": "General",
+      "FinalScore": 0.9998076063647048,
+      "CrossScore": 0.9998076063647048
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997882275502491,
+      "CrossScore": 0.9997882275502491
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General",
+      "FinalScore": 0.9997259965954705,
+      "CrossScore": 0.9997259965954705
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' से होने वाली आर्थिक बचत?",
+      "Crop": "Economics",
+      "FinalScore": 0.9956105214450688,
+      "CrossScore": 0.9956105214450688
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड का बिजनेस पर क्या असर है?",
+      "Crop": "General",
+      "FinalScore": 0.9954797355748024,
+      "CrossScore": 0.9954797355748024
+    },
+    {
+      "Question": "क्या फलों के बाग के लिए 'मृदा स्वास्थ्य कार्ड' जरूरी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9943413367780222,
+      "CrossScore": 0.9943413367780222
+    },
+    {
+      "Question": "मक्का में इंटर-क्रॉपिंग (Inter-cropping) के लिए कौन सी फसलें अच्छी हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9940233935291658,
+      "CrossScore": 0.9940233935291658
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' में सूक्ष्म तत्वों की जांच क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.9937453053312018,
+      "CrossScore": 0.9937453053312018
+    }
+  ],
+  "latency_ms": 226.64,
+  "final_returned": [
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) के 12 मानक कौन से हैं?",
+      "Crop": "General",
+      "Score": 999.9215148968278
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की रिपोर्ट?",
+      "Crop": "General",
+      "Score": 0.9999078405139251
+    },
+    {
+      "Question": "'मृदा स्वास्थ्य कार्ड' (Soil Health Card) की वैधता?",
+      "Crop": "General",
+      "Score": 0.9998076063647048
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9997882275502491
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General",
+      "Score": 0.9997259965954705
+    }
+  ]
+}

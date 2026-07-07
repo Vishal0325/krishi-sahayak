@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:20.877189",
+  "query_original": "फार्म बिजनेस में 'समय प्रबंधन' (Time Management)?",
+  "query_normalized": "फार्म बिजनेस में समय प्रबंधन time management",
+  "query_expanded": "फार्म बिजनेस में समय प्रबंधन time management",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फार्म बिजनेस में 'समय प्रबंधन' (Time Management)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'समय ही धन है' (Time is Money) कृषि में?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फसल सुरक्षा में 'समय प्रबंधन'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फार्म बिजनेस में 'समय प्रबंधन' (Time Management)?",
+      "Crop": "General",
+      "FinalScore": 0.9998940882724747,
+      "CrossScore": 0.9998940882724747
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics",
+      "FinalScore": 0.9996686262951147,
+      "CrossScore": 0.9996686262951147
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General",
+      "FinalScore": 0.9982138121989517,
+      "CrossScore": 0.9982138121989517
+    },
+    {
+      "Question": "'समय ही धन है' (Time is Money) कृषि में?",
+      "Crop": "Economics",
+      "FinalScore": 0.9980900422234587,
+      "CrossScore": 0.9980900422234587
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9977566026427549,
+      "CrossScore": 0.9977566026427549
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 0.9960788697470726,
+      "CrossScore": 0.9960788697470726
+    },
+    {
+      "Question": "फार्म बिजनेस में 'सप्लाई चेन' (Supply Chain) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9960698434923163,
+      "CrossScore": 0.9960698434923163
+    },
+    {
+      "Question": "मुर्गी फार्म में 'रात का प्रबंधन'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9953497238203372,
+      "CrossScore": 0.9953497238203372
+    },
+    {
+      "Question": "मुर्गी फार्म में 'बिछावन' (Litter) का प्रबंधन?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9946593030257688,
+      "CrossScore": 0.9946593030257688
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9945209177064983,
+      "CrossScore": 0.9945209177064983
+    }
+  ],
+  "latency_ms": 207.21,
+  "final_returned": [
+    {
+      "Question": "फार्म बिजनेस में 'समय प्रबंधन' (Time Management)?",
+      "Crop": "General",
+      "Score": 0.9998940882724747
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics",
+      "Score": 0.9996686262951147
+    },
+    {
+      "Question": "फार्म बिजनेस में 'क्वालिटी कंट्रोल' (Quality Control)?",
+      "Crop": "General",
+      "Score": 0.9982138121989517
+    },
+    {
+      "Question": "'समय ही धन है' (Time is Money) कृषि में?",
+      "Crop": "Economics",
+      "Score": 0.9980900422234587
+    },
+    {
+      "Question": "फार्म बिजनेस में 'डेप्रिसिएशन' (Depreciation) क्या है?",
+      "Crop": "General",
+      "Score": 0.9977566026427549
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:35.117109",
+  "query_original": "'ओलावृष्टि' (Hailstorm) के बाद फसल की देखभाल?",
+  "query_normalized": "ओलावृष्टि hailstorm के बाद फसल की देखभाल",
+  "query_expanded": "ओलावृष्टि hailstorm के बाद फसल की देखभाल",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ओलावृष्टि' (Hailstorm) के बाद फसल की देखभाल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बाढ़ (Flood) के बाद फसलों की देखभाल कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ओलों के बाद फसल की 'हीलिंग'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अमरूद की कटाई के बाद 'खेत' की सफाई?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "चने की खेती में 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Pulses"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ओलावृष्टि' (Hailstorm) के बाद फसल की देखभाल?",
+      "Crop": "General",
+      "FinalScore": 0.9998658909615832,
+      "CrossScore": 0.9998658909615832
+    },
+    {
+      "Question": "बाढ़ (Flood) के बाद फसलों की देखभाल कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9991732852264764,
+      "CrossScore": 0.9991732852264764
+    },
+    {
+      "Question": "प्याज की खुदाई के बाद 'त्रिपाल' से ढकना?",
+      "Crop": "Onion",
+      "FinalScore": 0.9968495897193234,
+      "CrossScore": 0.9968495897193234
+    },
+    {
+      "Question": "धनिया की खुदाई (कटाई) के बाद 'खेत' की सफाई?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9968262553109279,
+      "CrossScore": 0.9968262553109279
+    },
+    {
+      "Question": "ओलों के बाद फसल की 'हीलिंग'?",
+      "Crop": "General",
+      "FinalScore": 0.9967724756909597,
+      "CrossScore": 0.9967724756909597
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'खेत' की तैयारी पेड़ी के लिए?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9967478223925529,
+      "CrossScore": 0.9967478223925529
+    },
+    {
+      "Question": "बैंगन की खुदाई के बाद 'जड़ों' का प्रबंधन?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9963705424269281,
+      "CrossScore": 0.9963705424269281
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद थ्रेशर की सेटिंग?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9962135209050507,
+      "CrossScore": 0.9962135209050507
+    },
+    {
+      "Question": "'छिड़काव' के बाद स्प्रेयर की सफाई?",
+      "Crop": "General",
+      "FinalScore": 0.995871003376481,
+      "CrossScore": 0.995871003376481
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'जड़ों' का प्रबंधन?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9958588054164234,
+      "CrossScore": 0.9958588054164234
+    }
+  ],
+  "latency_ms": 184.48,
+  "final_returned": [
+    {
+      "Question": "'ओलावृष्टि' (Hailstorm) के बाद फसल की देखभाल?",
+      "Crop": "General",
+      "Score": 0.9998658909615832
+    },
+    {
+      "Question": "बाढ़ (Flood) के बाद फसलों की देखभाल कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9991732852264764
+    },
+    {
+      "Question": "प्याज की खुदाई के बाद 'त्रिपाल' से ढकना?",
+      "Crop": "Onion",
+      "Score": 0.9968495897193234
+    },
+    {
+      "Question": "धनिया की खुदाई (कटाई) के बाद 'खेत' की सफाई?",
+      "Crop": "Coriander",
+      "Score": 0.9968262553109279
+    },
+    {
+      "Question": "ओलों के बाद फसल की 'हीलिंग'?",
+      "Crop": "General",
+      "Score": 0.9967724756909597
+    }
+  ]
+}

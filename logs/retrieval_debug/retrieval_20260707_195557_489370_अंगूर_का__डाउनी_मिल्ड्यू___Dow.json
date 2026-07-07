@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:57.290378",
+  "query_original": "अंगूर का 'डाउनी मिल्ड्यू' (Downy Mildew) क्या है?",
+  "query_normalized": "अंगूर का डाउनी मिल्ड्यू downy mildew क्या है",
+  "query_expanded": "अंगूर का डाउनी मिल्ड्यू downy mildew क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "अंगूर का 'डाउनी मिल्ड्यू' (Downy Mildew) क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'अंगूर का डाउनी मिल्ड्यू' (Downy Mildew)?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "पीला रतुआ का उपचार क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "अंगूर का 'डाउनी मिल्ड्यू' (Downy Mildew) क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998868553143676,
+      "CrossScore": 0.9998868553143676
+    },
+    {
+      "Question": "'अंगूर का डाउनी मिल्ड्यू' (Downy Mildew)?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998685168749355,
+      "CrossScore": 0.9998685168749355
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998627417237477,
+      "CrossScore": 0.9998627417237477
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998623773899327,
+      "CrossScore": 0.9998623773899327
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) का जैविक उपचार?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998465484068626,
+      "CrossScore": 0.9998465484068626
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9997731360198625,
+      "CrossScore": 0.9997731360198625
+    },
+    {
+      "Question": "प्याज की खेती का परिचय क्या है?",
+      "Crop": "Onion",
+      "FinalScore": 0.9997318931783796,
+      "CrossScore": 0.9997318931783796
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9997235950196447,
+      "CrossScore": 0.9997235950196447
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9996689875082102,
+      "CrossScore": 0.9996689875082102
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996417420312433,
+      "CrossScore": 0.9996417420312433
+    }
+  ],
+  "latency_ms": 199.1,
+  "final_returned": [
+    {
+      "Question": "अंगूर का 'डाउनी मिल्ड्यू' (Downy Mildew) क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.9998868553143676
+    },
+    {
+      "Question": "'अंगूर का डाउनी मिल्ड्यू' (Downy Mildew)?",
+      "Crop": "Fruits",
+      "Score": 0.9998685168749355
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "Score": 0.9998627417237477
+    },
+    {
+      "Question": "मेटालैक्सिल (Metalaxyl) का विशेष कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.9998623773899327
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) का जैविक उपचार?",
+      "Crop": "Maize",
+      "Score": 0.9998465484068626
+    }
+  ]
+}

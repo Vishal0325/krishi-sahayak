@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:40.014862",
+  "query_original": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+  "query_normalized": "ड्रिप सिंचाई drip irrigation क्या है",
+  "query_expanded": "ड्रिप सिंचाई drip irrigation क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई के लिए भी मशीनों की जरूरत है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या गन्ने की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या मक्का की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9254670162312,
+      "CrossScore": 0.9999254670162312
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999897524012259,
+      "CrossScore": 0.999897524012259
+    },
+    {
+      "Question": "मेड़-नाली सिंचाई (Furrow Irrigation) कब उपयोगी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998884911932876,
+      "CrossScore": 0.9998884911932876
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998129258559252,
+      "CrossScore": 0.9998129258559252
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997405841591971,
+      "CrossScore": 0.9997405841591971
+    },
+    {
+      "Question": "सिंचाई (Irrigation) का कृषि में क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997065583455733,
+      "CrossScore": 0.9997065583455733
+    },
+    {
+      "Question": "क्या ड्रिप सिंचाई सभी फसलों के लिए उपयुक्त है?",
+      "Crop": "General",
+      "FinalScore": 0.9986573517632703,
+      "CrossScore": 0.9986573517632703
+    },
+    {
+      "Question": "क्या खारे पानी (Saline Water) से सिंचाई की जा सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.998538766261491,
+      "CrossScore": 0.998538766261491
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.998312222857769,
+      "CrossScore": 0.998312222857769
+    },
+    {
+      "Question": "क्या मक्का की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9982951250144234,
+      "CrossScore": 0.9982951250144234
+    }
+  ],
+  "latency_ms": 321.74,
+  "final_returned": [
+    {
+      "Question": "ड्रिप सिंचाई (Drip Irrigation) क्या है?",
+      "Crop": "General",
+      "Score": 999.9254670162312
+    },
+    {
+      "Question": "स्प्रिंकलर सिंचाई (Sprinkler Irrigation) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.999897524012259
+    },
+    {
+      "Question": "मेड़-नाली सिंचाई (Furrow Irrigation) कब उपयोगी है?",
+      "Crop": "General",
+      "Score": 0.9998884911932876
+    },
+    {
+      "Question": "'स्मार्ट सिंचाई' (Smart Irrigation) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998129258559252
+    },
+    {
+      "Question": "बाढ़ सिंचाई (Flood Irrigation) के नुकसान क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9997405841591971
+    }
+  ]
+}

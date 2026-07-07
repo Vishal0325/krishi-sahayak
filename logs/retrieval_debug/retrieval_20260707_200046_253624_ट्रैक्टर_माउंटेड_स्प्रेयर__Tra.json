@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:46.005024",
+  "query_original": "ट्रैक्टर माउंटेड स्प्रेयर (Tractor Mounted Sprayer) क्यों बेहतर है?",
+  "query_normalized": "ट्रैक्टर माउंटेड स्प्रेयर tractor mounted sprayer क्यों बेहतर है",
+  "query_expanded": "ट्रैक्टर माउंटेड स्प्रेयर tractor mounted sprayer क्यों बेहतर है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ट्रैक्टर माउंटेड स्प्रेयर (Tractor Mounted Sprayer) क्यों बेहतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्प्रेयर' की सफाई क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'सल्फर' के लिए एसएसपी (SSP) क्यों बेहतर है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ट्रैक्टर माउंटेड स्प्रेयर (Tractor Mounted Sprayer) क्यों बेहतर है?",
+      "Crop": "General",
+      "FinalScore": 999.8887965829915,
+      "CrossScore": 0.9998887965829916
+    },
+    {
+      "Question": "ट्रैक्टर के टायरों में पानी क्यों भरा जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9984548006979338,
+      "CrossScore": 0.9984548006979338
+    },
+    {
+      "Question": "ट्रैक्टर के पिछले टायर में 'भार' (Weight) क्यों लगाते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9967377473512782,
+      "CrossScore": 0.9967377473512782
+    },
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9947473735734634,
+      "CrossScore": 0.9947473735734634
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.993563324763129,
+      "CrossScore": 0.993563324763129
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9927642910424209,
+      "CrossScore": 0.9927642910424209
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9913985530240149,
+      "CrossScore": 0.9913985530240149
+    },
+    {
+      "Question": "क्या बिना ट्रैक्टर के भी मशीनीकरण संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9913658235131553,
+      "CrossScore": 0.9913658235131553
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9902986359546903,
+      "CrossScore": 0.9902986359546903
+    },
+    {
+      "Question": "ट्रैक्टर के 'हाइड्रोलिक' का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9885944052342184,
+      "CrossScore": 0.9885944052342184
+    }
+  ],
+  "latency_ms": 248.63,
+  "final_returned": [
+    {
+      "Question": "ट्रैक्टर माउंटेड स्प्रेयर (Tractor Mounted Sprayer) क्यों बेहतर है?",
+      "Crop": "General",
+      "Score": 999.8887965829915
+    },
+    {
+      "Question": "ट्रैक्टर के टायरों में पानी क्यों भरा जाता है?",
+      "Crop": "General",
+      "Score": 0.9984548006979338
+    },
+    {
+      "Question": "ट्रैक्टर के पिछले टायर में 'भार' (Weight) क्यों लगाते हैं?",
+      "Crop": "General",
+      "Score": 0.9967377473512782
+    },
+    {
+      "Question": "ट्रैक्टर में 'दोहरा क्लच' (Dual Clutch) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9947473735734634
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "Score": 0.993563324763129
+    }
+  ]
+}

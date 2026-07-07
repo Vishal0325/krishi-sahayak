@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:13.747131",
+  "query_original": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+  "query_normalized": "म्यूरेट ऑफ पोटाश mop का उपयोग क्यों किया जाता है",
+  "query_expanded": "म्यूरेट ऑफ पोटाश mop का उपयोग क्यों किया जाता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 999.8879486518994,
+      "CrossScore": 0.9998879486518993
+    },
+    {
+      "Question": "आलू की खेती में 'पोटाश' के लिए 'SOP' (पोटेशियम सल्फेट) क्यों बेहतर है?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997651518609103,
+      "CrossScore": 0.9997651518609103
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996659832703583,
+      "CrossScore": 0.9996659832703583
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9996559004983337,
+      "CrossScore": 0.9996559004983337
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995900329139358,
+      "CrossScore": 0.9995900329139358
+    },
+    {
+      "Question": "जिप्सम (Gypsum) का उपयोग मिट्टी में क्यों किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995800447674394,
+      "CrossScore": 0.9995800447674394
+    },
+    {
+      "Question": "'मशीनों का साझा उपयोग' (Machine Sharing) क्यों किफायती है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9995362301322521,
+      "CrossScore": 0.9995362301322521
+    },
+    {
+      "Question": "डिस्क हैरो (Disc Harrow) का उपयोग कब किया जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9995028080829759,
+      "CrossScore": 0.9995028080829759
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9994846365690856,
+      "CrossScore": 0.9994846365690856
+    },
+    {
+      "Question": "मखाना में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9994728445230302,
+      "CrossScore": 0.9994728445230302
+    }
+  ],
+  "latency_ms": 374.37,
+  "final_returned": [
+    {
+      "Question": "म्यूरेट ऑफ पोटाश (MOP) का उपयोग क्यों किया जाता है?",
+      "Crop": "General",
+      "Score": 999.8879486518994
+    },
+    {
+      "Question": "आलू की खेती में 'पोटाश' के लिए 'SOP' (पोटेशियम सल्फेट) क्यों बेहतर है?",
+      "Crop": "Potato",
+      "Score": 0.9997651518609103
+    },
+    {
+      "Question": "ब्रश कटर (Brush Cutter) का उपयोग कहाँ किया जाता है?",
+      "Crop": "General",
+      "Score": 0.9996659832703583
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9996559004983337
+    },
+    {
+      "Question": "बोर्डो पेस्ट का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.9995900329139358
+    }
+  ]
+}

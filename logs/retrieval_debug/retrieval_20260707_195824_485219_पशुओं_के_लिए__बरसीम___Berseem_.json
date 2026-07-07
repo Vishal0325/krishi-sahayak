@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:24.291219",
+  "query_original": "पशुओं के लिए 'बरसीम' (Berseem) चारा?",
+  "query_normalized": "पशुओं के लिए बरसीम berseem चारा",
+  "query_expanded": "पशुओं के लिए बरसीम berseem चारा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'बरसीम' (Berseem) चारा?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के लिए 'सूखा चारा'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के चारे के लिए 'साइलेज मेकर'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'बरसीम' (Berseem) चारा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998585821747399,
+      "CrossScore": 0.9998585821747399
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998355466197281,
+      "CrossScore": 0.9998355466197281
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999820348053208,
+      "CrossScore": 0.999820348053208
+    },
+    {
+      "Question": "पशुओं के लिए 'टी.एम.आर' (TMR) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998161267379639,
+      "CrossScore": 0.9998161267379639
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998124139357886,
+      "CrossScore": 0.9998124139357886
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998036346950535,
+      "CrossScore": 0.9998036346950535
+    },
+    {
+      "Question": "पशुओं के लिए 'नमक की ईंट' (Salt Licks)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998026033452307,
+      "CrossScore": 0.9998026033452307
+    },
+    {
+      "Question": "पशुओं के लिए 'सूखा चारा'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9997942658374303,
+      "CrossScore": 0.9997942658374303
+    },
+    {
+      "Question": "पशुओं के लिए 'नेपियर' घास के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9997891426845636,
+      "CrossScore": 0.9997891426845636
+    },
+    {
+      "Question": "दूध बढ़ाने के लिए 'हरा चारा' क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.999788966695222,
+      "CrossScore": 0.999788966695222
+    }
+  ],
+  "latency_ms": 194.08,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'बरसीम' (Berseem) चारा?",
+      "Crop": "Dairy",
+      "Score": 0.9998585821747399
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "Score": 0.9998355466197281
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) की मात्रा?",
+      "Crop": "Dairy",
+      "Score": 0.999820348053208
+    },
+    {
+      "Question": "पशुओं के लिए 'टी.एम.आर' (TMR) क्या है?",
+      "Crop": "Dairy",
+      "Score": 0.9998161267379639
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "Score": 0.9998124139357886
+    }
+  ]
+}

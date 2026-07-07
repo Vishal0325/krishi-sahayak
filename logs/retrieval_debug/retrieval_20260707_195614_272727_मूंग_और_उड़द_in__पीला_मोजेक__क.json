@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:14.047767",
+  "query_original": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+  "query_normalized": "मूंग और उड़द in पीला मोजेक का उपचार क्या है",
+  "query_expanded": "मूंग और उड़द in पीला मोजेक का उपचार क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "पीला रतुआ का उपचार क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "मूंग की फसल में 'पीला मोजेक' का जैविक उपचार?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "भिंडी का 'पीला मोजेक' (Yellow Vein Mosaic) क्या है?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998965242936823,
+      "CrossScore": 0.9998965242936823
+    },
+    {
+      "Question": "मूंग और उड़द में 'आर्द्र पतन' (Damping off)?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998533006631931,
+      "CrossScore": 0.9998533006631931
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "FinalScore": 0.999846315727567,
+      "CrossScore": 0.999846315727567
+    },
+    {
+      "Question": "मूंग और उड़द की बुआई के लिए मेड़ विधि?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998329760821361,
+      "CrossScore": 0.9998329760821361
+    },
+    {
+      "Question": "मिर्च की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998315150509203,
+      "CrossScore": 0.9998315150509203
+    },
+    {
+      "Question": "अमरूद में 'उकठा' (Wilt) रोग का क्या उपचार है?",
+      "Crop": "Guava",
+      "FinalScore": 0.9998310027555981,
+      "CrossScore": 0.9998310027555981
+    },
+    {
+      "Question": "मूंग की फसल में 'पीला मोजेक' का जैविक उपचार?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998030753877969,
+      "CrossScore": 0.9998030753877969
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997916585365263,
+      "CrossScore": 0.9997916585365263
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.999789972376795,
+      "CrossScore": 0.999789972376795
+    },
+    {
+      "Question": "पौधों in रोगों की पहचान के लिए 'डिजिटल खेती' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997867502295801,
+      "CrossScore": 0.9997867502295801
+    }
+  ],
+  "latency_ms": 225.08,
+  "final_returned": [
+    {
+      "Question": "मूंग और उड़द in 'पीला मोजेक' का उपचार क्या है?",
+      "Crop": "Pulses",
+      "Score": 0.9998965242936823
+    },
+    {
+      "Question": "मूंग और उड़द में 'आर्द्र पतन' (Damping off)?",
+      "Crop": "Pulses",
+      "Score": 0.9998533006631931
+    },
+    {
+      "Question": "मूंग in 'जड़ सड़न' (Root Rot) का उपचार क्या है?",
+      "Crop": "Pulses",
+      "Score": 0.999846315727567
+    },
+    {
+      "Question": "मूंग और उड़द की बुआई के लिए मेड़ विधि?",
+      "Crop": "Pulses",
+      "Score": 0.9998329760821361
+    },
+    {
+      "Question": "मिर्च की खुदाई के बाद क्या मूंग संभव है?",
+      "Crop": "Chilli",
+      "Score": 0.9998315150509203
+    }
+  ]
+}

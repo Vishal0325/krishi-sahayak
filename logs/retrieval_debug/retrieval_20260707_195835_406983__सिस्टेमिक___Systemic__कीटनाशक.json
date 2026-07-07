@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:35.180646",
+  "query_original": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+  "query_normalized": "सिस्टेमिक systemic कीटनाशक क्या होते हैं",
+  "query_expanded": "बग सिस्टेमिक systemic कीटनाशक क्या होते हैं pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मशीनों के लिए ट्रेनिंग सेंटर होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998912107197452,
+      "CrossScore": 0.9998912107197451
+    },
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 9.987958179782575,
+      "CrossScore": 0.9987958179782576
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999759364699181,
+      "CrossScore": 0.999759364699181
+    },
+    {
+      "Question": "क्या जैविक कीटनाशक रासायनिक के समान प्रभावी हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989459709440919,
+      "CrossScore": 0.9989459709440919
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.998938709731769,
+      "CrossScore": 0.998938709731769
+    },
+    {
+      "Question": "एनपीके (NPK) उर्वरक क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9987487970479078,
+      "CrossScore": 0.9987487970479078
+    },
+    {
+      "Question": "'कीटनाशक अवशेष' (Pesticide Residues) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9987145470308171,
+      "CrossScore": 0.9987145470308171
+    },
+    {
+      "Question": "क्या कीटनाशक इंसानों के स्वास्थ्य पर असर डालते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9986608891833496,
+      "CrossScore": 0.9986608891833496
+    },
+    {
+      "Question": "कीटनाशक (Insecticides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9984339978917208,
+      "CrossScore": 0.9984339978917208
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9982847404760206,
+      "CrossScore": 0.9982847404760206
+    }
+  ],
+  "latency_ms": 226.46,
+  "final_returned": [
+    {
+      "Question": "'सिस्टेमिक' (Systemic) कीटनाशक क्या होते हैं?",
+      "Crop": "General",
+      "Score": 9.998912107197452
+    },
+    {
+      "Question": "कीट (Pests) कृषि in क्या होते हैं?",
+      "Crop": "General",
+      "Score": 9.987958179782575
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.999759364699181
+    },
+    {
+      "Question": "क्या जैविक कीटनाशक रासायनिक के समान प्रभावी हैं?",
+      "Crop": "General",
+      "Score": 0.9989459709440919
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "Score": 0.998938709731769
+    }
+  ]
+}

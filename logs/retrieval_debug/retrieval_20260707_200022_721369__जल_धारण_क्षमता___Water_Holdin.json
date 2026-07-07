@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:22.527283",
+  "query_original": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+  "query_normalized": "जल धारण क्षमता water holding capacity बढ़ाने के लिए खाद",
+  "query_expanded": "poshak खाद पोषण उर्वरक जल धारण क्षमता water holding capacity बढ़ाने के लिए खाद fertilizer",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सरसों की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए जैविक खाद?",
+      "Crop": "Mustard"
+    },
+    {
+      "Question": "मक्का की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए FYM?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मिट्टी की 'जल धारण क्षमता' (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की जल धारण क्षमता (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+      "Crop": "General",
+      "FinalScore": 999.8771022564155,
+      "CrossScore": 0.9998771022564155
+    },
+    {
+      "Question": "मिट्टी की जल धारण क्षमता (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998636353423349,
+      "CrossScore": 0.9998636353423349
+    },
+    {
+      "Question": "मिट्टी की 'जल धारण क्षमता' (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998582891176847,
+      "CrossScore": 0.9998582891176847
+    },
+    {
+      "Question": "मक्का in 'सिंचाई' के लिए 'वाटर टैंक' (Water Tank)?",
+      "Crop": "Maize",
+      "FinalScore": 0.9986326898563433,
+      "CrossScore": 0.9986326898563433
+    },
+    {
+      "Question": "मक्का में 'सिंचाई' के लिए 'वाटर चैनल' (Water Channel) की सफाई?",
+      "Crop": "Maize",
+      "FinalScore": 0.9974643327616852,
+      "CrossScore": 0.9974643327616852
+    },
+    {
+      "Question": "'जल संचयन' के लिए फार्म पॉन्ड (तालाब)?",
+      "Crop": "General",
+      "FinalScore": 0.9962078760027016,
+      "CrossScore": 0.9962078760027016
+    },
+    {
+      "Question": "मक्का की 'मृदा' में जल धारण क्षमता बढ़ाने के लिए FYM?",
+      "Crop": "Maize",
+      "FinalScore": 0.9961595491315682,
+      "CrossScore": 0.9961595491315682
+    },
+    {
+      "Question": "मक्का में 'दीमक' के लिए 'कच्ची गोबर की खाद' से बचें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9953095236651887,
+      "CrossScore": 0.9953095236651887
+    },
+    {
+      "Question": "प्याज में 'कल्ले' बढ़ाने के लिए 'मैग्नीशियम'?",
+      "Crop": "Onion",
+      "FinalScore": 0.9951266894531661,
+      "CrossScore": 0.9951266894531661
+    },
+    {
+      "Question": "केले की 'जी-9' किस्म के लिए कौन सी खाद अच्छी है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9950647856672455,
+      "CrossScore": 0.9950647856672455
+    }
+  ],
+  "latency_ms": 194.16,
+  "final_returned": [
+    {
+      "Question": "'जल धारण क्षमता' (Water Holding Capacity) बढ़ाने के लिए खाद?",
+      "Crop": "General",
+      "Score": 999.8771022564155
+    },
+    {
+      "Question": "मिट्टी की जल धारण क्षमता (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9998636353423349
+    },
+    {
+      "Question": "मिट्टी की 'जल धारण क्षमता' (Water Holding Capacity) कैसे बढ़ाएं?",
+      "Crop": "General",
+      "Score": 0.9998582891176847
+    },
+    {
+      "Question": "मक्का in 'सिंचाई' के लिए 'वाटर टैंक' (Water Tank)?",
+      "Crop": "Maize",
+      "Score": 0.9986326898563433
+    },
+    {
+      "Question": "मक्का में 'सिंचाई' के लिए 'वाटर चैनल' (Water Channel) की सफाई?",
+      "Crop": "Maize",
+      "Score": 0.9974643327616852
+    }
+  ]
+}

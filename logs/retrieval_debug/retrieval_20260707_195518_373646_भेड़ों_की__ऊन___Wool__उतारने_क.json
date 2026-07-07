@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:18.190708",
+  "query_original": "भेड़ों की 'ऊन' (Wool) उतारने का समय?",
+  "query_normalized": "भेड़ों की ऊन wool उतारने का समय",
+  "query_expanded": "भेड़ों की ऊन wool उतारने का समय",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "भेड़ों की 'ऊन' (Wool) उतारने का समय?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मेंथा की रोपाई का समय?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "सफ़ेद मूसली की बुआई का समय?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "अमरूद की 'प्रूनिंग' का सही समय?",
+      "Crop": "Guava"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भेड़ों की 'ऊन' (Wool) उतारने का समय?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999031830697335,
+      "CrossScore": 0.9999031830697335
+    },
+    {
+      "Question": "पत्तागोभी की बुआई का समय?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9993696775538549,
+      "CrossScore": 0.9993696775538549
+    },
+    {
+      "Question": "मिर्च की 'प्रूनिंग' का सही समय?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9993075873356174,
+      "CrossScore": 0.9993075873356174
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9992964494228374,
+      "CrossScore": 0.9992964494228374
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992890109181921,
+      "CrossScore": 0.9992890109181921
+    },
+    {
+      "Question": "गेहूं की 'सीधी बुआई' में खरपतवार नाशी का समय?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9992418524735343,
+      "CrossScore": 0.9992418524735343
+    },
+    {
+      "Question": "धान की सिंचाई का सही समय क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9991736801962472,
+      "CrossScore": 0.9991736801962472
+    },
+    {
+      "Question": "बैंगन की 'प्रूनिंग' का सही समय?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9991730914136272,
+      "CrossScore": 0.9991730914136272
+    },
+    {
+      "Question": "धनिया की बुआई का सबसे अच्छा समय?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9990373321642513,
+      "CrossScore": 0.9990373321642513
+    },
+    {
+      "Question": "अश्वगंधा की बुआई का सही समय?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9990106606480381,
+      "CrossScore": 0.9990106606480381
+    }
+  ],
+  "latency_ms": 183.04,
+  "final_returned": [
+    {
+      "Question": "भेड़ों की 'ऊन' (Wool) उतारने का समय?",
+      "Crop": "Livestock",
+      "Score": 0.9999031830697335
+    },
+    {
+      "Question": "पत्तागोभी की बुआई का समय?",
+      "Crop": "Cabbage",
+      "Score": 0.9993696775538549
+    },
+    {
+      "Question": "मिर्च की 'प्रूनिंग' का सही समय?",
+      "Crop": "Chilli",
+      "Score": 0.9993075873356174
+    },
+    {
+      "Question": "गन्ने की बुआई का सबसे अच्छा समय?",
+      "Crop": "Sugarcane",
+      "Score": 0.9992964494228374
+    },
+    {
+      "Question": "गेहूं की मड़ाई के समय दानों के टूटने का क्या कारण है?",
+      "Crop": "Wheat",
+      "Score": 0.9992890109181921
+    }
+  ]
+}

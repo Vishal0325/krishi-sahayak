@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:08.297362",
+  "query_original": "'किसान उत्पादक संगठन' (FPO) और मार्केट पावर?",
+  "query_normalized": "किसान उत्पादक संगठन fpo और मार्केट पावर",
+  "query_expanded": "किसान उत्पादक संगठन fpo और मार्केट पावर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) और मार्केट पावर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) बनाने के लिए कम से कम कितने किसान चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान उत्पादक संगठन (FPO) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ला नीना' और किसान की खुशी?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) और मार्केट पावर?",
+      "Crop": "General",
+      "FinalScore": 999.8881802734891,
+      "CrossScore": 0.999888180273489
+    },
+    {
+      "Question": "किसान उत्पादक संगठन (FPO) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998910815927905,
+      "CrossScore": 0.9998910815927905
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) बनाने के लिए कम से कम कितने किसान चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.999876989233306,
+      "CrossScore": 0.999876989233306
+    },
+    {
+      "Question": "एफपीओ (FPO) का आर्थिक लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.99987087941146,
+      "CrossScore": 0.99987087941146
+    },
+    {
+      "Question": "क्या किसान 'एफपीओ' (FPO) के जरिए लोन ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998623587541409,
+      "CrossScore": 0.9998623587541409
+    },
+    {
+      "Question": "'एफपीओ' (FPO) का मुख्य लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998592451444367,
+      "CrossScore": 0.9998592451444367
+    },
+    {
+      "Question": "दालों के विपणन के लिए 'एफपीओ' (FPO) का लाभ?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998516913616828,
+      "CrossScore": 0.9998516913616828
+    },
+    {
+      "Question": "'पीएच' (pH) पेपर और किसान?",
+      "Crop": "General",
+      "FinalScore": 0.9997714240269556,
+      "CrossScore": 0.9997714240269556
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.999730998816555,
+      "CrossScore": 0.999730998816555
+    },
+    {
+      "Question": "'न्यूनतम समर्थन मूल्य' (MSP) और किसान की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.999698004502824,
+      "CrossScore": 0.999698004502824
+    }
+  ],
+  "latency_ms": 239.53,
+  "final_returned": [
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) और मार्केट पावर?",
+      "Crop": "General",
+      "Score": 999.8881802734891
+    },
+    {
+      "Question": "किसान उत्पादक संगठन (FPO) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998910815927905
+    },
+    {
+      "Question": "'किसान उत्पादक संगठन' (FPO) बनाने के लिए कम से कम कितने किसान चाहिए?",
+      "Crop": "General",
+      "Score": 0.999876989233306
+    },
+    {
+      "Question": "एफपीओ (FPO) का आर्थिक लाभ?",
+      "Crop": "Economics",
+      "Score": 0.99987087941146
+    },
+    {
+      "Question": "क्या किसान 'एफपीओ' (FPO) के जरिए लोन ले सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9998623587541409
+    }
+  ]
+}

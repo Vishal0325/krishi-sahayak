@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:35.072052",
+  "query_original": "'मधुमक्खी पालन' और कीटनाशक का तालमेल?",
+  "query_normalized": "मधुमक्खी पालन और कीटनाशक का तालमेल",
+  "query_expanded": "मधुमक्खी पालन और कीटनाशक का तालमेल बग pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मधुमक्खी पालन' और कीटनाशक का तालमेल?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'प्रशिक्षण' का महत्व?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "मधुमक्खी पालन की सफलता का अंतिम संदेश?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9.997437005010024,
+      "CrossScore": 0.9997437005010025
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "FinalScore": 9.997154324078313,
+      "CrossScore": 0.9997154324078313
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "FinalScore": 9.995697069522807,
+      "CrossScore": 0.9995697069522808
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "FinalScore": 9.995692863094739,
+      "CrossScore": 0.999569286309474
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 9.995325752814367,
+      "CrossScore": 0.9995325752814366
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'सोशल मीडिया' का लाभ?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998623527166535,
+      "CrossScore": 0.9998623527166535
+    },
+    {
+      "Question": "'मधुमक्खी पालन' और कीटनाशक का तालमेल?",
+      "Crop": "General",
+      "FinalScore": 0.9998447986114783,
+      "CrossScore": 0.9998447986114783
+    },
+    {
+      "Question": "मधुमक्खी पालन और 'पर्यावरण संरक्षण'?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998429134239639,
+      "CrossScore": 0.9998429134239639
+    },
+    {
+      "Question": "जैविक खेती और 'मधुमक्खी पालन'?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999832707354173,
+      "CrossScore": 0.999832707354173
+    },
+    {
+      "Question": "मधुमक्खी पालन में 'माइग्रेशन' का खर्च?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9998299608419445,
+      "CrossScore": 0.9998299608419445
+    }
+  ],
+  "latency_ms": 227.17,
+  "final_returned": [
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9.997437005010024
+    },
+    {
+      "Question": "'जैविक कीटनाशक' और 'रसायन' का अंतर?",
+      "Crop": "General",
+      "Score": 9.997154324078313
+    },
+    {
+      "Question": "'आलू का कटुआ कीट' (Cutworm) और 'रात'?",
+      "Crop": "Potato",
+      "Score": 9.995697069522807
+    },
+    {
+      "Question": "'आलू का कंद कीड़ा' और 'मिट्टी चढ़ाना'?",
+      "Crop": "Potato",
+      "Score": 9.995692863094739
+    },
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "Score": 9.995325752814367
+    }
+  ]
+}

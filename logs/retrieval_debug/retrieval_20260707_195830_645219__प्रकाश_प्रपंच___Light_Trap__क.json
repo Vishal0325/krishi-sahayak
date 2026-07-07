@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:30.424870",
+  "query_original": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+  "query_normalized": "प्रकाश प्रपंच light trap कीटों को कैसे नियंत्रित करता है",
+  "query_expanded": "बग प्रकाश प्रपंच light trap कीटों को कैसे नियंत्रित करता है pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रकाश प्रपंच (Light Trap) कैसे काम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या प्रकाश प्रपंच (Light Trap) सभी फसलों के लिए उपयोगी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "संतुलित उर्वरक प्रयोग (Balanced Fertilization) कीटों को कैसे रोकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 9.998631947415571,
+      "CrossScore": 0.9998631947415572
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "FinalScore": 9.998623647913638,
+      "CrossScore": 0.9998623647913638
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.99743162092129,
+      "CrossScore": 0.9997431620921291
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "FinalScore": 9.991005625690804,
+      "CrossScore": 0.9991005625690804
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General",
+      "FinalScore": 9.988959252459304,
+      "CrossScore": 0.9988959252459304
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "FinalScore": 9.984605370936121,
+      "CrossScore": 0.998460537093612
+    },
+    {
+      "Question": "'सफेद मक्खी' (Whitefly) फसलों को कैसे नुकसान पहुँचाती है?",
+      "Crop": "General",
+      "FinalScore": 9.971295418183027,
+      "CrossScore": 0.9971295418183027
+    },
+    {
+      "Question": "'नीम का तेल' कीटनाशक के रूप in कैसे काम करता है?",
+      "Crop": "General",
+      "FinalScore": 9.969147110507095,
+      "CrossScore": 0.9969147110507094
+    },
+    {
+      "Question": "गंधी बग को कैसे नियंत्रित करें?",
+      "Crop": "Rice",
+      "FinalScore": 9.960988027599857,
+      "CrossScore": 0.9960988027599856
+    },
+    {
+      "Question": "'हरा फुदका' (Jassids) फसलों को कैसे नुकसान पहुँचाता है?",
+      "Crop": "General",
+      "FinalScore": 9.949119336560422,
+      "CrossScore": 0.9949119336560422
+    }
+  ],
+  "latency_ms": 220.46,
+  "final_returned": [
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "Score": 9.998631947415571
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) कीटों को कैसे नियंत्रित करता है?",
+      "Crop": "General",
+      "Score": 9.998623647913638
+    },
+    {
+      "Question": "कीटों के लिए 'फेरोमोन ट्रैप' (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 9.99743162092129
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' का लाभ अन्य मित्र कीटों पर?",
+      "Crop": "General",
+      "Score": 9.991005625690804
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' और 'कीटों का भ्रम'?",
+      "Crop": "General",
+      "Score": 9.988959252459304
+    }
+  ]
+}

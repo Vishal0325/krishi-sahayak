@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:20.865583",
+  "query_original": "AWD तकनीक क्या है?",
+  "query_normalized": "awd तकनीक क्या है",
+  "query_expanded": "awd तकनीक क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "AWD तकनीक क्या है?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "AWD तकनीक क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 999.9171083977469,
+      "CrossScore": 0.999917108397747
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9994800212642764,
+      "CrossScore": 0.9994800212642764
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9994423570217056,
+      "CrossScore": 0.9994423570217056
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994358836643735,
+      "CrossScore": 0.9994358836643735
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994148578361387,
+      "CrossScore": 0.9994148578361387
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9992318336890399,
+      "CrossScore": 0.9992318336890399
+    },
+    {
+      "Question": "मक्का में पोटाश की क्या भूमिका है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9992301074861092,
+      "CrossScore": 0.9992301074861092
+    },
+    {
+      "Question": "क्या औषधीय खेती 'स्थायी' आय दे सकती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9992183341499963,
+      "CrossScore": 0.9992183341499963
+    },
+    {
+      "Question": "गेहूं की 'राजेंद्र श्वेता' किस्म की क्या विशेषता है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9990560736768007,
+      "CrossScore": 0.9990560736768007
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9990519461203552,
+      "CrossScore": 0.9990519461203552
+    }
+  ],
+  "latency_ms": 155.79,
+  "final_returned": [
+    {
+      "Question": "AWD तकनीक क्या है?",
+      "Crop": "Rice",
+      "Score": 999.9171083977469
+    },
+    {
+      "Question": "कृषि तकनीक का भविष्य क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9994800212642764
+    },
+    {
+      "Question": "कृषि तकनीक (Agri Tech) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9994423570217056
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "Score": 0.9994358836643735
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "Score": 0.9994148578361387
+    }
+  ]
+}

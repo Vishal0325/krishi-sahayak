@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-07-07T19:56:16.310429",
+  "query_original": "PMFBY",
+  "query_normalized": "pmfby",
+  "query_expanded": "pmfby",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "PMFBY के तहत किसानों को कितना प्रीमियम देना पड़ता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 9.989398738244352,
+      "CrossScore": 0.9989398738244353
+    },
+    {
+      "Question": "PMFBY के तहत किसानों को कितना प्रीमियम देना पड़ता है?",
+      "Crop": "General",
+      "FinalScore": 9.985827654766489,
+      "CrossScore": 0.9985827654766489
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics",
+      "FinalScore": 0.9991078474195948,
+      "CrossScore": 0.9991078474195948
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) का प्रीमियम?",
+      "Crop": "General",
+      "FinalScore": 0.999062023391222,
+      "CrossScore": 0.999062023391222
+    },
+    {
+      "Question": "'फार्म मशीनरी बैंक' (FMB) क्या है?",
+      "Crop": "General",
+      "FinalScore": 4.934395219213249e-05,
+      "CrossScore": 4.934395219213249e-05
+    },
+    {
+      "Question": "खेती में 'जोखिम का प्रबंधन' (Risk Management)?",
+      "Crop": "Economics",
+      "FinalScore": 4.797249736568381e-05,
+      "CrossScore": 4.797249736568381e-05
+    },
+    {
+      "Question": "'वेयरहाउस रसीद' (Warehouse Receipt) पर लोन?",
+      "Crop": "Economics",
+      "FinalScore": 4.494607665336696e-05,
+      "CrossScore": 4.494607665336696e-05
+    },
+    {
+      "Question": "'धान का भूरा फदका' (BPH) और पोटाश?",
+      "Crop": "Rice",
+      "FinalScore": 4.142335589463604e-05,
+      "CrossScore": 4.142335589463604e-05
+    },
+    {
+      "Question": "'पीएसबी' (PSB) जैव-उर्वरक का कार्य?",
+      "Crop": "General",
+      "FinalScore": 3.0933487492076644e-05,
+      "CrossScore": 3.0933487492076644e-05
+    },
+    {
+      "Question": "मैंकोज़ेब (Mancozeb) का उपयोग किन रोगों में होता है?",
+      "Crop": "General",
+      "FinalScore": 3.080493078266254e-05,
+      "CrossScore": 3.080493078266254e-05
+    }
+  ],
+  "latency_ms": 448.85,
+  "final_returned": [
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 9.989398738244352
+    },
+    {
+      "Question": "PMFBY के तहत किसानों को कितना प्रीमियम देना पड़ता है?",
+      "Crop": "General",
+      "Score": 9.985827654766489
+    },
+    {
+      "Question": "'प्रधानमंत्री फसल बीमा योजना' (PMFBY) की आर्थिक उपयोगिता?",
+      "Crop": "Economics",
+      "Score": 0.9991078474195948
+    }
+  ]
+}

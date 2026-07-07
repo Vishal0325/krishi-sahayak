@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:39.772029",
+  "query_original": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+  "query_normalized": "ताल क्षेत्र की मिट्टी tal land soil क्या है",
+  "query_expanded": "ताल क्षेत्र की मिट्टी tal land soil क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नदी तटीय (Diara Land) मिट्टी की क्या समस्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999130968878567,
+      "CrossScore": 0.9999130968878567
+    },
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998285123606894,
+      "CrossScore": 0.9998285123606894
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998193221399222,
+      "CrossScore": 0.9998193221399222
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.99978908537844,
+      "CrossScore": 0.99978908537844
+    },
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9997882988157272,
+      "CrossScore": 0.9997882988157272
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9997676098242478,
+      "CrossScore": 0.9997676098242478
+    },
+    {
+      "Question": "मिट्टी की प्रोफाइल (Soil Profile) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997668494741299,
+      "CrossScore": 0.9997668494741299
+    },
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997404604627003,
+      "CrossScore": 0.9997404604627003
+    },
+    {
+      "Question": "मिट्टी की सघनता (Soil Compaction) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997368414778603,
+      "CrossScore": 0.9997368414778603
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9997293392282534,
+      "CrossScore": 0.9997293392282534
+    }
+  ],
+  "latency_ms": 374.67,
+  "final_returned": [
+    {
+      "Question": "ताल क्षेत्र की मिट्टी (Tal Land Soil) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999130968878567
+    },
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General",
+      "Score": 0.9998285123606894
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998193221399222
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.99978908537844
+    },
+    {
+      "Question": "मिट्टी की 'हवा' (Soil Aeration) क्यों जरूरी है?",
+      "Crop": "General",
+      "Score": 0.9997882988157272
+    }
+  ]
+}

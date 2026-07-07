@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:42.781605",
+  "query_original": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+  "query_normalized": "पीला चिपचिपा ट्रैप yellow sticky trap का उपयोग",
+  "query_expanded": "पीला चिपचिपा ट्रैप yellow sticky trap का उपयोग",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सफेद मक्खी' के लिए 'पीला चिपचिपा ट्रैप' का आधार?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) रोग क्या है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 999.8987720364471,
+      "CrossScore": 0.9998987720364471
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9998828422707737,
+      "CrossScore": 0.9998828422707737
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9998451262080539,
+      "CrossScore": 0.9998451262080539
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9995123916047804,
+      "CrossScore": 0.9995123916047804
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General",
+      "FinalScore": 0.9992583941222702,
+      "CrossScore": 0.9992583941222702
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) कैसे पहचानें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9991129079075597,
+      "CrossScore": 0.9991129079075597
+    },
+    {
+      "Question": "गेहूं का 'पीला रतुआ' (Yellow Rust) रोग क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9989304580061127,
+      "CrossScore": 0.9989304580061127
+    },
+    {
+      "Question": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9988967778984805,
+      "CrossScore": 0.9988967778984805
+    },
+    {
+      "Question": "भिंडी में 'पीला मोजेक' (Yellow Vein Mosaic) का नियंत्रण कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9986148116782878,
+      "CrossScore": 0.9986148116782878
+    },
+    {
+      "Question": "'गेहूं का पीला रतुआ' (Yellow Rust) और 'हवा'?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9985852985584857,
+      "CrossScore": 0.9985852985584857
+    }
+  ],
+  "latency_ms": 214.42,
+  "final_returned": [
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "Score": 999.8987720364471
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9998828422707737
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "Score": 0.9998451262080539
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) में 'तेल' का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9995123916047804
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General",
+      "Score": 0.9992583941222702
+    }
+  ]
+}

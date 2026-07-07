@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:49.278600",
+  "query_original": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+  "query_normalized": "मिली बग का जैविक नियंत्रण मित्र कीट",
+  "query_expanded": "मिली बग का जैविक नियंत्रण मित्र कीट pest कीड़ा बग कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम के बाग में 'मिली बग' का जैविक इलाज?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'आम' में 'मिली बग' का जमीन पर नियंत्रण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "FinalScore": 9998.459670017235,
+      "CrossScore": 0.9998459670017236
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "FinalScore": 9.998695668189137,
+      "CrossScore": 0.9998695668189137
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का आहार?",
+      "Crop": "General",
+      "FinalScore": 9.998660348762913,
+      "CrossScore": 0.9998660348762913
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "FinalScore": 9.998525020043056,
+      "CrossScore": 0.9998525020043055
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "FinalScore": 9.998511952911054,
+      "CrossScore": 0.9998511952911054
+    },
+    {
+      "Question": "'आम का मिली बग'?",
+      "Crop": "Mango",
+      "FinalScore": 9.998234202784667,
+      "CrossScore": 0.9998234202784667
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'मल्चिंग' का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998793791172114,
+      "CrossScore": 0.9998793791172114
+    },
+    {
+      "Question": "जैविक खेती में 'कीट नियंत्रण' के तरीके?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.999870538403543,
+      "CrossScore": 0.999870538403543
+    },
+    {
+      "Question": "आम में 'मिली बग' (Mealy Bug) का नियंत्रण?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998545389667243,
+      "CrossScore": 0.9998545389667243
+    },
+    {
+      "Question": "'कीटों का जैविक नियंत्रण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998494234024546,
+      "CrossScore": 0.9998494234024546
+    }
+  ],
+  "latency_ms": 221.62,
+  "final_returned": [
+    {
+      "Question": "'मिली बग' का जैविक नियंत्रण मित्र कीट?",
+      "Crop": "General",
+      "Score": 9998.459670017235
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का संरक्षण?",
+      "Crop": "General",
+      "Score": 9.998695668189137
+    },
+    {
+      "Question": "'मित्र कीट' लेडीबर्ड बीटल का आहार?",
+      "Crop": "General",
+      "Score": 9.998660348762913
+    },
+    {
+      "Question": "'मिली बग' (Mealy Bug) का मोमी आवरण (Waxy coating)?",
+      "Crop": "General",
+      "Score": 9.998525020043056
+    },
+    {
+      "Question": "'मिली बग' के लिए 'साबुन का घोल'?",
+      "Crop": "General",
+      "Score": 9.998511952911054
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:34.049708",
+  "query_original": "'डिजिटल इन्वेंटरी' प्रबंधन?",
+  "query_normalized": "डिजिटल इन्वेंटरी प्रबंधन",
+  "query_expanded": "डिजिटल इन्वेंटरी प्रबंधन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'डिजिटल इन्वेंटरी' प्रबंधन?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "लीची के 'माइट' का जैविक प्रबंधन?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'डिजिटल इन्वेंटरी' प्रबंधन?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.8172227341146,
+      "CrossScore": 0.9998172227341146
+    },
+    {
+      "Question": "'एकीकृत पोषक तत्व प्रबंधन' (INM)?",
+      "Crop": "General",
+      "FinalScore": 0.999848960366377,
+      "CrossScore": 0.999848960366377
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "FinalScore": 0.9998293533769508,
+      "CrossScore": 0.9998293533769508
+    },
+    {
+      "Question": "'डिजिटल भुगतान' (Digital Payment) के लाभ?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998247497484057,
+      "CrossScore": 0.9998247497484057
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 0.9998172690862182,
+      "CrossScore": 0.9998172690862182
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 0.9998112392613389,
+      "CrossScore": 0.9998112392613389
+    },
+    {
+      "Question": "खेती में 'पूंजी' (Capital) का प्रबंधन कैसे करें?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997998749341066,
+      "CrossScore": 0.9997998749341066
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'मिट्टी की जांच'?",
+      "Crop": "General",
+      "FinalScore": 0.9997972509566558,
+      "CrossScore": 0.9997972509566558
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 0.9997915409034205,
+      "CrossScore": 0.9997915409034205
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 0.9997903922936404,
+      "CrossScore": 0.9997903922936404
+    }
+  ],
+  "latency_ms": 140.9,
+  "final_returned": [
+    {
+      "Question": "'डिजिटल इन्वेंटरी' प्रबंधन?",
+      "Crop": "Agri Tech",
+      "Score": 999.8172227341146
+    },
+    {
+      "Question": "'एकीकृत पोषक तत्व प्रबंधन' (INM)?",
+      "Crop": "General",
+      "Score": 0.999848960366377
+    },
+    {
+      "Question": "मृदा परीक्षण के लिए 'डिजिटल किट'?",
+      "Crop": "General",
+      "Score": 0.9998293533769508
+    },
+    {
+      "Question": "'डिजिटल भुगतान' (Digital Payment) के लाभ?",
+      "Crop": "Economics",
+      "Score": 0.9998247497484057
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 0.9998172690862182
+    }
+  ]
+}

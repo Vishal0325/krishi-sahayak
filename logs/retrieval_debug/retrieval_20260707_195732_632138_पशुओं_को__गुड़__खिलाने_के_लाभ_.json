@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:32.448742",
+  "query_original": "पशुओं को 'गुड़' खिलाने के लाभ?",
+  "query_normalized": "पशुओं को गुड़ खिलाने के लाभ",
+  "query_expanded": "पशुओं को गुड़ खिलाने के लाभ",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं को 'गुड़' खिलाने के लाभ?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'खली' (Oil Cakes) खिलाने के लाभ?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं को 'खली' खिलाने के लाभ?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "गेहूं में 'फास्फोरस' को डीएपी के रूप में देने के लाभ?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "आलू में 'फास्फोरस' को डीएपी के रूप में देने के लाभ?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' के लाभ?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998816951654661,
+      "CrossScore": 0.9998816951654661
+    },
+    {
+      "Question": "पशुओं को 'गुड़' खिलाने के लाभ?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998806727675875,
+      "CrossScore": 0.9998806727675875
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998765783583914,
+      "CrossScore": 0.9998765783583914
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'गुड़' (Jaggery) बनाना?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998544827814572,
+      "CrossScore": 0.9998544827814572
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "FinalScore": 0.9998501443066526,
+      "CrossScore": 0.9998501443066526
+    },
+    {
+      "Question": "'हीट वेव' (लू) के दौरान पशुओं का बचाव?",
+      "Crop": "General",
+      "FinalScore": 0.9998485479046376,
+      "CrossScore": 0.9998485479046376
+    },
+    {
+      "Question": "गन्ने की 'अगेती' बुआई के लाभ?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998399088089952,
+      "CrossScore": 0.9998399088089952
+    },
+    {
+      "Question": "खस (Khus) की खेती के लाभ?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998385124151502,
+      "CrossScore": 0.9998385124151502
+    },
+    {
+      "Question": "बैंगन में 'यूरिया' को जड़ों के पास ही क्यों डालें?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998241511705774,
+      "CrossScore": 0.9998241511705774
+    },
+    {
+      "Question": "पशुओं को 'नहलाने' का लाभ?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998193937928213,
+      "CrossScore": 0.9998193937928213
+    }
+  ],
+  "latency_ms": 183.5,
+  "final_returned": [
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' के लाभ?",
+      "Crop": "Fruits",
+      "Score": 0.9998816951654661
+    },
+    {
+      "Question": "पशुओं को 'गुड़' खिलाने के लाभ?",
+      "Crop": "Dairy",
+      "Score": 0.9998806727675875
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998765783583914
+    },
+    {
+      "Question": "गन्ने की कटाई के बाद 'गुड़' (Jaggery) बनाना?",
+      "Crop": "Sugarcane",
+      "Score": 0.9998544827814572
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General",
+      "Score": 0.9998501443066526
+    }
+  ]
+}

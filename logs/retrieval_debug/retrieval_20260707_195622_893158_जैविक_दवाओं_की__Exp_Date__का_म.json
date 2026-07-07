@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:22.628159",
+  "query_original": "जैविक दवाओं की 'Exp Date' का महत्व?",
+  "query_normalized": "जैविक दवाओं की exp date का महत्व",
+  "query_expanded": "जैविक दवाओं की exp date का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक दवाओं की 'Exp Date' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशकों के पैकेट पर 'Exp Date' का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आलू की खेती में 'जैविक खाद' का महत्व?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक दवाओं की 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999190403914907,
+      "CrossScore": 0.9999190403914907
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9999144910608068,
+      "CrossScore": 0.9999144910608068
+    },
+    {
+      "Question": "फफूंदनाशकों के पैकेट पर 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999009906919778,
+      "CrossScore": 0.9999009906919778
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'बारिश'?",
+      "Crop": "General",
+      "FinalScore": 0.9992123955770642,
+      "CrossScore": 0.9992123955770642
+    },
+    {
+      "Question": "जैविक दवाओं के पैकेट पर 'CFU' का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9991563236880376,
+      "CrossScore": 0.9991563236880376
+    },
+    {
+      "Question": "'जैविक खेती' में 'धैर्य' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9991019498372639,
+      "CrossScore": 0.9991019498372639
+    },
+    {
+      "Question": "'मशरूम' की खेती में 'केसिंग' (Casing) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9990253861849648,
+      "CrossScore": 0.9990253861849648
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9989986230405513,
+      "CrossScore": 0.9989986230405513
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9989082609373987,
+      "CrossScore": 0.9989082609373987
+    },
+    {
+      "Question": "जैविक खेती में 'मल्चिंग' (Mulching) का महत्व?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9988990173096421,
+      "CrossScore": 0.9988990173096421
+    }
+  ],
+  "latency_ms": 265.15,
+  "final_returned": [
+    {
+      "Question": "जैविक दवाओं की 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9999190403914907
+    },
+    {
+      "Question": "उर्वरकों के बैग पर 'Exp Date' का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9999144910608068
+    },
+    {
+      "Question": "फफूंदनाशकों के पैकेट पर 'Exp Date' का महत्व?",
+      "Crop": "General",
+      "Score": 0.9999009906919778
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'बारिश'?",
+      "Crop": "General",
+      "Score": 0.9992123955770642
+    },
+    {
+      "Question": "जैविक दवाओं के पैकेट पर 'CFU' का क्या अर्थ है?",
+      "Crop": "General",
+      "Score": 0.9991563236880376
+    }
+  ]
+}

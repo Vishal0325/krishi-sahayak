@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:30.035411",
+  "query_original": "मधुमक्खी के बक्से (Hive) के मुख्य भाग क्या हैं?",
+  "query_normalized": "मधुमक्खी के बक्से hive के मुख्य भाग क्या हैं",
+  "query_expanded": "मधुमक्खी के बक्से hive के मुख्य भाग क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मधुमक्खी के बक्से (Hive) के मुख्य भाग क्या हैं?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming"
+    },
+    {
+      "Question": "मखाना की खेती के दो मुख्य तरीके क्या हैं?",
+      "Crop": "Makhana"
+    },
+    {
+      "Question": "पौधों में बीमारी (Disease) होने के मुख्य कारण क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "श्रमिक मधुमक्खी (Worker Bee) के क्या कार्य हैं?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मधुमक्खी के बक्से (Hive) के मुख्य भाग क्या हैं?",
+      "Crop": "Beekeeping",
+      "FinalScore": 999.8986922723046,
+      "CrossScore": 0.9998986922723047
+    },
+    {
+      "Question": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997597255551346,
+      "CrossScore": 0.9997597255551346
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997493228081776,
+      "CrossScore": 0.9997493228081776
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन के लिए 'लाइसेंस' चाहिए?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997462109383481,
+      "CrossScore": 0.9997462109383481
+    },
+    {
+      "Question": "श्रमिक मधुमक्खी (Worker Bee) के क्या कार्य हैं?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997447739359823,
+      "CrossScore": 0.9997447739359823
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9997361588950566,
+      "CrossScore": 0.9997361588950566
+    },
+    {
+      "Question": "कृषि यंत्रों के रखरखाव के लिए मुख्य टिप्स क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997268456087766,
+      "CrossScore": 0.9997268456087766
+    },
+    {
+      "Question": "क्या फफूंदनाशकों को उर्वरकों के साथ मिला सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999714098801163,
+      "CrossScore": 0.999714098801163
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997114496806263,
+      "CrossScore": 0.9997114496806263
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997065228131855,
+      "CrossScore": 0.9997065228131855
+    }
+  ],
+  "latency_ms": 210.6,
+  "final_returned": [
+    {
+      "Question": "मधुमक्खी के बक्से (Hive) के मुख्य भाग क्या हैं?",
+      "Crop": "Beekeeping",
+      "Score": 999.8986922723046
+    },
+    {
+      "Question": "मधुमक्खी के बक्से की 'जाली' का उपयोग?",
+      "Crop": "Beekeeping",
+      "Score": 0.9997597255551346
+    },
+    {
+      "Question": "क्या कीटनाशक मधुमक्खियों के लिए खतरनाक हैं?",
+      "Crop": "General",
+      "Score": 0.9997493228081776
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन के लिए 'लाइसेंस' चाहिए?",
+      "Crop": "Beekeeping",
+      "Score": 0.9997462109383481
+    },
+    {
+      "Question": "श्रमिक मधुमक्खी (Worker Bee) के क्या कार्य हैं?",
+      "Crop": "Beekeeping",
+      "Score": 0.9997447739359823
+    }
+  ]
+}

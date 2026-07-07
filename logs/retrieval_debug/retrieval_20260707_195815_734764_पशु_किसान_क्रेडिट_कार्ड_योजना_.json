@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:15.280010",
+  "query_original": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+  "query_normalized": "पशु किसान क्रेडिट कार्ड योजना क्या है",
+  "query_expanded": "पशु किसान क्रेडिट कार्ड योजना क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्राइको-कार्ड (Tricho-card) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.999119245614386,
+      "CrossScore": 0.9999119245614386
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998616265562902,
+      "CrossScore": 0.9998616265562902
+    },
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998544310163254,
+      "CrossScore": 0.9998544310163253
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 9.998517381633787,
+      "CrossScore": 0.9998517381633787
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998485733193865,
+      "CrossScore": 0.9998485733193866
+    },
+    {
+      "Question": "पीएम-किसान योजना की राशि कैसे मिलती है?",
+      "Crop": "General",
+      "FinalScore": 9.998423690598266,
+      "CrossScore": 0.9998423690598266
+    },
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998419389027047,
+      "CrossScore": 0.9998419389027047
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998412244110632,
+      "CrossScore": 0.9998412244110633
+    },
+    {
+      "Question": "किसान क्रेडिट कार्ड (KCC) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998409375593662,
+      "CrossScore": 0.9998409375593662
+    },
+    {
+      "Question": "ग्रामीण भंडारण योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998354330506968,
+      "CrossScore": 0.9998354330506969
+    }
+  ],
+  "latency_ms": 454.84,
+  "final_returned": [
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "Score": 9.999119245614386
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 9.998616265562902
+    },
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "Score": 9.998544310163254
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 9.998517381633787
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "Score": 9.998485733193865
+    }
+  ]
+}

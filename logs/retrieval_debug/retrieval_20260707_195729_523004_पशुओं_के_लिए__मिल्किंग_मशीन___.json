@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:29.308985",
+  "query_original": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+  "query_normalized": "पशुओं के लिए मिल्किंग मशीन milking machine के फायदे",
+  "query_expanded": "पशुओं के लिए मिल्किंग मशीन milking machine के फायदे",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पशुओं के लिए 'ऑटोमेटिक फीडर'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General",
+      "FinalScore": 0.9999199225342593,
+      "CrossScore": 0.9999199225342593
+    },
+    {
+      "Question": "'मिल्किंग मशीन' (Milking Machine) के क्या फायदे हैं?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9999052574561232,
+      "CrossScore": 0.9999052574561232
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995313347521843,
+      "CrossScore": 0.9995313347521843
+    },
+    {
+      "Question": "'दूध की टेस्टिंग' के लिए मशीन?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9994689382503604,
+      "CrossScore": 0.9994689382503604
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9994425307994628,
+      "CrossScore": 0.9994425307994628
+    },
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General",
+      "FinalScore": 0.9994308897770823,
+      "CrossScore": 0.9994308897770823
+    },
+    {
+      "Question": "सरसों की 'मड़ाई' के लिए किस मशीन का उपयोग करें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9994234531021399,
+      "CrossScore": 0.9994234531021399
+    },
+    {
+      "Question": "मक्का में 'खरपतवार' नियंत्रण के लिए 'मल्चर' मशीन?",
+      "Crop": "Maize",
+      "FinalScore": 0.9993392260959615,
+      "CrossScore": 0.9993392260959615
+    },
+    {
+      "Question": "पशुओं के लिए 'खनिज मिश्रण' (Mineral Mixture) का महत्व?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9992732767023822,
+      "CrossScore": 0.9992732767023822
+    },
+    {
+      "Question": "पशुओं के लिए 'चारा काटने की मशीन'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9992518544109128,
+      "CrossScore": 0.9992518544109128
+    }
+  ],
+  "latency_ms": 214.19,
+  "final_returned": [
+    {
+      "Question": "पशुओं के लिए 'मिल्किंग मशीन' (Milking Machine) के फायदे?",
+      "Crop": "General",
+      "Score": 0.9999199225342593
+    },
+    {
+      "Question": "सब्जियों के लिए 'प्रो-ट्रे' (Pro-tray) नर्सरी के क्या फायदे हैं?",
+      "Crop": "Vegetables",
+      "Score": 0.9995313347521843
+    },
+    {
+      "Question": "'दूध की टेस्टिंग' के लिए मशीन?",
+      "Crop": "Dairy",
+      "Score": 0.9994689382503604
+    },
+    {
+      "Question": "पशुओं के लिए 'अजोला' (Azolla) क्या है?",
+      "Crop": "Dairy",
+      "Score": 0.9994425307994628
+    },
+    {
+      "Question": "सब्जियों के लिए 'मल्च बिछाने की मशीन'?",
+      "Crop": "General",
+      "Score": 0.9994308897770823
+    }
+  ]
+}

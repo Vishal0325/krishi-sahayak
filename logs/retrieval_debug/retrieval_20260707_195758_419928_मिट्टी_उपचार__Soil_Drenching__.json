@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:58.210860",
+  "query_original": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+  "query_normalized": "मिट्टी उपचार soil drenching कैसे करें",
+  "query_expanded": "मिट्टी उपचार soil drenching कैसे करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9999084486636537,
+      "CrossScore": 0.9999084486636537
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9999019492267007,
+      "CrossScore": 0.9999019492267007
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998912989651946,
+      "CrossScore": 0.9998912989651946
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998663553801967,
+      "CrossScore": 0.9998663553801967
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "FinalScore": 0.99985974688483,
+      "CrossScore": 0.99985974688483
+    },
+    {
+      "Question": "अम्लीय मिट्टी (Acidic Soil) का सुधार कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998307040586779,
+      "CrossScore": 0.9998307040586779
+    },
+    {
+      "Question": "हल्दी के प्रकंदों का उपचार (Seed Treatment) कैसे करें?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9992069297671878,
+      "CrossScore": 0.9992069297671878
+    },
+    {
+      "Question": "अदरक के प्रकंदों का उपचार (Seed Treatment) कैसे करें?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9990507530447282,
+      "CrossScore": 0.9990507530447282
+    },
+    {
+      "Question": "मक्का का बीज उपचार कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9989755838119385,
+      "CrossScore": 0.9989755838119385
+    },
+    {
+      "Question": "भिंडी के बीजों का उपचार कैसे करें?",
+      "Crop": "Okra",
+      "FinalScore": 0.9989658190180322,
+      "CrossScore": 0.9989658190180322
+    }
+  ],
+  "latency_ms": 209.18,
+  "final_returned": [
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9999084486636537
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9999019492267007
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) कब करें?",
+      "Crop": "General",
+      "Score": 0.9998912989651946
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) कैसे प्राप्त करें?",
+      "Crop": "General",
+      "Score": 0.9998663553801967
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "Score": 0.99985974688483
+    }
+  ]
+}

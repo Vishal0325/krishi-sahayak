@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:57.606305",
+  "query_original": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+  "query_normalized": "क्या खेती में पट्टे lease पर जमीन लेना फायदेमंद है",
+  "query_expanded": "क्या खेती में पट्टे lease पर जमीन लेना फायदेमंद है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या गन्ने की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "क्या मक्का की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "क्या प्याज की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "क्या सब्जियों की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+      "Crop": "General",
+      "FinalScore": 0.9999034411369555,
+      "CrossScore": 0.9999034411369555
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9995808724388495,
+      "CrossScore": 0.9995808724388495
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "FinalScore": 0.999404038817355,
+      "CrossScore": 0.999404038817355
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9993981508730253,
+      "CrossScore": 0.9993981508730253
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9993865152403242,
+      "CrossScore": 0.9993865152403242
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.999196425736262,
+      "CrossScore": 0.999196425736262
+    },
+    {
+      "Question": "क्या प्याज की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Onion",
+      "FinalScore": 0.9990565385256217,
+      "CrossScore": 0.9990565385256217
+    },
+    {
+      "Question": "क्या मक्का की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9990433292591748,
+      "CrossScore": 0.9990433292591748
+    },
+    {
+      "Question": "'कार्बनिक खेती' और 'जैविक खेती' में क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.999036371389971,
+      "CrossScore": 0.999036371389971
+    },
+    {
+      "Question": "क्या सब्जियों की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9990231020474247,
+      "CrossScore": 0.9990231020474247
+    }
+  ],
+  "latency_ms": 239.94,
+  "final_returned": [
+    {
+      "Question": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+      "Crop": "General",
+      "Score": 0.9999034411369555
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "Score": 0.9995808724388495
+    },
+    {
+      "Question": "क्या खेती में 'बजट' (Budgeting) बनाना जरूरी है?",
+      "Crop": "Economics",
+      "Score": 0.999404038817355
+    },
+    {
+      "Question": "खेती में ई-कॉमर्स (E-commerce) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 0.9993981508730253
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "Score": 0.9993865152403242
+    }
+  ]
+}

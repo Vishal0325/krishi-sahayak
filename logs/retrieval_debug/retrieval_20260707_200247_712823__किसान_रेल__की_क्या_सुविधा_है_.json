@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:47.246402",
+  "query_original": "'किसान रेल' की क्या सुविधा है?",
+  "query_normalized": "किसान रेल की क्या सुविधा है",
+  "query_expanded": "किसान रेल की क्या सुविधा है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General",
+      "FinalScore": 999.9326804984354,
+      "CrossScore": 0.9999326804984354
+    },
+    {
+      "Question": "'राजेंद्र सोनिया' किस्म की क्या विशेषता है?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.999923560553842,
+      "CrossScore": 0.999923560553842
+    },
+    {
+      "Question": "क्या किसान अपनी फसल की 'एमएसपी' (MSP) पर गारंटी ले सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999221654189125,
+      "CrossScore": 0.9999221654189125
+    },
+    {
+      "Question": "प्याज की 'पूसा रेड' किस्म की क्या विशेषता है?",
+      "Crop": "Crop",
+      "FinalScore": 0.9999219557537885,
+      "CrossScore": 0.9999219557537885
+    },
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999215193124612,
+      "CrossScore": 0.9999215193124612
+    },
+    {
+      "Question": "'स्वर्ण वैदेही' किस्म की क्या विशेषता है?",
+      "Crop": "Makhana",
+      "FinalScore": 0.999921511453958,
+      "CrossScore": 0.999921511453958
+    },
+    {
+      "Question": "क्या किसान अपनी खुद की 'खाद' बनाकर बेच सकते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999919511036485,
+      "CrossScore": 0.999919511036485
+    },
+    {
+      "Question": "किसान कॉल सेंटर (1800-180-1551) का बिजनेस में क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.9999178603212509,
+      "CrossScore": 0.9999178603212509
+    },
+    {
+      "Question": "'परभणी क्रांति' किस्म की क्या विशेषता है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999171965650923,
+      "CrossScore": 0.9999171965650923
+    },
+    {
+      "Question": "क्या किसान समूहों को 'थोक' (Wholesale) खरीदारों से जोड़ना संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9999136252294458,
+      "CrossScore": 0.9999136252294458
+    }
+  ],
+  "latency_ms": 466.45,
+  "final_returned": [
+    {
+      "Question": "'किसान रेल' की क्या सुविधा है?",
+      "Crop": "General",
+      "Score": 999.9326804984354
+    },
+    {
+      "Question": "'राजेंद्र सोनिया' किस्म की क्या विशेषता है?",
+      "Crop": "Turmeric",
+      "Score": 0.999923560553842
+    },
+    {
+      "Question": "क्या किसान अपनी फसल की 'एमएसपी' (MSP) पर गारंटी ले सकते हैं?",
+      "Crop": "General",
+      "Score": 0.9999221654189125
+    },
+    {
+      "Question": "प्याज की 'पूसा रेड' किस्म की क्या विशेषता है?",
+      "Crop": "Crop",
+      "Score": 0.9999219557537885
+    },
+    {
+      "Question": "किसान रेल (Kisan Rail) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999215193124612
+    }
+  ]
+}

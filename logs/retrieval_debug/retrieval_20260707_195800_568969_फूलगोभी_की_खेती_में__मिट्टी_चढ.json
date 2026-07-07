@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:00.409302",
+  "query_original": "फूलगोभी की खेती में 'मिट्टी चढ़ावा'?",
+  "query_normalized": "फूलगोभी की खेती में मिट्टी चढ़ावा",
+  "query_expanded": "फूलगोभी की खेती में मिट्टी चढ़ावा",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "फूलगोभी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Cauliflower"
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "बैंगन की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "प्याज की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "हल्दी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Turmeric"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भिंडी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9999410683189379,
+      "CrossScore": 0.9999410683189379
+    },
+    {
+      "Question": "मिर्च की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999323597812961,
+      "CrossScore": 0.9999323597812961
+    },
+    {
+      "Question": "फूलगोभी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Cauliflower",
+      "FinalScore": 0.9999320984301081,
+      "CrossScore": 0.9999320984301081
+    },
+    {
+      "Question": "पत्तागोभी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9999319929326613,
+      "CrossScore": 0.9999319929326613
+    },
+    {
+      "Question": "बैंगन की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9999296720635172,
+      "CrossScore": 0.9999296720635172
+    },
+    {
+      "Question": "अदरक की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9999194129618284,
+      "CrossScore": 0.9999194129618284
+    },
+    {
+      "Question": "हल्दी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.999917156759199,
+      "CrossScore": 0.999917156759199
+    },
+    {
+      "Question": "प्याज की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Onion",
+      "FinalScore": 0.9999170031220095,
+      "CrossScore": 0.9999170031220095
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9999153796899755,
+      "CrossScore": 0.9999153796899755
+    },
+    {
+      "Question": "पपीते की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9999124644539389,
+      "CrossScore": 0.9999124644539389
+    }
+  ],
+  "latency_ms": 159.75,
+  "final_returned": [
+    {
+      "Question": "भिंडी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Okra",
+      "Score": 0.9999410683189379
+    },
+    {
+      "Question": "मिर्च की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Chilli",
+      "Score": 0.9999323597812961
+    },
+    {
+      "Question": "फूलगोभी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Cauliflower",
+      "Score": 0.9999320984301081
+    },
+    {
+      "Question": "पत्तागोभी की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Cabbage",
+      "Score": 0.9999319929326613
+    },
+    {
+      "Question": "अदरक की खेती में 'मिट्टी चढ़ावा'?",
+      "Crop": "Ginger",
+      "Score": 0.9999194129618284
+    }
+  ]
+}

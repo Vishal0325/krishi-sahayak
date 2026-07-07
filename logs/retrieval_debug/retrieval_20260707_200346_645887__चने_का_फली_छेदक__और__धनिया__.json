@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:46.460313",
+  "query_original": "'चने का फली छेदक' और 'धनिया'?",
+  "query_normalized": "चने का फली छेदक और धनिया",
+  "query_expanded": "चने का फली छेदक और धनिया",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'चने का फली छेदक'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'मटर का फली छेदक' कीट?",
+      "Crop": "Pea"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses",
+      "FinalScore": 9998.999734867013,
+      "CrossScore": 0.9998999734867013
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'स्पिनोसाड'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999145823376502,
+      "CrossScore": 0.9999145823376501
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'नियमित तुड़ाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999140730432842,
+      "CrossScore": 0.9999140730432842
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999081579233199,
+      "CrossScore": 0.9999081579233199
+    },
+    {
+      "Question": "'बैंगन का तना छेदक' और 'कटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999049347376227,
+      "CrossScore": 0.9999049347376227
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फलों की छंटाई'?",
+      "Crop": "Brinjal",
+      "FinalScore": 9.999041454298341,
+      "CrossScore": 0.9999041454298342
+    },
+    {
+      "Question": "'लीची का फल छेदक' और 'दवा का समय'?",
+      "Crop": "Litchi",
+      "FinalScore": 9.999019421204938,
+      "CrossScore": 0.9999019421204938
+    },
+    {
+      "Question": "'चने का फली छेदक' के लिए 'एनपीवी' (NPV)?",
+      "Crop": "Pulses",
+      "FinalScore": 9.998947024509947,
+      "CrossScore": 0.9998947024509948
+    },
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice",
+      "FinalScore": 9.998856399152313,
+      "CrossScore": 0.9998856399152313
+    },
+    {
+      "Question": "'लीची का फल छेदक' और नमी?",
+      "Crop": "Litchi",
+      "FinalScore": 9.998797358382728,
+      "CrossScore": 0.9998797358382728
+    }
+  ],
+  "latency_ms": 185.62,
+  "final_returned": [
+    {
+      "Question": "'चने का फली छेदक' और 'धनिया'?",
+      "Crop": "Pulses",
+      "Score": 9998.999734867013
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'स्पिनोसाड'?",
+      "Crop": "Brinjal",
+      "Score": 9.999145823376502
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'नियमित तुड़ाई'?",
+      "Crop": "Brinjal",
+      "Score": 9.999140730432842
+    },
+    {
+      "Question": "'बैंगन का फल छेदक' और 'फेरोमोन ट्रैप'?",
+      "Crop": "Brinjal",
+      "Score": 9.999081579233199
+    },
+    {
+      "Question": "'बैंगन का तना छेदक' और 'कटाई'?",
+      "Crop": "Brinjal",
+      "Score": 9.999049347376227
+    }
+  ]
+}

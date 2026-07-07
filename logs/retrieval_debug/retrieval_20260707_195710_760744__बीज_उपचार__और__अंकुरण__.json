@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:10.561492",
+  "query_original": "'बीज उपचार' और 'अंकुरण'?",
+  "query_normalized": "बीज उपचार और अंकुरण",
+  "query_expanded": "बीज उपचार और अंकुरण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बीज उपचार' और पर्यावरण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं के बीज का अंकुरण परीक्षण कैसे करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General",
+      "FinalScore": 0.9998921888019346,
+      "CrossScore": 0.9998921888019346
+    },
+    {
+      "Question": "'बीज उपचार' और पर्यावरण?",
+      "Crop": "General",
+      "FinalScore": 0.9998879845472515,
+      "CrossScore": 0.9998879845472515
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General",
+      "FinalScore": 0.9998594796915565,
+      "CrossScore": 0.9998594796915565
+    },
+    {
+      "Question": "'बीज उपचार' में कवकनाशी की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9998514657713533,
+      "CrossScore": 0.9998514657713533
+    },
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "FinalScore": 0.9998387155431442,
+      "CrossScore": 0.9998387155431442
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998331454486655,
+      "CrossScore": 0.9998331454486655
+    },
+    {
+      "Question": "बीज उपचार में 'बीजामृत' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998283612059757,
+      "CrossScore": 0.9998283612059757
+    },
+    {
+      "Question": "दलहनी फसलों के लिए 'बीज उपचार' के रसायनों का क्रम?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998255333726599,
+      "CrossScore": 0.9998255333726599
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9998246250456962,
+      "CrossScore": 0.9998246250456962
+    },
+    {
+      "Question": "दलहनी फसलों में 'बीज उपचार' की दवा 'कार्बेन्डाजिम' की मात्रा?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998078912280616,
+      "CrossScore": 0.9998078912280616
+    }
+  ],
+  "latency_ms": 199.34,
+  "final_returned": [
+    {
+      "Question": "'बीज उपचार' और 'अंकुरण'?",
+      "Crop": "General",
+      "Score": 0.9998921888019346
+    },
+    {
+      "Question": "'बीज उपचार' और पर्यावरण?",
+      "Crop": "General",
+      "Score": 0.9998879845472515
+    },
+    {
+      "Question": "'बीज उपचार' (Seed Treatment) और 'बीमारी रोकथाम'?",
+      "Crop": "General",
+      "Score": 0.9998594796915565
+    },
+    {
+      "Question": "'बीज उपचार' में कवकनाशी की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9998514657713533
+    },
+    {
+      "Question": "'बीज उपचार' और किसान की बचत?",
+      "Crop": "General",
+      "Score": 0.9998387155431442
+    }
+  ]
+}

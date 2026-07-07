@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:42.124970",
+  "query_original": "KCC पर ब्याज की दर क्या है?",
+  "query_normalized": "kcc पर ब्याज की दर क्या है",
+  "query_expanded": "kcc पर ब्याज की दर क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मसूर की खेती में 'बीज दर' क्या है?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.999300040551645,
+      "CrossScore": 0.9999300040551646
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 9.999094219364519,
+      "CrossScore": 0.9999094219364519
+    },
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General",
+      "FinalScore": 0.9998947480268129,
+      "CrossScore": 0.9998947480268129
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9997540913864236,
+      "CrossScore": 0.9997540913864236
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.999735020689921,
+      "CrossScore": 0.999735020689921
+    },
+    {
+      "Question": "गेहूं की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9997067510408284,
+      "CrossScore": 0.9997067510408284
+    },
+    {
+      "Question": "सरसों की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.999697840920914,
+      "CrossScore": 0.999697840920914
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'छात्रों' के लिए प्रोजेक्ट हो सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999620677813668,
+      "CrossScore": 0.999620677813668
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9995571692379773,
+      "CrossScore": 0.9995571692379773
+    },
+    {
+      "Question": "लहसुन की बुआई की विधि क्या है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9995485880380657,
+      "CrossScore": 0.9995485880380657
+    }
+  ],
+  "latency_ms": 190.86,
+  "final_returned": [
+    {
+      "Question": "KCC पर ब्याज की दर क्या है?",
+      "Crop": "General",
+      "Score": 9.999300040551645
+    },
+    {
+      "Question": "क्या KCC का उपयोग एटीएम (ATM) की तरह किया जा सकता है?",
+      "Crop": "General",
+      "Score": 9.999094219364519
+    },
+    {
+      "Question": "'किसान क्रेडिट कार्ड' (KCC) की ब्याज दर?",
+      "Crop": "General",
+      "Score": 0.9998947480268129
+    },
+    {
+      "Question": "मक्का की प्रति एकड़ बीज दर क्या है?",
+      "Crop": "Maize",
+      "Score": 0.9997540913864236
+    },
+    {
+      "Question": "प्रति एकड़ धान के बीज की दर क्या है?",
+      "Crop": "Rice",
+      "Score": 0.999735020689921
+    }
+  ]
+}

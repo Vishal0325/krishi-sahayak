@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:31.108384",
+  "query_original": "सब्जियों में सिंचाई का नियम?",
+  "query_normalized": "सब्जियों में सिंचाई का नियम",
+  "query_expanded": "सब्जियों में सिंचाई का नियम",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सब्जियों में सिंचाई का नियम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "भिंडी में 'सिंचाई' का अंतराल गर्मियों में?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "धनिया में सिंचाई का सही तरीका?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "गन्ने में 'सिंचाई' का अंतराल मिट्टी के अनुसार?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सब्जियों में सिंचाई का नियम?",
+      "Crop": "General",
+      "FinalScore": 0.9999070116850333,
+      "CrossScore": 0.9999070116850333
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9999035967133959,
+      "CrossScore": 0.9999035967133959
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9998919151978681,
+      "CrossScore": 0.9998919151978681
+    },
+    {
+      "Question": "भिंडी में 'सिंचाई' का अंतराल गर्मियों में?",
+      "Crop": "Okra",
+      "FinalScore": 0.999891276677275,
+      "CrossScore": 0.999891276677275
+    },
+    {
+      "Question": "प्याज में सिंचाई का सही तरीका?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998856724074564,
+      "CrossScore": 0.9998856724074564
+    },
+    {
+      "Question": "दलहनी फसलों में 'जल प्रबंधन' का नियम?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998812763486379,
+      "CrossScore": 0.9998812763486379
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998802982813233,
+      "CrossScore": 0.9998802982813233
+    },
+    {
+      "Question": "धनिया में 'सिंचाई' का अंतराल सर्दियों में?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998731770110059,
+      "CrossScore": 0.9998731770110059
+    },
+    {
+      "Question": "टमाटर में सिंचाई का सही तरीका?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998725387006937,
+      "CrossScore": 0.9998725387006937
+    },
+    {
+      "Question": "लहसुन में 'सिंचाई' का अंतराल सर्दियों में?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998723567455139,
+      "CrossScore": 0.9998723567455139
+    }
+  ],
+  "latency_ms": 175.62,
+  "final_returned": [
+    {
+      "Question": "सब्जियों में सिंचाई का नियम?",
+      "Crop": "General",
+      "Score": 0.9999070116850333
+    },
+    {
+      "Question": "'सब्जियों' में 'फल मक्खी' (Fruit Fly) का सबसे प्रभावी नियंत्रण?",
+      "Crop": "Vegetables",
+      "Score": 0.9999035967133959
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "Score": 0.9998919151978681
+    },
+    {
+      "Question": "भिंडी में 'सिंचाई' का अंतराल गर्मियों में?",
+      "Crop": "Okra",
+      "Score": 0.999891276677275
+    },
+    {
+      "Question": "प्याज में सिंचाई का सही तरीका?",
+      "Crop": "Onion",
+      "Score": 0.9998856724074564
+    }
+  ]
+}

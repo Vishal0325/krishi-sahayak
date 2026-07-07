@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:10.219690",
+  "query_original": "'नींबू का कैंकर' (Citrus Canker) और 'बारिश'?",
+  "query_normalized": "नींबू का कैंकर citrus canker और बारिश",
+  "query_expanded": "नींबू का कैंकर citrus canker और बारिश",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'नींबू का कैंकर' (Citrus Canker) और 'बारिश'?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "नींबू का 'कैंकर' (Citrus Canker) क्या है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "नींबू वर्गीय फलों में 'सिट्रस कैंकर' का उपचार?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'गन्ने का पायरिला' और 'बारिश'?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'नींबू का कैंकर' (Citrus Canker) और 'बारिश'?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998997007967477,
+      "CrossScore": 0.9998997007967477
+    },
+    {
+      "Question": "नींबू का 'कैंकर' (Citrus Canker) क्या है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998901913098215,
+      "CrossScore": 0.9998901913098215
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9969824221431729,
+      "CrossScore": 0.9969824221431729
+    },
+    {
+      "Question": "नींबू वर्गीय फलों में 'सिट्रस कैंकर' का उपचार?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9957323958282678,
+      "CrossScore": 0.9957323958282678
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "FinalScore": 0.9952951969966716,
+      "CrossScore": 0.9952951969966716
+    },
+    {
+      "Question": "'गन्ने का पायरिला' और 'बारिश'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9937708606847561,
+      "CrossScore": 0.9937708606847561
+    },
+    {
+      "Question": "'जैविक दवाओं' का प्रयोग और 'बारिश'?",
+      "Crop": "General",
+      "FinalScore": 0.9931475764322542,
+      "CrossScore": 0.9931475764322542
+    },
+    {
+      "Question": "'आलू का पिछेती झुलसा' (Late Blight) और 'बादल'?",
+      "Crop": "Potato",
+      "FinalScore": 0.9925037296274198,
+      "CrossScore": 0.9925037296274198
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango",
+      "FinalScore": 0.9910267493333261,
+      "CrossScore": 0.9910267493333261
+    },
+    {
+      "Question": "'लीची का फल फटना' (Fruit Cracking) और 'बोरॉन'?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9904885447068247,
+      "CrossScore": 0.9904885447068247
+    }
+  ],
+  "latency_ms": 203.04,
+  "final_returned": [
+    {
+      "Question": "'नींबू का कैंकर' (Citrus Canker) और 'बारिश'?",
+      "Crop": "Fruits",
+      "Score": 0.9998997007967477
+    },
+    {
+      "Question": "नींबू का 'कैंकर' (Citrus Canker) क्या है?",
+      "Crop": "Fruits",
+      "Score": 0.9998901913098215
+    },
+    {
+      "Question": "नींबू में 'फल झड़ने' (Fruit Drop) का कारण?",
+      "Crop": "Fruits",
+      "Score": 0.9969824221431729
+    },
+    {
+      "Question": "नींबू वर्गीय फलों में 'सिट्रस कैंकर' का उपचार?",
+      "Crop": "Fruits",
+      "Score": 0.9957323958282678
+    },
+    {
+      "Question": "'धान का झुलसा' (Blast) और 'नमी'?",
+      "Crop": "Rice",
+      "Score": 0.9952951969966716
+    }
+  ]
+}

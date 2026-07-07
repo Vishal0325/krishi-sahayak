@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:58:39.008112",
+  "query_original": "आलू के 'कंदों का सड़न' खेत in?",
+  "query_normalized": "आलू के कंदों का सड़न खेत in",
+  "query_expanded": "आलू के कंदों का सड़न खेत in",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आलू के 'कंदों का सड़न' खेत in?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के 'कंदों का हरापन'?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के भंडारण में 'सड़न' (Soft Rot) का कारण?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू के कंदों का हरा रंग क्यों हो जाता है?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आलू के 'कंदों का सड़न' खेत in?",
+      "Crop": "Potato",
+      "FinalScore": 49.99466315398596,
+      "CrossScore": 0.9998932630797192
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "FinalScore": 49.99416656197132,
+      "CrossScore": 0.9998833312394264
+    },
+    {
+      "Question": "आलू में 'सल्फर' के लिए एसएसपी (SSP) का महत्व?",
+      "Crop": "Potato",
+      "FinalScore": 49.992873108518005,
+      "CrossScore": 0.9998574621703601
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "FinalScore": 49.99283403489731,
+      "CrossScore": 0.9998566806979461
+    },
+    {
+      "Question": "आलू के 'कंदों का हरापन'?",
+      "Crop": "Potato",
+      "FinalScore": 49.992498901548196,
+      "CrossScore": 0.9998499780309639
+    },
+    {
+      "Question": "आलू के 'पिछेती झुलसा' का आर्थिक असर?",
+      "Crop": "Potato",
+      "FinalScore": 49.99240667963337,
+      "CrossScore": 0.9998481335926673
+    },
+    {
+      "Question": "आलू की खुदाई के बाद 'खेत' को खाली न छोड़ें?",
+      "Crop": "Potato",
+      "FinalScore": 49.991827513002754,
+      "CrossScore": 0.9998365502600551
+    },
+    {
+      "Question": "आलू के भंडारण में 'नेप्थलीन' का उपयोग?",
+      "Crop": "Potato",
+      "FinalScore": 49.99181487920955,
+      "CrossScore": 0.999836297584191
+    },
+    {
+      "Question": "आलू की खुदाई के बाद 'स्ट्रॉ' का प्रबंधन?",
+      "Crop": "Potato",
+      "FinalScore": 49.991671150165814,
+      "CrossScore": 0.9998334230033163
+    },
+    {
+      "Question": "आलू में 'सिंचाई' के लिए 'लेजर लेवलिंग' का प्रभाव?",
+      "Crop": "Potato",
+      "FinalScore": 49.991593325664944,
+      "CrossScore": 0.9998318665132989
+    }
+  ],
+  "latency_ms": 190.06,
+  "final_returned": [
+    {
+      "Question": "आलू के 'कंदों का सड़न' खेत in?",
+      "Crop": "Potato",
+      "Score": 49.99466315398596
+    },
+    {
+      "Question": "आलू in 'अगेती झुलसा' के लिए 'मैंकोज़ेब'?",
+      "Crop": "Potato",
+      "Score": 49.99416656197132
+    },
+    {
+      "Question": "आलू में 'सल्फर' के लिए एसएसपी (SSP) का महत्व?",
+      "Crop": "Potato",
+      "Score": 49.992873108518005
+    },
+    {
+      "Question": "'आलू' के कंदों का 'सड़न' (Soft Rot)?",
+      "Crop": "Potato",
+      "Score": 49.99283403489731
+    },
+    {
+      "Question": "आलू के 'कंदों का हरापन'?",
+      "Crop": "Potato",
+      "Score": 49.992498901548196
+    }
+  ]
+}

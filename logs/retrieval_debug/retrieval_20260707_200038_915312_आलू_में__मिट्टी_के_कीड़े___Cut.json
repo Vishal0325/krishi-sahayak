@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:38.711329",
+  "query_original": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+  "query_normalized": "आलू में मिट्टी के कीड़े cutworms का नियंत्रण",
+  "query_expanded": "आलू में मिट्टी के कीड़े cutworms का नियंत्रण",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'निराई' का समय?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'मिट्टी का तेल' (Kerosene) न डालें?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए कौन सी दवा डालें?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू में 'सफेद मक्खी' का नियंत्रण?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato",
+      "FinalScore": 49993.38889241514,
+      "CrossScore": 0.9998677778483028
+    },
+    {
+      "Question": "आलू के भंडारण में 'सड़न' (Soft Rot) का कारण?",
+      "Crop": "Potato",
+      "FinalScore": 49.928223154454756,
+      "CrossScore": 0.9985644630890951
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Potato",
+      "FinalScore": 49.926613408007206,
+      "CrossScore": 0.9985322681601441
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'मिट्टी का तेल' (Kerosene) न डालें?",
+      "Crop": "Potato",
+      "FinalScore": 49.921718419529384,
+      "CrossScore": 0.9984343683905876
+    },
+    {
+      "Question": "आलू की खेती में 'मिट्टी का पीएच' मान?",
+      "Crop": "Potato",
+      "FinalScore": 49.92005986329537,
+      "CrossScore": 0.9984011972659074
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए कौन सी दवा डालें?",
+      "Crop": "Potato",
+      "FinalScore": 49.89712246420274,
+      "CrossScore": 0.9979424492840547
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'मलचिंग'?",
+      "Crop": "Potato",
+      "FinalScore": 49.89383926689232,
+      "CrossScore": 0.9978767853378464
+    },
+    {
+      "Question": "आलू के भंडारण में 'नेप्थलीन' का उपयोग?",
+      "Crop": "Potato",
+      "FinalScore": 49.88867430429463,
+      "CrossScore": 0.9977734860858927
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'पैराक्वाट'?",
+      "Crop": "Potato",
+      "FinalScore": 49.886341840817444,
+      "CrossScore": 0.9977268368163489
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'निराई' का समय?",
+      "Crop": "Potato",
+      "FinalScore": 49.88415378390394,
+      "CrossScore": 0.9976830756780788
+    }
+  ],
+  "latency_ms": 204.03,
+  "final_returned": [
+    {
+      "Question": "आलू में 'मिट्टी के कीड़े' (Cutworms) का नियंत्रण?",
+      "Crop": "Potato",
+      "Score": 49993.38889241514
+    },
+    {
+      "Question": "आलू के भंडारण में 'सड़न' (Soft Rot) का कारण?",
+      "Crop": "Potato",
+      "Score": 49.928223154454756
+    },
+    {
+      "Question": "आलू में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Potato",
+      "Score": 49.926613408007206
+    },
+    {
+      "Question": "आलू में 'दीमक' के लिए 'मिट्टी का तेल' (Kerosene) न डालें?",
+      "Crop": "Potato",
+      "Score": 49.921718419529384
+    },
+    {
+      "Question": "आलू की खेती में 'मिट्टी का पीएच' मान?",
+      "Crop": "Potato",
+      "Score": 49.92005986329537
+    }
+  ]
+}

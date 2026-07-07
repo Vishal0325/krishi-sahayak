@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:07.959175",
+  "query_original": "'ड्रिप सिंचाई' में 'वेंचुरी' (Venturi) का काम?",
+  "query_normalized": "ड्रिप सिंचाई में वेंचुरी venturi का काम",
+  "query_expanded": "ड्रिप सिंचाई में वेंचुरी venturi का काम",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ड्रिप सिंचाई' में 'वेंचुरी' (Venturi) का काम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "भिंडी में 'सिंचाई' का अंतराल गर्मियों में?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या गन्ने की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ड्रिप सिंचाई' में 'वेंचुरी' (Venturi) का काम?",
+      "Crop": "General",
+      "FinalScore": 0.9998830333746543,
+      "CrossScore": 0.9998830333746543
+    },
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General",
+      "FinalScore": 0.9995890292479259,
+      "CrossScore": 0.9995890292479259
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9995561553914611,
+      "CrossScore": 0.9995561553914611
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' में 'फिल्टर' की महत्ता?",
+      "Crop": "General",
+      "FinalScore": 0.9995468600756416,
+      "CrossScore": 0.9995468600756416
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9995366318092698,
+      "CrossScore": 0.9995366318092698
+    },
+    {
+      "Question": "बैंगन की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9995314687563932,
+      "CrossScore": 0.9995314687563932
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में सिंचाई का सही तरीका?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9995259914028141,
+      "CrossScore": 0.9995259914028141
+    },
+    {
+      "Question": "भिंडी की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Okra",
+      "FinalScore": 0.9995190049912541,
+      "CrossScore": 0.9995190049912541
+    },
+    {
+      "Question": "टमाटर की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9994977039855295,
+      "CrossScore": 0.9994977039855295
+    },
+    {
+      "Question": "क्या मक्का की खेती में ड्रिप सिंचाई फायदेमंद है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9994763298933799,
+      "CrossScore": 0.9994763298933799
+    }
+  ],
+  "latency_ms": 208.61,
+  "final_returned": [
+    {
+      "Question": "'ड्रिप सिंचाई' में 'वेंचुरी' (Venturi) का काम?",
+      "Crop": "General",
+      "Score": 0.9998830333746543
+    },
+    {
+      "Question": "ट्रैक्टर में 'डिफरेंशियल लॉक' (Differential Lock) का क्या काम है?",
+      "Crop": "General",
+      "Score": 0.9995890292479259
+    },
+    {
+      "Question": "मिर्च की सिंचाई के लिए 'ड्रिप' और 'बाढ़' (Flood) में तुलना?",
+      "Crop": "Chilli",
+      "Score": 0.9995561553914611
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' में 'फिल्टर' की महत्ता?",
+      "Crop": "General",
+      "Score": 0.9995468600756416
+    },
+    {
+      "Question": "क्या फलों के बाग में 'ड्रिप सिंचाई' अनिवार्य है?",
+      "Crop": "Fruits",
+      "Score": 0.9995366318092698
+    }
+  ]
+}

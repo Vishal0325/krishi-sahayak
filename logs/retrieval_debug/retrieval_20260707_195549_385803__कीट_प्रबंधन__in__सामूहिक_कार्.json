@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:49.182862",
+  "query_original": "'कीट प्रबंधन' in 'सामूहिक कार्य'?",
+  "query_normalized": "कीट प्रबंधन in सामूहिक कार्य",
+  "query_expanded": "कीट प्रबंधन in सामूहिक कार्य बग pest कीड़ा कीट insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक कार्य'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक निर्णय'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सामूहिक कार्य'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.99911871633175,
+      "CrossScore": 0.9999118716331751
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक कार्य'?",
+      "Crop": "General",
+      "FinalScore": 9.998935281958335,
+      "CrossScore": 0.9998935281958335
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव की एकता'?",
+      "Crop": "General",
+      "FinalScore": 9.998864262838266,
+      "CrossScore": 0.9998864262838266
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "FinalScore": 9.998855777399497,
+      "CrossScore": 0.9998855777399497
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक निर्णय'?",
+      "Crop": "General",
+      "FinalScore": 9.998792400940175,
+      "CrossScore": 0.9998792400940175
+    },
+    {
+      "Question": "'कीट प्रबंधन' in विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.998742825668016,
+      "CrossScore": 0.9998742825668016
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सामूहिक कार्य'?",
+      "Crop": "General",
+      "FinalScore": 9.998705054386738,
+      "CrossScore": 0.9998705054386737
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'मिट्टी की जांच'?",
+      "Crop": "General",
+      "FinalScore": 9.998697748558493,
+      "CrossScore": 0.9998697748558493
+    },
+    {
+      "Question": "'कीट प्रबंधन' in किसानों के लिए सबसे बड़ी सलाह?",
+      "Crop": "General",
+      "FinalScore": 9.998697163557239,
+      "CrossScore": 0.999869716355724
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 9.998652731654241,
+      "CrossScore": 0.9998652731654242
+    }
+  ],
+  "latency_ms": 203.1,
+  "final_returned": [
+    {
+      "Question": "'कीट प्रबंधन' in 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.99911871633175
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक कार्य'?",
+      "Crop": "General",
+      "Score": 9.998935281958335
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'गाँव की एकता'?",
+      "Crop": "General",
+      "Score": 9.998864262838266
+    },
+    {
+      "Question": "'कीट प्रबंधन' में 'सटीक समय'?",
+      "Crop": "General",
+      "Score": 9.998855777399497
+    },
+    {
+      "Question": "'कीट प्रबंधन' in 'सामूहिक निर्णय'?",
+      "Crop": "General",
+      "Score": 9.998792400940175
+    }
+  ]
+}

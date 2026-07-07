@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:12.977282",
+  "query_original": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+  "query_normalized": "पशुओं में दूध का बुखार milk fever क्यों होता है",
+  "query_expanded": "पशुओं में दूध का बुखार milk fever क्यों होता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever)?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "पत्तागोभी में 'सिर का फटना' (Head Splitting) क्यों होता है?",
+      "Crop": "Cabbage"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    },
+    {
+      "Question": "पपीते में 'तना सड़न' (Foot Rot) क्यों होता है?",
+      "Crop": "Fruits"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General",
+      "FinalScore": 999.9132609812181,
+      "CrossScore": 0.999913260981218
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever)?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999065241324331,
+      "CrossScore": 0.9999065241324331
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998926903516011,
+      "CrossScore": 0.9998926903516011
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9986192870461431,
+      "CrossScore": 0.9986192870461431
+    },
+    {
+      "Question": "लहसुन में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9984576869789119,
+      "CrossScore": 0.9984576869789119
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9983355092916315,
+      "CrossScore": 0.9983355092916315
+    },
+    {
+      "Question": "मक्का की खेती में पशुपालन का क्या संबंध है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9982957181630467,
+      "CrossScore": 0.9982957181630467
+    },
+    {
+      "Question": "प्याज में 'फास्फोरस' के लिए 'एसएसपी' क्यों बेहतर है?",
+      "Crop": "Onion",
+      "FinalScore": 0.9982298410514537,
+      "CrossScore": 0.9982298410514537
+    },
+    {
+      "Question": "धनिया के बीज को दो भागों में क्यों तोड़ा जाता है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9980345726604235,
+      "CrossScore": 0.9980345726604235
+    },
+    {
+      "Question": "पशुओं में 'टीकाकरण' (Vaccination) क्यों जरूरी है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9979950033826053,
+      "CrossScore": 0.9979950033826053
+    }
+  ],
+  "latency_ms": 240.43,
+  "final_returned": [
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever) क्यों होता है?",
+      "Crop": "General",
+      "Score": 999.9132609812181
+    },
+    {
+      "Question": "पशुओं में 'दूध का बुखार' (Milk Fever)?",
+      "Crop": "Livestock",
+      "Score": 0.9999065241324331
+    },
+    {
+      "Question": "पशुओं में 'कैल्शियम' की कमी (Milk Fever)?",
+      "Crop": "Dairy",
+      "Score": 0.9998926903516011
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "Score": 0.9986192870461431
+    },
+    {
+      "Question": "लहसुन में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Garlic",
+      "Score": 0.9984576869789119
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:41.503472",
+  "query_original": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+  "query_normalized": "स्मार्ट खेती smart farming को सरकार कैसे बढ़ावा दे रही है",
+  "query_expanded": "स्मार्ट खेती smart farming को सरकार कैसे बढ़ावा दे रही है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' को सरकार कैसे मदद करती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ड्रोन स्प्रेइंग (Drone Spraying) पर सरकार कितनी सब्सिडी दे रही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'किफायती खेती' (Cost-Effective Farming) कैसे करें?",
+      "Crop": "Economics"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "FinalScore": 999.9172140136282,
+      "CrossScore": 0.9999172140136282
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998870070151881,
+      "CrossScore": 0.9998870070151881
+    },
+    {
+      "Question": "वर्षा आधारित खेती (Rainfed Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998232944614246,
+      "CrossScore": 0.9998232944614246
+    },
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998225696527132,
+      "CrossScore": 0.9998225696527132
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998202027332054,
+      "CrossScore": 0.9998202027332054
+    },
+    {
+      "Question": "खेती के साथ पशुपालन (Integrated Farming) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9998160202861275,
+      "CrossScore": 0.9998160202861275
+    },
+    {
+      "Question": "अनुबंध खेती (Contract Farming) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998124318211814,
+      "CrossScore": 0.9998124318211814
+    },
+    {
+      "Question": "बांस की खेती (Bamboo Farming) में क्या मुनाफा है?",
+      "Crop": "General",
+      "FinalScore": 0.9998067886663966,
+      "CrossScore": 0.9998067886663966
+    },
+    {
+      "Question": "'अनुबंध खेती' (Contract Farming) के आर्थिक फायदे?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998061982460201,
+      "CrossScore": 0.9998061982460201
+    },
+    {
+      "Question": "बकरी पालन (Goat Farming) को 'एटीएम' क्यों कहा जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997944801319522,
+      "CrossScore": 0.9997944801319522
+    }
+  ],
+  "latency_ms": 227.71,
+  "final_returned": [
+    {
+      "Question": "स्मार्ट खेती (Smart Farming) को सरकार कैसे बढ़ावा दे रही है?",
+      "Crop": "General",
+      "Score": 999.9172140136282
+    },
+    {
+      "Question": "'स्मार्ट खेती' (Smart Farming) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998870070151881
+    },
+    {
+      "Question": "वर्षा आधारित खेती (Rainfed Farming) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998232944614246
+    },
+    {
+      "Question": "शुष्क खेती (Dryland Farming) में जल संचयन का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998225696527132
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998202027332054
+    }
+  ]
+}

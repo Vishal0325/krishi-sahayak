@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:26.786212",
+  "query_original": "'रोग प्रबंधन' में 'फसल चक्र'?",
+  "query_normalized": "रोग प्रबंधन में फसल चक्र",
+  "query_expanded": "fungus रोग प्रबंधन में फसल चक्र फंगस बीमारी झुलसा disease रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "खेती में 'दाल' आधारित फसल चक्र के लाभ?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "चने की खेती में 'उकठा' रोकने के लिए 'फसल चक्र'?",
+      "Crop": "Pulses"
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'फसल चक्र' की भूमिका?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "FinalScore": 9999.013427925096,
+      "CrossScore": 0.9999013427925095
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 9.998843706728048,
+      "CrossScore": 0.9998843706728048
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 9.998633719080512,
+      "CrossScore": 0.9998633719080513
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "FinalScore": 9.998617378730259,
+      "CrossScore": 0.9998617378730259
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "FinalScore": 9.998553288048516,
+      "CrossScore": 0.9998553288048515
+    },
+    {
+      "Question": "फसल सुरक्षा में 'समग्र प्रबंधन' (IPM)?",
+      "Crop": "General",
+      "FinalScore": 0.9998792872969935,
+      "CrossScore": 0.9998792872969935
+    },
+    {
+      "Question": "प्याज में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998631809131783,
+      "CrossScore": 0.9998631809131783
+    },
+    {
+      "Question": "फसल सुरक्षा में 'जल प्रबंधन'?",
+      "Crop": "General",
+      "FinalScore": 0.9998629752796047,
+      "CrossScore": 0.9998629752796047
+    },
+    {
+      "Question": "लहसुन में 'खरपतवार' नियंत्रण के लिए 'फसल चक्र'?",
+      "Crop": "Garlic",
+      "FinalScore": 0.999849947128845,
+      "CrossScore": 0.999849947128845
+    },
+    {
+      "Question": "कीटों के प्रबंधन in 'फसल चक्र' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998229701584489,
+      "CrossScore": 0.9998229701584489
+    }
+  ],
+  "latency_ms": 187.8,
+  "final_returned": [
+    {
+      "Question": "'रोग प्रबंधन' में 'फसल चक्र'?",
+      "Crop": "General",
+      "Score": 9999.013427925096
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'स्यूडोमोनास' का उपयोग?",
+      "Crop": "General",
+      "Score": 9.998843706728048
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 9.998633719080512
+    },
+    {
+      "Question": "'रोग प्रबंधन' में 'बीज की गहराई'?",
+      "Crop": "General",
+      "Score": 9.998617378730259
+    },
+    {
+      "Question": "'रोग प्रबंधन' में विशेषज्ञों का अंतिम सुझाव?",
+      "Crop": "General",
+      "Score": 9.998553288048516
+    }
+  ]
+}

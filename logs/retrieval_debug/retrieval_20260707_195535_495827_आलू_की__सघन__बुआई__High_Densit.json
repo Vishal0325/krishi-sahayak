@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:55:35.300631",
+  "query_original": "आलू की 'सघन' बुआई (High Density)?",
+  "query_normalized": "आलू की सघन बुआई high density",
+  "query_expanded": "आलू की सघन बुआई high density",
+  "detected_crops": [
+    "Potato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आलू की 'सघन' बुआई (High Density)?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू की बुआई का सबसे अच्छा समय?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "पछेती आलू की बुआई कब तक कर सकते हैं?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू की बुआई की विधि क्या है?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "आलू की बुआई के लिए मेड़ की ऊंचाई कितनी हो?",
+      "Crop": "Potato"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आलू की 'सघन' बुआई (High Density)?",
+      "Crop": "Potato",
+      "FinalScore": 49.996025759406734,
+      "CrossScore": 0.9999205151881346
+    },
+    {
+      "Question": "आलू की 'डीहॉल्मिंग' (Dehaulming) क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.54055023375082,
+      "CrossScore": 0.9908110046750165
+    },
+    {
+      "Question": "आलू की 'सीधी बुआई' और 'मशीनी बुआई' में अंतर?",
+      "Crop": "Potato",
+      "FinalScore": 49.30495459077833,
+      "CrossScore": 0.9860990918155667
+    },
+    {
+      "Question": "आलू की 'पछेती' बुआई में 'उपज' बचाने के लिए?",
+      "Crop": "Potato",
+      "FinalScore": 49.27219440119774,
+      "CrossScore": 0.9854438880239548
+    },
+    {
+      "Question": "आलू में 'बोरॉन' की कमी के लक्षण?",
+      "Crop": "Potato",
+      "FinalScore": 49.16168269829807,
+      "CrossScore": 0.9832336539659615
+    },
+    {
+      "Question": "आलू की बुआई की विधि क्या है?",
+      "Crop": "Potato",
+      "FinalScore": 49.13662114408987,
+      "CrossScore": 0.9827324228817974
+    },
+    {
+      "Question": "आलू की 'सघन' खेती में बीमारी का फैलाव?",
+      "Crop": "Potato",
+      "FinalScore": 49.07180471179302,
+      "CrossScore": 0.9814360942358604
+    },
+    {
+      "Question": "आलू की 'पछेती' बुआई में 'गर्मी' का प्रभाव?",
+      "Crop": "Potato",
+      "FinalScore": 49.070289027369384,
+      "CrossScore": 0.9814057805473877
+    },
+    {
+      "Question": "आलू की खेती में 'ट्रैक्टर चालित प्लांटर' के लाभ?",
+      "Crop": "Potato",
+      "FinalScore": 48.92931765829242,
+      "CrossScore": 0.9785863531658484
+    },
+    {
+      "Question": "आलू की खुदाई कब करें?",
+      "Crop": "Potato",
+      "FinalScore": 48.90147717918957,
+      "CrossScore": 0.9780295435837913
+    }
+  ],
+  "latency_ms": 195.3,
+  "final_returned": [
+    {
+      "Question": "आलू की 'सघन' बुआई (High Density)?",
+      "Crop": "Potato",
+      "Score": 49.996025759406734
+    },
+    {
+      "Question": "आलू की 'डीहॉल्मिंग' (Dehaulming) क्या है?",
+      "Crop": "Potato",
+      "Score": 49.54055023375082
+    },
+    {
+      "Question": "आलू की 'सीधी बुआई' और 'मशीनी बुआई' में अंतर?",
+      "Crop": "Potato",
+      "Score": 49.30495459077833
+    },
+    {
+      "Question": "आलू की 'पछेती' बुआई में 'उपज' बचाने के लिए?",
+      "Crop": "Potato",
+      "Score": 49.27219440119774
+    },
+    {
+      "Question": "आलू में 'बोरॉन' की कमी के लक्षण?",
+      "Crop": "Potato",
+      "Score": 49.16168269829807
+    }
+  ]
+}

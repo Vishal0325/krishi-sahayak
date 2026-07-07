@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:48.254550",
+  "query_original": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+  "query_normalized": "मुख्यमंत्री बागवानी मिशन बिहार के क्या लाभ हैं",
+  "query_expanded": "मुख्यमंत्री बागवानी मिशन बिहार के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बेबी कॉर्न (Baby Corn) की खेती के क्या लाभ हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 999.8714413502772,
+      "CrossScore": 0.9998714413502773
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9998445745431507,
+      "CrossScore": 0.9998445745431507
+    },
+    {
+      "Question": "मखाना के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998307143896178,
+      "CrossScore": 0.9998307143896178
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9998221411088329,
+      "CrossScore": 0.9998221411088329
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998171296459036,
+      "CrossScore": 0.9998171296459036
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998030984815331,
+      "CrossScore": 0.9998030984815331
+    },
+    {
+      "Question": "बिहार में सब्जियों के विपणन (Marketing) के लिए क्या सुविधाएं हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997947720988887,
+      "CrossScore": 0.9997947720988887
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9997922108407601,
+      "CrossScore": 0.9997922108407601
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9997808483820464,
+      "CrossScore": 0.9997808483820464
+    },
+    {
+      "Question": "एफपीओ (FPO) से जुड़ने के व्यापारिक लाभ क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997805184053559,
+      "CrossScore": 0.9997805184053559
+    }
+  ],
+  "latency_ms": 328.69,
+  "final_returned": [
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 999.8714413502772
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9998445745431507
+    },
+    {
+      "Question": "मखाना के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Makhana",
+      "Score": 0.9998307143896178
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "Score": 0.9998221411088329
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9998171296459036
+    }
+  ]
+}

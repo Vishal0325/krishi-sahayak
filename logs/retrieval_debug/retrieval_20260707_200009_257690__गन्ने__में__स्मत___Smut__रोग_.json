@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:09.041418",
+  "query_original": "'गन्ने' में 'स्मत' (Smut) रोग?",
+  "query_normalized": "गन्ने में स्मत smut रोग",
+  "query_expanded": "fungus गन्ने में स्मत smut रोग फंगस बीमारी झुलसा disease रोग",
+  "detected_crops": [],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने में सिंचाई का सही तरीका?",
+      "Crop": "Sugarcane"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9999.064855280563,
+      "CrossScore": 0.9999064855280564
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.998780972521336,
+      "CrossScore": 0.9998780972521336
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "FinalScore": 9.99648399707621,
+      "CrossScore": 0.999648399707621
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999753141639552,
+      "CrossScore": 0.999753141639552
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996282390840137,
+      "CrossScore": 0.9996282390840137
+    },
+    {
+      "Question": "गन्ने की खेती में 'यूरिया' की टॉप ड्रेसिंग?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9996128362381482,
+      "CrossScore": 0.9996128362381482
+    },
+    {
+      "Question": "गन्ने की खेती में 'प्रेस मड' (Press mud) का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9995660308733484,
+      "CrossScore": 0.9995660308733484
+    },
+    {
+      "Question": "गन्ने में 'पोटाश' का क्या महत्व है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9995511051701296,
+      "CrossScore": 0.9995511051701296
+    },
+    {
+      "Question": "गन्ने में 'बोरोन' की कमी?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9995359488839798,
+      "CrossScore": 0.9995359488839798
+    },
+    {
+      "Question": "गन्ने की खेती में सबसे बड़ी चुनौती?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9995295714949767,
+      "CrossScore": 0.9995295714949767
+    }
+  ],
+  "latency_ms": 216.31,
+  "final_returned": [
+    {
+      "Question": "'गन्ने' में 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9999.064855280563
+    },
+    {
+      "Question": "गन्ने in 'स्मत' (Smut) रोग?",
+      "Crop": "Sugarcane",
+      "Score": 9.998780972521336
+    },
+    {
+      "Question": "'गन्ने' में 'स्मत' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Sugarcane",
+      "Score": 9.99648399707621
+    },
+    {
+      "Question": "गन्ने की फसल में 'सूखे' से बचाव?",
+      "Crop": "Sugarcane",
+      "Score": 0.999753141639552
+    },
+    {
+      "Question": "गन्ने में 'मैग्नीशियम' की कमी के लक्षण?",
+      "Crop": "Sugarcane",
+      "Score": 0.9996282390840137
+    }
+  ]
+}

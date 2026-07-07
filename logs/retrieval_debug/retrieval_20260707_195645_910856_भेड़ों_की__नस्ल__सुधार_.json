@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:45.735555",
+  "query_original": "भेड़ों की 'नस्ल' सुधार?",
+  "query_normalized": "भेड़ों की नस्ल सुधार",
+  "query_expanded": "भेड़ों की नस्ल सुधार",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "भेड़ों की 'नस्ल' सुधार?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "मुर्गियों की 'नस्ल सुधार'?",
+      "Crop": "Poultry"
+    },
+    {
+      "Question": "भेड़ों की 'ऊन' (Wool) उतारने का समय?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "अमरूद की सिंचाई के लिए 'बेसिन' (थाला) विधि?",
+      "Crop": "Guava"
+    },
+    {
+      "Question": "भिंडी की कटाई के समय 'सावधानी'?",
+      "Crop": "Okra"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "भेड़ों की 'नस्ल' सुधार?",
+      "Crop": "Livestock",
+      "FinalScore": 0.99990597038301,
+      "CrossScore": 0.99990597038301
+    },
+    {
+      "Question": "भिंडी की कटाई के समय 'सावधानी'?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998863354921311,
+      "CrossScore": 0.9998863354921311
+    },
+    {
+      "Question": "भिंडी की 'अर्का अनामिका' किस्म?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998834732205256,
+      "CrossScore": 0.9998834732205256
+    },
+    {
+      "Question": "भिंडी की 'मृदा' की उर्वरता का राज?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998749919167823,
+      "CrossScore": 0.9998749919167823
+    },
+    {
+      "Question": "भेड़ों की 'ऊन' (Wool) उतारने का समय?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998693611902607,
+      "CrossScore": 0.9998693611902607
+    },
+    {
+      "Question": "मुर्गियों की 'नस्ल सुधार'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998683668402012,
+      "CrossScore": 0.9998683668402012
+    },
+    {
+      "Question": "चने की 'निपिंग' का सबसे आसान तरीका?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998652559495842,
+      "CrossScore": 0.9998652559495842
+    },
+    {
+      "Question": "'मधुमक्खी पालन' में 'इटालियन' नस्ल क्यों?",
+      "Crop": "General",
+      "FinalScore": 0.9998564473656852,
+      "CrossScore": 0.9998564473656852
+    },
+    {
+      "Question": "शतावरी की खेती के लिए 'मेड़' विधि क्यों अच्छी है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998517056441286,
+      "CrossScore": 0.9998517056441286
+    },
+    {
+      "Question": "मिर्च की 'मृदा' की उर्वरता का राज?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9998458713566241,
+      "CrossScore": 0.9998458713566241
+    }
+  ],
+  "latency_ms": 175.39,
+  "final_returned": [
+    {
+      "Question": "भेड़ों की 'नस्ल' सुधार?",
+      "Crop": "Livestock",
+      "Score": 0.99990597038301
+    },
+    {
+      "Question": "भिंडी की कटाई के समय 'सावधानी'?",
+      "Crop": "Okra",
+      "Score": 0.9998863354921311
+    },
+    {
+      "Question": "भिंडी की 'अर्का अनामिका' किस्म?",
+      "Crop": "Okra",
+      "Score": 0.9998834732205256
+    },
+    {
+      "Question": "भिंडी की 'मृदा' की उर्वरता का राज?",
+      "Crop": "Okra",
+      "Score": 0.9998749919167823
+    },
+    {
+      "Question": "भेड़ों की 'ऊन' (Wool) उतारने का समय?",
+      "Crop": "Livestock",
+      "Score": 0.9998693611902607
+    }
+  ]
+}

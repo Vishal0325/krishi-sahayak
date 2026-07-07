@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:10.802113",
+  "query_original": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+  "query_normalized": "कृषि यंत्रीकरण पर उप मिशन smam क्या है",
+  "query_expanded": "कृषि यंत्रीकरण पर उप मिशन smam क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों पर बीमा (Insurance) उपलब्ध है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय सतत कृषि मिशन (NMSA) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 999.9090700574986,
+      "CrossScore": 0.9999090700574986
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.999894961388152,
+      "CrossScore": 0.999894961388152
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.999893017708548,
+      "CrossScore": 0.999893017708548
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998900899035311,
+      "CrossScore": 0.9998900899035311
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "FinalScore": 0.9998870280237696,
+      "CrossScore": 0.9998870280237696
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998820684308836,
+      "CrossScore": 0.9998820684308836
+    },
+    {
+      "Question": "कृषि यंत्रीकरण (Farm Mechanization) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998775466559718,
+      "CrossScore": 0.9998775466559718
+    },
+    {
+      "Question": "क्या चंद्रमा की कलाओं का कृषि पर कोई वैज्ञानिक प्रभाव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998775039120452,
+      "CrossScore": 0.9998775039120452
+    },
+    {
+      "Question": "कृषि यंत्रों की शेयरिंग (Sharing) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998747708400674,
+      "CrossScore": 0.9998747708400674
+    },
+    {
+      "Question": "'कृषि वानिकी' (Agroforestry) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999874278730634,
+      "CrossScore": 0.999874278730634
+    }
+  ],
+  "latency_ms": 249.73,
+  "final_returned": [
+    {
+      "Question": "कृषि यंत्रीकरण पर उप-मिशन (SMAM) क्या है?",
+      "Crop": "General",
+      "Score": 999.9090700574986
+    },
+    {
+      "Question": "वायु की दिशा का कृषि पर क्या प्रभाव है?",
+      "Crop": "General",
+      "Score": 0.999894961388152
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics",
+      "Score": 0.999893017708548
+    },
+    {
+      "Question": "'एकीकृत कृषि प्रणाली' (IFS) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998900899035311
+    },
+    {
+      "Question": "भविष्य की कृषि में 'रोबोटिक्स' का क्या स्थान है?",
+      "Crop": "General",
+      "Score": 0.9998870280237696
+    }
+  ]
+}

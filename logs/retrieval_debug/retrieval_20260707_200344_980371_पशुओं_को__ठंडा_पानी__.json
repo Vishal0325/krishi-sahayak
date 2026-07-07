@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:44.800472",
+  "query_original": "पशुओं को 'ठंडा पानी'?",
+  "query_normalized": "पशुओं को ठंडा पानी",
+  "query_expanded": "पशुओं को ठंडा पानी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पशुओं को 'ठंडा पानी'?",
+      "Crop": "Livestock"
+    },
+    {
+      "Question": "क्या पौधों को बहुत ठंडा पानी देना चाहिए?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं को दिन में कितनी बार पानी पिलाना चाहिए?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "मशरूम के लिए 'ठंडा पानी'?",
+      "Crop": "Mushroom"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पशुओं को 'ठंडा पानी'?",
+      "Crop": "Livestock",
+      "FinalScore": 999.9169282958793,
+      "CrossScore": 0.9999169282958793
+    },
+    {
+      "Question": "पशुओं को 'स्नेह' और 'शांति'?",
+      "Crop": "Livestock",
+      "FinalScore": 0.999914274786453,
+      "CrossScore": 0.999914274786453
+    },
+    {
+      "Question": "पशुओं को 'नहलाने' का लाभ?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9999060036429154,
+      "CrossScore": 0.9999060036429154
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999904226746025,
+      "CrossScore": 0.999904226746025
+    },
+    {
+      "Question": "पशुओं को 'प्यार' देना?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998967312973869,
+      "CrossScore": 0.9998967312973869
+    },
+    {
+      "Question": "पशुओं को 'धूप' से बचाना?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998958517406901,
+      "CrossScore": 0.9998958517406901
+    },
+    {
+      "Question": "बकरियों को 'पानी' पिलाने का नियम?",
+      "Crop": "Livestock",
+      "FinalScore": 0.9998882394361946,
+      "CrossScore": 0.9998882394361946
+    },
+    {
+      "Question": "पशुओं के 'व्यवहार' को समझना?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998880437067446,
+      "CrossScore": 0.9998880437067446
+    },
+    {
+      "Question": "पशुओं को 'प्यास' का संकेत?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9998867669171522,
+      "CrossScore": 0.9998867669171522
+    },
+    {
+      "Question": "मुर्गियों के शेड में 'ठंडा पानी'?",
+      "Crop": "Poultry",
+      "FinalScore": 0.9998864466424086,
+      "CrossScore": 0.9998864466424086
+    }
+  ],
+  "latency_ms": 179.97,
+  "final_returned": [
+    {
+      "Question": "पशुओं को 'ठंडा पानी'?",
+      "Crop": "Livestock",
+      "Score": 999.9169282958793
+    },
+    {
+      "Question": "पशुओं को 'स्नेह' और 'शांति'?",
+      "Crop": "Livestock",
+      "Score": 0.999914274786453
+    },
+    {
+      "Question": "पशुओं को 'नहलाने' का लाभ?",
+      "Crop": "Livestock",
+      "Score": 0.9999060036429154
+    },
+    {
+      "Question": "क्या औषधीय पौधों को बहुत अधिक पानी चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.999904226746025
+    },
+    {
+      "Question": "पशुओं को 'प्यार' देना?",
+      "Crop": "Dairy",
+      "Score": 0.9998967312973869
+    }
+  ]
+}

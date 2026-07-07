@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:03:40.673002",
+  "query_original": "धान in 'खैरा' रोग का समय?",
+  "query_normalized": "धान in खैरा रोग का समय",
+  "query_expanded": "fungus फंगस झुलसा बीमारी disease धान in खैरा रोग का समय रोग",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "धान in 'खैरा' रोग का समय?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' का स्प्रे?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "धान in 'खैरा' रोग का समय?",
+      "Crop": "Rice",
+      "FinalScore": 499952.73093333637,
+      "CrossScore": 0.9999054618666727
+    },
+    {
+      "Question": "धान in 'भूरा धब्बा' (Brown Spot) रोग कब अधिक फैलता है?",
+      "Crop": "Rice",
+      "FinalScore": 499.95391278638414,
+      "CrossScore": 0.9999078255727682
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "FinalScore": 499.9531699860471,
+      "CrossScore": 0.9999063399720942
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice",
+      "FinalScore": 499.9442961873438,
+      "CrossScore": 0.9998885923746876
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "FinalScore": 499.94265740639673,
+      "CrossScore": 0.9998853148127934
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' का स्प्रे?",
+      "Crop": "Rice",
+      "FinalScore": 499.93850288559054,
+      "CrossScore": 0.9998770057711811
+    },
+    {
+      "Question": "धान in 'हॉपर बर्न' का आर्थिक नुकसान?",
+      "Crop": "Rice",
+      "FinalScore": 499.92803487892576,
+      "CrossScore": 0.9998560697578515
+    },
+    {
+      "Question": "धान के ब्लास्ट रोग का नियंत्रण कैसे करें?",
+      "Crop": "Rice",
+      "FinalScore": 499.92701270942365,
+      "CrossScore": 0.9998540254188473
+    },
+    {
+      "Question": "धान in 'फुट रॉट' (Foot Rot) या बकाने रोग क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.92484009521263,
+      "CrossScore": 0.9998496801904253
+    },
+    {
+      "Question": "धान in 'अंगमारी' (Blight) का प्रबंधन?",
+      "Crop": "Rice",
+      "FinalScore": 499.92428304986055,
+      "CrossScore": 0.9998485660997211
+    }
+  ],
+  "latency_ms": 181.07,
+  "final_returned": [
+    {
+      "Question": "धान in 'खैरा' रोग का समय?",
+      "Crop": "Rice",
+      "Score": 499952.73093333637
+    },
+    {
+      "Question": "धान in 'भूरा धब्बा' (Brown Spot) रोग कब अधिक फैलता है?",
+      "Crop": "Rice",
+      "Score": 499.95391278638414
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक' के साथ क्या न मिलाएं?",
+      "Crop": "Rice",
+      "Score": 499.9531699860471
+    },
+    {
+      "Question": "धान in 'खैरा' रोग के लिए 'जिंक सल्फेट' की मात्रा?",
+      "Crop": "Rice",
+      "Score": 499.9442961873438
+    },
+    {
+      "Question": "'धान का खैरा रोग' और 'उपज'?",
+      "Crop": "Rice",
+      "Score": 499.94265740639673
+    }
+  ]
+}

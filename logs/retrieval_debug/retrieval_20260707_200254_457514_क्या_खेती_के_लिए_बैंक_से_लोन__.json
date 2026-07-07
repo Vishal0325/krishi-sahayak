@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:54.250203",
+  "query_original": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+  "query_normalized": "क्या खेती के लिए बैंक से लोन loan लेना सही है",
+  "query_expanded": "क्या खेती के लिए बैंक से लोन loan लेना सही है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 999.9074216861077,
+      "CrossScore": 0.9999074216861077
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.999674292266662,
+      "CrossScore": 0.999674292266662
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996366746461206,
+      "CrossScore": 0.9996366746461206
+    },
+    {
+      "Question": "क्या डेरी फार्मिंग के लिए सरकारी 'लोन' मिलता है?",
+      "Crop": "Dairy",
+      "FinalScore": 0.9996328048271611,
+      "CrossScore": 0.9996328048271611
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9996205367585415,
+      "CrossScore": 0.9996205367585415
+    },
+    {
+      "Question": "क्या मशीनों के लिए सामूहिक खरीद (Group Purchase) सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9996173589683097,
+      "CrossScore": 0.9996173589683097
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9995966192045151,
+      "CrossScore": 0.9995966192045151
+    },
+    {
+      "Question": "क्या मशरूम की खेती के लिए सरकारी सब्सिडी मिलती है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995959243222545,
+      "CrossScore": 0.9995959243222545
+    },
+    {
+      "Question": "क्या मशीनों के लिए पुराने लोहे का उपयोग सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9995718066680505,
+      "CrossScore": 0.9995718066680505
+    },
+    {
+      "Question": "क्या मशरूम की खेती 'महिलाओं' के लिए स्वरोजगार है?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9995537520759817,
+      "CrossScore": 0.9995537520759817
+    }
+  ],
+  "latency_ms": 207.35,
+  "final_returned": [
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "Score": 999.9074216861077
+    },
+    {
+      "Question": "क्या औषधीय खेती के लिए बैंक 'लोन' देते हैं?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.999674292266662
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए अनुबंध (Contract) किया जा सकता है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9996366746461206
+    },
+    {
+      "Question": "क्या डेरी फार्मिंग के लिए सरकारी 'लोन' मिलता है?",
+      "Crop": "Dairy",
+      "Score": 0.9996328048271611
+    },
+    {
+      "Question": "क्या जैविक खेती के लिए सरकारी 'सब्सिडी' मिलती है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9996205367585415
+    }
+  ]
+}

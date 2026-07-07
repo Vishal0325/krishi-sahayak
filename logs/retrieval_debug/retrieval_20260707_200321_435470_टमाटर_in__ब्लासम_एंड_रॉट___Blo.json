@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:03:21.211786",
+  "query_original": "टमाटर in 'ब्लासम एंड रॉट' (Blossom End R) क्या है?",
+  "query_normalized": "टमाटर in ब्लासम एंड रॉट blossom end r क्या है",
+  "query_expanded": "टमाटर in ब्लासम एंड रॉट blossom end r क्या है",
+  "detected_crops": [
+    "Tomato"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "टमाटर in 'ब्लासम एंड रॉट' (Blossom End R) क्या है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "'मकड़ी' और 'कीट' in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'स्टिकर' (Sticker) का कीटनाशकों in क्या उपयोग है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "टमाटर in 'ब्लासम एंड रॉट' (Blossom End R) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49994.420294151525,
+      "CrossScore": 0.9998884058830305
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99334866442288,
+      "CrossScore": 0.9998669732884576
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato",
+      "FinalScore": 49.99291892717269,
+      "CrossScore": 0.9998583785434538
+    },
+    {
+      "Question": "टमाटर की 'काशी विशेष' किस्म की क्या विशेषता है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.96306278891235,
+      "CrossScore": 0.9992612557782471
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "FinalScore": 49.96157599777192,
+      "CrossScore": 0.9992315199554384
+    },
+    {
+      "Question": "टमाटर की खेती के लिए सबसे उपयुक्त समय क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.95807712892786,
+      "CrossScore": 0.9991615425785573
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 49.95390594772053,
+      "CrossScore": 0.9990781189544106
+    },
+    {
+      "Question": "'टमाटर' में 'ब्लॉसम एंड रॉट' और 'कैल्शियम'?",
+      "Crop": "Tomato",
+      "FinalScore": 49.95363247433268,
+      "CrossScore": 0.9990726494866535
+    },
+    {
+      "Question": "टमाटर की खेती का परिचय क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.95286338531264,
+      "CrossScore": 0.9990572677062528
+    },
+    {
+      "Question": "टमाटर में 'बैक्टीरियल विल्ट' (Bacterial Wilt) क्या है?",
+      "Crop": "Tomato",
+      "FinalScore": 49.95171491929082,
+      "CrossScore": 0.9990342983858165
+    }
+  ],
+  "latency_ms": 223.72,
+  "final_returned": [
+    {
+      "Question": "टमाटर in 'ब्लासम एंड रॉट' (Blossom End R) क्या है?",
+      "Crop": "Tomato",
+      "Score": 49994.420294151525
+    },
+    {
+      "Question": "टमाटर में 'ब्लासम एंड रॉट' (Blossom End Rot) क्यों होता है?",
+      "Crop": "Tomato",
+      "Score": 49.99334866442288
+    },
+    {
+      "Question": "टमाटर में 'ब्लॉसम एंड रॉट' (Blossom End Rot) रोग?",
+      "Crop": "Tomato",
+      "Score": 49.99291892717269
+    },
+    {
+      "Question": "टमाटर की 'काशी विशेष' किस्म की क्या विशेषता है?",
+      "Crop": "Tomato",
+      "Score": 49.96306278891235
+    },
+    {
+      "Question": "टमाटर in 'बकआई रॉट' (Buck eye rot) का लक्षण?",
+      "Crop": "Tomato",
+      "Score": 49.96157599777192
+    }
+  ]
+}

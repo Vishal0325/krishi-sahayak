@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:40.973558",
+  "query_original": "'एआई' और खरपतवार की पहचान?",
+  "query_normalized": "एआई और खरपतवार की पहचान",
+  "query_expanded": "एआई और खरपतवार की पहचान",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'एआई' और खरपतवार की पहचान?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'क्राइसोपा' (Chrysoperla) मित्र कीट की पहचान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato"
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' (Stalk Rot) की पहचान?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मल्चिंग' और खरपतवार?",
+      "Crop": "General",
+      "FinalScore": 0.9999002168941042,
+      "CrossScore": 0.9999002168941042
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और खरपतवार?",
+      "Crop": "General",
+      "FinalScore": 0.9998970246295878,
+      "CrossScore": 0.9998970246295878
+    },
+    {
+      "Question": "'एआई' और खरपतवार की पहचान?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998948964630535,
+      "CrossScore": 0.9998948964630535
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9998867919646409,
+      "CrossScore": 0.9998867919646409
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9998724150334751,
+      "CrossScore": 0.9998724150334751
+    },
+    {
+      "Question": "प्याज की नर्सरी में 'खरपतवार' नियंत्रण?",
+      "Crop": "Onion",
+      "FinalScore": 0.999857360605475,
+      "CrossScore": 0.999857360605475
+    },
+    {
+      "Question": "टमाटर in 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999845607032591,
+      "CrossScore": 0.999845607032591
+    },
+    {
+      "Question": "'गन्ने' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9998363773284069,
+      "CrossScore": 0.9998363773284069
+    },
+    {
+      "Question": "'मक्का का फाल आर्मीवर्म' (Fall Armyworm) की पहचान?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998270096509602,
+      "CrossScore": 0.9998270096509602
+    },
+    {
+      "Question": "'लवणीय मिट्टी' (Saline Soil) की पहचान?",
+      "Crop": "General",
+      "FinalScore": 0.9998264662858437,
+      "CrossScore": 0.9998264662858437
+    }
+  ],
+  "latency_ms": 288.69,
+  "final_returned": [
+    {
+      "Question": "'मल्चिंग' और खरपतवार?",
+      "Crop": "General",
+      "Score": 0.9999002168941042
+    },
+    {
+      "Question": "'ड्रिप सिंचाई' और खरपतवार?",
+      "Crop": "General",
+      "Score": 0.9998970246295878
+    },
+    {
+      "Question": "'एआई' और खरपतवार की पहचान?",
+      "Crop": "Agri Tech",
+      "Score": 0.9998948964630535
+    },
+    {
+      "Question": "'ब्रांडिंग' और किसान की पहचान?",
+      "Crop": "General",
+      "Score": 0.9998867919646409
+    },
+    {
+      "Question": "'टमाटर' में 'मोजेक' वायरस की पहचान?",
+      "Crop": "Tomato",
+      "Score": 0.9998724150334751
+    }
+  ]
+}

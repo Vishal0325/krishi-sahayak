@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:19.227495",
+  "query_original": "बलुई मिट्टी (Sandy Soil) के क्या दोष हैं?",
+  "query_normalized": "बलुई मिट्टी sandy soil के क्या दोष हैं",
+  "query_expanded": "बलुई मिट्टी sandy soil के क्या दोष हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "बलुई मिट्टी (Sandy Soil) के क्या दोष हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक वर्षा से मिट्टी के पोषक तत्व कम हो जाते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "बलुई मिट्टी (Sandy Soil) के क्या दोष हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999295695803189,
+      "CrossScore": 0.9999295695803189
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9998683942004212,
+      "CrossScore": 0.9998683942004212
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "FinalScore": 0.9998271473276623,
+      "CrossScore": 0.9998271473276623
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9998057049748215,
+      "CrossScore": 0.9998057049748215
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.999794554191011,
+      "CrossScore": 0.999794554191011
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9997825256788853,
+      "CrossScore": 0.9997825256788853
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997206809678355,
+      "CrossScore": 0.9997206809678355
+    },
+    {
+      "Question": "काली मिट्टी (Black Soil) की क्या विशेषताएं हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997180299199105,
+      "CrossScore": 0.9997180299199105
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999194048459373,
+      "CrossScore": 0.999194048459373
+    },
+    {
+      "Question": "मिट्टी में बोरॉन की कमी के कारण क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9988270680225981,
+      "CrossScore": 0.9988270680225981
+    }
+  ],
+  "latency_ms": 342.49,
+  "final_returned": [
+    {
+      "Question": "बलुई मिट्टी (Sandy Soil) के क्या दोष हैं?",
+      "Crop": "General",
+      "Score": 0.9999295695803189
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "Score": 0.9998683942004212
+    },
+    {
+      "Question": "मटियार मिट्टी (Clay Soil) में खेती करते समय क्या सावधानी रखें?",
+      "Crop": "General",
+      "Score": 0.9998271473276623
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 0.9998057049748215
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.999794554191011
+    }
+  ]
+}

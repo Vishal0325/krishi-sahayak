@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T20:01:38.486502",
+  "query_original": "'धान का बंका कीट' (Case Worm) और पानी?",
+  "query_normalized": "धान का बंका कीट case worm और पानी",
+  "query_expanded": "धान का बंका कीट case worm और पानी pest कीड़ा बग कीट insect",
+  "detected_crops": [
+    "Rice"
+  ],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का भूरा फदका' (BPH) और पोटाश?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "FinalScore": 499942.4397512183,
+      "CrossScore": 0.9998848795024367
+    },
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice",
+      "FinalScore": 499.943642329546,
+      "CrossScore": 0.9998872846590919
+    },
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice",
+      "FinalScore": 499.53556513555037,
+      "CrossScore": 0.9990711302711007
+    },
+    {
+      "Question": "'धान का भूरा फदका' (BPH) और पोटाश?",
+      "Crop": "Rice",
+      "FinalScore": 499.41760434487475,
+      "CrossScore": 0.9988352086897495
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 499.3763627144697,
+      "CrossScore": 0.9987527254289393
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 499.33312450327486,
+      "CrossScore": 0.9986662490065498
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) और 'पत्तियां'?",
+      "Crop": "Rice",
+      "FinalScore": 499.2800155338715,
+      "CrossScore": 0.998560031067743
+    },
+    {
+      "Question": "'धान का हिस्पा' और 'यूरिया'?",
+      "Crop": "Rice",
+      "FinalScore": 499.04625019777177,
+      "CrossScore": 0.9980925003955435
+    },
+    {
+      "Question": "'धान का हिस्पा' (Rice Hispa) कीट?",
+      "Crop": "Rice",
+      "FinalScore": 498.84545627450905,
+      "CrossScore": 0.9976909125490181
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 49.96302989744403,
+      "CrossScore": 0.9992605979488806
+    }
+  ],
+  "latency_ms": 201.48,
+  "final_returned": [
+    {
+      "Question": "'धान का बंका कीट' (Case Worm) और पानी?",
+      "Crop": "Rice",
+      "Score": 499942.4397512183
+    },
+    {
+      "Question": "'धान के बंका' कीट (Case Worm) की पहचान?",
+      "Crop": "Rice",
+      "Score": 499.943642329546
+    },
+    {
+      "Question": "'धान का तना छेदक' (Stem Borer) और 'सिल्वर शूट'?",
+      "Crop": "Rice",
+      "Score": 499.53556513555037
+    },
+    {
+      "Question": "'धान का भूरा फदका' (BPH) और पोटाश?",
+      "Crop": "Rice",
+      "Score": 499.41760434487475
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "Score": 499.3763627144697
+    }
+  ]
+}

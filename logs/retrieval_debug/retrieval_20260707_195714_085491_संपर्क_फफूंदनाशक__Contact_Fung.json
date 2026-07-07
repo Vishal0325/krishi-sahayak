@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:13.883412",
+  "query_original": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+  "query_normalized": "संपर्क फफूंदनाशक contact fungicides क्या हैं",
+  "query_expanded": "संपर्क फफूंदनाशक contact fungicides क्या हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रणालीगत (Systemic) और संपर्क (Contact) फफूंदनाशक in क्या अंतर है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या फफूंदनाशक कीटों को भी मारते हैं?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9999353118184158,
+      "CrossScore": 0.9999353118184158
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.999870915727664,
+      "CrossScore": 0.999870915727664
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicide) दवाएं क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998127995241991,
+      "CrossScore": 0.9998127995241991
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9997938184925224,
+      "CrossScore": 0.9997938184925224
+    },
+    {
+      "Question": "प्रणालीगत (Systemic) और संपर्क (Contact) फफूंदनाशक in क्या अंतर है?",
+      "Crop": "General",
+      "FinalScore": 0.9991503229567638,
+      "CrossScore": 0.9991503229567638
+    },
+    {
+      "Question": "खरपतवारनाशी (Herbicides) क्या होते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989886161978839,
+      "CrossScore": 0.9989886161978839
+    },
+    {
+      "Question": "वर्णात्मक खरपतवारनाशी (Selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9988346143809395,
+      "CrossScore": 0.9988346143809395
+    },
+    {
+      "Question": "अवर्णात्मक खरपतवारनाशी (Non-selective Herbicides) क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9987648086496405,
+      "CrossScore": 0.9987648086496405
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9983194407450988,
+      "CrossScore": 0.9983194407450988
+    },
+    {
+      "Question": "क्या फफूंदनाशक कीटों को भी मारते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9958218430429068,
+      "CrossScore": 0.9958218430429068
+    }
+  ],
+  "latency_ms": 202.2,
+  "final_returned": [
+    {
+      "Question": "संपर्क फफूंदनाशक (Contact Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9999353118184158
+    },
+    {
+      "Question": "प्रणालीगत फफूंदनाशक (Systemic Fungicides) क्या हैं?",
+      "Crop": "General",
+      "Score": 0.999870915727664
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicide) दवाएं क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998127995241991
+    },
+    {
+      "Question": "फफूंदनाशक (Fungicides) क्या होते हैं?",
+      "Crop": "General",
+      "Score": 0.9997938184925224
+    },
+    {
+      "Question": "प्रणालीगत (Systemic) और संपर्क (Contact) फफूंदनाशक in क्या अंतर है?",
+      "Crop": "General",
+      "Score": 0.9991503229567638
+    }
+  ]
+}

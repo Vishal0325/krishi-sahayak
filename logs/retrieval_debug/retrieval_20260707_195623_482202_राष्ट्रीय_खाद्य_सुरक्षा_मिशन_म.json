@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:23.234008",
+  "query_original": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+  "query_normalized": "राष्ट्रीय खाद्य सुरक्षा मिशन में मोटा अनाज millets",
+  "query_expanded": "खाद poshak राष्ट्रीय खाद्य सुरक्षा मिशन में मोटा अनाज millets fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General"
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने में खाद और उर्वरक की मात्रा?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "मक्का में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "FinalScore": 0.9998312257887361,
+      "CrossScore": 0.9998312257887361
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996926076256547,
+      "CrossScore": 0.9996926076256547
+    },
+    {
+      "Question": "'भंडारण' में अनाज की सुरक्षा?",
+      "Crop": "General",
+      "FinalScore": 0.9995281930411822,
+      "CrossScore": 0.9995281930411822
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9994659239705751,
+      "CrossScore": 0.9994659239705751
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "FinalScore": 0.999435679846948,
+      "CrossScore": 0.999435679846948
+    },
+    {
+      "Question": "लीची में खाद और उर्वरक की मात्रा?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9994294994440039,
+      "CrossScore": 0.9994294994440039
+    },
+    {
+      "Question": "प्याज में खाद और उर्वरक की मात्रा?",
+      "Crop": "Onion",
+      "FinalScore": 0.999425552563991,
+      "CrossScore": 0.999425552563991
+    },
+    {
+      "Question": "लहसुन में खाद और उर्वरक की मात्रा?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9994012433357737,
+      "CrossScore": 0.9994012433357737
+    },
+    {
+      "Question": "ड्रैगन फ्रूट में खाद और उर्वरक?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9993999733768312,
+      "CrossScore": 0.9993999733768312
+    },
+    {
+      "Question": "टमाटर में खाद और उर्वरक की मात्रा?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9993907377211352,
+      "CrossScore": 0.9993907377211352
+    }
+  ],
+  "latency_ms": 248.3,
+  "final_returned": [
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन में 'मोटा अनाज' (Millets)?",
+      "Crop": "General",
+      "Score": 0.9998312257887361
+    },
+    {
+      "Question": "राष्ट्रीय खाद्य सुरक्षा मिशन (NFSM) क्या है?",
+      "Crop": "General",
+      "Score": 0.9996926076256547
+    },
+    {
+      "Question": "'भंडारण' में अनाज की सुरक्षा?",
+      "Crop": "General",
+      "Score": 0.9995281930411822
+    },
+    {
+      "Question": "सरसों में खाद और उर्वरक की कितनी मात्रा डालें?",
+      "Crop": "Mustard",
+      "Score": 0.9994659239705751
+    },
+    {
+      "Question": "धनिया में खाद और उर्वरक की मात्रा?",
+      "Crop": "Coriander",
+      "Score": 0.999435679846948
+    }
+  ]
+}

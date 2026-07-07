@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-07-07T19:58:00.753898",
+  "query_original": "'मिर्च का डाई बैक' (Die-back) रोग?",
+  "query_normalized": "मिर्च का डाई बैक die back रोग",
+  "query_expanded": "मिर्च का डाई बैक die back रोग फंगस बीमारी fungus disease झुलसा रोग",
+  "detected_crops": [
+    "Chilli"
+  ],
+  "detected_intents": [
+    "Disease"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "'मिर्च' में 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मिर्च में 'डाई-बैक' (Dieback) या 'एंथ्रेक्नोज' रोग?",
+      "Crop": "Chilli"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "FinalScore": 499.9554817025688,
+      "CrossScore": 0.9999109634051376
+    },
+    {
+      "Question": "'मिर्च' में 'डाई बैक' और 'सिंचाई'?",
+      "Crop": "Chilli",
+      "FinalScore": 499.7789576778688,
+      "CrossScore": 0.9995579153557376
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "FinalScore": 499.7595063927771,
+      "CrossScore": 0.9995190127855542
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 499.7167521346656,
+      "CrossScore": 0.9994335042693312
+    },
+    {
+      "Question": "'मिर्च' में 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 499.62865761417123,
+      "CrossScore": 0.9992573152283425
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का 'रासायनिक' बचाव?",
+      "Crop": "Chilli",
+      "FinalScore": 499.5820496470385,
+      "CrossScore": 0.999164099294077
+    },
+    {
+      "Question": "'मिर्च' में 'फल सड़न' का प्रबंधन?",
+      "Crop": "Chilli",
+      "FinalScore": 499.50993119888597,
+      "CrossScore": 0.999019862397772
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "FinalScore": 499.5085645267183,
+      "CrossScore": 0.9990171290534366
+    },
+    {
+      "Question": "मिर्च in 'पर्ण कुंचन' का जैविक बचाव?",
+      "Crop": "Chilli",
+      "FinalScore": 499.4735239186939,
+      "CrossScore": 0.9989470478373877
+    },
+    {
+      "Question": "'मिर्च का आर्द्र पतन' (Damping Off) और 'नर्सरी'?",
+      "Crop": "Chilli",
+      "FinalScore": 499.4120819854196,
+      "CrossScore": 0.9988241639708392
+    }
+  ],
+  "latency_ms": 200.77,
+  "final_returned": [
+    {
+      "Question": "'मिर्च का डाई बैक' (Die-back) रोग?",
+      "Crop": "Chilli",
+      "Score": 499.9554817025688
+    },
+    {
+      "Question": "'मिर्च' में 'डाई बैक' और 'सिंचाई'?",
+      "Crop": "Chilli",
+      "Score": 499.7789576778688
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' रोकने के लिए 'बीज उपचार'?",
+      "Crop": "Chilli",
+      "Score": 499.7595063927771
+    },
+    {
+      "Question": "मिर्च in 'डाई बैक' का उपचार?",
+      "Crop": "Chilli",
+      "Score": 499.7167521346656
+    },
+    {
+      "Question": "'मिर्च' में 'डाई बैक' का जैविक उपचार?",
+      "Crop": "Chilli",
+      "Score": 499.62865761417123
+    }
+  ]
+}

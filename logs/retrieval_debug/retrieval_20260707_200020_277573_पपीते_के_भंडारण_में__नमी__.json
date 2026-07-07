@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:00:20.095990",
+  "query_original": "पपीते के भंडारण में 'नमी'?",
+  "query_normalized": "पपीते के भंडारण में नमी",
+  "query_expanded": "पपीते के भंडारण में नमी",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पपीते के भंडारण में 'नमी'?",
+      "Crop": "Papaya"
+    },
+    {
+      "Question": "भिंडी के भंडारण में 'नमी'?",
+      "Crop": "Okra"
+    },
+    {
+      "Question": "धनिया के भंडारण में 'नमी'?",
+      "Crop": "Coriander"
+    },
+    {
+      "Question": "बैंगन के भंडारण में 'नमी'?",
+      "Crop": "Brinjal"
+    },
+    {
+      "Question": "लहसुन के भंडारण में 'नमी'?",
+      "Crop": "Garlic"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पपीते के भंडारण में 'नमी'?",
+      "Crop": "Papaya",
+      "FinalScore": 999.8907975777632,
+      "CrossScore": 0.9998907975777632
+    },
+    {
+      "Question": "पत्तागोभी के भंडारण में 'नमी'?",
+      "Crop": "Cabbage",
+      "FinalScore": 0.9998990858466436,
+      "CrossScore": 0.9998990858466436
+    },
+    {
+      "Question": "पपीते के भंडारण में 'पारे' की गोली का खतरा?",
+      "Crop": "Papaya",
+      "FinalScore": 0.9998909699885421,
+      "CrossScore": 0.9998909699885421
+    },
+    {
+      "Question": "प्याज के भंडारण में 'नमी' से बचाव?",
+      "Crop": "Onion",
+      "FinalScore": 0.9998883322212361,
+      "CrossScore": 0.9998883322212361
+    },
+    {
+      "Question": "अदरक के भंडारण में 'नमी'?",
+      "Crop": "Ginger",
+      "FinalScore": 0.9998860930984046,
+      "CrossScore": 0.9998860930984046
+    },
+    {
+      "Question": "लीची के भंडारण में 'नमी'?",
+      "Crop": "Litchi",
+      "FinalScore": 0.9998857212374597,
+      "CrossScore": 0.9998857212374597
+    },
+    {
+      "Question": "लहसुन के भंडारण में 'नमी'?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9998848333877782,
+      "CrossScore": 0.9998848333877782
+    },
+    {
+      "Question": "मखाना के भंडारण में 'नमी' से बचाव?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9998787201042023,
+      "CrossScore": 0.9998787201042023
+    },
+    {
+      "Question": "हल्दी के भंडारण में 'नमी'?",
+      "Crop": "Turmeric",
+      "FinalScore": 0.9998761333980682,
+      "CrossScore": 0.9998761333980682
+    },
+    {
+      "Question": "धनिया के भंडारण में 'नमी'?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9998690440228803,
+      "CrossScore": 0.9998690440228803
+    }
+  ],
+  "latency_ms": 181.61,
+  "final_returned": [
+    {
+      "Question": "पपीते के भंडारण में 'नमी'?",
+      "Crop": "Papaya",
+      "Score": 999.8907975777632
+    },
+    {
+      "Question": "पत्तागोभी के भंडारण में 'नमी'?",
+      "Crop": "Cabbage",
+      "Score": 0.9998990858466436
+    },
+    {
+      "Question": "पपीते के भंडारण में 'पारे' की गोली का खतरा?",
+      "Crop": "Papaya",
+      "Score": 0.9998909699885421
+    },
+    {
+      "Question": "प्याज के भंडारण में 'नमी' से बचाव?",
+      "Crop": "Onion",
+      "Score": 0.9998883322212361
+    },
+    {
+      "Question": "अदरक के भंडारण में 'नमी'?",
+      "Crop": "Ginger",
+      "Score": 0.9998860930984046
+    }
+  ]
+}

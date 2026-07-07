@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:37.650187",
+  "query_original": "सल्फर का महत्व?",
+  "query_normalized": "सल्फर का महत्व",
+  "query_expanded": "सल्फर का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्याज में 'सल्फर' (गंधक) का महत्व?",
+      "Crop": "Onion"
+    },
+    {
+      "Question": "लहसुन में 'सल्फर' (गंधक) का महत्व?",
+      "Crop": "Garlic"
+    },
+    {
+      "Question": "सल्फर का महत्व?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "सरसों में सल्फर (गंधक) का क्या महत्व है?",
+      "Crop": "Mustard"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्याज में 'सल्फर' (गंधक) का महत्व?",
+      "Crop": "Onion",
+      "FinalScore": 0.9999200624592468,
+      "CrossScore": 0.9999200624592468
+    },
+    {
+      "Question": "लहसुन में 'सल्फर' (गंधक) का महत्व?",
+      "Crop": "Garlic",
+      "FinalScore": 0.9999109070957545,
+      "CrossScore": 0.9999109070957545
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9999065706504745,
+      "CrossScore": 0.9999065706504745
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "FinalScore": 0.9999037370778304,
+      "CrossScore": 0.9999037370778304
+    },
+    {
+      "Question": "गन्ने में 'फास्फोरस' का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9999015917833505,
+      "CrossScore": 0.9999015917833505
+    },
+    {
+      "Question": "सल्फर का महत्व?",
+      "Crop": "Rice",
+      "FinalScore": 0.9998902138202133,
+      "CrossScore": 0.9998902138202133
+    },
+    {
+      "Question": "भिंडी में 'फास्फोरस' का महत्व?",
+      "Crop": "Okra",
+      "FinalScore": 0.9998881448674969,
+      "CrossScore": 0.9998881448674969
+    },
+    {
+      "Question": "शतावरी (Shatavari) की जड़ों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9998874142074168,
+      "CrossScore": 0.9998874142074168
+    },
+    {
+      "Question": "सरसों में सल्फर (गंधक) का क्या महत्व है?",
+      "Crop": "Mustard",
+      "FinalScore": 0.9998857186220954,
+      "CrossScore": 0.9998857186220954
+    },
+    {
+      "Question": "छिड़काव के समय मिट्टी में 'नमी' का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998844311896877,
+      "CrossScore": 0.9998844311896877
+    }
+  ],
+  "latency_ms": 174.63,
+  "final_returned": [
+    {
+      "Question": "प्याज में 'सल्फर' (गंधक) का महत्व?",
+      "Crop": "Onion",
+      "Score": 0.9999200624592468
+    },
+    {
+      "Question": "लहसुन में 'सल्फर' (गंधक) का महत्व?",
+      "Crop": "Garlic",
+      "Score": 0.9999109070957545
+    },
+    {
+      "Question": "'सल्फर' का तिलहन फसलों में महत्व?",
+      "Crop": "General",
+      "Score": 0.9999065706504745
+    },
+    {
+      "Question": "मिर्च में 'सल्फर' की कमी का प्रभाव?",
+      "Crop": "Chilli",
+      "Score": 0.9999037370778304
+    },
+    {
+      "Question": "गन्ने में 'फास्फोरस' का महत्व?",
+      "Crop": "Sugarcane",
+      "Score": 0.9999015917833505
+    }
+  ]
+}

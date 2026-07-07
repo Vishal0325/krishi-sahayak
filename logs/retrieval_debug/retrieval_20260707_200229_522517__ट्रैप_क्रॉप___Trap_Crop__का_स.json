@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:29.323520",
+  "query_original": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+  "query_normalized": "ट्रैप क्रॉप trap crop का सिद्धांत",
+  "query_expanded": "ट्रैप क्रॉप trap crop का सिद्धांत",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 999.9229434445527,
+      "CrossScore": 0.9999229434445528
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General",
+      "FinalScore": 0.9999097619563518,
+      "CrossScore": 0.9999097619563518
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998977040472304,
+      "CrossScore": 0.9998977040472304
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9996745623052926,
+      "CrossScore": 0.9996745623052926
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' (Pheromone Trap) की निगरानी?",
+      "Crop": "General",
+      "FinalScore": 0.9996711565683338,
+      "CrossScore": 0.9996711565683338
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 0.999637467655588,
+      "CrossScore": 0.999637467655588
+    },
+    {
+      "Question": "पीला चिपचिपा ट्रैप (Yellow Sticky Trap) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9995913556385321,
+      "CrossScore": 0.9995913556385321
+    },
+    {
+      "Question": "नीला चिपचिपा ट्रैप (Blue Sticky Trap) कब लगाएं?",
+      "Crop": "General",
+      "FinalScore": 0.9995632142991392,
+      "CrossScore": 0.9995632142991392
+    },
+    {
+      "Question": "'प्रकाश प्रपंच' (Light Trap) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9995120638157443,
+      "CrossScore": 0.9995120638157443
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9994763263993239,
+      "CrossScore": 0.9994763263993239
+    }
+  ],
+  "latency_ms": 199.05,
+  "final_returned": [
+    {
+      "Question": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+      "Crop": "General",
+      "Score": 999.9229434445527
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General",
+      "Score": 0.9999097619563518
+    },
+    {
+      "Question": "जैविक खेती में 'ट्रैप क्रॉप' (Trap Crop) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998977040472304
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General",
+      "Score": 0.9996745623052926
+    },
+    {
+      "Question": "'फेरोमोन ट्रैप' (Pheromone Trap) की निगरानी?",
+      "Crop": "General",
+      "Score": 0.9996711565683338
+    }
+  ]
+}

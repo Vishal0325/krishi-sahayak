@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:00:17.778578",
+  "query_original": "मक्का in 'तुलसिता' (Downy Mildew) का प्रबंधन?",
+  "query_normalized": "मक्का in तुलसिता downy mildew का प्रबंधन",
+  "query_expanded": "मक्का in तुलसिता downy mildew का प्रबंधन",
+  "detected_crops": [
+    "Maize"
+  ],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मक्का in 'तुलसिता' (Downy Mildew) का प्रबंधन?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) का जैविक उपचार?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मक्का in 'तुलसिता' (Downy Mildew) का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49994.630187381714,
+      "CrossScore": 0.9998926037476343
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) का जैविक उपचार?",
+      "Crop": "Maize",
+      "FinalScore": 49.99406052209927,
+      "CrossScore": 0.9998812104419854
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 49.994054311489336,
+      "CrossScore": 0.9998810862297868
+    },
+    {
+      "Question": "मक्का in 'यूरिया' की बचत के लिए 'नैनो यूरिया' का समय?",
+      "Crop": "Maize",
+      "FinalScore": 49.97890854242824,
+      "CrossScore": 0.9995781708485648
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.97398951241247,
+      "CrossScore": 0.9994797902482494
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'खाद' का संतुलन?",
+      "Crop": "Maize",
+      "FinalScore": 49.97227735228163,
+      "CrossScore": 0.9994455470456326
+    },
+    {
+      "Question": "मक्का की 'सघन' खेती in 'कीट' प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.97137913685607,
+      "CrossScore": 0.9994275827371215
+    },
+    {
+      "Question": "मक्का की 'पछेती' बुआई in 'कीट' प्रबंधन?",
+      "Crop": "Maize",
+      "FinalScore": 49.96923954322682,
+      "CrossScore": 0.9993847908645365
+    },
+    {
+      "Question": "मक्का in 'तना सड़न' का 'कवक'?",
+      "Crop": "Maize",
+      "FinalScore": 49.96639637270609,
+      "CrossScore": 0.9993279274541219
+    },
+    {
+      "Question": "मक्का in 'सिंचाई' के लिए 'नहर' के पानी का नियम?",
+      "Crop": "Maize",
+      "FinalScore": 49.96636664001768,
+      "CrossScore": 0.9993273328003536
+    }
+  ],
+  "latency_ms": 171.83,
+  "final_returned": [
+    {
+      "Question": "मक्का in 'तुलसिता' (Downy Mildew) का प्रबंधन?",
+      "Crop": "Maize",
+      "Score": 49994.630187381714
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) का जैविक उपचार?",
+      "Crop": "Maize",
+      "Score": 49.99406052209927
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "Score": 49.994054311489336
+    },
+    {
+      "Question": "मक्का in 'यूरिया' की बचत के लिए 'नैनो यूरिया' का समय?",
+      "Crop": "Maize",
+      "Score": 49.97890854242824
+    },
+    {
+      "Question": "मक्का में 'चारकोल रोट' का प्रबंधन?",
+      "Crop": "Maize",
+      "Score": 49.97398951241247
+    }
+  ]
+}

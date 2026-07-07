@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:31.964100",
+  "query_original": "क्या शहरी कचरे से खाद बनाई जा सकती है?",
+  "query_normalized": "क्या शहरी कचरे से खाद बनाई जा सकती है",
+  "query_expanded": "खाद poshak क्या शहरी कचरे से खाद बनाई जा सकती है fertilizer उर्वरक पोषण",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या शहरी कचरे से खाद बनाई जा सकती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों के अवशेषों से 'अगरबत्ती' बनाई जा सकती है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खाद की कालाबाजारी की शिकायत की जा सकती है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999137393959733,
+      "CrossScore": 0.9999137393959733
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999109109187845,
+      "CrossScore": 0.9999109109187845
+    },
+    {
+      "Question": "क्या औषधीय पौधों के अवशेषों से 'अगरबत्ती' बनाई जा सकती है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9999096831863009,
+      "CrossScore": 0.9999096831863009
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999096825834235,
+      "CrossScore": 0.9999096825834235
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से मिट्टी अम्लीय होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999079067531657,
+      "CrossScore": 0.9999079067531657
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999077459923029,
+      "CrossScore": 0.9999077459923029
+    },
+    {
+      "Question": "क्या शहरी कचरे से खाद बनाई जा सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999039155445754,
+      "CrossScore": 0.9999039155445754
+    },
+    {
+      "Question": "कृषि कचरे से कंचन (Waste to Wealth) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998993192216865,
+      "CrossScore": 0.9998993192216865
+    },
+    {
+      "Question": "क्या ड्रोन से खाद (Fertilizer) का छिड़काव संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998985089439619,
+      "CrossScore": 0.9998985089439619
+    },
+    {
+      "Question": "क्या अधिक सिंचाई से मिट्टी 'खारी' हो सकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998960022898723,
+      "CrossScore": 0.9998960022898723
+    }
+  ],
+  "latency_ms": 206.44,
+  "final_returned": [
+    {
+      "Question": "क्या अधिक खाद से उपज दोगुनी हो सकती है?",
+      "Crop": "General",
+      "Score": 0.9999137393959733
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से दीमक लगती है?",
+      "Crop": "General",
+      "Score": 0.9999109109187845
+    },
+    {
+      "Question": "क्या औषधीय पौधों के अवशेषों से 'अगरबत्ती' बनाई जा सकती है?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9999096831863009
+    },
+    {
+      "Question": "क्या मिट्टी परीक्षण की रिपोर्ट से खाद का खर्च बचता है?",
+      "Crop": "General",
+      "Score": 0.9999096825834235
+    },
+    {
+      "Question": "क्या अधिक गोबर की खाद से मिट्टी अम्लीय होती है?",
+      "Crop": "General",
+      "Score": 0.9999079067531657
+    }
+  ]
+}

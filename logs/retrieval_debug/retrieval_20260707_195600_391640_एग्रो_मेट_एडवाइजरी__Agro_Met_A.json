@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:00.040078",
+  "query_original": "एग्रो-मेट एडवाइजरी (Agro-Met Advisory) क्या है?",
+  "query_normalized": "एग्रो मेट एडवाइजरी agro met advisory क्या है",
+  "query_expanded": "एग्रो मेट एडवाइजरी agro met advisory क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एग्रो-मेट एडवाइजरी (Agro-Met Advisory) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "लीची की 'शाही' और 'चाइना' किस्म में क्या अंतर है?",
+      "Crop": "Litchi"
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में सल्फर (गंधक) का क्या लाभ है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एग्रो-मेट एडवाइजरी (Agro-Met Advisory) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999373040323536,
+      "CrossScore": 0.9999373040323536
+    },
+    {
+      "Question": "अजोक्सीस्ट्रोबिन (Azoxystrobin) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9979341465055854,
+      "CrossScore": 0.9979341465055854
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9978921324206442,
+      "CrossScore": 0.9978921324206442
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 0.99761128780189,
+      "CrossScore": 0.99761128780189
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9974094013803766,
+      "CrossScore": 0.9974094013803766
+    },
+    {
+      "Question": "'बूटाक्लोर' (Butachlor/Machete) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9973995642455409,
+      "CrossScore": 0.9973995642455409
+    },
+    {
+      "Question": "पैराक्वाट (Paraquat) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9973890069712776,
+      "CrossScore": 0.9973890069712776
+    },
+    {
+      "Question": "रीपर-बाइंडर (Reaper Binder) मशीन क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.997265126573454,
+      "CrossScore": 0.997265126573454
+    },
+    {
+      "Question": "फलों के बाग में 'मल्चिंग' का क्या लाभ है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9969735580073584,
+      "CrossScore": 0.9969735580073584
+    },
+    {
+      "Question": "'सहकारी विपणन' (Cooperative Marketing) क्या है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9968533462101308,
+      "CrossScore": 0.9968533462101308
+    }
+  ],
+  "latency_ms": 351.74,
+  "final_returned": [
+    {
+      "Question": "एग्रो-मेट एडवाइजरी (Agro-Met Advisory) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999373040323536
+    },
+    {
+      "Question": "अजोक्सीस्ट्रोबिन (Azoxystrobin) क्या है?",
+      "Crop": "General",
+      "Score": 0.9979341465055854
+    },
+    {
+      "Question": "फेरोमोन ट्रैप (Pheromone Trap) क्या है?",
+      "Crop": "General",
+      "Score": 0.9978921324206442
+    },
+    {
+      "Question": "ट्रैक्टर में 'पावर स्टीयरिंग' का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 0.99761128780189
+    },
+    {
+      "Question": "गेहूं में 'करनाल बंट' (Karnal Bunt) क्या है?",
+      "Crop": "Wheat",
+      "Score": 0.9974094013803766
+    }
+  ]
+}

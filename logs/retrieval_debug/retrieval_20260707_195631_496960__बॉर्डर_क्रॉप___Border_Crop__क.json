@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:56:31.215047",
+  "query_original": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+  "query_normalized": "बॉर्डर क्रॉप border crop का महत्व",
+  "query_expanded": "बॉर्डर क्रॉप border crop का महत्व",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in मक्का का लाभ?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9998881534000862,
+      "CrossScore": 0.9998881534000862
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "FinalScore": 0.9998859135205528,
+      "CrossScore": 0.9998859135205528
+    },
+    {
+      "Question": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+      "Crop": "General",
+      "FinalScore": 0.9998404146549941,
+      "CrossScore": 0.9998404146549941
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General",
+      "FinalScore": 0.9996781062169725,
+      "CrossScore": 0.9996781062169725
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9986860540521662,
+      "CrossScore": 0.9986860540521662
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप में 'ज्वार' का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9819851489220692,
+      "CrossScore": 0.9819851489220692
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' के रूप in ज्वार का महत्व?",
+      "Crop": "General",
+      "FinalScore": 0.9793931581700726,
+      "CrossScore": 0.9793931581700726
+    },
+    {
+      "Question": "गन्ने में 'फास्फोरस' का महत्व?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9789807446763228,
+      "CrossScore": 0.9789807446763228
+    },
+    {
+      "Question": "कौंच (Kaunch) के बीजों का महत्व?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9772907635317224,
+      "CrossScore": 0.9772907635317224
+    },
+    {
+      "Question": "भिंडी में 'फास्फोरस' का महत्व?",
+      "Crop": "Okra",
+      "FinalScore": 0.9740263258455958,
+      "CrossScore": 0.9740263258455958
+    }
+  ],
+  "latency_ms": 282.06,
+  "final_returned": [
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) का महत्व?",
+      "Crop": "General",
+      "Score": 0.9998881534000862
+    },
+    {
+      "Question": "'बॉर्डर क्रॉप' (Border Crop) कीटों को कैसे रोकती है?",
+      "Crop": "General",
+      "Score": 0.9998859135205528
+    },
+    {
+      "Question": "'ट्रैप क्रॉप' (Trap Crop) का सिद्धांत?",
+      "Crop": "General",
+      "Score": 0.9998404146549941
+    },
+    {
+      "Question": "ट्रैप क्रॉप (Trap Crop) का उदाहरण?",
+      "Crop": "General",
+      "Score": 0.9996781062169725
+    },
+    {
+      "Question": "रोगों के प्रबंधन in 'फसल चक्र' (Crop Rotation) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9986860540521662
+    }
+  ]
+}

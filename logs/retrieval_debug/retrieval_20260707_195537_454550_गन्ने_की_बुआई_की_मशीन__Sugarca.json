@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:37.217952",
+  "query_original": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+  "query_normalized": "गन्ने की बुआई की मशीन sugarcane planter के क्या लाभ हैं",
+  "query_expanded": "गन्ने की बुआई की मशीन sugarcane planter के क्या लाभ हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "गन्ने की बुआई के लिए 'दो आंख' वाले टुकड़े क्यों अच्छे हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गन्ने की 'अगेती' बुआई के लाभ?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "मक्का की 'अगेती' रबी बुआई के क्या लाभ हैं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999919179931062,
+      "CrossScore": 0.999919179931062
+    },
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato",
+      "FinalScore": 0.9997809799832098,
+      "CrossScore": 0.9997809799832098
+    },
+    {
+      "Question": "उड़द (Urad bean) की खेती के क्या लाभ हैं?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9992081546166126,
+      "CrossScore": 0.9992081546166126
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9991287497530711,
+      "CrossScore": 0.9991287497530711
+    },
+    {
+      "Question": "अश्वगंधा (Ashwagandha) की खेती के क्या लाभ हैं?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9989908241823856,
+      "CrossScore": 0.9989908241823856
+    },
+    {
+      "Question": "गन्ने की खेती शुरू करने वाले किसानों के लिए सलाह?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9988907299752946,
+      "CrossScore": 0.9988907299752946
+    },
+    {
+      "Question": "गन्ने की पेड़ी फसल के लाभ?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9988732382629439,
+      "CrossScore": 0.9988732382629439
+    },
+    {
+      "Question": "गन्ने की बुआई के लिए 'दो आंख' वाले टुकड़े क्यों अच्छे हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9988015565556414,
+      "CrossScore": 0.9988015565556414
+    },
+    {
+      "Question": "गन्ने की बुआई की 'ट्रेंच' (Trench) विधि क्या है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9987685994426677,
+      "CrossScore": 0.9987685994426677
+    },
+    {
+      "Question": "क्या गेहूं की बुआई बिना जुताई के की जा सकती है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.998627499296948,
+      "CrossScore": 0.998627499296948
+    }
+  ],
+  "latency_ms": 236.73,
+  "final_returned": [
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.999919179931062
+    },
+    {
+      "Question": "आलू बोने की मशीन (Potato Planter) के क्या लाभ हैं?",
+      "Crop": "Potato",
+      "Score": 0.9997809799832098
+    },
+    {
+      "Question": "उड़द (Urad bean) की खेती के क्या लाभ हैं?",
+      "Crop": "Pulses",
+      "Score": 0.9992081546166126
+    },
+    {
+      "Question": "गन्ने की खेती का परिचय क्या है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9991287497530711
+    },
+    {
+      "Question": "अश्वगंधा (Ashwagandha) की खेती के क्या लाभ हैं?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9989908241823856
+    }
+  ]
+}

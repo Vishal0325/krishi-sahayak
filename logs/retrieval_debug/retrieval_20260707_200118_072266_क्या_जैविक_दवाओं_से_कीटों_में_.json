@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:01:17.647042",
+  "query_original": "क्या जैविक दवाओं से कीटों में प्रतिरोध आता है?",
+  "query_normalized": "क्या जैविक दवाओं से कीटों में प्रतिरोध आता है",
+  "query_expanded": "pest कीड़ा बग कीट क्या जैविक दवाओं से कीटों में प्रतिरोध आता है insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या जैविक दवाओं से कीटों में प्रतिरोध आता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या IPM से कीटों में प्रतिरोध (Resistance) कम होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या खरपतवारों में भी 'प्रतिरोध' (Resistance) आता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या जैविक दवाओं से कीटों में प्रतिरोध आता है?",
+      "Crop": "General",
+      "FinalScore": 999.9013908544346,
+      "CrossScore": 0.9999013908544345
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक डालने से कीटों in प्रतिरोधक क्षमता (Resistance) आती है?",
+      "Crop": "General",
+      "FinalScore": 9.998902032461386,
+      "CrossScore": 0.9998902032461386
+    },
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.99990965501902,
+      "CrossScore": 0.99990965501902
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999068524707535,
+      "CrossScore": 0.9999068524707535
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "FinalScore": 0.999906288692517,
+      "CrossScore": 0.999906288692517
+    },
+    {
+      "Question": "क्या जैविक दवाओं का असर तुरंत होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9999052810332265,
+      "CrossScore": 0.9999052810332265
+    },
+    {
+      "Question": "क्या जैविक खेती में 'मजदूरी' अधिक लगती है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9999035615903221,
+      "CrossScore": 0.9999035615903221
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9999014409606165,
+      "CrossScore": 0.9999014409606165
+    },
+    {
+      "Question": "जैविक दवाओं के पैकेट पर 'CFU' का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9998999372345277,
+      "CrossScore": 0.9998999372345277
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.999898516105399,
+      "CrossScore": 0.999898516105399
+    }
+  ],
+  "latency_ms": 425.25,
+  "final_returned": [
+    {
+      "Question": "क्या जैविक दवाओं से कीटों में प्रतिरोध आता है?",
+      "Crop": "General",
+      "Score": 999.9013908544346
+    },
+    {
+      "Question": "क्या अधिक कीटनाशक डालने से कीटों in प्रतिरोधक क्षमता (Resistance) आती है?",
+      "Crop": "General",
+      "Score": 9.998902032461386
+    },
+    {
+      "Question": "क्या जैविक खेती से पैदावार कम होती है?",
+      "Crop": "Organic Farming",
+      "Score": 0.99990965501902
+    },
+    {
+      "Question": "क्या जैविक खाद से मिट्टी का पीएच बदलता है?",
+      "Crop": "General",
+      "Score": 0.9999068524707535
+    },
+    {
+      "Question": "क्या फलों की खेती में जैविक खाद का अधिक महत्व है?",
+      "Crop": "Fruits",
+      "Score": 0.999906288692517
+    }
+  ]
+}

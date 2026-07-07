@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:38.939180",
+  "query_original": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+  "query_normalized": "नीम लेपित यूरिया neem coated urea के क्या लाभ हैं",
+  "query_expanded": "nitrogen नीम लेपित यूरिया neem coated urea के क्या लाभ हैं नाइट्रोजन यूरिया urea",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिश्रित खेती' (Mixed Farming) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का की 'अगेती' रबी बुआई के क्या लाभ हैं?",
+      "Crop": "Maize"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9030757310942,
+      "CrossScore": 0.9999030757310942
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9992396739717294,
+      "CrossScore": 0.9992396739717294
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "FinalScore": 0.9992137824543393,
+      "CrossScore": 0.9992137824543393
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9992071957398863,
+      "CrossScore": 0.9992071957398863
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991218701597615,
+      "CrossScore": 0.9991218701597615
+    },
+    {
+      "Question": "मखाना के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Makhana",
+      "FinalScore": 0.9991029341835442,
+      "CrossScore": 0.9991029341835442
+    },
+    {
+      "Question": "स्यूडोमोनास फ्लोरोसेन्स (Pseudomonas fluorescens) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9991005989907954,
+      "CrossScore": 0.9991005989907954
+    },
+    {
+      "Question": "सब्जियों में 'मल्चिंग' (Mulching) के क्या लाभ हैं?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999084596442858,
+      "CrossScore": 0.999084596442858
+    },
+    {
+      "Question": "ड्रैगन फ्रूट के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Dragon Fruit",
+      "FinalScore": 0.9990496014817686,
+      "CrossScore": 0.9990496014817686
+    },
+    {
+      "Question": "प्लास्टिक मल्चिंग के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9989948906170517,
+      "CrossScore": 0.9989948906170517
+    }
+  ],
+  "latency_ms": 203.35,
+  "final_returned": [
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 999.9030757310942
+    },
+    {
+      "Question": "गन्ने की बुआई की मशीन (Sugarcane Planter) के क्या लाभ हैं?",
+      "Crop": "Sugarcane",
+      "Score": 0.9992396739717294
+    },
+    {
+      "Question": "मशरूम के स्वास्थ्य लाभ क्या हैं?",
+      "Crop": "Mushroom",
+      "Score": 0.9992137824543393
+    },
+    {
+      "Question": "जैविक खेती के मुख्य लाभ क्या हैं?",
+      "Crop": "Organic Farming",
+      "Score": 0.9992071957398863
+    },
+    {
+      "Question": "मुख्यमंत्री बागवानी मिशन (बिहार) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.9991218701597615
+    }
+  ]
+}

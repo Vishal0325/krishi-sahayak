@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:52.894989",
+  "query_original": "पाले (Frost) से बचाव के क्या उपाय हैं?",
+  "query_normalized": "पाले frost से बचाव के क्या उपाय हैं",
+  "query_expanded": "पाले frost से बचाव के क्या उपाय हैं",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "पाले (Frost) से बचाव के क्या उपाय हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "पाले से बचाव के उपाय?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "लाल सड़न से बचाव के उपाय?",
+      "Crop": "Sugarcane"
+    },
+    {
+      "Question": "गेहूं में 'नमक के पानी' का छिड़काव क्या पाले से बचाता है?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "पाले (Frost) से बचाव के क्या उपाय हैं?",
+      "Crop": "General",
+      "FinalScore": 999.9170311347606,
+      "CrossScore": 0.9999170311347606
+    },
+    {
+      "Question": "गेहूं की फसल को पाले (Frost) से कैसे बचाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9998949477652227,
+      "CrossScore": 0.9998949477652227
+    },
+    {
+      "Question": "'पाले' (Frost) की चेतावनी होने पर क्या करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998489655510391,
+      "CrossScore": 0.9998489655510391
+    },
+    {
+      "Question": "लाल सड़न से बचाव के उपाय?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9995541137196019,
+      "CrossScore": 0.9995541137196019
+    },
+    {
+      "Question": "कोयली रोग से बचाव के उपाय?",
+      "Crop": "Mango",
+      "FinalScore": 0.9994801776128361,
+      "CrossScore": 0.9994801776128361
+    },
+    {
+      "Question": "लाल सड़न रोग से बचाव के उपाय क्या हैं?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.999463313761153,
+      "CrossScore": 0.999463313761153
+    },
+    {
+      "Question": "उकठा रोग से बचाव के उपाय?",
+      "Crop": "Guava",
+      "FinalScore": 0.9994550629021745,
+      "CrossScore": 0.9994550629021745
+    },
+    {
+      "Question": "पाले से बचाव के उपाय?",
+      "Crop": "Potato",
+      "FinalScore": 0.9994070645943162,
+      "CrossScore": 0.9994070645943162
+    },
+    {
+      "Question": "मक्का में 'तुलसिता' (Downy Mildew) रोग के क्या लक्षण हैं?",
+      "Crop": "Maize",
+      "FinalScore": 0.9993159046082477,
+      "CrossScore": 0.9993159046082477
+    },
+    {
+      "Question": "फलों के पेड़ों को 'सर्दियों' में पाले से कैसे बचाएं?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9992956014181645,
+      "CrossScore": 0.9992956014181645
+    }
+  ],
+  "latency_ms": 209.78,
+  "final_returned": [
+    {
+      "Question": "पाले (Frost) से बचाव के क्या उपाय हैं?",
+      "Crop": "General",
+      "Score": 999.9170311347606
+    },
+    {
+      "Question": "गेहूं की फसल को पाले (Frost) से कैसे बचाएं?",
+      "Crop": "Wheat",
+      "Score": 0.9998949477652227
+    },
+    {
+      "Question": "'पाले' (Frost) की चेतावनी होने पर क्या करें?",
+      "Crop": "General",
+      "Score": 0.9998489655510391
+    },
+    {
+      "Question": "लाल सड़न से बचाव के उपाय?",
+      "Crop": "Sugarcane",
+      "Score": 0.9995541137196019
+    },
+    {
+      "Question": "कोयली रोग से बचाव के उपाय?",
+      "Crop": "Mango",
+      "Score": 0.9994801776128361
+    }
+  ]
+}

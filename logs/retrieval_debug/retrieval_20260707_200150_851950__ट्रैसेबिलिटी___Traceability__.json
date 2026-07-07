@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:50.626307",
+  "query_original": "'ट्रैसेबिलिटी' (Traceability) ग्राहकों के लिए क्यों जरूरी है?",
+  "query_normalized": "ट्रैसेबिलिटी traceability ग्राहकों के लिए क्यों जरूरी है",
+  "query_expanded": "ट्रैसेबिलिटी traceability ग्राहकों के लिए क्यों जरूरी है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'ट्रैसेबिलिटी' (Traceability) ग्राहकों के लिए क्यों जरूरी है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "दूध बढ़ाने के लिए 'हरा चारा' क्यों जरूरी है?",
+      "Crop": "Dairy"
+    },
+    {
+      "Question": "ई-केवाईसी (e-KYC) पीएम-किसान के लिए क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli"
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'ट्रैसेबिलिटी' (Traceability) ग्राहकों के लिए क्यों जरूरी है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 999.8412720936933,
+      "CrossScore": 0.9998412720936933
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "FinalScore": 0.998465358899884,
+      "CrossScore": 0.998465358899884
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "FinalScore": 0.9984644635918847,
+      "CrossScore": 0.9984644635918847
+    },
+    {
+      "Question": "धनिया में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Coriander",
+      "FinalScore": 0.9984490636355748,
+      "CrossScore": 0.9984490636355748
+    },
+    {
+      "Question": "भिंडी में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Okra",
+      "FinalScore": 0.9983775288945315,
+      "CrossScore": 0.9983775288945315
+    },
+    {
+      "Question": "बैंगन में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9983025257950864,
+      "CrossScore": 0.9983025257950864
+    },
+    {
+      "Question": "खेती के साथ पशुपालन (Integrated Farming) क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9982919431665498,
+      "CrossScore": 0.9982919431665498
+    },
+    {
+      "Question": "ट्रैक्टर के 'रेडिएटर' की सफाई क्यों जरूरी है?",
+      "Crop": "General",
+      "FinalScore": 0.9981443290194061,
+      "CrossScore": 0.9981443290194061
+    },
+    {
+      "Question": "मशीनों की आयु बढ़ाने के लिए सबसे जरूरी क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9981167818379216,
+      "CrossScore": 0.9981167818379216
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद खेत की जुताई क्यों जरूरी है?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9980785700335156,
+      "CrossScore": 0.9980785700335156
+    }
+  ],
+  "latency_ms": 225.7,
+  "final_returned": [
+    {
+      "Question": "'ट्रैसेबिलिटी' (Traceability) ग्राहकों के लिए क्यों जरूरी है?",
+      "Crop": "Agri Tech",
+      "Score": 999.8412720936933
+    },
+    {
+      "Question": "मिर्च में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Chilli",
+      "Score": 0.998465358899884
+    },
+    {
+      "Question": "गन्ने के बीज का उपचार (Sett Treatment) क्यों जरूरी है?",
+      "Crop": "Sugarcane",
+      "Score": 0.9984644635918847
+    },
+    {
+      "Question": "धनिया में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Coriander",
+      "Score": 0.9984490636355748
+    },
+    {
+      "Question": "भिंडी में 'फास्फोरस' के लिए 'एसएसपी' क्यों अच्छा है?",
+      "Crop": "Okra",
+      "Score": 0.9983775288945315
+    }
+  ]
+}

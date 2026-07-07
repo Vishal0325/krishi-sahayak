@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:27.923609",
+  "query_original": "'वेयरहाउस रसीद' (Warehouse Receipt) पर लोन?",
+  "query_normalized": "वेयरहाउस रसीद warehouse receipt पर लोन",
+  "query_expanded": "वेयरहाउस रसीद warehouse receipt पर लोन",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'वेयरहाउस रसीद' (Warehouse Receipt) पर लोन?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "'कृषि यंत्रीकरण' में बैंक लोन पर ब्याज सब्सिडी?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'वेयरहाउस रसीद' (Warehouse Receipt) पर लोन?",
+      "Crop": "Economics",
+      "FinalScore": 999.8904897465773,
+      "CrossScore": 0.9998904897465772
+    },
+    {
+      "Question": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+      "Crop": "General",
+      "FinalScore": 0.9971722072417686,
+      "CrossScore": 0.9971722072417686
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "FinalScore": 0.9968014307787448,
+      "CrossScore": 0.9968014307787448
+    },
+    {
+      "Question": "'दशपर्णी अर्क' किन कीटों पर प्रभावी है?",
+      "Crop": "General",
+      "FinalScore": 0.9966139262082837,
+      "CrossScore": 0.9966139262082837
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics",
+      "FinalScore": 0.9959549089680847,
+      "CrossScore": 0.9959549089680847
+    },
+    {
+      "Question": "क्या कृषि यंत्रों का रेंट (Rent) पर बिजनेस किया जा सकता है?",
+      "Crop": "General",
+      "FinalScore": 0.995383491416535,
+      "CrossScore": 0.995383491416535
+    },
+    {
+      "Question": "'ई-नाम' (e-NAM) पोर्टल पर पंजीकरण का लाभ?",
+      "Crop": "General",
+      "FinalScore": 0.9949427135999314,
+      "CrossScore": 0.9949427135999314
+    },
+    {
+      "Question": "क्या पुराने ट्रैक्टरों पर भी सब्सिडी मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9938971674116979,
+      "CrossScore": 0.9938971674116979
+    },
+    {
+      "Question": "खेती में 'नवाचार' (Innovation) पर खर्च?",
+      "Crop": "Economics",
+      "FinalScore": 0.9933948775925828,
+      "CrossScore": 0.9933948775925828
+    },
+    {
+      "Question": "क्या मशीनों के लिए सरकारी बैंक लोन देते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9929165020192151,
+      "CrossScore": 0.9929165020192151
+    }
+  ],
+  "latency_ms": 208.69,
+  "final_returned": [
+    {
+      "Question": "'वेयरहाउस रसीद' (Warehouse Receipt) पर लोन?",
+      "Crop": "Economics",
+      "Score": 999.8904897465773
+    },
+    {
+      "Question": "क्या खेती में 'पट्टे' (Lease) पर जमीन लेना फायदेमंद है?",
+      "Crop": "General",
+      "Score": 0.9971722072417686
+    },
+    {
+      "Question": "क्या खेती के लिए बैंक से लोन (Loan) लेना सही है?",
+      "Crop": "General",
+      "Score": 0.9968014307787448
+    },
+    {
+      "Question": "'दशपर्णी अर्क' किन कीटों पर प्रभावी है?",
+      "Crop": "General",
+      "Score": 0.9966139262082837
+    },
+    {
+      "Question": "'ब्रांडिंग' पर निवेश करना क्या सही है?",
+      "Crop": "Economics",
+      "Score": 0.9959549089680847
+    }
+  ]
+}

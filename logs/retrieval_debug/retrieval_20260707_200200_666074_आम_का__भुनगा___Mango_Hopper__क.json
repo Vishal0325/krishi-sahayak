@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T20:02:00.472596",
+  "query_original": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+  "query_normalized": "आम का भुनगा mango hopper कीट क्या है",
+  "query_expanded": "pest आम का भुनगा mango hopper कीट क्या है कीड़ा कीट बग insect",
+  "detected_crops": [],
+  "detected_intents": [
+    "Pest"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम के बाग में 'मधुआ' (Mango Hopper) कीट का उपचार क्या है?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम का 'मधुआ' (Mango Hopper) कीट?",
+      "Crop": "Mango"
+    },
+    {
+      "Question": "आम (Mango) के बाग लगाने का सही समय क्या है?",
+      "Crop": "Mango"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 9998.919505439178,
+      "CrossScore": 0.9998919505439178
+    },
+    {
+      "Question": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+      "Crop": "Mango",
+      "FinalScore": 9.998881350542145,
+      "CrossScore": 0.9998881350542145
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "FinalScore": 9.993737168785824,
+      "CrossScore": 0.9993737168785825
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango",
+      "FinalScore": 9.989792196286922,
+      "CrossScore": 0.9989792196286923
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 9.98955144329685,
+      "CrossScore": 0.9989551443296851
+    },
+    {
+      "Question": "'कीट प्रतिरोध' (Resistance) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.979765750824999,
+      "CrossScore": 0.9979765750824998
+    },
+    {
+      "Question": "आम का 'मधुआ' (Mango Hopper) कीट?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998997935277436,
+      "CrossScore": 0.9998997935277436
+    },
+    {
+      "Question": "आम के बाग में 'मधुआ' (Mango Hopper) कीट का उपचार क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.9998935662622579,
+      "CrossScore": 0.9998935662622579
+    },
+    {
+      "Question": "आम (Mango) के बाग लगाने का सही समय क्या है?",
+      "Crop": "Mango",
+      "FinalScore": 0.999788541301968,
+      "CrossScore": 0.999788541301968
+    },
+    {
+      "Question": "धान के भूरा फदका (BPH) का लक्षण क्या है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9996768821950973,
+      "CrossScore": 0.9996768821950973
+    }
+  ],
+  "latency_ms": 193.52,
+  "final_returned": [
+    {
+      "Question": "आम का 'भुनगा' (Mango Hopper) कीट क्या है?",
+      "Crop": "Mango",
+      "Score": 9998.919505439178
+    },
+    {
+      "Question": "'आम का भुनगा' (Mango Hopper) और 'बौर' (Inflorescence)?",
+      "Crop": "Mango",
+      "Score": 9.998881350542145
+    },
+    {
+      "Question": "'पीला चिपचिपा ट्रैप' (Yellow Sticky Trap) का क्या उपयोग है?",
+      "Crop": "General",
+      "Score": 9.993737168785824
+    },
+    {
+      "Question": "'आम का भुनगा' और बारिश का संबंध?",
+      "Crop": "Mango",
+      "Score": 9.989792196286922
+    },
+    {
+      "Question": "धान का 'तना छेदक' (Stem Borer) कीट क्या है?",
+      "Crop": "Rice",
+      "Score": 9.98955144329685
+    }
+  ]
+}

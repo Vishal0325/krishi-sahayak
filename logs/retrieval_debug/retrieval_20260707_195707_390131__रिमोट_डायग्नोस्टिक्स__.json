@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:07.192130",
+  "query_original": "'रिमोट डायग्नोस्टिक्स'?",
+  "query_normalized": "रिमोट डायग्नोस्टिक्स",
+  "query_expanded": "रिमोट डायग्नोस्टिक्स",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "'रिमोट डायग्नोस्टिक्स'?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "'रिमोट सेंसिंग' (Remote Sensing) क्या है?",
+      "Crop": "Agri Tech"
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "कृषि अर्थशास्त्र (Agri Economics) का महत्व क्या है?",
+      "Crop": "Economics"
+    },
+    {
+      "Question": "गेहूं की 'सिंचाई' के लिए 'कनाल' (नहर) का पानी?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "'रिमोट डायग्नोस्टिक्स'?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.999854425325201,
+      "CrossScore": 0.999854425325201
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "FinalScore": 0.999791878125996,
+      "CrossScore": 0.999791878125996
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9997826892201319,
+      "CrossScore": 0.9997826892201319
+    },
+    {
+      "Question": "'रिमोट सेंसिंग' (Remote Sensing) क्या है?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9997546992896963,
+      "CrossScore": 0.9997546992896963
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "FinalScore": 0.999738777056535,
+      "CrossScore": 0.999738777056535
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'स्यूडोमोनास'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9997385154162649,
+      "CrossScore": 0.9997385154162649
+    },
+    {
+      "Question": "औषधीय पौधों की 'प्रोसेसिंग' के लिए छोटी इकाई?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997286744446743,
+      "CrossScore": 0.9997286744446743
+    },
+    {
+      "Question": "'वेयरहाउस रसीद' (Warehouse Receipt) पर लोन?",
+      "Crop": "Economics",
+      "FinalScore": 0.9997204928932458,
+      "CrossScore": 0.9997204928932458
+    },
+    {
+      "Question": "केले in 'सिगाटोका' रोकने के लिए छंटाई?",
+      "Crop": "Banana",
+      "FinalScore": 0.9997082669181473,
+      "CrossScore": 0.9997082669181473
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9996946312714596,
+      "CrossScore": 0.9996946312714596
+    }
+  ],
+  "latency_ms": 198.08,
+  "final_returned": [
+    {
+      "Question": "'रिमोट डायग्नोस्टिक्स'?",
+      "Crop": "Agri Tech",
+      "Score": 0.999854425325201
+    },
+    {
+      "Question": "मेट्रिब्यूजिन (Metribuzin/Sencor) का उपयोग कहाँ होता है?",
+      "Crop": "General",
+      "Score": 0.999791878125996
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "Score": 0.9997826892201319
+    },
+    {
+      "Question": "'रिमोट सेंसिंग' (Remote Sensing) क्या है?",
+      "Crop": "Agri Tech",
+      "Score": 0.9997546992896963
+    },
+    {
+      "Question": "टमाटर in 'उकठा' (Wilt) रोकने के लिए 'ट्राइकोडर्मा'?",
+      "Crop": "Tomato",
+      "Score": 0.999738777056535
+    }
+  ]
+}

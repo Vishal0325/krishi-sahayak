@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:58:48.392046",
+  "query_original": "जैविक नियंत्रण (Biological Control) क्या है?",
+  "query_normalized": "जैविक नियंत्रण biological control क्या है",
+  "query_expanded": "जैविक नियंत्रण biological control क्या है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सांस्कृतिक नियंत्रण (Cultural Control) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9999245469343325,
+      "CrossScore": 0.9999245469343325
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits",
+      "FinalScore": 0.9998827237906516,
+      "CrossScore": 0.9998827237906516
+    },
+    {
+      "Question": "सांस्कृतिक नियंत्रण (Cultural Control) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998159664229405,
+      "CrossScore": 0.9998159664229405
+    },
+    {
+      "Question": "भौतिक नियंत्रण (Physical Control) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.999801505646812,
+      "CrossScore": 0.999801505646812
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9988056830144235,
+      "CrossScore": 0.9988056830144235
+    },
+    {
+      "Question": "'जैविक कॉरिडोर' (Organic Corridor) क्या है?",
+      "Crop": "Organic Farming",
+      "FinalScore": 0.9986144481941941,
+      "CrossScore": 0.9986144481941941
+    },
+    {
+      "Question": "जैविक नियंत्रण के क्या फायदे हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9985934709263644,
+      "CrossScore": 0.9985934709263644
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से निर्यात में मदद मिलती है?",
+      "Crop": "General",
+      "FinalScore": 0.9984273244051939,
+      "CrossScore": 0.9984273244051939
+    },
+    {
+      "Question": "एफिड्स (Aphids) का जैविक नियंत्रण क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9984070959412329,
+      "CrossScore": 0.9984070959412329
+    },
+    {
+      "Question": "क्या जैविक नियंत्रण से फसल की लागत कम होती है?",
+      "Crop": "General",
+      "FinalScore": 0.9983156893414752,
+      "CrossScore": 0.9983156893414752
+    }
+  ],
+  "latency_ms": 212.22,
+  "final_returned": [
+    {
+      "Question": "जैविक नियंत्रण (Biological Control) क्या है?",
+      "Crop": "General",
+      "Score": 0.9999245469343325
+    },
+    {
+      "Question": "फलों की खेती में 'जैविक नियंत्रण' (Biological Control) कैसे करें?",
+      "Crop": "Fruits",
+      "Score": 0.9998827237906516
+    },
+    {
+      "Question": "सांस्कृतिक नियंत्रण (Cultural Control) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998159664229405
+    },
+    {
+      "Question": "भौतिक नियंत्रण (Physical Control) क्या है?",
+      "Crop": "General",
+      "Score": 0.999801505646812
+    },
+    {
+      "Question": "जैविक खेती (Organic Farming) क्या है?",
+      "Crop": "Organic Farming",
+      "Score": 0.9988056830144235
+    }
+  ]
+}

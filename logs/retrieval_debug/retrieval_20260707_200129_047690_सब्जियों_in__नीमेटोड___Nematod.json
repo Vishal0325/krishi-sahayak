@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:01:28.818082",
+  "query_original": "सब्जियों in 'नीमेटोड' (Nematodes) का प्रभाव?",
+  "query_normalized": "सब्जियों in नीमेटोड nematodes का प्रभाव",
+  "query_expanded": "सब्जियों in नीमेटोड nematodes का प्रभाव",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "सब्जियों in 'नीमेटोड' (Nematodes) का प्रभाव?",
+      "Crop": "General"
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables"
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "सब्जियों in 'नीमेटोड' (Nematodes) का प्रभाव?",
+      "Crop": "General",
+      "FinalScore": 999.8547645988737,
+      "CrossScore": 0.9998547645988737
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995981197618528,
+      "CrossScore": 0.9995981197618528
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995973411063029,
+      "CrossScore": 0.9995973411063029
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995511821868387,
+      "CrossScore": 0.9995511821868387
+    },
+    {
+      "Question": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995400349043434,
+      "CrossScore": 0.9995400349043434
+    },
+    {
+      "Question": "सरसों in 'सफेद रतुआ' का जैविक बचाव?",
+      "Crop": "Mustard",
+      "FinalScore": 0.99953480489128,
+      "CrossScore": 0.99953480489128
+    },
+    {
+      "Question": "सब्जियों in 'सफेद मक्खी' के लिए 'पीला ट्रैप' की ऊँचाई?",
+      "Crop": "General",
+      "FinalScore": 0.9995330119515495,
+      "CrossScore": 0.9995330119515495
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए चूने का प्रयोग?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9995115491383243,
+      "CrossScore": 0.9995115491383243
+    },
+    {
+      "Question": "सब्जियों in 'माइट्स' (Mites/मकड़ी) का प्रकोप कब होता है?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.999502519854069,
+      "CrossScore": 0.999502519854069
+    },
+    {
+      "Question": "मटर in 'जड़ सड़न' का समय?",
+      "Crop": "Pea",
+      "FinalScore": 0.9993492526385832,
+      "CrossScore": 0.9993492526385832
+    }
+  ],
+  "latency_ms": 229.66,
+  "final_returned": [
+    {
+      "Question": "सब्जियों in 'नीमेटोड' (Nematodes) का प्रभाव?",
+      "Crop": "General",
+      "Score": 999.8547645988737
+    },
+    {
+      "Question": "'सब्जियों in फल मक्खी' का सबसे प्रभावी इलाज?",
+      "Crop": "Vegetables",
+      "Score": 0.9995981197618528
+    },
+    {
+      "Question": "सब्जियों in 'फल मक्खी' (Fruit Fly) का नियंत्रण कैसे करें?",
+      "Crop": "Vegetables",
+      "Score": 0.9995973411063029
+    },
+    {
+      "Question": "सब्जियों in 'विल्ट' रोकने के लिए 'मल्चिंग'?",
+      "Crop": "Vegetables",
+      "Score": 0.9995511821868387
+    },
+    {
+      "Question": "सब्जियों in 'सफेद सड़न' (Sclerotinia) का लक्षण?",
+      "Crop": "Vegetables",
+      "Score": 0.9995400349043434
+    }
+  ]
+}

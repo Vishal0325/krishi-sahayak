@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:47.249345",
+  "query_original": "हेक्साकोनाजोल (Hexaconazole) का प्रयोग किस फसल में करें?",
+  "query_normalized": "हेक्साकोनाजोल hexaconazole का प्रयोग किस फसल में करें",
+  "query_expanded": "हेक्साकोनाजोल hexaconazole का प्रयोग किस फसल में करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "हेक्साकोनाजोल (Hexaconazole) का प्रयोग किस फसल में करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एट्राजीन (Atrazine) का प्रयोग किस फसल में होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की फसल में एनपीके (19:19:19) का छिड़काव कब करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "हेक्साकोनाजोल (Hexaconazole) का प्रयोग किस फसल में करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998785147719461,
+      "CrossScore": 0.9998785147719461
+    },
+    {
+      "Question": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998351116842812,
+      "CrossScore": 0.9998351116842812
+    },
+    {
+      "Question": "मक्का में ' खरपतवार' नियंत्रण के लिए 'एट्राजीन' का छिड़काव कब न करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9998053398589136,
+      "CrossScore": 0.9998053398589136
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997987162025981,
+      "CrossScore": 0.9997987162025981
+    },
+    {
+      "Question": "एट्राजीन (Atrazine) का प्रयोग किस फसल में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997907916240198,
+      "CrossScore": 0.9997907916240198
+    },
+    {
+      "Question": "खड़ी फसल में खरपतवारनाशी का स्प्रे करते समय 'शील्ड' (Hood) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9997899831903343,
+      "CrossScore": 0.9997899831903343
+    },
+    {
+      "Question": "क्या मधुमक्खी पालन में 'दवाओं' का प्रयोग होता है?",
+      "Crop": "Beekeeping",
+      "FinalScore": 0.9997878629746648,
+      "CrossScore": 0.9997878629746648
+    },
+    {
+      "Question": "मूंग की फसल में 'पीला मोजेक' का जैविक उपचार?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9997584000726644,
+      "CrossScore": 0.9997584000726644
+    },
+    {
+      "Question": "मक्का की फसल में चूहों का नियंत्रण कैसे करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.999754671690351,
+      "CrossScore": 0.999754671690351
+    },
+    {
+      "Question": "क्या औषधीय पौधों में कीटनाशकों का प्रयोग सही है?",
+      "Crop": "Medicinal Plants",
+      "FinalScore": 0.9997476186775349,
+      "CrossScore": 0.9997476186775349
+    }
+  ],
+  "latency_ms": 226.13,
+  "final_returned": [
+    {
+      "Question": "हेक्साकोनाजोल (Hexaconazole) का प्रयोग किस फसल में करें?",
+      "Crop": "General",
+      "Score": 0.9998785147719461
+    },
+    {
+      "Question": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+      "Crop": "General",
+      "Score": 0.9998351116842812
+    },
+    {
+      "Question": "मक्का में ' खरपतवार' नियंत्रण के लिए 'एट्राजीन' का छिड़काव कब न करें?",
+      "Crop": "Maize",
+      "Score": 0.9998053398589136
+    },
+    {
+      "Question": "क्या औषधीय पौधों में 'उर्वरक' का प्रयोग करना चाहिए?",
+      "Crop": "Medicinal Plants",
+      "Score": 0.9997987162025981
+    },
+    {
+      "Question": "एट्राजीन (Atrazine) का प्रयोग किस फसल में होता है?",
+      "Crop": "General",
+      "Score": 0.9997907916240198
+    }
+  ]
+}

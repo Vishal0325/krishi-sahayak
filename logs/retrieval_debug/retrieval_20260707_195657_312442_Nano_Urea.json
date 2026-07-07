@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-07-07T19:56:56.854941",
+  "query_original": "Nano Urea",
+  "query_normalized": "nano urea",
+  "query_expanded": "nano urea यूरिया नाइट्रोजन urea nitrogen",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "मक्का में नाइट्रोजन (यूरिया) का प्रबंधन कैसे करें?",
+      "Crop": "Maize"
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9963080678999393,
+      "CrossScore": 0.9963080678999393
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.03772294284738113,
+      "CrossScore": 0.03772294284738113
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 0.03572937005206193,
+      "CrossScore": 0.03572937005206193
+    },
+    {
+      "Question": "पशुओं के लिए 'यूरिया उपचार' (Urea treatment)?",
+      "Crop": "Livestock",
+      "FinalScore": 0.005385116738527622,
+      "CrossScore": 0.005385116738527622
+    },
+    {
+      "Question": "मिट्टी में नाइट्रोजन स्थिरीकरण (Nitrogen Fixation) क्या है?",
+      "Crop": "General",
+      "FinalScore": 2.0680064012561235e-05,
+      "CrossScore": 2.0680064012561235e-05
+    },
+    {
+      "Question": "भिंडी में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Okra",
+      "FinalScore": 1.821920066041934e-05,
+      "CrossScore": 1.821920066041934e-05
+    },
+    {
+      "Question": "धनिया में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Coriander",
+      "FinalScore": 1.7812085831061637e-05,
+      "CrossScore": 1.7812085831061637e-05
+    },
+    {
+      "Question": "बैंगन में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Brinjal",
+      "FinalScore": 1.6991271288315008e-05,
+      "CrossScore": 1.6991271288315008e-05
+    },
+    {
+      "Question": "प्याज में 'नत्रजन' (Nitrogen) की अधिकता से नुकसान?",
+      "Crop": "Onion",
+      "FinalScore": 1.684249442422458e-05,
+      "CrossScore": 1.684249442422458e-05
+    },
+    {
+      "Question": "'धान का पत्ता लपेटक' और 'नाइट्रोजन'?",
+      "Crop": "Rice",
+      "FinalScore": 1.441055354482615e-05,
+      "CrossScore": 1.441055354482615e-05
+    }
+  ],
+  "latency_ms": 457.64,
+  "final_returned": [
+    {
+      "Question": "नैनो यूरिया (Nano Urea) क्या है?",
+      "Crop": "General",
+      "Score": 0.9963080678999393
+    },
+    {
+      "Question": "यूरिया (Urea) का मुख्य कार्य क्या है?",
+      "Crop": "General",
+      "Score": 0.03772294284738113
+    },
+    {
+      "Question": "नीम लेपित यूरिया (Neem Coated Urea) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 0.03572937005206193
+    }
+  ]
+}

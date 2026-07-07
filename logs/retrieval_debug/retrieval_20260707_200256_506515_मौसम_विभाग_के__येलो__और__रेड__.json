@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:56.345267",
+  "query_original": "मौसम विभाग के 'येलो' और 'रेड' अलर्ट?",
+  "query_normalized": "मौसम विभाग के येलो और रेड अलर्ट",
+  "query_expanded": "मौसम विभाग के येलो और रेड अलर्ट",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मौसम विभाग के 'येलो' और 'रेड' अलर्ट?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बादलों के प्रकार और मौसम का अनुमान?",
+      "Crop": "General"
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice"
+    },
+    {
+      "Question": "'जैविक दवाओं' का असर और मौसम?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मौसम विभाग के 'येलो' और 'रेड' अलर्ट?",
+      "Crop": "General",
+      "FinalScore": 999.8766403651904,
+      "CrossScore": 0.9998766403651904
+    },
+    {
+      "Question": "मौसम और 'रेशम कीट' पालन?",
+      "Crop": "General",
+      "FinalScore": 0.9998630264883824,
+      "CrossScore": 0.9998630264883824
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "FinalScore": 0.999854635471484,
+      "CrossScore": 0.999854635471484
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General",
+      "FinalScore": 0.9998501460213481,
+      "CrossScore": 0.9998501460213481
+    },
+    {
+      "Question": "मौसम के अनुसार सिंचाई का निर्धारण?",
+      "Crop": "General",
+      "FinalScore": 0.9998120829274671,
+      "CrossScore": 0.9998120829274671
+    },
+    {
+      "Question": "किसान मौसम की जानकारी के लिए टोल फ्री नंबर?",
+      "Crop": "General",
+      "FinalScore": 0.9998069032204335,
+      "CrossScore": 0.9998069032204335
+    },
+    {
+      "Question": "मौसम आधारित सलाह के लिए 'मेघदूत' ऐप?",
+      "Crop": "General",
+      "FinalScore": 0.999806678468388,
+      "CrossScore": 0.999806678468388
+    },
+    {
+      "Question": "मौसम और 'बीज उत्पादन'?",
+      "Crop": "General",
+      "FinalScore": 0.999793603705049,
+      "CrossScore": 0.999793603705049
+    },
+    {
+      "Question": "'कीटों का जीवन चक्र' और 'मौसम'?",
+      "Crop": "General",
+      "FinalScore": 0.9997832555837373,
+      "CrossScore": 0.9997832555837373
+    },
+    {
+      "Question": "क्या मौसम के अनुसार सिंचाई का स्रोत बदलना चाहिए?",
+      "Crop": "General",
+      "FinalScore": 0.999779098764488,
+      "CrossScore": 0.999779098764488
+    }
+  ],
+  "latency_ms": 161.28,
+  "final_returned": [
+    {
+      "Question": "मौसम विभाग के 'येलो' और 'रेड' अलर्ट?",
+      "Crop": "General",
+      "Score": 999.8766403651904
+    },
+    {
+      "Question": "मौसम और 'रेशम कीट' पालन?",
+      "Crop": "General",
+      "Score": 0.9998630264883824
+    },
+    {
+      "Question": "धान के 'शीथ ब्लाइट' का 'मौसम' से संबंध?",
+      "Crop": "Rice",
+      "Score": 0.999854635471484
+    },
+    {
+      "Question": "'मौसम पूर्वानुमान' और कीटों का हमला?",
+      "Crop": "General",
+      "Score": 0.9998501460213481
+    },
+    {
+      "Question": "मौसम के अनुसार सिंचाई का निर्धारण?",
+      "Crop": "General",
+      "Score": 0.9998120829274671
+    }
+  ]
+}

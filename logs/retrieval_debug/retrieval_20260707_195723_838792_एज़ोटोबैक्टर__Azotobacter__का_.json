@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:57:23.636293",
+  "query_original": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+  "query_normalized": "एज़ोटोबैक्टर azotobacter का प्रयोग किस मिट्टी में करें",
+  "query_expanded": "एज़ोटोबैक्टर azotobacter का प्रयोग किस मिट्टी में करें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "हेक्साकोनाजोल (Hexaconazole) का प्रयोग किस फसल में करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "एट्राजीन (Atrazine) का प्रयोग किस फसल में होता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "जैविक नियंत्रण में 'ट्राइकोडर्मा' का प्रयोग किसके साथ न करें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998515585115098,
+      "CrossScore": 0.9998515585115098
+    },
+    {
+      "Question": "'एज़ोटोबैक्टर' (Azotobacter) का उपयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9998343138938064,
+      "CrossScore": 0.9998343138938064
+    },
+    {
+      "Question": "एट्राजीन (Atrazine) का प्रयोग किस फसल में होता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997272825196566,
+      "CrossScore": 0.9997272825196566
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996837208295708,
+      "CrossScore": 0.9996837208295708
+    },
+    {
+      "Question": "मक्का में ' खरपतवार' नियंत्रण के लिए 'एट्राजीन' का छिड़काव कब न करें?",
+      "Crop": "Maize",
+      "FinalScore": 0.9996588819149334,
+      "CrossScore": 0.9996588819149334
+    },
+    {
+      "Question": "हेक्साकोनाजोल (Hexaconazole) का प्रयोग किस फसल में करें?",
+      "Crop": "General",
+      "FinalScore": 0.9996490207764162,
+      "CrossScore": 0.9996490207764162
+    },
+    {
+      "Question": "'जिप्सम' (Gypsum) का क्षारीय मिट्टी में प्रयोग?",
+      "Crop": "General",
+      "FinalScore": 0.9996056740523727,
+      "CrossScore": 0.9996056740523727
+    },
+    {
+      "Question": "गेहूं में 'जिप्सम' का प्रयोग कब करें?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9995950566904862,
+      "CrossScore": 0.9995950566904862
+    },
+    {
+      "Question": "चने की खेती में 'कल्टीवेटर' का प्रयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9995736684111842,
+      "CrossScore": 0.9995736684111842
+    },
+    {
+      "Question": "चने की खेती में 'रोटावेटर' का प्रयोग?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9995709543533574,
+      "CrossScore": 0.9995709543533574
+    }
+  ],
+  "latency_ms": 202.6,
+  "final_returned": [
+    {
+      "Question": "एज़ोटोबैक्टर (Azotobacter) का प्रयोग किस मिट्टी में करें?",
+      "Crop": "General",
+      "Score": 0.9998515585115098
+    },
+    {
+      "Question": "'एज़ोटोबैक्टर' (Azotobacter) का उपयोग?",
+      "Crop": "General",
+      "Score": 0.9998343138938064
+    },
+    {
+      "Question": "एट्राजीन (Atrazine) का प्रयोग किस फसल में होता है?",
+      "Crop": "General",
+      "Score": 0.9997272825196566
+    },
+    {
+      "Question": "'सिंचर' (Sencor) का उपयोग किस फसल में न करें?",
+      "Crop": "General",
+      "Score": 0.9996837208295708
+    },
+    {
+      "Question": "मक्का में ' खरपतवार' नियंत्रण के लिए 'एट्राजीन' का छिड़काव कब न करें?",
+      "Crop": "Maize",
+      "Score": 0.9996588819149334
+    }
+  ]
+}

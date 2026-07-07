@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T19:55:37.776216",
+  "query_original": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+  "query_normalized": "मिट्टी के कटाव soil erosion को कैसे रोकें",
+  "query_expanded": "मिट्टी के कटाव soil erosion को कैसे रोकें",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद अवशेषों को मिट्टी में कैसे मिलाएं?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "भंडारण के दौरान नुकसान (Post-Harvest Loss) को कैसे रोकें?",
+      "Crop": "General"
+    },
+    {
+      "Question": "आलू की खुदाई के बाद 'मिट्टी' को कैसे साफ करें?",
+      "Crop": "Potato"
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+      "Crop": "General",
+      "FinalScore": 0.9999251382114311,
+      "CrossScore": 0.9999251382114311
+    },
+    {
+      "Question": "'मृदा कटाव' (Soil Erosion) रोकने का सबसे अच्छा तरीका?",
+      "Crop": "General",
+      "FinalScore": 0.9998804715387278,
+      "CrossScore": 0.9998804715387278
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "FinalScore": 0.9998497471127806,
+      "CrossScore": 0.9998497471127806
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "FinalScore": 0.9997968910674123,
+      "CrossScore": 0.9997968910674123
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "FinalScore": 0.9997962127068096,
+      "CrossScore": 0.9997962127068096
+    },
+    {
+      "Question": "क्षारीय या ऊसर मिट्टी (Alkaline Soil) को कैसे सुधारें?",
+      "Crop": "General",
+      "FinalScore": 0.99975585519789,
+      "CrossScore": 0.99975585519789
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.9997271891591153,
+      "CrossScore": 0.9997271891591153
+    },
+    {
+      "Question": "मिट्टी को 'प्रदूषण' से कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.99866886129423,
+      "CrossScore": 0.99866886129423
+    },
+    {
+      "Question": "मिट्टी की 'नमी' को लंबे समय तक कैसे बचाएं?",
+      "Crop": "General",
+      "FinalScore": 0.998320970461843,
+      "CrossScore": 0.998320970461843
+    },
+    {
+      "Question": "गेहूं की 'कटाई' के बाद अवशेषों को मिट्टी में कैसे मिलाएं?",
+      "Crop": "Wheat",
+      "FinalScore": 0.9982578300331036,
+      "CrossScore": 0.9982578300331036
+    }
+  ],
+  "latency_ms": 363.63,
+  "final_returned": [
+    {
+      "Question": "मिट्टी के कटाव (Soil Erosion) को कैसे रोकें?",
+      "Crop": "General",
+      "Score": 0.9999251382114311
+    },
+    {
+      "Question": "'मृदा कटाव' (Soil Erosion) रोकने का सबसे अच्छा तरीका?",
+      "Crop": "General",
+      "Score": 0.9998804715387278
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Drenching) कैसे करें?",
+      "Crop": "General",
+      "Score": 0.9998497471127806
+    },
+    {
+      "Question": "मिट्टी की नमी (Soil Moisture) को कैसे मापें?",
+      "Crop": "General",
+      "Score": 0.9997968910674123
+    },
+    {
+      "Question": "मिट्टी उपचार (Soil Treatment) के लिए ट्राइकोडर्मा की मात्रा?",
+      "Crop": "General",
+      "Score": 0.9997962127068096
+    }
+  ]
+}

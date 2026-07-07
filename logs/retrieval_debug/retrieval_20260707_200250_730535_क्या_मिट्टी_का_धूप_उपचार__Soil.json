@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:50.464776",
+  "query_original": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+  "query_normalized": "क्या मिट्टी का धूप उपचार soil solarization बीमारियों को कम करता है",
+  "query_expanded": "क्या मिट्टी का धूप उपचार soil solarization बीमारियों को कम करता है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का रंग सूर्य की गर्मी सोखने को प्रभावित करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या मिट्टी का पीएच फसल के चुनाव को प्रभावित करता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "बीज उपचार (Seed Treatment) बीमारियों को रोकने in कैसे मदद करता है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "FinalScore": 999.8647264548175,
+      "CrossScore": 0.9998647264548175
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "FinalScore": 0.999863071280366,
+      "CrossScore": 0.999863071280366
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables",
+      "FinalScore": 0.9998280960367962,
+      "CrossScore": 0.9998280960367962
+    },
+    {
+      "Question": "मृदा सौरीकरण (Soil Solarization) क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998244977441463,
+      "CrossScore": 0.9998244977441463
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9997638135232143,
+      "CrossScore": 0.9997638135232143
+    },
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 0.9997250385310485,
+      "CrossScore": 0.9997250385310485
+    },
+    {
+      "Question": "मृदा स्वास्थ्य कार्ड (Soil Health Card) योजना का उद्देश्य क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996892772382676,
+      "CrossScore": 0.9996892772382676
+    },
+    {
+      "Question": "मिट्टी की संरचना (Soil Structure) का क्या अर्थ है?",
+      "Crop": "General",
+      "FinalScore": 0.9996800124334236,
+      "CrossScore": 0.9996800124334236
+    },
+    {
+      "Question": "मिट्टी का नमूना (Soil Sample) लेने का सही तरीका क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9996287865938697,
+      "CrossScore": 0.9996287865938697
+    },
+    {
+      "Question": "क्या खरपतवारनाशी मिट्टी की उर्वरता को कम करते हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9986277025394176,
+      "CrossScore": 0.9986277025394176
+    }
+  ],
+  "latency_ms": 265.82,
+  "final_returned": [
+    {
+      "Question": "क्या मिट्टी का धूप उपचार (Soil Solarization) बीमारियों को कम करता है?",
+      "Crop": "General",
+      "Score": 999.8647264548175
+    },
+    {
+      "Question": "'मिट्टी का धूप उपचार' (Soil Solarization) और 'रोगजनक'?",
+      "Crop": "General",
+      "Score": 0.999863071280366
+    },
+    {
+      "Question": "सब्जियों के लिए 'मिट्टी का सौरीकरण' (Soil Solarization)?",
+      "Crop": "Vegetables",
+      "Score": 0.9998280960367962
+    },
+    {
+      "Question": "मृदा सौरीकरण (Soil Solarization) क्या है?",
+      "Crop": "General",
+      "Score": 0.9998244977441463
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9997638135232143
+    }
+  ]
+}

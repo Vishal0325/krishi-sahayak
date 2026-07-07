@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:03:19.565870",
+  "query_original": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+  "query_normalized": "कृषि यंत्रों के लिए ई रुपी e rupi वाउचर",
+  "query_expanded": "कृषि यंत्रों के लिए ई रुपी e rupi वाउचर",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General"
+    },
+    {
+      "Question": "ई-केवाईसी (e-KYC) पीएम-किसान के लिए क्यों जरूरी है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों के रखरखाव के लिए मुख्य टिप्स क्या हैं?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कृषि यंत्रों के लिए 'कस्टम हायरिंग सेंटर' (CHC) क्या है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "FinalScore": 999.8983423464953,
+      "CrossScore": 0.9998983423464952
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "FinalScore": 0.9998662306892651,
+      "CrossScore": 0.9998662306892651
+    },
+    {
+      "Question": "कृषि यंत्रों के रखरखाव के लिए मुख्य टिप्स क्या हैं?",
+      "Crop": "General",
+      "FinalScore": 0.9998632143076298,
+      "CrossScore": 0.9998632143076298
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "FinalScore": 0.9998606570754749,
+      "CrossScore": 0.9998606570754749
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics",
+      "FinalScore": 0.9998453679130287,
+      "CrossScore": 0.9998453679130287
+    },
+    {
+      "Question": "'कृषि स्टार्टअप' के लिए सीड फंड?",
+      "Crop": "Agri Tech",
+      "FinalScore": 0.9998443002755626,
+      "CrossScore": 0.9998443002755626
+    },
+    {
+      "Question": "जलवायु स्मार्ट कृषि के लिए 'बजट'?",
+      "Crop": "General",
+      "FinalScore": 0.9998408482008643,
+      "CrossScore": 0.9998408482008643
+    },
+    {
+      "Question": "किसानों के लिए कृषि विज्ञान का संदेश?",
+      "Crop": "General",
+      "FinalScore": 0.9998263035565994,
+      "CrossScore": 0.9998263035565994
+    },
+    {
+      "Question": "दलहनी फसलों के लिए सरकारी सब्सिडी?",
+      "Crop": "Pulses",
+      "FinalScore": 0.9998247313661809,
+      "CrossScore": 0.9998247313661809
+    },
+    {
+      "Question": "कृषि यंत्रों के पार्ट्स (Spare Parts) कहाँ से खरीदें?",
+      "Crop": "General",
+      "FinalScore": 0.999817043313936,
+      "CrossScore": 0.999817043313936
+    }
+  ],
+  "latency_ms": 247.96,
+  "final_returned": [
+    {
+      "Question": "कृषि यंत्रों के लिए ई-रुपी (e-RUPI) वाउचर?",
+      "Crop": "General",
+      "Score": 999.8983423464953
+    },
+    {
+      "Question": "बैंगन in 'विल्ट' के लिए 'ब्लीचिंग पाउडर'?",
+      "Crop": "Brinjal",
+      "Score": 0.9998662306892651
+    },
+    {
+      "Question": "कृषि यंत्रों के रखरखाव के लिए मुख्य टिप्स क्या हैं?",
+      "Crop": "General",
+      "Score": 0.9998632143076298
+    },
+    {
+      "Question": "क्या कृषि यंत्रों के लिए पुराने ट्रैक्टर का एक्सचेंज संभव है?",
+      "Crop": "General",
+      "Score": 0.9998606570754749
+    },
+    {
+      "Question": "'कृषि निर्यात' (Export) के लिए आवश्यक वित्तीय तैयारी?",
+      "Crop": "Economics",
+      "Score": 0.9998453679130287
+    }
+  ]
+}

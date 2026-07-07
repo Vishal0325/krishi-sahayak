@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-07-07T20:02:49.142788",
+  "query_original": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+  "query_normalized": "मिट्टी soil क्या है और यह खेती के लिए क्यों महत्वपूर्ण है",
+  "query_expanded": "मिट्टी soil क्या है और यह खेती के लिए क्यों महत्वपूर्ण है",
+  "detected_crops": [],
+  "detected_intents": [],
+  "candidates_pre_rerank": [
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती के लिए मिट्टी परीक्षण जरूरी है?",
+      "Crop": "Medicinal Plants"
+    },
+    {
+      "Question": "गेहूं की खेती में किसानों के लिए मुख्य सलाह क्या है?",
+      "Crop": "Wheat"
+    },
+    {
+      "Question": "क्या औषधीय पौधों की खेती 'महिलाओं' के लिए अच्छी है?",
+      "Crop": "Medicinal Plants"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "FinalScore": 999.8883454243229,
+      "CrossScore": 0.9998883454243229
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "FinalScore": 0.999885561263292,
+      "CrossScore": 0.999885561263292
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "FinalScore": 0.9998732302101411,
+      "CrossScore": 0.9998732302101411
+    },
+    {
+      "Question": "मृदा जनित रोगों (Soil Borne Diseases) के लिए सबसे अच्छा जैविक समाधान क्या है?",
+      "Crop": "General",
+      "FinalScore": 0.9998030962286051,
+      "CrossScore": 0.9998030962286051
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "FinalScore": 0.9995665765950827,
+      "CrossScore": 0.9995665765950827
+    },
+    {
+      "Question": "क्या राख (Ash) मिट्टी के लिए अच्छी है?",
+      "Crop": "General",
+      "FinalScore": 0.9995494349451294,
+      "CrossScore": 0.9995494349451294
+    },
+    {
+      "Question": "मक्का की खेती में मिट्टी चढ़ावा (Earthing up) का क्या महत्व है?",
+      "Crop": "Maize",
+      "FinalScore": 0.9995456149949308,
+      "CrossScore": 0.9995456149949308
+    },
+    {
+      "Question": "टमाटर की खेती में 'मिट्टी चढ़ाना' क्यों जरूरी है?",
+      "Crop": "Tomato",
+      "FinalScore": 0.9994611537601307,
+      "CrossScore": 0.9994611537601307
+    },
+    {
+      "Question": "धान के लिए 'पैडी वीडर' (Paddy Weeder) का क्या लाभ है?",
+      "Crop": "Rice",
+      "FinalScore": 0.9994027941371726,
+      "CrossScore": 0.9994027941371726
+    },
+    {
+      "Question": "क्या तालाब की मिट्टी खेत के लिए अच्छी है?",
+      "Crop": "General",
+      "FinalScore": 0.9993177660205768,
+      "CrossScore": 0.9993177660205768
+    }
+  ],
+  "latency_ms": 257.24,
+  "final_returned": [
+    {
+      "Question": "मिट्टी (Soil) क्या है और यह खेती के लिए क्यों महत्वपूर्ण है?",
+      "Crop": "General",
+      "Score": 999.8883454243229
+    },
+    {
+      "Question": "दोमट मिट्टी (Loamy Soil) को खेती के लिए सर्वश्रेष्ठ क्यों माना जाता है?",
+      "Crop": "General",
+      "Score": 0.999885561263292
+    },
+    {
+      "Question": "मिट्टी के सूक्ष्मजीवों (Soil Microbes) का क्या महत्व है?",
+      "Crop": "General",
+      "Score": 0.9998732302101411
+    },
+    {
+      "Question": "मृदा जनित रोगों (Soil Borne Diseases) के लिए सबसे अच्छा जैविक समाधान क्या है?",
+      "Crop": "General",
+      "Score": 0.9998030962286051
+    },
+    {
+      "Question": "क्या केंचुए वाली खाद (Vermicompost) मिट्टी के लिए श्रेष्ठ है?",
+      "Crop": "General",
+      "Score": 0.9995665765950827
+    }
+  ]
+}

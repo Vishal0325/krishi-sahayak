@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-07-07T19:56:49.908807",
+  "query_original": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+  "query_normalized": "प्रधानमंत्री मानधन योजना pm kmy क्या है",
+  "query_expanded": "प्रधानमंत्री मानधन योजना pm kmy क्या है",
+  "detected_crops": [],
+  "detected_intents": [
+    "Government Schemes"
+  ],
+  "candidates_pre_rerank": [
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "कुसुम योजना (PM-KUSUM) क्या है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री ग्राम सड़क योजना का कृषि पर क्या प्रभाव है?",
+      "Crop": "General"
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना में 'स्वेच्छा' का क्या मतलब है?",
+      "Crop": "General"
+    }
+  ],
+  "candidates_post_rerank": [
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.999027054170565,
+      "CrossScore": 0.9999027054170565
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "FinalScore": 9.998787027558375,
+      "CrossScore": 0.9998787027558376
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "FinalScore": 9.998725147548534,
+      "CrossScore": 0.9998725147548533
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998656029245609,
+      "CrossScore": 0.999865602924561
+    },
+    {
+      "Question": "कुसुम योजना (PM-KUSUM) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998539652755673,
+      "CrossScore": 0.9998539652755672
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998451253219937,
+      "CrossScore": 0.9998451253219937
+    },
+    {
+      "Question": "पशु किसान क्रेडिट कार्ड योजना क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998204348806471,
+      "CrossScore": 0.9998204348806472
+    },
+    {
+      "Question": "परंपरागत कृषि विकास योजना (PKVY) क्या है?",
+      "Crop": "General",
+      "FinalScore": 9.998051536068255,
+      "CrossScore": 0.9998051536068254
+    },
+    {
+      "Question": "प्रधानमंत्री जन-धन योजना का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 9.998031501040767,
+      "CrossScore": 0.9998031501040767
+    },
+    {
+      "Question": "प्रधानमंत्री जन औषधि केंद्र का कृषि से क्या संबंध है?",
+      "Crop": "General",
+      "FinalScore": 9.998002914330142,
+      "CrossScore": 0.9998002914330142
+    }
+  ],
+  "latency_ms": 443.54,
+  "final_returned": [
+    {
+      "Question": "प्रधानमंत्री मानधन योजना (PM-KMY) क्या है?",
+      "Crop": "General",
+      "Score": 9.999027054170565
+    },
+    {
+      "Question": "पीएम कृषि सिंचाई योजना (PMKSY) का क्या लाभ है?",
+      "Crop": "General",
+      "Score": 9.998787027558375
+    },
+    {
+      "Question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) के क्या लाभ हैं?",
+      "Crop": "General",
+      "Score": 9.998725147548534
+    },
+    {
+      "Question": "पीएम-किसान (PM-KISAN) सम्मान निधि की पात्रता क्या है?",
+      "Crop": "General",
+      "Score": 9.998656029245609
+    },
+    {
+      "Question": "कुसुम योजना (PM-KUSUM) क्या है?",
+      "Crop": "General",
+      "Score": 9.998539652755673
+    }
+  ]
+}
