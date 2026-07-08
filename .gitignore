@@ -12,3 +12,7 @@ ENV/
 *.log
 node_modules/
 krishi_pro.db
+vector_store/
+*.index
+*.faiss
+*.pkl

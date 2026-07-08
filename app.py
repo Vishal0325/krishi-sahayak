@@ -165,33 +165,25 @@ async def chat(chat_msg: ChatMessage):
 
     print(f"Number of retrieved chunks: {len(kb_results)}")
     
-    if not kb_results:
-        print(f"No KB results found.")
-        return {"success": True, "response": "This information is not available in the current knowledge base.", "citations": []}
-
     # 2. Build AI Prompt
     profile_str, history = await get_context_from_db(session_id)
     
-    context_text = "\n".join([f"Source {i+1} [{res['Crop']}]: {res['Answer']}" for i, res in enumerate(kb_results)])
-    print(f"Context length: {len(context_text)} characters")
-    citations = [{"id": i+1, "crop": res['Crop'], "cat": res['Category']} for i, res in enumerate(kb_results)]
+    context_text = "\n".join([f"Source {i+1} [{res['Crop']}]: {res['Answer']}" for i, res in enumerate(kb_results)]) if kb_results else "No specific handbook data found."
+    citations = [{"id": i+1, "crop": res['Crop'], "cat": res['Category']} for i, res in enumerate(kb_results)] if kb_results else []
     
     full_system_prompt = f"""You are a specialized Agricultural Expert.
 
-### STRICT RULES:
-1. Answer ONLY from the provided KNOWLEDGE BASE DATA. 
-2. If the data does not contain the answer or specific facts (doses, costs, yields, eligibility), you MUST say: "This information is not available in the current knowledge base."
-3. NEVER invent or hallucinate any numbers, chemical names, dates, costs, or yields.
-4. EVERY sentence in your response must be derived directly from the provided sources.
-5. EVERY paragraph must end with a source reference like [Source 1] or [Source 2].
-6. DO NOT use your internal training data to provide agricultural advice.
+### RULES:
+1. Answer the user's question primarily using the provided KNOWLEDGE BASE DATA.
+2. If the sources don't have enough information, use your general agricultural knowledge to provide a helpful response.
+3. Be flexible: if the query is general (e.g., "How to grow wheat"), and sources are specific, combine them with general best practices.
+4. Use the specific facts, doses, and methods found in the sources when available.
+5. End paragraphs with source references like [Source 1] if applicable.
 
 ### RESPONSE FORMAT:
-- **Problem**: (Describe the user's issue based on context) [Source X]
-- **Cause**: (List EVERY potential cause found in the provided KNOWLEDGE BASE DATA. If multiple causes exist, list them in order of probability or frequency based on the source metadata. Do not skip any mentioned cause.) [Source X]
-- **Solution**: (Step-by-step treatment/action for EACH cause mentioned above using ONLY the doses/chemicals found in the sources) [Source X]
-- **Prevention**: (How to avoid these issues in the future as per the sources) [Source X]
-- **Source References**: (List the IDs and Crops used)
+- **Problem**: (Brief description)
+- **Solution**: (Detailed steps)
+- **Source References**: (List IDs or 'General Knowledge')
 
 ### FARMER INFO:
 {profile_str}

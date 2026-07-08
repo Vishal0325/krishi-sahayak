@@ -34,6 +34,15 @@ class KrishiRAG:
     def load_db(self):
         index_path = "vector_store/index.faiss"
         meta_path = "vector_store/metadata.pkl"
+        if not (os.path.exists(index_path) and os.path.exists(meta_path)):
+            print("⚠️ Vector Database not found. Building it now...")
+            try:
+                from scripts.build_vector_store import build_index
+                build_index()
+            except ImportError:
+                print("❌ Could not find build_vector_store script.")
+                return
+
         if os.path.exists(index_path) and os.path.exists(meta_path):
             print("📂 Loading Vector Database...")
             self.index = faiss.read_index(index_path)
@@ -47,7 +56,7 @@ class KrishiRAG:
             self.bm25 = BM25Okapi(tokenized_corpus)
             print(f"✅ RAG Engine Ready with {len(self.metadata)} documents.")
         else:
-            print("⚠️ Vector Database not found.")
+            print("❌ Vector Database could not be loaded or built.")
 
     def clean_text(self, text: str) -> str:
         text = str(text).lower().strip()
