@@ -56,6 +56,8 @@ def init_db():
                  (id INTEGER PRIMARY KEY, session_id TEXT, role TEXT, content TEXT, metadata TEXT, timestamp TEXT)''')
     c.execute('''CREATE TABLE IF NOT EXISTS shared_knowledge
                  (id INTEGER PRIMARY KEY, question TEXT UNIQUE, answer TEXT, metadata TEXT, date TEXT)''')
+    c.execute('''CREATE TABLE IF NOT EXISTS crop_scans
+                 (id INTEGER PRIMARY KEY, filename TEXT, farmer_name TEXT, issue TEXT, confidence TEXT, timestamp TEXT)''')
     conn.commit()
     conn.close()
 
@@ -264,6 +266,30 @@ async def get_all_farmers():
         async with db.execute("SELECT name, mobile, state, district, village, crops FROM profile") as cursor:
             rows = await cursor.fetchall()
             return [{"name": r[0], "mobile": r[1], "state": r[2], "district": r[3], "village": r[4], "crops": r[5]} for r in rows]
+
+@app.post("/api/upload-scan")
+async def upload_scan(file: UploadFile = File(...), farmer_name: str = "Unknown", issue: str = "N/A", confidence: str = "0%"):
+    os.makedirs("static/uploads", exist_ok=True)
+    file_extension = os.path.splitext(file.filename)[1]
+    unique_filename = f"scan_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}_{random.randint(100,999)}{file_extension}"
+    file_path = os.path.join("static/uploads", unique_filename)
+    
+    with open(file_path, "wb") as buffer:
+        buffer.write(await file.read())
+    
+    async with aiosqlite.connect('krishi_pro.db') as db:
+        await db.execute("INSERT INTO crop_scans (filename, farmer_name, issue, confidence, timestamp) VALUES (?,?,?,?,?)",
+                        (unique_filename, farmer_name, issue, confidence, datetime.datetime.now().isoformat()))
+        await db.commit()
+    
+    return {"success": True, "filename": unique_filename}
+
+@app.get("/api/admin/scans")
+async def get_all_scans():
+    async with aiosqlite.connect('krishi_pro.db') as db:
+        async with db.execute("SELECT id, filename, farmer_name, issue, confidence, timestamp FROM crop_scans ORDER BY id DESC") as cursor:
+            rows = await cursor.fetchall()
+            return [{"id": r[0], "url": f"/uploads/{r[1]}", "farmer": r[2], "issue": r[3], "conf": r[4], "date": r[5]} for r in rows]
 
 app.mount("/", StaticFiles(directory="static", html=True), name="static")
 

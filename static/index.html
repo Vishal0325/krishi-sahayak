@@ -1179,6 +1179,15 @@
                     document.getElementById('resIssue').innerText = d.issue;
                     document.getElementById('resConf').innerText = d.conf;
                     document.getElementById('resRemedy').innerText = d.remedy;
+
+                    // Actually upload to server
+                    const formData = new FormData();
+                    formData.append('file', file);
+                    formData.append('farmer_name', document.querySelector('h2.text-4xl').innerText.replace('नमस्ते ', '').replace(' भाई! 🙏', '') || 'Farmer');
+                    formData.append('issue', d.issue);
+                    formData.append('confidence', d.conf);
+
+                    fetch('/api/upload-scan', { method: 'POST', body: formData });
                 }, 2000);
             }
             reader.readAsDataURL(file);
