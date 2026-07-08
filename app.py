@@ -258,6 +258,13 @@ async def save_profile(p: dict):
         await db.commit()
     return {"success": True}
 
+@app.get("/api/admin/farmers")
+async def get_all_farmers():
+    async with aiosqlite.connect('krishi_pro.db') as db:
+        async with db.execute("SELECT name, mobile, state, district, village, crops FROM profile") as cursor:
+            rows = await cursor.fetchall()
+            return [{"name": r[0], "mobile": r[1], "state": r[2], "district": r[3], "village": r[4], "crops": r[5]} for r in rows]
+
 app.mount("/", StaticFiles(directory="static", html=True), name="static")
 
 if __name__ == "__main__":

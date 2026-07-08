@@ -1,0 +1,233 @@
+warning: in the working copy of 'rag_search.py', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/rag_search.py b/rag_search.py[m
+[1mindex b8f1f60..d4e3f5a 100644[m
+[1m--- a/rag_search.py[m
+[1m+++ b/rag_search.py[m
+[36m@@ -5,17 +5,18 @@[m [mimport time[m
+ import os[m
+ import re[m
+ import json[m
+[31m-import httpx[m
+[31m-from dotenv import load_dotenv[m
+[32m+[m[32mimport datetime[m
+[32m+[m[32mfrom sentence_transformers import SentenceTransformer, CrossEncoder[m
+ from rank_bm25 import BM25Okapi[m
+ from typing import List, Dict, Tuple[m
+[31m-[m
+[31m-load_dotenv()[m
+[31m-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")[m
+[32m+[m[32mfrom difflib import SequenceMatcher[m
+ [m
+ class KrishiRAG:[m
+[31m-    def __init__(self):[m
+[31m-        print("🚀 Initializing Ultra-Light KrishiRAG Engine via Gemini API...")[m
+[32m+[m[32m    def __init__(self, model_name='sentence-transformers/all-MiniLM-L6-v2'):[m
+[32m+[m[32m        print("🚀 Initializing KrishiRAG Engine...")[m
+[32m+[m[32m        self.model = SentenceTransformer(model_name)[m
+[32m+[m[32m        # Using a specialized re-ranker for better quality[m
+[32m+[m[32m        self.cross_encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')[m
+         self.index = None[m
+         self.metadata = None[m
+         self.bm25 = None[m
+[36m@@ -33,81 +34,143 @@[m [mclass KrishiRAG:[m
+     def load_db(self):[m
+         index_path = "vector_store/index.faiss"[m
+         meta_path = "vector_store/metadata.pkl"[m
+[31m-        [m
+         if os.path.exists(index_path) and os.path.exists(meta_path):[m
+[32m+[m[32m            print("📂 Loading Vector Database...")[m
+             self.index = faiss.read_index(index_path)[m
+             with open(meta_path, "rb") as f:[m
+                 self.metadata = pickle.load(f)[m
+[31m-            print(f"✅ Loaded {len(self.metadata)} chunks into FAISS Vector Store.")[m
+             [m
+[31m-            # Initialize BM25 for Keyword Search[m
+[31m-            corpus = [f"{c.get('Question','')} {c.get('Answer','')}" for c in self.metadata][m
+[31m-            tokenized_corpus = [doc.lower().split(" ") for doc in corpus][m
+[32m+[m[32m            # Prepare BM25 for keyword search[m
+[32m+[m[32m            print("📝 Building BM25 Index...")[m
+[32m+[m[32m            corpus = [self.clean_text(f"{m['Question']} {m['Crop']} {m['Category']}") for m in self.metadata][m
+[32m+[m[32m            tokenized_corpus = [doc.split() for doc in corpus][m
+             self.bm25 = BM25Okapi(tokenized_corpus)[m
+[32m+[m[32m            print(f"✅ RAG Engine Ready with {len(self.metadata)} documents.")[m
+         else:[m
+[31m-            print("❌ Vector store files not found! Creating an empty fallback.")[m
+[31m-            self.metadata = [][m
+[32m+[m[32m            print("⚠️ Vector Database not found.")[m
+ [m
+[31m-    def get_gemini_embedding(self, text: str) -> List[float]:[m
+[31m-        """Gemini API का उपयोग करके एम्बेडिंग प्राप्त करें (0MB RAM खर्च होगी)"""[m
+[31m-        if not GEMINI_API_KEY:[m
+[31m-            print("⚠️ GEMINI_API_KEY not found in environment!")[m
+[31m-            return [0.0] * 768 # Fallback empty embedding[m
+[31m-            [m
+[31m-        url = f"https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key={GEMINI_API_KEY}"[m
+[32m+[m[32m    def clean_text(self, text: str) -> str:[m
+[32m+[m[32m        text = str(text).lower().strip()[m
+[32m+[m[32m        # Hindi character normalization[m
+[32m+[m[32m        text = text.replace("क़", "क").replace("ख़", "ख").replace("ग़", "ग").replace("ज़", "ज").replace("ड़", "ड").replace("ढ़", "ढ").replace("फ़", "फ")[m
+[32m+[m[32m        # Remove punctuation but keep Hindi characters[m
+[32m+[m[32m        text = re.sub(r'[^\w\s\u0900-\u097F]', ' ', text)[m
+[32m+[m[32m        return " ".join(text.split())[m
+[32m+[m
+[32m+[m[32m    def detect_entities(self, query: str) -> Dict[str, List[str]]:[m
+[32m+[m[32m        entities = {"crops": [], "intents": []}[m
+[32m+[m[32m        query_lower = query.lower()[m
+         [m
+[31m-        # text-embedding-004 model 768 dimensions देता है, अगर आपका पुराना इंडेक्स 384 का है [m
+[31m-        # तो आप मॉडल को 'models/embedding-001' भी रख सकते हैं।[m
+[31m-        try:[m
+[31m-            response = httpx.post(url, json={[m
+[31m-                "model": "models/text-embedding-004",[m
+[31m-                "content": {"parts": [{"text": text}]}[m
+[31m-            }, timeout=10.0)[m
+[31m-            if response.status_code == 200:[m
+[31m-                return response.json()["embedding"]["values"][m
+[31m-        except Exception as e:[m
+[31m-            print(f"Embedding API Error: {e}")[m
+[31m-        return [0.0] * 768[m
+[32m+[m[32m        crop_map = {[m
+[32m+[m[32m            "धान": "Rice", "rice": "Rice", "paddy": "Rice",[m
+[32m+[m[32m            "गेहूं": "Wheat", "gehu": "Wheat", "wheat": "Wheat",[m
+[32m+[m[32m            "मखाना": "Makhana", "makhana": "Makhana",[m
+[32m+[m[32m            "आलू": "Potato", "potato": "Potato",[m
+[32m+[m[32m            "टमाटर": "Tomato", "tomato": "Tomato",[m
+[32m+[m[32m            "सरसों": "Mustard", "mustard": "Mustard",[m
+[32m+[m[32m            "मक्का": "Maize", "maize": "Maize", "corn": "Maize",[m
+[32m+[m[32m            "लीची": "Litchi", "litchi": "Litchi",[m
+[32m+[m[32m            "ड्रैगन फ्रूट": "Dragon Fruit", "dragon fruit": "Dragon Fruit",[m
+[32m+[m[32m            "मिर्च": "Chilli", "chilli": "Chilli",[m
+[32m+[m[32m            "प्याज": "Onion", "onion": "Onion",[m
+[32m+[m[32m            "गन्ना": "Sugarcane", "sugarcane": "Sugarcane"[m
+[32m+[m[32m        }[m
+[32m+[m[32m        for k, v in crop_map.items():[m
+[32m+[m[32m            if k in query_lower:[m
+[32m+[m[32m                if v not in entities["crops"]: entities["crops"].append(v)[m
+[32m+[m[41m        [m
+[32m+[m[32m        intent_map = {[m
+[32m+[m[32m            "पात्रता": "Government", "eligibility": "Government", "yojana": "Government", "योजना": "Government",[m
+[32m+[m[32m            "बीमारी": "Disease", "रोग": "Disease", "झुलसा": "Disease",[m
+[32m+[m[32m            "कीट": "Pest", "pest": "Pest", "कीड़ा": "Pest", "थ्रिप्स": "Pest",[m
+[32m+[m[32m            "खाद": "Fertilizer", "urea": "Fertilizer", "यूरिया": "Fertilizer", "zinc": "Fertilizer", "जिंक": "Fertilizer",[m
+[32m+[m[32m            "व्यवसाय": "Business", "मुनाफा": "Business", "profit": "Business"[m
+[32m+[m[32m        }[m
+[32m+[m[32m        for k, v in intent_map.items():[m
+[32m+[m[32m            if k in query_lower:[m
+[32m+[m[32m                if v not in entities["intents"]: entities["intents"].append(v)[m
+[32m+[m[41m            [m
+[32m+[m[32m        return entities[m
+ [m
+[31m-    def search(self, query: str, top_k: int = 3, session_id: str = "default") -> Tuple[List[Dict], float]:[m
+[32m+[m[32m    def search(self, query: str, top_k=3, session_id="default") -> Tuple[List[Dict], float]:[m
+[32m+[m[32m        if not self.index or not self.bm25: return [], 0.0[m
+[32m+[m[41m        [m
+         start_time = time.time()[m
+[31m-        if not self.metadata:[m
+[31m-            return [], time.time() - start_time[m
+[32m+[m[32m        clean_query = self.clean_text(query)[m
+[32m+[m[32m        query_tokens = clean_query.split()[m
+[32m+[m[41m        [m
+[32m+[m[32m        entities = self.detect_entities(query)[m
+[32m+[m[41m        [m
+[32m+[m[32m        # 1. Hybrid Retrieval[m
+[32m+[m[32m        # FAISS for semantic[m
+[32m+[m[32m        query_vector = self.model.encode([query]).astype('float32')[m
+[32m+[m[32m        faiss_dists, faiss_indices = self.index.search(query_vector, 100)[m
+[32m+[m[41m        [m
+[32m+[m[32m        # BM25 for keyword[m
+[32m+[m[32m        bm25_scores = self.bm25.get_scores(query_tokens)[m
+[32m+[m[32m        bm25_indices = np.argsort(bm25_scores)[::-1][:100][m
+[32m+[m[41m        [m
+[32m+[m[32m        candidate_indices = list(set(faiss_indices[0]) | set(bm25_indices))[m
+[32m+[m[32m        candidate_indices = [int(i) for i in candidate_indices if i < len(self.metadata) and i >= 0][m
+[32m+[m[41m        [m
+[32m+[m[32m        if not candidate_indices: return [], 0.0[m
+[32m+[m[32m        candidates = [self.metadata[i] for i in candidate_indices][m
+[32m+[m[41m        [m
+[32m+[m[32m        # 2. Score Fusion & "Crop Lock" Boosting[m
+[32m+[m[32m        scored_candidates = [][m
+[32m+[m[32m        for res in candidates:[m
+[32m+[m[32m            # Re-rank based on intent and crop[m
+[32m+[m[32m            boost = 1.0[m
+[32m+[m[32m            res_crop = str(res.get('Crop', 'General'))[m
+[32m+[m[32m            res_cat = str(res.get('Category', ''))[m
+[32m+[m[41m            [m
+[32m+[m[32m            # CROP LOCK[m
+[32m+[m[32m            if entities["crops"]:[m
+[32m+[m[32m                if any(c.lower() == res_crop.lower() for c in entities["crops"]):[m
+[32m+[m[32m                    boost *= 50.0 # Extreme boost[m
+[32m+[m[32m                elif res_crop.lower() != "general":[m
+[32m+[m[32m                    boost *= 0.01 # Severe penalty for wrong crop[m
+[32m+[m[41m            [m
+[32m+[m[32m            # INTENT BOOST[m
+[32m+[m[32m            if entities["intents"]:[m
+[32m+[m[32m                if any(intent.lower() in res_cat.lower() or intent.lower() in res['Answer'].lower() for intent in entities["intents"]):[m
+[32m+[m[32m                    boost *= 5.0[m
+ [m
+[31m-        # 1. Keyword Search (BM25)[m
+[31m-        tokenized_query = query.lower().split(" ")[m
+[31m-        bm25_scores = self.bm25.get_scores(tokenized_query)[m
+[32m+[m[32m            # Combined heuristic for pre-filtering[m
+[32m+[m[32m            scored_candidates.append({"res": res, "boost": boost})[m
+[32m+[m
+[32m+[m[32m        # Pre-filter top 15 for expensive cross-encoder[m
+[32m+[m[32m        # We sort by (semantic_rank_position + keyword_rank_position) but for simplicity:[m
+[32m+[m[32m        scored_candidates.sort(key=lambda x: x["boost"], reverse=True)[m
+[32m+[m[32m        top_candidates = [x["res"] for x in scored_candidates[:15]][m
+         [m
+[31m-        # 2. Semantic Search via Gemini API[m
+[31m-        query_vector = self.get_gemini_embedding(query)[m
+[32m+[m[32m        # 3. Cross-Encoder Re-ranking[m
+[32m+[m[32m        pairs = [[query, f"{c['Question']} {c['Answer']}"] for c in top_candidates][m
+[32m+[m[32m        cross_scores = self.cross_encoder.predict(pairs)[m
+         [m
+[31m-        # Ensure embedding size matches your FAISS index[m
+[31m-        # अगर FAISS index का डायमेंशन और जेमिनी का डायमेंशन अलग है, तो आप केवल BM25 + Meta-data मैचिंग का उपयोग भी कर सकते हैं।[m
+[31m-        try:[m
+[31m-            query_np = np.array([query_vector], dtype=np.float32)[m
+[31m-            # Normalize for cosine similarity if required[m
+[31m-            faiss.normalize_L2(query_np)[m
+[31m-            D, I = self.index.search(query_np, max(top_k * 3, 15))[m
+[31m-            semantic_candidates = [self.metadata[idx] for idx in I[0] if idx != -1][m
+[31m-        except Exception as faiss_err:[m
+[31m-            print(f"FAISS Match fallback: {faiss_err}")[m
+[31m-            # Fallback to top BM25 if dimensions mismatch[m
+[31m-            top_bm25_idx = np.argsort(bm25_scores)[::-1][:15][m
+[31m-            semantic_candidates = [self.metadata[idx] for idx in top_bm25_idx][m
+[32m+[m[32m        final_list = [][m
+[32m+[m[32m        for i, res in enumerate(top_candidates):[m
+[32m+[m[32m            norm_cross = 1 / (1 + np.exp(-float(cross_scores[i])))[m
+[32m+[m[41m            [m
+[32m+[m[32m            # Re-apply crop lock boost to final score[m
+[32m+[m[32m            boost = 1.0[m
+[32m+[m[32m            res_crop = str(res.get('Crop', 'General'))[m
+[32m+[m[32m            if entities["crops"]:[m
+[32m+[m[32m                if any(c.lower() == res_crop.lower() for c in entities["crops"]):[m
+[32m+[m[32m                    boost *= 20.0[m
+[32m+[m[32m                elif res_crop.lower() != "general":[m
+[32m+[m[32m                    boost *= 0.1[m
+[32m+[m[41m            [m
+[32m+[m[32m            final_list.append({**res, "Score": norm_cross * boost})[m
+ [m
+[31m-        # Combine and Scored Candidates[m
+[31m-        scored_candidates = [][m
+[31m-        for i, res in enumerate(semantic_candidates):[m
+[31m-            # Simple boost calculation to replace heavy cross-encoder[m
+[31m-            score = 1.0[m
+[31m-            if query.lower() in res.get('Question', '').lower():[m
+[31m-                score += 2.0[m
+[31m-            scored_candidates.append({**res, "Score": score})[m
+[32m+[m[32m        final_list.sort(key=lambda x: x["Score"], reverse=True)[m
+[32m+[m[41m        [m
+[32m+[m[32m        # Confidence Threshold[m
+[32m+[m[32m        if not final_list or final_list[0]['Score'] < 0.4:[m
+[32m+[m[32m            return [], time.time() - start_time[m
+ [m
+[31m-        scored_candidates.sort(key=lambda x: x["Score"], reverse=True)[m
+[31m-        return scored_candidates[:top_k], time.time() - start_time[m
+[32m+[m[32m        return final_list[:top_k], time.time() - start_time[m
+ [m
+[31m-# Lazy loading to save memory[m
+ rag_engine = None[m
+ [m
+ def search(query, top_k=3, session_id="default"):[m
