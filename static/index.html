@@ -487,8 +487,8 @@
                        class="flex-1 bg-transparent border-none outline-none px-2 py-3 text-sm font-medium dark:text-white"
                        onkeypress="if(event.key==='Enter') sendChat()">
                 <div class="flex items-center gap-1">
-                    <button id="micBtn" onclick="startVoiceInput()" class="p-3 text-gray-400 hover:text-primary transition-colors">
-                        <i data-lucide="mic" class="w-5 h-5"></i>
+                    <button id="micBtn" onclick="startVoiceInput()" class="p-3 text-primary hover:scale-110 transition-all">
+                        <i data-lucide="mic" class="w-6 h-6"></i>
                     </button>
                     <button onclick="sendChat()" class="bg-primary text-white p-3 rounded-xl shadow-md hover:scale-105 transition-all">
                         <i data-lucide="send" class="w-5 h-5"></i>
@@ -626,6 +626,7 @@
                 const data = await res.json();
                 typingDiv.remove();
                 addMsg(data.response, false, data.model_used, data.citations, data.search_time_ms);
+                speak(data.response); // Automatically speak the answer
             } catch (err) {
                 typingDiv.remove();
                 addMsg("Error contacting server.", false);
