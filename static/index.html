@@ -75,6 +75,9 @@
                     <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span> ⚡ Routing ready
                 </div>
                 <div class="flex items-center gap-2">
+                    <button id="speakerToggle" onclick="toggleAutoSpeak()" class="p-2 hover:bg-gray-100 rounded-full text-primary dark:text-emerald-400" title="Toggle Auto-Speak">
+                        <i data-lucide="volume-2" class="w-5 h-5"></i>
+                    </button>
                     <button onclick="toggleDarkMode()" class="p-2 hover:bg-gray-100 rounded-full dark:text-white"><i data-lucide="moon" class="w-5 h-5"></i></button>
                     <button onclick="showView('profile')" class="p-2 hover:bg-gray-100 rounded-full text-primary dark:text-emerald-400">
                         <i data-lucide="user" class="w-5 h-5"></i>
@@ -535,7 +538,38 @@
         // Initialize Lucide icons
         lucide.createIcons();
 
+        let autoSpeak = true;
+
+        function toggleAutoSpeak() {
+            autoSpeak = !autoSpeak;
+            const btn = document.getElementById('speakerToggle');
+            if (autoSpeak) {
+                btn.innerHTML = '<i data-lucide="volume-2" class="w-5 h-5"></i>';
+                btn.classList.remove('text-gray-400');
+                btn.classList.add('text-primary');
+            } else {
+                btn.innerHTML = '<i data-lucide="volume-x" class="w-5 h-5"></i>';
+                btn.classList.remove('text-primary');
+                btn.classList.add('text-gray-400');
+                window.speechSynthesis.cancel(); // Stop any current speech
+            }
+            lucide.createIcons();
+            localStorage.setItem('autoSpeak', autoSpeak);
+        }
+
         window.onload = () => {
+            // Load autoSpeak preference
+            const savedAutoSpeak = localStorage.getItem('autoSpeak');
+            if (savedAutoSpeak !== null) {
+                autoSpeak = savedAutoSpeak === 'true';
+                if (!autoSpeak) {
+                    const btn = document.getElementById('speakerToggle');
+                    btn.innerHTML = '<i data-lucide="volume-x" class="w-5 h-5"></i>';
+                    btn.classList.remove('text-primary');
+                    btn.classList.add('text-gray-400');
+                }
+            }
+
             if (!localStorage.getItem('sessionId')) {
                 localStorage.setItem('sessionId', 'session_' + Math.random().toString(36).substr(2, 9));
             }
@@ -629,7 +663,7 @@
                 const data = await res.json();
                 typingDiv.remove();
                 addMsg(data.response, false, data.model_used, data.citations, data.search_time_ms);
-                speak(data.response); // Automatically speak the answer
+                if (autoSpeak) speak(data.response); // Automatically speak only if enabled
             } catch (err) {
                 typingDiv.remove();
                 addMsg("Error contacting server.", false);
