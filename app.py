@@ -167,7 +167,7 @@ async def chat(chat_msg: ChatMessage):
     
     if not kb_results:
         print(f"No strong KB results found for: {msg}")
-        return {"success": True, "response": "This specific information is not in my current knowledge base. Please ask something else.", "citations": []}
+        return {"success": True, "response": "मेरे पास इसकी जानकारी उपलब्ध नहीं है।", "citations": []}
 
     # 2. Build AI Prompt
     profile_str, history = await get_context_from_db(session_id)
@@ -179,14 +179,14 @@ async def chat(chat_msg: ChatMessage):
 
 ### STRICT RULES:
 1. Answer the user's question ONLY using the provided KNOWLEDGE BASE DATA.
-2. If the provided KNOWLEDGE BASE DATA does not contain the specific answer, say: "This specific information is not in my current knowledge base. Please ask something else."
-3. NEVER use your general training knowledge or guess.
-4. Do NOT combine unrelated chunks. If a chunk is not directly relevant to the specific question, ignore it.
-5. Provide specific facts, doses, and methods exactly as found in the sources.
+2. If the provided KNOWLEDGE BASE DATA does not contain the EXACT and DIRECT answer, say ONLY: "मेरे पास इसकी जानकारी उपलब्ध नहीं है।"
+3. NEVER guess, hallucinate, or combine unrelated information from different sources.
+4. Stick strictly to the facts, doses, and methods provided in the context.
+5. If you are even slightly unsure if the context covers the question, use the fallback phrase: "मेरे पास इसकी जानकारी उपलब्ध नहीं है।"
 
 ### RESPONSE FORMAT:
 - **Problem**: (Brief description)
-- **Solution**: (Detailed steps from the provided sources only)
+- **Solution**: (Direct answer from provided context only)
 - **Source References**: (List IDs)
 
 ### FARMER INFO:
