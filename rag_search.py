@@ -174,8 +174,9 @@ class KrishiRAG:
 
         final_list.sort(key=lambda x: x["Score"], reverse=True)
         
-        # Confidence Threshold
-        if not final_list or final_list[0]['Score'] < 0.4:
+        # Confidence Threshold - Increased for STRICT mode
+        if not final_list or final_list[0]['Score'] < 0.6:
+            print(f"🔍 Result rejected: Top score {final_list[0]['Score'] if final_list else 0} below threshold 0.6")
             return [], time.time() - start_time
 
         return final_list[:top_k], time.time() - start_time

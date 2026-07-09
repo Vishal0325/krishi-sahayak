@@ -165,25 +165,29 @@ async def chat(chat_msg: ChatMessage):
 
     print(f"Number of retrieved chunks: {len(kb_results)}")
     
+    if not kb_results:
+        print(f"No strong KB results found for: {msg}")
+        return {"success": True, "response": "This specific information is not in my current knowledge base. Please ask something else.", "citations": []}
+
     # 2. Build AI Prompt
     profile_str, history = await get_context_from_db(session_id)
     
-    context_text = "\n".join([f"Source {i+1} [{res['Crop']}]: {res['Answer']}" for i, res in enumerate(kb_results)]) if kb_results else "No specific handbook data found."
-    citations = [{"id": i+1, "crop": res['Crop'], "cat": res['Category']} for i, res in enumerate(kb_results)] if kb_results else []
+    context_text = "\n".join([f"Source {i+1} [{res['Crop']}]: {res['Answer']}" for i, res in enumerate(kb_results)])
+    citations = [{"id": i+1, "crop": res['Crop'], "cat": res['Category']} for i, res in enumerate(kb_results)]
     
     full_system_prompt = f"""You are a specialized Agricultural Expert.
 
-### RULES:
-1. Answer the user's question primarily using the provided KNOWLEDGE BASE DATA.
-2. If the sources don't have enough information, use your general agricultural knowledge to provide a helpful response.
-3. Be flexible: if the query is general (e.g., "How to grow wheat"), and sources are specific, combine them with general best practices.
-4. Use the specific facts, doses, and methods found in the sources when available.
-5. End paragraphs with source references like [Source 1] if applicable.
+### STRICT RULES:
+1. Answer the user's question ONLY using the provided KNOWLEDGE BASE DATA.
+2. If the provided KNOWLEDGE BASE DATA does not contain the specific answer, say: "This specific information is not in my current knowledge base. Please ask something else."
+3. NEVER use your general training knowledge or guess.
+4. Do NOT combine unrelated chunks. If a chunk is not directly relevant to the specific question, ignore it.
+5. Provide specific facts, doses, and methods exactly as found in the sources.
 
 ### RESPONSE FORMAT:
 - **Problem**: (Brief description)
-- **Solution**: (Detailed steps)
-- **Source References**: (List IDs or 'General Knowledge')
+- **Solution**: (Detailed steps from the provided sources only)
+- **Source References**: (List IDs)
 
 ### FARMER INFO:
 {profile_str}
