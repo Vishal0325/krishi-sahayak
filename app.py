@@ -215,10 +215,6 @@ You are under a STRICT AUDIT. You must follow these rules or you will be decommi
 {context_text}
 """
 
-### KNOWLEDGE BASE DATA:
-{context_text}
-"""
-
     # 3. Call AI
     ai_response, model_used = await call_ai_provider(msg, full_system_prompt, history)
     
