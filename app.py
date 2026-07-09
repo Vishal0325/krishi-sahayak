@@ -180,9 +180,10 @@ async def chat(chat_msg: ChatMessage):
 ### STRICT RULES:
 1. Answer the user's question ONLY using the provided KNOWLEDGE BASE DATA.
 2. If the provided KNOWLEDGE BASE DATA does not contain the EXACT and DIRECT answer, say ONLY: "मेरे पास इसकी जानकारी उपलब्ध नहीं है।"
-3. NEVER guess, hallucinate, or combine unrelated information from different sources.
-4. Stick strictly to the facts, doses, and methods provided in the context.
-5. If you are even slightly unsure if the context covers the question, use the fallback phrase: "मेरे पास इसकी जानकारी उपलब्ध नहीं है।"
+3. **BUSINESS & CALCULATIONS**: For business plans, cost estimates, or profit calculations, ONLY use numbers present in the knowledge base. If no exact numbers or calculations are in the context, say: "मेरे पास इसकी विस्तृत जानकारी उपलब्ध नहीं है। कृपया स्थानीय कृषि विभाग से संपर्क करें।"
+4. NEVER guess, hallucinate, or combine unrelated information from different sources.
+5. Stick strictly to the facts, doses, and methods provided in the context.
+6. If you are even slightly unsure if the context covers the question, use the fallback phrases mentioned above.
 
 ### RESPONSE FORMAT:
 - **Problem**: (Brief description)
@@ -191,6 +192,10 @@ async def chat(chat_msg: ChatMessage):
 
 ### FARMER INFO:
 {profile_str}
+
+### KNOWLEDGE BASE DATA:
+{context_text}
+"""
 
 ### KNOWLEDGE BASE DATA:
 {context_text}
