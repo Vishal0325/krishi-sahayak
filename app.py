@@ -10,6 +10,7 @@ import csv
 import io
 import json
 import traceback
+import time
 from typing import Optional, List, Dict
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Response, Depends, Header, Request
@@ -21,13 +22,12 @@ from asyncio import gather
 from dotenv import load_dotenv
 
 from rag_search import search as rag_hybrid_search
-from knowledge_base import get_system_prompt
 
 load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Krishi Sahayak Pro")
+app = FastAPI(title="Krishi Sahayak Pro - PRODUCTION")
 
 app.add_middleware(
     CORSMiddleware,
@@ -36,22 +36,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# API KEYS from .env
+# API KEYS
 KEYS = {
     "mesh": os.getenv("MESH_API_KEY", ""),
     "gemini": os.getenv("GEMINI_API_KEY", "")
 }
 
-# Cache for recurring queries
-CACHE = {}
+# Phase 12: Latency - Response Cache
+RESPONSE_CACHE = {}
 
 def init_db():
     conn = sqlite3.connect('krishi_pro.db')
     c = conn.cursor()
-    # Profile with detailed farmer info
     c.execute('''CREATE TABLE IF NOT EXISTS profile
                  (id INTEGER PRIMARY KEY, name TEXT, mobile TEXT UNIQUE, state TEXT, district TEXT, village TEXT, crops TEXT, krishi_score INTEGER, pin TEXT)''')
-    # History with metadata for citations
     c.execute('''CREATE TABLE IF NOT EXISTS chat_history
                  (id INTEGER PRIMARY KEY, session_id TEXT, role TEXT, content TEXT, metadata TEXT, timestamp TEXT)''')
     c.execute('''CREATE TABLE IF NOT EXISTS shared_knowledge
@@ -69,11 +67,10 @@ class ChatMessage(BaseModel):
 
 async def call_ai_provider(prompt: str, system_content: str, history: List[Dict]):
     import asyncio
-    print(f"--- AI Provider Call ---")
     
-    # Try Mesh AI first with retries
+    # Try Mesh AI (Primary for Hackathon)
     if KEYS["mesh"]:
-        for attempt in range(3):
+        for attempt in range(2):
             try:
                 url = "https://api.meshapi.ai/v1/chat/completions"
                 headers = {"Authorization": f"Bearer {KEYS['mesh']}", "Content-Type": "application/json"}
@@ -86,58 +83,44 @@ async def call_ai_provider(prompt: str, system_content: str, history: List[Dict]
                     r = await client.post(url, headers=headers, json={
                         "model": "openai/gpt-4o-mini",
                         "messages": messages,
-                        "temperature": 0.1
-                    }, timeout=20.0)
+                        "temperature": 0.0 # Phase 8: Near-zero hallucination
+                    }, timeout=15.0)
                     
                     if r.status_code == 200:
-                        return r.json()["choices"][0]["message"]["content"], "Mesh AI"
-                    elif r.status_code == 429 or r.status_code >= 500:
-                        print(f"Mesh API Error {r.status_code}, retrying...")
-                        await asyncio.sleep(1.5 ** attempt)
-                    else:
-                        print(f"Mesh API Error: {r.status_code} - {r.text}")
-                        break # Unrecoverable error
+                        return r.json()["choices"][0]["message"]["content"], "Mesh AI (GPT-4o-Mini)"
+                    elif r.status_code == 429:
+                        await asyncio.sleep(1.0)
             except Exception as e:
-                print(f"!!! Mesh API Exception: {type(e).__name__}: {str(e)}")
-                await asyncio.sleep(1.5 ** attempt)
+                logger.error(f"Mesh API Exception: {str(e)}")
+                await asyncio.sleep(1.0)
 
-    # Fallback to Gemini with retries
+    # Fallback to Gemini
     if KEYS["gemini"]:
-        print(f"Falling back to Gemini...")
-        for attempt in range(2):
-            try:
-                url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={KEYS['gemini']}"
-                contents = []
-                for h in history:
-                    contents.append({"role": "user" if h["role"]=="user" else "model", "parts": [{"text": h["content"]}]})
-                contents.append({"role": "user", "parts": [{"text": f"SYSTEM: {system_content}\n\nUSER: {prompt}"}]})
-                
-                async with httpx.AsyncClient() as client:
-                    r = await client.post(url, json={"contents": contents}, timeout=20.0)
-                    if r.status_code == 200:
-                        return r.json()["candidates"][0]["content"]["parts"][0]["text"], "Gemini"
-                    elif r.status_code == 429 or r.status_code >= 500:
-                        await asyncio.sleep(1.5 ** attempt)
-                    else:
-                        print(f"Gemini API Error: {r.status_code} - {r.text}")
-                        break
-            except Exception as e:
-                print(f"!!! Gemini API Exception: {e}")
-                await asyncio.sleep(1.5 ** attempt)
+        try:
+            url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={KEYS['gemini']}"
+            contents = []
+            for h in history:
+                contents.append({"role": "user" if h["role"]=="user" else "model", "parts": [{"text": h["content"]}]})
+            contents.append({"role": "user", "parts": [{"text": f"SYSTEM: {system_content}\n\nUSER: {prompt}"}]})
+            
+            async with httpx.AsyncClient() as client:
+                r = await client.post(url, json={"contents": contents}, timeout=15.0)
+                if r.status_code == 200:
+                    return r.json()["candidates"][0]["content"]["parts"][0]["text"], "Gemini 1.5 Flash"
+        except Exception as e:
+            logger.error(f"Gemini API Exception: {e}")
             
     return None, None
 
 async def get_context_from_db(session_id: str):
     async with aiosqlite.connect('krishi_pro.db') as db:
-        # Get Profile
-        profile_str = "Farmer Profile: Not available."
+        profile_str = "Farmer Profile: Location Bihar."
         async with db.execute("SELECT name, state, district, village, crops FROM profile ORDER BY id DESC LIMIT 1") as cursor:
             row = await cursor.fetchone()
             if row:
-                profile_str = f"Farmer Profile - Name: {row[0]}, Location: {row[3]}, {row[2]}, {row[1]}, Main Crops: {row[4]}."
+                profile_str = f"Farmer: {row[0]}, Location: {row[3]}, {row[2]}, {row[1]}, Crops: {row[4]}."
         
-        # Get Recent History (last 5 turns)
-        async with db.execute("SELECT role, content FROM chat_history WHERE session_id = ? ORDER BY id DESC LIMIT 10", (session_id,)) as cursor:
+        async with db.execute("SELECT role, content FROM chat_history WHERE session_id = ? ORDER BY id DESC LIMIT 6", (session_id,)) as cursor:
             history = [{"role": r[0], "content": r[1]} for r in reversed(await cursor.fetchall())]
             
         return profile_str, history
@@ -146,72 +129,64 @@ async def get_context_from_db(session_id: str):
 async def chat(chat_msg: ChatMessage):
     msg = chat_msg.message.strip()
     session_id = chat_msg.session_id
-    print(f"\n=== New Chat Request ===")
-    print(f"User question received: {msg}")
-    print(f"Session ID: {session_id}")
-
-    if not msg: raise HTTPException(status_code=400, detail="Empty message")
-
-    # 1. Hybrid Semantic Search
-    print(f"FAISS search started...")
-    cache_key = hashlib.md5(msg.lower().encode()).hexdigest()
-    if cache_key in CACHE:
-        print(f"Using cached search results.")
-        kb_results, search_time = CACHE[cache_key]
-    else:
-        # Using updated rag search which logs to logs/retrieval_debug
-        kb_results, search_time = rag_hybrid_search(msg, top_k=3, session_id=session_id)
-        CACHE[cache_key] = (kb_results, search_time)
-
-    print(f"Number of retrieved chunks: {len(kb_results)}")
     
+    # Phase 17: Security - Input Length Validation
+    if not msg or len(msg) > 1000: 
+        raise HTTPException(status_code=400, detail="Invalid message length.")
+
+    # Phase 12: Response Cache Lookup
+    cache_key = hashlib.md5(f"{msg}_{session_id}".lower().encode()).hexdigest()
+    if cache_key in RESPONSE_CACHE:
+        return RESPONSE_CACHE[cache_key]
+
+    # 1. Audited Hybrid Search
+    kb_results, search_time = rag_hybrid_search(msg, top_k=3, session_id=session_id)
+
     if not kb_results:
-        print(f"No strong KB results found for: {msg}")
-        # AUDITOR FIX: Specific fallback message as requested
         return {
             "success": True, 
             "response": "This information is not available in the current knowledge base. Please ask something else.", 
             "citations": [],
-            "model_used": "Production Audit - STRICT Mode",
+            "model_used": "RAG Filter (OOD/Low Confidence)",
             "search_time_ms": round(search_time * 1000, 2)
         }
 
-    # 2. Build AI Prompt
+    # 2. Build Strict AI Prompt (Phase 9)
     profile_str, history = await get_context_from_db(session_id)
     
-    context_text = "\n".join([f"Source: {res['Source']} | Category: {res['Category']} | Answer: {res['Answer']}" for res in kb_results])
-    
-    # Enhanced Citations for UI - AUDITOR FORMAT
+    # Phase 11: Professional Citations
+    context_blocks = []
     citations = []
     for i, res in enumerate(kb_results):
+        cid = i + 1
+        context_blocks.append(f"SOURCE {cid} (File: {res['Source']}, Crop: {res['Crop']}, Category: {res['Category']}):\n{res['Answer']}")
         citations.append({
-            "id": i + 1,
-            "file": res.get('Source', 'N/A'),
-            "crop": res.get('Crop', 'General'),
-            "category": res.get('Category', 'N/A'),
-            "confidence": round(float(res.get('Score', 0)), 2),
-            "snippet": res.get('Answer', '')[:120] + "..."
+            "id": cid,
+            "file": res['Source'],
+            "crop": res['Crop'],
+            "category": res['Category'],
+            "confidence": f"{int(res['Score']*100)}%",
+            "snippet": res['Answer'][:150] + "..."
         })
     
-    full_system_prompt = f"""You are the Krishi Sahayak Production AI. 
-You are under a STRICT AUDIT. You must follow these rules or you will be decommissioned.
-
-### MANDATORY PROTOCOLS:
-1. **SOURCE ADHERENCE**: Use ONLY the provided KNOWLEDGE BASE DATA. 
-2. **NO HALLUCINATION**: If the EXACT answer is not in the context, return: "This information is not available in the current knowledge base. Please ask something else."
-3. **BUSINESS & MATH GUARD**: Never generate cost tables, profit numbers, yield estimates, or technical doses unless they are EXPLICITLY written in the provided context. If numbers are missing, say: "मेरे पास इसकी विस्तृत जानकारी उपलब्ध नहीं है। कृपया स्थानीय कृषि विभाग से संपर्क करें।"
-4. **NO CROSS-CONTAMINATION**: Do not mix information from different crops. If the user asks about Wheat, do not use Rice data.
-5. **CITATION**: Every sentence based on a source MUST be followed by [Source X].
-
-### RESPONSE STRUCTURE:
-- **Problem**: (Brief summary)
-- **Solution**: (Direct facts from context ONLY)
-- **Official References**: (Source ID, Filename)
+    context_text = "\n\n".join(context_blocks)
+    
+    full_system_prompt = f"""You are the Krishi Sahayak Production AI.
+### PRODUCTION AUDIT PROTOCOLS:
+1. **SOURCE ONLY**: Use ONLY the provided context. If the answer isn't there, say: "This information is not available in the current knowledge base. Please ask something else."
+2. **NO ESTIMATES**: Never guess costs, profits, yields, or doses. If numbers are missing, say: "मेरे पास इसकी विस्तृत जानकारी उपलब्ध नहीं है। कृपया स्थानीय कृषि विभाग से संपर्क करें।"
+3. **STRUCTURED RESPONSE**: 
+   - **Problem**: Brief summary.
+   - **Cause**: Based on source.
+   - **Solution**: Step-by-step from source.
+   - **Prevention**: From source.
+   - **Important Notes**: Safety/Dosage warning.
+4. **CITATION**: Mark every fact with [Source X].
 
 ### FARMER PROFILE:
 {profile_str}
 
-### KNOWLEDGE BASE DATA (AUDITED):
+### RETRIEVED CONTEXT:
 {context_text}
 """
 
@@ -219,15 +194,22 @@ You are under a STRICT AUDIT. You must follow these rules or you will be decommi
     ai_response, model_used = await call_ai_provider(msg, full_system_prompt, history)
     
     if not ai_response:
-        print(f"AI Provider failed. Falling back to Local RAG response.")
-        ai_response = f"**Problem**: {msg}\n**Solution**: {kb_results[0]['Answer']}\n\n(This information is not available in the current knowledge base for AI processing, but here is a direct match from our handbook.)"
-        model_used = "Local RAG"
+        ai_response = f"**Solution**: {kb_results[0]['Answer']}\n\n(Note: Direct handbook match used as AI providers are busy.)"
+        model_used = "Local Context Fallback"
 
-    print(f"Final response length: {len(ai_response)} characters")
-    print(f"Model used: {model_used}")
-    print(f"=== Chat Request Completed ===\n")
+    # 4. Result
+    result = {
+        "success": True,
+        "response": ai_response,
+        "citations": citations,
+        "model_used": model_used,
+        "search_time_ms": round(search_time * 1000, 2)
+    }
+    
+    # Update cache
+    RESPONSE_CACHE[cache_key] = result
 
-    # 4. Persistence
+    # Persistence
     async with aiosqlite.connect('krishi_pro.db') as db:
         await db.execute("INSERT INTO chat_history (session_id, role, content, metadata, timestamp) VALUES (?,?,?,?,?)",
                         (session_id, "user", msg, "", datetime.datetime.now().isoformat()))
@@ -235,29 +217,11 @@ You are under a STRICT AUDIT. You must follow these rules or you will be decommi
                         (session_id, "assistant", ai_response, json.dumps(citations), datetime.datetime.now().isoformat()))
         await db.commit()
 
-    return {
-        "success": True,
-        "response": ai_response,
-        "citations": citations,
-        "model_used": model_used,
-        "search_time_ms": round(search_time * 1000, 2),
-        "debug_context": kb_results # Added debug option showing retrieved chunks
-    }
-
-
-
-# --- OTHER ENDPOINTS ---
+    return result
 
 @app.get("/api/weather-advisory")
 async def weather():
-    return {"today": "बिहार में आज मौसम साफ रहेगा, आद्रता 65% है।", "alert": "कोई चेतावनी नहीं।"}
-
-@app.get("/api/crop-calendar")
-async def calendar():
-    return {"crops": [
-        {"crop": "धान (Rice)", "season": "Kharif", "sowing": "जून-जुलाई", "harvest": "अक्टूबर-नवंबर"},
-        {"crop": "गेहूं (Wheat)", "season": "Rabi", "sowing": "नवंबर", "harvest": "मार्च-अप्रैल"}
-    ]}
+    return {"today": "Bihar weather is clear. 65% humidity.", "alert": "No alerts."}
 
 @app.get("/api/profile")
 async def get_profile():
@@ -275,18 +239,11 @@ async def save_profile(p: dict):
         await db.commit()
     return {"success": True}
 
-@app.get("/api/admin/farmers")
-async def get_all_farmers():
-    async with aiosqlite.connect('krishi_pro.db') as db:
-        async with db.execute("SELECT name, mobile, state, district, village, crops FROM profile") as cursor:
-            rows = await cursor.fetchall()
-            return [{"name": r[0], "mobile": r[1], "state": r[2], "district": r[3], "village": r[4], "crops": r[5]} for r in rows]
-
 @app.post("/api/upload-scan")
 async def upload_scan(file: UploadFile = File(...), farmer_name: str = "Unknown", issue: str = "N/A", confidence: str = "0%"):
     os.makedirs("static/uploads", exist_ok=True)
     file_extension = os.path.splitext(file.filename)[1]
-    unique_filename = f"scan_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}_{random.randint(100,999)}{file_extension}"
+    unique_filename = f"scan_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}{file_extension}"
     file_path = os.path.join("static/uploads", unique_filename)
     
     with open(file_path, "wb") as buffer:
@@ -296,15 +253,7 @@ async def upload_scan(file: UploadFile = File(...), farmer_name: str = "Unknown"
         await db.execute("INSERT INTO crop_scans (filename, farmer_name, issue, confidence, timestamp) VALUES (?,?,?,?,?)",
                         (unique_filename, farmer_name, issue, confidence, datetime.datetime.now().isoformat()))
         await db.commit()
-    
     return {"success": True, "filename": unique_filename}
-
-@app.get("/api/admin/scans")
-async def get_all_scans():
-    async with aiosqlite.connect('krishi_pro.db') as db:
-        async with db.execute("SELECT id, filename, farmer_name, issue, confidence, timestamp FROM crop_scans ORDER BY id DESC") as cursor:
-            rows = await cursor.fetchall()
-            return [{"id": r[0], "url": f"/uploads/{r[1]}", "farmer": r[2], "issue": r[3], "conf": r[4], "date": r[5]} for r in rows]
 
 app.mount("/", StaticFiles(directory="static", html=True), name="static")
 

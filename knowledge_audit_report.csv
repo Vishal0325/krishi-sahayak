@@ -1,5 +1,2 @@
-Metric,Value
-Total Initial Rows,6441
-Exact Duplicates Removed,3
-Question Duplicates Removed,72
-Final Cleaned Rows,6366
+file,row,issue
+herbicides.csv,6,Short text content
