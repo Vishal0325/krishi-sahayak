@@ -179,9 +179,15 @@ class KrishiRAG:
         for i, res in enumerate(final_list[:top_k]):
             print(f"[{i+1}] {res['Source']} | Score: {res['Score']:.2f} | Crop: {res['Crop']}")
 
-        # Confidence Threshold - Increased for STRICT mode
-        if not final_list or final_list[0]['Score'] < 0.6:
-            print(f"🔍 Result rejected: Top score {final_list[0]['Score'] if final_list else 0} below threshold 0.6")
+        # AUDITOR CRITICAL FIX: HARD CROP FILTER
+        # If user mentioned a specific crop, exclude results from other specific crops
+        if entities["crops"]:
+            final_list = [r for r in final_list if any(c.lower() == str(r.get('Crop', '')).lower() for c in entities["crops"]) or str(r.get('Crop', '')).lower() == "general"]
+
+        # Confidence Threshold - Auditor Level (0.85+)
+        THRESHOLD = 0.85
+        if not final_list or final_list[0]['Score'] < THRESHOLD:
+            print(f"🔍 Result rejected: Top score {final_list[0]['Score'] if final_list else 0} below STRICT threshold {THRESHOLD}")
             return [], time.time() - start_time
 
         return final_list[:top_k], time.time() - start_time

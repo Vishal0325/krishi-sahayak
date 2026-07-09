@@ -167,21 +167,21 @@ async def chat(chat_msg: ChatMessage):
     
     if not kb_results:
         print(f"No strong KB results found for: {msg}")
-        citations = []
+        # AUDITOR FIX: Specific fallback message as requested
         return {
             "success": True, 
-            "response": "मेरे पास इसकी जानकारी उपलब्ध नहीं है।", 
+            "response": "This information is not available in the current knowledge base. Please ask something else.", 
             "citations": [],
-            "model_used": "Offline Knowledge Base (Strict Mode)",
+            "model_used": "Production Audit - STRICT Mode",
             "search_time_ms": round(search_time * 1000, 2)
         }
 
     # 2. Build AI Prompt
     profile_str, history = await get_context_from_db(session_id)
     
-    context_text = "\n".join([f"Source {i+1} [{res['Source']}]: {res['Answer']}" for i, res in enumerate(kb_results)])
+    context_text = "\n".join([f"Source: {res['Source']} | Category: {res['Category']} | Answer: {res['Answer']}" for res in kb_results])
     
-    # Enhanced Citations for UI
+    # Enhanced Citations for UI - AUDITOR FORMAT
     citations = []
     for i, res in enumerate(kb_results):
         citations.append({
@@ -190,28 +190,28 @@ async def chat(chat_msg: ChatMessage):
             "crop": res.get('Crop', 'General'),
             "category": res.get('Category', 'N/A'),
             "confidence": round(float(res.get('Score', 0)), 2),
-            "snippet": res.get('Answer', '')[:100] + "..."
+            "snippet": res.get('Answer', '')[:120] + "..."
         })
     
-    full_system_prompt = f"""You are a specialized Agricultural Expert.
+    full_system_prompt = f"""You are the Krishi Sahayak Production AI. 
+You are under a STRICT AUDIT. You must follow these rules or you will be decommissioned.
 
-### STRICT RULES:
-1. Answer the user's question ONLY using the provided KNOWLEDGE BASE DATA.
-2. If the provided KNOWLEDGE BASE DATA does not contain the EXACT and DIRECT answer, say ONLY: "मेरे पास इसकी जानकारी उपलब्ध नहीं है।"
-3. **BUSINESS & CALCULATIONS**: For business plans, cost estimates, or profit calculations, ONLY use numbers present in the knowledge base. If no exact numbers or calculations are in the context, say: "मेरे पास इसकी विस्तृत जानकारी उपलब्ध नहीं है। कृपया स्थानीय कृषि विभाग से संपर्क करें।"
-4. NEVER guess, hallucinate, or combine unrelated information from different sources.
-5. Stick strictly to the facts, doses, and methods provided in the context.
-6. Provide citations within your answer using [Source 1], [Source 2], etc.
+### MANDATORY PROTOCOLS:
+1. **SOURCE ADHERENCE**: Use ONLY the provided KNOWLEDGE BASE DATA. 
+2. **NO HALLUCINATION**: If the EXACT answer is not in the context, return: "This information is not available in the current knowledge base. Please ask something else."
+3. **BUSINESS & MATH GUARD**: Never generate cost tables, profit numbers, yield estimates, or technical doses unless they are EXPLICITLY written in the provided context. If numbers are missing, say: "मेरे पास इसकी विस्तृत जानकारी उपलब्ध नहीं है। कृपया स्थानीय कृषि विभाग से संपर्क करें।"
+4. **NO CROSS-CONTAMINATION**: Do not mix information from different crops. If the user asks about Wheat, do not use Rice data.
+5. **CITATION**: Every sentence based on a source MUST be followed by [Source X].
 
-### RESPONSE FORMAT:
-- **Problem**: (Brief description)
-- **Solution**: (Direct answer from provided context only)
-- **Source References**: (List source numbers used)
+### RESPONSE STRUCTURE:
+- **Problem**: (Brief summary)
+- **Solution**: (Direct facts from context ONLY)
+- **Official References**: (Source ID, Filename)
 
-### FARMER INFO:
+### FARMER PROFILE:
 {profile_str}
 
-### KNOWLEDGE BASE DATA:
+### KNOWLEDGE BASE DATA (AUDITED):
 {context_text}
 """
 
