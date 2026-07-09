@@ -521,9 +521,12 @@
             <div id="chatBox" class="flex-1 overflow-y-auto p-6 space-y-6 bg-neutral dark:bg-slate-950 custom-scrollbar">
                 <!-- Messages -->
             </div>
-            <div class="p-4 bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-slate-800 flex gap-2">
+            <div class="p-4 bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-slate-800 flex items-center gap-2">
+                <button id="drawerMicBtn" onclick="startVoiceInput('drawerInput', 'drawerMicBtn')" class="p-3 text-primary hover:scale-110 transition-all shrink-0">
+                    <i data-lucide="mic" class="w-6 h-6"></i>
+                </button>
                 <input id="drawerInput" type="text" placeholder="Reply..." class="flex-1 bg-gray-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 text-sm font-medium dark:text-white" onkeypress="if(event.key==='Enter') sendDrawerChat()">
-                <button onclick="sendDrawerChat()" class="bg-primary text-white w-12 h-12 rounded-xl flex items-center justify-center shadow-md"><i data-lucide="send" class="w-5 h-5"></i></button>
+                <button onclick="sendDrawerChat()" class="bg-primary text-white w-12 h-12 rounded-xl flex items-center justify-center shadow-md shrink-0"><i data-lucide="send" class="w-5 h-5"></i></button>
             </div>
         </div>
     </div>
@@ -695,7 +698,7 @@
             window.speechSynthesis.speak(u);
         }
 
-        function startVoiceInput() {
+        function startVoiceInput(inputTarget = 'chatInput', btnTarget = 'micBtn') {
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
             if (!SpeechRecognition) {
                 alert("आपका ब्राउज़र वॉइस इनपुट को सपोर्ट नहीं करता है। (Your browser does not support voice input)");
@@ -707,14 +710,16 @@
             recognition.interimResults = false;
             recognition.maxAlternatives = 1;
 
-            const micBtn = document.getElementById('micBtn');
+            const micBtn = document.getElementById(btnTarget);
             micBtn.classList.add('text-red-500', 'animate-pulse');
 
             recognition.onresult = (event) => {
                 const speechResult = event.results[0][0].transcript;
-                document.getElementById('chatInput').value = speechResult;
+                document.getElementById(inputTarget).value = speechResult;
                 micBtn.classList.remove('text-red-500', 'animate-pulse');
-                sendChat();
+
+                if (inputTarget === 'chatInput') sendChat();
+                else sendDrawerChat();
             };
 
             recognition.onspeechend = () => {
