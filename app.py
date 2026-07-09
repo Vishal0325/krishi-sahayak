@@ -167,13 +167,31 @@ async def chat(chat_msg: ChatMessage):
     
     if not kb_results:
         print(f"No strong KB results found for: {msg}")
-        return {"success": True, "response": "मेरे पास इसकी जानकारी उपलब्ध नहीं है।", "citations": []}
+        citations = []
+        return {
+            "success": True, 
+            "response": "मेरे पास इसकी जानकारी उपलब्ध नहीं है।", 
+            "citations": [],
+            "model_used": "Offline Knowledge Base (Strict Mode)",
+            "search_time_ms": round(search_time * 1000, 2)
+        }
 
     # 2. Build AI Prompt
     profile_str, history = await get_context_from_db(session_id)
     
-    context_text = "\n".join([f"Source {i+1} [{res['Crop']}]: {res['Answer']}" for i, res in enumerate(kb_results)])
-    citations = [{"id": i+1, "crop": res['Crop'], "cat": res['Category']} for i, res in enumerate(kb_results)]
+    context_text = "\n".join([f"Source {i+1} [{res['Source']}]: {res['Answer']}" for i, res in enumerate(kb_results)])
+    
+    # Enhanced Citations for UI
+    citations = []
+    for i, res in enumerate(kb_results):
+        citations.append({
+            "id": i + 1,
+            "file": res.get('Source', 'N/A'),
+            "crop": res.get('Crop', 'General'),
+            "category": res.get('Category', 'N/A'),
+            "confidence": round(float(res.get('Score', 0)), 2),
+            "snippet": res.get('Answer', '')[:100] + "..."
+        })
     
     full_system_prompt = f"""You are a specialized Agricultural Expert.
 
@@ -183,12 +201,12 @@ async def chat(chat_msg: ChatMessage):
 3. **BUSINESS & CALCULATIONS**: For business plans, cost estimates, or profit calculations, ONLY use numbers present in the knowledge base. If no exact numbers or calculations are in the context, say: "मेरे पास इसकी विस्तृत जानकारी उपलब्ध नहीं है। कृपया स्थानीय कृषि विभाग से संपर्क करें।"
 4. NEVER guess, hallucinate, or combine unrelated information from different sources.
 5. Stick strictly to the facts, doses, and methods provided in the context.
-6. If you are even slightly unsure if the context covers the question, use the fallback phrases mentioned above.
+6. Provide citations within your answer using [Source 1], [Source 2], etc.
 
 ### RESPONSE FORMAT:
 - **Problem**: (Brief description)
 - **Solution**: (Direct answer from provided context only)
-- **Source References**: (List IDs)
+- **Source References**: (List source numbers used)
 
 ### FARMER INFO:
 {profile_str}

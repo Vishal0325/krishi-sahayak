@@ -174,6 +174,11 @@ class KrishiRAG:
 
         final_list.sort(key=lambda x: x["Score"], reverse=True)
         
+        # LOGGING FOR JUDGES/DEBUG
+        print(f"--- RAG RETRIEVAL (STRICT) ---")
+        for i, res in enumerate(final_list[:top_k]):
+            print(f"[{i+1}] {res['Source']} | Score: {res['Score']:.2f} | Crop: {res['Crop']}")
+
         # Confidence Threshold - Increased for STRICT mode
         if not final_list or final_list[0]['Score'] < 0.6:
             print(f"🔍 Result rejected: Top score {final_list[0]['Score'] if final_list else 0} below threshold 0.6")
