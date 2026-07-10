@@ -130,9 +130,32 @@ async def chat(chat_msg: ChatMessage):
     msg = chat_msg.message.strip()
     session_id = chat_msg.session_id
     
-    # Phase 17: Security - Input Length Validation
-    if not msg or len(msg) > 1000: 
-        raise HTTPException(status_code=400, detail="Invalid message length.")
+    # --- PHASE 17+: PRE-PROCESSING GUARD (Kisan Galt Question Rokna) ---
+    
+    # 1. Length Check
+    if not msg or len(msg) < 3:
+        return {"success": True, "response": "कृपया अपना सवाल थोड़ा विस्तार से लिखें ताकि मैं आपकी बेहतर मदद कर सकूँ।", "citations": [], "model_used": "Guardrail"}
+    
+    if len(msg) > 1000:
+        return {"success": True, "response": "आपका सवाल बहुत बड़ा है, कृपया इसे छोटा करके पूछें।", "citations": [], "model_used": "Guardrail"}
+
+    # 2. Gibberish/Pattern Check (e.g., "aaaaaaaaa")
+    if re.search(r'(.)\1{5,}', msg):
+        return {"success": True, "response": "क्षमा करें, ऐसा लग रहा है कि आपने कुछ गलत टाइप किया है। कृपया सही शब्दों का प्रयोग करें।", "citations": [], "model_used": "Guardrail"}
+
+    # 3. Off-Topic Keywords
+    blocked = ["bitcoin", "crypto", "stock market", "politics", "movie", "film", "sports", "cricket", "game", "bollywood", "song"]
+    if any(k in msg.lower() for k in blocked):
+        return {"success": True, "response": "क्षमा करें, मैं केवल खेती-किसानी, फसल और सरकारी योजनाओं से जुड़े सवालों के जवाब दे सकता हूँ।", "citations": [], "model_used": "Guardrail"}
+
+    # 4. Non-Agricultural English Check
+    agri_words = ["crop", "seed", "fertilizer", "soil", "water", "pest", "disease", "farm", "kheti", "kisan", "yield", "mandi", "price", "subsidy", "yojana", "plant"]
+    has_agri = any(k in msg.lower() for k in agri_words)
+    has_hindi = any(ord(c) > 2300 for c in msg)
+    if not has_agri and not has_hindi and len(msg.split()) > 3:
+        return {"success": True, "response": "मैं आपकी बात पूरी तरह समझ नहीं पाया। कृपया खेती या फसलों से संबंधित सवाल पूछें।", "citations": [], "model_used": "Guardrail"}
+
+    # --- END GUARD ---
 
     # Phase 12: Response Cache Lookup
     cache_key = hashlib.md5(f"{msg}_{session_id}".lower().encode()).hexdigest()
