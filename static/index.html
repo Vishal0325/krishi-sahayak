@@ -755,8 +755,12 @@
                 document.getElementById(inputTarget).value = speechResult;
                 micBtn.classList.remove('text-red-500', 'animate-pulse');
 
-                if (inputTarget === 'chatInput') sendChat();
-                else sendDrawerChat();
+                // AUDITOR FIX: Stop auto-submit for voice to allow review
+                // if (inputTarget === 'chatInput') sendChat();
+                // else sendDrawerChat();
+
+                // Show a small hint that text is captured
+                document.getElementById(inputTarget).focus();
             };
 
             recognition.onspeechend = () => {
