@@ -1,3 +1,4 @@
+import re  # Is line ko file ke sabse upar likhein
 import os
 import logging
 import sqlite3
@@ -63,7 +64,7 @@ init_db()
 
 class ChatMessage(BaseModel):
     message: str
-    session_id: str = "default"
+    session_id: Optional[str] = "default"
 
 async def call_ai_provider(prompt: str, system_content: str, history: List[Dict]):
     import asyncio
@@ -127,74 +128,75 @@ async def get_context_from_db(session_id: str):
 
 @app.post("/api/chat")
 async def chat(chat_msg: ChatMessage):
-    msg = chat_msg.message.strip()
-    session_id = chat_msg.session_id
-    
-    # --- PHASE 17+: PRE-PROCESSING GUARD (Kisan Galt Question Rokna) ---
-    
-    # 1. Length Check
-    if not msg or len(msg) < 3:
-        return {"success": True, "response": "कृपया अपना सवाल थोड़ा विस्तार से लिखें ताकि मैं आपकी बेहतर मदद कर सकूँ।", "citations": [], "model_used": "Guardrail"}
-    
-    if len(msg) > 1000:
-        return {"success": True, "response": "आपका सवाल बहुत बड़ा है, कृपया इसे छोटा करके पूछें।", "citations": [], "model_used": "Guardrail"}
+    try:
+        msg = chat_msg.message.strip()
+        session_id = chat_msg.session_id or "default"
+        
+        # --- PHASE 17+: PRE-PROCESSING GUARD (Kisan Galt Question Rokna) ---
+        
+        # 1. Length Check
+        if not msg or len(msg) < 3:
+            return {"success": True, "response": "कृपया अपना सवाल थोड़ा विस्तार से लिखें ताकि मैं आपकी बेहतर मदद कर सकूँ।", "citations": [], "model_used": "Guardrail"}
+        
+        if len(msg) > 1000:
+            return {"success": True, "response": "आपका सवाल बहुत बड़ा है, कृपया इसे छोटा करके पूछें।", "citations": [], "model_used": "Guardrail"}
 
-    # 2. Gibberish/Pattern Check (e.g., "aaaaaaaaa")
-    if re.search(r'(.)\1{5,}', msg):
-        return {"success": True, "response": "क्षमा करें, ऐसा लग रहा है कि आपने कुछ गलत टाइप किया है। कृपया सही शब्दों का प्रयोग करें।", "citations": [], "model_used": "Guardrail"}
+        # 2. Gibberish/Pattern Check (e.g., "aaaaaaaaa")
+        if re.search(r'(.)\1{5,}', msg):
+            return {"success": True, "response": "क्षमा करें, ऐसा लग रहा है कि आपने कुछ गलत टाइप किया है। कृपया सही शब्दों का प्रयोग करें।", "citations": [], "model_used": "Guardrail"}
 
-    # 3. Off-Topic Keywords
-    blocked = ["bitcoin", "crypto", "stock market", "politics", "movie", "film", "sports", "cricket", "game", "bollywood", "song"]
-    if any(k in msg.lower() for k in blocked):
-        return {"success": True, "response": "क्षमा करें, मैं केवल खेती-किसानी, फसल और सरकारी योजनाओं से जुड़े सवालों के जवाब दे सकता हूँ।", "citations": [], "model_used": "Guardrail"}
+        # 3. Off-Topic Keywords
+        blocked = ["bitcoin", "crypto", "stock market", "politics", "movie", "film", "sports", "cricket", "game", "bollywood", "song"]
+        if any(k in msg.lower() for k in blocked):
+            return {"success": True, "response": "क्षमा करें, मैं केवल खेती-किसानी, फसल और सरकारी योजनाओं से जुड़े सवालों के जवाब दे सकता हूँ।", "citations": [], "model_used": "Guardrail"}
 
-    # 4. Non-Agricultural English Check
-    agri_words = ["crop", "seed", "fertilizer", "soil", "water", "pest", "disease", "farm", "kheti", "kisan", "yield", "mandi", "price", "subsidy", "yojana", "plant"]
-    has_agri = any(k in msg.lower() for k in agri_words)
-    has_hindi = any(ord(c) > 2300 for c in msg)
-    if not has_agri and not has_hindi and len(msg.split()) > 3:
-        return {"success": True, "response": "मैं आपकी बात पूरी तरह समझ नहीं पाया। कृपया खेती या फसलों से संबंधित सवाल पूछें।", "citations": [], "model_used": "Guardrail"}
+        # 4. Non-Agricultural English Check
+        agri_words = ["crop", "seed", "fertilizer", "soil", "water", "pest", "disease", "farm", "kheti", "kisan", "yield", "mandi", "price", "subsidy", "yojana", "plant"]
+        has_agri = any(k in msg.lower() for k in agri_words)
+        has_hindi = any(ord(c) > 2300 for c in msg)
+        if not has_agri and not has_hindi and len(msg.split()) > 3:
+            return {"success": True, "response": "मैं आपकी बात पूरी तरह समझ नहीं पाया। कृपया खेती या फसलों से संबंधित सवाल पूछें।", "citations": [], "model_used": "Guardrail"}
 
-    # --- END GUARD ---
+        # --- END GUARD ---
 
-    # Phase 12: Response Cache Lookup
-    cache_key = hashlib.md5(f"{msg}_{session_id}".lower().encode()).hexdigest()
-    if cache_key in RESPONSE_CACHE:
-        return RESPONSE_CACHE[cache_key]
+        # Phase 12: Response Cache Lookup
+        cache_key = hashlib.md5(f"{msg}_{session_id}".lower().encode()).hexdigest()
+        if cache_key in RESPONSE_CACHE:
+            return RESPONSE_CACHE[cache_key]
 
-    # 1. Audited Hybrid Search
-    kb_results, search_time = rag_hybrid_search(msg, top_k=3, session_id=session_id)
+        # 1. Audited Hybrid Search
+        kb_results, search_time = rag_hybrid_search(msg, top_k=3, session_id=session_id)
 
-    if not kb_results:
-        return {
-            "success": True, 
-            "response": "This information is not available in the current knowledge base. Please ask something else.", 
-            "citations": [],
-            "model_used": "RAG Filter (OOD/Low Confidence)",
-            "search_time_ms": round(search_time * 1000, 2)
-        }
+        if not kb_results:
+            return {
+                "success": True, 
+                "response": "This information is not available in the current knowledge base. Please ask something else.", 
+                "citations": [],
+                "model_used": "RAG Filter (OOD/Low Confidence)",
+                "search_time_ms": round(search_time * 1000, 2)
+            }
 
-    # 2. Build Strict AI Prompt (Phase 9)
-    profile_str, history = await get_context_from_db(session_id)
-    
-    # Phase 11: Professional Citations
-    context_blocks = []
-    citations = []
-    for i, res in enumerate(kb_results):
-        cid = i + 1
-        context_blocks.append(f"SOURCE {cid} (File: {res['Source']}, Crop: {res['Crop']}, Category: {res['Category']}):\n{res['Answer']}")
-        citations.append({
-            "id": cid,
-            "file": res['Source'],
-            "crop": res['Crop'],
-            "category": res['Category'],
-            "confidence": f"{int(res['Score']*100)}%",
-            "snippet": res['Answer'][:150] + "..."
-        })
-    
-    context_text = "\n\n".join(context_blocks)
-    
-    full_system_prompt = f"""You are the Krishi Sahayak Production AI.
+        # 2. Build Strict AI Prompt (Phase 9)
+        profile_str, history = await get_context_from_db(session_id)
+        
+        # Phase 11: Professional Citations
+        context_blocks = []
+        citations = []
+        for i, res in enumerate(kb_results):
+            cid = i + 1
+            context_blocks.append(f"SOURCE {cid} (File: {res['Source']}, Crop: {res['Crop']}, Category: {res['Category']}):\n{res['Answer']}")
+            citations.append({
+                "id": cid,
+                "file": res['Source'],
+                "crop": res['Crop'],
+                "category": res['Category'],
+                "confidence": f"{int(res['Score']*100)}%",
+                "snippet": res['Answer'][:150] + "..."
+            })
+        
+        context_text = "\n\n".join(context_blocks)
+        
+        full_system_prompt = f"""You are the Krishi Sahayak Production AI.
 ### PRODUCTION AUDIT PROTOCOLS:
 1. **SOURCE ONLY**: Use ONLY the provided context. If the answer isn't there, say: "This information is not available in the current knowledge base. Please ask something else."
 2. **NO ESTIMATES**: Never guess costs, profits, yields, or doses. If numbers are missing, say: "मेरे पास इसकी विस्तृत जानकारी उपलब्ध नहीं है। कृपया स्थानीय कृषि विभाग से संपर्क करें।"
@@ -213,34 +215,43 @@ async def chat(chat_msg: ChatMessage):
 {context_text}
 """
 
-    # 3. Call AI
-    ai_response, model_used = await call_ai_provider(msg, full_system_prompt, history)
-    
-    if not ai_response:
-        ai_response = f"**Solution**: {kb_results[0]['Answer']}\n\n(Note: Direct handbook match used as AI providers are busy.)"
-        model_used = "Local Context Fallback"
+        # 3. Call AI
+        ai_response, model_used = await call_ai_provider(msg, full_system_prompt, history)
+        
+        if not ai_response:
+            ai_response = f"**Solution**: {kb_results[0]['Answer']}\n\n(Note: Direct handbook match used as AI providers are busy.)"
+            model_used = "Local Context Fallback"
 
-    # 4. Result
-    result = {
-        "success": True,
-        "response": ai_response,
-        "citations": citations,
-        "model_used": model_used,
-        "search_time_ms": round(search_time * 1000, 2)
-    }
-    
-    # Update cache
-    RESPONSE_CACHE[cache_key] = result
+        # 4. Result
+        result = {
+            "success": True,
+            "response": ai_response,
+            "citations": citations,
+            "model_used": model_used,
+            "search_time_ms": round(search_time * 1000, 2)
+        }
+        
+        # Update cache
+        RESPONSE_CACHE[cache_key] = result
 
-    # Persistence
-    async with aiosqlite.connect('krishi_pro.db') as db:
-        await db.execute("INSERT INTO chat_history (session_id, role, content, metadata, timestamp) VALUES (?,?,?,?,?)",
-                        (session_id, "user", msg, "", datetime.datetime.now().isoformat()))
-        await db.execute("INSERT INTO chat_history (session_id, role, content, metadata, timestamp) VALUES (?,?,?,?,?)",
-                        (session_id, "assistant", ai_response, json.dumps(citations), datetime.datetime.now().isoformat()))
-        await db.commit()
+        # Persistence
+        async with aiosqlite.connect('krishi_pro.db') as db:
+            await db.execute("INSERT INTO chat_history (session_id, role, content, metadata, timestamp) VALUES (?,?,?,?,?)",
+                            (session_id, "user", msg, "", datetime.datetime.now().isoformat()))
+            await db.execute("INSERT INTO chat_history (session_id, role, content, metadata, timestamp) VALUES (?,?,?,?,?)",
+                            (session_id, "assistant", ai_response, json.dumps(citations), datetime.datetime.now().isoformat()))
+            await db.commit()
 
-    return result
+        return result
+    except Exception as e:
+        logger.error(f"Chat endpoint error: {str(e)}")
+        logger.error(traceback.format_exc())
+        return {
+            "success": False,
+            "response": f"सर्वर में एक त्रुटि हुई: {str(e)}",
+            "citations": [],
+            "model_used": "Error"
+        }
 
 @app.get("/api/weather-advisory")
 async def weather():
